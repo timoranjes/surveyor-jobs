@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en" class="dark">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Surveyor Job Dashboard — HK</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fira+Sans:wght@300;400;500;600;700&family=Fira+Code:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="/style.css?v=22">
+</head>
+<body>
+
+<!-- Navigation -->
+<nav id="nav">
+  <div class="nav-brand">
+    <svg class="nav-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="3" width="18" height="18" rx="3"/><line x1="3" y1="9" x2="21" y2="9"/><line x1="9" y1="21" x2="9" y2="9"/></svg>
+    <span class="nav-title">Surveyor Job Board</span>
+  </div>
+  <div class="nav-tabs">
+    <button class="nav-tab active" data-tab="jobs" aria-label="Jobs tab">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="18" rx="2"/><line x1="6" y1="8" x2="18" y2="8"/><line x1="6" y1="12" x2="18" y2="12"/><line x1="6" y1="16" x2="12" y2="16"/></svg>
+      Jobs
+    </button>
+    <button class="nav-tab" data-tab="applications" aria-label="Applications tab">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="1"/><polyline points="9 14 11 16 15 12"/></svg>
+      Applications
+    </button>
+    <button class="nav-tab" data-tab="pipeline" aria-label="Pipeline tab">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="7" height="18" rx="1"/><rect x="10" y="9" width="7" height="12" rx="1"/><rect x="18" y="6" width="7" height="15" rx="1"/></svg>
+      Pipeline
+    </button>
+    <button class="nav-tab" data-tab="schemes" aria-label="Graduate schemes tab">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/><polyline points="10 14 12 16 15 13"/></svg>
+      Schemes
+    </button>
+    <button class="nav-tab" data-tab="cv" aria-label="CV tab">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+      CV
+    </button>
+    <button class="nav-tab" data-tab="analytics" aria-label="Analytics tab">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+      Analytics
+    </button>
+  </div>
+  <div class="nav-actions">
+    <button id="scrapeBtn" class="btn btn-sm btn-primary">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="23 4 23 10 17 10"/><polyline points="1 20 1 14 7 14"/><path d="M3.51 9a9 9 0 0 1 14.85-3.36L23 10M1 14l4.64 4.36A9 9 0 0 0 20.49 15"/></svg>
+      <span class="scrape-text">Scrape Now</span>
+    </button>
+    <button id="themeToggle" class="btn btn-icon" aria-label="Toggle theme">
+      <svg class="sun-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="5"/><line x1="12" y1="1" x2="12" y2="3"/><line x1="12" y1="21" x2="12" y2="23"/><line x1="4.22" y1="4.22" x2="5.64" y2="5.64"/><line x1="18.36" y1="18.36" x2="19.78" y2="19.78"/><line x1="1" y1="12" x2="3" y2="12"/><line x1="21" y1="12" x2="23" y2="12"/><line x1="4.22" y1="19.78" x2="5.64" y2="18.36"/><line x1="18.36" y1="5.64" x2="19.78" y2="4.22"/></svg>
+      <svg class="moon-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"/></svg>
+    </button>
+    <span id="jobCount" class="badge" title="Active job listings"></span>
+  </div>
+</nav>
+
+<!-- Mobile Bottom Tab Bar (visible only ≤768px) -->
+<nav id="mobile-nav" aria-label="Main navigation">
+  <button class="mobile-tab active" data-tab="jobs">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="20" height="18" rx="2"/><line x1="6" y1="8" x2="18" y2="8"/><line x1="6" y1="12" x2="18" y2="12"/><line x1="6" y1="16" x2="12" y2="16"/></svg>
+    <span>Jobs</span>
+  </button>
+  <button class="mobile-tab" data-tab="applications">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M9 5H7a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h10a2 2 0 0 0 2-2V7a2 2 0 0 0-2-2h-2"/><rect x="9" y="3" width="6" height="4" rx="1"/><polyline points="9 14 11 16 15 12"/></svg>
+    <span>Apps</span>
+  </button>
+  <button class="mobile-tab" data-tab="pipeline">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="2" y="3" width="7" height="18" rx="1"/><rect x="10" y="9" width="7" height="12" rx="1"/><rect x="18" y="6" width="7" height="15" rx="1"/></svg>
+    <span>Pipe</span>
+  </button>
+  <button class="mobile-tab" data-tab="schemes">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><rect x="3" y="4" width="18" height="18" rx="2"/><line x1="16" y1="2" x2="16" y2="6"/><polyline points="10 14 12 16 15 13"/></svg>
+    <span>Schemes</span>
+  </button>
+  <button class="mobile-tab" data-tab="cv">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/><line x1="16" y1="13" x2="8" y2="13"/><line x1="16" y1="17" x2="8" y2="17"/></svg>
+    <span>CV</span>
+  </button>
+  <button class="mobile-tab" data-tab="analytics">
+    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+    <span>Stats</span>
+  </button>
+</nav>
+
+<!-- Job Board Tab -->
+<section id="tab-jobs" class="tab-content active">
+  <div class="toolbar">
+    <div class="search-wrapper">
+      <svg class="search-icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+      <input type="text" id="jobSearch" aria-label="Search jobs" placeholder="Search jobs by title, company, or keyword..." class="search-input">
+    </div>
+    <select id="disciplineFilter" class="filter-select">
+      <option value="">All Disciplines</option>
+      <option value="quantity_surveying">Quantity Surveying</option>
+      <option value="land_surveying">Land Surveying</option>
+      <option value="building_surveying">Building Surveying</option>
+      <option value="general_practice">General Practice</option>
+      <option value="planning">Planning</option>
+      <option value="other">Other</option>
+    </select>
+    <select id="experienceFilter" class="filter-select">
+      <option value="entry" selected>Entry Level (0-2yr)</option>
+      <option value="graduate">Graduate Programs</option>
+      <option value="all">All Levels</option>
+    </select>
+    <select id="statusFilter" class="filter-select">
+      <option value="">All Status</option>
+      <option value="none">Not Applied</option>
+      <option value="saved">Saved</option>
+      <option value="applied">Applied</option>
+      <option value="interview">Interview</option>
+      <option value="offer">Offer</option>
+      <option value="rejected">Rejected</option>
+      <option value="withdrawn">Withdrawn</option>
+    </select>
+    <div class="sort-toggle" id="sortToggle">
+      <button class="sort-btn active" data-sort="date">Date ▼</button>
+      <button class="sort-btn" data-sort="match">Match ★</button>
+    </div>
+  </div>
+  <div id="topPicksBanner" class="top-picks-banner" style="display:none"></div>
+  <div id="jobList" class="job-list"></div>
+  <div id="jobsPagination" class="pagination"></div>
+</section>
+
+<!-- Applications Tab -->
+<section id="tab-applications" class="tab-content">
+  <div class="toolbar">
+    <h2 class="section-title">Application Tracker</h2>
+    <div class="status-tabs" id="appStatusTabs">
+      <button class="status-tab active" data-status="">All</button>
+      <button class="status-tab" data-status="saved">Saved</button>
+      <button class="status-tab" data-status="applied">Applied</button>
+      <button class="status-tab" data-status="interview">Interview</button>
+      <button class="status-tab" data-status="offer">Offer</button>
+      <button class="status-tab" data-status="rejected">Rejected</button>
+    </div>
+  </div>
+  <div id="appList" class="job-list"></div>
+</section>
+
+<!-- CV Tab -->
+<section id="tab-cv" class="tab-content">
+  <div class="toolbar">
+    <h2 class="section-title">CV Manager</h2>
+  </div>
+  <div class="cv-layout">
+    <div class="cv-input-panel">
+      <label class="input-label">Upload CV file (PDF, DOCX, or TXT) — or paste text below</label>
+      <div class="file-upload-area" id="cvDropZone">
+        <input type="file" id="cvFileInput" accept=".pdf,.docx,.doc,.txt,.md,.rtf" style="display:none">
+        <div class="file-upload-prompt">
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="32" height="32"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"/><polyline points="17 8 12 3 7 8"/><line x1="12" y1="3" x2="12" y2="15"/></svg>
+          <span>Drag & drop your CV here, or <strong>browse</strong></span>
+          <small>PDF, DOCX, TXT — max 10MB</small>
+        </div>
+        <div class="file-upload-progress" id="cvUploadProgress" style="display:none">
+          <div class="spinner"></div> Extracting text...
+        </div>
+      </div>
+      <label class="input-label" style="margin-top:16px">Or paste CV text manually</label>
+      <textarea id="cvText" placeholder="Paste your full CV text here...&#10;&#10;Include: education, work experience (including internships), skills, certifications, and languages." rows="12"></textarea>
+    </div>
+    <div class="cv-flow-panel">
+      <div class="cv-flow-steps">
+        <div class="flow-step" id="flowStep1">
+          <div class="flow-step-num">1</div>
+          <div class="flow-step-content">
+            <div class="flow-step-title">Save your CV</div>
+            <div class="flow-step-desc">Upload a file or paste text, then save.</div>
+            <button id="saveCvBtn" class="btn btn-primary flow-btn">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"/><polyline points="17 21 17 13 7 13 7 21"/><polyline points="7 3 7 8 15 8"/></svg>
+              Save CV
+            </button>
+          </div>
+        </div>
+        <div class="flow-step" id="flowStep2">
+          <div class="flow-step-num">2</div>
+          <div class="flow-step-content">
+            <div class="flow-step-title">Analyze your CV</div>
+            <div class="flow-step-desc">Extract skills, education, and experience.</div>
+            <button id="analyzeBtn" class="btn btn-outline flow-btn" disabled>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+              Analyze CV
+            </button>
+          </div>
+        </div>
+        <div class="flow-step flow-step-main" id="flowStep3">
+          <div class="flow-step-num">3</div>
+          <div class="flow-step-content">
+            <div class="flow-step-title">Match against all jobs</div>
+            <div class="flow-step-desc">Score your CV against every job (~4 min).</div>
+            <button id="matchAllBtn" class="btn btn-accent flow-btn" disabled>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><polyline points="22 12 18 12 15 21 9 3 6 12 2 12"/></svg>
+              Match All Jobs
+            </button>
+          </div>
+        </div>
+        <div class="flow-step" id="flowStep4">
+          <div class="flow-step-num">4</div>
+          <div class="flow-step-content">
+            <div class="flow-step-title">Find skill gaps</div>
+            <div class="flow-step-desc">See what courses to take.</div>
+            <button id="skillGapBtn" class="btn btn-outline flow-btn" disabled>
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+              Skill Gap Analysis
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div id="matchProgress" class="match-progress" style="display:none">
+    <div class="progress-bar"><div class="progress-fill" id="matchProgressFill"></div></div>
+    <span id="matchProgressText">Starting...</span>
+  </div>
+  <div id="cvAnalysis" class="cv-results-panel" style="display:none">
+    <div class="empty-state">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" width="48" height="48"><path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"/><polyline points="14 2 14 8 20 8"/></svg>
+      <h3>No CV Analysis Yet</h3>
+      <p>Save your CV and click "Analyze CV" to extract skills, education, and experience.</p>
+    </div>
+  </div>
+  <div id="skillGapResults" class="skill-gap-panel" style="display:none"></div>
+</section>
+
+<!-- Pipeline Tab -->
+<section id="tab-pipeline" class="tab-content">
+  <div class="pipeline-stats" id="pipelineStats"></div>
+  <div class="kanban-board" id="kanbanBoard">
+    <div class="loading">Loading pipeline...</div>
+  </div>
+</section>
+
+<!-- Graduate Schemes Tab -->
+<section id="tab-schemes" class="tab-content">
+  <div class="schemes-stats" id="schemesStats"></div>
+  <div class="schemes-grid" id="schemesGrid">
+    <div class="loading">Loading schemes...</div>
+  </div>
+</section>
+
+<!-- Analytics Tab -->
+<section id="tab-analytics" class="tab-content">
+  <div class="analytics-grid" id="analyticsContent">
+    <div class="loading">Loading analytics...</div>
+  </div>
+</section>
+
+<!-- Job Detail Modal -->
+<div id="jobModal" class="modal" style="display:none">
+  <div class="modal-backdrop"></div>
+  <div class="modal-container" role="dialog" aria-modal="true" aria-label="Job details">
+    <button class="modal-close" aria-label="Close">
+      <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><line x1="18" y1="6" x2="6" y2="18"/><line x1="6" y1="6" x2="18" y2="18"/></svg>
+    </button>
+    <div id="jobDetail" class="job-detail-content"></div>
+  </div>
+</div>
+
+<!-- Toast Container -->
+<div id="toastContainer"></div>
+
+<script src="/app.js?v=22"></script>
+</body>
+</html>
