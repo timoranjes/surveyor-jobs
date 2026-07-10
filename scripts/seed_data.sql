@@ -1,0 +1,5421 @@
+-- Auto-generated snapshot of jobs.db
+-- Committed to repo so fresh deployments (Render, etc.) can restore the friend's data.
+-- INSERT OR REPLACE makes this idempotent — safe to run multiple times.
+-- Generated: 2026-07-10
+
+BEGIN TRANSACTION;
+
+-- jobs: 161 rows
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (1, 'arcadis_2026 Graduate Quanti', '2026 Graduate Quantity Surveyor (Hong Kong & Macau)', 'Arcadis', 'quantity_surveying', 'Kowloon', 'HK$18,000-25,000', 'Join Arcadis as a Graduate Quantity Surveyor in our Hong Kong office. You will work on major infrastructure projects across Hong Kong and Macau, preparing cost estimates, managing tender processes, and finalizing project accounts. This is a structured 2-year graduate programme with mentorship from senior QS professionals and a clear pathway to HKIS/RICS chartership.', 'Degree in Quantity Surveying or related discipline. Strong analytical and numerical skills. Good command of English and Chinese. Fresh graduates welcome.', 'https://hk.linkedin.com/jobs/view/arcadis-2026-graduate-quantity-surveyor-hong-kong-macau-at-arcadis-4268302914', 'manual_seed', '2026-07-01', NULL, 1, 'entry', '2026-07-01 11:40:55', '2026-07-01 11:40:55', 1, '<p>Join Arcadis as a Graduate Quantity Surveyor in our Hong Kong office. You will work on major infrastructure projects across Hong Kong and Macau, preparing cost estimates, managing tender processes, and finalizing project accounts. This is a structured 2-year graduate programme with mentorship from senior QS professionals and a clear pathway to HKIS/RICS chartership.</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (2, 'aecom_2026 HK Graduate Pro', '2026 HK Graduate Program — Building Surveying', 'AECOM', 'building_surveying', 'Shatin', 'HK$17,000-22,000', 'AECOM 2026 Hong Kong Graduate Program offers opportunities in Building Surveying. You will be involved in building inspection, maintenance planning, project management, and statutory submissions. The program includes rotational assignments across different project types.', 'BSc in Building Surveying or equivalent. Knowledge of building regulations. Proficiency in AutoCAD. No prior experience required.', 'https://aecom.jobs/hong-kong-hkg/aecom-2026-hong-kong-graduate-program/602489C3650746F899C7D88860527360/job/', 'manual_seed', '2026-07-01', NULL, 1, 'entry', '2026-07-01 11:40:55', '2026-07-01 11:40:55', 1, '<p>AECOM 2026 Hong Kong Graduate Program offers opportunities in Building Surveying. You will be involved in building inspection, maintenance planning, project management, and statutory submissions. The program includes rotational assignments across different project types.</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (3, 'geosys_hong_kong_limited_Assistant Land Surve', 'Assistant Land Surveyor / Land Survey Graduate', 'Geosys Hong Kong Limited', 'land_surveying', 'Hong Kong', 'HK$20,000-28,000', 'Perform land surveys using Total Station, GNSS, Laser Scanning, UAV, and Intelligent Robotics. Download and process data from total station and automated data collection systems. Assist in project management of IT/GIS solution delivery.', 'Certificate or above in Land Surveying / Geomatics / IT. Knowledge of surveying equipment. Fresh graduates considered as Land Survey Graduate.', 'https://hk.indeed.com/jobs?q=assistant+land+surveyor+graduate&l=Hong+Kong&sc=0kf%3Ajt(graduate)%3B', 'manual_seed', '2026-07-01', NULL, 1, 'entry', '2026-07-01 11:40:55', '2026-07-01 11:40:55', 1, '<p>Perform land surveys using Total Station, GNSS, Laser Scanning, UAV, and Intelligent Robotics. Download and process data from total station and automated data collection systems. Assist in project management of IT/GIS solution delivery.</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (5, 'environmental_seal_corporation_Assistant Surveyor (', '[2026 Fresh Graduate Recruitment] Assistant Surveyor', 'Hip Hing Construction Co Ltd', 'building_surveying', 'Kwun Tong', 'HK$17,000-22,000', '2026 Fresh Graduate Recruitment. Assist in building surveying projects including condition surveys, defect diagnosis, and repair supervision. Site inspections and report preparation.', 'Degree in Building Surveying. 0-1 year experience. Good communication skills. Proficiency in MS Office.', 'https://jobs.ctgoodjobs.hk/job/10164571/2026-fresh-graduate-recruitment-assistant-surveyor', 'manual_seed', '2026-07-01', NULL, 1, 'entry', '2026-07-01 11:40:55', '2026-07-01 11:40:55', 1, '<p>2026 Fresh Graduate Recruitment. Assist in building surveying projects including condition surveys, defect diagnosis, and repair supervision. Site inspections and report preparation.</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (6, 'chun_wo_group_Graduate Quantity Su', '[2026 Fresh Graduate Recruitment] Assistant Quantity Surveyor', 'Hip Hing Construction Co Ltd', 'quantity_surveying', 'Hong Kong', 'HK$18,000-24,000', 'Ensure correspondence and records for contract receipts and payment. Liaise with other departments on progress and contracts. Assist senior QS in cost control and budgeting.', 'Degree in Quantity Surveying or related field. Good computer skills. Medical insurance and flexible schedule provided.', 'https://jobs.ctgoodjobs.hk/job/10164471/2026-fresh-graduate-recruitment-assistant-quantity-surveyor', 'manual_seed', '2026-07-01', NULL, 1, 'entry', '2026-07-01 11:40:55', '2026-07-01 11:40:55', 1, '<p>Ensure correspondence and records for contract receipts and payment. Liaise with other departments on progress and contracts. Assist senior QS in cost control and budgeting.</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (7, 'rlb_(rider_levett_bucknall)_Assistant Quantity S', 'Assistant Quantity Surveyor — Graduate', 'RLB (Rider Levett Bucknall)', 'quantity_surveying', 'Central', 'HK$19,000-26,000', 'Join RLB Hong Kong as an Assistant Quantity Surveyor. Work on high-profile commercial and residential projects. Pre and post-contract quantity surveying duties under APC training scheme.', 'BSc in Quantity Surveying. Strong Excel skills. HKIS/RICS APC candidate preferred. Fresh graduates welcome.', 'https://www.rlb.com/asia/careers/early-careers/', 'manual_seed', '2026-07-01', NULL, 1, 'entry', '2026-07-01 11:40:55', '2026-07-01 11:40:55', 1, '<p>Join RLB Hong Kong as an Assistant Quantity Surveyor. Work on high-profile commercial and residential projects. Pre and post-contract quantity surveying duties under APC training scheme.</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (12, 'wsp-ls-grad-2026', 'Assistant Engineer / Graduate Surveyor — Land Surveying (2026 Intake)', 'WSP in Asia', 'land_surveying', 'Hong Kong', 'HK$20,000-28,000', 'WSP''s 2026 Graduate Program intake. Opportunity to work on major infrastructure and development projects in Hong Kong. Comprehensive training and mentorship provided.', 'Degree in Land Surveying, Geomatics, or related field. Strong academic record. Team player with good communication skills.', 'https://www.wsp.com/en-hk/careers', 'linkedin', '2026-07-01', NULL, 1, 'entry', '2026-07-01 13:08:50', '2026-07-01 13:08:50', 1, '<p>WSP&#x27;s 2026 Graduate Program intake. Opportunity to work on major infrastructure and development projects in Hong Kong. Comprehensive training and mentorship provided.</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (14, '0253940e8a057d80', 'Quantity Surveyor / Assistant Quantity Surveyor / Quantity Surveyor Trainee', 'Yau Lee Holdings Limited', 'quantity_surveying', 'Hong Kong', NULL, 'Company Description
+
+  Yau Lee Holdings Limited (The Group) , a green integrated corporation, went public in 1991. Based on the solid foundation of conventional experience, Yau Lee Construction Company Limited was founded earlier in 1958 and gradually developed into one of the Hong Kong’s largest consortia in building construction, precast and low carbon building materials manufacturing and trading, E&M services, plumbing and drainage works, green building and energy optimization solutions, construction IT solutions, virtual design & construction implementation, curtain wall and steel works and property & hotel development.
+
+Carry the same corporate culture, belief and practice, the Group and subsidiaries always strive for excellence to improve construction productivity and buildability as well as sustainability. We think green, practice green, act green and aim to provide a green living to our society and the world.
+
+ Responsibilities
+
+ Job Description:
+
+Provide general quantity surveying and contract administration services for pre and post contract which include taking off quantities from drawings, scrutiny/preparation of cost estimates, tenders, contracts and subcontract documents, evaluation of variation order and payment claims and settlement of final accounts.
+
+ Requirements
+
+ Degree in Quantity Surveying or Higher Diploma/Certificate in Quantity Surveying or equivalent.QS experience in Contractor and/or QS Consultant Firms.Preferably with relevant experience in pre- and post-contract works.Experience in construction project(s) using NEC contract would be ab advantage
+
+We offer competitive remuneration package with comprehensive fringe benefits to the right candidates. Interested parties, please send your full resume, with current and expected salary, date of availability by clicking  Apply Now.  Thank you.', '', 'https://hk.linkedin.com/jobs/view/quantity-surveyor-assistant-quantity-surveyor-quantity-surveyor-trainee-at-yau-lee-holdings-limited-4426652286?position=1&pageNum=0&refId=uVaruuC%2FeSLb8vr2TpkG7w%3D%3D&trackingId=gHxKy%2FIYK1GwKe%2Fj4hmZCA%3D%3D', 'linkedin', '2026-07-01', NULL, 1, 'entry', '2026-07-01 13:13:16', '2026-07-01 13:13:16', 1, '<h3 class="jd-section-header">Company Description</h3>
+<ul class="jd-list"><li>Yau Lee Holdings Limited (The Group) , a green integrated corporation, went public in 1991. Based on the solid foundation of conventional experience, Yau Lee Construction Company Limited was founded earlier in 1958 and gradually developed into one of the Hong Kong’s largest consortia in building construction, precast and low carbon building materials manufacturing and trading, E&amp;M services, plumbing and drainage works, green building and energy optimization solutions, construction IT solutions, virtual design &amp; construction implementation, curtain wall and steel works and property &amp; hotel development.</li><li>Carry the same corporate culture, belief and practice, the Group and subsidiaries always strive for excellence to improve construction productivity and buildability as well as sustainability. We think green, practice green, act green and aim to provide a green living to our society and the world.</li></ul>
+<h3 class="jd-section-header">Responsibilities</h3>
+<h3 class="jd-section-header">Job Description</h3>
+<ul class="jd-list"><li>Provide general quantity surveying and contract administration services for pre and post contract which include taking off quantities from drawings, scrutiny/preparation of cost estimates, tenders, contracts and subcontract documents, evaluation of variation order and payment claims and settlement of final accounts.</li></ul>
+<h3 class="jd-section-header">Requirements</h3>
+<ul class="jd-list"><li>Degree in Quantity Surveying or Higher Diploma/Certificate in Quantity Surveying or equivalent.QS experience in Contractor and/or QS Consultant Firms.Preferably with relevant experience in pre- and post-contract works.Experience in construction project(s) using NEC contract would be ab advantage</li></ul>
+<p>We offer competitive remuneration package with comprehensive fringe benefits to the right candidates. Interested parties, please send your full resume, with current and expected salary, date of availability by clicking  Apply Now.  Thank you.</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (15, '7932bff43de26f30', 'Arcadis 2026 Graduate Quantity Surveyor (Hong Kong & Macau)', 'Arcadis', 'quantity_surveying', 'Hong Kong', NULL, 'Arcadis is the world''s leading company delivering sustainable design, engineering, and consultancy solutions for natural and built assets. We are more than 36,000 people, in over 70 countries, dedicated to improving quality of life. Everyone has an important role to play. With the power of many curious minds, together we can solve the world’s most complex challenges and deliver more impact together.
+
+
+  Role description:
+
+
+ 
+  Preparation of pre-contract cost estimates and project cash-flow.
+  Preparation of tender documentation
+  Tendering process and tender evaluation
+  Post-contract administration and management – contract documentation, valuation of progress payment, variation assessment, and cost control report
+  Finalization of project final accounts
+ 
+ Qualifications & Experience:
+
+
+ 
+  Apply with your latest transcript, DSE/IB/IELTS/TOEFL results, resume along with details of your expected salary and preferred start date. We regret that only shortlisted candidates will be contacted.
+  Degree in Quantity Surveying
+  Final year students to be graduated in 2026
+  Basic technical knowledge – Measurement, cost estimating, construction technology, contracts and law
+  Understand and familiar with professional practice and contract administration processes
+  Able to work as a team player
+  Ability to communicate clearly in spoken and written English
+  Ability to communicate clearly in spoken Cantonese and written Chinese
+ 
+ Why Arcadis?
+
+
+ We can only achieve our goals when everyone is empowered to be their best. We believe everyone''s contribution matters. It’s why we are pioneering a skills-based approach, where you can harness your unique experience and expertise to carve your career path and maximize the impact we can make together.
+
+
+ You’ll do meaningful work, and no matter what role, you’ll be helping to deliver sustainable solutions for a more prosperous planet. Make your mark, on your career, your colleagues, your clients, your life and the world around you.
+
+
+ Together, we can create a lasting legacy.
+
+
+  Our Commitment to Equality, Diversity, Inclusion & Belonging:
+
+
+   We want you to be able to bring your best self to work every day which is why we take equality and inclusion seriously and hold ourselves to account for our actions. Our ambition is to be an employer of choice and provide a great place to work for all our people.
+
+
+ Join Arcadis. Create a legacy.', '', 'https://hk.linkedin.com/jobs/view/arcadis-2026-graduate-quantity-surveyor-hong-kong-macau-at-arcadis-4268302914?position=2&pageNum=0&refId=uVaruuC%2FeSLb8vr2TpkG7w%3D%3D&trackingId=omfRtHGEzbZouAgLOiNXtg%3D%3D', 'linkedin', '2026-07-01', NULL, 1, 'entry', '2026-07-01 13:13:16', '2026-07-01 13:13:16', 1, '<p>Arcadis is the world&#x27;s leading company delivering sustainable design, engineering, and consultancy solutions for natural and built assets. We are more than 36,000 people, in over 70 countries, dedicated to improving quality of life. Everyone has an important role to play. With the power of many curious minds, together we can solve the world’s most complex challenges and deliver more impact together.</p>
+<h3 class="jd-section-header">Role description</h3>
+<ul class="jd-list"><li>Preparation of pre-contract cost estimates and project cash-flow.</li><li>Preparation of tender documentation</li><li>Tendering process and tender evaluation</li><li>Post-contract administration and management – contract documentation, valuation of progress payment, variation assessment, and cost control report</li><li>Finalization of project final accounts</li></ul>
+<h3 class="jd-section-header">Qualifications &amp; Experience</h3>
+<ul class="jd-list"><li>Apply with your latest transcript, DSE/IB/IELTS/TOEFL results, resume along with details of your expected salary and preferred start date. We regret that only shortlisted candidates will be contacted.</li><li>Degree in Quantity Surveying</li><li>Final year students to be graduated in 2026</li><li>Basic technical knowledge – Measurement, cost estimating, construction technology, contracts and law</li><li>Understand and familiar with professional practice and contract administration processes</li><li>Able to work as a team player</li><li>Ability to communicate clearly in spoken and written English</li><li>Ability to communicate clearly in spoken Cantonese and written Chinese</li><li>Why Arcadis?</li><li>We can only achieve our goals when everyone is empowered to be their best. We believe everyone&#x27;s contribution matters. It’s why we are pioneering a skills-based approach, where you can harness your unique experience and expertise to carve your career path and maximize the impact we can make together.</li><li>You’ll do meaningful work, and no matter what role, you’ll be helping to deliver sustainable solutions for a more prosperous planet. Make your mark, on your career, your colleagues, your clients, your life and the world around you.</li><li>Together, we can create a lasting legacy.</li><li>Our Commitment to Equality, Diversity, Inclusion &amp; Belonging:</li><li>We want you to be able to bring your best self to work every day which is why we take equality and inclusion seriously and hold ourselves to account for our actions. Our ambition is to be an employer of choice and provide a great place to work for all our people.</li><li>Join Arcadis. Create a legacy.</li></ul>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (16, 'cbf0f931601fb251', 'Project Quantity Surveyor/ Quantity SQuantity Surveyor / Assistant Quantity Surveyor / Quantity Surveyor Trainee (Ref no.: 38QS/AQS/QST26060122)', 'Yau Lee Holdings Limited', 'quantity_surveying', 'Hong Kong', NULL, 'Company Description
+
+  Yau Lee Holdings Limited (The Group) , a green integrated corporation, went public in 1991. Based on the solid foundation of conventional experience, Yau Lee Construction Company Limited was founded earlier in 1958 and gradually developed into one of the Hong Kong’s largest consortia in building construction, precast and low carbon building materials manufacturing and trading, E&M services, plumbing and drainage works, green building and energy optimization solutions, construction IT solutions, virtual design & construction implementation, curtain wall and steel works and property & hotel development.
+
+Carry the same corporate culture, belief and practice, the Group and subsidiaries always strive for excellence to improve construction productivity and buildability as well as sustainability. We think green, practice green, act green and aim to provide a green living to our society and the world.
+
+ Responsibilities
+
+ Job Description:
+
+Provide general quantity surveying and contract administration services for pre and post contract which include taking off quantities from drawings, scrutiny/preparation of cost estimates, tenders, contracts and subcontract documents, evaluation of variation order and payment claims and settlement of final accounts.
+
+ Requirements
+
+ Degree in Quantity Surveying or Higher Diploma/Certificate in Quantity Surveying or equivalent.QS experience in Contractor and/or QS Consultant Firms.Preferably with relevant experience in pre- and post-contract works.Experience in construction project(s) using NEC contract would be ab advantage
+
+We offer competitive remuneration package with comprehensive fringe benefits to the right candidates. Interested parties, please send your full resume, with current and expected salary, date of availability by clicking  Apply Now.  Thank you.', '', 'https://hk.linkedin.com/jobs/view/project-quantity-surveyor-quantity-squantity-surveyor-assistant-quantity-surveyor-quantity-surveyor-trainee-ref-no-38qs-aqs-qst26060122-at-yau-lee-holdings-limited-4427406235?position=3&pageNum=0&refId=uVaruuC%2FeSLb8vr2TpkG7w%3D%3D&trackingId=Ozul6IJ7aGgFdlaPncThYg%3D%3D', 'linkedin', '2026-07-01', NULL, 1, 'experienced', '2026-07-01 13:13:16', '2026-07-01 13:13:16', 1, '<h3 class="jd-section-header">Company Description</h3>
+<ul class="jd-list"><li>Yau Lee Holdings Limited (The Group) , a green integrated corporation, went public in 1991. Based on the solid foundation of conventional experience, Yau Lee Construction Company Limited was founded earlier in 1958 and gradually developed into one of the Hong Kong’s largest consortia in building construction, precast and low carbon building materials manufacturing and trading, E&amp;M services, plumbing and drainage works, green building and energy optimization solutions, construction IT solutions, virtual design &amp; construction implementation, curtain wall and steel works and property &amp; hotel development.</li><li>Carry the same corporate culture, belief and practice, the Group and subsidiaries always strive for excellence to improve construction productivity and buildability as well as sustainability. We think green, practice green, act green and aim to provide a green living to our society and the world.</li></ul>
+<h3 class="jd-section-header">Responsibilities</h3>
+<h3 class="jd-section-header">Job Description</h3>
+<ul class="jd-list"><li>Provide general quantity surveying and contract administration services for pre and post contract which include taking off quantities from drawings, scrutiny/preparation of cost estimates, tenders, contracts and subcontract documents, evaluation of variation order and payment claims and settlement of final accounts.</li></ul>
+<h3 class="jd-section-header">Requirements</h3>
+<ul class="jd-list"><li>Degree in Quantity Surveying or Higher Diploma/Certificate in Quantity Surveying or equivalent.QS experience in Contractor and/or QS Consultant Firms.Preferably with relevant experience in pre- and post-contract works.Experience in construction project(s) using NEC contract would be ab advantage</li></ul>
+<p>We offer competitive remuneration package with comprehensive fringe benefits to the right candidates. Interested parties, please send your full resume, with current and expected salary, date of availability by clicking  Apply Now.  Thank you.</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (17, '69cd8b6606e566e5', 'Assistant Quantity Surveyor (Airport Area)', 'Arcadis', 'quantity_surveying', 'Hong Kong', NULL, 'As an Arcadian, you already help us deliver world leading sustainable design, engineering, and consultancy solutions for natural and built assets. You are part of our global business comprising 36,000 people, in over 70 countries, dedicated to improving quality of life.
+
+Everyone has an important role to play. With the power of many curious minds, together we can continue to solve the world’s most complex challenges and deliver more impact together.
+
+Role description:
+
+Arcadis Hong Kong is currently looking for a potential and capable QS professional to join our QS MEP team.
+
+Role accountabilities:
+
+  * Preparation of pre-contract cost estimates and project cash-flow
+
+  * Preparation of tender documentation
+
+  * Tendering process and tender evaluation
+
+  * Post-contract administration and management – contract documentation, valuation of progress payment, variation assessment, and cost control report
+
+  * Finalization of project final accounts
+
+
+
+
+Qualifications & Experience:
+
+  * Degree in Quantity Surveying
+
+  * Minimum 1 year of related experience in Quantity Surveying
+
+  * With technical knowledge – Measurement, cost estimating, construction technology, contracts and law
+
+  * Candidates with MEP experience and technical know-how will have advantage
+
+  * Understand and familiar with professional practice and contract administration processes
+
+  * Able to work as a team player
+
+  * Ability to communicate clearly in both spoken and written English
+
+  * Ability to communicate clearly in spoken Cantonese and written Chinese
+
+  * Candidates with more experience would be considered as Senior Quantity Surveyor
+
+
+
+
+Continue your career journey as an Arcadian.
+
+We can only achieve our goals when everyone is empowered to be their best. We believe everyone''s contribution matters. It’s why we are pioneering a skills based approach, where you can harness your unique experience and expertise to carve your career path and maximize the impact we can make together.
+
+You do meaningful work, and no matter where your next role in Arcadis takes you, you’ll be helping to deliver sustainable solutions for a more prosperous planet. Make your mark; on your career, your colleagues, your clients, your life and the world around you. 
+
+Together, we can create a lasting legacy.
+
+Our Commitment to Equality, Diversity, Inclusion & Belonging
+
+We want you to be able to bring your best self to work every day, which is why we take equality and inclusion seriously and hold ourselves to account for our actions. Our ambition is to be an employer of choice and provide a great place to work for all our people.', '', 'https://hk.linkedin.com/jobs/view/assistant-quantity-surveyor-airport-area-at-arcadis-4419290725?position=4&pageNum=0&refId=uVaruuC%2FeSLb8vr2TpkG7w%3D%3D&trackingId=nBxXHF5ykK5nA3JMfF8YNw%3D%3D', 'linkedin', '2026-07-01', NULL, 1, 'entry', '2026-07-01 13:13:16', '2026-07-01 13:13:16', 1, '<p>As an Arcadian, you already help us deliver world leading sustainable design, engineering, and consultancy solutions for natural and built assets. You are part of our global business comprising 36,000 people, in over 70 countries, dedicated to improving quality of life.</p>
+<p>Everyone has an important role to play. With the power of many curious minds, together we can continue to solve the world’s most complex challenges and deliver more impact together.</p>
+<h3 class="jd-section-header">Role description</h3>
+<p>Arcadis Hong Kong is currently looking for a potential and capable QS professional to join our <strong>QS MEP </strong>team.</p>
+<h3 class="jd-section-header">Role accountabilities</h3>
+<ul class="jd-list"><li>Preparation of pre-contract cost estimates and project cash-flow</li><li>Preparation of tender documentation</li><li>Tendering process and tender evaluation</li><li>Post-contract administration and management – contract documentation, valuation of progress payment, variation assessment, and cost control report</li><li>Finalization of project final accounts</li></ul>
+<h3 class="jd-section-header">Qualifications &amp; Experience</h3>
+<ul class="jd-list"><li>Degree in Quantity Surveying</li><li>Minimum 1 year of related experience in Quantity Surveying</li><li>With technical knowledge – Measurement, cost estimating, construction technology, contracts and law</li><li>Candidates with MEP experience and technical know-how will have advantage</li><li>Understand and familiar with professional practice and contract administration processes</li><li>Able to work as a team player</li><li>Ability to communicate clearly in both spoken and written English</li><li>Ability to communicate clearly in spoken Cantonese and written Chinese</li><li>Candidates with more experience would be considered as Senior Quantity Surveyor</li><li>Continue your career journey as an Arcadian.</li></ul>
+<p>We can only achieve our goals when everyone is empowered to be their best. We believe everyone&#x27;s contribution matters. It’s why we are pioneering a skills based approach, where you can harness your unique experience and expertise to carve your career path and maximize the impact we can make together.</p>
+<p>You do meaningful work, and no matter where your next role in Arcadis takes you, you’ll be helping to deliver sustainable solutions for a more prosperous planet. Make your mark; on your career, your colleagues, your clients, your life and the world around you.</p>
+<p>Together, we can create a lasting legacy.</p>
+<p>Our Commitment to Equality, Diversity, Inclusion &amp; Belonging</p>
+<p>We want you to be able to bring your best self to work every day, which is why we take equality and inclusion seriously and hold ourselves to account for our actions. Our ambition is to be an employer of choice and provide a great place to work for all our people.</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (21, '712782baf9e02665', 'Quantity Surveyor (E&M)', 'China Harbour Engineering Co. Ltd', 'quantity_surveying', 'Hong Kong', NULL, 'Job Requirements:
+
+1.     Academic Qualifications & Professional Certifications
+
+Educational Background
+
+Shall hold a bachelor’s degree in Quantity Surveying, Civil Engineering or a related discipline. Preference is given to candidates with a master’s degree or advanced studies in specialized fields (e.g., cost management, contract law).
+
+Academic Qualifications & Professional Certifications
+
+Preference is given to candidates with Membership of the Quantity Surveying Division of the Hong Kong Institute of Surveyors (HKIS, MHKIS) or Membership of the Royal Institution of Chartered Surveyors (RICS). 
+
+2.    Works Experience
+
+Core Experience Requirements
+
+Shall have at least 3-5 years of experience in quantity surveying or tendering within Hong Kong’s construction industry.
+
+Preference is given to candidates who have work experience in the tendering department of a main contractor.
+
+Specialized Experience
+
+Shall have full experience in Quantity Take-Off (QTO), cost estimation, sub-contractor quotation comparison.
+
+Preference is given to candidates with experience in subcontract management, Variation Valuation or cost risk assessment — capable of identifying potential cost pitfalls or profit opportunities in tenders. 
+
+3.     Professional Skills & Knowledge
+
+Skilled in Hong Kong’s local quantity measurement standards (SMM(Civil) or HKQS measurement standards) and tender document preparation specifications (Pricing-related parts)
+
+Understanding of Hong Kong’s construction contract formats, such as HKIA/HA standard contracts, NEC, GCC etc.
+
+Preference is given to candidates with the ability to prepare the Bill of Quantities (BQ) based on drawings and specifications, as well as identify errors in the BQ provided by the client — such as redundant items or missing items.', '', 'https://hk.linkedin.com/jobs/view/quantity-surveyor-e-m-at-china-harbour-engineering-co-ltd-4424605287?position=8&pageNum=0&refId=uVaruuC%2FeSLb8vr2TpkG7w%3D%3D&trackingId=%2BqvYgbTm%2BJ4WRldf9UilKg%3D%3D', 'linkedin', '2026-07-01', NULL, 1, 'entry', '2026-07-01 13:13:16', '2026-07-01 13:13:16', 1, '<h3 class="jd-section-header">Job Requirements</h3>
+<ul class="jd-list"><li>Academic Qualifications &amp; Professional Certifications</li><li>Educational Background</li></ul>
+<p>Shall hold a bachelor’s degree in Quantity Surveying, Civil Engineering or a related discipline. Preference is given to candidates with a master’s degree or advanced studies in specialized fields (e.g., cost management, contract law).</p>
+<p>Academic Qualifications &amp; Professional Certifications</p>
+<p>Preference is given to candidates with Membership of the Quantity Surveying Division of the Hong Kong Institute of Surveyors (HKIS, MHKIS) or Membership of the Royal Institution of Chartered Surveyors (RICS).</p>
+<ul class="jd-list"><li>Works Experience</li><li>Core Experience Requirements</li></ul>
+<p>Shall have at least 3-5 years of experience in quantity surveying or tendering within Hong Kong’s construction industry.</p>
+<p>Preference is given to candidates who have work experience in the tendering department of a main contractor.</p>
+<p>Specialized Experience</p>
+<p>Shall have full experience in Quantity Take-Off (QTO), cost estimation, sub-contractor quotation comparison.</p>
+<p>Preference is given to candidates with experience in subcontract management, Variation Valuation or cost risk assessment — capable of identifying potential cost pitfalls or profit opportunities in tenders.</p>
+<ul class="jd-list"><li>Professional Skills &amp; Knowledge</li></ul>
+<p>Skilled in Hong Kong’s local quantity measurement standards (SMM(Civil) or HKQS measurement standards) and tender document preparation specifications (Pricing-related parts)</p>
+<p>Understanding of Hong Kong’s construction contract formats, such as HKIA/HA standard contracts, NEC, GCC etc.</p>
+<p>Preference is given to candidates with the ability to prepare the Bill of Quantities (BQ) based on drawings and specifications, as well as identify errors in the BQ provided by the client — such as redundant items or missing items.</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (23, '37e992b1a6a5b032', 'Quantity Surveyor', 'Turner & Townsend', 'quantity_surveying', 'Hong Kong', NULL, 'Company DescriptionWho is Turner & Townsend?Turner & Townsend is a global professional services company with over 22,000 people in more than 60 countries. Working with our clients across real estate, infrastructure, energy and natural resources, we transform together delivering outcomes that improve people’s lives. Working in partnership makes it possible to deliver the world’s most impactful projects and programmes as we turn challenge into opportunity and complexity into success. Our capabilities include programme, project, cost, asset and commercial management, controls and performance, procurement and supply chain, net zero and digital solutions. We are majority-owned by CBRE Group, Inc., the world’s largest commercial real estate services and investment firm, with our partners holding a significant minority interest. Turner & Townsend and CBRE work together to provide clients with the premier programme, project and cost management offering in markets around the world. Please visit our website: www.turnerandtownsend.comJob DescriptionTo conduct feasibility studies and writing procurement reportsTo apply Value Management techniques at the outset of a project and where appropriate involve Turner & Townsend’s specialist Value Management teamTo manage estimating and cost planning activities to include taking ownership of and present the final cost planTo manage the procurement process, ensuring that all stages including pre qualification, enquiry, analysis, selection and contract preparation are performed effectivelyTo ensure that post-contract cost variances and change control processes are managed effectivelyTo ensure that cost checking and valuation work is managed effectivelyTo ensure the production of monthly post-contract cost reports and present them to the clientValue engineering and life cycle costingTo ensure that final accounts are negotiated and agreedTo take a lead role in interfacing with the client and other consultants, at all project stagesQualificationsHigher Diploma or Degree in Quantity Surveying, Cost Management/Engineering/Building Service or equivalentWelcome 5~ 10 years experience in related fieldsExcellent technical knowledge and experience across the full range of Cost Management duties including: Cost Estimates, Bills of Quantities, Value Engineering, Tendering and Evaluation,Contract Knowledge, Change Orders and Final Account close-outExperience from MEP QS background, well versed with mechanical and electrical (M&E) work experience is preferred.Team player with excellent leadership and problem solving skillsExcellent communication skills with the ability to negotiation, influence and persuade otherAdditional InformationOur inspired people share our vision and mission. We provide a great place to work, where each person has the opportunity and voice to affect change.We want our people to succeed both in work and life. To support this we promote a healthy, productive and flexible working environment that respects work-l', '', 'https://hk.linkedin.com/jobs/view/quantity-surveyor-at-turner-townsend-4412754027?position=10&pageNum=0&refId=uVaruuC%2FeSLb8vr2TpkG7w%3D%3D&trackingId=MuU5z3tyAJnguisXbz7XpA%3D%3D', 'linkedin', '2026-07-01', NULL, 1, 'entry', '2026-07-01 13:13:16', '2026-07-01 13:13:16', 1, '<h3 class="jd-section-header">Company Description</h3>
+<ul class="jd-list"><li>Who is Turner &amp; Townsend?Turner &amp; Townsend is a global professional services company with over 22,000 people in more than 60 countries. Working with our clients across real estate, infrastructure, energy and natural resources, we transform together delivering outcomes that improve people’s lives. Working in partnership makes it possible to deliver the world’s most impactful projects and programmes as we turn challenge into opportunity and complexity into success. Our capabilities include programme, project, cost, asset and commercial management, controls and performance, procurement and supply chain, net zero and digital solutions. We are majority-owned by CBRE Group, Inc., the world’s largest commercial real estate services and investment firm, with our partners holding a significant minority interest. Turner &amp; Townsend and CBRE work together to provide clients with the premier programme, project and cost management offering in markets around the world. Please visit our website: www.turnerandtownsend.comJob DescriptionTo conduct feasibility studies and writing procurement reportsTo apply Value Management techniques at the outset of a project and where appropriate involve Turner &amp; Townsend’s specialist Value Management teamTo manage estimating and cost planning activities to include taking ownership of and present the final cost planTo manage the procurement process, ensuring that all stages including pre qualification, enquiry, analysis, selection and contract preparation are performed effectivelyTo ensure that post-contract cost variances and change control processes are managed effectivelyTo ensure that cost checking and valuation work is managed effectivelyTo ensure the production of monthly post-contract cost reports and present them to the clientValue engineering and life cycle costingTo ensure that final accounts are negotiated and agreedTo take a lead role in interfacing with the client and other consultants, at all project stagesQualificationsHigher Diploma or Degree in Quantity Surveying, Cost Management/Engineering/Building Service or equivalentWelcome 5~ 10 years experience in related fieldsExcellent technical knowledge and experience across the full range of Cost Management duties including: Cost Estimates, Bills of Quantities, Value Engineering, Tendering and Evaluation,Contract Knowledge, Change Orders and Final Account close-outExperience from <strong>MEP QS </strong>background, well versed with mechanical and electrical (M&amp;E) work experience is preferred.Team player with excellent leadership and problem solving skillsExcellent communication skills with the ability to negotiation, influence and persuade otherAdditional InformationOur inspired people share our vision and mission. We provide a great place to work, where each person has the opportunity and voice to affect change.We want our people to succeed both in work and life. To support this we promote a healthy, productive and flexible working environment that respects work-l</li></ul>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (27, '8fb399535c55a490', 'Project Quantity Surveyor / Quantity Surveyor', 'Kin Wing Engineering Company Limited', 'quantity_surveying', 'Hong Kong', NULL, 'Established in 1977,  ATAL Engineering Group  (“ATAL”) is a leading electrical and mechanical (“E&M”) engineering service provider headquartered in Hong Kong, with operations in Macau, Mainland China, the United States and the United Kingdom. Serving a wide spectrum of customers from public and private sectors, ATAL provides multi-disciplinary and comprehensive E&M engineering and technology services in four major segments, including Building Services, Environmental Engineering, Information, Communications and Building Technologies (“ICBT”) and Lifts & Escalators. 
+
+
+At ATAL, we empower our people through our “Supportive and Caring” culture and working environment so that they could develop their competence and well-being at work and beyond. 
+
+
+We invite talents who aspire to open a new and challenging career page and are passionate in developing their career further. For more information, please visit our website 
+
+ Responsibilities  : 
+
+ Provide support in the tendering process. 
+
+ Provide general QS practice to the project team. 
+
+ Pivotal in managing financial and contractual aspects of construction projects. 
+
+ Ensure project deliverables are met within contractual frameworks. 
+
+ Lead cost management, handle contractual issues, manage interim payments, and oversee the resolution of claims and final accounts. 
+
+ Assist in assessing subcontractors payment application. 
+
+ Prepare payment applications and invoices. 
+
+ Prepare and update Variation & Claim status on a regular basis. 
+
+ Measure completed or non-completed works on site or drawings to make valuation when necessary. 
+
+ Requirements: 
+
+ Degree or above in Quantity Surveying or related disciplines 
+
+ NEC4 Accreditation, MHKIS or similar certification preferred. 
+
+ At least 5 years’ relevant working experience in experience in E&M project, with demonstrated expertise in project delivery. 
+
+ Advanced skills in negotiation with Main Contractor and Vendor. 
+
+ Comprehensive knowledge of construction laws and contractual terms. 
+
+ Proven ability in both traditional and NEC contractual procedure. 
+
+ Experienced in handling final account settlements and managing claims effectively. 
+
+ Proficient in managing Variation Orders (VO) and adept at navigating changes in project scope and costs. 
+
+ Excellent analytical, problem-solving, and organizational abilities. 
+
+ Strong communication and interpersonal skills 
+
+ Please click the Apply Now button to send your full resume stating relevant job reference, present and expected salary and availability. 
+
+ Personal data collected will be treated in strict confidence and used for recruitment related purposes only.', '', 'https://hk.linkedin.com/jobs/view/project-quantity-surveyor-quantity-surveyor-at-kin-wing-engineering-company-limited-4424615214?position=14&pageNum=0&refId=uVaruuC%2FeSLb8vr2TpkG7w%3D%3D&trackingId=28T8IoTkbXCimVCSfcjEWQ%3D%3D', 'linkedin', '2026-07-01', NULL, 1, 'experienced', '2026-07-01 13:13:16', '2026-07-01 13:13:16', 1, '<p>Established in 1977,  ATAL Engineering Group  (“ATAL”) is a leading electrical and mechanical (“E&amp;M”) engineering service provider headquartered in Hong Kong, with operations in Macau, Mainland China, the United States and the United Kingdom. Serving a wide spectrum of customers from public and private sectors, ATAL provides multi-disciplinary and comprehensive E&amp;M engineering and technology services in four major segments, including Building Services, Environmental Engineering, Information, Communications and Building Technologies (“ICBT”) and Lifts &amp; Escalators.</p>
+<p>At ATAL, we empower our people through our “Supportive and Caring” culture and working environment so that they could develop their competence and well-being at work and beyond.</p>
+<p>We invite talents who aspire to open a new and challenging career page and are passionate in developing their career further. For more information, please visit our website</p>
+<h3 class="jd-section-header">Responsibilities  </h3>
+<ul class="jd-list"><li>Provide support in the tendering process.</li><li>Provide general QS practice to the project team.</li><li>Pivotal in managing financial and contractual aspects of construction projects.</li><li>Ensure project deliverables are met within contractual frameworks.</li><li>Lead cost management, handle contractual issues, manage interim payments, and oversee the resolution of claims and final accounts.</li><li>Assist in assessing subcontractors payment application.</li><li>Prepare payment applications and invoices.</li><li>Prepare and update Variation &amp; Claim status on a regular basis.</li><li>Measure completed or non-completed works on site or drawings to make valuation when necessary.</li></ul>
+<h3 class="jd-section-header">Requirements</h3>
+<ul class="jd-list"><li>Degree or above in Quantity Surveying or related disciplines</li><li>NEC4 Accreditation, MHKIS or similar certification preferred.</li><li>At least 5 years’ relevant working experience in experience in E&amp;M project, with demonstrated expertise in project delivery.</li><li>Advanced skills in negotiation with Main Contractor and Vendor.</li><li>Comprehensive knowledge of construction laws and contractual terms.</li><li>Proven ability in both traditional and NEC contractual procedure.</li><li>Experienced in handling final account settlements and managing claims effectively.</li><li>Proficient in managing Variation Orders (VO) and adept at navigating changes in project scope and costs.</li><li>Excellent analytical, problem-solving, and organizational abilities.</li><li>Strong communication and interpersonal skills</li><li>Please click the Apply Now button to send your full resume stating relevant job reference, present and expected salary and availability.</li><li>Personal data collected will be treated in strict confidence and used for recruitment related purposes only.</li></ul>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (28, '1bc9cd81731350fd', 'Quantity Surveyor (NEC)', 'Mace', 'quantity_surveying', 'Hong Kong', NULL, 'Mace is hiring for a role in Hong Kong that focuses on managing subcontract packages end-to-end for a large-scale infrastructure program. The successful candidate will lead tendering processes, maintain cost control, and ensure project margins are protected through effective risk management.
+
+The candidate should be degree-qualified with at least 8 years of NEC experience and demonstrate skills in planning, stakeholder engagement, and contract administration. Mace promotes a diverse and inclusive work environment, welcoming applications from all candidates.', '', 'https://hk.linkedin.com/jobs/view/quantity-surveyor-nec-at-mace-4429791912?position=15&pageNum=0&refId=uVaruuC%2FeSLb8vr2TpkG7w%3D%3D&trackingId=%2B7CJSIJt0u0G9ROHtdAhrg%3D%3D', 'linkedin', '2026-07-01', NULL, 1, 'entry', '2026-07-01 13:13:16', '2026-07-01 13:13:16', 1, '<p>Mace is hiring for a role in Hong Kong that focuses on managing subcontract packages end-to-end for a large-scale infrastructure program. The successful candidate will lead tendering processes, maintain cost control, and ensure project margins are protected through effective risk management.</p>
+<p>The candidate should be degree-qualified with at least 8 years of NEC experience and demonstrate skills in planning, stakeholder engagement, and contract administration. Mace promotes a diverse and inclusive work environment, welcoming applications from all candidates.</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (67, 'cf0250c435f4388c', 'Surveyor', 'China Harbour Engineering Co. Ltd', 'land_surveying', 'Hong Kong', NULL, 'Job Requirements:
+
+1.     Academic Qualifications & Professional Certifications
+
+Educational Background
+
+Shall hold a bachelor’s degree in Quantity Surveying, Civil Engineering or a related discipline. Preference is given to candidates with a master’s degree or advanced studies in specialized fields (e.g., cost management, contract law).
+
+Academic Qualifications & Professional Certifications
+
+Preference is given to candidates with Membership of the Quantity Surveying Division of the Hong Kong Institute of Surveyors (HKIS, MHKIS) or Membership of the Royal Institution of Chartered Surveyors (RICS). 
+
+2.    Works Experience
+
+Core Experience Requirements
+
+Shall have at least 3-5 years of experience in quantity surveying or tendering within Hong Kong’s construction industry.
+
+Preference is given to candidates who have work experience in the tendering department of a main contractor.
+
+Specialized Experience
+
+Shall have full experience in Quantity Take-Off (QTO), cost estimation, sub-contractor quotation comparison.
+
+Preference is given to candidates with experience in subcontract management, Variation Valuation or cost risk assessment — capable of identifying potential cost pitfalls or profit opportunities in tenders. 
+
+3.     Professional Skills & Knowledge
+
+Skilled in Hong Kong’s local quantity measurement standards (SMM(Civil) or HKQS measurement standards) and tender document preparation specifications (Pricing-related parts)
+
+Understanding of Hong Kong’s construction contract formats, such as HKIA/HA standard contracts, NEC, GCC etc.
+
+Preference is given to candidates with the ability to prepare the Bill of Quantities (BQ) based on drawings and specifications, as well as identify errors in the BQ provided by the client — such as redundant items or missing items.', '', 'https://hk.linkedin.com/jobs/view/surveyor-at-china-harbour-engineering-co-ltd-4433461952?position=1&pageNum=0&refId=JZca3nqI6K%2BW4bWCq%2FJcpA%3D%3D&trackingId=9St5v%2FoAvOfB4zzeR2%2FhRw%3D%3D', 'linkedin', '2026-07-01', NULL, 1, 'entry', '2026-07-01 13:27:41', '2026-07-01 13:27:41', 1, '<h3 class="jd-section-header">Job Requirements</h3>
+<ul class="jd-list"><li>Academic Qualifications &amp; Professional Certifications</li><li>Educational Background</li></ul>
+<p>Shall hold a bachelor’s degree in Quantity Surveying, Civil Engineering or a related discipline. Preference is given to candidates with a master’s degree or advanced studies in specialized fields (e.g., cost management, contract law).</p>
+<p>Academic Qualifications &amp; Professional Certifications</p>
+<p>Preference is given to candidates with Membership of the Quantity Surveying Division of the Hong Kong Institute of Surveyors (HKIS, MHKIS) or Membership of the Royal Institution of Chartered Surveyors (RICS).</p>
+<ul class="jd-list"><li>Works Experience</li><li>Core Experience Requirements</li></ul>
+<p>Shall have at least 3-5 years of experience in quantity surveying or tendering within Hong Kong’s construction industry.</p>
+<p>Preference is given to candidates who have work experience in the tendering department of a main contractor.</p>
+<p>Specialized Experience</p>
+<p>Shall have full experience in Quantity Take-Off (QTO), cost estimation, sub-contractor quotation comparison.</p>
+<p>Preference is given to candidates with experience in subcontract management, Variation Valuation or cost risk assessment — capable of identifying potential cost pitfalls or profit opportunities in tenders.</p>
+<ul class="jd-list"><li>Professional Skills &amp; Knowledge</li></ul>
+<p>Skilled in Hong Kong’s local quantity measurement standards (SMM(Civil) or HKQS measurement standards) and tender document preparation specifications (Pricing-related parts)</p>
+<p>Understanding of Hong Kong’s construction contract formats, such as HKIA/HA standard contracts, NEC, GCC etc.</p>
+<p>Preference is given to candidates with the ability to prepare the Bill of Quantities (BQ) based on drawings and specifications, as well as identify errors in the BQ provided by the client — such as redundant items or missing items.</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (96, '8d6f80dd89971914', 'Quantity Surveyor - 2026 Graduate Program', 'Rider Levett Bucknall Limited', 'quantity_surveying', 'Hong Kong', '', 'Rider Levett Bucknall Limited 
+
+ Rider Levett Bucknall Limited (RLB) is a leading global consultancy specializing in construction cost management and quantity surveying and has a global presence with 4,500 people operating from more than 120 offices across the world. In North Asia region we employ over 1,100 people with headquarters in Hong Kong and offices in Macau and major cities in Mainland China. 
+
+  Quantity Surveyor - 2026 Graduate Program 
+
+  Responsibilities 
+
+ Carry out general consultant Quantity Surveying duties in both pre and post contract stages including cost estimates, tender documentation, tender analysis, valuation of variations, interim payment valuation, measurement of quantities, reviewing contractors’ quotations and claims, negotiation and settlement of final accounts, etc. 
+
+ Attend project meetings, tender interview, site inspections, visits and site meetings when required 
+
+ Collaborate and maintain an amicable working relationship with the Client, project team and other project stakeholders 
+
+ Ensure that deliverables complying with QA standards and records are properly stored 
+
+  Requirements 
+
+2026 graduates with a Master’s or Bachelor''s degree in relevant disciplines 
+
+ Preferably with internship experience in related field but not a must 
+
+ Good command of spoken and written English and Chinese 
+
+ Good inter-personal and communication skills 
+
+ Team player with a good attitude 
+
+ Remuneration package shall be commensurate with qualifications and experience of successful candidates. Interested parties please send application with full resume, copy of testimonials from previous employers, copy of certificates of qualification, details of present and expected salary to the  Human Resources Department, 15/F, The Bay Hub, 17 Kai Cheung Road, Kowloon Bay, Hong Kong  or e-mail to  [email redacted, apply via Company website]. 
+
+ All personal data provided by applicants will be treated strictly confidential and used only for recruitment-related', '', 'https://hk.jooble.org/jdp/-3791724762215041541?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs', '29 days ago', NULL, 1, 'entry', '2026-07-01 13:43:16', '2026-07-01 13:43:16', 1, '<p>Rider Levett Bucknall Limited</p>
+<p>Rider Levett Bucknall Limited (RLB) is a leading global consultancy specializing in construction cost management and quantity surveying and has a global presence with 4,500 people operating from more than 120 offices across the world. In North Asia region we employ over 1,100 people with headquarters in Hong Kong and offices in Macau and major cities in Mainland China.</p>
+<p>Quantity Surveyor - 2026 Graduate Program</p>
+<h3 class="jd-section-header">Responsibilities</h3>
+<ul class="jd-list"><li>Carry out general consultant Quantity Surveying duties in both pre and post contract stages including cost estimates, tender documentation, tender analysis, valuation of variations, interim payment valuation, measurement of quantities, reviewing contractors’ quotations and claims, negotiation and settlement of final accounts, etc.</li><li>Attend project meetings, tender interview, site inspections, visits and site meetings when required</li><li>Collaborate and maintain an amicable working relationship with the Client, project team and other project stakeholders</li><li>Ensure that deliverables complying with QA standards and records are properly stored</li></ul>
+<h3 class="jd-section-header">Requirements</h3>
+<ul class="jd-list"><li>2026 graduates with a Master’s or Bachelor&#x27;s degree in relevant disciplines</li><li>Preferably with internship experience in related field but not a must</li><li>Good command of spoken and written English and Chinese</li><li>Good inter-personal and communication skills</li><li>Team player with a good attitude</li></ul>
+<h3 class="jd-section-header">Remuneration</h3>
+<ul class="jd-list"><li>package shall be commensurate with qualifications and experience of successful candidates. Interested parties please send application with full resume, copy of testimonials from previous employers, copy of certificates of qualification, details of present and expected salary to the  Human Resources Department, 15/F, The Bay Hub, 17 Kai Cheung Road, Kowloon Bay, Hong Kong  or e-mail to  [email redacted, apply via Company website].</li><li>All personal data provided by applicants will be treated strictly confidential and used only for recruitment-related</li></ul>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (97, 'de95f0bbc57a1c3c', 'Graduate Quantity Surveyor: RICS Path + Mentorship', 'Turner & Townsend', 'quantity_surveying', 'Hong Kong', '', 'A leading global professional services company in Hong Kong is seeking a Graduate Quantity Surveyor to join their team. This full-time, entry-level position offers a structured, 24-month development program that includes mentorship and opportunities for professional accreditation. The ideal candidate holds a degree relevant to quantity surveying and possesses strong analytical and communication skills.
+
+
+This role involves assisting with cost management commissions and collaborating with various stakeholders to ensure project success.', '', 'https://bebee.com/hk/jobs/graduate-quantity-surveyor-rics-path-mentorship-turner-townsend-hong-kong-island--bs-hk-a072ec4e-305a-46a1-ba7b-b03588f3dc88?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs', '17 days ago', NULL, 1, 'entry', '2026-07-01 13:43:16', '2026-07-01 13:43:16', 1, '<p>A leading global professional services company in Hong Kong is seeking a Graduate Quantity Surveyor to join their team. This full-time, entry-level position offers a structured, 24-month development program that includes mentorship and opportunities for professional accreditation. The ideal candidate holds a degree relevant to quantity surveying and possesses strong analytical and communication skills.</p>
+<p>This role involves assisting with cost management commissions and collaborating with various stakeholders to ensure project success.</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (98, '939898af0bbe79bc', 'Graduate Quantity Surveyor: Launch in Contract & Cost', 'Chunwo', 'quantity_surveying', 'Hong Kong', '', 'A construction engineering company in Hong Kong is seeking a Quantity Surveyor to ensure contract management tasks including correspondence, liaising with departments, and overseeing sub-contractor work. The ideal candidate should have a degree in Quantity Surveying, strong communication skills, and proficiency in English and Chinese. Fresh graduates are welcome to apply. This is a full-time position that offers an opportunity to grow within a well-established firm.
+#J-18808-Ljbffr', '', 'https://hk.jobrapido.com/jobpreview/2606479022590263296?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs', '2026-07-01', NULL, 1, 'entry', '2026-07-01 13:43:16', '2026-07-01 13:43:16', 1, '<p>A construction engineering company in Hong Kong is seeking a Quantity Surveyor to ensure contract management tasks including correspondence, liaising with departments, and overseeing sub-contractor work. The ideal candidate should have a degree in Quantity Surveying, strong communication skills, and proficiency in English and Chinese. Fresh graduates are welcome to apply. This is a full-time position that offers an opportunity to grow within a well-established firm. #J-18808-Ljbffr</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (101, '540a7f89cc6bb31c', 'Quantity Surveyor / Quantity Surveyor Trainee', 'Rider Levett Bucknall', 'quantity_surveying', 'Hong Kong', '', 'Rider Levett Bucknall Limited
+Rider Levett Bucknall Limited (RLB) is a leading global consultancy specializing in construction cost management and quantity surveying and has a global presence with 4,500 people operating from more than 120 offices across the world. In North Asia region we employ over 1,200 people with headquarters in Hong Kong and offices in Macau and major cities in Mainland China.
+
+
+Quantity Surveyor
+Responsibilities
+  Carry out general consultant Quantity Surveying duties in both pre and post contract stages including cost estimates, tender documentation, tender analysis, valuation of variations, interim payment valuation, measurement of quantities, reviewing contractors’ quotations and claims, negotiation and settlement of final accounts, etc.
+
+
+  Attend project meetings, tender interview, site inspections, visits and site meetings when required
+
+
+  Collaborate and maintain an amicable working relationship with the Client, project team and other project stakeholders
+
+
+  Ensure that deliverables complying with QA standards and records are properly stored
+  Requirements
+  Quantity Surveyor with Degree / Associate Degree / Higher Diploma in Quantity Surveying or similar.
+
+
+  1 – 3 years of related working experience
+
+
+  Applicants without professional qualification but with all-rounded experience, preferably with experience working in QS consultants’ offices, may also apply
+
+
+  Applicants are able to work independently
+
+
+  Good command of spoken and written English and Chinese
+
+
+  Good inter-personal and communication skills
+
+
+  Remuneration package shall be commensurate with qualifications and experience of successful candidates. Interested parties please send application with full resume, copy of testimonials from previous employers, copy of certificates of qualification, details of present and expected salary to the Human Resources Department, 15/F, The Bay Hub, 17 Kai Cheung Road, Kowloon Bay, Hong Kong or e-mail to *@hk.rlb.com.
+All personal da', '', 'https://bebee.com/hk/jobs/quantity-surveyor-quantity-surveyor-trainee-rider-levett-bucknall-kwun-tong--techmap_hk_ab27b0d7f2c882240aeba2d0259c5b3c?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs', '20 days ago', NULL, 1, 'entry', '2026-07-01 13:43:21', '2026-07-01 13:43:21', 1, '<p>Rider Levett Bucknall Limited Rider Levett Bucknall Limited (RLB) is a leading global consultancy specializing in construction cost management and quantity surveying and has a global presence with 4,500 people operating from more than 120 offices across the world. In North Asia region we employ over 1,200 people with headquarters in Hong Kong and offices in Macau and major cities in Mainland China.</p>
+<p>Quantity Surveyor</p>
+<h3 class="jd-section-header">Responsibilities</h3>
+<ul class="jd-list"><li>Carry out general consultant Quantity Surveying duties in both pre and post contract stages including cost estimates, tender documentation, tender analysis, valuation of variations, interim payment valuation, measurement of quantities, reviewing contractors’ quotations and claims, negotiation and settlement of final accounts, etc.</li><li>Attend project meetings, tender interview, site inspections, visits and site meetings when required</li><li>Collaborate and maintain an amicable working relationship with the Client, project team and other project stakeholders</li><li>Ensure that deliverables complying with QA standards and records are properly stored</li></ul>
+<h3 class="jd-section-header">Requirements</h3>
+<ul class="jd-list"><li>Quantity Surveyor with Degree / Associate Degree / Higher Diploma in Quantity Surveying or similar.</li><li>1 – 3 years of related working experience</li><li>Applicants without professional qualification but with all-rounded experience, preferably with experience working in QS consultants’ offices, may also apply</li><li>Applicants are able to work independently</li><li>Good command of spoken and written English and Chinese</li><li>Good inter-personal and communication skills</li></ul>
+<h3 class="jd-section-header">Remuneration</h3>
+<ul class="jd-list"><li>package shall be commensurate with qualifications and experience of successful candidates. Interested parties please send application with full resume, copy of testimonials from previous employers, copy of certificates of qualification, details of present and expected salary to the Human Resources Department, 15/F, The Bay Hub, 17 Kai Cheung Road, Kowloon Bay, Hong Kong or e-mail to *@hk.rlb.com.</li><li>All personal da</li></ul>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (102, 'ca6e6ed648e46862', 'Quantity Surveyor/Assistant Quantity Surveyor or Quantity Surveyor Trainee', 'Wai Hung Hong', 'quantity_surveying', 'Hong Kong', '', '- Academic and Experience Requirements :
+ Diploma in Quantity Surveying or appropriate academic background in related disciplines 
+
+
+ Well organized, self-initiative and with good communication skills 
+
+
+ Good Computer skills on MS Word, Excel, PowerPoint and project 
+
+
+ Basic knowledge of AutoCAD 
+
+
+ Good command of both written and spoken English, Chinese and Putonghua 
+
+
+ Initiative, independent and responsible 
+
+
+ Hardworking and able to work under pressure 
+
+
+ Needs to work in Macau 
+
+
+ Immediate available will be an advantage 
+
+
+ Candidate with less experience will be considered as Assistant Quantity Surveyor / Quantity Surveyor Trainee', '', 'https://hk.indeed.com/viewjob?jk=aba3847d3ea5afc8&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs', '2026-07-01', NULL, 1, 'entry', '2026-07-01 13:43:21', '2026-07-01 13:43:21', 1, '<ul class="jd-list"><li>Academic and Experience Requirements :</li><li>Diploma in Quantity Surveying or appropriate academic background in related disciplines</li><li>Well organized, self-initiative and with good communication skills</li><li>Good Computer skills on MS Word, Excel, PowerPoint and project</li><li>Basic knowledge of AutoCAD</li><li>Good command of both written and spoken English, Chinese and Putonghua</li><li>Initiative, independent and responsible</li><li>Hardworking and able to work under pressure</li><li>Needs to work in Macau</li><li>Immediate available will be an advantage</li><li>Candidate with less experience will be considered as Assistant Quantity Surveyor / Quantity Surveyor Trainee</li></ul>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (103, 'd1d8913cd7e8ff64', 'Arcadis 2026 Quantity Surveying Summer Intern (Hong Kong)', 'Arcadis', 'quantity_surveying', 'Hong Kong', '', 'Arcadis is the world''s leading company delivering sustainable design, engineering, and consultancy solutions for natural and built assets. We are more than 36,000 people, in over 70 countries, dedicated to improving quality of life. Everyone has an important role to play. With the power of many curious minds, together we can solve the world’s most complex challenges and deliver more impact together.
+
+
+
+Role description:
+
+
+
+Preparation of pre-contract cost estimates and project cash-flow.
+Preparation of tender documentation
+Tendering process and tender evaluation
+Post-contract administration and management – contract documentation, valuation of progress payment, variation assessment, and cost control report
+Finalization of project final accounts
+
+Qualifications & Experience:
+
+
+
+Apply with your latest transcript, DSE/IB/IELTS/TOEFL results, resume along with details of your expected salary and preferred start date. We regret that only shortlisted candidates will be contacted.
+Degree in Quantity Surveying
+Year 3 students only / Students to be graduated in 2027 only
+Able to work as a team player
+Ability to communicate clearly in spoken and written English
+Ability to communicate clearly in spoken Cantonese and written Chinese
+Able to commit a 2-month internship between May 2026 and Aug 2026
+
+Why Arcadis?
+
+
+
+We can only achieve our goals when everyone is empowered to be their best. We believe everyone''s contribution matters. It’s why we are pioneering a skills-based approach, where you can harness your unique experience and expertise to carve your career path and maximize the impact we can make together.
+
+
+
+You’ll do meaningful work, and no matter what role, you’ll be helping to deliver sustainable solutions for a more prosperous planet. Make your mark, on your career, your colleagues, your clients, your life and the world around you.
+
+
+
+Together, we can create a lasting legacy.
+
+
+
+Our Commitment to Equality, Diversity, Inclusion & Belonging:
+
+
+
+We want you to be able to ', '', 'https://www.glassdoor.com.hk/job-listing/arcadis-2026-quantity-surveying-summer-intern-hong-kong-arcadis-JV_KO0,55_KE56,63.htm?jl=1009817875318&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs', '2026-07-01', NULL, 1, 'entry', '2026-07-01 13:43:24', '2026-07-01 13:43:24', 1, '<p>Arcadis is the world&#x27;s leading company delivering sustainable design, engineering, and consultancy solutions for natural and built assets. We are more than 36,000 people, in over 70 countries, dedicated to improving quality of life. Everyone has an important role to play. With the power of many curious minds, together we can solve the world’s most complex challenges and deliver more impact together.</p>
+<h3 class="jd-section-header">Role description</h3>
+<ul class="jd-list"><li>Preparation of pre-contract cost estimates and project cash-flow.</li><li>Preparation of tender documentation</li><li>Tendering process and tender evaluation</li></ul>
+<p>Post-contract administration and management – contract documentation, valuation of progress payment, variation assessment, and cost control report Finalization of project final accounts</p>
+<h3 class="jd-section-header">Qualifications &amp; Experience</h3>
+<p>Apply with your latest transcript, DSE/IB/IELTS/TOEFL results, resume along with details of your expected salary and preferred start date. We regret that only shortlisted candidates will be contacted. Degree in Quantity Surveying Year 3 students only / Students to be graduated in 2027 only Able to work as a team player Ability to communicate clearly in spoken and written English Ability to communicate clearly in spoken Cantonese and written Chinese Able to commit a 2-month internship between May 2026 and Aug 2026</p>
+<p>Why Arcadis?</p>
+<p>We can only achieve our goals when everyone is empowered to be their best. We believe everyone&#x27;s contribution matters. It’s why we are pioneering a skills-based approach, where you can harness your unique experience and expertise to carve your career path and maximize the impact we can make together.</p>
+<p>You’ll do meaningful work, and no matter what role, you’ll be helping to deliver sustainable solutions for a more prosperous planet. Make your mark, on your career, your colleagues, your clients, your life and the world around you.</p>
+<p>Together, we can create a lasting legacy.</p>
+<p>Our Commitment to Equality, Diversity, Inclusion &amp; Belonging:</p>
+<p>We want you to be able to</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (105, 'a9fdb1cfcd412e41', 'Summer Intern - Quantity Surveying / Purchasing', 'VSL Hong Kong Ltd', 'quantity_surveying', 'Hong Kong', '', 'Please see below opening positions for Summer Internship 2026:
+
+Internship period: 1 June - 28 August 2026
+
+Trainee - Quantity Surveying
+
+Trainee - Purchasing
+
+Trainee - Quantity Surveying
+
+Job Description
+
+Cost Management & Financial Control
+
+Assist in cost estimation, budgeting, cost monitoring, and preparation of financial reports and forecasts to ensure projects remain within budget.
+
+Measurement, Valuation & Payments
+
+Measure quantities from drawings and specifications, and support valuation of work done, including interim payments and final accounts.
+
+Tendering & Contract Administration
+
+Support tender preparation and evaluation, assist with contract administration, and help prepare, review, and manage contracts in compliance with relevant standards.
+
+Skills & Requirements
+
+Diploma or above in Quantity Surveying or related disciplines
+
+Good interpersonal skills
+
+Good knowledge of the Microsoft Office applications
+
+Trainee - Purchasing
+
+Job Description
+
+Provide administration support to the Department using SAP system
+
+Support ad hoc duties as and when required
+
+Skills & Requirements
+
+Diploma or above in Purchasing / Supply Chain or related disciplines
+
+Good interpersonal skills
+
+Good knowledge of the Microsoft Office applications
+
+Temporary,Contract', '', 'https://expatjobboard.com/jobs/3587?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs', '2026-07-01', NULL, 1, 'entry', '2026-07-01 13:43:24', '2026-07-01 13:43:24', 1, '<p>Please see below opening positions for Summer Internship 2026:</p>
+<p>Internship period: 1 June - 28 August 2026</p>
+<p>Trainee - Quantity Surveying</p>
+<p>Trainee - Purchasing</p>
+<p>Trainee - Quantity Surveying</p>
+<h3 class="jd-section-header">Job Description</h3>
+<ul class="jd-list"><li>Cost Management &amp; Financial Control</li><li>Assist in cost estimation, budgeting, cost monitoring, and preparation of financial reports and forecasts to ensure projects remain within budget.</li><li>Measurement, Valuation &amp; Payments</li></ul>
+<p>Measure quantities from drawings and specifications, and support valuation of work done, including interim payments and final accounts.</p>
+<p>Tendering &amp; Contract Administration</p>
+<p>Support tender preparation and evaluation, assist with contract administration, and help prepare, review, and manage contracts in compliance with relevant standards.</p>
+<p>Skills &amp; Requirements</p>
+<p>Diploma or above in Quantity Surveying or related disciplines</p>
+<p>Good interpersonal skills</p>
+<p>Good knowledge of the Microsoft Office applications</p>
+<p>Trainee - Purchasing</p>
+<h3 class="jd-section-header">Job Description</h3>
+<ul class="jd-list"><li>Provide administration support to the Department using SAP system</li><li>Support ad hoc duties as and when required</li><li>Skills &amp; Requirements</li><li>Diploma or above in Purchasing / Supply Chain or related disciplines</li><li>Good interpersonal skills</li><li>Good knowledge of the Microsoft Office applications</li><li>Temporary,Contract</li></ul>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (106, '8b7a5a67b0c5beee', 'Assistant Building Surveyor / Graduate Building Surveyor', 'P2H Design Associates Limited', 'building_surveying', 'New Territories', '', 'Job Description: 
+
+ Assist in handling Water Seepage Investigation works and SPF Inspection; 
+
+ Assist in preparing report for submission; 
+
+ Advise and coordinate with Client on their needs and requests for maintenance and improvement works. 
+
+
+  Job Requirements: 
+
+
+ University Degree in Building Surveying or related studies; 
+
+ Training will be provided to candidates enrolling for HKIS practical task training / examination; 
+
+ Good communication and negotiation skills; 
+
+ Proficiency in Cantonese and English; 
+
+ With driving license will be an advantage; 
+
+ Candidates with more experience can be considered as Assistant Building Surveyor 
+
+ Fresh graduate is welcome. 
+
+
+ 
+  Employee Benefits: 
+
+5-day work week 
+
+ Attractive remuneration package 
+
+ Bank holiday 
+
+ Annual leave 
+
+ Group medical insurance', '', 'https://hk.jooble.org/jdp/8074820887261164401?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs', '10 days ago', NULL, 1, 'entry', '2026-07-01 13:43:28', '2026-07-01 13:43:28', 1, '<h3 class="jd-section-header">Job Description</h3>
+<ul class="jd-list"><li>Assist in handling Water Seepage Investigation works and SPF Inspection;</li><li>Assist in preparing report for submission;</li><li>Advise and coordinate with Client on their needs and requests for maintenance and improvement works.</li></ul>
+<h3 class="jd-section-header">Job Requirements</h3>
+<ul class="jd-list"><li>University Degree in Building Surveying or related studies;</li><li>Training will be provided to candidates enrolling for HKIS practical task training / examination;</li><li>Good communication and negotiation skills;</li><li>Proficiency in Cantonese and English;</li><li>With driving license will be an advantage;</li><li>Candidates with more experience can be considered as Assistant Building Surveyor</li><li>Fresh graduate is welcome.</li><li>Employee Benefits:</li><li>5-day work week</li><li>Attractive remuneration package</li><li>Bank holiday</li><li>Annual leave</li><li>Group medical insurance</li></ul>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (107, '11a3cc1fe88939db', 'Assistant Land Surveyor & Land Survey Graduate', 'Geosys Hong Kong Limited', 'land_surveying', 'Tai Po', '', 'Job Description: 
+
+Responsible for project management of delivering IT/GIS Solution;
+
+Execute valuation assignments, project feasibility studies, lands matters reports for clients;
+
+Manage resources allocation schedules, not limited to budget, timeline, procurement of material, contract administration, claims and cost control; 
+
+Ensure the execution of works and meet the deadline;
+
+Liaise with different parties to get the target met;
+
+Perform requested survey by using Total Station, GNSS, Laser Scanning, Unmanned Aerial Vehicle, Intelligent Robotics, etc.;
+
+Download and process data collection by total station, and/or other automated data collection systems;
+
+Document results for presentations and/or reporting to internal and external stakeholder;
+
+Perform other ad hoc tasks as assigned.
+
+
+ Job Requirements: 
+
+Certificate or above in Land Surveying or Geomatics or Information Technology.
+
+3 years or above of Land Surveying experience is preferable
+
+Good communication and presentation skills
+
+Good command in spoken and written English & Chinese
+
+ Candidate with less experience will be considered as Land Survey Graduate', '', 'https://jobs.ctgoodjobs.hk/job/10164103/assistant-land-surveyor-land-survey-graduate?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs', '6 days ago', NULL, 1, 'entry', '2026-07-01 13:43:28', '2026-07-01 13:43:28', 1, '<h3 class="jd-section-header">Job Description</h3>
+<ul class="jd-list"><li>Responsible for project management of delivering IT/GIS Solution;</li></ul>
+<p>Execute valuation assignments, project feasibility studies, lands matters reports for clients;</p>
+<p>Manage resources allocation schedules, not limited to budget, timeline, procurement of material, contract administration, claims and cost control;</p>
+<p>Ensure the execution of works and meet the deadline;</p>
+<p>Liaise with different parties to get the target met;</p>
+<p>Perform requested survey by using Total Station, GNSS, Laser Scanning, Unmanned Aerial Vehicle, Intelligent Robotics, etc.;</p>
+<p>Download and process data collection by total station, and/or other automated data collection systems;</p>
+<p>Document results for presentations and/or reporting to internal and external stakeholder;</p>
+<p>Perform other ad hoc tasks as assigned.</p>
+<h3 class="jd-section-header">Job Requirements</h3>
+<ul class="jd-list"><li>Certificate or above in Land Surveying or Geomatics or Information Technology.</li><li>3 years or above of Land Surveying experience is preferable</li><li>Good communication and presentation skills</li><li>Good command in spoken and written English &amp; Chinese</li><li>Candidate with less experience will be considered as Land Survey Graduate</li></ul>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (108, '8c455cc317a232f7', 'Junior Building Surveyor — Seepage & Reporting Focus', 'Leadingnation', 'building_surveying', 'Hong Kong', '', 'Leadingnation in Hong Kong is looking for candidates to assist in Water Seepage Investigation works and SPF Inspection. Responsibilities include preparing reports and coordinating with clients on maintenance needs.
+
+The ideal candidate should have a university degree in Building Surveying or related fields, good communication skills, and proficiency in both Cantonese and English. Employee benefits include a 5-day work week, attractive remuneration, and group medical insurance.', '', 'https://www.jobleads.com/hk/job/junior-building-surveyor-seepage-reporting-focus--hong-kong--ef82aa232a0ee8628a10b5b80c5c416cf?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs', '4 days ago', NULL, 1, 'entry', '2026-07-01 13:43:28', '2026-07-01 13:43:28', 1, '<p>Leadingnation in Hong Kong is looking for candidates to assist in Water Seepage Investigation works and SPF Inspection. Responsibilities include preparing reports and coordinating with clients on maintenance needs.</p>
+<p>The ideal candidate should have a university degree in Building Surveying or related fields, good communication skills, and proficiency in both Cantonese and English. Employee benefits include a 5-day work week, attractive remuneration, and group medical insurance.</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (109, '59c64187e15cff40', 'Hospital Authority Development and Works Graduate Trainee Programme - Architectural / Surveying Graduate', 'The Hong Kong Institute of Architects', 'building_surveying', 'Hong Kong', '', 'Hospital Authority Development and Works Graduate Trainee Programme - Architectural / Surveying Graduate
+
+
+Position: Architectural / Surveying Graduate
+
+
+Rank: Executive Assistant I
+Cluster/Department: Development & Works Division, HA Head Office
+
+
+Pay: HK$24,191 per month
+
+
+Key Responsibilities:
+We are looking for high potential candidates with passion to work on capital works projects and develop their professional Architectural / Surveying career in the Development & Works Division of the Hospital Authority (HA).
+
+
+Selected candidates will undergo two years of practical training arranged by the HA. Depending on project needs and job rotations, the programme covers various project stages—including inception, feasibility study, schematic proposal, design, contract documentation, and construction management. Training is conducted under the guidance of professional Architects or Building Surveyors, fulfilling the requirements of The Hong Kong Institute of Architects (HKIA) or The Hong Kong Institute of Surveyors (HKIS).
+
+
+The key responsibilities may include but not be limited to:
+
+
+Architectural Graduate
+1.
+
+
+Assist in preparing building proposals, programmes, funds bidding and selection of works agents.
+
+
+2.
+
+
+Assist in exercising close control on quality of works, site progress, project budget and expenditure.
+
+
+3.
+
+
+Assist in overseeing compliance of statutory requirements with respect to building facilities, building engineering operation and maintenance services in project.
+
+
+4.
+
+
+Assist in facilitating smooth interface between hospitals, government departments, contractors, professional consultants, and other stakeholders.
+
+
+5.
+
+
+Assist in managing, monitoring and preparing performance report of professional consultants appointed for delivery of projects.
+
+
+6.
+
+
+Assist in monitoring the preparation of contractor documentations, cost plan, project programme, estimates, cashflow and final account.
+
+
+7.
+
+
+Perform any other duties as assigned by supervisors.
+
+
+Sur', '', 'https://bebee.com/hk/jobs/hospital-authority-development-and-works-graduate-trainee-programme-architectural-surveying-graduate--techmap_hk_a5aa9346a23c5187e59b26294ccb5391?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs', '2026-07-01', NULL, 1, 'entry', '2026-07-01 13:43:28', '2026-07-01 13:43:28', 1, '<p>Hospital Authority Development and Works Graduate Trainee Programme - Architectural / Surveying Graduate</p>
+<p>Position: Architectural / Surveying Graduate</p>
+<p>Rank: Executive Assistant I Cluster/Department: Development &amp; Works Division, HA Head Office</p>
+<p>Pay: HK$24,191 per month</p>
+<h3 class="jd-section-header">Key Responsibilities</h3>
+<p>We are looking for high potential candidates with passion to work on capital works projects and develop their professional Architectural / Surveying career in the Development &amp; Works Division of the Hospital Authority (HA).</p>
+<p>Selected candidates will undergo two years of practical training arranged by the HA. Depending on project needs and job rotations, the programme covers various project stages—including inception, feasibility study, schematic proposal, design, contract documentation, and construction management. Training is conducted under the guidance of professional Architects or Building Surveyors, fulfilling the requirements of The Hong Kong Institute of Architects (HKIA) or The Hong Kong Institute of Surveyors (HKIS).</p>
+<p>The key responsibilities may include but not be limited to:</p>
+<p>Architectural Graduate 1.</p>
+<p>Assist in preparing building proposals, programmes, funds bidding and selection of works agents.</p>
+<p>2.</p>
+<p>Assist in exercising close control on quality of works, site progress, project budget and expenditure.</p>
+<p>3.</p>
+<p>Assist in overseeing compliance of statutory requirements with respect to building facilities, building engineering operation and maintenance services in project.</p>
+<p>4.</p>
+<p>Assist in facilitating smooth interface between hospitals, government departments, contractors, professional consultants, and other stakeholders.</p>
+<p>5.</p>
+<p>Assist in managing, monitoring and preparing performance report of professional consultants appointed for delivery of projects.</p>
+<p>6.</p>
+<p>Assist in monitoring the preparation of contractor documentations, cost plan, project programme, estimates, cashflow and final account.</p>
+<p>7.</p>
+<p>Perform any other duties as assigned by supervisors.</p>
+<p>Sur</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (110, 'e8b601c4ca1de879', 'Engineering Graduate Trainee (Scheme “A”) / Surveying Graduate Trainee', 'Kai Shing Management Services Ltd', 'building_surveying', 'Hong Kong', '', 'Kai Shing Management Services Ltd
+
+
+(Member of the Sun Hung Kai Properties Group)
+
+
+PMC Licence Number: C-499163
+
+
+By upholding the core value “Building Homes with Heart” from our parent company, we have thrived and become one of the largest and most reputable property management companies in Hong Kong and managing over 135 million sq ft of properties including shopping centers, office towers, residential and industrial buildings. To meet our growing business needs, we are looking for energetic professionals to deliver excellent services for our customers.
+
+
+[Application Deadline: 24 May 2026]
+
+
+What is Engineering Graduate Trainee about?
+
+
+
+2 years of training program under The Hong Kong Institution of Engineers (HKIE) Accredited Scheme “A” Training
+Post Engineering Graduate Trainee assessment scheme after completing the 2-year training program to guide the development of obtaining the professional qualification
+Responsible for technical job in properties such as works related to electrical & mechanical systems in the properties
+
+What is Surveying Graduate Trainee about?
+
+2 years of training program under The Hong Kong Institute of Surveyors (HKIS) Assessment of Professional Competence (APC) Training Scheme
+4 months of training and exposure in Government Buildings Department
+Eligible to apply The Hong Kong Institute of Surveyors (HKIS) professional membership after successful completion of Assessment of Professional Competence (APC)
+Responsible for technical job in properties such as works related to Building Elements & Components; Repairs & Maintenance; Building Control and Project Management
+
+Do you have a right profile?
+
+Applicants with less than 2 years’ full time working experiences
+Strong interest to develop career in facility / property management industry
+Good presentation, communication and analytical skills
+Proactive, outgoing, creative, enjoy team work, eager to take up challenges
+
+Engineering Graduate Trainee’s academic requirements
+
+Fulfil the academic', '', 'https://bebee.com/hk/jobs/engineering-graduate-trainee-scheme-a-surveying-graduate-trainee-kai-shing-management-services-ltd-k--theirstack-689699834?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs', '2026-07-01', NULL, 1, 'entry', '2026-07-01 13:43:28', '2026-07-01 13:43:28', 1, '<p>Kai Shing Management Services Ltd</p>
+<p>(Member of the Sun Hung Kai Properties Group)</p>
+<p>PMC Licence Number: C-499163</p>
+<p>By upholding the core value “Building Homes with Heart” from our parent company, we have thrived and become one of the largest and most reputable property management companies in Hong Kong and managing over 135 million sq ft of properties including shopping centers, office towers, residential and industrial buildings. To meet our growing business needs, we are looking for energetic professionals to deliver excellent services for our customers.</p>
+<p>[Application Deadline: 24 May 2026]</p>
+<h3 class="jd-section-header">What is Engineering Graduate Trainee about?</h3>
+<p>2 years of training program under The Hong Kong Institution of Engineers (HKIE) Accredited Scheme “A” Training Post Engineering Graduate Trainee assessment scheme after completing the 2-year training program to guide the development of obtaining the professional qualification Responsible for technical job in properties such as works related to electrical &amp; mechanical systems in the properties</p>
+<h3 class="jd-section-header">What is Surveying Graduate Trainee about?</h3>
+<p>2 years of training program under The Hong Kong Institute of Surveyors (HKIS) Assessment of Professional Competence (APC) Training Scheme 4 months of training and exposure in Government Buildings Department Eligible to apply The Hong Kong Institute of Surveyors (HKIS) professional membership after successful completion of Assessment of Professional Competence (APC) Responsible for technical job in properties such as works related to Building Elements &amp; Components; Repairs &amp; Maintenance; Building Control and Project Management</p>
+<p>Do you have a right profile?</p>
+<p>Applicants with less than 2 years’ full time working experiences Strong interest to develop career in facility / property management industry Good presentation, communication and analytical skills Proactive, outgoing, creative, enjoy team work, eager to take up challenges</p>
+<p>Engineering Graduate Trainee’s academic requirements</p>
+<p>Fulfil the academic</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (111, '280f5b749117523b', 'Assistant Building Surveyor - APC Training & Project Outlook', 'Leadingnation', 'building_surveying', 'Hong Kong', '', 'Leadingnation is seeking a motivated Assistant Building Surveyor to join its consultancy team in Hong Kong. This role provides hands-on experience in building control, project management, and structural maintenance, along with support for professional training to achieve HKIS membership.
+The ideal candidate will possess a degree in Building Surveying or a related field, with 1–3 years of experience or be a fresh graduate with a strong academic record. Proficiency in AutoCAD and knowledge of BIM is advantageous.
+#J-18808-Ljbffr', '', 'https://hk.jobrapido.com/jobpreview/215052059790016512?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs', '1 month ago', NULL, 1, 'entry', '2026-07-01 13:43:28', '2026-07-01 13:43:28', 1, '<p>Leadingnation is seeking a motivated Assistant Building Surveyor to join its consultancy team in Hong Kong. This role provides hands-on experience in building control, project management, and structural maintenance, along with support for professional training to achieve HKIS membership. The ideal candidate will possess a degree in Building Surveying or a related field, with 1–3 years of experience or be a fresh graduate with a strong academic record. Proficiency in AutoCAD and knowledge of BIM is advantageous. #J-18808-Ljbffr</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (113, '5282fe0e585df821', 'Contract Land Surveyor: Field, GIS & Supervisory Support', 'Home Affairs Department', 'land_surveying', 'Hong Kong', '', 'A Contract Assistant Land Surveyor is mainly deployed to –
+
+carry out all types of land surveying (including geodetic, land boundary, topographical and photogrammetric surveys) and GIS/digital photogrammetry related work;supervise survey parties;supervise the preparation and production of all surveys and plans;assist Senior Land Surveyors/Land Surveyors in the day-to-day administration of the office;carry out any other duties as required by senior officers.', '', 'https://www.jobleads.com/hk/job/contract-land-surveyor-field-gis-supervisory-support--hong-kong--ebace7f42610dcc7df5c6341a67b076ef?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs', '7 days ago', NULL, 1, 'entry', '2026-07-01 13:43:35', '2026-07-01 13:43:35', 1, '<p>A Contract Assistant Land Surveyor is mainly deployed to –</p>
+<p>carry out all types of land surveying (including geodetic, land boundary, topographical and photogrammetric surveys) and GIS/digital photogrammetry related work;supervise survey parties;supervise the preparation and production of all surveys and plans;assist Senior Land Surveyors/Land Surveyors in the day-to-day administration of the office;carry out any other duties as required by senior officers.</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (114, 'e536e9cd3b41d885', 'Assistant Land Surveyor', 'ESRI CHINA (HONG KONG) LIMITED', 'land_surveying', 'Kowloon', '', 'Job Description:
+
+Assist in drafting engagement plans or documents to promote wider adoption of spatial data using state-of-art technology, e.g. artificial intelligence (AI); Assist in collaborating with tech ventures and stakeholders in the I&T field to develop and deliver geospatial AI sandbox prototypes; Assist in testing and validating the geospatial AI sandbox prototypes in real-life operating systems; Assist in exploring the possibilities of involving the private sector in delivering new demonstrative projects and to seek collaboration opportunities with business and/or the academics; Taking part in various capacity building and engagement activities; Comprehensive and hands-on training will be provided; and Successful candidate is required to work at the client site and will be offered a contract-based position subject to renewal.
+Requirements:
+
+Degree in Land Surveying, Geomatics, Geo-Informatics or a related discipline;  A qualification recognised by the Hong Kong Institute of Surveyors (HKIS) as satisfying the academic requirements for corporate membership in the Land Surveying Division; Successfully completed a 2-year graduate training scheme recognised by the HKIS or equivalent;Level 2 or above in Chinese Language and English Language in the Hong Kong Diploma of Secondary Education Examination (HKDSEE), or Grade E or above in the Hong Kong Certificate of Education Examination (HKCEE), or equivalent; andGood command of both spoken and written Chinese and English.
+We offer five-day work week, attractive career opportunities, remuneration and benefits to the right candidates.  Interested applicants, please submit detailed resume with current & expected salary and date of availability to our Human Resources Department via e-mail to job@esrichina.hk. 
+
+(For more information about our Company, please visit our website www.esrichina.hk )
+
+(Application received will be treated in strict confidence and will be used exclusively for recruitment related purposes.)', '', 'https://www.cpjobs.com/hk/job/assistant-land-surveyor-4263021?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs', '27 days ago', NULL, 1, 'entry', '2026-07-01 13:43:35', '2026-07-01 13:43:35', 1, '<h3 class="jd-section-header">Job Description</h3>
+<ul class="jd-list"><li>Assist in drafting engagement plans or documents to promote wider adoption of spatial data using state-of-art technology, e.g. artificial intelligence (AI); Assist in collaborating with tech ventures and stakeholders in the I&amp;T field to develop and deliver geospatial AI sandbox prototypes; Assist in testing and validating the geospatial AI sandbox prototypes in real-life operating systems; Assist in exploring the possibilities of involving the private sector in delivering new demonstrative projects and to seek collaboration opportunities with business and/or the academics; Taking part in various capacity building and engagement activities; Comprehensive and hands-on training will be provided; and Successful candidate is required to work at the client site and will be offered a contract-based position subject to renewal.</li></ul>
+<h3 class="jd-section-header">Requirements</h3>
+<p>Degree in Land Surveying, Geomatics, Geo-Informatics or a related discipline;  A qualification recognised by the Hong Kong Institute of Surveyors (HKIS) as satisfying the academic requirements for corporate membership in the Land Surveying Division; Successfully completed a 2-year graduate training scheme recognised by the HKIS or equivalent;Level 2 or above in Chinese Language and English Language in the Hong Kong Diploma of Secondary Education Examination (HKDSEE), or Grade E or above in the Hong Kong Certificate of Education Examination (HKCEE), or equivalent; andGood command of both spoken and written Chinese and English. We offer five-day work week, attractive career opportunities, remuneration and benefits to the right candidates.  Interested applicants, please submit detailed resume with current &amp; expected salary and date of availability to our Human Resources Department via e-mail to job@esrichina.hk.</p>
+<p>(For more information about our Company, please visit our website www.esrichina.hk )</p>
+<p>(Application received will be treated in strict confidence and will be used exclusively for recruitment related purposes.)</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (115, 'ed3a4b378f208a42', 'Engineering / Surveying Graduate Trainee [Deadline: 24 May 2026]', 'Kai Shing Management Services Ltd', 'land_surveying', 'Hong Kong', '', 'Kai Shing Management Services Ltd
+
+
+(Member of the Sun Hung Kai Properties Group)
+
+
+PMC Licence Number: C-499163
+
+
+By upholding the core value “Building Homes with Heart” from our parent company, we have thrived and become one of the largest and most reputable property management companies in Hong Kong and managing over 135 million sq ft of properties including shopping centers, office towers, residential and industrial buildings. To meet our growing business needs, we are looking for energetic professionals to deliver excellent services for our customers.
+
+
+[Application Deadline: 24 May 2026]
+
+
+What is Engineering Graduate Trainee about?
+
+
+
+2 years of training program under The Hong Kong Institution of Engineers (HKIE) Accredited Scheme “A” Training
+Post Engineering Graduate Trainee assessment scheme after completing the 2-year training program to guide the development of obtaining the professional qualification
+Responsible for technical job in properties such as works related to electrical & mechanical systems in the properties
+
+What is Surveying Graduate Trainee about?
+
+2 years of training program under The Hong Kong Institute of Surveyors (HKIS) Assessment of Professional Competence (APC) Training Scheme
+4 months of training and exposure in Government Buildings Department
+Eligible to apply The Hong Kong Institute of Surveyors (HKIS) professional membership after successful completion of Assessment of Professional Competence (APC)
+Responsible for technical job in properties such as works related to Building Elements & Components; Repairs & Maintenance; Building Control and Project Management
+
+Do you have a right profile?
+
+Applicants with less than 2 years’ full time working experiences
+Strong interest to develop career in facility / property management industry
+Good presentation, communication and analytical skills
+Proactive, outgoing, creative, enjoy team work, eager to take up challenges
+
+Engineering Graduate Trainee’s academic requirements
+
+Fulfil the academic', '', 'https://bebee.com/hk/jobs/engineering-surveying-graduate-trainee-deadline-24-may-2026-kai-shing-management-services-ltd-kwun-t--theirstack-685509526?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs', '2026-07-01', NULL, 1, 'entry', '2026-07-01 13:43:35', '2026-07-01 13:43:35', 1, '<p>Kai Shing Management Services Ltd</p>
+<p>(Member of the Sun Hung Kai Properties Group)</p>
+<p>PMC Licence Number: C-499163</p>
+<p>By upholding the core value “Building Homes with Heart” from our parent company, we have thrived and become one of the largest and most reputable property management companies in Hong Kong and managing over 135 million sq ft of properties including shopping centers, office towers, residential and industrial buildings. To meet our growing business needs, we are looking for energetic professionals to deliver excellent services for our customers.</p>
+<p>[Application Deadline: 24 May 2026]</p>
+<h3 class="jd-section-header">What is Engineering Graduate Trainee about?</h3>
+<p>2 years of training program under The Hong Kong Institution of Engineers (HKIE) Accredited Scheme “A” Training Post Engineering Graduate Trainee assessment scheme after completing the 2-year training program to guide the development of obtaining the professional qualification Responsible for technical job in properties such as works related to electrical &amp; mechanical systems in the properties</p>
+<h3 class="jd-section-header">What is Surveying Graduate Trainee about?</h3>
+<p>2 years of training program under The Hong Kong Institute of Surveyors (HKIS) Assessment of Professional Competence (APC) Training Scheme 4 months of training and exposure in Government Buildings Department Eligible to apply The Hong Kong Institute of Surveyors (HKIS) professional membership after successful completion of Assessment of Professional Competence (APC) Responsible for technical job in properties such as works related to Building Elements &amp; Components; Repairs &amp; Maintenance; Building Control and Project Management</p>
+<p>Do you have a right profile?</p>
+<p>Applicants with less than 2 years’ full time working experiences Strong interest to develop career in facility / property management industry Good presentation, communication and analytical skills Proactive, outgoing, creative, enjoy team work, eager to take up challenges</p>
+<p>Engineering Graduate Trainee’s academic requirements</p>
+<p>Fulfil the academic</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (116, 'd8b7f31aeac965ca', 'Building Surveyor / Assistant Building Surveyor', 'RS Surveyors Limited', 'building_surveying', 'Hong Kong', '', 'Responsibilities: 
+
+Provide clients with quality project management and building surveying services;
+
+Projects would include, but not limited to alteration and addition, maintenance, survey, and fitting-out work in Hong Kong; and
+
+Work as a team in handling projects with the presence of qualified building surveyors.
+
+ Requirements: 
+
+Diploma / Higher Diploma / Degree in Building Surveying or graduate from related disciplines;
+
+Fluency in spoken and written English and Chinese;
+
+Proficiency in using computer skills, AutoCAD and MS Office;
+
+Highly motivated and able to work independently.
+
+Able to work overtime and under pressure
+
+Experienced over one year;
+
+Requirements for Building Surveyor : Experienced over five years and HKIS Chartered Building Surveyor are preferred.', '', 'https://jobs.ctgoodjobs.hk/job/10138791/building-surveyor-assistant-building-surveyor?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs', '27 days ago', NULL, 1, 'entry', '2026-07-01 13:43:35', '2026-07-01 13:43:35', 1, '<h3 class="jd-section-header">Responsibilities</h3>
+<ul class="jd-list"><li>Provide clients with quality project management and building surveying services;</li></ul>
+<p>Projects would include, but not limited to alteration and addition, maintenance, survey, and fitting-out work in Hong Kong; and</p>
+<p>Work as a team in handling projects with the presence of qualified building surveyors.</p>
+<h3 class="jd-section-header">Requirements</h3>
+<p>Diploma / Higher Diploma / Degree in Building Surveying or graduate from related disciplines;</p>
+<p>Fluency in spoken and written English and Chinese;</p>
+<p>Proficiency in using computer skills, AutoCAD and MS Office;</p>
+<p>Highly motivated and able to work independently.</p>
+<p>Able to work overtime and under pressure</p>
+<p>Experienced over one year;</p>
+<h3 class="jd-section-header">Requirements</h3>
+<ul class="jd-list"><li>for Building Surveyor : Experienced over five years and HKIS Chartered Building Surveyor are preferred.</li></ul>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (117, 'bf46d00bdc74a4d5', 'Surveyor 測量員', 'U-Win Construction & Engineering Company', 'land_surveying', 'Kowloon', '', 'Job Responsibilities
+
+
+
+Land surveying
+Setting out on-site
+Take as-built record, produce as-built drawings
+
+Job Requirements
+
+
+
+Use of AutoCAD/Microstation
+Diploma or above in Land Surveying
+Valid driving license
+Good command of written and spoken in English and Chinese
+At least 2 years of relevant experiences
+Candidate with less experience & qualification will be considered as Assistant Surveyor
+
+We offer attractive remuneration package to the right candidate. Please send resume with expected salary, exiting salary and date of availability to Human Resources Department, U-Win Construction & Engineering Company Limited, Unit 3, 10/F, New Trend Centre, 104 King Fuk Street, San Po Kong, Kowloon or send email to admin@uwinhk.com.
+
+
+
+Personal data collected will be treated in strictest confidence and used for recruitment related purposes only.', '', 'https://www.glassdoor.com.hk/job-listing/surveyor-%E6%B8%AC%E9%87%8F%E5%93%A1-u-win-enterprises-JV_IC2312071_KO0,12_KE13,30.htm?jl=1008017359004&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs', '5 days ago', NULL, 1, 'entry', '2026-07-01 13:43:35', '2026-07-01 13:43:35', 1, '<p>Job Responsibilities</p>
+<p>Land surveying Setting out on-site Take as-built record, produce as-built drawings</p>
+<h3 class="jd-section-header">Job Requirements</h3>
+<ul class="jd-list"><li>Use of AutoCAD/Microstation</li><li>Diploma or above in Land Surveying</li><li>Valid driving license</li><li>Good command of written and spoken in English and Chinese</li><li>At least 2 years of relevant experiences</li></ul>
+<p>Candidate with less experience &amp; qualification will be considered as Assistant Surveyor</p>
+<p>We offer attractive remuneration package to the right candidate. Please send resume with expected salary, exiting salary and date of availability to Human Resources Department, U-Win Construction &amp; Engineering Company Limited, Unit 3, 10/F, New Trend Centre, 104 King Fuk Street, San Po Kong, Kowloon or send email to admin@uwinhk.com.</p>
+<p>Personal data collected will be treated in strictest confidence and used for recruitment related purposes only.</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (118, 'c280462e19901e2c', 'Assistant Project Surveyor (Land Surveying)', 'LAB（SGS Group的子公司）', 'land_surveying', 'Yuen Long', '', 'Duties & Responsibilities Responsible for setting up, planning and execution of in-situ survey projects in construction sites. Duties include but not limited to conducting site surveys, analyzing data, maintaining equipment and meeting with clients and collaboration with professionalsManage sub-contractorsHandle remote monitoring worksImplement latest monitoring technology and IoT solutionsResponsible for field coordination works, writing reports, review and summariesInform relevant stakeholders of potential problems or outcomes that may influence the performance of projectPerform ad-hoc duties and assignments as assigned by the Superior Requirements/Qualifications Higher Diploma / Associate Degree or Bachelor''s degree in Land Surveying or equivalentPossess one year of relevant work experience in field coordinationFamiliar with construction site practice is a must Good interpersonal, communication and organizational skillsFlexible and be able to work independentlyBe acutely aware and respond to safety issuesProficiency in both spoken and written English and ChineseFresh graduates are welcome to applyAs a caring company, we not only offer a competitive remuneration package but also offer staff caring benefits to the right candidate. Join us now!', '', 'https://m.offertoday.com/en/job/dtIUNGMtnpbQHfxAhhFgyQ==?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs', 'HK$22K–HK$25K a month', NULL, 1, 'experienced', '2026-07-01 13:43:35', '2026-07-01 13:43:35', 1, '<h3 class="jd-section-header">Duties &amp; Responsibilities</h3>
+<ul class="jd-list"><li>Responsible for setting up, planning and execution of in-situ survey projects in construction sites. Duties include but not limited to conducting site surveys, analyzing data, maintaining equipment and meeting with clients and collaboration with professionalsManage sub-contractorsHandle remote monitoring worksImplement latest monitoring technology and IoT solutionsResponsible for field coordination works, writing reports, review and summariesInform relevant stakeholders of potential problems or outcomes that may influence the performance of projectPerform ad-hoc duties and assignments as assigned by the Superior Requirements/Qualifications Higher Diploma / Associate Degree or Bachelor&#x27;s degree in Land Surveying or equivalentPossess one year of relevant work experience in field coordinationFamiliar with construction site practice is a must Good interpersonal, communication and organizational skillsFlexible and be able to work independentlyBe acutely aware and respond to safety issuesProficiency in both spoken and written English and ChineseFresh graduates are welcome to applyAs a caring company, we not only offer a competitive remuneration package but also offer staff caring benefits to the right candidate. Join us now!</li></ul>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (120, '235a6a4c11edca96', 'Geospatial AI Assistant Surveyor', 'Leadingnation', 'land_surveying', 'Hong Kong', '', 'Leadingnation in Hong Kong is seeking candidates to assist with the adoption of spatial data through cutting-edge technology. Responsibilities include collaborating with stakeholders to develop and validate geospatial AI prototypes. Candidates should have a degree in Land Surveying, Geomatics, or related fields and be fluent in Chinese and English. We offer a five-day work week and attractive career opportunities along with competitive remuneration and benefits.', '', 'https://www.jobleads.com/hk/job/geospatial-ai-assistant-surveyor--hong-kong--e4bf23a58c62372baf7de6a98a95dfb38?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs', '11 days ago', NULL, 1, 'entry', '2026-07-01 13:43:40', '2026-07-01 13:43:40', 1, '<p>Leadingnation in Hong Kong is seeking candidates to assist with the adoption of spatial data through cutting-edge technology. Responsibilities include collaborating with stakeholders to develop and validate geospatial AI prototypes. Candidates should have a degree in Land Surveying, Geomatics, or related fields and be fluent in Chinese and English. We offer a five-day work week and attractive career opportunities along with competitive remuneration and benefits.</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (121, '72e6632b75aabd9d', 'Land Surveying and Geo-Informatics', '香港理工大学', 'land_surveying', 'Hung Hom', '', 'Introduction
+
+
+
+
+
+
+Established in 1984, the Department of Land Surveying and Geo-Informatics (LSGI) is the only academic unit amongst the local tertiary institutions offering a range of opportunities for education, training and research in the fields of Land Surveying and Geo-Informatics (or Geomatics). The Department has close links with both international and local academic institutions and the professions. By maintaining links with the local professional community through our community service and consultancy activities, our courses and research are oriented towards the needs of Hong Kong.
+
+
+
+
+
+
+
+
+The Department has identified Urban Informatics and Smart City as its strategic area, with three corresponding focused research directions: a) spatial big data modelling and analytics; b) smart positioning and smart mobility; and c) urban sensing and measurement. As a regional centre of excellence in geomatics research, LSGI is comparable with international reputed academic units in the discipline, as evidenced by both the quantity and quality of the research produced and research grants received.
+
+
+
+
+
+
+
+
+General Entrance Requirements
+
+
+
+
+
+
+
+
+To register for the degree of MPhil, a student must hold:
+
+
+
+
+
+
+
+
+
+A Bachelor’s degree with first or second class honours from a recognised university; OR
+Other academic qualifications which are deemed to be equivalent.
+
+
+
+
+
+
+
+To register for the degree of PhD, a student must normally hold a postgraduate degree containing a significant research component, such as a dissertation, conferred by a recognised university.
+
+
+
+
+
+
+
+
+In exceptional circumstances, applicants other than those stipulated above may be admitted directly to the PhD programme.  For example, applicants with a Bachelor’s degree with First Class Honours, or the equivalent.  Such applicants may be required to pass an examination.
+
+
+
+
+
+
+
+
+PolyU may accept other equivalent qualifications.  The decision is made on an individual basis.
+
+
+
+
+
+
+
+
+English Language Requirements', '', 'https://kdphd.com/job/land-surveying-and-geo-informatics?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs', '2026-07-01', NULL, 1, 'entry', '2026-07-01 13:43:40', '2026-07-01 13:43:40', 1, '<p>Introduction</p>
+<p>Established in 1984, the Department of Land Surveying and Geo-Informatics (LSGI) is the only academic unit amongst the local tertiary institutions offering a range of opportunities for education, training and research in the fields of Land Surveying and Geo-Informatics (or Geomatics). The Department has close links with both international and local academic institutions and the professions. By maintaining links with the local professional community through our community service and consultancy activities, our courses and research are oriented towards the needs of Hong Kong.</p>
+<p>The Department has identified Urban Informatics and Smart City as its strategic area, with three corresponding focused research directions: a) spatial big data modelling and analytics; b) smart positioning and smart mobility; and c) urban sensing and measurement. As a regional centre of excellence in geomatics research, LSGI is comparable with international reputed academic units in the discipline, as evidenced by both the quantity and quality of the research produced and research grants received.</p>
+<h3 class="jd-section-header">General Entrance Requirements</h3>
+<ul class="jd-list"><li>To register for the degree of MPhil, a student must hold:</li></ul>
+<p>A Bachelor’s degree with first or second class honours from a recognised university; OR Other academic qualifications which are deemed to be equivalent.</p>
+<p>To register for the degree of PhD, a student must normally hold a postgraduate degree containing a significant research component, such as a dissertation, conferred by a recognised university.</p>
+<p>In exceptional circumstances, applicants other than those stipulated above may be admitted directly to the PhD programme.  For example, applicants with a Bachelor’s degree with First Class Honours, or the equivalent.  Such applicants may be required to pass an examination.</p>
+<p>PolyU may accept other equivalent qualifications.  The decision is made on an individual basis.</p>
+<h3 class="jd-section-header">English Language Requirements</h3>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (122, '7f12df2afea7fbdb', 'Engineering Graduate Trainee (HKIE Training Scheme “A”) / Surveying Graduate Trainee 2026 (Building Surveying) [Deadline: 24 May 2026]', 'Kai Shing Management Services Ltd', 'building_surveying', 'Hong Kong', '', 'Kai Shing Management Services Limited
+
+
+(Member of the Sun Hung Kai Properties Group)
+
+
+PMC Licence Number: C-499163
+
+
+By upholding the core value “Building Homes with Heart” from our parent company, we have thrived and become one of the largest and most reputable property management companies in Hong Kong and managing over 135 million sq ft of properties including shopping centers, office towers, residential and industrial buildings. To meet our growing business needs, we are looking for energetic professionals to deliver excellent services for our customers.
+
+
+Do you enjoy working in a reputable and engaged team?
+
+
+Are you an excellence seeker?
+
+
+Are you ready to build your professional career?
+
+
+If all your answers are positive, come and be a part of us!
+
+
+[Application Deadline: 24 May 2026]
+
+
+What is Engineering Graduate Trainee about?
+
+
+2 years of training program under The Hong Kong Institution of Engineers (HKIE) Accredited Scheme “A” Training
+
+
+Post Engineering Graduate Trainee assessment scheme after completing the 2-year training program to guide the development of obtaining the professional qualification
+
+
+Responsible for technical job in properties such as works related to electrical & mechanical systems in the properties
+
+
+What is Surveying Graduate Trainee about?
+
+
+2 years of training program under The Hong Kong Institute of Surveyors (HKIS) Assessment of Professional Competence (APC) Training Scheme
+
+
+4 months of training and exposure in Government Buildings Department
+
+
+Eligible to apply The Hong Kong Institute of Surveyors (HKIS) professional membership after successful completion of Assessment of Professional Competence (APC)
+
+
+Responsible for technical job in properties such as works related to Building Elements & Components; Repairs & Maintenance; Building Control and Project Management
+
+
+Do you have a right profile?
+
+
+Applicants with less than 2 years’ full time working experiences
+
+
+Strong interest to develop career in facility / property manag', '', 'https://bebee.com/hk/jobs/engineering-graduate-trainee-hkie-training-scheme-a-surveying-graduate-trainee-2026-building-surveyi--theirstack-687405915?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs', '2026-07-01', NULL, 1, 'entry', '2026-07-01 13:43:58', '2026-07-01 13:43:58', 1, '<p>Kai Shing Management Services Limited</p>
+<p>(Member of the Sun Hung Kai Properties Group)</p>
+<p>PMC Licence Number: C-499163</p>
+<p>By upholding the core value “Building Homes with Heart” from our parent company, we have thrived and become one of the largest and most reputable property management companies in Hong Kong and managing over 135 million sq ft of properties including shopping centers, office towers, residential and industrial buildings. To meet our growing business needs, we are looking for energetic professionals to deliver excellent services for our customers.</p>
+<p>Do you enjoy working in a reputable and engaged team?</p>
+<p>Are you an excellence seeker?</p>
+<p>Are you ready to build your professional career?</p>
+<p>If all your answers are positive, come and be a part of us!</p>
+<p>[Application Deadline: 24 May 2026]</p>
+<h3 class="jd-section-header">What is Engineering Graduate Trainee about?</h3>
+<p>2 years of training program under The Hong Kong Institution of Engineers (HKIE) Accredited Scheme “A” Training</p>
+<p>Post Engineering Graduate Trainee assessment scheme after completing the 2-year training program to guide the development of obtaining the professional qualification</p>
+<p>Responsible for technical job in properties such as works related to electrical &amp; mechanical systems in the properties</p>
+<h3 class="jd-section-header">What is Surveying Graduate Trainee about?</h3>
+<p>2 years of training program under The Hong Kong Institute of Surveyors (HKIS) Assessment of Professional Competence (APC) Training Scheme</p>
+<p>4 months of training and exposure in Government Buildings Department</p>
+<p>Eligible to apply The Hong Kong Institute of Surveyors (HKIS) professional membership after successful completion of Assessment of Professional Competence (APC)</p>
+<p>Responsible for technical job in properties such as works related to Building Elements &amp; Components; Repairs &amp; Maintenance; Building Control and Project Management</p>
+<p>Do you have a right profile?</p>
+<p>Applicants with less than 2 years’ full time working experiences</p>
+<p>Strong interest to develop career in facility / property manag</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (124, '19a067ea9bfc8077', 'Quantity Surveyor - 2026 Graduate Program', 'Rider Levett Bucknall Limited', 'quantity_surveying', 'Hong Kong', '', 'Rider Levett Bucknall Limited 
+
+Rider Levett Bucknall Limited (RLB) is a leading global consultancy specializing in construction cost management and quantity surveying and has a global presence with 4,500 people operating from more than 120 offices across the world. In North Asia region we employ over 1,100 people with headquarters in Hong Kong and offices in Macau and major cities in Mainland China.
+
+ Quantity Surveyor - 2026 Graduate Program 
+
+ Responsibilities 
+
+Carry out general consultant Quantity Surveying duties in both pre and post contract stages including cost estimates, tender documentation, tender analysis, valuation of variations, interim payment valuation, measurement of quantities, reviewing contractors’ quotations and claims, negotiation and settlement of final accounts, etc.
+
+Attend project meetings, tender interview, site inspections, visits and site meetings when required
+
+Collaborate and maintain an amicable working relationship with the Client, project team and other project stakeholders
+
+Ensure that deliverables complying with QA standards and records are properly stored
+
+ Requirements 
+
+2026 graduates with a Master’s or Bachelor''s degree in relevant disciplines
+
+Preferably with internship experience in related field but not a must
+
+Good command of spoken and written English and Chinese
+
+Good inter-personal and communication skills
+
+Team player with a good attitude
+
+Remuneration package shall be commensurate with qualifications and experience of successful candidates. Interested parties please send application with full resume, copy of testimonials from previous employers, copy of certificates of qualification, details of present and expected salary to the  Human Resources Department, 15/F, The Bay Hub, 17 Kai Cheung Road, Kowloon Bay, Hong Kong  or e-mail to  [via CTgoodjobs Apply Now]. 
+
+All personal data provided by applicants will be treated strictly confidential and used only for recruitment-related purposes.', '', 'https://jobs.ctgoodjobs.hk/job/10164026/quantity-surveyor-2026-graduate-program?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_CTgoodjobs.hk', '6 days ago', NULL, 1, 'entry', '2026-07-02 00:00:33', '2026-07-02 00:00:33', 1, '<p>Rider Levett Bucknall Limited</p>
+<p>Rider Levett Bucknall Limited (RLB) is a leading global consultancy specializing in construction cost management and quantity surveying and has a global presence with 4,500 people operating from more than 120 offices across the world. In North Asia region we employ over 1,100 people with headquarters in Hong Kong and offices in Macau and major cities in Mainland China.</p>
+<p>Quantity Surveyor - 2026 Graduate Program</p>
+<h3 class="jd-section-header">Responsibilities</h3>
+<ul class="jd-list"><li>Carry out general consultant Quantity Surveying duties in both pre and post contract stages including cost estimates, tender documentation, tender analysis, valuation of variations, interim payment valuation, measurement of quantities, reviewing contractors’ quotations and claims, negotiation and settlement of final accounts, etc.</li><li>Attend project meetings, tender interview, site inspections, visits and site meetings when required</li><li>Collaborate and maintain an amicable working relationship with the Client, project team and other project stakeholders</li><li>Ensure that deliverables complying with QA standards and records are properly stored</li></ul>
+<h3 class="jd-section-header">Requirements</h3>
+<ul class="jd-list"><li>2026 graduates with a Master’s or Bachelor&#x27;s degree in relevant disciplines</li><li>Preferably with internship experience in related field but not a must</li><li>Good command of spoken and written English and Chinese</li><li>Good inter-personal and communication skills</li><li>Team player with a good attitude</li></ul>
+<h3 class="jd-section-header">Remuneration</h3>
+<ul class="jd-list"><li>package shall be commensurate with qualifications and experience of successful candidates. Interested parties please send application with full resume, copy of testimonials from previous employers, copy of certificates of qualification, details of present and expected salary to the  Human Resources Department, 15/F, The Bay Hub, 17 Kai Cheung Road, Kowloon Bay, Hong Kong  or e-mail to  [via CTgoodjobs Apply Now].</li></ul>
+<p>All personal data provided by applicants will be treated strictly confidential and used only for recruitment-related purposes.</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (125, '012faab26a568fc5', 'Graduate Quantity Surveyor', 'Chunwo', 'quantity_surveying', 'Hong Kong', '', 'Select how often (in days) to receive an alert: 
+
+ Working Time: Full Time 
+
+ Company Overview  Asia Allied Infrastructure Holdings Limited (”Asia Allied infrastructure”, “AAI” or “the Group”; stock code: 00711.HK) was founded in 1968, operating construction engineering business initially. In 1993, AAI was listed on the Main Board of The Stock Exchange of Hong Kong. Since then, the Group has entered the mainland Chinese and overseas markets and expanded its scope of business into property development and investment, security services and property management, non-franchised bus services and other sectors. After years of hard work and rapid development, the Group has over 6,000 employees now. 
+ Chun Wo Construction Holdings Company Limited ("Chun Wo"), a core member of AAI, is a local contractor and construction engineering company with a long history. In the beginning, Chun Wo mainly undertook building projects for the government and private sector; it started to participate in railway construction and civil engineering projects in the 70s; By the 90s, it became one of the few local contractors to hold ﬁve types of registration and qualiﬁcation to work on public projects. In 2017, Chun Wo secured the “Design and Construction of the Aqueduct“ contract in the Philippines, expanding the construction engineering business to overseas markets around the Belt and Road. 
+
+ Responsibilities  Ensure correspondence and records in connection with contract receipts and payment;  Liaise with other departments in respect of the progress and contracts;  Measure work done of sub-contractors;  Prepare cost / valuation comparisons;  Contract administration.  Requirements  Degree or above in Quantity Surveying or equivalent;  Fresh graduate will also be considered;  Good communication and interpersonal skills;  Good command of English and Chinese;  Well-versed in MS Office.  Contact  Please contact 查看click.appcast.io上的电子邮件地址 for any technical problems. 
+
+#J-18808-Ljbffr', '', 'https://hk.jooble.org/jdp/-9155792670802304119?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Jooble HK', '5 days ago', NULL, 1, 'entry', '2026-07-02 00:00:33', '2026-07-02 00:00:33', 1, '<p>Select how often (in days) to receive an alert:</p>
+<p>Working Time: Full Time</p>
+<p>Company Overview  Asia Allied Infrastructure Holdings Limited (”Asia Allied infrastructure”, “AAI” or “the Group”; stock code: 00711.HK) was founded in 1968, operating construction engineering business initially. In 1993, AAI was listed on the Main Board of The Stock Exchange of Hong Kong. Since then, the Group has entered the mainland Chinese and overseas markets and expanded its scope of business into property development and investment, security services and property management, non-franchised bus services and other sectors. After years of hard work and rapid development, the Group has over 6,000 employees now. Chun Wo Construction Holdings Company Limited (&quot;Chun Wo&quot;), a core member of AAI, is a local contractor and construction engineering company with a long history. In the beginning, Chun Wo mainly undertook building projects for the government and private sector; it started to participate in railway construction and civil engineering projects in the 70s; By the 90s, it became one of the few local contractors to hold ﬁve types of registration and qualiﬁcation to work on public projects. In 2017, Chun Wo secured the “Design and Construction of the Aqueduct“ contract in the Philippines, expanding the construction engineering business to overseas markets around the Belt and Road.</p>
+<h3 class="jd-section-header">Responsibilities</h3>
+<ul class="jd-list"><li>Ensure correspondence and records in connection with contract receipts and payment;  Liaise with other departments in respect of the progress and contracts;  Measure work done of sub-contractors;  Prepare cost / valuation comparisons;  Contract administration.  Requirements  Degree or above in Quantity Surveying or equivalent;  Fresh graduate will also be considered;  Good communication and interpersonal skills;  Good command of English and Chinese;  Well-versed in MS Office.  Contact  Please contact 查看click.appcast.io上的电子邮件地址 for any technical problems.</li><li>#J-18808-Ljbffr</li></ul>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (126, '8a078f25054ceb4b', 'Dynamic Quantity Surveying Summer Internship – HK', 'Turner', 'quantity_surveying', 'Hong Kong', '', 'Turner- in Hong Kong is offering a Summer Internship for 2026 in Quantity Surveying. The successful candidate will engage in various tasks such as conducting background research, estimating cost plans, and liaising with clients and contractors. This internship is aimed at current undergraduate students in relevant disciplines, who possess good communication skills and are eager to learn. Join us to transform challenges into opportunities and make a real impact in the industry.', '', 'https://bebee.com/hk/jobs/dynamic-quantity-surveying-summer-internship-hk-turner-hong-kong--techmap_hk_3cd59778cd6ec2228aa9614d45774987?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_BeBee', '27 days ago', NULL, 1, 'entry', '2026-07-02 00:01:29', '2026-07-02 00:01:29', 1, '<p>Turner- in Hong Kong is offering a Summer Internship for 2026 in Quantity Surveying. The successful candidate will engage in various tasks such as conducting background research, estimating cost plans, and liaising with clients and contractors. This internship is aimed at current undergraduate students in relevant disciplines, who possess good communication skills and are eager to learn. Join us to transform challenges into opportunities and make a real impact in the industry.</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (127, '4bc3aa63d3820a76', 'Quantity Surveyor', 'Currie & Brown', 'quantity_surveying', 'Hong Kong', NULL, 'Who is Turner & Townsend?
+
+
+
+Turner & Townsend is a global professional services company with over 22,000 people in more than 60 countries.
+
+Working with our clients across real estate, infrastructure, energy and natural resources, we transform together delivering outcomes that improve people’s lives. Working in partnership makes it possible to deliver the world’s most impactful projects and programmes as we turn challenge into opportunity and complexity into success.
+
+Our capabilities include programme, project, cost, asset and commercial management, controls and performance, procurement and supply chain, net zero and digital solutions.
+
+We are majority-owned by CBRE Group, Inc., the world’s largest commercial real estate services and investment firm, with our partners holding a significant minority interest. Turner & Townsend and CBRE work together to provide clients with the premier programme, project and cost management offering in markets around the world.
+
+Please visit our website: www.turnerandtownsend.com
+
+
+
+
+
+Job Description
+
+Role Overview
+
+
+
+As a Senior Cost Manager in Cost Management, you will be responsible for leading the execution of cost management services for construction projects, ensuring cost control and quality objectives are met. You are expected to lead cost management project teams and/ or key cost management roles, and coordinate with clients and stakeholders and foster a collaborative and high-performing project environment. This role also includes commission management responsibilities overseeing invoicing processes and project compliance through D-365 to ensure financial accuracy and compliance.
+
+
+
+Key Responsibilities
+
+
+
+Team Leadership & Development
+
+
+
+Hold the highest level of professional integrity and business ethics. Contribute to a positive team culture by promoting open communication, mutual respect, and shared accountability. Demonstrate professionalism, reliability, and a proactive attitude in team interactions. Motivate team members, and drive towards positive client outcomes and meet deadlines in a fast-paced environment. Assist in onboarding new team members and helping them integrate into project workflows. Assist in conducting interviews for vacant positions in line with the team’s recruitment process and resource requirementsClient & Stakeholder Engagement
+
+
+
+Lead multidisciplinary project teams including clients, consultants, contractors, and suppliers. Build productive working relationships with internal and external stakeholders through consistent follow-up and responsiveness. Support conflict resolution and issue management by escalating appropriately and offering practical solutions. Facilitate effective communication and collaboration across all stakeholders through structured meetings, reporting, and documentation. Project Strategy & Planning
+
+
+
+Critically analyze, challenge and brainstorm project requirements and cost deliverables, in order to find creative solutions and alternatives on behalf o', '', 'https://hk.linkedin.com/jobs/view/quantity-surveyor-at-currie-brown-4425570182?position=2&pageNum=0&refId=ue8or8S6Y0aX9GPP5cMGlg%3D%3D&trackingId=8DiU4l7k3fY8CV%2BQT%2BvArw%3D%3D', 'linkedin', '2026-07-02', NULL, 1, 'entry', '2026-07-02 00:01:32', '2026-07-02 00:01:32', 1, '<p>Who is Turner &amp; Townsend?</p>
+<p>Turner &amp; Townsend is a global professional services company with over 22,000 people in more than 60 countries.</p>
+<p>Working with our clients across real estate, infrastructure, energy and natural resources, we transform together delivering outcomes that improve people’s lives. Working in partnership makes it possible to deliver the world’s most impactful projects and programmes as we turn challenge into opportunity and complexity into success.</p>
+<p>Our capabilities include programme, project, cost, asset and commercial management, controls and performance, procurement and supply chain, net zero and digital solutions.</p>
+<p>We are majority-owned by CBRE Group, Inc., the world’s largest commercial real estate services and investment firm, with our partners holding a significant minority interest. Turner &amp; Townsend and CBRE work together to provide clients with the premier programme, project and cost management offering in markets around the world.</p>
+<p>Please visit our website: www.turnerandtownsend.com</p>
+<h3 class="jd-section-header">Job Description</h3>
+<ul class="jd-list"><li>Role Overview</li></ul>
+<p>As a Senior Cost Manager in Cost Management, you will be responsible for leading the execution of cost management services for construction projects, ensuring cost control and quality objectives are met. You are expected to lead cost management project teams and/ or key cost management roles, and coordinate with clients and stakeholders and foster a collaborative and high-performing project environment. This role also includes commission management responsibilities overseeing invoicing processes and project compliance through D-365 to ensure financial accuracy and compliance.</p>
+<h3 class="jd-section-header">Key Responsibilities</h3>
+<ul class="jd-list"><li>Team Leadership &amp; Development</li></ul>
+<p>Hold the highest level of professional integrity and business ethics. Contribute to a positive team culture by promoting open communication, mutual respect, and shared accountability. Demonstrate professionalism, reliability, and a proactive attitude in team interactions. Motivate team members, and drive towards positive client outcomes and meet deadlines in a fast-paced environment. Assist in onboarding new team members and helping them integrate into project workflows. Assist in conducting interviews for vacant positions in line with the team’s recruitment process and resource requirementsClient &amp; Stakeholder Engagement</p>
+<p>Lead multidisciplinary project teams including clients, consultants, contractors, and suppliers. Build productive working relationships with internal and external stakeholders through consistent follow-up and responsiveness. Support conflict resolution and issue management by escalating appropriately and offering practical solutions. Facilitate effective communication and collaboration across all stakeholders through structured meetings, reporting, and documentation. Project Strategy &amp; Planning</p>
+<p>Critically analyze, challenge and brainstorm project requirements and cost deliverables, in order to find creative solutions and alternatives on behalf o</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (128, 'd0ac94ff19323bf6', 'QUANTITY SURVEYOR', 'Dragages Hong Kong Limited', 'quantity_surveying', 'Hong Kong', NULL, '', '', 'https://hk.linkedin.com/jobs/view/quantity-surveyor-at-dragages-hong-kong-limited-4350587399?position=16&pageNum=0&refId=ue8or8S6Y0aX9GPP5cMGlg%3D%3D&trackingId=SJBNhYKHNNeMrrUMYueM2A%3D%3D', 'linkedin', '2026-07-02', NULL, 1, 'entry', '2026-07-02 00:01:32', '2026-07-02 00:01:32', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (159, '5bf508967ca01780', 'Building Surveyor - Island Place', 'SWIRE PROPERTIES LIMITED', 'building_surveying', 'Hong Kong', '', '太古地產是領先的發展商、業主及營運商，發展及管理商業、零售、酒店及住宅物業，尤其專注於優越地段發展綜合物業項目，包括：香港、中國內地及美國邁阿密。我們秉持誠信為本、獨具創見、高瞻遠矚及注重品質的核心價值，以轉化城市面貌、建構蓬勃社區及為我們的持份者確保持續增長的價值為傲。我們著重創意的企業文化，引領我們創制更多嶄新的體驗。
+
+ABOUT THE TEAM
+
+We are Makers. Makers Required.
+
+We are Makers — people who care deeply about shaping places where life, work and nature can flourish together. Grounded in our heritage and united by a culture of trust and respect, we dare to take on ambitious ideas and turn them into something real — thoughtfully, collaboratively, and with care for the communities we serve. Our people are at the heart of it all: free to be themselves, driven to make a difference, and inspired to create alongside others. Brick by brick, we build vibrant, inclusive spaces that stand the test of time — because real progress comes from people who choose to make it happen.
+
+We are now looking for a talented Building Surveyor to be part of our dynamic team. Reporting to the Senior Building Engineer, the incumbent will be responsible for leading the building surveying team for the maintenance of the building fabrics of the residential properties and commercial tower in Island Place.
+
+RESPONSIBILITIES
+
+Plan, implement and monitor large-scaled maintenance works and major improvement worksResponsible for budget preparation, recommend maintenance strategies, oversee compliance with building regulations and supervising team membersResponsible for the maintenance and repair of the building fabrics, plumbing and drainage of residential properties and commercial towerSupervise the contractors and in-house techniciansMonitor the tendering and contract administrationHandle customers’ enquiries and complaintsPlan and implement alteration and addition works, renovation works, and fitting out worksAssist in budget preparationRecommend maintenance strategy, control and ensure all builders’ works are complied with the building regulationsREQUIREMENTS
+
+Degree in Building Surveying or graduate from related disciplinesQualified Professional Build', '', 'https://www.recruit.net/job/building-surveyor-island-place-jobs/4119408EBE48017F?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Recruit.net', '1 day ago', '', 0, 'experienced', '2026-07-02 04:03:01', '2026-07-02 04:03:01', 1, '<p>太古地產是領先的發展商、業主及營運商，發展及管理商業、零售、酒店及住宅物業，尤其專注於優越地段發展綜合物業項目，包括：香港、中國內地及美國邁阿密。我們秉持誠信為本、獨具創見、高瞻遠矚及注重品質的核心價值，以轉化城市面貌、建構蓬勃社區及為我們的持份者確保持續增長的價值為傲。我們著重創意的企業文化，引領我們創制更多嶄新的體驗。</p>
+<h3 class="jd-section-header">ABOUT THE TEAM</h3>
+<ul class="jd-list"><li>We are Makers. Makers Required.</li></ul>
+<p>We are Makers — people who care deeply about shaping places where life, work and nature can flourish together. Grounded in our heritage and united by a culture of trust and respect, we dare to take on ambitious ideas and turn them into something real — thoughtfully, collaboratively, and with care for the communities we serve. Our people are at the heart of it all: free to be themselves, driven to make a difference, and inspired to create alongside others. Brick by brick, we build vibrant, inclusive spaces that stand the test of time — because real progress comes from people who choose to make it happen.</p>
+<p>We are now looking for a talented Building Surveyor to be part of our dynamic team. Reporting to the Senior Building Engineer, the incumbent will be responsible for leading the building surveying team for the maintenance of the building fabrics of the residential properties and commercial tower in Island Place.</p>
+<h3 class="jd-section-header">RESPONSIBILITIES</h3>
+<p>Plan, implement and monitor large-scaled maintenance works and major improvement worksResponsible for budget preparation, recommend maintenance strategies, oversee compliance with building regulations and supervising team membersResponsible for the maintenance and repair of the building fabrics, plumbing and drainage of residential properties and commercial towerSupervise the contractors and in-house techniciansMonitor the tendering and contract administrationHandle customers’ enquiries and complaintsPlan and implement alteration and addition works, renovation works, and fitting out worksAssist in budget preparationRecommend maintenance strategy, control and ensure all builders’ works are complied with the building regulationsREQUIREMENTS</p>
+<p>Degree in Building Surveying or graduate from related disciplinesQualified Professional Build</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (160, 'e7b13ed5d37fdba5', 'Land Surveyor', 'MAX CHINA ENGINEERING LIMITED 豐華工程有限公司', 'land_surveying', 'Hong Kong', '', 'Employer Ref: DC/2022/06 LS (Kwai Chung Area)       Recruit Ref: L060539130    
+    Posting Date: 2026-06-19    
+
+   MAX CHINA ENGINEERING LIMITED 豐華工程有限公司
+
+  
+
+ Land Surveyor 
+
+          Responsibilities:
+
+         Administering a Geospatial Services and Land Survey Division;     Carrying out / checking all survey and mapping work;     Undertaking geographical information system related spatial data collection, input, updating and analysing work;     Supervising the preparation and production of survey plans and writing of survey reports;     Responsible for preparation of tender submissions;     Management of sub-contractors; and Training and supervising junior officers.        Requirements:
+
+         Degree in Geomatics / Land Surveying and Geoinformatics, from a Hong Kong polytechnic university, or equivalent;     Holder of a Chartered Membership professional status (e.g. HKIS, RICS) or equivalent as recognized by Land Surveying Ordinance     At least 5 years post-qualification professional training and working experience in the related field;     Met the language proficiency requirements of “Level 2” or above in Chinese Language and English     Language in the Hong Kong Diploma of Secondary Education Examination (HKDSEE) or the Hong Kong     Certificate of Education Examination (HKCEE), or equivalent;     Knowledge of and possession of experience in Geographical Information System (GIS) and Building Information     Modelling (BIM) would be an advantage;     Self-motivated, logical and systematic thinker;     A good team player with interests to work in a diverse and dynamic international culture;     Good command of spoken and written English and Chinese.             Please submit application with resume to            [via CTgoodjobs Apply Now]               
+      Industry:        Engineering / Electrical / Electronics         Job Category / Function:        Building / Architectural (Surveying)          Building / Architectural (Civil / Structural)         Job', '', 'https://jobs.ctgoodjobs.hk/job/10157746/land-surveyor?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_CTgoodjobs', '10 days ago', '', 0, 'experienced', '2026-07-02 04:03:04', '2026-07-02 04:03:04', 1, '<p>Employer Ref: DC/2022/06 LS (Kwai Chung Area)       Recruit Ref: L060539130 Posting Date: 2026-06-19</p>
+<h3 class="jd-section-header">MAX CHINA ENGINEERING LIMITED 豐華工程有限公司</h3>
+<ul class="jd-list"><li>Land Surveyor</li></ul>
+<h3 class="jd-section-header">Responsibilities</h3>
+<ul class="jd-list"><li>Administering a Geospatial Services and Land Survey Division;     Carrying out / checking all survey and mapping work;     Undertaking geographical information system related spatial data collection, input, updating and analysing work;     Supervising the preparation and production of survey plans and writing of survey reports;     Responsible for preparation of tender submissions;     Management of sub-contractors; and Training and supervising junior officers.        Requirements:</li><li>Degree in Geomatics / Land Surveying and Geoinformatics, from a Hong Kong polytechnic university, or equivalent;     Holder of a Chartered Membership professional status (e.g. HKIS, RICS) or equivalent as recognized by Land Surveying Ordinance     At least 5 years post-qualification professional training and working experience in the related field;     Met the language proficiency requirements of “Level 2” or above in Chinese Language and English     Language in the Hong Kong Diploma of Secondary Education Examination (HKDSEE) or the Hong Kong     Certificate of Education Examination (HKCEE), or equivalent;     Knowledge of and possession of experience in Geographical Information System (GIS) and Building Information     Modelling (BIM) would be an advantage;     Self-motivated, logical and systematic thinker;     A good team player with interests to work in a diverse and dynamic international culture;     Good command of spoken and written English and Chinese.             Please submit application with resume to            [via CTgoodjobs Apply Now]</li><li>Industry:        Engineering / Electrical / Electronics         Job Category / Function:        Building / Architectural (Surveying)          Building / Architectural (Civil / Structural)         Job</li></ul>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (161, '1fecef81bbf8316a', 'Land Surveyor / Assistant Surveyor', 'Viewbond Hong Kong Limited', 'land_surveying', 'Kowloon City District', '', 'Land Surveyor / Assistant Surveyor
+
+
+Requirements
+Degree in Geomatics / Land Surveying and Geoinformatics, from the Hong Kong Polytechnic University;Willing to learn and self-motivated;Knowledge of and experience in Geographical Information System (GIS) and Building Information Modelling (BIM) would be an advantage;A good team player with an interest in working in a diverse and dynamic international culture;Willing to learn and self-motivated;Basic knowledge of using CAD;A valid driving license is an advantage but not essential;Immediate availability is an advantage
+Work experience
+Surveyor: a minimum of 5 years
+Assistant Surveyor: not required (fresh graduate is encouraged to apply)
+
+
+Duties
+Land and Engineering surveySurvey monitoringLaser scanningUnderground utilities surveyData analysis and reportingBIM modelling
+Interested candidates please send full resume to email: info@viewbond.com.hk.
+For enquiries, please contact Mr. Siu at 70758485.', '', 'https://bebee.com/hk/jobs/land-surveyor-assistant-surveyor-viewbond-hong-kong-limited-kowloon-city-district--theirstack-716295084?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_BeBee', '23 days ago', '', 0, 'experienced', '2026-07-02 04:03:06', '2026-07-02 04:03:06', 1, '<p>Land Surveyor / Assistant Surveyor</p>
+<h3 class="jd-section-header">Requirements</h3>
+<p>Degree in Geomatics / Land Surveying and Geoinformatics, from the Hong Kong Polytechnic University;Willing to learn and self-motivated;Knowledge of and experience in Geographical Information System (GIS) and Building Information Modelling (BIM) would be an advantage;A good team player with an interest in working in a diverse and dynamic international culture;Willing to learn and self-motivated;Basic knowledge of using CAD;A valid driving license is an advantage but not essential;Immediate availability is an advantage Work experience Surveyor: a minimum of 5 years Assistant Surveyor: not required (fresh graduate is encouraged to apply)</p>
+<p>Duties Land and Engineering surveySurvey monitoringLaser scanningUnderground utilities surveyData analysis and reportingBIM modelling Interested candidates please send full resume to email: info@viewbond.com.hk. For enquiries, please contact Mr. Siu at 70758485.</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (162, '49f03559159e1b44', 'RESIDENT LAND SURVEYOR (Ref: YLBS/RLS/134/2026) / 駐地盤土地測量師 (Ref: YLBS/RLS/134/2026)', 'Binnies', 'land_surveying', 'Hong Kong', '', 'Drainage Services Department
+Contract No. DC/2022/03
+
+
+Yuen Long Barrage and Nullah Improvement Schemes The Hong Kong office of BINNIES (formerly known as BLACK & VEATCH) is now seeking applicants to fill the following site staff posts for Contract No. DC/2022/03 – Yuen Long Barrage and Nullah Improvement Schemes. The works include (a) construction of an automatic flood barrier, a stormwater pumping station, a master control centre and the associated electrical and mechanical facilities in the Yuen Long Nullah; (b) modification of the Yuen Long Nullah and drainage improvement works at the intersection of the Yuen Long Nullah and the Yuen Long Bypass Floodway; (c) improvement of flood walls along the Kam Tin River and construction of flood walls along the Yuen Long Nullah and the Sham Chung River; (d) revitalisation of the Yuen Long Nullah between the Shap Pat Heung Road and the location of the barrage; (e) construction of a dry weather flow interception system including a pumping station for water quality improvement and ancillary works.
+
+
+The contract was commenced in May 2023 for completion in 2027Q3.
+
+
+RESIDENT LAND SURVEYOR (Ref: YLBS/RLS/134/2026)
+Candidates should be a Corporate Membership of the Hong Kong Institute of Surveyors in Land Surveying Division or equivalent.
+
+
+Remarks:
+Applicants may also consider to refer the other requirements of the above post(s) stipulated in Appendix 7.4 of “Management Handbook for Direct Employment of Resident Site Staff by Consultants for Public Works Projects” (RSS Management Handbook) from the webpage of Development Bureau.
+
+
+The possession of a Construction Industry Safety Training Certificate or equivalent certification is required for the above position.
+
+
+We offer salary and benefits in accordance with the conditions of employment promulgated by the Government of the Hong Kong Special Administrative Region at the time of employment. Personal information contained in applications received will be used for employment-rel', '', 'https://bebee.com/hk/jobs/resident-land-surveyor-ref-ylbs-rls-134-2026-ref-ylbs-rls-134-2026-binnies-hong-kong--techmap_hk_16fae2c41e8db1486ace0c7acd13c77b?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_BeBee', '2026-07-02', '', 0, 'experienced', '2026-07-02 04:03:09', '2026-07-02 04:03:09', 1, '<p>Drainage Services Department Contract No. DC/2022/03</p>
+<p>Yuen Long Barrage and Nullah Improvement Schemes The Hong Kong office of BINNIES (formerly known as <strong>BLACK &</strong>amp; VEATCH) is now seeking applicants to fill the following site staff posts for Contract No. DC/2022/03 – Yuen Long Barrage and Nullah Improvement Schemes. The works include (a) construction of an automatic flood barrier, a stormwater pumping station, a master control centre and the associated electrical and mechanical facilities in the Yuen Long Nullah; (b) modification of the Yuen Long Nullah and drainage improvement works at the intersection of the Yuen Long Nullah and the Yuen Long Bypass Floodway; (c) improvement of flood walls along the Kam Tin River and construction of flood walls along the Yuen Long Nullah and the Sham Chung River; (d) revitalisation of the Yuen Long Nullah between the Shap Pat Heung Road and the location of the barrage; (e) construction of a dry weather flow interception system including a pumping station for water quality improvement and ancillary works.</p>
+<p>The contract was commenced in May 2023 for completion in 2027Q3.</p>
+<p><strong>RESIDENT LAND SURVEYOR</strong> (Ref: YLBS/RLS/134/2026) Candidates should be a Corporate Membership of the Hong Kong Institute of Surveyors in Land Surveying Division or equivalent.</p>
+<p>Remarks: Applicants may also consider to refer the other requirements of the above post(s) stipulated in Appendix 7.4 of “Management Handbook for Direct Employment of Resident Site Staff by Consultants for Public Works Projects” (RSS Management Handbook) from the webpage of Development Bureau.</p>
+<p>The possession of a Construction Industry Safety Training Certificate or equivalent certification is required for the above position.</p>
+<p>We offer salary and benefits in accordance with the conditions of employment promulgated by the Government of the Hong Kong Special Administrative Region at the time of employment. Personal information contained in applications received will be used for employment-rel</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (163, 'bc12a7a055d43758', 'Assistant Resident Quantity Surveyor (駐工地助理工料測量師)', 'Arcadis', 'quantity_surveying', '馬鞍山', '', 'Project Details:
+Contract No.: SS M515
+Title: Construction of Amenity Complex in Area 103, Ma On Shan
+
+
+Location: Ma On Shan
+Assistant Resident Quantity Surveyor
+Job Requirements
+
+Obtained degree from university or equivalent in an appropriate discipline; and
+Have minimum of 3 years’ post qualification experience of quantity surveying.
+
+Remarks
+(i) The employment will be on contract basis and tentatively commencing from July 2026.
+Please apply by clicking “Apply Now” enclosing resume, copy of testimonial from previous employers, copy of qualification certificates, present and expected salary.
+
+
+All information received will be kept in strict confidence and only for employment-related purposes.
+
+
+Application Closing Date: 6 July 2026
+
+
+項目細節:
+
+
+項目編號: SS M515
+
+
+標題: 馬鞍山第 103 區綜合設施大樓
+
+
+地點: 馬鞍山
+
+
+駐工地助理工料測量師
+
+
+要求
+
+
+
+持有大學頒發相關學科的學士學位; 以及
+具備最少三年從事工料測量工作的經驗。
+
+備註
+(i) 此職位將以合約形式聘用，暫定由二零二六年七月開始。
+申請⼈可按"Apply Now"提交申請並附上將個⼈履歷、⼯作及學歷證明副本， 連同現時及期望的薪⾦等資料。
+
+
+所有收集回來的資料只作招聘⽤途，絕對保密。
+
+
+截止日期：二零二六年七月六日', '', 'https://bebee.com/hk/jobs/assistant-resident-quantity-surveyor-arcadis-ma-on-shan-sha-tin-district--theirstack-744281489?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_BeBee', '2 days ago', '2026-07-06', 0, 'experienced', '2026-07-02 04:03:32', '2026-07-02 04:03:32', 1, '<p>Project Details: Contract No.: SS M515 Title: Construction of Amenity Complex in Area 103, Ma On Shan</p>
+<h3 class="jd-section-header">Location</h3>
+<ul class="jd-list"><li>Ma On Shan</li><li>Assistant Resident Quantity Surveyor</li></ul>
+<h3 class="jd-section-header">Job Requirements</h3>
+<ul class="jd-list"><li>Obtained degree from university or equivalent in an appropriate discipline; and</li><li>Have minimum of 3 years’ post qualification experience of quantity surveying.</li><li>Remarks</li></ul>
+<p>(i) The employment will be on contract basis and tentatively commencing from July 2026. Please apply by clicking “Apply Now” enclosing resume, copy of testimonial from previous employers, copy of qualification certificates, present and expected salary.</p>
+<p>All information received will be kept in strict confidence and only for employment-related purposes.</p>
+<p>Application Closing Date: 6 July 2026</p>
+<p>項目細節:</p>
+<h3 class="jd-section-header">項目編號: SS M515</h3>
+<ul class="jd-list"><li>標題: 馬鞍山第 103 區綜合設施大樓</li><li>地點: 馬鞍山</li><li>駐工地助理工料測量師</li></ul>
+<p>要求</p>
+<p>持有大學頒發相關學科的學士學位; 以及 具備最少三年從事工料測量工作的經驗。</p>
+<p>備註 (i) 此職位將以合約形式聘用，暫定由二零二六年七月開始。 申請⼈可按&quot;Apply Now&quot;提交申請並附上將個⼈履歷、⼯作及學歷證明副本， 連同現時及期望的薪⾦等資料。</p>
+<p>所有收集回來的資料只作招聘⽤途，絕對保密。</p>
+<p>截止日期：二零二六年七月六日</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (164, 'f1a5139c85b7aa2f', '助理建築調查員', '潘威林測量師行有限公司', 'building_surveying', '灣仔區', '', 'Job ResponsibilitiesAssist in conducting building survey and inspections, condition surveys, and defect assessments for residential and commercial properties.Support in preparing survey reports and tender doucment Participate in project coordination meeting, including liaising with contractors, consultants, and building owners to ensure compliance with statutory requirements.Maintain accurate site records, photographic documentation, and digital survey data using industry-standard software and tools.Contribute to tender processes, cost planning, and contract administration under supervision of qualified professionals. RequirementsHold a Higher Diploma or Associate Degree in Building Surveying, Construction, Architecture, or a related discipline.Proficiency in Cantonese and English for effective communication with clients, authorities, and project teams.No prior work experience required; fresh graduates are welcome to apply.Strong attention to detail, organizational skills, and willingness to learn within a structured professional environment. BenefitsCompetitive salary package commensurate with qualifications and potential, subject to discussion during interview.Performance-based flexible bonus scheme aligned with individual and team achievements.Five-day working week with standard office hours from 9:00 AM to 6:00 PM, Monday to Friday.Comprehensive medical insurance coverage and paid birthday leave as part of employee welfare.Statutory holidays plus additional bank holidays observed in accordance with Hong Kong regulations.', '', 'https://www.offertoday.com/hk/job/H_2TLHBRKCzX0LQb3FhURQ%3D%3D?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_OfferToday', '2026-07-02', '', 1, 'graduate', '2026-07-02 04:03:32', '2026-07-02 04:03:32', 1, '<p>Job ResponsibilitiesAssist in conducting building survey and inspections, condition surveys, and defect assessments for residential and commercial properties.Support in preparing survey reports and tender doucment Participate in project coordination meeting, including liaising with contractors, consultants, and building owners to ensure compliance with statutory requirements.Maintain accurate site records, photographic documentation, and digital survey data using industry-standard software and tools.Contribute to tender processes, cost planning, and contract administration under supervision of qualified professionals. RequirementsHold a Higher Diploma or Associate Degree in Building Surveying, Construction, Architecture, or a related discipline.Proficiency in Cantonese and English for effective communication with clients, authorities, and project teams.No prior work experience required; fresh graduates are welcome to apply.Strong attention to detail, organizational skills, and willingness to learn within a structured professional environment. BenefitsCompetitive salary package commensurate with qualifications and potential, subject to discussion during interview.Performance-based flexible bonus scheme aligned with individual and team achievements.Five-day working week with standard office hours from 9:00 AM to 6:00 PM, Monday to Friday.Comprehensive medical insurance coverage and paid birthday leave as part of employee welfare.Statutory holidays plus additional bank holidays observed in accordance with Hong Kong regulations.</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (165, '6bdc6712a887b770', '測量員', '宏浚工程測量有限公司', 'land_surveying', '九龍城', '', 'Requirements: • Degree/High Diploma in Land Surveying and Geoinformatics;• Willing to learn and self-motivated;• Knowledge of and experience in Geographical Information System (GIS) and Building Information Modelling (BIM) would be an advantage;• A good team player with an interest in working in a diverse and dynamic international culture;• Willing to learn and self-motivated;• Basic knowledge of using CAD;• A valid driving license is an advantage but not essential;• Immediate availability is an advantage', '', 'https://www.offertoday.com/hk/job/xspUefd4fn2biAJZ0yiNfw%3D%3D?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_OfferToday', '8 days ago', '', 1, 'entry', '2026-07-02 04:03:40', '2026-07-02 04:03:40', 1, '<h3 class="jd-section-header">Requirements</h3>
+<ul class="jd-list"><li>• Degree/High Diploma in Land Surveying and Geoinformatics;• Willing to learn and self-motivated;• Knowledge of and experience in Geographical Information System (GIS) and Building Information Modelling (BIM) would be an advantage;• A good team player with an interest in working in a diverse and dynamic international culture;• Willing to learn and self-motivated;• Basic knowledge of using CAD;• A valid driving license is an advantage but not essential;• Immediate availability is an advantage</li></ul>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (166, 'b809a889a5fdfe9b', 'Quantity Surveyor (工料測量員)', '嘉輝建築工程有限公司', 'quantity_surveying', '葵青區', '', 'About the roleWhat you''ll be doingPreparing accurate cost estimates and budgets for construction projectsNegotiating and administering contracts with suppliers and subcontractorsTracking and managing project costs to ensure they remain within budgetPreparing detailed cost reports and analysis for managementIdentifying opportunities for cost savings and efficienciesCollaborating with the project management team to ensure successful project deliveryV.O. estimation and submission What we''re looking forWho are we looking for? Diploma or Degree holder in Civil / Engineering / Quantity Surveying related disciplines 3-5 years experience in construction management quantity surveyorProficiency in MS Office (Word, Excel, PowerPoint)Good knowledge of Mechanical & Civil worksGood command in written and spoken English and ChineseExcellent communication and interpersonal skills with an out-going and target-oriented characterExcellent presentation, problem solving and negotiation skillsYou will have an advantage if you are/ haveFamiliar with AUTOCADKnowledge of material costing and manufacturing operationAbility to work effectively in a team and under tight deadlinesWhat we offerAt Ka Fai Construction & Engineering Limited, we are committed to providing a supportive and collaborative work environment that fosters professional growth and development. We offer competitive salaries, comprehensive benefits, and opportunities for career advancement.About usKa Fai Construction & Engineering Limited is a leading construction and engineering firm serving the Hong Kong market for over 10 years. We specialise in the delivery of high-quality construction projects, with a strong focus on innovation, sustainability, and client satisfaction. Our talented team of professionals is dedicated to driving the industry forward and creating lasting value for our clients and the communities we serve.Apply now to become our next Quantity Surveyor and join our dynamic team!Job summaryWe offer an attractiv', '', 'https://www.offertoday.com/hk/job/wiJNtP4F5AKeS_x0j2F_zQ%3D%3D?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_OfferToday', 'HK$35K–HK$45K a month', '', 0, 'experienced', '2026-07-02 04:03:40', '2026-07-02 04:03:40', 1, '<p>About the roleWhat you&#x27;ll be doingPreparing accurate cost estimates and budgets for construction projectsNegotiating and administering contracts with suppliers and subcontractorsTracking and managing project costs to ensure they remain within budgetPreparing detailed cost reports and analysis for managementIdentifying opportunities for cost savings and efficienciesCollaborating with the project management team to ensure successful project deliveryV.O. estimation and submission What we&#x27;re looking forWho are we looking for? Diploma or Degree holder in Civil / Engineering / Quantity Surveying related disciplines 3-5 years experience in construction management quantity surveyorProficiency in MS Office (Word, Excel, PowerPoint)Good knowledge of Mechanical &amp; Civil worksGood command in written and spoken English and ChineseExcellent communication and interpersonal skills with an out-going and target-oriented characterExcellent presentation, problem solving and negotiation skillsYou will have an advantage if you are/ haveFamiliar with AUTOCADKnowledge of material costing and manufacturing operationAbility to work effectively in a team and under tight deadlinesWhat we offerAt Ka Fai Construction &amp; Engineering Limited, we are committed to providing a supportive and collaborative work environment that fosters professional growth and development. We offer competitive salaries, comprehensive benefits, and opportunities for career advancement.About usKa Fai Construction &amp; Engineering Limited is a leading construction and engineering firm serving the Hong Kong market for over 10 years. We specialise in the delivery of high-quality construction projects, with a strong focus on innovation, sustainability, and client satisfaction. Our talented team of professionals is dedicated to driving the industry forward and creating lasting value for our clients and the communities we serve.Apply now to become our next Quantity Surveyor and join our dynamic team!Job summaryWe offer an attractiv</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (167, 'd3ae50484c28045c', '建築測量師（MHKIS）', 'Allworth顧問有限公司', 'building_surveying', '灣仔', '', 'Degree in Building Surveying or equivalentMHKIS qualified in building surveying division Qualified with minimum 4 years post-qualification experience.Minimum 2 years'' relevant working experience in Gov Project.For application, please click "APPLY NOW" For more job openings, please visit our website http://awclhk.com/job-opportunities/  (EA 78884)', '', 'https://www.offertoday.com/hk/job/LCy-vsNvmmn6NXiULU8X4g%3D%3D?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_OfferToday', 'HK$58K–HK$87K a month', '', 0, 'experienced', '2026-07-02 04:04:01', '2026-07-02 04:04:01', 1, '<p>Degree in Building Surveying or equivalentMHKIS qualified in building surveying division Qualified with minimum 4 years post-qualification experience.Minimum 2 years&#x27; relevant working experience in Gov Project.For application, please click &quot;<strong>APPLY NOW&</strong>quot; For more job openings, please visit our website http://awclhk.com/job-opportunities/  (EA 78884)</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (168, '95b528343bb9d2bb', 'Quantity Surveyor Graduate', 'QnS Consultancy Limited', 'quantity_surveying', 'Hong Kong', NULL, '', '', 'https://www.hkis.org.hk/jobs.html?id=1350', 'hkis', '10 Jun, 2026', '', 1, 'graduate', '2026-07-02 04:04:07', '2026-07-02 04:04:07', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (169, '151a23ea19840a30', 'Assistant Land Surveyor (Ref: 70526)', 'Meinhardt (Hong Kong) Limited', 'land_surveying', 'Hong Kong', NULL, '', '', 'https://www.hkis.org.hk/jobs.html?id=1349', 'hkis', '8 Jun, 2026', '', 1, 'entry', '2026-07-02 04:04:07', '2026-07-02 04:04:07', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (170, '45ad5512928be086', 'Architectural / Surveying Graduate', 'Hospital Authority', 'other', 'Hong Kong', NULL, '', '', 'https://www.hkis.org.hk/jobs.html?id=1348', 'hkis', '29 May, 2026', '', 1, 'graduate', '2026-07-02 04:04:07', '2026-07-02 04:04:07', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (171, 'cb23e408053188b6', 'Quantity Surveyor (Cost Consultant Background Required)', 'Sands China', 'quantity_surveying', 'Hong Kong', NULL, 'Scope
+
+Development Contracts Administration Team needs to work with LVSC departments, including Development and Facilities, to define, competitively bid, negotiate and award best in class design and development services in support of the organization’s development projects globally. To support on the completion of the various contract administrative tasks required.
+
+
+
+
+What You Will Do
+
+Support the team with all necessary duties to develop and deliver comprehensive design and construction contractsEstablish and maintain filing systems (electronic and hardcopy), including the receiving, distribution and filing of contracts and associated documentsInputting and updating data contained in internal contract management systemsProvide support in the tracking, expediting, collecting and collating of periodic reports and other regular data submissionsReview/maintain project registers such as payments, changes and contractual correspondencesProviding support in the tracking, expediting, collecting and collating contractor’s daily, weekly and monthly reports and other regular data submissionsAssist the Commercial Manager during the bidding process with activities such as issuing the RFP, receive and analyze the proposals and preparation of the BAWAttend and prepare meeting notes for any pre-award, progress and other relevant meetings relating to the delivery of the projectInitiate and facilitate the onboarding and approval process for new suppliersAssist the Commercial Manager / Senior Manager to receive and analyze supply chain partner’s payment certificates
+
+
+What We Expect From You
+
+Bachelor’s degree in Quantity Surveying, Engineering, Project Management, Cost Engineering or related disciplinesApproximately 2 years of Quantity Surveying experience with exposure gained from Cost Consultancy a MUSTKnowledge and understanding of construction procurement process and commercial awarenessAbility to multi-task, prioritize to achieve project goals, work with cross-functional teams and contractors to host value-engineering exercisesA detail-oriented, self-motivated and well-organized professional who can provide thorough and skillful administrative supportCapable of demonstrating value-added services throughout the contract administration period (from award through closeout)Strong computer and software skills to include the use of word processing and email as well as strong use of spreadsheets and electronic presentationsFluent English is a MUST while good Cantonese and/or Mandarin would be an advantageYou will be based in Hong Kong for this role, with business travel to Macau when required', '', 'https://hk.linkedin.com/jobs/view/quantity-surveyor-cost-consultant-background-required-at-sands-china-4421783598?position=6&pageNum=0&refId=ApGTxILIHXj59R8fjwaiVg%3D%3D&trackingId=tCE14ipAS%2FrNZ5PsD4gD7g%3D%3D', 'linkedin', '2026-07-02', '', 1, 'entry', '2026-07-02 04:04:08', '2026-07-02 04:04:08', 1, '<p>Scope</p>
+<p>Development Contracts Administration Team needs to work with LVSC departments, including Development and Facilities, to define, competitively bid, negotiate and award best in class design and development services in support of the organization’s development projects globally. To support on the completion of the various contract administrative tasks required.</p>
+<p>What You Will Do</p>
+<p>Support the team with all necessary duties to develop and deliver comprehensive design and construction contractsEstablish and maintain filing systems (electronic and hardcopy), including the receiving, distribution and filing of contracts and associated documentsInputting and updating data contained in internal contract management systemsProvide support in the tracking, expediting, collecting and collating of periodic reports and other regular data submissionsReview/maintain project registers such as payments, changes and contractual correspondencesProviding support in the tracking, expediting, collecting and collating contractor’s daily, weekly and monthly reports and other regular data submissionsAssist the Commercial Manager during the bidding process with activities such as issuing the RFP, receive and analyze the proposals and preparation of the BAWAttend and prepare meeting notes for any pre-award, progress and other relevant meetings relating to the delivery of the projectInitiate and facilitate the onboarding and approval process for new suppliersAssist the Commercial Manager / Senior Manager to receive and analyze supply chain partner’s payment certificates</p>
+<p>What We Expect From You</p>
+<p>Bachelor’s degree in Quantity Surveying, Engineering, Project Management, Cost Engineering or related disciplinesApproximately 2 years of Quantity Surveying experience with exposure gained from Cost Consultancy a MUSTKnowledge and understanding of construction procurement process and commercial awarenessAbility to multi-task, prioritize to achieve project goals, work with cross-functional teams and contractors to host value-engineering exercisesA detail-oriented, self-motivated and well-organized professional who can provide thorough and skillful administrative supportCapable of demonstrating value-added services throughout the contract administration period (from award through closeout)Strong computer and software skills to include the use of word processing and email as well as strong use of spreadsheets and electronic presentationsFluent English is a MUST while good Cantonese and/or Mandarin would be an advantageYou will be based in Hong Kong for this role, with business travel to Macau when required</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (172, '7c023906f8bc08dd', 'Resident Quantity Surveyor', 'AtkinsRéalis', 'quantity_surveying', 'Hong Kong', NULL, 'OverviewAtkinsRéalis Asia Limited invites applications for the following Resident Site Staff positions under the project for Fanling North New Development Area, Remaining Phase: Site Formation and Infrastructure Works (Contract Nos. ND/2024/07 and ND/2024/08). The works comprise site formation of lands and ground investigation within Fanling North New Development Area (FLN NDA), construction of at-grade roads connecting FLN NDA to Fanling Highway and associated junction/road improvements, construction of Fanling Bypass Western Section, construction of noise barriers and low noise road surfacing, and ancillary works including vehicular bridges, footbridges, footpaths, cycle tracks, lighting, traffic aids, sewage pumping stations, drainage, stormwater storage tank, sewerage, water mains, landscaping works, slope works and electrical and mechanical works. The first contract, Contract No. ND/2024/07, and the second contract, Contract No. ND/2024/08, commenced in August 2024 and December 2025 respectively. 
+
+Your roleTaking up the roles and duties of the representative or delegate of the Project Manager, Supervisor, Engineer, Architect, Surveyor, and/or Supervising Officer as appropriate under works contracts as assigned by the Consultants*/Consultant*.Site supervision and management of works contracts.Assessment of payments, defined costs and fees, target prices, pain-gain shares, compensation events/variations/claims, etc. for works contracts.Dispute avoidance and resolution for works contracts.Resolution of project risks and site problems of works contracts and the project.Performance management of works contractors and their subcontractors and suppliers.Financial management and forecasting of works contracts and the project.Programme management and forecasting of works contracts and the project.Safety, quality and environmental management of works contracts and the project.About youCorporate Membership of the Hong Kong Institute of Surveyors in Quantity Surveying Division or equivalent in an appropriate discipline.NEC ECC knowledge or working experience will be an advantage.Remark
+
+Note 1: "Attained" in Applied Learning subjects (subject to a maximum two Applied Learning subjects), and Grade E in Other Language subjects in the HKDSEE are accepted as equivalent to Level 2 in the New Senior Secondary subjects in the HKDSEE. Subjects include Chinese Language and English Language.Note 2: Attained Grade E in Chinese Language and English Language (Syllabus B) in the HKCEE before 2007 are accepted administratively as comparable to Level 2 respectively in Chinese Language and English Language in the 2007 HKCEE and henceforth.Applicants may also consider to refer the other requirement of the above opening(s) stipulated in Appendix 7.4 of "Management Handbook for Direct Employment of ResidentSite Staff by Consultants for Public Works Projects" from the webpage of Development Bureau.The candidates should have minimum academic/ professional qualification requ', '', 'https://hk.linkedin.com/jobs/view/resident-quantity-surveyor-at-atkinsr%C3%A9alis-4427001108?position=9&pageNum=0&refId=ApGTxILIHXj59R8fjwaiVg%3D%3D&trackingId=Hn%2FkRKP0aU7qbxflBEXILA%3D%3D', 'linkedin', '2026-07-02', '', 0, 'experienced', '2026-07-02 04:04:08', '2026-07-02 04:04:08', 1, '<h3 class="jd-section-header">Overview</h3>
+<ul class="jd-list"><li>AtkinsRéalis Asia Limited invites applications for the following Resident Site Staff positions under the project for Fanling North New Development Area, Remaining Phase: Site Formation and Infrastructure Works (Contract Nos. ND/2024/07 and ND/2024/08). The works comprise site formation of lands and ground investigation within Fanling North New Development Area (<strong>FLN NDA</strong>), construction of at-grade roads connecting <strong>FLN NDA </strong>to Fanling Highway and associated junction/road improvements, construction of Fanling Bypass Western Section, construction of noise barriers and low noise road surfacing, and ancillary works including vehicular bridges, footbridges, footpaths, cycle tracks, lighting, traffic aids, sewage pumping stations, drainage, stormwater storage tank, sewerage, water mains, landscaping works, slope works and electrical and mechanical works. The first contract, Contract No. ND/2024/07, and the second contract, Contract No. ND/2024/08, commenced in August 2024 and December 2025 respectively.</li></ul>
+<h3 class="jd-section-header">Your role</h3>
+<ul class="jd-list"><li>Taking up the roles and duties of the representative or delegate of the Project Manager, Supervisor, Engineer, Architect, Surveyor, and/or Supervising Officer as appropriate under works contracts as assigned by the Consultants*/Consultant*.Site supervision and management of works contracts.Assessment of payments, defined costs and fees, target prices, pain-gain shares, compensation events/variations/claims, etc. for works contracts.Dispute avoidance and resolution for works contracts.Resolution of project risks and site problems of works contracts and the project.Performance management of works contractors and their subcontractors and suppliers.Financial management and forecasting of works contracts and the project.Programme management and forecasting of works contracts and the project.Safety, quality and environmental management of works contracts and the project.About youCorporate Membership of the Hong Kong Institute of Surveyors in Quantity Surveying Division or equivalent in an appropriate discipline.<strong>NEC ECC </strong>knowledge or working experience will be an advantage.Remark</li></ul>
+<p>Note 1: &quot;Attained&quot; in Applied Learning subjects (subject to a maximum two Applied Learning subjects), and Grade E in Other Language subjects in the HKDSEE are accepted as equivalent to Level 2 in the New Senior Secondary subjects in the HKDSEE. Subjects include Chinese Language and English Language.Note 2: Attained Grade E in Chinese Language and English Language (Syllabus B) in the HKCEE before 2007 are accepted administratively as comparable to Level 2 respectively in Chinese Language and English Language in the 2007 HKCEE and henceforth.Applicants may also consider to refer the other requirement of the above opening(s) stipulated in Appendix 7.4 of &quot;Management Handbook for Direct Employment of ResidentSite Staff by Consultants for Public Works Projects&quot; from the webpage of Development Bureau.The candidates should have minimum academic/ professional qualification requ</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (173, '1831da9e9e0842d5', 'Quantity Surveying Manager', 'SJ Group', 'quantity_surveying', 'Hong Kong', NULL, 'The Quantity Surveying Manager is responsible for providing cost and commercial advisory support within the PDMC team, focusing on the evaluation of design decisions, technical proposals, and integration-driven changes across a complex infrastructure programme.
+
+This role ensures that cost implications are fully understood and integrated into the design review and coordination process, supporting the delivery of an optimised, cost-effective and operationally viable asset in a highly regulated and interfaced environment.
+
+ Key Responsibilities
+
+ 
+
+ Cost Advisory on Design & Technical DecisionsAssess cost implications of:Design changes and engineering proposalsInterface-driven modifications across contracts and disciplinesSystem integration requirements and staging constraintsProvide timely and accurate cost inputs to support design review processes and decision-making Benchmarking & Option EvaluationSupport benchmarking and comparative evaluation of alternative design, engineering and constructability solutionsAnalyse cost differences between various technical options, including those influenced by methodology, sequencing, and operational constraintsContribute to value engineering initiatives by identifying cost-efficient solutions without compromising safety, quality, or performance Cost Optimisation & Value EngineeringAssist in identifying cost-sensitive areas of design that may benefit from optimisation, rationalisation, or standardisationHighlight opportunities to improve cost efficiency across multidisciplinary packages, including civil, E&M and system-related worksEnsure that cost optimisation recommendations align with overall design integration and long-term operational considerations Integration with Design & Package TeamsWork closely with Package Managers, Design Manager and Commercial Manager to understand the cost consequences of technical and coordination-related issuesSupport cross-package coordination by ensuring cost implications of interface decisions are visible and understoodContribute to integrated decision-making across design, engineering, and delivery teams Support to Client Cost DecisionsSupport development of cost-informed recommendations for the Client, particularly on:Design changes and variationsTechnical departures and constructability proposalsInterface and integration-related cost impactsProvide structured inputs to support client briefings and key decision-making forums Risk & Cost Impact AssessmentIdentify and assess cost risks associated with:Design development and late-stage changesComplex interfaces between packages and systemsConstruction methodology and staging constraintsProvide early warning on high-impact cost risks and recommend mitigation strategies Reporting & Commercial AssurancePrepare and consolidate cost-related inputs for:Project reporting and dashboardsCommercial reviews and risk registersClient submissions and briefingsEnsure cost assessments are well-documented, traceable, and aligned with projec', '', 'https://hk.linkedin.com/jobs/view/quantity-surveying-manager-at-sj-group-4432220709?position=18&pageNum=0&refId=ApGTxILIHXj59R8fjwaiVg%3D%3D&trackingId=1emrrjxizT8NFV6JVK4OaQ%3D%3D', 'linkedin', '2026-07-02', '', 0, 'experienced', '2026-07-02 04:04:08', '2026-07-02 04:04:08', 1, '<p>The Quantity Surveying Manager is responsible for providing cost and commercial advisory support within the PDMC team, focusing on the evaluation of design decisions, technical proposals, and integration-driven changes across a complex infrastructure programme.</p>
+<p>This role ensures that cost implications are fully understood and integrated into the design review and coordination process, supporting the delivery of an optimised, cost-effective and operationally viable asset in a highly regulated and interfaced environment.</p>
+<h3 class="jd-section-header">Key Responsibilities</h3>
+<ul class="jd-list"><li>Cost Advisory on Design &amp; Technical DecisionsAssess cost implications of:Design changes and engineering proposalsInterface-driven modifications across contracts and disciplinesSystem integration requirements and staging constraintsProvide timely and accurate cost inputs to support design review processes and decision-making Benchmarking &amp; Option EvaluationSupport benchmarking and comparative evaluation of alternative design, engineering and constructability solutionsAnalyse cost differences between various technical options, including those influenced by methodology, sequencing, and operational constraintsContribute to value engineering initiatives by identifying cost-efficient solutions without compromising safety, quality, or performance Cost Optimisation &amp; Value EngineeringAssist in identifying cost-sensitive areas of design that may benefit from optimisation, rationalisation, or standardisationHighlight opportunities to improve cost efficiency across multidisciplinary packages, including civil, E&amp;M and system-related worksEnsure that cost optimisation recommendations align with overall design integration and long-term operational considerations Integration with Design &amp; Package TeamsWork closely with Package Managers, Design Manager and Commercial Manager to understand the cost consequences of technical and coordination-related issuesSupport cross-package coordination by ensuring cost implications of interface decisions are visible and understoodContribute to integrated decision-making across design, engineering, and delivery teams Support to Client Cost DecisionsSupport development of cost-informed recommendations for the Client, particularly on:Design changes and variationsTechnical departures and constructability proposalsInterface and integration-related cost impactsProvide structured inputs to support client briefings and key decision-making forums Risk &amp; Cost Impact AssessmentIdentify and assess cost risks associated with:Design development and late-stage changesComplex interfaces between packages and systemsConstruction methodology and staging constraintsProvide early warning on high-impact cost risks and recommend mitigation strategies Reporting &amp; Commercial AssurancePrepare and consolidate cost-related inputs for:Project reporting and dashboardsCommercial reviews and risk registersClient submissions and briefingsEnsure cost assessments are well-documented, traceable, and aligned with projec</li></ul>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (174, '8371aafef3a72be3', 'Principal Quantity Surveyor', 'Climate-B Ventures Pvt Ltd', 'quantity_surveying', 'Hong Kong', NULL, '', '', 'https://hk.linkedin.com/jobs/view/principal-quantity-surveyor-at-climate-b-ventures-pvt-ltd-4431049869?position=19&pageNum=0&refId=ApGTxILIHXj59R8fjwaiVg%3D%3D&trackingId=tYtC57bGOX4t936GJvoYUQ%3D%3D', 'linkedin', '2026-07-02', '', 0, 'experienced', '2026-07-02 04:04:08', '2026-07-02 04:04:08', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (175, '6f4306c1f9954675', 'Project Manager / Assistant Project Manager (Quantity Surveyor/Cost)', 'CBRE Asia Pacific', 'quantity_surveying', 'Hong Kong', NULL, '', '', 'https://hk.linkedin.com/jobs/view/project-manager-assistant-project-manager-quantity-surveyor-cost-at-cbre-asia-pacific-4262151921?position=20&pageNum=0&refId=ApGTxILIHXj59R8fjwaiVg%3D%3D&trackingId=FQ5%2B68OiALbLbSi58ODApA%3D%3D', 'linkedin', '2026-07-02', '', 0, 'experienced', '2026-07-02 04:04:08', '2026-07-02 04:04:08', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (176, '9d43b2bc3b584fe7', 'Senior Quantity Surveyor / (Assistant) Contract Manager [Cost Consultant Background Required]', 'Sands China', 'quantity_surveying', 'Hong Kong', NULL, 'Scope
+
+Development Contracts Admin Team needs to work with departments to define, competitively bid, negotiate and award best in class design and development services for our development projects globally.
+
+
+
+
+What You Will Do
+
+Develop and deliver comprehensive design and construction contractsTrack, expedite, collect and collate periodic reports and other regular data submissionsManage the bidding process to issue RFP, receive and analyze proposals and prepare BAW while ensuring change management outcomes are captured and reflected within Timberline ACR’sAttend and prepare meeting notes for any pre-award, progress and project deliveryReview and approve payment certificate of supply chain partners and project registers
+
+
+What We Expect from You
+
+Bachelor’s degree in Quantity Surveying, Engineering, Project Management, Cost Engineering or related disciplinesAt least 6 years of work experience with 3 years gained from Quantity Surveying or related fields, with exposure gained from Cost Consultancy a MUSTFamiliar with construction procurement process with commercial awareness while proficient in MS Office with Ariba & Sage based networks knowledge an advantageA detailed-oriented and well-organized professionalFluent English is a MUST while good Cantonese and/or Mandarin would be an advantageYou will be based in Hong Kong for this role, with business travel to Macau when required', '', 'https://hk.linkedin.com/jobs/view/senior-quantity-surveyor-assistant-contract-manager-cost-consultant-background-required-at-sands-china-4421774524?position=21&pageNum=0&refId=ApGTxILIHXj59R8fjwaiVg%3D%3D&trackingId=R4KNenHvm7u8ilfsHGGU3Q%3D%3D', 'linkedin', '2026-07-02', '', 0, 'experienced', '2026-07-02 04:04:08', '2026-07-02 04:04:08', 1, '<p>Scope</p>
+<p>Development Contracts Admin Team needs to work with departments to define, competitively bid, negotiate and award best in class design and development services for our development projects globally.</p>
+<p>What You Will Do</p>
+<p>Develop and deliver comprehensive design and construction contractsTrack, expedite, collect and collate periodic reports and other regular data submissionsManage the bidding process to issue RFP, receive and analyze proposals and prepare BAW while ensuring change management outcomes are captured and reflected within Timberline ACR’sAttend and prepare meeting notes for any pre-award, progress and project deliveryReview and approve payment certificate of supply chain partners and project registers</p>
+<p>What We Expect from You</p>
+<p>Bachelor’s degree in Quantity Surveying, Engineering, Project Management, Cost Engineering or related disciplinesAt least 6 years of work experience with 3 years gained from Quantity Surveying or related fields, with exposure gained from Cost Consultancy a MUSTFamiliar with construction procurement process with commercial awareness while proficient in MS Office with Ariba &amp; Sage based networks knowledge an advantageA detailed-oriented and well-organized professionalFluent English is a MUST while good Cantonese and/or Mandarin would be an advantageYou will be based in Hong Kong for this role, with business travel to Macau when required</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (178, 'b8888dd82946b2e5', 'Senior Quantity Surveyor (REF: SPS/SQS)', 'ATAL Engineering Group (ATAL)', 'quantity_surveying', 'Hong Kong', NULL, '', '', 'https://hk.linkedin.com/jobs/view/senior-quantity-surveyor-ref-sps-sqs-at-atal-engineering-group-atal-4040350887?position=23&pageNum=0&refId=ApGTxILIHXj59R8fjwaiVg%3D%3D&trackingId=Fe4GAH9T8lC7qo8aZX2p7g%3D%3D', 'linkedin', '2026-07-02', '', 0, 'experienced', '2026-07-02 04:04:08', '2026-07-02 04:04:08', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (179, '7d13352977f7af26', 'Quantity Surveyor/Senior Quantity Surveyor (MEP/E&M)', 'Turner & Townsend', 'quantity_surveying', 'Hong Kong', NULL, 'Company DescriptionWho is Turner & Townsend?Turner & Townsend is a global professional services company with over 22,000 people in more than 60 countries. Working with our clients across real estate, infrastructure, energy and natural resources, we transform together delivering outcomes that improve people’s lives. Working in partnership makes it possible to deliver the world’s most impactful projects and programmes as we turn challenge into opportunity and complexity into success. Our capabilities include programme, project, cost, asset and commercial management, controls and performance, procurement and supply chain, net zero and digital solutions. We are majority-owned by CBRE Group, Inc., the world’s largest commercial real estate services and investment firm, with our partners holding a significant minority interest. Turner & Townsend and CBRE work together to provide clients with the premier programme, project and cost management offering in markets around the world. Please visit our website: www.turnerandtownsend.comJob DescriptionTo conduct feasibility studies and writing procurement reportsTo apply Value Management techniques at the outset of a project and where appropriate involve Turner & Townsend’s specialist Value Management teamTo manage estimating and cost planning activities to include taking ownership of and present the final cost planTo manage the procurement process, ensuring that all stages including pre qualification, enquiry, analysis, selection and contract preparation are performed effectivelyTo ensure that post-contract cost variances and change control processes are managed effectivelyTo ensure that cost checking and valuation work is managed effectivelyTo ensure the production of monthly post-contract cost reports and present them to the clientValue engineering and life cycle costingTo ensure that final accounts are negotiated and agreedTo take a lead role in interfacing with the client and other consultants, at all project stagesQualificationsHigher Diploma or Degree in Quantity Surveying, Cost Management/Engineering/Building Service or equivalentWelcome 5~ 10 years experience in related fieldsExcellent technical knowledge and experience across the full range of Cost Management duties including: Cost Estimates, Bills of Quantities, Value Engineering, Tendering and Evaluation,Contract Knowledge, Change Orders and Final Account close-outExperience from MEP QS background, well versed with mechanical and electrical (M&E) work experience is preferred.Team player with excellent leadership and problem solving skillsExcellent communication skills with the ability to negotiation, influence and persuade otherAdditional InformationOur inspired people share our vision and mission. We provide a great place to work, where each person has the opportunity and voice to affect change.We want our people to succeed both in work and life. To support this we promote a healthy, productive and flexible working environment that respects work-l', '', 'https://hk.linkedin.com/jobs/view/quantity-surveyor-senior-quantity-surveyor-mep-e-m-at-turner-townsend-4425057856?position=25&pageNum=0&refId=ApGTxILIHXj59R8fjwaiVg%3D%3D&trackingId=6Q%2FXCHHo8aV0AgyNoyjoFA%3D%3D', 'linkedin', '2026-07-02', '', 0, 'experienced', '2026-07-02 04:04:08', '2026-07-02 04:04:08', 1, '<h3 class="jd-section-header">Company Description</h3>
+<ul class="jd-list"><li>Who is Turner &amp; Townsend?Turner &amp; Townsend is a global professional services company with over 22,000 people in more than 60 countries. Working with our clients across real estate, infrastructure, energy and natural resources, we transform together delivering outcomes that improve people’s lives. Working in partnership makes it possible to deliver the world’s most impactful projects and programmes as we turn challenge into opportunity and complexity into success. Our capabilities include programme, project, cost, asset and commercial management, controls and performance, procurement and supply chain, net zero and digital solutions. We are majority-owned by CBRE Group, Inc., the world’s largest commercial real estate services and investment firm, with our partners holding a significant minority interest. Turner &amp; Townsend and CBRE work together to provide clients with the premier programme, project and cost management offering in markets around the world. Please visit our website: www.turnerandtownsend.comJob DescriptionTo conduct feasibility studies and writing procurement reportsTo apply Value Management techniques at the outset of a project and where appropriate involve Turner &amp; Townsend’s specialist Value Management teamTo manage estimating and cost planning activities to include taking ownership of and present the final cost planTo manage the procurement process, ensuring that all stages including pre qualification, enquiry, analysis, selection and contract preparation are performed effectivelyTo ensure that post-contract cost variances and change control processes are managed effectivelyTo ensure that cost checking and valuation work is managed effectivelyTo ensure the production of monthly post-contract cost reports and present them to the clientValue engineering and life cycle costingTo ensure that final accounts are negotiated and agreedTo take a lead role in interfacing with the client and other consultants, at all project stagesQualificationsHigher Diploma or Degree in Quantity Surveying, Cost Management/Engineering/Building Service or equivalentWelcome 5~ 10 years experience in related fieldsExcellent technical knowledge and experience across the full range of Cost Management duties including: Cost Estimates, Bills of Quantities, Value Engineering, Tendering and Evaluation,Contract Knowledge, Change Orders and Final Account close-outExperience from <strong>MEP QS </strong>background, well versed with mechanical and electrical (M&amp;E) work experience is preferred.Team player with excellent leadership and problem solving skillsExcellent communication skills with the ability to negotiation, influence and persuade otherAdditional InformationOur inspired people share our vision and mission. We provide a great place to work, where each person has the opportunity and voice to affect change.We want our people to succeed both in work and life. To support this we promote a healthy, productive and flexible working environment that respects work-l</li></ul>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (181, '8821f474db9413c8', 'Assistant Team Leader, Quantity Surveying', 'Arcadis', 'quantity_surveying', 'Hong Kong', NULL, 'As an Arcadian, you already help us deliver world leading sustainable design, engineering, and consultancy solutions for natural and built assets. You are part of our global business comprising 34,000 people, in over 30 countries, dedicated to improving quality of life.
+
+Everyone has an important role to play. With the power of many curious minds, together we can continue to solve the world’s most complex challenges and deliver more impact together.
+
+Role description:
+
+Arcadis Hong Kong is looking for Quantity Surveying Professionals to join our team. 
+
+Role accountabilities:
+
+  * Preparation of pre-contract cost estimates and project cash-flow
+
+  * Preparation of tender documentation
+
+  * Tendering process and tender evaluation
+
+  * Post-contract administration and management – contract documentation, valuation of progress payment, variation assessment, and cost control report
+
+  * Finalization of project final accounts
+
+
+
+
+Qualifications & Experience:
+
+  * Degree in Quantity Surveying
+
+  * Minimum 3 years of related experience in Quantity Surveying
+
+  * With technical knowledge – Measurement, cost estimating, construction technology, contracts and law
+
+  * Candidates with pre-contract experience and consultancy background will have advantage
+
+  * Understand and familiar with professional practice and contract administration processes
+
+  * Able to work as a team player
+
+  * Ability to communicate clearly in both spoken and written English
+
+  * Ability to communicate clearly in spoken Cantonese and written Chinese
+
+
+
+
+Continue your career journey as an Arcadian.
+
+We can only achieve our goals when everyone is empowered to be their best. We believe everyone''s contribution matters. It’s why we are pioneering a skills based approach, where you can harness your unique experience and expertise to carve your career path and maximize the impact we can make together.
+
+You do meaningful work, and no matter where your next role in Arcadis takes you, you’ll be helping to deliver sustainable solutions for a more prosperous planet. Make your mark; on your career, your colleagues, your clients, your life and the world around you. 
+
+Together, we can create a lasting legacy.
+
+Our Commitment to Equality, Diversity, Inclusion & Belonging
+
+We want you to be able to bring your best self to work every day, which is why we take equality and inclusion seriously and hold ourselves to account for our actions. Our ambition is to be an employer of choice and provide a great place to work for all our people.', '', 'https://hk.linkedin.com/jobs/view/assistant-team-leader-quantity-surveying-at-arcadis-4430685616?position=9&pageNum=0&refId=MlYZpK3m4ldGWZkEkPrDVA%3D%3D&trackingId=rC%2B7flRt0PyBIjoakHwxaw%3D%3D', 'linkedin', '2026-07-02', '', 1, 'experienced', '2026-07-02 04:04:10', '2026-07-02 04:04:10', 1, '<p>As an Arcadian, you already help us deliver world leading sustainable design, engineering, and consultancy solutions for natural and built assets. You are part of our global business comprising 34,000 people, in over 30 countries, dedicated to improving quality of life.</p>
+<p>Everyone has an important role to play. With the power of many curious minds, together we can continue to solve the world’s most complex challenges and deliver more impact together.</p>
+<h3 class="jd-section-header">Role description</h3>
+<p>Arcadis Hong Kong is looking for Quantity Surveying Professionals to join our team.</p>
+<h3 class="jd-section-header">Role accountabilities</h3>
+<ul class="jd-list"><li>Preparation of pre-contract cost estimates and project cash-flow</li><li>Preparation of tender documentation</li><li>Tendering process and tender evaluation</li><li>Post-contract administration and management – contract documentation, valuation of progress payment, variation assessment, and cost control report</li><li>Finalization of project final accounts</li></ul>
+<h3 class="jd-section-header">Qualifications &amp; Experience</h3>
+<ul class="jd-list"><li>Degree in Quantity Surveying</li><li>Minimum 3 years of related experience in Quantity Surveying</li><li>With technical knowledge – Measurement, cost estimating, construction technology, contracts and law</li><li>Candidates with pre-contract experience and consultancy background will have advantage</li><li>Understand and familiar with professional practice and contract administration processes</li><li>Able to work as a team player</li><li>Ability to communicate clearly in both spoken and written English</li><li>Ability to communicate clearly in spoken Cantonese and written Chinese</li><li>Continue your career journey as an Arcadian.</li></ul>
+<p>We can only achieve our goals when everyone is empowered to be their best. We believe everyone&#x27;s contribution matters. It’s why we are pioneering a skills based approach, where you can harness your unique experience and expertise to carve your career path and maximize the impact we can make together.</p>
+<p>You do meaningful work, and no matter where your next role in Arcadis takes you, you’ll be helping to deliver sustainable solutions for a more prosperous planet. Make your mark; on your career, your colleagues, your clients, your life and the world around you.</p>
+<p>Together, we can create a lasting legacy.</p>
+<p>Our Commitment to Equality, Diversity, Inclusion &amp; Belonging</p>
+<p>We want you to be able to bring your best self to work every day, which is why we take equality and inclusion seriously and hold ourselves to account for our actions. Our ambition is to be an employer of choice and provide a great place to work for all our people.</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (182, 'b74fef3ed4319454', 'Chief Surveyor', 'Dragages Hong Kong Limited', 'land_surveying', 'Hong Kong', NULL, '', '', 'https://hk.linkedin.com/jobs/view/chief-surveyor-at-dragages-hong-kong-limited-4350597459?position=2&pageNum=0&refId=BzcuIa4v%2BaDt5werVTzCHA%3D%3D&trackingId=noQUmERboIYjqYExTTl6dA%3D%3D', 'linkedin', '2026-07-02', '', 0, 'experienced', '2026-07-02 04:04:12', '2026-07-02 04:04:12', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (183, '8a3d7dfb33801742', 'Assistant Quantity Surveyor / Quantity Surveyor / Senior Quantity Surveyor (Hong Kong)', 'Arcadis', 'quantity_surveying', 'Hong Kong', NULL, 'Arcadis is the world''s leading company delivering sustainable design, engineering, and consultancy solutions for natural and built assets. We are more than 36,000 people, in over 70 countries, dedicated to improving quality of life. Everyone has an important role to play. With the power of many curious minds, together we can solve the world’s most complex challenges and deliver more impact together.
+
+Role description:
+
+  * Preparation of pre-contract cost estimates and project cash-flow
+  * Preparation of tender documentation
+  * Tendering process and tender evaluation
+  * Post-contract administration and management – contract documentation, valuation of progress payment, variation assessment, and cost control report
+  * Finalization of project final accounts
+
+
+
+Qualifications & Experience:
+
+  * Degree in Quantity Surveying
+  * Candidates with 0 to 5 years of working experience in QS are preferred
+  * With technical knowledge – Measurement, cost estimating, construction technology, contracts and law
+  * Candidates with pre-contract experience and consultancy background will have advantage
+  * Understand and familiar with professional practice and contract administration processes
+  * Able to work as a team player
+  * Candidate with HKIS or RICS qualification will be consider for Assistant Team Leader or above
+  * Ability to communicate clearly both spoken and written English
+  * Ability to communicate clearly spoken Cantonese and written Chinese
+  * Welcome IANG Visa / Support Work Visa
+  * Welcome Fresh Graduate
+
+
+
+Why Arcadis? 
+
+We can only achieve our goals when everyone is empowered to be their best. We believe everyone''s contribution matters. It’s why we are pioneering a skills-based approach, where you can harness your unique experience and expertise to carve your career path and maximize the impact we can make together. 
+
+You’ll do meaningful work, and no matter what role, you’ll be helping to deliver sustainable solutions for a more prosperous planet. Make your mark, on your career, your colleagues, your clients, your life and the world around you.
+
+Together, we can create a lasting legacy.
+
+Our Commitment to Equality, Diversity, Inclusion & Belonging:  
+  
+We want you to be able to bring your best self to work every day which is why we take equality and inclusion seriously and hold ourselves to account for our actions. Our ambition is to be an employer of choice and provide a great place to work for all our people.
+
+Join Arcadis. Create a legacy.', '', 'https://hk.linkedin.com/jobs/view/assistant-quantity-surveyor-quantity-surveyor-senior-quantity-surveyor-hong-kong-at-arcadis-4122139456?position=19&pageNum=0&refId=BzcuIa4v%2BaDt5werVTzCHA%3D%3D&trackingId=LL%2BjLbdlpytboL9H40o%2FUw%3D%3D', 'linkedin', '2026-07-02', '', 0, 'experienced', '2026-07-02 04:04:12', '2026-07-02 04:04:12', 1, '<p>Arcadis is the world&#x27;s leading company delivering sustainable design, engineering, and consultancy solutions for natural and built assets. We are more than 36,000 people, in over 70 countries, dedicated to improving quality of life. Everyone has an important role to play. With the power of many curious minds, together we can solve the world’s most complex challenges and deliver more impact together.</p>
+<h3 class="jd-section-header">Role description</h3>
+<ul class="jd-list"><li>Preparation of pre-contract cost estimates and project cash-flow</li><li>Preparation of tender documentation</li><li>Tendering process and tender evaluation</li><li>Post-contract administration and management – contract documentation, valuation of progress payment, variation assessment, and cost control report</li><li>Finalization of project final accounts</li></ul>
+<h3 class="jd-section-header">Qualifications &amp; Experience</h3>
+<ul class="jd-list"><li>Degree in Quantity Surveying</li><li>Candidates with 0 to 5 years of working experience in QS are preferred</li><li>With technical knowledge – Measurement, cost estimating, construction technology, contracts and law</li><li>Candidates with pre-contract experience and consultancy background will have advantage</li><li>Understand and familiar with professional practice and contract administration processes</li><li>Able to work as a team player</li><li>Candidate with HKIS or RICS qualification will be consider for Assistant Team Leader or above</li><li>Ability to communicate clearly both spoken and written English</li><li>Ability to communicate clearly spoken Cantonese and written Chinese</li><li>Welcome IANG Visa / Support Work Visa</li><li>Welcome Fresh Graduate</li><li>Why Arcadis?</li></ul>
+<p>We can only achieve our goals when everyone is empowered to be their best. We believe everyone&#x27;s contribution matters. It’s why we are pioneering a skills-based approach, where you can harness your unique experience and expertise to carve your career path and maximize the impact we can make together.</p>
+<p>You’ll do meaningful work, and no matter what role, you’ll be helping to deliver sustainable solutions for a more prosperous planet. Make your mark, on your career, your colleagues, your clients, your life and the world around you.</p>
+<p>Together, we can create a lasting legacy.</p>
+<p>Our Commitment to Equality, Diversity, Inclusion &amp; Belonging:</p>
+<p>We want you to be able to bring your best self to work every day which is why we take equality and inclusion seriously and hold ourselves to account for our actions. Our ambition is to be an employer of choice and provide a great place to work for all our people.</p>
+<p>Join Arcadis. Create a legacy.</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (184, 'c79c04cdc89e4b41', 'Arcadis 2026 Graduate Quantity Surveyor (Hong Kong & Macau)', 'Arcadis', 'quantity_surveying', 'Hong Kong', '', 'Arcadis is the world''s leading company delivering sustainable design, engineering, and consultancy solutions for natural and built assets. We are more than 36,000 people, in over 70 countries, dedicated to improving quality of life. Everyone has an important role to play. With the power of many curious minds, together we can solve the world’s most complex challenges and deliver more impact together.
+
+
+Role description:
+
+Preparation of pre-contract cost estimates and project cash-flow.
+Preparation of tender documentation
+Tendering process and tender evaluation
+Post-contract administration and management – contract documentation, valuation of progress payment, variation assessment, and cost control report
+Finalization of project final accounts
+
+Qualifications & Experience:
+
+Apply with your latest transcript, DSE/IB/IELTS/TOEFL results, resume along with details of your expected salary and preferred start date. We regret that only shortlisted candidates will be contacted.
+Degree in Quantity Surveying
+Final year students to be graduated in 2026
+Basic technical knowledge – Measurement, cost estimating, construction technology, contracts and law
+Understand and familiar with professional practice and contract administration processes
+Able to work as a team player
+Ability to communicate clearly in spoken and written English
+Ability to communicate clearly in spoken Cantonese and written Chinese
+
+Why Arcadis?
+We can only achieve our goals when everyone is empowered to be their best. We believe everyone''s contribution matters. It’s why we are pioneering a skills-based approach, where you can harness your unique experience and expertise to carve your career path and maximize the impact we can make together.
+You’ll do meaningful work, and no matter what role, you’ll be helping to deliver sustainable solutions for a more prosperous planet. Make your mark, on your career, your colleagues, your clients, your life and the world around you.
+Together, we can create a lasting legacy.
+
+', '', 'https://bebee.com/hk/jobs/arcadis-2026-graduate-quantity-surveyor-hong-kong-macau-arcadis-kowloon--theirstack-682142019?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_BeBee', '2026-07-03', '', 1, 'graduate', '2026-07-03 00:00:23', '2026-07-03 00:00:23', 1, '<p>Arcadis is the world&#x27;s leading company delivering sustainable design, engineering, and consultancy solutions for natural and built assets. We are more than 36,000 people, in over 70 countries, dedicated to improving quality of life. Everyone has an important role to play. With the power of many curious minds, together we can solve the world’s most complex challenges and deliver more impact together.</p>
+<h3 class="jd-section-header">Role description</h3>
+<ul class="jd-list"><li>Preparation of pre-contract cost estimates and project cash-flow.</li><li>Preparation of tender documentation</li><li>Tendering process and tender evaluation</li></ul>
+<p>Post-contract administration and management – contract documentation, valuation of progress payment, variation assessment, and cost control report Finalization of project final accounts</p>
+<h3 class="jd-section-header">Qualifications &amp; Experience</h3>
+<p>Apply with your latest transcript, DSE/IB/IELTS/TOEFL results, resume along with details of your expected salary and preferred start date. We regret that only shortlisted candidates will be contacted. Degree in Quantity Surveying Final year students to be graduated in 2026 Basic technical knowledge – Measurement, cost estimating, construction technology, contracts and law Understand and familiar with professional practice and contract administration processes Able to work as a team player Ability to communicate clearly in spoken and written English Ability to communicate clearly in spoken Cantonese and written Chinese</p>
+<p>Why Arcadis? We can only achieve our goals when everyone is empowered to be their best. We believe everyone&#x27;s contribution matters. It’s why we are pioneering a skills-based approach, where you can harness your unique experience and expertise to carve your career path and maximize the impact we can make together. You’ll do meaningful work, and no matter what role, you’ll be helping to deliver sustainable solutions for a more prosperous planet. Make your mark, on your career, your colleagues, your clients, your life and the world around you. Together, we can create a lasting legacy.</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (185, 'f0538581ba7e1417', 'graduate quantity surveyor', 'Kanghe Engineering Co., Ltd.', 'quantity_surveying', 'Sha Tin', '', 'Job Responsibilities Assist in the preparation of cost estimates, tender documents, and contract documentation for construction projects. Conduct site visits to monitor progress, measure completed works, and support valuation submissions. Support senior quantity surveyors in cost planning, budget control, and financial reporting throughout project lifecycles. Review contractor applications for payment, verify quantities, and assist in interim and final account preparations. Collate and analyse project data to identify cost trends, risks, and opportunities for value engineering and cost savings. Requirements Bachelor’s or Master’s degree in Quantity Surveying, Construction Management, Civil Engineering, or a closely related discipline. Strong academic foundation in construction technology, measurement, procurement, and contract law. Proficiency in industry-standard software such as Excel, MS Project, and familiarity with CostX, Candy, or similar estimating tools is advantageous. Excellent numerical, analytical, and communication skills, with the ability to interpret technical drawings and specifications. Professional enthusiasm, attention to detail, and a commitment to continuous learning and professional development towards RICS or similar accreditation. Benefits Structured graduate training programme with mentorship from experienced chartered surveyors. Support and sponsorship towards achieving professional qualification (e.g., RICS APC). Competitive starting salary and annual performance-based review process. Flexible working arrangements, including hybrid office/remote options where project requirements allow. Comprehensive benefits package including pension contribution, private healthcare, and paid professional membership fees.', '', 'https://m.offertoday.com/en/job/Xp1L-TG7EsAxiU7tukXIsw==?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_OfferToday', '29 days ago', '', 1, 'graduate', '2026-07-03 00:00:23', '2026-07-03 00:00:23', 1, '<p>Job Responsibilities Assist in the preparation of cost estimates, tender documents, and contract documentation for construction projects. Conduct site visits to monitor progress, measure completed works, and support valuation submissions. Support senior quantity surveyors in cost planning, budget control, and financial reporting throughout project lifecycles. Review contractor applications for payment, verify quantities, and assist in interim and final account preparations. Collate and analyse project data to identify cost trends, risks, and opportunities for value engineering and cost savings. Requirements Bachelor’s or Master’s degree in Quantity Surveying, Construction Management, Civil Engineering, or a closely related discipline. Strong academic foundation in construction technology, measurement, procurement, and contract law. Proficiency in industry-standard software such as Excel, MS Project, and familiarity with CostX, Candy, or similar estimating tools is advantageous. Excellent numerical, analytical, and communication skills, with the ability to interpret technical drawings and specifications. Professional enthusiasm, attention to detail, and a commitment to continuous learning and professional development towards RICS or similar accreditation. Benefits Structured graduate training programme with mentorship from experienced chartered surveyors. Support and sponsorship towards achieving professional qualification (e.g., <strong>RICS APC</strong>). Competitive starting salary and annual performance-based review process. Flexible working arrangements, including hybrid office/remote options where project requirements allow. Comprehensive benefits package including pension contribution, private healthcare, and paid professional membership fees.</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (186, 'c4ee2fca5dfa457d', 'Graduate quantity surveyor: rics path + mentorship', 'Turner & Townsend', 'quantity_surveying', 'Hong Kong', '', 'A leading global professional services company in Hong Kong is seeking a Graduate Quantity Surveyor to join their team. This full-time, entry-level position offers a structured, 24-month development program that includes mentorship and opportunities for professional accreditation. The ideal candidate holds a degree relevant to quantity surveying and possesses strong analytical and communication skills. This role involves assisting with cost management commissions and collaborating with various stakeholders to ensure project success.
+#J-18808-Ljbffr', '', 'https://hk.jobrapido.com/jobpreview/131101705604431872?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Jobrapido.com', '2026-07-03', '', 1, 'graduate', '2026-07-03 00:00:23', '2026-07-03 00:00:23', 1, '<p>A leading global professional services company in Hong Kong is seeking a Graduate Quantity Surveyor to join their team. This full-time, entry-level position offers a structured, 24-month development program that includes mentorship and opportunities for professional accreditation. The ideal candidate holds a degree relevant to quantity surveying and possesses strong analytical and communication skills. This role involves assisting with cost management commissions and collaborating with various stakeholders to ensure project success. #J-18808-Ljbffr</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (187, '15b67c39446bec16', 'Project Quantity Surveyor', 'Hip Hing Construction Co Ltd', 'quantity_surveying', 'Hong Kong', '', 'Project Quantity Surveyor
+
+
+
+Reference No.: HH-PQS/Internet
+
+
+
+Job Duties
+
+
+
+
+	Implement the requirements of the Manuals in respect of all Quantity Surveying functions.
+	Carry out Quantity Surveying duties for the project in hand including preparation of Sub-Contract tendering & documentation, Main Contract & sub-contract interim payment application/valuations, final account, insurance claims and contractual claims.
+	Attend meetings and negotiate with consultants, client and sub-contractor/suppliers under the supervision of the Senior Quantity Surveyor or Senior Project Quantity Surveyor.
+	Anticipate problems relative to QS duties and report to the Senior Quantity Surveyor or Senior Project Quantity Surveyor with possible solutions.
+	Manage & supervise sub-ordinates in day to day Quantity Surveying operation/function.
+
+
+Requirements
+
+
+
+
+	Degree in Quantity Surveying or equivalent.
+	Chartered membership of HKIS / RICS is preferable.
+	5 years relevant working experience.
+	Good command of spoken and written English & Chinese.
+	Proactive, outgoing and initiative.
+	Sound interpersonal and communication skills.
+	Able and willing to work under pressure and tight schedule.
+
+Attractive salary and fringe benefits will be offered to the successful candidates. Please apply with full resume, available date, present and expected salary and quoting the reference code on the letter & envelope to THE HUMAN RESOURCES DEPARTMENT, HIP HING CONSTRUCTION CO., LTD., 11/F., Chevalier Commercial Centre, No. 8 Wang Hoi Road, Kowloon Bay, Hong Kong OR click Apply Now OR fax to 2530 4360.
+
+
+
+Company Website: www.hiphing.com.hk
+
+
+
+
+
+All personal data collected will be used for recruitment purposes only.
+
+Applicants who are not invited for an interview within 8 weeks may consider their applications unsuccessful.
+
+Please enable the "Pop-up" setting of your browser, click here for steps.', '', 'https://jobs.ctgoodjobs.hk/job/10164460/project-quantity-surveyor?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_CTgoodjobs.hk', '7 days ago', '', 0, 'experienced', '2026-07-03 00:00:23', '2026-07-03 00:00:23', 1, '<p>Project Quantity Surveyor</p>
+<p>Reference No.: HH-PQS/Internet</p>
+<h3 class="jd-section-header">Job Duties</h3>
+<ul class="jd-list"><li>Implement the requirements of the Manuals in respect of all Quantity Surveying functions.</li><li>Carry out Quantity Surveying duties for the project in hand including preparation of Sub-Contract tendering &amp; documentation, Main Contract &amp; sub-contract interim payment application/valuations, final account, insurance claims and contractual claims.</li><li>Attend meetings and negotiate with consultants, client and sub-contractor/suppliers under the supervision of the Senior Quantity Surveyor or Senior Project Quantity Surveyor.</li></ul>
+<p>Anticipate problems relative to QS duties and report to the Senior Quantity Surveyor or Senior Project Quantity Surveyor with possible solutions. Manage &amp; supervise sub-ordinates in day to day Quantity Surveying operation/function.</p>
+<h3 class="jd-section-header">Requirements</h3>
+<ul class="jd-list"><li>Degree in Quantity Surveying or equivalent.</li><li>Chartered membership of HKIS / RICS is preferable.</li><li>5 years relevant working experience.</li><li>Good command of spoken and written English &amp; Chinese.</li><li>Proactive, outgoing and initiative.</li><li>Sound interpersonal and communication skills.</li><li>Able and willing to work under pressure and tight schedule.</li></ul>
+<p>Attractive salary and fringe benefits will be offered to the successful candidates. Please apply with full resume, available date, present and expected salary and quoting the reference code on the letter &amp; envelope to <strong>THE HUMAN RESOURCES DEPARTMENT</strong>, <strong>HIP HING CONSTRUCTION CO</strong>., LTD., 11/F., Chevalier Commercial Centre, No. 8 Wang Hoi Road, Kowloon Bay, Hong Kong OR click Apply Now OR fax to 2530 4360.</p>
+<p>Company Website: www.hiphing.com.hk</p>
+<p>All personal data collected will be used for recruitment purposes only.</p>
+<p>Applicants who are not invited for an interview within 8 weeks may consider their applications unsuccessful.</p>
+<p>Please enable the &quot;Pop-up&quot; setting of your browser, click here for steps.</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (188, '6df03019989f7ec2', 'Quantity Surveyors', 'TLS & Associates', 'quantity_surveying', 'Kowloon', '', 'Interested parties please apply in strict confidence by post or email enclosing full resume, copy of testimonial from previous employer, copy of Certificate qualification, present and expected salary, date available to the Managing Director, 21/F., Trium Lab, 21 Luk Hop Street, San Po Kong, Kowloon, Hong Kong or email to info@tlsandasso.com.hk
+
+(All information received will be kept in strict confidence and only for employment-related purposes.)
+
+
+
+Quantity Surveyors
+
+
+Bachelor Degree in Surveying or equivalentMinimum 2 years’ relevant experience in quantity surveyingGood command of both oral and written English and Chinese', '', 'https://www.glassdoor.com.hk/job-listing/quantity-surveyors-tls-associates-JV_IC2312071_KO0,18_KE19,33.htm?jl=1006452523138&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Glassdoor', '7 days ago', '', 0, 'experienced', '2026-07-03 00:00:23', '2026-07-03 00:00:23', 1, '<p>Interested parties please apply in strict confidence by post or email enclosing full resume, copy of testimonial from previous employer, copy of Certificate qualification, present and expected salary, date available to the Managing Director, 21/F., Trium Lab, 21 Luk Hop Street, San Po Kong, Kowloon, Hong Kong or email to info@tlsandasso.com.hk</p>
+<p>(All information received will be kept in strict confidence and only for employment-related purposes.)</p>
+<p>Quantity Surveyors</p>
+<p>Bachelor Degree in Surveying or equivalentMinimum 2 years’ relevant experience in quantity surveyingGood command of both oral and written English and Chinese</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (189, '1cb499b230807f0b', 'Project Quantity Surveyor/ Quantity SQuantity Surveyor / Assistant Quantity Surveyor / Quantity Surveyor Trainee (Ref no.: 38QS/AQS/QST26060122)', 'Yau Lee Holdings Limited', 'quantity_surveying', 'Hong Kong', '', 'Company Description
+
+  Yau Lee Holdings Limited (The Group) , a green integrated corporation, went public in 1991. Based on the solid foundation of conventional experience, Yau Lee Construction Company Limited was founded earlier in 1958 and gradually developed into one of the Hong Kong’s largest consortia in building construction, precast and low carbon building materials manufacturing and trading, E&M services, plumbing and drainage works, green building and energy optimization solutions, construction IT solutions, virtual design & construction implementation, curtain wall and steel works and property & hotel development.
+
+Carry the same corporate culture, belief and practice, the Group and subsidiaries always strive for excellence to improve construction productivity and buildability as well as sustainability. We think green, practice green, act green and aim to provide a green living to our society and the world.
+
+ Responsibilities
+
+ Job Description:
+
+Provide general quantity surveying and contract administration services for pre and post contract which include taking off quantities from drawings, scrutiny/preparation of cost estimates, tenders, contracts and subcontract documents, evaluation of variation order and payment claims and settlement of final accounts.
+
+ Requirements
+
+ Degree in Quantity Surveying or Higher Diploma/Certificate in Quantity Surveying or equivalent.QS experience in Contractor and/or QS Consultant Firms.Preferably with relevant experience in pre- and post-contract works.Experience in construction project(s) using NEC contract would be ab advantage
+
+We offer competitive remuneration package with comprehensive fringe benefits to the right candidates. Interested parties, please send your full resume, with current and expected salary, date of availability by clicking  Apply Now.  Thank you.', '', 'https://jobs.ctgoodjobs.hk/zh/job/10151012/project-quantity-surveyor-quantity-squantity-surveyor-assistant-quantity-surveyor-quantity-surveyor-trainee-ref-no-38qsaqsqst26060122?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_CTgoodjobs.hk', '18 days ago', '', 0, 'experienced', '2026-07-03 00:00:32', '2026-07-03 00:00:32', 1, '<h3 class="jd-section-header">Company Description</h3>
+<ul class="jd-list"><li>Yau Lee Holdings Limited (The Group) , a green integrated corporation, went public in 1991. Based on the solid foundation of conventional experience, Yau Lee Construction Company Limited was founded earlier in 1958 and gradually developed into one of the Hong Kong’s largest consortia in building construction, precast and low carbon building materials manufacturing and trading, E&amp;M services, plumbing and drainage works, green building and energy optimization solutions, construction IT solutions, virtual design &amp; construction implementation, curtain wall and steel works and property &amp; hotel development.</li><li>Carry the same corporate culture, belief and practice, the Group and subsidiaries always strive for excellence to improve construction productivity and buildability as well as sustainability. We think green, practice green, act green and aim to provide a green living to our society and the world.</li></ul>
+<h3 class="jd-section-header">Responsibilities</h3>
+<h3 class="jd-section-header">Job Description</h3>
+<ul class="jd-list"><li>Provide general quantity surveying and contract administration services for pre and post contract which include taking off quantities from drawings, scrutiny/preparation of cost estimates, tenders, contracts and subcontract documents, evaluation of variation order and payment claims and settlement of final accounts.</li></ul>
+<h3 class="jd-section-header">Requirements</h3>
+<ul class="jd-list"><li>Degree in Quantity Surveying or Higher Diploma/Certificate in Quantity Surveying or equivalent.QS experience in Contractor and/or QS Consultant Firms.Preferably with relevant experience in pre- and post-contract works.Experience in construction project(s) using NEC contract would be ab advantage</li></ul>
+<p>We offer competitive remuneration package with comprehensive fringe benefits to the right candidates. Interested parties, please send your full resume, with current and expected salary, date of availability by clicking  Apply Now.  Thank you.</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (190, 'dbbc359ce7897846', 'Senior Cost Manager - Project Delivery Leader', 'Turner & Townsend', 'quantity_surveying', 'Hong Kong', '', 'Turner & Townsend in Hong Kong is looking for a Senior Quantity Surveyor/Associate Director to lead cost management services for construction projects. This role requires a minimum of 7 years of experience in cost management, strong communication and leadership skills, and proficiency in Cost-X software. You will collaborate with multidisciplinary teams, ensure financial accuracy, and manage client relationships. Turner & Townsend promotes a healthy work-life balance and is committed to diversity and inclusion.', '', 'https://www.jobleads.com/hk/job/senior-cost-manager-project-delivery-leader--hong-kong--e9732e3339e910ebef53092e1d21168b8?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_JobLeads', '8 days ago', '', 0, 'experienced', '2026-07-03 00:00:36', '2026-07-03 00:00:36', 1, '<p>Turner &amp; Townsend in Hong Kong is looking for a Senior Quantity Surveyor/Associate Director to lead cost management services for construction projects. This role requires a minimum of 7 years of experience in cost management, strong communication and leadership skills, and proficiency in Cost-X software. You will collaborate with multidisciplinary teams, ensure financial accuracy, and manage client relationships. Turner &amp; Townsend promotes a healthy work-life balance and is committed to diversity and inclusion.</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (191, 'c853dfc1eed05a7b', 'Assistant Land Surveyor', 'ESRI CHINA (HONG KONG) LIMITED', 'land_surveying', 'Hong Kong', 'HK$34865-36000', 'Job Description:
+
+Assist in drafting engagement plans or documents to promote wider adoption of spatial data using state-of-art technology, e.g. artificial intelligence (AI); 
+
+Assist in collaborating with tech ventures and stakeholders in the I&T field to develop and deliver geospatial AI sandbox prototypes; 
+
+Assist in testing and validating the geospatial AI sandbox prototypes in real-life operating systems; 
+
+Assist in exploring the possibilities of involving the private sector in delivering new demonstrative projects and to seek collaboration opportunities with business and/or the academics; 
+
+Taking part in various capacity building and engagement activities; 
+
+Comprehensive and hands-on training will be provided; and 
+
+Successful candidate is required to work at the client site and will be offered a contract-based position subject to renewal.
+
+Requirements:
+
+Degree in Land Surveying, Geomatics, Geo-Informatics or a related discipline;  
+
+A qualification recognised by the Hong Kong Institute of Surveyors (HKIS) as satisfying the academic requirements for corporate membership in the Land Surveying Division; 
+
+Successfully completed a 2-year graduate training scheme recognised by the HKIS or equivalent;
+
+Level 2 or above in Chinese Language and English Language in the Hong Kong Diploma of Secondary Education Examination (HKDSEE), or Grade E or above in the Hong Kong Certificate of Education Examination (HKCEE), or equivalent; and
+
+Good command of both spoken and written Chinese and English.
+
+We offer five-day work week, attractive career opportunities, remuneration and benefits to the right candidates.  Interested applicants, please submit detailed resume with current & expected salary and date of availability to our Human Resources Department via Apply Now.', '', 'https://jobs.ctgoodjobs.hk/job/10122033/assistant-land-surveyor?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_CTgoodjobs.hk', 'HK$34,865–HK$36,000 a month', '', 1, 'entry', '2026-07-03 00:00:53', '2026-07-03 00:00:53', 1, '<h3 class="jd-section-header">Job Description</h3>
+<ul class="jd-list"><li>Assist in drafting engagement plans or documents to promote wider adoption of spatial data using state-of-art technology, e.g. artificial intelligence (AI);</li><li>Assist in collaborating with tech ventures and stakeholders in the I&amp;T field to develop and deliver geospatial AI sandbox prototypes;</li><li>Assist in testing and validating the geospatial AI sandbox prototypes in real-life operating systems;</li><li>Assist in exploring the possibilities of involving the private sector in delivering new demonstrative projects and to seek collaboration opportunities with business and/or the academics;</li><li>Taking part in various capacity building and engagement activities;</li><li>Comprehensive and hands-on training will be provided; and</li></ul>
+<p>Successful candidate is required to work at the client site and will be offered a contract-based position subject to renewal.</p>
+<h3 class="jd-section-header">Requirements</h3>
+<ul class="jd-list"><li>Degree in Land Surveying, Geomatics, Geo-Informatics or a related discipline;</li></ul>
+<p>A qualification recognised by the Hong Kong Institute of Surveyors (HKIS) as satisfying the academic requirements for corporate membership in the Land Surveying Division;</p>
+<p>Successfully completed a 2-year graduate training scheme recognised by the HKIS or equivalent;</p>
+<p>Level 2 or above in Chinese Language and English Language in the Hong Kong Diploma of Secondary Education Examination (HKDSEE), or Grade E or above in the Hong Kong Certificate of Education Examination (HKCEE), or equivalent; and</p>
+<p>Good command of both spoken and written Chinese and English.</p>
+<p>We offer five-day work week, attractive career opportunities, remuneration and benefits to the right candidates.  Interested applicants, please submit detailed resume with current &amp; expected salary and date of availability to our Human Resources Department via Apply Now.</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (192, '94c30efd318c7a81', 'Building Surveyor, Projects', 'Tai Sang Land Development Limited', 'building_surveying', 'Hong Kong', '', 'Tai Sang Land Development Limited,  diversifies investment portfolios to include godown, shops commercial and residential properties in Hong Kong as well as overseas. 
+
+ Responsibilities: 
+
+ Handle general building repair, daily maintenance and fit-out projects of a mixed property portfolio of office, industrial, residential, commercial and retail properties  Supervise the contractors on site and check quality and progress of works, to ensure quality workmanship and output  Handle emergency cases including breakdown of essential building services system and Ad-hoc projects  Any other works as directed by Manager, Projects & Building Services Department from time to time  
+
+ Requirements: 
+
+ Higher Diploma or above in Building Services / Electrical / Mechanical Engineering / Facilities Management / Building Engineering or equivalent  Minimum 3 years'' relevant work experience gained in Property developers, management companies in property maintenance or related field  Registered Electrical Worker License “A” Holder or above  Proficient in AutoCAD  Good command in computer skills, speaking and writing English and Chinese  Proactive, good time management and ability to work independently and handle multi-task  Knowledge of Minor Works System and Buildings Ordinance  
+
+ We offer competitive salary and benefits packages. Interested parties please send  full resume quoting our job reference number together with expected salary  [email redacted, apply via Company website] or by fax to 查看ctgoodjobs.hk上的电话号码. 
+
+ 
+
+ All information received will be kept in strictly confidential and used for recruitment purposes only.', '', 'https://hk.jooble.org/jdp/8680918357644837488?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Jooble HK', '7 days ago', '', 0, 'experienced', '2026-07-03 00:00:53', '2026-07-03 00:00:53', 1, '<p>Tai Sang Land Development Limited,  diversifies investment portfolios to include godown, shops commercial and residential properties in Hong Kong as well as overseas.</p>
+<h3 class="jd-section-header">Responsibilities</h3>
+<ul class="jd-list"><li>Handle general building repair, daily maintenance and fit-out projects of a mixed property portfolio of office, industrial, residential, commercial and retail properties  Supervise the contractors on site and check quality and progress of works, to ensure quality workmanship and output  Handle emergency cases including breakdown of essential building services system and Ad-hoc projects  Any other works as directed by Manager, Projects &amp; Building Services Department from time to time</li></ul>
+<h3 class="jd-section-header">Requirements</h3>
+<ul class="jd-list"><li>Higher Diploma or above in Building Services / Electrical / Mechanical Engineering / Facilities Management / Building Engineering or equivalent  Minimum 3 years&#x27; relevant work experience gained in Property developers, management companies in property maintenance or related field  Registered Electrical Worker License “A” Holder or above  Proficient in AutoCAD  Good command in computer skills, speaking and writing English and Chinese  Proactive, good time management and ability to work independently and handle multi-task  Knowledge of Minor Works System and Buildings Ordinance</li><li>We offer competitive salary and benefits packages. Interested parties please send  full resume quoting our job reference number together with expected salary  [email redacted, apply via Company website] or by fax to 查看ctgoodjobs.hk上的电话号码.</li><li>All information received will be kept in strictly confidential and used for recruitment purposes only.</li></ul>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (193, '2994a2fd59ab9296', 'Assistant Land Surveyor', 'Ming Hing Waterworks Engineering Co., Ltd', 'land_surveying', 'Hong Kong', '', 'Ming Hing Waterworks Engineering Co. Ltd  is a premium integrated waterworks engineering, technology and investment company. The Group principally engages in the provision of project management services, maintenance and construction works for civil engineering projects on waterworks & drainage, roads & highways and slope upgrading services in Hong Kong. Founded in 1967, the Group has grown to establish itself as a major waterworks engineering service provider in Hong Kong, accountable for ensuring dependable water supply to the community. 
+
+ Given increasing project work in Hong Kong and China, Ming Hing is inviting high calibre applicants for the following positions to join its present team of professionals. 
+
+ Duties & Responsibilities: 
+
+ Prepare and maintain accurate as-constructed survey records for water mains.  Review engineering drawings and generate precise survey data for project use.  Compile and submit survey records, while addressing and resolving client requests promptly.  Coordinate and oversee the progress of BIM modeling works, ensuring quality and timeliness.  Support the team with ad hoc duties as assigned to meet project needs.  Requirements: 
+
+ Degree holder or Higher Diploma (or equivalent) in Land Surveying, Geomatics, Geo-Informatics or a related discipline, with at least 2 years of post-qualification experience; 
+(Applications from Mainland China students and non-local graduates are welcomed.欢迎来自国内的学生以及所有非本地畢業生的申请) Fresh graduates will also be considered.  Good command of spoken and written English and Cantonese;  Good PC skills on MS Word, Excel and AutoCAD; and  Immediately available is highly preferred.  Benefit: 
+We offer good career prospects, 5.5-day work, training sponsorship allowance, medical allowance and intensive discretionary bonus to the right candidates. 
+
+ Working Hour : Mon – Fri 08:00 – 18:00, Alt Sat 08:00-12:00 Work Location : Site Office  Holiday : Public Holiday  Annual Leave : 10 days  Paid Leave : Birthday Leave/ Marr', '', 'https://hk.jooble.org/jdp/-8159730222797874856?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Jooble HK', '1 day ago', '', 1, 'entry', '2026-07-03 00:00:53', '2026-07-03 00:00:53', 1, '<p>Ming Hing Waterworks Engineering Co. Ltd  is a premium integrated waterworks engineering, technology and investment company. The Group principally engages in the provision of project management services, maintenance and construction works for civil engineering projects on waterworks &amp; drainage, roads &amp; highways and slope upgrading services in Hong Kong. Founded in 1967, the Group has grown to establish itself as a major waterworks engineering service provider in Hong Kong, accountable for ensuring dependable water supply to the community.</p>
+<p>Given increasing project work in Hong Kong and China, Ming Hing is inviting high calibre applicants for the following positions to join its present team of professionals.</p>
+<h3 class="jd-section-header">Duties &amp; Responsibilities</h3>
+<ul class="jd-list"><li>Prepare and maintain accurate as-constructed survey records for water mains.  Review engineering drawings and generate precise survey data for project use.  Compile and submit survey records, while addressing and resolving client requests promptly.  Coordinate and oversee the progress of BIM modeling works, ensuring quality and timeliness.  Support the team with ad hoc duties as assigned to meet project needs.  Requirements:</li><li>Degree holder or Higher Diploma (or equivalent) in Land Surveying, Geomatics, Geo-Informatics or a related discipline, with at least 2 years of post-qualification experience;</li></ul>
+<p>(Applications from Mainland China students and non-local graduates are welcomed.欢迎来自国内的学生以及所有非本地畢業生的申请) Fresh graduates will also be considered.  Good command of spoken and written English and Cantonese;  Good PC skills on MS Word, Excel and AutoCAD; and  Immediately available is highly preferred.  Benefit: We offer good career prospects, 5.5-day work, training sponsorship allowance, medical allowance and intensive discretionary bonus to the right candidates.</p>
+<h3 class="jd-section-header">Working Hour </h3>
+<ul class="jd-list"><li>Mon – Fri 08:00 – 18:00, Alt Sat 08:00-12:00 Work Location : Site Office  Holiday : Public Holiday  Annual Leave : 10 days  Paid Leave : Birthday Leave/ Marr</li></ul>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (194, '50255ca6e5a0e5a0', 'Land Surveyor', 'Max China Engineering Ltd', 'land_surveying', 'Kwai Tsing District', '', 'Employer Ref: DC/2022/06 LS (Kwai Chung Area)Recruit Ref: L06053996 Posting Date: 2026-06-05MAX CHINA ENGINEERING LIMITED 豐華工程有限公司Land SurveyorResponsibilities:Administering a Geospatial Services and Land Survey Division;Carrying out / checking all survey and mapping work;Undertaking geographical information system related spatial data collection, input, updating and analysing work;Supervising the preparation and production of survey plans and writing of survey reports;Responsible for preparation of tender submissions;Management of sub-contractors; and Training and supervising junior officers.Requirements:Degree in Geomatics / Land Surveying and Geoinformatics, from a Hong Kong polytechnic university, or equivalent;Holder of a Chartered Membership professional status (e.g. HKIS, RICS) or equivalent as recognized by Land Surveying OrdinanceAt least 5 years post-qualification professional training and working experience in the related field;Met the language proficiency requirements of “Level 2” or above in Chinese Language and EnglishLanguage in the Hong Kong Diploma of Secondary Education Examination (HKDSEE) or the Hong KongCertificate of Education Examination (HKCEE), or equivalent;Knowledge of and possession of experience in Geographical Information System (GIS) and Building InformationModelling (BIM) would be an advantage;Self-motivated, logical and systematic thinker;A good team player with interests to work in a diverse and dynamic international culture;Good command of spoken and written English and Chinese.Please submit application with resume tohr•@scg-hk.com Industry:Engineering / Electrical / ElectronicsJob Category / Function:Building / Architectural (Surveying)Building / Architectural (Civil / Structural)Job Position Level:MiddleEmployment Term:Full TimeMin. Edu. Level Req:BachelorMinimum QF Level attained:-Total Working Exp:5-7Salary(HKD):- (Monthly)Location:Kwai Tsing DistrictBenefits:-', '', 'https://hk.joblum.com/job/land-surveyor/4134482?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Joblum Hong Kong', '20 days ago', '', 0, 'experienced', '2026-07-03 00:00:58', '2026-07-03 00:00:58', 1, '<p>Employer Ref: DC/2022/06 LS (Kwai Chung Area)Recruit Ref: L06053996 Posting Date: 2026-06-05MAX <strong>CHINA ENGINEERING LIMITED </strong>豐華工程有限公司Land SurveyorResponsibilities:Administering a Geospatial Services and Land Survey Division;Carrying out / checking all survey and mapping work;Undertaking geographical information system related spatial data collection, input, updating and analysing work;Supervising the preparation and production of survey plans and writing of survey reports;Responsible for preparation of tender submissions;Management of sub-contractors; and Training and supervising junior officers.Requirements:Degree in Geomatics / Land Surveying and Geoinformatics, from a Hong Kong polytechnic university, or equivalent;Holder of a Chartered Membership professional status (e.g. HKIS, RICS) or equivalent as recognized by Land Surveying OrdinanceAt least 5 years post-qualification professional training and working experience in the related field;Met the language proficiency requirements of “Level 2” or above in Chinese Language and EnglishLanguage in the Hong Kong Diploma of Secondary Education Examination (HKDSEE) or the Hong KongCertificate of Education Examination (HKCEE), or equivalent;Knowledge of and possession of experience in Geographical Information System (GIS) and Building InformationModelling (BIM) would be an advantage;Self-motivated, logical and systematic thinker;A good team player with interests to work in a diverse and dynamic international culture;Good command of spoken and written English and Chinese.Please submit application with resume tohr•@scg-hk.com Industry:Engineering / Electrical / ElectronicsJob Category / Function:Building / Architectural (Surveying)Building / Architectural (Civil / Structural)Job Position Level:MiddleEmployment Term:Full TimeMin. Edu. Level Req:BachelorMinimum QF Level attained:-Total Working Exp:5-7Salary(HKD):- (Monthly)Location:Kwai Tsing DistrictBenefits:-</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (195, '7a7ab3942af1d28b', '合約助理土地測量師', '公務員事務局', 'other', '香港', '', '職位編號:
+
+
+50094
+
+
+部門:
+
+
+民政事務總署
+
+
+組別/單位:
+
+
+總部第一科測量組
+
+
+職位名稱:
+
+
+合約助理土地測量師
+
+
+薪酬:
+
+
+月薪港幣31,695元
+
+
+入職條件:
+
+
+(a) 具備獲香港測量師學會承認為符合該會土地測量組正式會員所需學歷要求的資格[註(1)]；
+
+
+(b) 取得上述學歷資格後，在香港測量師學會不時就該會土地測量組發出的專業評核試規則及指引所載的相關範疇具備至少兩年專業訓練及工作經驗，或同等經驗[註(2)]；以及
+
+
+(c) 符合語文能力要求，即在香港中學文憑考試或香港中學會考，中國語文科和英國語文科，考獲第2級或以上成績，或具備同等成績[註(3)]。
+
+
+註:
+
+
+(1) 申請人如在二零二六年九月三十日或之前已成為香港測量師學會土地測量組的正式會員，或具備同等專業資格；及在取得專業資格後在土地測量方面具備一年或以上相關的工作經驗，將不會獲考慮聘用為合約助理土地測量師。獲取錄的申請人必須就上述有關資料作出聲明。
+
+
+(2) 如申請人尚未具備入職條件(b)所述至少兩年相關範疇的專業訓練及工作經驗，但正接受相關專業訓練，並將於二零二六年九月三十日或之前取得所需兩年專業訓練和工作經驗也可申請；申請人如獲錄用，必須在二零二六年九月三十日或之前取得最少兩年專業訓練資格及工作經驗才獲聘任。
+
+
+(3) 2007年前的香港中學會考中國語文科和英國語文科(課程乙) E級成績，在行政上會被視為等同2007年或之後香港中學會考中國語文科和英國語文科第2級成績。
+
+
+職責:
+
+
+合約助理土地測量師主要負責：
+
+
+(1) 進行各類土地測量工作(包括大地測量、土地界線測量、地形測量及攝影測量)，以及與地理信息系統／數碼攝影測量有關的工作；
+
+
+(2) 督導測量工作隊伍；
+
+
+(3) 監督所有測量及製備圖則的工作；
+
+
+(4) 協助高級土地測量師／土地測量師處理辦公室的日常行政工作；以及
+
+
+(5) 按照上司指示執行任何其他職務。
+
+
+聘用條款:
+
+
+(1) 應徵者如獲錄用，將會按非公務員合約條款受聘，合約期不多於12個月。
+
+
+(2) 續約與否須視乎屆時部門的服務需求及受聘人的工作表現而定。
+
+
+(3) 受聘人或需於戶外、不定時工作以及在星期六、星期日及公眾假期工作。
+
+
+福利:
+
+
+(1) 獲聘者如圓滿履行合約，而期間表現理想及行為良好，可獲發約滿酬金。如獲發酬金，酬金數額連同政府按照《強制性公積金計劃條例》的規定為獲聘者向強制性公積金計劃所作的供款，相等於獲聘者在合約期內所得基本薪金總額的15%；以及
+
+
+(2) 獲聘者可按照《僱傭條例》的規定享有休息日、法定假日（或代替假日）、年假、產假/ 侍產假和疾病津貼等福利（如適用）。
+
+
+附註:
+
+
+(1) 除另有指明外，申請人於獲聘時必須已成為香港特別行政區永久性居民。
+
+
+(2) 作為提供平等就業機會的僱主，政府致力消除在就業方面的歧視。所有符合基本入職條件的人士，不論其殘疾、性別、婚姻狀況、懷孕、年齡、家庭崗位、性傾向和種族，均可申請本欄內的職位。
+
+
+(3) 非公務員職位並不是公務員編制內的職位。應徵者如獲聘用，將不會按公務員聘用條款和服務條件聘用。獲聘的應徵者並非公務員，並不會享有獲調派、晉升或轉職至公務員職位的資格。
+
+
+(4) 入職薪酬、聘用條款及服務條件，應以獲聘時之規定為準。
+
+
+(5) 如果符合訂明入職條件的應徵者人數眾多，招聘部門可以訂立篩選準則，甄選條件較佳的應徵者，以便進一步處理。在此情況下，只有獲篩選的應徵者會獲邀參加招聘考試 面試。
+
+
+(6) 政府的政策，是盡可能安排殘疾人士擔任適合的職位。殘疾人士申請職位，如其符合入職條件，毋須再經篩選，便會獲邀參加面試／筆試。 在適合受聘而有申報為殘疾的申請人和適合受聘程度相若的其他申請人當中，招聘當局可給予前者適度的優先錄用機會。有關政府聘用殘疾人士的政策及其他相關措施載列於《用人唯才：殘疾人士申請政府職位》的資料冊內。 申請人可於公務員事務局互聯網站參閱該資料冊，網址如下：https://www.csb.gov.hk 內的“公務員隊伍的管理-聘任”。
+
+
+(7) 持有本港以外學府 非香港考試及評核局頒授的學歷人士亦可申請，惟其學歷必須經過評審以確定是否與職位所要求的本地學歷水平相若。
+
+
+(8) 在臨近截止申請日期，接受網上申請的伺服器可能因為需要處理大量申請而非常繁忙。申請人應盡早遞交申請，以確保在限期前成功於網上完成申請程序。
+
+
+申請手續:
+
+
+(1) 申請人必須透過公務員事務局的G.F. 340網上申請系統 (https://www.csb.gov.hk) 作網上申請。
+
+
+(2) 申請人須在截止申請日期或之前將詳列相關工作經驗的履歷和證明其(a) 學歷；及(b) 工作經驗的相關證', '', 'https://bebee.com/hk/jobs/hong-kong--theirstack-742194120?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_BeBee', '5 days ago', '', 1, 'entry', '2026-07-03 00:01:12', '2026-07-03 00:01:12', 1, '<p>職位編號:</p>
+<p>50094</p>
+<p>部門:</p>
+<p>民政事務總署</p>
+<p>組別/單位:</p>
+<p>總部第一科測量組</p>
+<p>職位名稱:</p>
+<p>合約助理土地測量師</p>
+<p>薪酬:</p>
+<p>月薪港幣31,695元</p>
+<p>入職條件:</p>
+<p>(a) 具備獲香港測量師學會承認為符合該會土地測量組正式會員所需學歷要求的資格[註(1)]；</p>
+<p>(b) 取得上述學歷資格後，在香港測量師學會不時就該會土地測量組發出的專業評核試規則及指引所載的相關範疇具備至少兩年專業訓練及工作經驗，或同等經驗[註(2)]；以及</p>
+<p>(c) 符合語文能力要求，即在香港中學文憑考試或香港中學會考，中國語文科和英國語文科，考獲第2級或以上成績，或具備同等成績[註(3)]。</p>
+<p>註:</p>
+<p>(1) 申請人如在二零二六年九月三十日或之前已成為香港測量師學會土地測量組的正式會員，或具備同等專業資格；及在取得專業資格後在土地測量方面具備一年或以上相關的工作經驗，將不會獲考慮聘用為合約助理土地測量師。獲取錄的申請人必須就上述有關資料作出聲明。</p>
+<p>(2) 如申請人尚未具備入職條件(b)所述至少兩年相關範疇的專業訓練及工作經驗，但正接受相關專業訓練，並將於二零二六年九月三十日或之前取得所需兩年專業訓練和工作經驗也可申請；申請人如獲錄用，必須在二零二六年九月三十日或之前取得最少兩年專業訓練資格及工作經驗才獲聘任。</p>
+<p>(3) 2007年前的香港中學會考中國語文科和英國語文科(課程乙) E級成績，在行政上會被視為等同2007年或之後香港中學會考中國語文科和英國語文科第2級成績。</p>
+<p>職責:</p>
+<p>合約助理土地測量師主要負責：</p>
+<p>(1) 進行各類土地測量工作(包括大地測量、土地界線測量、地形測量及攝影測量)，以及與地理信息系統／數碼攝影測量有關的工作；</p>
+<p>(2) 督導測量工作隊伍；</p>
+<p>(3) 監督所有測量及製備圖則的工作；</p>
+<p>(4) 協助高級土地測量師／土地測量師處理辦公室的日常行政工作；以及</p>
+<p>(5) 按照上司指示執行任何其他職務。</p>
+<p>聘用條款:</p>
+<p>(1) 應徵者如獲錄用，將會按非公務員合約條款受聘，合約期不多於12個月。</p>
+<p>(2) 續約與否須視乎屆時部門的服務需求及受聘人的工作表現而定。</p>
+<p>(3) 受聘人或需於戶外、不定時工作以及在星期六、星期日及公眾假期工作。</p>
+<p>福利:</p>
+<p>(1) 獲聘者如圓滿履行合約，而期間表現理想及行為良好，可獲發約滿酬金。如獲發酬金，酬金數額連同政府按照《強制性公積金計劃條例》的規定為獲聘者向強制性公積金計劃所作的供款，相等於獲聘者在合約期內所得基本薪金總額的15%；以及</p>
+<p>(2) 獲聘者可按照《僱傭條例》的規定享有休息日、法定假日（或代替假日）、年假、產假/ 侍產假和疾病津貼等福利（如適用）。</p>
+<p>附註:</p>
+<p>(1) 除另有指明外，申請人於獲聘時必須已成為香港特別行政區永久性居民。</p>
+<p>(2) 作為提供平等就業機會的僱主，政府致力消除在就業方面的歧視。所有符合基本入職條件的人士，不論其殘疾、性別、婚姻狀況、懷孕、年齡、家庭崗位、性傾向和種族，均可申請本欄內的職位。</p>
+<p>(3) 非公務員職位並不是公務員編制內的職位。應徵者如獲聘用，將不會按公務員聘用條款和服務條件聘用。獲聘的應徵者並非公務員，並不會享有獲調派、晉升或轉職至公務員職位的資格。</p>
+<p>(4) 入職薪酬、聘用條款及服務條件，應以獲聘時之規定為準。</p>
+<p>(5) 如果符合訂明入職條件的應徵者人數眾多，招聘部門可以訂立篩選準則，甄選條件較佳的應徵者，以便進一步處理。在此情況下，只有獲篩選的應徵者會獲邀參加招聘考試 面試。</p>
+<p>(6) 政府的政策，是盡可能安排殘疾人士擔任適合的職位。殘疾人士申請職位，如其符合入職條件，毋須再經篩選，便會獲邀參加面試／筆試。 在適合受聘而有申報為殘疾的申請人和適合受聘程度相若的其他申請人當中，招聘當局可給予前者適度的優先錄用機會。有關政府聘用殘疾人士的政策及其他相關措施載列於《用人唯才：殘疾人士申請政府職位》的資料冊內。 申請人可於公務員事務局互聯網站參閱該資料冊，網址如下：https://www.csb.gov.hk 內的“公務員隊伍的管理-聘任”。</p>
+<p>(7) 持有本港以外學府 非香港考試及評核局頒授的學歷人士亦可申請，惟其學歷必須經過評審以確定是否與職位所要求的本地學歷水平相若。</p>
+<p>(8) 在臨近截止申請日期，接受網上申請的伺服器可能因為需要處理大量申請而非常繁忙。申請人應盡早遞交申請，以確保在限期前成功於網上完成申請程序。</p>
+<p>申請手續:</p>
+<p>(1) 申請人必須透過公務員事務局的G.F. 340網上申請系統 (https://www.csb.gov.hk) 作網上申請。</p>
+<p>(2) 申請人須在截止申請日期或之前將詳列相關工作經驗的履歷和證明其(a) 學歷；及(b) 工作經驗的相關證</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (196, '3d86f6613858c129', '【香港】民政事務總署招聘', 'easyjobs853', 'other', '香港', '', '【香港政府招聘】民政事務總署招聘非公務員合約制「合約助理土地測量師」，月薪港幣 $31,695，合約期不多於 12 個月。主要負責進行大地、土地界線及地形測量，', '', 'https://www.easyjobs853.com/6237/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Easyjobs853 | 澳門', '6 days ago', '', 1, 'entry', '2026-07-03 00:01:12', '2026-07-03 00:01:12', 1, '<p>【香港政府招聘】民政事務總署招聘非公務員合約制「合約助理土地測量師」，月薪港幣 $31,695，合約期不多於 12 個月。主要負責進行大地、土地界線及地形測量，</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (197, 'c9f0dd891d0e35f8', '合約助理土地測量師', 'Civil Service Bureau', 'other', '香港', '', '職位編號:
+   
+   
+    50094
+   
+  
+  
+
+  
+   
+    部門:
+   
+   
+    民政事務總署
+   
+  
+  
+
+  
+   
+    組別/單位:
+   
+   
+    總部第一科測量組
+   
+  
+  
+
+  
+   
+    職位名稱:
+   
+   
+    合約助理土地測量師
+   
+  
+  
+
+  
+   
+    薪酬:
+   
+   
+    月薪港幣31,695元
+   
+  
+  
+
+  
+   
+    入職條件:
+   
+   
+    (a) 具備獲香港測量師學會承認為符合該會土地測量組正式會員所需學歷要求的資格[註(1)]； 
+    
+
+     (b) 取得上述學歷資格後，在香港測量師學會不時就該會土地測量組發出的專業評核試規則及指引所載的相關範疇具備至少兩年專業訓練及工作經驗，或同等經驗[註(2)]；以及 
+    
+
+     (c) 符合語文能力要求，即在香港中學文憑考試或香港中學會考，中國語文科和英國語文科，考獲第2級或以上成績，或具備同等成績[註(3)]。
+   
+  
+  
+
+  
+   
+    註:
+   
+   
+    (1) 申請人如在二零二六年九月三十日或之前已成為香港測量師學會土地測量組的正式會員，或具備同等專業資格；及在取得專業資格後在土地測量方面具備一年或以上相關的工作經驗，將不會獲考慮聘用為合約助理土地測量師。獲取錄的申請人必須就上述有關資料作出聲明。 
+    
+
+     (2) 如申請人尚未具備入職條件(b)所述至少兩年相關範疇的專業訓練及工作經驗，但正接受相關專業訓練，並將於二零二六年九月三十日或之前取得所需兩年專業訓練和工作經驗也可申請；申請人如獲錄用，必須在二零二六年九月三十日或之前取得最少兩年專業訓練資格及工作經驗才獲聘任。 
+    
+
+     (3) 2007年前的香港中學會考中國語文科和英國語文科(課程乙) E級成績，在行政上會被視為等同2007年或之後香港中學會考中國語文科和英國語文科第2級成績。
+   
+  
+  
+
+  
+   
+    職責:
+   
+   
+    合約助理土地測量師主要負責： 
+    
+
+     (1) 進行各類土地測量工作(包括大地測量、土地界線測量、地形測量及攝影測量)，以及與地理信息系統／數碼攝影測量有關的工作； 
+    
+
+     (2) 督導測量工作隊伍； 
+    
+
+     (3) 監督所有測量及製備圖則的工作； 
+    
+
+     (4) 協助高級土地測量師／土地測量師處理辦公室的日常行政工作；以及 
+    
+
+     (5) 按照上司指示執行任何其他職務。
+   
+  
+  
+
+  
+   
+    聘用條款:
+   
+   
+    (1) 應徵者如獲錄用，將會按非公務員合約條款受聘，合約期不多於12個月。 
+    
+
+     (2) 續約與否須視乎屆時部門的服務需求及受聘人的工作表現而定。 
+    
+
+     (3) 受聘人或需於戶外、不定時工作以及在星期六、星期日及公眾假期工作。
+   
+  
+  
+
+  
+   
+    福利:
+   
+   
+    (1) 獲聘者如圓滿履行合約，而期間表現理想及行為良好，可獲發約滿酬金。如獲發酬金，酬金數額連同政府按照《強制性公積金計劃條例》的規定為獲聘者向強制性公積金計劃所作的供款，相等於獲聘者在合約期內所得基本薪金總額的15%；以及 
+    
+
+     (2) 獲聘者可按照《僱傭條例》的規定享有休息日、法定假日（或代替假日）、年假、產假/ 侍產假和疾病津貼等福利（如適用）。
+   
+  
+  
+
+  
+   
+    附註:
+   
+   
+    (1) 除另有指明外，申請人於獲聘時必須已成為香港特別行政區永久性居民。 
+    
+
+     (2) 作為提供平等就業機會的僱主，政府致力消除在就業方面的歧視。所有符合基本入職條件的人士，不論其殘疾、性別、婚姻狀況、懷孕、年齡、家庭崗位、性傾向和種族，均可申請本欄內的職位。 
+    
+
+     (3) 非公務員職位並不是公務員編制內的職位。應徵者如獲聘用，將不會按公務員聘用條款和服務條件聘用。獲聘的應徵者並非公務員，並不會享有獲調派、晉升或轉職至公務員職位的資格。 
+    
+
+     (4) 入職薪酬、聘用條款及服務條件，應以獲聘時之規定為準。 
+    
+
+     (5) 如果符合訂明入職條件的應徵者人數眾多，招聘部門可以訂立篩選準則，甄選條件較佳的應徵者，以便進一步處理。在此情況下，只有獲篩選的應徵者會獲邀參加招聘考試 面試。 
+    
+
+     (6) 政府的政策，是盡可能安排殘疾人士擔任適合的職位', '', 'https://hk.indeed.com/viewjob?jk=11216a284d46d0d8&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Indeed HK', '7 days ago', '', 1, 'entry', '2026-07-03 00:01:12', '2026-07-03 00:01:12', 1, '<p>職位編號:</p>
+<p>50094</p>
+<p>部門:</p>
+<p>民政事務總署</p>
+<p>組別/單位:</p>
+<p>總部第一科測量組</p>
+<p>職位名稱:</p>
+<p>合約助理土地測量師</p>
+<p>薪酬:</p>
+<p>月薪港幣31,695元</p>
+<p>入職條件:</p>
+<p>(a) 具備獲香港測量師學會承認為符合該會土地測量組正式會員所需學歷要求的資格[註(1)]；</p>
+<p>(b) 取得上述學歷資格後，在香港測量師學會不時就該會土地測量組發出的專業評核試規則及指引所載的相關範疇具備至少兩年專業訓練及工作經驗，或同等經驗[註(2)]；以及</p>
+<p>(c) 符合語文能力要求，即在香港中學文憑考試或香港中學會考，中國語文科和英國語文科，考獲第2級或以上成績，或具備同等成績[註(3)]。</p>
+<p>註:</p>
+<p>(1) 申請人如在二零二六年九月三十日或之前已成為香港測量師學會土地測量組的正式會員，或具備同等專業資格；及在取得專業資格後在土地測量方面具備一年或以上相關的工作經驗，將不會獲考慮聘用為合約助理土地測量師。獲取錄的申請人必須就上述有關資料作出聲明。</p>
+<p>(2) 如申請人尚未具備入職條件(b)所述至少兩年相關範疇的專業訓練及工作經驗，但正接受相關專業訓練，並將於二零二六年九月三十日或之前取得所需兩年專業訓練和工作經驗也可申請；申請人如獲錄用，必須在二零二六年九月三十日或之前取得最少兩年專業訓練資格及工作經驗才獲聘任。</p>
+<p>(3) 2007年前的香港中學會考中國語文科和英國語文科(課程乙) E級成績，在行政上會被視為等同2007年或之後香港中學會考中國語文科和英國語文科第2級成績。</p>
+<p>職責:</p>
+<p>合約助理土地測量師主要負責：</p>
+<p>(1) 進行各類土地測量工作(包括大地測量、土地界線測量、地形測量及攝影測量)，以及與地理信息系統／數碼攝影測量有關的工作；</p>
+<p>(2) 督導測量工作隊伍；</p>
+<p>(3) 監督所有測量及製備圖則的工作；</p>
+<p>(4) 協助高級土地測量師／土地測量師處理辦公室的日常行政工作；以及</p>
+<p>(5) 按照上司指示執行任何其他職務。</p>
+<p>聘用條款:</p>
+<p>(1) 應徵者如獲錄用，將會按非公務員合約條款受聘，合約期不多於12個月。</p>
+<p>(2) 續約與否須視乎屆時部門的服務需求及受聘人的工作表現而定。</p>
+<p>(3) 受聘人或需於戶外、不定時工作以及在星期六、星期日及公眾假期工作。</p>
+<p>福利:</p>
+<p>(1) 獲聘者如圓滿履行合約，而期間表現理想及行為良好，可獲發約滿酬金。如獲發酬金，酬金數額連同政府按照《強制性公積金計劃條例》的規定為獲聘者向強制性公積金計劃所作的供款，相等於獲聘者在合約期內所得基本薪金總額的15%；以及</p>
+<p>(2) 獲聘者可按照《僱傭條例》的規定享有休息日、法定假日（或代替假日）、年假、產假/ 侍產假和疾病津貼等福利（如適用）。</p>
+<p>附註:</p>
+<p>(1) 除另有指明外，申請人於獲聘時必須已成為香港特別行政區永久性居民。</p>
+<p>(2) 作為提供平等就業機會的僱主，政府致力消除在就業方面的歧視。所有符合基本入職條件的人士，不論其殘疾、性別、婚姻狀況、懷孕、年齡、家庭崗位、性傾向和種族，均可申請本欄內的職位。</p>
+<p>(3) 非公務員職位並不是公務員編制內的職位。應徵者如獲聘用，將不會按公務員聘用條款和服務條件聘用。獲聘的應徵者並非公務員，並不會享有獲調派、晉升或轉職至公務員職位的資格。</p>
+<p>(4) 入職薪酬、聘用條款及服務條件，應以獲聘時之規定為準。</p>
+<p>(5) 如果符合訂明入職條件的應徵者人數眾多，招聘部門可以訂立篩選準則，甄選條件較佳的應徵者，以便進一步處理。在此情況下，只有獲篩選的應徵者會獲邀參加招聘考試 面試。</p>
+<p>(6) 政府的政策，是盡可能安排殘疾人士擔任適合的職位</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (198, 'e8f925200ffcaecb', '合約助理土地測量師 - 民政事務總署', '民政事務總署', 'other', 'Hong Kong', '', '合約助理土地測量師主要負責：
+(1) 進行各類土地測量工作(包括大地測量、土地界線測量、地形測量及攝影測量)，以及與地理信息系統／數碼攝影測量有關的工作；
+(2) 督導測量工作隊伍；
+(3) 監督所有測量及製備圖則的工作；
+(4) 協助高級土地測量師／土地測量師處理辦公室的日常行政工作；以及
+(5) 按照上司指示執行任何其他職務。', '', 'https://hkslash.com/zh/posts/504893?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_HKSlash', '7 days ago', '', 1, 'entry', '2026-07-03 00:01:12', '2026-07-03 00:01:12', 1, '<p>合約助理土地測量師主要負責： (1) 進行各類土地測量工作(包括大地測量、土地界線測量、地形測量及攝影測量)，以及與地理信息系統／數碼攝影測量有關的工作； (2) 督導測量工作隊伍； (3) 監督所有測量及製備圖則的工作； (4) 協助高級土地測量師／土地測量師處理辦公室的日常行政工作；以及 (5) 按照上司指示執行任何其他職務。</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (199, '860d3080ac03699f', '【大灣區青年就業計劃2026】助理工料測量師(J18744)', '中國建築國際集團', 'other', '香港', '', 'Responsibilities
+負責公司建設項目主合同及分包合同的管理、成本估算、成本控制及預算、材料採購、合同索賠及分包商索賠等工作。
+Requirements
+1、本職位為特區政府大灣區青年就業計劃崗位，申請人須持有香港或香港以外的大學／大專院校在2024年至2026年頒發的學士或以上學位，並為可合法在香港受僱工作的香港居民；
+2、就讀工料測量、工程造價或相關專業等相關專業；
+
+
+3、具備良好的中英文表達及書寫能力；
+
+
+4、工作地點位於深圳。', '', 'https://bebee.com/hk/jobs/2026j18744-hong-kong--theirstack-716448919?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_BeBee', '24 days ago', '', 1, 'entry', '2026-07-03 00:01:12', '2026-07-03 00:01:12', 1, '<h3 class="jd-section-header">Responsibilities</h3>
+<ul class="jd-list"><li>負責公司建設項目主合同及分包合同的管理、成本估算、成本控制及預算、材料採購、合同索賠及分包商索賠等工作。</li></ul>
+<h3 class="jd-section-header">Requirements</h3>
+<p>1、本職位為特區政府大灣區青年就業計劃崗位，申請人須持有香港或香港以外的大學／大專院校在2024年至2026年頒發的學士或以上學位，並為可合法在香港受僱工作的香港居民； 2、就讀工料測量、工程造價或相關專業等相關專業；</p>
+<p>3、具備良好的中英文表達及書寫能力；</p>
+<p>4、工作地點位於深圳。</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (200, 'ce5e4f4965e80379', 'Quantity Surveyor 工料測量員/ AQS 助理工料測量員', '何蘇工程', 'quantity_surveying', '黃大仙區', '', '崗位內容：負責工程項目的工料測量工作，包括現場實地量度、數量計算及工程量清單編制，確保數據準確並符合合約與規範要求。處理各階段付款申請（上糧單）、變更指令（VO）之計價與核實、中期付款審核，以及項目竣工後的最終結算編製與協調。跟進工程款項對帳流程，定期與承建商、業主及財務部門核對收支明細，釐清差異並提供書面說明。參與合約管理相關事務，包括合約條款審閱、風險評估、索賠初步分析及文件歸檔，支援項目合約執行合規性。與項目經理、工程師、承建商及其他跨部門成員保持緊密溝通與協作，按時提交測量報告、會議記錄及進度更新，確保資訊同步與決策支援。工作要求：持有香港認可之工料測量、建築、土木工程或相關領域之高級文憑或副學士學歷；具備專業認證（如HKIS學生會員資格）者優先。具備少於1年相關實務經驗，歡迎應屆畢業生申請；有實習或校內專題項目涉及量度、計價或合約基礎者將獲重點考慮。流利使用廣東話為主要溝通語言，能以英文撰寫技術文件及閱讀合約條款，具基本普通話溝通能力。熟悉Microsoft Excel、AutoCAD及常用工料測量軟體（如CostX、Takeoff Software）者優先；願意學習公司內部系統及標準作業流程。具備良好邏輯思維、細心嚴謹之數據處理習慣，能適應定期前往地盤現場量度及跨團隊協作的工作模式；須符合香港合法工作資格，接受持高才通、優才通、IANG、受養人簽證或其他有效工作許可之申請人。人工: 20000 - 33000 (按經驗)', '', 'https://www.offertoday.com/hk/job/54Vmpe9eR5JDfQSzFT7bmw%3D%3D?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_OfferToday', 'HK$20K–HK$33K a month', '', 1, 'entry', '2026-07-03 00:01:20', '2026-07-03 00:01:20', 1, '<p>崗位內容：負責工程項目的工料測量工作，包括現場實地量度、數量計算及工程量清單編制，確保數據準確並符合合約與規範要求。處理各階段付款申請（上糧單）、變更指令（VO）之計價與核實、中期付款審核，以及項目竣工後的最終結算編製與協調。跟進工程款項對帳流程，定期與承建商、業主及財務部門核對收支明細，釐清差異並提供書面說明。參與合約管理相關事務，包括合約條款審閱、風險評估、索賠初步分析及文件歸檔，支援項目合約執行合規性。與項目經理、工程師、承建商及其他跨部門成員保持緊密溝通與協作，按時提交測量報告、會議記錄及進度更新，確保資訊同步與決策支援。工作要求：持有香港認可之工料測量、建築、土木工程或相關領域之高級文憑或副學士學歷；具備專業認證（如HKIS學生會員資格）者優先。具備少於1年相關實務經驗，歡迎應屆畢業生申請；有實習或校內專題項目涉及量度、計價或合約基礎者將獲重點考慮。流利使用廣東話為主要溝通語言，能以英文撰寫技術文件及閱讀合約條款，具基本普通話溝通能力。熟悉Microsoft Excel、AutoCAD及常用工料測量軟體（如CostX、Takeoff Software）者優先；願意學習公司內部系統及標準作業流程。具備良好邏輯思維、細心嚴謹之數據處理習慣，能適應定期前往地盤現場量度及跨團隊協作的工作模式；須符合香港合法工作資格，接受持高才通、優才通、IANG、受養人簽證或其他有效工作許可之申請人。人工: 20000 - 33000 (按經驗)</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (201, 'b9c2324ee29915a0', '助理工料測量員', '協興建築有限公司', 'quantity_surveying', '香港', '', '參考號碼: HH-AQS(G)/Internet
+ 
+ 
+  職責
+  
+   妥善管理各項工料測量記錄、現場文件、檔案和圖紙
+   計算工程的物料數量、並協助訂購、分判、變動估算和工程結算
+   查核分判商的中期糧款申請
+   通知分判商有關糧款之細明
+   檢查並核對分判商的日常工作
+   妥善準備及保存各項工序的記錄和相片
+   協助制定中期糧款申請
+  
+ 
+ 
+  要求
+  
+   持有工料測量/建造工程學位
+   少於一年工作經驗的應屆畢業生
+   良好中、英文書寫及會話能力
+   積極進取，外向和主動
+   良好人際關係及溝通技巧
+   能於時間緊迫及壓力下工作
+   歡迎持工作簽證 / IANG簽證人士
+  
+ 
+ 
+  公司設有完善福利及晉升機會。 
+  
+
+  
+
+   所有個人資料只作招聘用途。 
+  
+
+  
+
+   如申請人在八星期內未獲通知面試，即其申請不獲接納。', '', 'https://hk.indeed.com/viewjob?jk=2bf444e27920a55f&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Indeed HK', '2026-07-03', '', 1, 'entry', '2026-07-03 00:01:20', '2026-07-03 00:01:20', 1, '<p>參考號碼: HH-AQS(G)/Internet</p>
+<p>職責</p>
+<p>妥善管理各項工料測量記錄、現場文件、檔案和圖紙 計算工程的物料數量、並協助訂購、分判、變動估算和工程結算 查核分判商的中期糧款申請 通知分判商有關糧款之細明 檢查並核對分判商的日常工作 妥善準備及保存各項工序的記錄和相片 協助制定中期糧款申請</p>
+<p>要求</p>
+<p>持有工料測量/建造工程學位 少於一年工作經驗的應屆畢業生 良好中、英文書寫及會話能力 積極進取，外向和主動 良好人際關係及溝通技巧 能於時間緊迫及壓力下工作</p>
+<h3 class="jd-section-header">歡迎持工作簽證 / IANG簽證人士</h3>
+<ul class="jd-list"><li>公司設有完善福利及晉升機會。</li><li>所有個人資料只作招聘用途。</li><li>如申請人在八星期內未獲通知面試，即其申請不獲接納。</li></ul>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (202, 'c0d4f12e4c7f2fe2', '駐地盤工料測量師 (參考編號：FLN_RQS)Resident Quantity Surveyor (Ref No.: FLN_RQS)', 'AtkinsRéalis Asia Limited阿特金斯睿萊亞洲有限公司', 'quantity_surveying', '粉嶺', '', '申請人必須：
+
+
+(一) 具備香港測量師學會(工料測量組別)的正式會員或具備同等資格；及
+
+
+(二) 具有新工程合約 (NEC) 的工程及建造合約 (ECC) 知識或相關經驗的申請人將獲優先考慮。
+
+
+Candidates should have
+Corporate Membership of the Hong Kong Institute of Surveyors in Quantity Surveying Division or equivalent in an appropriate discipline; andNEC ECC knowledge or working experience will be an advantage.
+申請人亦可考慮參閱發展局網頁［公共工程項目顧問直接僱用駐地盤人員管理手冊］附錄7.4所載的其他規定。
+
+
+申請人必須具備以上最低要求之學歷 / 專業資格。
+
+
+聘用條款將按獲聘時政府駐工地員工相關的條款及條件而定。如有需要，任職者可能需要不定時、超時和輪班 (包括星期六、日和公眾假期) 工作，並可能需要到中國內地或海外進行監督工作。
+
+
+申請者請於2026年6月16日或之前將履歷 (連同參考編號) 電郵至recruit****@atkinsrealis.com 作網上申請。
+
+
+有關申請絕對保密，所收集之個人資料只用作招聘用途。
+
+
+申請人如於截止日期後六個月內仍未獲邀參加面試，則可視作落選。
+
+
+Applicants may also consider to refer the other requirement of the above opening(s) stipulated in Appendix 7.4 of “Management Handbook for Direct Employment of Resident Site Staff by Consultants for Public Works Projects” from the webpage of Development Bureau.
+
+
+The candidates should have minimum academic/ professional qualification requirements of the above posts.
+
+
+Appointment will be made on contract term in accordance with the prevailing Government s conditions and terms applicable for Resident Site Staff. The incumbents will be required to work irregular hours, overtime and shifts (including Saturdays, Sundays and public holidays) and to carry out supervision duties in Mainland China or overseas if necessary.
+
+
+Interested candidates please email to *****@atkinsrealis.com (with relevant reference number) for on-line application on or before 16 June 2026.
+
+
+Applications will be treated in strict confidence and collected personal data will be used for recruitment purposes only.
+
+
+Applicants not being invited for interview within 6 months may consider their applications unsuccessful.
+
+
+__________________________________________________________________________________________________________________________
+
+
+行業 Industry
+
+
+ 建築 / 施工 Building / Construction  工作種類 Job Category
+ 樓宇 / 建築 (測量) Building / Architectural (Surveying) 樓宇 / 建築 (建築 / 施工 / 工料測量) ', '', 'https://bebee.com/hk/jobs/fln-rqsresident-quantity-surveyor-ref-no-fln-rqs-atkinsrealis-asia-limited-fanling--techmap_hk_c745a84e5d2d9354fcd395145d085d39?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_BeBee', '2026-07-03', '', 0, 'experienced', '2026-07-03 00:01:20', '2026-07-03 00:01:20', 1, '<p>申請人必須：</p>
+<p>(一) 具備香港測量師學會(工料測量組別)的正式會員或具備同等資格；及</p>
+<p>(二) 具有新工程合約 (NEC) 的工程及建造合約 (ECC) 知識或相關經驗的申請人將獲優先考慮。</p>
+<p>Candidates should have Corporate Membership of the Hong Kong Institute of Surveyors in Quantity Surveying Division or equivalent in an appropriate discipline; andNEC ECC knowledge or working experience will be an advantage. 申請人亦可考慮參閱發展局網頁［公共工程項目顧問直接僱用駐地盤人員管理手冊］附錄7.4所載的其他規定。</p>
+<p>申請人必須具備以上最低要求之學歷 / 專業資格。</p>
+<p>聘用條款將按獲聘時政府駐工地員工相關的條款及條件而定。如有需要，任職者可能需要不定時、超時和輪班 (包括星期六、日和公眾假期) 工作，並可能需要到中國內地或海外進行監督工作。</p>
+<p>申請者請於2026年6月16日或之前將履歷 (連同參考編號) 電郵至recruit****@atkinsrealis.com 作網上申請。</p>
+<p>有關申請絕對保密，所收集之個人資料只用作招聘用途。</p>
+<p>申請人如於截止日期後六個月內仍未獲邀參加面試，則可視作落選。</p>
+<p>Applicants may also consider to refer the other requirement of the above opening(s) stipulated in Appendix 7.4 of “Management Handbook for Direct Employment of Resident Site Staff by Consultants for Public Works Projects” from the webpage of Development Bureau.</p>
+<p>The candidates should have minimum academic/ professional qualification requirements of the above posts.</p>
+<p>Appointment will be made on contract term in accordance with the prevailing Government s conditions and terms applicable for Resident Site Staff. The incumbents will be required to work irregular hours, overtime and shifts (including Saturdays, Sundays and public holidays) and to carry out supervision duties in Mainland China or overseas if necessary.</p>
+<p>Interested candidates please email to *****@atkinsrealis.com (with relevant reference number) for on-line application on or before 16 June 2026.</p>
+<p>Applications will be treated in strict confidence and collected personal data will be used for recruitment purposes only.</p>
+<p>Applicants not being invited for interview within 6 months may consider their applications unsuccessful.</p>
+<p>__________________________________________________________________________________________________________________________</p>
+<p>行業 Industry</p>
+<p>建築 / 施工 Building / Construction  工作種類 Job Category 樓宇 / 建築 (測量) Building / Architectural (Surveying) 樓宇 / 建築 (建築 / 施工 / 工料測量)</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (203, 'e8517628cc0c1cad', '【香港】橋興建築工程有限公司招聘', 'easyjobs853', 'quantity_surveying', '香港', 'HK$24000-28000', '【香港工料測量師招聘】月薪$24,000 - $28,000！每週工作6天。應徵需中五程度並具3年經驗，且必須熟悉香港建築材料市場價格、工程計價規則及政府工程預算標準。', '', 'https://www.easyjobs853.com/6205/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Easyjobs853 | 澳門', '7 days ago', '', 1, 'entry', '2026-07-03 00:01:20', '2026-07-03 00:01:20', 1, '<p>【香港工料測量師招聘】月薪$24,000 - $28,000！每週工作6天。應徵需中五程度並具3年經驗，且必須熟悉香港建築材料市場價格、工程計價規則及政府工程預算標準。</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (204, 'e3f7f3be82b37c81', '【香港】森駿工程有限公司招聘', 'easyjobs853', 'land_surveying', '香港', 'HK$30000-35000', '【香港土地測量師招聘】月薪$30,000 - $35,000！福利包含超時工作津貼。中五程度並具6年經驗，持有平安咭，懂操作測量儀器及數據計算與處理，持有駕駛執照者優先。', '', 'https://www.easyjobs853.com/6057/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Easyjobs853 | 澳門', '8 days ago', '', 1, 'entry', '2026-07-03 00:01:25', '2026-07-03 00:01:25', 1, '<p>【香港土地測量師招聘】月薪$30,000 - $35,000！福利包含超時工作津貼。中五程度並具6年經驗，持有平安咭，懂操作測量儀器及數據計算與處理，持有駕駛執照者優先。</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (205, '627e6b2c47a350b7', '工場助理（油漆／土地測量）', 'VOCATIONAL TRAINING COUNCIL', 'land_surveying', '香港', '', '香港專業教育學院（摩理臣山）
+
+ 
+
+部門 : 建造工程系
+
+參考編號 : C/MH-CN/MEC2(PLS)/06/26-AP1
+
+
+
+主要職責：
+
+(a)    為建造工程的教學工場（例如 : 油漆、土地測量等）提供教學支援；
+
+(b)    準備、安排、分發及盤點課堂實習所需的材料及工具；
+
+(c)    安裝、維修、搬運及保養實習工場的工具及設備，並處理維修計劃及保存良好記錄；
+
+(d)    負責保持工場環境及設施之安全和清潔；及
+
+(e)    支援學系舉辦之活動和展覽及外勤工作支援。
+
+      
+
+入職條件：
+
+(a)    (i)    完成相關認可訓練課程（包括學徒及技工訓練），並於取得有關學歷後具有最少兩年相關工作經驗；或
+
+        (ii)    通過技能測試或相等水平測試，並具有最少兩年相關工作經驗；
+
+(b)    能閱讀及書寫中文和簡單英語；及
+
+(c)    懂基本電腦操作。
+
+           
+
+備註：
+
+(1)    以上職位之職級為「二級機械工」。
+
+(2)    申請人如具有在相關領域中豐富經驗和成就但缺乏所需的學術／專業資格，或者具有卓越的學術／專業資格但經驗較少也可以申請。
+
+(3)    應徵者或需參加技能測試。
+
+(4)    受聘者可能需要輪班工作，並於星期六、日及公眾假期當值。
+
+(5)    為配合運作需要，受聘者日後可能會被調派至其他工作地點工作。
+
+(6)    申請人如在過去一年內曾就該職位遞交申請表格，則無須重新遞交。
+
+
+申請辦法：
+
+填妥的申請表格 [VTC-1 (Rev. 11/2024)] 連同個人履歷，須電郵至vtcjob-hroap@vtc.edu.hk。
+
+ 
+
+申請人應注意以下事項：
+
+(1)    填妥的申請表（VTC-1）和個人履歷應合併為一個PDF 格式的文件，檔案容量應不超過10MB。
+
+(2)    文件名稱應為“您的英文姓氏和名字”，例如“CHAN Siu-lam.pdf”。
+
+(3)    郵件主旨請註明“申請工場助理（油漆/土地測量）(C/MH-CN/MEC2(PLS)/06/26-AP1)”。
+
+(4)    其他證明文件的正本及複印本請按要求於稍後提交。
+
+           
+
+申請人之篩選將會即時進行直至有關職位空缺已被填補為止。
+
+ 
+
+本局保留不填補上述職位的權利。
+
+ 
+
+申請人的資料只會用於有關本局的人事招聘事宜。 在一般情況下，未獲取錄申請人的資料將於招聘工作完成十二個月後全部銷毀。', '', 'https://jobs.ctgoodjobs.hk/job/10163577/%E5%B7%A5%E5%A0%B4%E5%8A%A9%E7%90%86%EF%BC%88%E6%B2%B9%E6%BC%86%EF%BC%8F%E5%9C%9F%E5%9C%B0%E6%B8%AC%E9%87%8F%EF%BC%89?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_CTgoodjobs.hk', '8 days ago', '', 1, 'entry', '2026-07-03 00:01:25', '2026-07-03 00:01:25', 1, '<p>香港專業教育學院（摩理臣山）</p>
+<p>部門 : 建造工程系</p>
+<h3 class="jd-section-header">參考編號 : C/MH-CN/MEC2(PLS)/06/26-AP1</h3>
+<p>主要職責：</p>
+<p>(a)    為建造工程的教學工場（例如 : 油漆、土地測量等）提供教學支援；</p>
+<p>(b)    準備、安排、分發及盤點課堂實習所需的材料及工具；</p>
+<p>(c)    安裝、維修、搬運及保養實習工場的工具及設備，並處理維修計劃及保存良好記錄；</p>
+<p>(d)    負責保持工場環境及設施之安全和清潔；及</p>
+<p>(e)    支援學系舉辦之活動和展覽及外勤工作支援。</p>
+<p>入職條件：</p>
+<p>(a)    (i)    完成相關認可訓練課程（包括學徒及技工訓練），並於取得有關學歷後具有最少兩年相關工作經驗；或</p>
+<p>(ii)    通過技能測試或相等水平測試，並具有最少兩年相關工作經驗；</p>
+<p>(b)    能閱讀及書寫中文和簡單英語；及</p>
+<p>(c)    懂基本電腦操作。</p>
+<p>備註：</p>
+<p>(1)    以上職位之職級為「二級機械工」。</p>
+<p>(2)    申請人如具有在相關領域中豐富經驗和成就但缺乏所需的學術／專業資格，或者具有卓越的學術／專業資格但經驗較少也可以申請。</p>
+<p>(3)    應徵者或需參加技能測試。</p>
+<p>(4)    受聘者可能需要輪班工作，並於星期六、日及公眾假期當值。</p>
+<p>(5)    為配合運作需要，受聘者日後可能會被調派至其他工作地點工作。</p>
+<p>(6)    申請人如在過去一年內曾就該職位遞交申請表格，則無須重新遞交。</p>
+<p>申請辦法：</p>
+<p>填妥的申請表格 [VTC-1 (Rev. 11/2024)] 連同個人履歷，須電郵至vtcjob-hroap@vtc.edu.hk。</p>
+<p>申請人應注意以下事項：</p>
+<p>(1)    填妥的申請表（VTC-1）和個人履歷應合併為一個PDF 格式的文件，檔案容量應不超過10MB。</p>
+<p>(2)    文件名稱應為“您的英文姓氏和名字”，例如“CHAN Siu-lam.pdf”。</p>
+<p>(3)    郵件主旨請註明“申請工場助理（油漆/土地測量）(C/MH-CN/MEC2(PLS)/06/26-AP1)”。</p>
+<p>(4)    其他證明文件的正本及複印本請按要求於稍後提交。</p>
+<p>申請人之篩選將會即時進行直至有關職位空缺已被填補為止。</p>
+<p>本局保留不填補上述職位的權利。</p>
+<p>申請人的資料只會用於有關本局的人事招聘事宜。 在一般情況下，未獲取錄申請人的資料將於招聘工作完成十二個月後全部銷毀。</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (206, '6f2b701f9f245782', '土地測量員', '冠軍測量顧問發展工程公司', 'land_surveying', '元朗', '', '戶外工作, 負責進行土地測量工作(包括土地界線測量、地形測量等),計算及繪圖, 有雙糧, 星期一至五: 上午9時至下午6時, 每週工作5天, 放銀行假期。
+求職者可致電82262082與冠軍測量顧問發展工程公司Joey小姐聯絡。', '', 'https://moovup.com/hk/en/job/full-time-%E5%9C%9F%E5%9C%B0%E6%B8%AC%E9%87%8F%E5%93%A1-in-yuen-long/13bc616a-8bc6-49e8-9627-7c03f0895ba3/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Moovup', '4 days ago', '', 1, 'entry', '2026-07-03 00:01:25', '2026-07-03 00:01:25', 1, '<p>戶外工作, 負責進行土地測量工作(包括土地界線測量、地形測量等),計算及繪圖, 有雙糧, 星期一至五: 上午9時至下午6時, 每週工作5天, 放銀行假期。 求職者可致電82262082與冠軍測量顧問發展工程公司Joey小姐聯絡。</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (207, '71474c7db7a1fbac', '土地測量繪圖員', '冠軍測量顧問發展工程公司', 'land_surveying', '元朗', '', '懂Autocad, 中五程度, 1年經驗, 負責計算及繪圖(包括土地界線測量圖、地形測量圖等)或需戶外工作, 進行土地測量工作,  有雙糧, 星期一至五: 上午9時至下午6時, 每週工作5天, 放銀行假期。
+求職者可致電82262082與冠軍測量顧問發展工程公司Joey小姐聯絡。', '', 'https://moovup.com/hk/job/%E5%85%A8%E8%81%B7-%E5%9C%9F%E5%9C%B0%E6%B8%AC%E9%87%8F%E7%B9%AA%E5%9C%96%E5%93%A1-%E5%85%83%E6%9C%97/03b42631-c167-4331-b8f9-b13cc7b24908/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Moovup', '28 days ago', '', 1, 'entry', '2026-07-03 00:01:25', '2026-07-03 00:01:25', 1, '<p>懂Autocad, 中五程度, 1年經驗, 負責計算及繪圖(包括土地界線測量圖、地形測量圖等)或需戶外工作, 進行土地測量工作,  有雙糧, 星期一至五: 上午9時至下午6時, 每週工作5天, 放銀行假期。 求職者可致電82262082與冠軍測量顧問發展工程公司Joey小姐聯絡。</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (208, '8abb9c3fdd50bdad', '工場助理（油漆/土地測量）(C/MH-CN/MEC2(PLS)/06/26-AP1)', 'Vocational Training Council', 'land_surveying', '新界 (+1 other)', '', '主要職責
+
+
+
+： (a) 為建造工程的教學工場（例如 : 油漆、土地測量等）提供教學支援； (b) 準備、安排、分發及盤點課堂實習所需的材料及工具； (c) 安裝、維修、搬運及保養實習工場的工具及設備，並處理維修計劃及保存良好記錄； (d) 負責保持工場環境及設施之安全和清潔；及 (e) 支援學系主辦之活動和展覽及外勤工作支援。 入職條件： (a) (i) 完成相關認可訓練課程（包括學徒及技工訓練），並於取得有關學歷後具有最少兩年相關工作經；或 (ii) 通過技能測試或相等水平測試，並具有最少兩年相關工作經驗； (b) 能閱讀及書寫中文和簡單英語；及 (c) 懂基本電腦操作。 備註： (1) 以上職位之職級為「二級機械工」。 (2) 申請人如具有在相關領域中豐富經驗和成就但缺乏所需的學術／專業資格，或者具有卓越的學術／專業資格但經驗較少也可以申請。 (3) 應徵者或需參加技能測試。 (4) 受聘者可能需要輪班工作，並於星期六、日及公眾假期當值。 (5) 為配合運作需要，受聘者日後可能會被調派至其他工作地點工作。 (6) 申請人如在過去一年內曾就該職位遞交申請表格，則無須重新遞交。', '', 'https://hk.talent.com/view?id=625438249032353282&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Talent.com：职位搜索', '8 days ago', '', 1, 'entry', '2026-07-03 00:01:25', '2026-07-03 00:01:25', 1, '<p>主要職責</p>
+<p>： (a) 為建造工程的教學工場（例如 : 油漆、土地測量等）提供教學支援； (b) 準備、安排、分發及盤點課堂實習所需的材料及工具； (c) 安裝、維修、搬運及保養實習工場的工具及設備，並處理維修計劃及保存良好記錄； (d) 負責保持工場環境及設施之安全和清潔；及 (e) 支援學系主辦之活動和展覽及外勤工作支援。 入職條件： (a) (i) 完成相關認可訓練課程（包括學徒及技工訓練），並於取得有關學歷後具有最少兩年相關工作經；或 (ii) 通過技能測試或相等水平測試，並具有最少兩年相關工作經驗； (b) 能閱讀及書寫中文和簡單英語；及 (c) 懂基本電腦操作。 備註： (1) 以上職位之職級為「二級機械工」。 (2) 申請人如具有在相關領域中豐富經驗和成就但缺乏所需的學術／專業資格，或者具有卓越的學術／專業資格但經驗較少也可以申請。 (3) 應徵者或需參加技能測試。 (4) 受聘者可能需要輪班工作，並於星期六、日及公眾假期當值。 (5) 為配合運作需要，受聘者日後可能會被調派至其他工作地點工作。 (6) 申請人如在過去一年內曾就該職位遞交申請表格，則無須重新遞交。</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (209, 'f54e006a11f37857', '土地測量學徒', '建造科技有限公司', 'other', '香港', '', '該職位現已不在我們網站展示。', '', 'https://job.yolo813.com/zh-hant/job/104138?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Job.yolo813.Com', 'HK$15K–HK$17K a month', '', 1, 'entry', '2026-07-03 00:01:29', '2026-07-03 00:01:29', 1, '<p>該職位現已不在我們網站展示。</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (210, '051b4aaae88deb79', '助理工料測量員', '協興建築有限公司', 'building_surveying', '香港', '', '參考號碼: HH-AQS(G)/Internet
+
+
+職責
+
+妥善管理各項工料測量記錄、現場文件、檔案和圖紙
+計算工程的物料數量、並協助訂購、分判、變動估算和工程結算
+查核分判商的中期糧款申請
+通知分判商有關糧款之細明
+檢查並核對分判商的日常工作
+妥善準備及保存各項工序的記錄和相片
+協助制定中期糧款申請
+
+要求
+
+持有工料測量/建造工程學位
+少於一年工作經驗的應屆畢業生
+良好中、英文書寫及會話能力
+積極進取，外向和主動
+良好人際關係及溝通技巧
+能於時間緊迫及壓力下工作
+歡迎持工作簽證 / IANG簽證人士
+
+公司設有完善福利及晉升機會。
+所有個人資料只作招聘用途。
+如申請人在八星期內未獲通知面試，即其申請不獲接納。', '', 'https://bebee.com/hk/jobs/hong-kong--theirstack-710041781?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_BeBee', '24 days ago', '', 1, 'entry', '2026-07-03 00:01:35', '2026-07-03 00:01:35', 1, '<p>參考號碼: HH-AQS(G)/Internet</p>
+<p>職責</p>
+<p>妥善管理各項工料測量記錄、現場文件、檔案和圖紙 計算工程的物料數量、並協助訂購、分判、變動估算和工程結算 查核分判商的中期糧款申請 通知分判商有關糧款之細明 檢查並核對分判商的日常工作 妥善準備及保存各項工序的記錄和相片 協助制定中期糧款申請</p>
+<p>要求</p>
+<p>持有工料測量/建造工程學位 少於一年工作經驗的應屆畢業生 良好中、英文書寫及會話能力 積極進取，外向和主動 良好人際關係及溝通技巧 能於時間緊迫及壓力下工作</p>
+<h3 class="jd-section-header">歡迎持工作簽證 / IANG簽證人士</h3>
+<ul class="jd-list"><li>公司設有完善福利及晉升機會。</li><li>所有個人資料只作招聘用途。</li><li>如申請人在八星期內未獲通知面試，即其申請不獲接納。</li></ul>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (211, '8d2d3a8e0253ca55', '助理建築測量師', '金盈顧問有限公司', 'building_surveying', '香港', '', '該職位現已不在我們網站展示。', '', 'https://job.yolo813.com/zh-hant/job/102183?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Job.yolo813.Com', 'HK$20K–HK$28K a month', '', 1, 'entry', '2026-07-03 00:01:35', '2026-07-03 00:01:35', 1, '<p>該職位現已不在我們網站展示。</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (212, '4d71f1b15a05ff68', 'Principal Quantity Surveyor', 'Mott MacDonald', 'quantity_surveying', 'Hong Kong', NULL, 'An exciting opportunity for a talented and skilled quantity surveyor to participate in our varied infrastructure and building projects in Hong Kong. - An opportunity to lead the post-contract administration of infrastructure projects adopting NEC ECC main Option C or D. - Support the use of NEC forms of contract and the adoption of various innovative collaborative procurement approaches (e.g. framework, direct / centralized procurement, Early Contractor Involvement and alliancing) in Hong Kong public works projects. - Join our supportive, collaborative and professional team which is currently expanding. Based in Hong Kong, as part of and supporting our Asia unit team, you may also have the opportunity to, in addition to supporting the portfolio of Hong Kong projects, navigate and support some of the regional projects across Asia (e.g. Singapore) based on needs. Armed with relevant professional qualification in quantity surveying (e.g. MHKIS, MRICS) as well as strong analytical and communication skills, you’re able to engage and build relationships at every level with both internal and external stakeholders. With at least 3 years of relevant post-qualification experience in administering and advising on contracts adopting NEC ECC target cost options, preferably in a leading role. You’ll demonstrate a team first approach where you work collaboratively yet autonomously as a self-starter. With a good eye for details, a strong resilience nature and an ability to manage multiple priorities, you enjoy new challenges in an ever-changing environment. Our project team takes pride in delivering quality service to our clients and will support you in your efforts, ensuring you are set up for success. You will be someone who brings the technical goods, has a voice into what you do, while adding value to our culture. We share the key responsibilities below and if this sounds like you and we sound like a team where you’ll find a home, reach out and let us know. Key Role & Responsibilities: - Perform cost estimation to facilitate the proper administration of target cost contracts. - Provide professional contractual advice and feasible solutions on subcontracting and tendering strategies that meet project goals and enhance cost effectiveness of target cost contracts. - Recommend and implement innovative yet practical collaborative procurement approaches that align with project objectives and needs. - Evaluate and assess compensation events for administration of target cost contracts. - Monitor and report on financial performance for target cost contracts. - Support the delivery of various workshops (e.g. training workshops, partnering and collaborative workshops) to our clients. - Conduct reviews and audits such as contract performance reviews and procedural and financial audits with an aim to evaluate and enhance the efficiency and effectiveness in contract administration. In return, we offer: - Engaging and intellectually rewarding responsibilities within a coll', '', 'https://hk.linkedin.com/jobs/view/principal-quantity-surveyor-at-mott-macdonald-4341232384?position=16&pageNum=0&refId=TRrIYQiH4BkjEMf7nCMBpw%3D%3D&trackingId=xHiJjFhanzrQt16LnQC%2FmA%3D%3D', 'linkedin', '2026-07-03', '', 0, 'experienced', '2026-07-03 00:01:45', '2026-07-03 00:01:45', 1, '<p>An exciting opportunity for a talented and skilled quantity surveyor to participate in our varied infrastructure and building projects in Hong Kong. - An opportunity to lead the post-contract administration of infrastructure projects adopting <strong>NEC ECC </strong>main Option C or D. - Support the use of NEC forms of contract and the adoption of various innovative collaborative procurement approaches (e.g. framework, direct / centralized procurement, Early Contractor Involvement and alliancing) in Hong Kong public works projects. - Join our supportive, collaborative and professional team which is currently expanding. Based in Hong Kong, as part of and supporting our Asia unit team, you may also have the opportunity to, in addition to supporting the portfolio of Hong Kong projects, navigate and support some of the regional projects across Asia (e.g. Singapore) based on needs. Armed with relevant professional qualification in quantity surveying (e.g. MHKIS, MRICS) as well as strong analytical and communication skills, you’re able to engage and build relationships at every level with both internal and external stakeholders. With at least 3 years of relevant post-qualification experience in administering and advising on contracts adopting <strong>NEC ECC </strong>target cost options, preferably in a leading role. You’ll demonstrate a team first approach where you work collaboratively yet autonomously as a self-starter. With a good eye for details, a strong resilience nature and an ability to manage multiple priorities, you enjoy new challenges in an ever-changing environment. Our project team takes pride in delivering quality service to our clients and will support you in your efforts, ensuring you are set up for success. You will be someone who brings the technical goods, has a voice into what you do, while adding value to our culture. We share the key responsibilities below and if this sounds like you and we sound like a team where you’ll find a home, reach out and let us know. Key Role &amp; Responsibilities: - Perform cost estimation to facilitate the proper administration of target cost contracts. - Provide professional contractual advice and feasible solutions on subcontracting and tendering strategies that meet project goals and enhance cost effectiveness of target cost contracts. - Recommend and implement innovative yet practical collaborative procurement approaches that align with project objectives and needs. - Evaluate and assess compensation events for administration of target cost contracts. - Monitor and report on financial performance for target cost contracts. - Support the delivery of various workshops (e.g. training workshops, partnering and collaborative workshops) to our clients. - Conduct reviews and audits such as contract performance reviews and procedural and financial audits with an aim to evaluate and enhance the efficiency and effectiveness in contract administration. In return, we offer: - Engaging and intellectually rewarding responsibilities within a coll</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (213, 'edf69cf9d68998f0', '测量工程师', '湖南国湘人力资源劳务责任有限公司', 'land_surveying', 'Hong Kong', NULL, '职位来源于智联招聘。
+
+【岗位职责】
+
+1、制定科学、合理的测量方案，安排现场测量工作，并做好施工测量日志；
+
+2、对现场使用的测量仪器设备进行检校、维护、保养并作好记录；
+
+3、认真审核图纸及相关资料，仔细核对依据资料及点位，针对具体问题制定相应的方案、措施；
+
+4、技术资料、记录要齐全、完整，使每项测量工作都可追溯。
+
+【岗位要求】
+
+1、22-38岁，本科，测绘工程专业。
+
+2、英语通过CET-4，读写能力较佳，会粤语优先。
+
+3、性格开朗、擅长沟通、亲和力好，愿意从基层做起，能接受长期驻港工作。
+
+职位福利：包住、餐补
+
+以担保或任何理由索要财物，扣押证照，均涉嫌违法。', '', 'https://hk.linkedin.com/jobs/view/%E6%B5%8B%E9%87%8F%E5%B7%A5%E7%A8%8B%E5%B8%88-at-%E6%B9%96%E5%8D%97%E5%9B%BD%E6%B9%98%E4%BA%BA%E5%8A%9B%E8%B5%84%E6%BA%90%E5%8A%B3%E5%8A%A1%E8%B4%A3%E4%BB%BB%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-4421708201?position=3&pageNum=0&refId=0UO2TF3KuzBM8qGNstXj6w%3D%3D&trackingId=x5zqeAc9rOpaBmWRTrkbgQ%3D%3D', 'linkedin', '2026-07-03', '', 1, 'entry', '2026-07-03 00:01:49', '2026-07-03 00:01:49', 1, '<p>职位来源于智联招聘。</p>
+<p>【岗位职责】</p>
+<p>1、制定科学、合理的测量方案，安排现场测量工作，并做好施工测量日志；</p>
+<p>2、对现场使用的测量仪器设备进行检校、维护、保养并作好记录；</p>
+<p>3、认真审核图纸及相关资料，仔细核对依据资料及点位，针对具体问题制定相应的方案、措施；</p>
+<p>4、技术资料、记录要齐全、完整，使每项测量工作都可追溯。</p>
+<p>【岗位要求】</p>
+<p>1、22-38岁，本科，测绘工程专业。</p>
+<p>2、英语通过CET-4，读写能力较佳，会粤语优先。</p>
+<p>3、性格开朗、擅长沟通、亲和力好，愿意从基层做起，能接受长期驻港工作。</p>
+<p>职位福利：包住、餐补</p>
+<p>以担保或任何理由索要财物，扣押证照，均涉嫌违法。</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (214, 'abba42b7f4d86aae', 'Quality Surveyor', 'HAECO', 'land_surveying', 'Hong Kong', NULL, 'The HAECO Group is an independent global provider of high‑quality MRO services. We offer a broad range of aviation products and services that enable our customers to operate their aircraft, engines and components safely and efficiently. Headquartered in Hong Kong since 1950, our global reach has extended as we have grown. We now have operations throughout the Asia‑Pacific region, Americas and other parts of the world.
+
+
+Based at Hong Kong International Airport (HKIA), HAECO Hong Kong offers a full range of services including airframe services, line services, component services, engine services, inventory technical management, cabin solutions, freighter conversions, technical training and AOG support.
+
+
+Position Description
+Quality Surveyor is a member of the Quality Department headed by the nominated “Quality Manager” (or referred to as “Compliance Monitoring Manager”). The Quality Manager (and the quality team) is required by the Part‑145, Part‑21 or any applicable national airworthiness regulations to be responsible for specific quality and aviation safety functions.
+
+
+It is required by various national airworthiness regulations to ensure adequate manpower is allocated to the specific quality and aviation safety functions.
+
+
+Overall significance of the job:
+
+
+
+It is the regulatory requirement to ensure adequate and competent manpower resource is allocated to the specific quality and aviation safety functions.
+The job plays key role in compliance monitoring functions in regulatory requirements and customer requirements.
+The job plays key role in aviation safety functions, in particular, aviation safety risk management function.
+
+What You’ll Do
+
+Safety – Through exercising duties in compliance monitoring, identify and report any non‑compliance in applicable regulatory or company aviation safety requirement, and identify and report any potential hazard that may affect aviation safety.
+Quality – Through exercising duties in compliance monitoring, identify and report any non‑compliance in applicable regulatory or company quality requirement.
+Carry out the duties that meet the standard stipulated in the applicable regulatory and/or company requirements regarding compliance monitoring and safety management.
+Conduct internal audits and surveillance at operation areas.
+Handle external audit process (i.e., audits by NAA and customers).
+Conduct vendor and Group QA audit when assigned.
+Prepare, draft and revise company manuals, procedures, Quality Notice, Quality Advisory, etc.
+Handle licence and authorisation application and assessment process.
+Carry out event investigation, compile investigation report and verify completion of corrective/preventive actions.
+Prepare the document package for application and renewal of regulatory and customer approval.
+Handle vendor assessment process.
+Handle the administration and carry out audit of Capability List.
+Liaise with customers in resolving quality related issues.
+Work on projects when assigned.
+Provide regulator', '', 'https://hk.linkedin.com/jobs/view/quality-surveyor-at-haeco-4267639677?position=17&pageNum=0&refId=0UO2TF3KuzBM8qGNstXj6w%3D%3D&trackingId=YObZCpQ%2BqCxBLkqQROOcGA%3D%3D', 'linkedin', '2026-07-03', '', 1, 'entry', '2026-07-03 00:01:49', '2026-07-03 00:01:49', 1, '<p>The HAECO Group is an independent global provider of high‑quality MRO services. We offer a broad range of aviation products and services that enable our customers to operate their aircraft, engines and components safely and efficiently. Headquartered in Hong Kong since 1950, our global reach has extended as we have grown. We now have operations throughout the Asia‑Pacific region, Americas and other parts of the world.</p>
+<p>Based at Hong Kong International Airport (HKIA), HAECO Hong Kong offers a full range of services including airframe services, line services, component services, engine services, inventory technical management, cabin solutions, freighter conversions, technical training and AOG support.</p>
+<p>Position Description Quality Surveyor is a member of the Quality Department headed by the nominated “Quality Manager” (or referred to as “Compliance Monitoring Manager”). The Quality Manager (and the quality team) is required by the Part‑145, Part‑21 or any applicable national airworthiness regulations to be responsible for specific quality and aviation safety functions.</p>
+<p>It is required by various national airworthiness regulations to ensure adequate manpower is allocated to the specific quality and aviation safety functions.</p>
+<p>Overall significance of the job:</p>
+<p>It is the regulatory requirement to ensure adequate and competent manpower resource is allocated to the specific quality and aviation safety functions. The job plays key role in compliance monitoring functions in regulatory requirements and customer requirements. The job plays key role in aviation safety functions, in particular, aviation safety risk management function.</p>
+<h3 class="jd-section-header">What You’ll Do</h3>
+<p>Safety – Through exercising duties in compliance monitoring, identify and report any non‑compliance in applicable regulatory or company aviation safety requirement, and identify and report any potential hazard that may affect aviation safety. Quality – Through exercising duties in compliance monitoring, identify and report any non‑compliance in applicable regulatory or company quality requirement. Carry out the duties that meet the standard stipulated in the applicable regulatory and/or company requirements regarding compliance monitoring and safety management. Conduct internal audits and surveillance at operation areas. Handle external audit process (i.e., audits by NAA and customers). Conduct vendor and Group QA audit when assigned. Prepare, draft and revise company manuals, procedures, Quality Notice, Quality Advisory, etc. Handle licence and authorisation application and assessment process. Carry out event investigation, compile investigation report and verify completion of corrective/preventive actions. Prepare the document package for application and renewal of regulatory and customer approval. Handle vendor assessment process. Handle the administration and carry out audit of Capability List. Liaise with customers in resolving quality related issues. Work on projects when assigned. Provide regulator</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (216, 'c8431fbb57c0e75a', 'Arcadis 2026 Graduate Quantity Surveyor (Hong Kong & Macau)', 'Arcadis', 'quantity_surveying', 'Hong Kong', '', 'Arcadis is the world''s leading company delivering sustainable design, engineering, and consultancy solutions for natural and built assets. We are more than 36,000 people, in over 70 countries, dedicated to improving quality of life. Everyone has an important role to play. With the power of many curious minds, together we can solve the world’s most complex challenges and deliver more impact together.
+
+
+  Role description:
+
+
+ 
+  Preparation of pre-contract cost estimates and project cash-flow.
+  Preparation of tender documentation
+  Tendering process and tender evaluation
+  Post-contract administration and management – contract documentation, valuation of progress payment, variation assessment, and cost control report
+  Finalization of project final accounts
+ 
+ Qualifications & Experience:
+
+
+ 
+  Apply with your latest transcript, DSE/IB/IELTS/TOEFL results, resume along with details of your expected salary and preferred start date. We regret that only shortlisted candidates will be contacted.
+  Degree in Quantity Surveying
+  Final year students to be graduated in 2026
+  Basic technical knowledge – Measurement, cost estimating, construction technology, contracts and law
+  Understand and familiar with professional practice and contract administration processes
+  Able to work as a team player
+  Ability to communicate clearly in spoken and written English
+  Ability to communicate clearly in spoken Cantonese and written Chinese
+ 
+ Why Arcadis?
+
+
+ We can only achieve our goals when everyone is empowered to be their best. We believe everyone''s contribution matters. It’s why we are pioneering a skills-based approach, where you can harness your unique experience and expertise to carve your career path and maximize the impact we can make together.
+
+
+ You’ll do meaningful work, and no matter what role, you’ll be helping to deliver sustainable solutions for a more prosperous planet. Make your mark, on your career, your colleagues, your clients, your life and the world around you.', '', 'https://hk.indeed.com/viewjob?jk=30a64f71e02b819a&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Indeed', '2026-07-04', '', 1, 'graduate', '2026-07-04 00:11:06', '2026-07-04 00:11:06', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (217, 'dcf0c10787545ea8', 'Graduate Quantity Surveyor: Launch in Contract & Cost', 'Chunwo', 'quantity_surveying', 'Hong Kong', '', 'A construction engineering company in Hong Kong is seeking a Quantity Surveyor to ensure contract management tasks including correspondence, liaising with departments, and overseeing sub-contractor work. The ideal candidate should have a degree in Quantity Surveying, strong communication skills, and proficiency in English and Chinese. Fresh graduates are welcome to apply. This is a full-time position that offers an opportunity to grow within a well-established firm.
+#J-18808-Ljbffr', '', 'https://hk.jooble.org/jdp/-4007768935967116945?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Jooble HK', '2 days ago', '', 1, 'graduate', '2026-07-04 00:11:06', '2026-07-04 00:11:06', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (218, 'fb59e420f6ab31d6', 'Project Quantity Surveyor/ Quantity SQuantity Surveyor / Assistant Quantity Surveyor / Quantity Surveyor Trainee (Ref no.: 38QS/AQS/QST26060122)', 'Yau Lee Holdings Limited', 'quantity_surveying', 'Hong Kong', '', 'Yau Lee Holdings Limited (The Group) , a green integrated corporation, went public in 1991. Based on the solid foundation of conventional experience, Yau Lee Construction Company Limited was founded earlier in 1958 and gradually developed into one of the Hong Kong’s largest consortia in building construction, precast and low carbon building materials manufacturing and trading, E&M services, plumbing and drainage works, green building and energy optimization solutions, construction IT solutions, virtual design & construction implementation, curtain wall and steel works and property & hotel development. 
+
+ Carry the same corporate culture, belief and practice, the Group and subsidiaries always strive for excellence to improve construction productivity and buildability as well as sustainability. We think green, practice green, act green and aim to provide a green living to our society and the world. 
+
+
+
+
+
+
+
+ Responsibilities 
+
+ Provide general quantity surveying and contract administration services for pre and post contract which include taking off quantities from drawings, scrutiny/preparation of cost estimates, tenders, contracts and subcontract documents, evaluation of variation order and payment claims and settlement of final accounts.  
+
+ Requirements  : 
+
+ Degree in Quantity Surveying or Higher Diploma/Certificate in Quantity Surveying or equivalent.  QS experience in Contractor and/or QS Consultant Firms.  Preferably with relevant experience in pre- and post-contract works.  Experience in construction project(s) using NEC contract would be ab advantage  
+
+ We offer competitive remuneration package with comprehensive fringe benefits to the right candidates. Interested parties, please send your full resume, with current and expected salary, date of availability by clicking  Apply now. Thank you.', '', 'https://hk.jooble.org/jdp/-5280116302706137914?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Jooble HK', '22 days ago', '', 0, 'experienced', '2026-07-04 00:11:09', '2026-07-04 00:11:09', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (219, 'e9dc281b986100f3', 'Quantity Surveyor / Quantity Surveyor Trainee', 'Rider Levett Bucknall Limited', 'quantity_surveying', 'Kowloon City District', '', 'Rider Levett Bucknall Limited
+Rider Levett Bucknall Limited (RLB) is a leading global consultancy specializing in construction cost management and quantity surveying and has a global presence with 4,500 people operating from more than 120 offices across the world. In North Asia region we employ over 1,200 people with headquarters in Hong Kong and offices in Macau and major cities in Mainland China.
+Quantity Surveyor
+Responsibilities
+
+Carry out general consultant Quantity Surveying duties in both pre and post contract stages including cost estimates, tender documentation, tender analysis, valuation of variations, interim payment valuation, measurement of quantities, reviewing contractors’ quotations and claims, negotiation and settlement of final accounts, etc.
+Attend project meetings, tender interview, site inspections, visits and site meetings when required
+Collaborate and maintain an amicable working relationship with the Client, project team and other project stakeholders
+Ensure that deliverables complying with QA standards and records are properly stored
+
+Requirements
+
+Quantity Surveyor with Degree / Associate Degree / Higher Diploma in Quantity Surveying or similar.
+1 – 3 years of related working experience
+Applicants without professional qualification but with all-rounded experience, preferably with experience working in QS consultants’ offices, may also apply
+Applicants are able to work independently
+Good command of spoken and written English and Chinese
+Good inter-personal and communication skills
+
+Remuneration package shall be commensurate with qualifications and experience of successful candidates. Interested parties please send application with full resume, copy of testimonials from previous employers, copy of certificates of qualification, details of present and expected salary to the Human Resources Department, 15/F, The Bay Hub, 17 Kai Cheung Road, Kowloon Bay, Hong Kong or e-mail to recruit@hk.rlb.com.
+All personal data provided by applicants will be ', '', 'https://bebee.com/hk/jobs/quantity-surveyor-quantity-surveyor-trainee-rider-levett-bucknall-limited-kowloon-bay-kwun-tong-dist--theirstack-723936764?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_BeBee', '20 days ago', '', 1, 'graduate', '2026-07-04 00:11:09', '2026-07-04 00:11:09', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (220, '4a141974123eac9b', 'Assistant Land Surveyor & Land Survey Graduate', 'Geosys Hong Kong Limited', 'land_surveying', 'Hong Kong', '', 'Job Description:
+
+
+ Responsible for project management of delivering IT/GIS Solution; 
+
+
+
+
+ Execute valuation assignments, project feasibility studies, lands matters reports for clients; 
+
+
+
+
+ Manage resources allocation schedules, not limited to budget, timeline, procurement of material, contract administration, claims and cost control; 
+
+
+
+
+ Ensure the execution of works and meet the deadline; 
+
+
+
+
+ Liaise with different parties to get the target met; 
+
+
+
+
+ Perform requested survey by using Total Station, GNSS, Laser Scanning, Unmanned Aerial Vehicle, Intelligent Robotics, etc.; 
+
+
+
+
+ Download and process data collection by total station, and/or other automated data collection systems; 
+
+
+
+
+ Document results for presentations and/or reporting to internal and external stakeholder; 
+
+
+
+
+ Perform other ad hoc tasks as assigned. 
+
+
+
+Job Requirements:
+
+
+ Certificate or above in Land Surveying or Geomatics or Information Technology. 
+
+
+
+
+ 3 years or above of Land Surveying experience is preferable 
+
+
+
+
+ Good communication and presentation skills 
+
+
+
+
+ Good command in spoken and written English & Chinese 
+
+
+
+
+ Candidate with less experience will be considered as Land Survey Graduate 
+
+
+
+
+ Full-time', '', 'https://hk.indeed.com/viewjob?jk=dbada1134c863dc9&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Indeed HK', '4 days ago', '', 1, 'graduate', '2026-07-04 00:11:23', '2026-07-04 00:11:23', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (221, 'f03e7d4b8b176de2', 'Assistant Land Surveyor & Land Survey Graduate', 'Geosys Hong Kong Limited', 'land_surveying', 'Tai Po', '', 'Job Description: 
+
+Responsible for project management of delivering IT/GIS Solution;
+
+Execute valuation assignments, project feasibility studies, lands matters reports for clients;
+
+Manage resources allocation schedules, not limited to budget, timeline, procurement of material, contract administration, claims and cost control; 
+
+Ensure the execution of works and meet the deadline;
+
+Liaise with different parties to get the target met;
+
+Perform requested survey by using Total Station, GNSS, Laser Scanning, Unmanned Aerial Vehicle, Intelligent Robotics, etc.;
+
+Download and process data collection by total station, and/or other automated data collection systems;
+
+Document results for presentations and/or reporting to internal and external stakeholder;
+
+Perform other ad hoc tasks as assigned.
+
+
+ Job Requirements: 
+
+Certificate or above in Land Surveying or Geomatics or Information Technology.
+
+3 years or above of Land Surveying experience is preferable
+
+Good communication and presentation skills
+
+Good command in spoken and written English & Chinese
+
+ Candidate with less experience will be considered as Land Survey Graduate', '', 'https://jobs.ctgoodjobs.hk/zh/job/10164103/assistant-land-surveyor-land-survey-graduate?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_CTgoodjobs.hk', '8 days ago', '', 1, 'graduate', '2026-07-04 00:11:23', '2026-07-04 00:11:23', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (222, '91e24e7ab704a9c6', 'Assistant Building Surveyor - APC Training & Project Outlook', 'Leadingnation', 'building_surveying', 'Hong Kong', '', 'Leadingnation is seeking a motivated Assistant Building Surveyor to join its consultancy team in Hong Kong. This role provides hands-on experience in building control, project management, and structural maintenance, along with support for professional training to achieve HKIS membership.
+
+The ideal candidate will possess a degree in Building Surveying or a related field, with 1–3 years of experience or be a fresh graduate with a strong academic record. Proficiency in AutoCAD and knowledge of BIM is advantageous.', '', 'https://www.jobleads.com/hk/job/assistant-building-surveyor-apc-training-project-outlook--hong-kong--e6a253209544a235eeda671740deb08c7?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_JobLeads', '11 days ago', '', 1, 'graduate', '2026-07-04 00:11:23', '2026-07-04 00:11:23', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (223, 'f8ba989c03a34b77', 'Assistant Land Surveyor', 'ESRI CHINA (HONG KONG) LIMITED', 'land_surveying', 'Hong Kong', '', 'Job Description: 
+
+Assist in drafting engagement plans or documents to promote wider adoption of spatial data using state-of-art technology, e.g. artificial intelligence (AI); Assist in collaborating with tech ventures and stakeholders in the I&T field to develop and deliver geospatial AI sandbox prototypes; Assist in testing and validating the geospatial AI sandbox prototypes in real-life operating systems; Assist in exploring the possibilities of involving the private sector in delivering new demonstrative projects and to seek collaboration opportunities with business and/or the academics; Taking part in various capacity building and engagement activities; Comprehensive and hands-on training will be provided; and Successful candidate is required to work at the client site and will be offered a contract-based position subject to renewal.
+ Requirements: 
+
+Degree in Land Surveying, Geomatics, Geo-Informatics or a related discipline;  A qualification recognised by the Hong Kong Institute of Surveyors (HKIS) as satisfying the academic requirements for corporate membership in the Land Surveying Division; Successfully completed a 2-year graduate training scheme recognised by the HKIS or equivalent;Level 2 or above in Chinese Language and English Language in the Hong Kong Diploma of Secondary Education Examination (HKDSEE), or Grade E or above in the Hong Kong Certificate of Education Examination (HKCEE), or equivalent; andGood command of both spoken and written Chinese and English.
+We offer five-day work week, attractive career opportunities, remuneration and benefits to the right candidates.  Interested applicants, please submit detailed resume with current & expected salary and date of availability to our Human Resources Department via e-mail to [via CTgoodjobs Apply Now]. 
+
+(For more information about our Company, please visit our website www.esrichina.hk )
+
+(Application received will be treated in strict confidence and will be used exclusively for recruitment related', '', 'https://jobs.ctgoodjobs.hk/job/10142009/assistant-land-surveyor?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_CTgoodjobs', '26 days ago', '', 1, 'entry', '2026-07-04 00:11:30', '2026-07-04 00:11:30', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (224, '27eb5bbdd08dd7ba', 'Land Surveyor', 'Leadingnation', 'land_surveying', 'Hong Kong', '', 'Responsibilities
+Administering a Geospatial Services and Land Survey Division;
+Carrying out / checking all survey and mapping work;
+Undertaking geographical information system related spatial data collection, input, updating and analysing work;
+Supervising the preparation and production of survey plans and writing of survey reports;
+Responsible for preparation of tender submissions;
+Management of sub-contractors; and Training and supervising junior officers.
+Requirements
+Degree in Geomatics / Land Surveying and Geoinformatics, from a Hong Kong polytechnic university, or equivalent;
+Holder of a Chartered Membership professional status (e.g. HKIS, RICS) or equivalent as recognized by Land Surveying Ordinance
+At least 5 years post-qualification professional training and working experience in the related field;
+Met the language proficiency requirements of “Level 2” or above in Chinese Language and English
+Language in the Hong Kong Diploma of Secondary Education Examination (HKDSEE) or the Hong Kong
+Certificate of Education Examination (HKCEE), or equivalent;
+Knowledge of and possession of experience in Geographical Information System (GIS) and Building Information
+Modelling (BIM) would be an advantage;
+Self-motivated, logical and systematic thinker;
+A good team player with interests to work in a diverse and dynamic international culture;
+Good command of spoken and written English and Chinese.
+#J-18808-Ljbffr', '', 'https://hk.jobrapido.com/jobpreview/5042492942833418240?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Jobrapido.com', '16 days ago', '', 0, 'experienced', '2026-07-04 00:11:32', '2026-07-04 00:11:32', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (225, '2142ff3374f3e485', '合約助理土地測量師', '民政事務總署', 'other', '香港', '', '部門: 民政事務總署
+
+薪酬: 月薪港幣31,695元
+
+學歷要求: 
+專業資格
+
+入職條件: 
+(a) 具備獲香港測量師學會承認為符合該會土地測量組正式會員所需學歷要求的資格[註(1)]；
+(b) 取得上述學歷資格後，在香港測量師學會不時就該會土地測量組發出的專業評核試規則及指引所載的相關範疇具備至少兩年專業訓練及工作經驗，或同等經驗[註(2)]；以及
+(c) 符合語文能力要求，即在香港中學文憑考試或香港中學會考，中國語文科和英國語文科，考獲第2級或以上成績，或具備同等成績[註(3)]。
+
+註: 
+(1) 申請人如在二零二六年九月三十日或之前已成為香港測量師學會土地測量組的正式會員，或具備同等專業資格；及在取得專業資格後在土地測量方面具備一年或以上相關的工作經驗，將不會獲考慮聘用為合約助理土地測量師。獲取錄的申請人必須就上述有關資料作出聲明。
+(2) 如申請人尚未具備入職條件(b)所述至少兩年相關範疇的專業訓練及工作經驗，但正接受相關專業訓練，並將於二零二六年九月三十日或之前取得所需兩年專業訓練和工作經驗也可申請；申請人如獲錄用，必須在二零二六年九月三十日或之前取得最少兩年專業訓練資格及工作經驗才獲聘任。
+(3) 2007年前的香港中學會考中國語文科和英國語文科(課程乙) E級成績，在行政上會被視為等同2007年或之後香港中學會考中國語文科和英國語文科第2級成績。
+
+職責: 
+合約助理土地測量師主要負責：
+(1) 進行各類土地測量工作(包括大地測量、土地界線測量、地形測量及攝影測量)，以及與地理信息系統／數碼攝影測量有關的工作；
+(2) 督導測量工作隊伍；
+(3) 監督所有測量及製備圖則的工作；
+(4) 協助高級土地測量師／土地測量師處理辦公室的日常行政工作；以及
+(5) 按照上司指示執行任何其他職務。
+
+福利: 
+(1)	獲聘者如圓滿履行合約，而期間表現理想及行為良好，可獲發約滿酬金。如獲發酬金，酬金數額連同政府按照《強制性公積金計劃條例》的規定為獲聘者向強制性公積金計劃所作的供款，相等於獲聘者在合約期內所得基本薪金總額的15%；以及
+(2)	獲聘者可按照《僱傭條例》的規定享有休息日、法定假日（或代替假日）、年假、產假/ 侍產假和疾病津貼等福利（如適用）。
+
+申請手續: 
+(1) 申請人必須透過公務員事務局的G.F. 340網上申請系統 (https://www.csb.gov.hk) 作網上申請。
+(2) 申請人須在截止申請日期或之前將詳列相關工作經驗的履歷和證明其(a) 學歷；及(b) 工作經驗的相關證明文件副本電郵至[via CTgoodjobs Apply Now]，並在電郵及各證明文件副本上註明申請的職位名稱及網上申請編號。
+(3) 申請書如資料不全或以親身、郵寄、傳真或電郵方式遞交、或未能提供所需證明文件，概不受理。
+(4) 申請人如獲邀參加面試，必須提供證明其(a) 學歷；及(b) 工作經驗的相關證明文件正本以供核實其資格。申請人如未能提供所需文件正本以供核實其資格，其申請將不獲考慮。
+(5) 面試邀請書會通過電郵發出，申請人必須在申請表格上清楚填寫個人的電郵地址。如在截止申請日期後八個星期內未接獲邀參加面試，可視作落選。
+
+聘用條款: 
+(1) 應徵者如獲錄用，將會按非公務員合約條款受聘，合約期不多於12個月。
+(2) 續約與否須視乎屆時部門的服務需求及受聘人的工作表現而定。
+(3) 受聘人或需於戶外、不定時工作以及在星期六、星期日及公眾假期工作。', '', 'https://jobs.ctgoodjobs.hk/job/10167553/%E5%90%88%E7%B4%84%E5%8A%A9%E7%90%86%E5%9C%9F%E5%9C%B0%E6%B8%AC%E9%87%8F%E5%B8%AB?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_CTgoodjobs.hk', '5 days ago', '', 1, 'entry', '2026-07-04 00:12:21', '2026-07-04 00:12:21', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (226, 'b3ed94ef7ad20df9', '助理測量師', '港興建築工程有限公司', 'other', '香港', '', '港興建築工程有限公司誠聘助理測量師。
+ 成功應聘者將一般助理測量師工作，負責執行地盤現場所有勘測佈置及測量工作。
+港興建築工程有限公司正在尋找具備以下條件的專業人才：專上教育：文憑/證書; 1年經驗; 良好粵語; 良好英語; 懂讀寫中文; 懂讀寫英文; 持有平安咭; 持有建造業工人註冊證; 持測量學證書。', '', 'https://job.yolo813.com/zh-hant/job/114389?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Job.yolo813.Com', '8 days ago', '', 1, 'entry', '2026-07-04 00:12:21', '2026-07-04 00:12:21', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (227, '3ede4fd74a8b1767', '助理項目測量師（土地測量）', 'LAB（SGS集團的子公司）', 'land_surveying', '元朗', '', 'Duties & Responsibilities Responsible for setting up, planning and execution of in-situ survey projects in construction sites. Duties include but not limited to conducting site surveys, analyzing data, maintaining equipment and meeting with clients and collaboration with professionalsManage sub-contractorsHandle remote monitoring worksImplement latest monitoring technology and IoT solutionsResponsible for field coordination works, writing reports, review and summariesInform relevant stakeholders of potential problems or outcomes that may influence the performance of projectPerform ad-hoc duties and assignments as assigned by the Superior Requirements/Qualifications Higher Diploma / Associate Degree or Bachelor''s degree in Land Surveying or equivalentPossess one year of relevant work experience in field coordinationFamiliar with construction site practice is a must Good interpersonal, communication and organizational skillsFlexible and be able to work independentlyBe acutely aware and respond to safety issuesProficiency in both spoken and written English and ChineseFresh graduates are welcome to applyAs a caring company, we not only offer a competitive remuneration package but also offer staff caring benefits to the right candidate. Join us now!', '', 'https://www.offertoday.com/hk/job/dtIUNGMtnpbQHfxAhhFgyQ%3D%3D?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_OfferToday', 'HK$22K–HK$25K a month', '', 1, 'entry', '2026-07-04 00:12:21', '2026-07-04 00:12:21', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (228, '7201c61a4828927a', 'Quantity Surveyor / Assistant Quantity Surveyor', 'Kuly Construction & Engineering Company Limited', 'quantity_surveying', '元朗區', '', 'About the role An exciting opportunity has arisen for a Quantity Surveyor or Assistant Quantity Surveyor to join the team at Kuly Construction & Engineering Company Limited. As a full-time role, you will be based in our San Tin Yuen Long District office and play a vital part in the continued success of our construction projects.
+
+
+What you''ll be doing
+
+Preparing detailed bills of quantities and cost estimates for construction projects
+Measuring and valuating works completed on site and processing interim payments
+Negotiating and agreeing variations and final accounts with clients and subcontractors
+Assisting with tender preparations, bid submissions and contract administration
+Monitoring project costs and cash flow throughout the construction lifecycle
+Providing detailed cost reports and financial forecasts to senior management
+Collaborating with project managers, engineers and other construction professionals
+
+What we''re looking for
+
+Degree or professional qualification in Quantity Surveying or Construction Management
+Strong understanding of construction processes, contractual arrangements and cost management principles
+Proficient in using industry-standard software such as AutoCAD, Tekla and MicroStation
+Excellent numerical, analytical and problem-solving skills
+Ability to work effectively in a team and communicate complex information clearly
+Fluency in English and Cantonese, with Mandarin an advantage
+
+What we offer
+At Kuly Construction & Engineering Company Limited, we are committed to providing a supportive and rewarding work environment for our employees. Some of the key benefits include:
+- Competitive salary and annual bonus
+
+
+- 22 days annual leave plus public holidays
+
+
+- Comprehensive health insurance and retirement plan
+
+
+- Regular training and development opportunities
+
+
+- Opportunity for career progression within a growing company
+
+
+About us
+Kuly Construction & Engineering Company Limited is a leading provider of construction and engineering services in', '', 'https://bebee.com/hk/jobs/quantity-surveyor-assistant-quantity-surveyor-kuly-construction-engineering-company-limited-san-tin---theirstack-677310009?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_BeBee', 'HK$25K–HK$35K a month', '', 1, 'entry', '2026-07-04 00:12:21', '2026-07-04 00:12:21', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (229, 'd546756fcaf40f12', '工料測量師', '新聯盛工程有限公司', 'quantity_surveying', '九龍', 'HK$25000-35000', '職責:
+• 按圖計算建築的各類工程量;
+• 準備分判招標文件,如工程量清單
+• 與承包商及供應商協商, 負責工程分判及物料採購;
+
+資歷要求: 大專或以上程度; 3-5年或以上相關工作經驗  ; 良好粵語優先; 一般普通話; 良好英語優先; 懂讀寫中文; 懂讀寫英文; 懂電腦文書處理; 懂Microsoft Office; 懂英文打字; 懂中文打字;具物業管理,工程,項目管理、工料測量經驗優先; 對數字敏感, 對文件資料細心處理;有團隊精神,願意學習,工作積極主動
+
+待遇 : 每月$25,000 - $35,000, 有勤工獎金, 在職培訓及晉升機會, 星期一至五: 上午9時至下午7時, 1小時午飯時間, 每週工作5天, 每天工作 9小時。經驗較淺者會被考慮為助理工料測量師或工料測量助理。', '', 'https://moovup.com/hk/job/%E5%85%A8%E8%81%B7-%E5%B7%A5%E6%96%99%E6%B8%AC%E9%87%8F%E5%B8%AB-%E6%B2%B9%E5%B0%96%E6%97%BA/373a976e-ab88-438a-8183-4650e58d344a/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Moovup', '2 days ago', '', 1, 'entry', '2026-07-04 00:12:48', '2026-07-04 00:12:48', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (230, 'f803ef96b5c8feb3', 'Resident Quantity Surveyor / 駐地盤工料測量師 Ref. No : RQS/19458/TRA', 'AECOM', 'quantity_surveying', '香港', '', 'Civil Engineering and Development Department
+
+
+土木工程拓展署
+
+
+Agreement No. CE 80/2021 (CE)
+
+
+合約編號 CE 80/2021 (CE)
+
+
+Expansion of Aberdeen Typhoon Shelter – Investigation, Design and Construction
+
+
+擴建香港仔避風塘 – 勘查研究、設計及建造
+
+
+AECOM Asia Company Limited invites applications for the following Resident Site Staff positions for the captioned Agreement to supervise construction of precast reinforced concrete caisson breakwaters, floating breakwater, pedestrian walkway and modification of existing breakwaters, seabed stabilization works including Deep Cement Mixing (DCM) and dredging, associated works including water supply system, drainage system, electrical and mechanical works, landscaping works and ground investigation works. The works are scheduled to commence in July 2026 and will take about 40 months to complete.
+
+
+艾奕康有限公司現招聘下列駐地盤工程人員負責上述政府合約之建造工程，涉及建造預製鋼筋混凝土沉箱防波堤、浮式防波堤、行人步道；改建現有防波堤；進行海床加固工程（包括深層水泥拌合法 (DCM) 及浚挖工程）；以及相關附屬工程，如供水系統、排水系統、機電工程、園境工程及土地勘測工程。工程預計於 2026 年 7 月展開，約需時 40 個月完成。
+
+
+Candidates should have:
+ Corporate Membership of the Hong Kong Institute of Surveyors in Quantity Surveying Division or equivalent.  申請人必須:​
+ 為香港測量師學會(工料測量組別)的正式會員，或具備同等資格。  Applicants may also refer to the other requirement(s) of the above opening(s) stipulated in Appendix 7.4 of “Management Handbook for Direct Employment of Resident Site Staff by Consultants for Public Works Projects” from the webpage of Development Bureau.
+申請人亦可參閱發展局網頁“關於顧問公司直接僱用駐地盤人員的管理手冊”附錄7.4所載的其他同等學歷和經驗。
+
+
+The candidates should have minimum academic/ professional qualification requirements of the above posts.
+
+
+申請人必須具備以上最低要求之學歷╱專業資格。
+
+
+Conditions: Appointments will be made on Agreement Terms with AECOM Asia Company Limited in accordance with the prevailing Government’s terms and conditions. Salary will commensurate with qualifications and experience.
+
+
+聘用條款: 獲取錄的申請人，艾奕康有限公司會以合約形式聘請，聘用條款將按受聘時政府採用的編制而定。受聘人之薪酬按資歷及經驗而定。
+
+
+Where a large number of candidates meet the specified entry requirements, we may devise shortlisting cri', '', 'https://bebee.com/hk/jobs/resident-quantity-surveyor-ref-no-rqs-19458-tra-aecom-hong-kong--techmap_hk_a2fb766124acbb06d38b491369c01975?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_BeBee', '17 days ago', '', 0, 'experienced', '2026-07-04 00:12:48', '2026-07-04 00:12:48', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (231, 'da306b1d04db4c66', 'Principal Quantity Surveyor', 'LA RUCHE A RESSOURCES', 'quantity_surveying', 'Hong Kong', NULL, '', '', 'https://hk.linkedin.com/jobs/view/principal-quantity-surveyor-at-la-ruche-a-ressources-4433136510?position=11&pageNum=0&refId=h8iVjjoWxK1fJ5Tz%2FdLw7Q%3D%3D&trackingId=nALSEgutfMxdY8%2Fidy%2FKqw%3D%3D', 'linkedin', '2026-07-04', '', 0, 'experienced', '2026-07-04 00:14:10', '2026-07-04 00:14:10', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (232, '4ae016fc74b69bf9', 'Senior Quantity Surveyor / Quantity Surveyor', 'Arcadis', 'quantity_surveying', 'Hong Kong', NULL, '', '', 'https://hk.linkedin.com/jobs/view/senior-quantity-surveyor-quantity-surveyor-at-arcadis-4399752920?position=15&pageNum=0&refId=h8iVjjoWxK1fJ5Tz%2FdLw7Q%3D%3D&trackingId=fB1WKPqQVFJZAgbKZIJHhg%3D%3D', 'linkedin', '2026-07-04', '', 0, 'experienced', '2026-07-04 00:14:10', '2026-07-04 00:14:10', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (233, '5b4794aaeb49b88d', 'Senior Quantity Surveyor', 'China Harbour Engineering Co. Ltd', 'quantity_surveying', 'Hong Kong', NULL, '', '', 'https://hk.linkedin.com/jobs/view/senior-quantity-surveyor-at-china-harbour-engineering-co-ltd-4424599310?position=20&pageNum=0&refId=h8iVjjoWxK1fJ5Tz%2FdLw7Q%3D%3D&trackingId=3cON9HHaFz1uEeZYju25Uw%3D%3D', 'linkedin', '2026-07-04', '', 0, 'experienced', '2026-07-04 00:14:10', '2026-07-04 00:14:10', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (234, '56f783429c84a6f6', 'Senior Quantity Surveyor (MEP)', 'Arcadis', 'quantity_surveying', 'Hong Kong', NULL, '', '', 'https://hk.linkedin.com/jobs/view/senior-quantity-surveyor-mep-at-arcadis-4419698984?position=23&pageNum=0&refId=h8iVjjoWxK1fJ5Tz%2FdLw7Q%3D%3D&trackingId=MPMoiD99F7xbftZiupnhHw%3D%3D', 'linkedin', '2026-07-04', '', 0, 'experienced', '2026-07-04 00:14:10', '2026-07-04 00:14:10', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (235, '3fb9921979f09f92', 'Senior Quantity Surveyor/Associate Director- Cost Management', 'Turner & Townsend', 'quantity_surveying', 'Hong Kong', NULL, '', '', 'https://hk.linkedin.com/jobs/view/senior-quantity-surveyor-associate-director-cost-management-at-turner-townsend-4405072637?position=24&pageNum=0&refId=h8iVjjoWxK1fJ5Tz%2FdLw7Q%3D%3D&trackingId=oXUYDPgpCmn%2BEUcuks42RQ%3D%3D', 'linkedin', '2026-07-04', '', 0, 'experienced', '2026-07-04 00:14:10', '2026-07-04 00:14:10', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (236, '32776d4a6918658a', 'Quantity Surveyor - 2026 Graduate Program', 'Rider Levett Bucknall Limited', 'quantity_surveying', 'Hong Kong', '', 'Rider Levett Bucknall Limited 
+
+Rider Levett Bucknall Limited (RLB) is a leading global consultancy specializing in construction cost management and quantity surveying and has a global presence with 4,500 people operating from more than 120 offices across the world. In North Asia region we employ over 1,100 people with headquarters in Hong Kong and offices in Macau and major cities in Mainland China.
+
+ Quantity Surveyor - 2026 Graduate Program 
+
+ Responsibilities 
+
+Carry out general consultant Quantity Surveying duties in both pre and post contract stages including cost estimates, tender documentation, tender analysis, valuation of variations, interim payment valuation, measurement of quantities, reviewing contractors’ quotations and claims, negotiation and settlement of final accounts, etc.
+
+Attend project meetings, tender interview, site inspections, visits and site meetings when required
+
+Collaborate and maintain an amicable working relationship with the Client, project team and other project stakeholders
+
+Ensure that deliverables complying with QA standards and records are properly stored
+
+ Requirements 
+
+2026 graduates with a Master’s or Bachelor''s degree in relevant disciplines
+
+Preferably with internship experience in related field but not a must
+
+Good command of spoken and written English and Chinese
+
+Good inter-personal and communication skills
+
+Team player with a good attitude
+
+Remuneration package shall be commensurate with qualifications and experience of successful candidates. Interested parties please send application with full resume, copy of testimonials from previous employers, copy of certificates of qualification, details of present and expected salary to the  Human Resources Department, 15/F, The Bay Hub, 17 Kai Cheung Road, Kowloon Bay, Hong Kong  or e-mail to  [via CTgoodjobs Apply Now]. 
+
+All personal data provided by applicants will be treated strictly confidential and used only for recruitment-related purposes.', '', 'https://jobs.ctgoodjobs.hk/job/10164026/quantity-surveyor-2026-graduate-program?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_CTgoodjobs', '9 days ago', '', 1, 'graduate', '2026-07-05 00:10:46', '2026-07-05 00:10:46', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (237, '4a6d2aa5ab28b84f', '(Assistant) Quantity Surveyor or QS Assistant -25-33K+ Sub contractor - Building', 'RecruitPRO Consultancy Hong Kong Limited', 'quantity_surveying', 'Hong Kong', '', 'About the role 
+
+A leading Sub-contractor, we are seeking an experienced  (Assistant) Quantity Surveyor or QS Assistant  to join our team based in Kwun Tong.
+
+Salary: HKD 25-33K
+
+Related QS Experience: at least 1 year up
+
+Project: ASD, Building and A&A and Facade projects
+
+ Key responsibilities 
+
+Preparing and maintaining accurate bills of quantities for building projects
+
+Conducting detailed cost estimates and feasibility studies for construction works
+
+Managing contract documentation and administering building contracts
+
+Monitoring project costs and providing regular financial reports to stakeholders
+
+Liaising with architects, engineers, contractors and clients to resolve commercial and contractual matters
+
+Preparing variation orders and evaluating cost implications of design changes
+
+Conducting site inspections and preparing measurement and valuation reports
+
+Assisting with procurement activities and vendor negotiations
+
+Maintaining comprehensive project records and documentation
+
+Providing commercial advice on contract terms and risk mitigation strategies
+
+ What we''re looking for 
+
+ Professional qualification as a Quantity Surveyor (QS) or equivalent qualification recognised in Hong Kong, or in progress towards qualification 
+
+ at least 1 years or above of related QS working experience. 
+
+ Proven experience in quantity surveying, cost management, or contract administration within the construction industry 
+
+Strong knowledge of building construction methods, materials and costs
+
+Proficiency in measurement and valuation practices in accordance with recognised standards
+
+Proficiency in Microsoft Office applications and quantity surveying software
+
+Strong communication and negotiation skills to work effectively with multiple stakeholders
+
+Ability to manage multiple projects simultaneously and meet tight deadlines
+
+
+
+
+ Please send detail CV with expected salary by email: applyppt@recruitPRO662.com 
+
+
+
+
+ Apply Now 
+
+If you are an ambitious Quantity Surveyor or QS Assi', '', 'https://jobs.ctgoodjobs.hk/job/10166235/assistant-quantity-surveyor-or-qs-assistant-25-33k--sub-contractor-building?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_CTgoodjobs', '6 days ago', '', 1, 'entry', '2026-07-05 00:10:46', '2026-07-05 00:10:46', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (238, '887f728bf78307a3', 'Project Quantity Surveyor/ Quantity SQuantity Surveyor / Assistant Quantity Surveyor / Quantity Surveyor Trainee (Ref no.: 38QS/AQS/QST26060122)', 'Yau Lee Holdings Limited', 'quantity_surveying', 'Hong Kong', '', 'Company Description
+
+  Yau Lee Holdings Limited (The Group) , a green integrated corporation, went public in 1991. Based on the solid foundation of conventional experience, Yau Lee Construction Company Limited was founded earlier in 1958 and gradually developed into one of the Hong Kong’s largest consortia in building construction, precast and low carbon building materials manufacturing and trading, E&M services, plumbing and drainage works, green building and energy optimization solutions, construction IT solutions, virtual design & construction implementation, curtain wall and steel works and property & hotel development.
+
+Carry the same corporate culture, belief and practice, the Group and subsidiaries always strive for excellence to improve construction productivity and buildability as well as sustainability. We think green, practice green, act green and aim to provide a green living to our society and the world.
+
+ Responsibilities
+
+ Job Description:
+
+Provide general quantity surveying and contract administration services for pre and post contract which include taking off quantities from drawings, scrutiny/preparation of cost estimates, tenders, contracts and subcontract documents, evaluation of variation order and payment claims and settlement of final accounts.
+
+ Requirements
+
+ Degree in Quantity Surveying or Higher Diploma/Certificate in Quantity Surveying or equivalent.QS experience in Contractor and/or QS Consultant Firms.Preferably with relevant experience in pre- and post-contract works.Experience in construction project(s) using NEC contract would be ab advantage
+
+We offer competitive remuneration package with comprehensive fringe benefits to the right candidates. Interested parties, please send your full resume, with current and expected salary, date of availability by clicking  Apply Now.  Thank you.', '', 'https://jobs.ctgoodjobs.hk/zh/job/10151012/project-quantity-surveyor-quantity-squantity-surveyor-assistant-quantity-surveyor-quantity-surveyor-trainee-ref-no-38qsaqsqst26060122?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_CTgoodjobs', '20 days ago', '', 0, 'experienced', '2026-07-05 00:10:52', '2026-07-05 00:10:52', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (239, '51b9fcf0c54742a4', 'Architectural / Surveying Graduate', 'Hospital Authority', 'building_surveying', 'Hong Kong', '', 'Hospital Authority Development and Works Graduate Trainee Programme (REF. NO.: HO2605019)
+
+
+Application deadline: 12 June 2026
+
+
+Online apply via https://ha.taleo.net/careersection/ha\_ext\_cs/jobdetail.ftl?job=HO2605019&lang=en
+
+
+Position:
+Architectural / Surveying Graduate
+
+
+Rank:
+Executive Assistant I
+Cluster/Department:
+Development and Works Divisions, Hospital Authority (HA) Head Office
+Pay: HK$24,191 per month
+
+
+Key Responsibilities:
+We are looking for high potential candidates with passion to work on capital works projects and develop their professional Architectural / Surveying career in the Development & Works Division of the Hospital Authority (HA).
+Selected candidates will undergo two years of practical training arranged by the HA. Depending on project needs and job rotations, the programme covers various project stages—including inception, feasibility study, schematic proposal, design, contract documentation, and construction management. Training is conducted under the guidance of professional Architects or Building Surveyors, fulfilling the requirements of The Hong Kong Institute of Architects (HKIA) or The Hong Kong Institute of Surveyors (HKIS).
+
+
+The key responsibilities may include but not be limited to:
+
+
+Architectural Graduate
+1.Assist in preparing building proposals, programmes, funds bidding and selection of works agents.
+2.Assist in exercising close control on quality of works, site progress, project budget and expenditure.
+
+
+3.Assist in overseeing compliance of statutory requirements with respect to building facilities, building engineering operation and maintenance services in project.
+
+
+4.Assist in facilitating smooth interface between hospitals, government departments, contractors, professional consultants, and other stakeholders.
+
+
+5.Assist in managing, monitoring and preparing performance report of professional consultants appointed for delivery of projects.
+
+
+6.Assist in monitoring the preparation of contractor documentations, cost plan,', '', 'https://bebee.com/hk/jobs/architectural-surveying-graduate-hospital-authority-hong-kong--theirstack-716606820?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_BeBee', '26 days ago', '2026-06-12', 1, 'graduate', '2026-07-05 00:11:07', '2026-07-05 00:11:07', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (240, '5b5d6788609f6887', 'Site Surveyor', 'Leadingnation', 'land_surveying', 'Hong Kong', '', 'Responsibilities Coordinate with site foreman/engineer to arrange survey works; Prepare Survey Method Statements; Prepare, review and record survey reports from time to time; Carry out general site surveying and levelling work; Review the construction drawings to ensure the ink line are marked in accordance with the drawings; Assist in site construction and management work  
+Requirements Holder of Degree/Diploma /Higher Certificate in Surveying or equivalent; At least 3 years or above relevant experience in construction site; Knowledge of computer software application in AutoCAD, Mirco Station and Excel etc.; Holder of Driving License 1 & 2 is advantage; Able to work independently; Working Location : WENT Landfill - Tuen Mun  Job Type: Full-time 
+
+Pay: $28,000.00 - $30,000.00 per month 
+
+Work Location: In person 
+
+ #J-18808-Ljbffr', '', 'https://www.recruit.net/job/site-surveyor-jobs/2178BE9B7788D9DE?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Recruit.net', '1 day ago', '', 0, 'experienced', '2026-07-05 00:11:07', '2026-07-05 00:11:07', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (241, 'a257bd7a4d962a3c', 'Site Surveyor: On-site Field Coordination & Surveys', 'Leadingnation', 'land_surveying', 'Hong Kong', '', 'Leadingnation is seeking a dedicated Surveyor to join their team in Tuen Mun, Hong Kong. The role involves coordinating survey works, preparing method statements, and general site levelling tasks. Ideal candidates will have at least 3 years'' experience in construction and a degree in surveying. 
+
+The position offers a full-time contract with a salary range of $28,000 to $30,000 per month, working on-site at WENT Landfill. 
+
+ #J-18808-Ljbffr', '', 'https://www.recruit.net/job/site-surveyor-field-coordination-surveys-jobs/41656FAF7D7B1B26?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Recruit.net', '1 day ago', '', 0, 'experienced', '2026-07-05 00:11:07', '2026-07-05 00:11:07', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (242, '8bc9bceb9a55c87f', 'Senior Resident Surveyor (Engineering) – Field Lead', 'Leadingnation', 'land_surveying', 'Hong Kong', '', 'AECOM Asia Company Limited is seeking a Resident Senior Survey Officer to supervise construction projects for the Civil Engineering and Development Department in Hong Kong. The role involves overseeing site works and ensuring compliance with public works standards. 
+
+Candidates must possess a diploma or higher certificate and have at least 7 years of relevant experience. Proficiency in Chinese and English is essential, along with a strong background in surveying. 
+
+ #J-18808-Ljbffr', '', 'https://www.recruit.net/job/resident-surveyor-engineering-field-jobs/E7F9043A5A5D5F0F?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Recruit.net', '1 day ago', '', 0, 'experienced', '2026-07-05 00:11:13', '2026-07-05 00:11:13', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (243, '32bee3ee8bc97313', '合約助理土地測量師', '民政事務總署', 'other', '香港', '', '部門: 民政事務總署
+
+薪酬: 月薪港幣31,695元
+
+學歷要求: 
+專業資格
+
+入職條件: 
+(a) 具備獲香港測量師學會承認為符合該會土地測量組正式會員所需學歷要求的資格[註(1)]；
+(b) 取得上述學歷資格後，在香港測量師學會不時就該會土地測量組發出的專業評核試規則及指引所載的相關範疇具備至少兩年專業訓練及工作經驗，或同等經驗[註(2)]；以及
+(c) 符合語文能力要求，即在香港中學文憑考試或香港中學會考，中國語文科和英國語文科，考獲第2級或以上成績，或具備同等成績[註(3)]。
+
+註: 
+(1) 申請人如在二零二六年九月三十日或之前已成為香港測量師學會土地測量組的正式會員，或具備同等專業資格；及在取得專業資格後在土地測量方面具備一年或以上相關的工作經驗，將不會獲考慮聘用為合約助理土地測量師。獲取錄的申請人必須就上述有關資料作出聲明。
+(2) 如申請人尚未具備入職條件(b)所述至少兩年相關範疇的專業訓練及工作經驗，但正接受相關專業訓練，並將於二零二六年九月三十日或之前取得所需兩年專業訓練和工作經驗也可申請；申請人如獲錄用，必須在二零二六年九月三十日或之前取得最少兩年專業訓練資格及工作經驗才獲聘任。
+(3) 2007年前的香港中學會考中國語文科和英國語文科(課程乙) E級成績，在行政上會被視為等同2007年或之後香港中學會考中國語文科和英國語文科第2級成績。
+
+職責: 
+合約助理土地測量師主要負責：
+(1) 進行各類土地測量工作(包括大地測量、土地界線測量、地形測量及攝影測量)，以及與地理信息系統／數碼攝影測量有關的工作；
+(2) 督導測量工作隊伍；
+(3) 監督所有測量及製備圖則的工作；
+(4) 協助高級土地測量師／土地測量師處理辦公室的日常行政工作；以及
+(5) 按照上司指示執行任何其他職務。
+
+福利: 
+(1)	獲聘者如圓滿履行合約，而期間表現理想及行為良好，可獲發約滿酬金。如獲發酬金，酬金數額連同政府按照《強制性公積金計劃條例》的規定為獲聘者向強制性公積金計劃所作的供款，相等於獲聘者在合約期內所得基本薪金總額的15%；以及
+(2)	獲聘者可按照《僱傭條例》的規定享有休息日、法定假日（或代替假日）、年假、產假/ 侍產假和疾病津貼等福利（如適用）。
+
+申請手續: 
+(1) 申請人必須透過公務員事務局的G.F. 340網上申請系統 (https://www.csb.gov.hk) 作網上申請。
+(2) 申請人須在截止申請日期或之前將詳列相關工作經驗的履歷和證明其(a) 學歷；及(b) 工作經驗的相關證明文件副本電郵至[via CTgoodjobs Apply Now]，並在電郵及各證明文件副本上註明申請的職位名稱及網上申請編號。
+(3) 申請書如資料不全或以親身、郵寄、傳真或電郵方式遞交、或未能提供所需證明文件，概不受理。
+(4) 申請人如獲邀參加面試，必須提供證明其(a) 學歷；及(b) 工作經驗的相關證明文件正本以供核實其資格。申請人如未能提供所需文件正本以供核實其資格，其申請將不獲考慮。
+(5) 面試邀請書會通過電郵發出，申請人必須在申請表格上清楚填寫個人的電郵地址。如在截止申請日期後八個星期內未接獲邀參加面試，可視作落選。
+
+聘用條款: 
+(1) 應徵者如獲錄用，將會按非公務員合約條款受聘，合約期不多於12個月。
+(2) 續約與否須視乎屆時部門的服務需求及受聘人的工作表現而定。
+(3) 受聘人或需於戶外、不定時工作以及在星期六、星期日及公眾假期工作。', '', 'https://jobs.ctgoodjobs.hk/job/10167553/%E5%90%88%E7%B4%84%E5%8A%A9%E7%90%86%E5%9C%9F%E5%9C%B0%E6%B8%AC%E9%87%8F%E5%B8%AB?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_CTgoodjobs', '6 days ago', '', 1, 'entry', '2026-07-05 00:11:37', '2026-07-05 00:11:37', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (244, '3c78302eeae92b41', '工場助理(油漆/土地測量)', '香港專業教育學院〈摩理臣山〉', 'land_surveying', '香港', '', '主要職責：
+   
+  
+  
+
+  
+   
+    (a)
+   
+   
+    為建造工程的教學工場（例如 : 油漆、土地測量等）提供教學支援；
+   
+  
+  
+
+  
+   
+    (b)
+   
+   
+    準備、安排、分發及盤點課堂實習所需的材料及工具；
+   
+  
+  
+
+  
+   
+    (c)
+   
+   
+    安裝、維修、搬運及保養實習工場的工具及設備，並處理維修計劃及保存良好記錄；
+   
+  
+  
+
+  
+   
+    (d)
+   
+   
+    負責保持工場環境及設施之安全和清潔；及
+   
+  
+  
+
+  
+   
+    (e)
+   
+   
+    支援學系主辦之活動和展覽及外勤工作支援。
+   
+  
+  
+
+  
+
+  
+  
+   
+    入職條件：
+   
+  
+  
+
+  
+   
+    (a)
+   
+   
+    (i)
+   
+   
+    完成相關認可訓練課程（包括學徒及技工訓練），並於取得有關學歷後具有最少兩年相關工作經；或
+   
+  
+  
+
+  
+  
+   
+    (ii)
+   
+   
+    通過技能測試或相等水平測試，並具有最少兩年相關工作經驗；
+   
+  
+  
+
+  
+   
+    (b)
+   
+   
+    能閱讀及書寫中文和簡單英語；及
+   
+  
+  
+
+  
+   
+    (c)
+   
+   
+    懂基本電腦操作。
+   
+  
+  
+
+  
+
+  
+  
+   
+    備註：
+   
+  
+  
+
+  
+   
+    (1)
+   
+   
+    以上職位之職級為「二級機械工」。
+   
+  
+  
+
+  
+   
+    (2)
+   
+   
+    申請人如具有在相關領域中豐富經驗和成就但缺乏所需的學術／專業資格，或者具有卓越的學術／專業資格但經驗較少也可以申請。
+   
+  
+  
+
+  
+   
+    (3)
+   
+   
+    應徵者或需參加技能測試。
+   
+  
+  
+
+  
+   
+    (4)
+   
+   
+    受聘者可能需要輪班工作，並於星期六、日及公眾假期當值。
+   
+  
+  
+
+  
+   
+    (5)
+   
+   
+    為配合運作需要，受聘者日後可能會被調派至其他工作地點工作。
+   
+  
+  
+
+  
+   
+    (6)
+   
+   
+    申請人如在過去一年內曾就該職位遞交申請表格，則無須重新遞交。', '', 'https://hk.indeed.com/viewjob?jk=7da0f03608252d63&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Indeed HK', '10 days ago', '', 1, 'entry', '2026-07-05 00:11:55', '2026-07-05 00:11:55', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (245, 'ea15b0c16059afd9', 'Quantity Surveyor Trainee (2026 Summer Intern)', 'Feng Sheng Electric', 'quantity_surveying', 'Kwun Tong District', '', 'Job Duties: Assist in the preparation of contractual claimsPerform quantity surveying duties, including payment and variationsHandle contract administration and related tasks Job Requirements:Year 3 students in Building, Building Services, Quantity Surveying or related disciplineGood Knowledge of taking off, measurement, preparation of variation quotationGood commands of English and Chinese languagesCapable to Microsoft OfficeHolder of valid green card', '', 'https://www.offertoday.com/en/job/M13vKM6JI_e9XXseT0fItQ%3D%3D?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_OfferToday', 'HK$7K–HK$8K a month', '', 1, 'graduate', '2026-07-06 00:10:48', '2026-07-06 00:10:48', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (246, 'cde3de28df56e860', 'Building Surveyor / Assistant Building Surveyor', 'RS Surveyors Limited', 'building_surveying', 'Hong Kong', '', 'Responsibilities: 
+
+Provide clients with quality project management and building surveying services;
+
+Projects would include, but not limited to alteration and addition, maintenance, survey, and fitting-out work in Hong Kong; and
+
+Work as a team in handling projects with the presence of qualified building surveyors.
+
+ Requirements: 
+
+Diploma / Higher Diploma / Degree in Building Surveying or graduate from related disciplines;
+
+Fluency in spoken and written English and Chinese;
+
+Proficiency in using computer skills, AutoCAD and MS Office;
+
+Highly motivated and able to work independently.
+
+Able to work overtime and under pressure
+
+Experienced over one year;
+
+Requirements for Building Surveyor : Experienced over five years and HKIS Chartered Building Surveyor are preferred.', '', 'https://jobs.ctgoodjobs.hk/job/10138791/building-surveyor-assistant-building-surveyor?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_CTgoodjobs', '2026-07-06', '', 1, 'entry', '2026-07-06 00:11:03', '2026-07-06 00:11:03', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (247, '52ed46e307ce2c52', 'Junior Surveyor – Field Data & Calibration', 'Leadingnation', 'land_surveying', 'Hong Kong', '', 'Leadingnation in Hong Kong is looking for a Surveying and Mapping Engineering graduate to monitor surveying criteria and maintain equipment records. You''ll report data to supervisors and advise on site team conditions.
+
+Fresh graduates with less than a year of experience are welcome. Candidates must have strong English and Chinese communication skills, be self-motivated, and able to work under pressure.', '', 'https://www.jobleads.com/hk/job/junior-surveyor-field-data-calibration--hong-kong--eec9fdc499f71bbf922f8539dc17112f4?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_JobLeads', '4 days ago', '', 1, 'entry', '2026-07-06 00:11:03', '2026-07-06 00:11:03', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (248, 'e7e28b808cabf84e', '工料測量師/測量助理', '何蘇工程有限公司', 'other', '香港', '', '何蘇工程有限公司誠聘工料測量師/測量助理。
+ 成功應聘者將一般工料測量師/測量助理工作; 需向上司報告工作 (具工程管理、項目管理、工料測量經驗優先; 對數字敏感，能細心處理文件資料; 具團隊合作精神，能獨立工作)。
+何蘇工程有限公司正在尋找具備以下條件的專業人才：專上教育：文憑/證書; 1年經驗; 良好粵語優先; 一般普通話; 一般英語; 懂讀寫中文; 懂讀寫英文; 懂電腦文書處理; 懂Microsoft Office; 持有平安咭; 懂英文打字; 懂中文打字。', '', 'https://job.yolo813.com/zh-hant/job/115408?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Job.yolo813.Com', '4 days ago', '', 1, 'entry', '2026-07-06 00:11:29', '2026-07-06 00:11:29', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (249, '4c9738e3d1606979', '(Assistant) Quantity Surveyor or QS Assistant -25-33K+ Sub contractor - Building', 'RecruitPRO Consultancy Hong Kong Limited', 'quantity_surveying', 'Hong Kong', '', 'About the role 
+
+A leading Sub-contractor, we are seeking an experienced  (Assistant) Quantity Surveyor or QS Assistant  to join our team based in Kwun Tong.
+
+Salary: HKD 25-33K
+
+Related QS Experience: at least 1 year up
+
+Project: ASD, Building and A&A and Facade projects
+
+ Key responsibilities 
+
+Preparing and maintaining accurate bills of quantities for building projects
+
+Conducting detailed cost estimates and feasibility studies for construction works
+
+Managing contract documentation and administering building contracts
+
+Monitoring project costs and providing regular financial reports to stakeholders
+
+Liaising with architects, engineers, contractors and clients to resolve commercial and contractual matters
+
+Preparing variation orders and evaluating cost implications of design changes
+
+Conducting site inspections and preparing measurement and valuation reports
+
+Assisting with procurement activities and vendor negotiations
+
+Maintaining comprehensive project records and documentation
+
+Providing commercial advice on contract terms and risk mitigation strategies
+
+ What we''re looking for 
+
+ Professional qualification as a Quantity Surveyor (QS) or equivalent qualification recognised in Hong Kong, or in progress towards qualification 
+
+ at least 1 years or above of related QS working experience. 
+
+ Proven experience in quantity surveying, cost management, or contract administration within the construction industry 
+
+Strong knowledge of building construction methods, materials and costs
+
+Proficiency in measurement and valuation practices in accordance with recognised standards
+
+Proficiency in Microsoft Office applications and quantity surveying software
+
+Strong communication and negotiation skills to work effectively with multiple stakeholders
+
+Ability to manage multiple projects simultaneously and meet tight deadlines
+
+
+
+
+ Please send detail CV with expected salary by email: applyppt@recruitPRO662.com 
+
+
+
+
+ Apply Now 
+
+If you are an ambitious Quantity Surveyor or QS Assi', '', 'https://jobs.ctgoodjobs.hk/job/10166235/assistant-quantity-surveyor-or-qs-assistant-25-33k--sub-contractor-building?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Jobs In Hong Kong - CTgoodjobs', '8 days ago', '', 1, 'entry', '2026-07-07 00:11:09', '2026-07-07 00:11:09', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (250, '44ac410a354c3695', 'Graduate Trainee – Building Surveying', 'Chinese Recreation Club Hong Kong', 'building_surveying', 'Sha Tin District', '', 'We invite Building Surveying–related graduates to join our 2-year Graduate Trainee Programme, which provides a structured pathway towards registration as a Registered Professional Surveyor.
+
+
+Responsibilities
+
+
+
+Support the operation and maintenance of building facilities, including preventive and corrective maintenance, statutory inspections, and compliance matters
+
+
+Assist in project coordination for building alteration, improvement, and refurbishment works
+
+
+Support site supervision, contractor coordination, and quality control
+
+
+Assist in project planning, budgeting, and cost control
+
+
+Prepare progress reports, inspection records, and professional documentation
+
+
+
+Requirements
+
+
+
+Bachelor’s degree in Building Surveying or a related discipline
+
+
+Academic qualifications recognised by HKIS or eligible for assessment
+
+
+Strong interest in facility management, maintenance engineering, and leisure facilities
+
+
+Good command of both English and Chinese
+
+
+Self motivated, with strong communication and teamwork skills
+Fresh graduates are welcome
+
+
+
+We Offer
+
+
+
+Successful candidate will be guided by a qualified Building Surveyor who will act as counsellor
+
+
+Structured mentorship and professional development support
+
+
+Competitive remuneration package with clear career progression', '', 'https://bebee.com/hk/jobs/graduate-trainee-building-surveying-chinese-recreation-club-hong-kong-tin-hau-eastern-district--theirstack-684258761?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_BeBee', '2026-07-07', '', 1, 'graduate', '2026-07-07 00:11:46', '2026-07-07 00:11:46', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (251, '328e383cbfc7649c', 'Assistant Land Surveyor (Ref: 70526)', 'Meinhardt Consulting Engineers', 'land_surveying', 'Hong Kong', '', 'Meinhardt is one of the world’s few multidisciplinary engineering, infrastructure, geospatial and land survey services and project management non-listed consulting firms employing over 6000 professional staffs in over 60 offices worldwide.
+
+With 1200 staff in Hong Kong and China, we provide a full range of technically feasible and cost effective solutions for buildings, civil infrastructure, rail, highways, aviation, geospatial, land survey services and environmental projects.
+
+We are looking for high calibre candidates to fill the following positions:
+
+Assistant Land Surveyor
+
+(Ref: 70526)
+
+Job Duties:
+
+Assist Land Surveyors in developing the BIM model initiatives by reviewing PLIS/EMMS data workflows, establishing sustainable BIM maintenance processes, and defining standard templates to support continuous asset updates and smart infrastructure management.Assist Land Surveyors in aligning BIM data requirements with the as-built BIM models handed over from the CKR project team, standardizing attributes, and supporting the first implementation of BIM-based Asset Information Models (AIM) for lighting installations.Assist Land Surveyors in developing and implementing the AI-driven Lighting Defects Detection System, including collecting user requirements, coordinating with contractors for data collection and integration, preparing tender specifications, conducting system performance reviews, and preparing evaluation reports and;Assist Land Surveyors in supervising the Survey Team of Lighting Division in support of the Engineers’ work;Assist Land Surveyors in overseeing the monthly and ad-hoc audit survey in strengthening the quality control on the lamp post data submitted under the three MOM contracts;Provide daily support on various GIS and IT systems of Lighting Division and system revamping including Works Order Information System (WOIS) and Public Lighting Information System (PLIS);Perform any other duties as assigned by his/her supervisors and to share other worklo', '', 'https://www.openjobs.com.hk/en/hongkong/job/assistant-land-surveyor-ref-70526-j281138?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_OpenJobs', '1 day ago', '', 1, 'entry', '2026-07-07 00:12:01', '2026-07-07 00:12:01', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (252, '7cd0447c09e4e1d1', 'Building Surveyor / Assistant Building Surveyor', 'RS Surveyors Limited', 'building_surveying', 'Hong Kong', '', 'Responsibilities: 
+
+Provide clients with quality project management and building surveying services;
+
+Projects would include, but not limited to alteration and addition, maintenance, survey, and fitting-out work in Hong Kong; and
+
+Work as a team in handling projects with the presence of qualified building surveyors.
+
+ Requirements: 
+
+Diploma / Higher Diploma / Degree in Building Surveying or graduate from related disciplines;
+
+Fluency in spoken and written English and Chinese;
+
+Proficiency in using computer skills, AutoCAD and MS Office;
+
+Highly motivated and able to work independently.
+
+Able to work overtime and under pressure
+
+Experienced over one year;
+
+Requirements for Building Surveyor : Experienced over five years and HKIS Chartered Building Surveyor are preferred.', '', 'https://jobs.ctgoodjobs.hk/job/10138791/building-surveyor-assistant-building-surveyor?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Jobs In Hong Kong - CTgoodjobs', '2026-07-07', '', 1, 'entry', '2026-07-07 00:12:01', '2026-07-07 00:12:01', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (253, 'ab8784030c51cf08', 'Assistant Land Surveyor', 'Esri China (Hong Kong) Ltd', 'land_surveying', 'Kowloon', '', 'Job Description: 
+
+ Assist in drafting engagement plans or documents to promote wider adoption of spatial data using state-of-art technology, e.g. artificial intelligence (AI);  Assist in collaborating with tech ventures and stakeholders in the I&T field to develop and deliver geospatial AI sandbox prototypes;  Assist in testing and validating the geospatial AI sandbox prototypes in real-life operating systems;  Assist in exploring the possibilities of involving the private sector in delivering new demonstrative projects and to seek collaboration opportunities with business and/or the academics;  Taking part in various capacity building and engagement activities;  Comprehensive and hands-on training will be provided; and  Successful candidate is required to work at the client site and will be offered a contract-based position subject to renewal. 
+ 
+  Requirements: 
+
+ Degree in Land Surveying, Geomatics, Geo-Informatics or a related discipline;  A qualification recognised by the Hong Kong Institute of Surveyors (HKIS) as satisfying the academic requirements for corporate membership in the Land Surveying Division;  Successfully completed a 2-year graduate training scheme recognised by the HKIS or equivalent;  Level 2 or above in Chinese Language and English Language in the Hong Kong Diploma of Secondary Education Examination (HKDSEE), or Grade E or above in the Hong Kong Certificate of Education Examination (HKCEE), or equivalent; and  Good command of both spoken and written Chinese and English. 
+ We offer five-day work week, attractive career opportunities, remuneration and benefits to the right candidates. Interested applicants, please submit detailed resume with current & expected salary and date of availability to our Human Resources Department via e-mail to [email redacted, apply via Company website]. 
+
+(For more information about our Company, please visit our website  )
+
+(Application received will be treated in strict confidence and will be used exclusively for ', '', 'https://hk.jooble.org/jdp/6795795940686250461?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Jooble HK', '29 days ago', '', 1, 'entry', '2026-07-07 00:12:01', '2026-07-07 00:12:01', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (254, '4727b9e8dda21a5e', 'Building Surveyor', 'Hong Kong Housing Society', 'building_surveying', '香港', '', '職 務:
+
+
+
+
+	能獨立執行日常大廈主管工作， 處理跟進住客戶查詢、投訴及突發事件，如有需要時協助安排搶修工作
+	每週工作44小時, 輪休
+
+
+ 
+
+
+
+資 歷:
+
+
+
+
+	小學程度，三年相關工作經驗
+	持有效保安員工作證及認可機構之保安人員訓練証書
+	懂讀寫中文
+
+Attractive remuneration package will be offered to suitable candidates. To apply, please submit online application: https://careers.hkhs.com/. You are welcome to visit our website www.hkhs.com to learn more about us.
+
+
+
+Applicants not invited for interview within 8 weeks may consider their applications unsuccessful.
+
+
+
+Personal data provided by job applicants will be used strictly in accordance with the Housing Society’s personal data policies which is available in our website and obtainable upon request. Please refer to the Policy Statement on Employment Related Data under Personal Data (Privacy) Ordinance in our website.', '', 'https://jobs.ctgoodjobs.hk/zh/job/10172214/building-surveyor?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_CTgoodjobs', '3 days ago', '', 1, 'entry', '2026-07-07 00:13:33', '2026-07-07 00:13:33', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (255, 'f89bd086cb0c87bf', '(Assistant) Quantity Surveyor or QS Assistant -25-33K+ Sub contractor - Building', 'RecruitPRO Consultancy Hong Kong Limited', 'quantity_surveying', 'Hong Kong', '', 'About the role 
+A leading Sub-contractor, we are seeking an experienced (Assistant) Quantity Surveyor or QS Assistant  to join our team based in Kwun Tong.
+
+Salary: HKD 25-33K
+
+Related QS Experience: at least 1 year up
+
+Project: ASD, Building and A&A and Facade projects
+
+ Key responsibilities 
+
+Preparing and maintaining accurate bills of quantities for building projects
+
+Conducting detailed cost estimates and feasibility studies for construction works
+
+Managing contract documentation and administering building contracts
+
+Monitoring project costs and providing regular financial reports to stakeholders
+
+Liaising with architects, engineers, contractors and clients to resolve commercial and contractual matters
+
+Preparing variation orders and evaluating cost implications of design changes
+
+Conducting site inspections and preparing measurement and valuation reports
+
+Assisting with procurement activities and vendor negotiations
+
+Maintaining comprehensive project records and documentation
+
+Providing commercial advice on contract terms and risk mitigation strategies
+
+ What we''re looking for 
+
+ Professional qualification as a Quantity Surveyor (QS) or equivalent qualification recognised in Hong Kong, or in progress towards qualification 
+
+ at least 1 years or above of related QS working experience. 
+
+ Proven experience in quantity surveying, cost management, or contract administration within the construction industry 
+
+Strong knowledge of building construction methods, materials and costs
+
+Proficiency in measurement and valuation practices in accordance with recognised standards
+
+Proficiency in Microsoft Office applications and quantity surveying software
+
+Strong communication and negotiation skills to work effectively with multiple stakeholders
+
+Ability to manage multiple projects simultaneously and meet tight deadlines
+
+
+
+
+ Please send detail CV with expected salary by email: [email redacted, apply via Company website] 
+
+
+
+
+ Apply now 
+If you are an ambitious Quantity Surve', '', 'https://www.recruit.net/job/assistant-quantity-surveyor-qs-assistant-jobs/BF2EA7F72626B34F?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Recruit.net', '1 day ago', '', 1, 'entry', '2026-07-08 00:11:00', '2026-07-08 00:11:00', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (256, '5c1e534737fd72ee', 'Quantity Surveying Assistant/ Trainee', 'Wo Hing Construction Company Ltd', 'quantity_surveying', 'Cheung Sha', '', '5.5 day workweekImmediately available is preferredFresh graduate will also be consideredResponsibilities:
+
+
+
+
+	Assist in preparing a project budget, estimation, tendering and procurement.
+	Prepare commercial plan and monitor project costs against forecasts on an ongoing basis.
+	Monitor project cash flow and prepare project cash flow reports periodically.
+
+
+Requirements:
+
+
+
+
+	Diploma in Quantity Surveying or related disciplines preferably with professional qualification.
+	1 year of solid QS experience in civil engineering projects (infrastructure/utilities) in Hong Kong, preferably in Government works contracts.
+	Good commercial and contractual acumen.
+	Good command of both written English and Chinese.
+	Good interpersonal skills and problem-solving skills.
+	Immediately available would also be an advantage.
+	Applicants with less experience may be considered as QS Trainee.
+
+
+ 
+
+
+Applicants should send their C.V. with expected salary and availability by clicking Apply Now.
+
+
+
+Personal data collected will be used for recruitment purpose only.', '', 'https://jobs.ctgoodjobs.hk/job/10176691/quantity-surveying-assistant-trainee?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Jobs In Hong Kong - CTgoodjobs', '1 day ago', '', 1, 'graduate', '2026-07-08 00:11:08', '2026-07-08 00:11:08', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (257, '0f6ab1d66794ca3f', 'Quantity Surveying Assistant/ Trainee', 'Wo Hing Construction Company Ltd', 'quantity_surveying', 'Hong Kong', '', 'Wo Hing is a well established civil engineering Main Contractor. We are recruiting high calibre individuals to fill the following positions to work on a variety of challenging utilities/infrastructure projects: 
+
+
+
+Responsibilities:
+
+
+ Assist in preparing a project budget, estimation, tendering and procurement. 
+
+
+
+
+ Prepare commercial plan and monitor project costs against forecasts on an ongoing basis. 
+
+
+
+
+ Monitor project cash flow and prepare project cash flow reports periodically. 
+
+
+
+Requirements:
+
+
+ Diploma in Quantity Surveying or related disciplines preferably with professional qualification. 
+
+
+
+
+ 1 year of solid QS experience in civil engineering projects (infrastructure/utilities) in Hong Kong, preferably in Government works contracts. 
+
+
+
+
+ Good commercial and contractual acumen. 
+
+
+
+
+ Good command of both written English and Chinese. 
+
+
+
+
+ Good interpersonal skills and problem-solving skills. 
+
+
+
+
+ Immediately available would also be an advantage. 
+
+
+
+
+ Applicants with less experience may be considered as QS Trainee. 
+
+
+
+
+ Applicants should send their C.V. with expected salary and availability by clicking Apply Now. 
+
+
+
+
+ Personal data collected will be used for recruitment purpose only. 
+
+
+
+
+ Full-time,Permanent', '', 'https://hk.indeed.com/viewjob?jk=829c3e7e6ae624e0&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Indeed HK', '19 hours ago', '', 1, 'graduate', '2026-07-08 00:11:08', '2026-07-08 00:11:08', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (258, '140f0ec0aa3c5e46', 'Senior Geomatics Surveyor — Field Leader & Growth', 'binnie', 'land_surveying', 'Hong Kong', '', 'Binnie is seeking experienced Senior Surveyors to join our Geomatics Group in Hong Kong. This full-time, field-based role will involve working on key surveying projects utilizing the latest technologies. Candidates should have at least 6 years of experience and a degree in Geomatics Engineering Technology.
+Responsibilities include conducting surveys, managing project timelines, and training junior staff. We''re an employee-owned firm that values safety and quality, providing a competitive salary that ranges from $38 to $46 hourly based on experience.
+#J-18808-Ljbffr', '', 'https://hk.jobrapido.com/jobpreview/1214335909839765504?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Jobrapido.com', '1 day ago', '', 0, 'experienced', '2026-07-08 00:11:37', '2026-07-08 00:11:37', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (259, '1a47d1b1b8142a8b', '【香港】佳能測量師行招聘', 'easyjobs853', 'other', '香港', 'HK$23000-28000', '【香港助理測量員招聘】月薪$23,000-$28,000，福利包括年假10天。每週工作6天。需中五程度，具3年經驗，持有平安咭及建造業工人註冊證，專上教育文憑及駕駛執照優先', '', 'https://www.easyjobs853.com/6551/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Easyjobs853 | 澳門', '20 hours ago', '', 1, 'entry', '2026-07-08 00:11:58', '2026-07-08 00:11:58', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (260, '440dc15efaf0f1f6', 'RESIDENT QUANTITY SURVEYOR / 駐工地工料測量師 - (Job Number: HON0003PF)', 'Arup', 'quantity_surveying', '香港', '', '刊登日期: 18 Jun 2026
+
+
+Ref.: JM20260618011538001
+
+
+Arup
+RESIDENT QUANTITY SURVEYOR / 駐工地工料測量師 - (Job Number: HON0003PF)
+
+
+Joining Arup
+加入奧雅納
+
+
+Arup''s purpose, shared values and collaborative approach has set us apart for over 75 years, guiding how we shape a better world.
+
+
+75 年來，奧雅納的使命、共同價值觀和協作方式一直引領我們塑造更美好的世界，令我們與眾不同。
+
+
+The Opportunity
+機會
+
+
+We now invite applications for the following resident site staff positions for Contract No. 3/WSD/24 Ngau Tam Mei Water Treatment Works Extension - Extension of Ngau Tam Mei Fresh Water Primary Service Reservoir, Modification of Raw Water Tunnel Junction (Chamber G) and Associated Mainlaying and Contract No.18/WSD/24 Extension of Ngau Tam Mei Water Treatment Works and Associated Improvement Works of Existing Treatment Stream.
+
+
+本公司就合約編號3/WSD/24 及 18/WSD/24為「牛潭尾濾水廠擴展工程 - 擴展牛潭尾食水主配水庫，改善原水隧道交匯處（G室）及敷設水管」及「擴展牛潭尾濾水廠及相關現有濾水廠設施的改善工程」進行招聘。
+
+
+Is this role right for you?
+
+
+這個職位適合你嗎？
+
+
+Qualifications & Experience required
+
+
+  Corporate Membership of the Hong Kong Institute of Surveyors in Quantity Surveying Division or equivalent.
+
+
+  With knowledge and working experience in project adopting NEC ECC Main Option C with open book accounting is preferable.
+
+
+  所需資格及工作經驗：
+  申請人必須為香港測量師學會工料測量界別正式會員或同等資格。
+
+
+  具備新工程合約 (NEC) - 工程及建造合約 (ECC)C 選項和打開帳簿方式 (Open book accounting) 的工程項目的工作經驗者優先。
+  What we offer you
+我們為你提供
+
+
+Appointment will be made on contract term in accordance with the prevailing government’s terms and conditions. For the usual duties of the position, please refer to RSS Management Handbook Appendix 7.4.
+
+
+獲聘的駐工地人員將以合約形式及條款按照政府之規定為準。以上職位的一般職責，請參閱發展局「駐工地人員管理手冊」附件7.4。
+
+
+Our Application Process
+招聘過程 For interested applicants, please apply online via our career website at https://www.arup.com/careers and search above Job Number: HON0003PF on or before 1 July 2026.
+
+
+申請人請於2026年7月1日前透過我們的職業網站https://www.arup.com/careers/ 在線申請並搜索相關職位編號 HON0003PF。
+
+
+Personal data collected will be used for recruitment purpose only.
+
+
+收集的個人資料將只用作招聘用途。
+
+
+Personal ', '', 'https://bebee.com/hk/jobs/resident-quantity-surveyor-job-number-hon0003pf-arup-hong-kong--techmap_hk_f7bfdf995e382ff9d9976800f861ba14?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_BeBee', '21 days ago', '', 0, 'experienced', '2026-07-08 00:12:14', '2026-07-08 00:12:14', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (261, '9fb7eadd755bede9', 'RESIDENT QUANTITY SURVEYOR (Ref: IPARK2/RQS/195/2026)駐地盤工料測量師 (Ref: IPARK2/RQS/195/2026)', 'Binnies', 'quantity_surveying', '香港', '', 'Environmental Protection Department
+Contract No. EP/SP/312/24
+
+
+Integrated Waste Management Facilities Phase 2
+
+
+Binnies Hong Kong Limited is now seeking applicants to fill the following resident site staff posts for Contract No. EP/SP/312/24 – Integrated Waste Management Facilities Phase 2.
+
+
+The scope of the contract comprises the design, build and operation (DBO) of the Integrated Waste Management Facilities Phase 2 (I∙PARK2) at the Middle Ash Lagoon at Tsang Tsui, Tuen Mun, to treat 6,000 tonnes per day of municipal solid waste (MSW) by moving grate incineration technology with major facilities including berthing and waste reception facilities, waste incineration system, heat recovery, power generation and export system, flue gas treatment system, ash treatment system, seawater desalination and water supply system, wastewater treatment system etc. The I∙PARK2 contract also includes the design and construction of administration building, environmental education and community facilities and carrying out landscaping and other associated works.
+
+
+The proposed works of I∙PARK2 is planned to be commenced, upon funding approval by the Finance Committee of the Legislative Council.
+
+
+RESIDENT QUANTITY SURVEYOR (Ref: IPARK2/RQS/195/2026)
+
+
+Candidates should be a Corporate Member of the Hong Kong Institution of Surveyors (Quantity Surveying Division) or equivalent.
+
+
+Remarks:
+1.Applicants should have minimum academic / professional qualification requirements of the above posts. Applicants may also consider referring to the other requirements of the above post(s) stipulated in Appendix 7.4 of “Management Handbook for Direct Employment of Resident Site Staff by Consultants for Public Works Projects” (RSS Management Handbook) from the webpage of the Development Bureau.
+
+
+2.The possession of a Construction Industry Safety Training Certificate or equivalent certification is required for the above position.
+
+
+3.The incumbents of the positions will be required to work irregular h', '', 'https://bebee.com/hk/jobs/resident-quantity-surveyor-ref-ipark2-rqs-195-2026-ref-ipark2-rqs-195-2026-binnies-hong-kong--techmap_hk_67a40caf615c9643b587757c78be2873?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_BeBee', '1 month ago', '', 0, 'experienced', '2026-07-08 00:12:14', '2026-07-08 00:12:14', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (262, '104326e38bfe714f', 'Cost Consultant, Infrastructure', 'Turner & Townsend', 'quantity_surveying', 'Hong Kong', NULL, '', '', 'https://hk.linkedin.com/jobs/view/cost-consultant-infrastructure-at-turner-townsend-4435442936?position=22&pageNum=0&refId=b3UbP5l7NtxGoxsfjw468w%3D%3D&trackingId=vrp%2Big0AWrilFK2BlGyP9A%3D%3D', 'linkedin', '2026-07-08', '', 1, 'entry', '2026-07-08 00:12:48', '2026-07-08 00:12:48', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (263, '5c9cc1d86e6c117d', 'AD - Cost Consultant', 'Mace', 'quantity_surveying', 'Hong Kong', NULL, '', '', 'https://hk.linkedin.com/jobs/view/ad-cost-consultant-at-mace-4431673370?position=23&pageNum=0&refId=b3UbP5l7NtxGoxsfjw468w%3D%3D&trackingId=8A%2FIX2jisXQIXikhaypxJw%3D%3D', 'linkedin', '2026-07-08', '', 1, 'entry', '2026-07-08 00:12:48', '2026-07-08 00:12:48', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (264, 'f7dc8296ae0362e6', 'Senior Cost Manager - Quantity Surveyor', 'China Resources Longdation', 'quantity_surveying', 'Hong Kong', NULL, '', '', 'https://hk.linkedin.com/jobs/view/senior-cost-manager-quantity-surveyor-at-china-resources-longdation-4436505078?position=25&pageNum=0&refId=b3UbP5l7NtxGoxsfjw468w%3D%3D&trackingId=%2FIkzofNTBoEJP%2BHmlunV0w%3D%3D', 'linkedin', '2026-07-08', '', 0, 'experienced', '2026-07-08 00:12:48', '2026-07-08 00:12:48', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (265, '1032493e801c7fb5', 'Assistant Vice President - Cost Manager - Corporate Services', 'Hong Kong Exchanges and Clearing Limited (HKEX)', 'quantity_surveying', 'Hong Kong', NULL, '', '', 'https://hk.linkedin.com/jobs/view/assistant-vice-president-cost-manager-corporate-services-at-hong-kong-exchanges-and-clearing-limited-hkex-4419805014?position=48&pageNum=0&refId=b3UbP5l7NtxGoxsfjw468w%3D%3D&trackingId=Y4ECvkmhBtamvY6ztGOVrQ%3D%3D', 'linkedin', '2026-07-08', '', 0, 'experienced', '2026-07-08 00:12:48', '2026-07-08 00:12:48', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (266, 'adabc74739efebad', 'Quantity Surveying Assistant/ Trainee', 'Wo Hing Construction Company Ltd', 'quantity_surveying', 'Hong Kong', '', 'Wo Hing is a well established civil engineering Main Contractor. We are recruiting high calibre individuals to fill the following positions to work on a variety of challenging utilities/infrastructure projects:
+
+
+Responsibilities:
+
+
+
+ Assist in preparing a project budget, estimation, tendering and procurement.
+ Provide daily clerical, administrative, and documentation support to the Quantity Surveying team.
+
+
+ Assist the Team Leader and project team in handling QS duties.
+
+
+ Maintain organized project files and assist in preparing simple contractual documents.
+
+
+ Handle any ad-hoc administrative tasks as assigned by supervisors.
+
+
+
+Requirements:
+
+
+
+ Completed secondary education (HKDSE / HKCEE or equivalent); fresh graduates are welcome.
+
+
+ Possess basic knowledge of quantity surveying or construction engineering.
+
+
+ Relevant internship or working experience in the construction industry is highly preferred.
+
+
+ Proficient in MS Office applications (Word & Excel).
+
+
+ Good team player with a strong sense of responsibility and a willing-to-learn attitude.
+
+
+ Immediate availability is a distinct advantage.
+
+
+ Candidates with more solid experience will be considered for the position of Quantity Surveying Assistant.
+
+
+
+Applicants should send their C.V. with expected salary and availability by clicking Apply Now.
+
+
+Personal data collected will be used for recruitment purpose only.', '', 'https://www.recruit.net/job/quantity-surveying-assistant-trainee-jobs/96521C07073FE1B8?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Recruit.net', '1 day ago', '', 1, 'graduate', '2026-07-09 00:10:34', '2026-07-09 00:10:34', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (267, '46d373fa4d39cef0', '(Senior) Quantity Surveyor (Contractor / Consultant - E&M / Fitting-out)', 'Leadingnation', 'quantity_surveying', 'Hong Kong', 'HK$32000-500005', 'Quantity Surveyor (Contractor / Consultant - E&M / Fitting-out) New-Build and Fitting-out projects  Monthly salary $32,000 - $50,0005-day work / 5.5day with alternate Sat off  Full medical allowance  Work location: Wan Chai / Sheung Wan / Diamond Hill  We are inviting QS candidates with  post-contract experience  to join our clients, including engineering  contractors  and  consultancies  , with projects in Hong Kong across commercial and public sectors. 
+
+ To be successfully considered in this role you should possess the following attributes: 
+
+ Degree / Higher Diploma in Quantity Surveying or related disciplines  At least 3 years of experience in QS field in contractoror consultant  MHKIS or MRICS is preferred but not essential  Good commercial and contractual acumen  Fluent in both spoken and written English, Chinese and Mandarin  If you are interested in the above openings or building a successful career, please contact Janice Yeung directly at [protected-phone-number] or submit your CV directly by clicking Apply Now. 
+
+ We provide One‑On‑One Career Coaching Services for FREE. If you are looking for more advices in your career endeavors, feel free to contact us, or visit our company website 
+
+#J-18808-Ljbffr', '', 'https://hkese.net/job/1510373?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_HKESE', '16 days ago', '', 0, 'experienced', '2026-07-09 00:10:40', '2026-07-09 00:10:40', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (268, '319af66fd9aa24d9', 'Assistant Resident Land Surveyor 駐地盤助理土地測量師 Ref. No: ARLS/19516/Water', 'AECOM ASIA COMPANY LIMITED', 'land_surveying', '香港', '', 'Drainage Services Department
+渠務署
+Agreement No. CE 30/2014 (DS)
+Relocation of Sha Tin Sewage Treatment Works to Caverns:
+Caverns and Sewage Treatment Works – Investigation, Design and Construction
+ 
+合約編號CE 30/2014 (DS)
+搬遷沙田污水處理廠往岩洞：岩洞及污水處理廠–勘查研究、設計及建造
+AECOM Asia Company Limited invites applications for a range of Resident Site Staff position(s) for contract administration and supervision for Relocation of Sha Tin Sewage Treatment Works to Caverns project, which mainly comprises the construction of main caverns complex at Nui Po Shan of about 14 hectares in area; cavern sewage treatment works; a ventilation shaft and ventilation adit; site formation works at portal areas; ancillary buildings at portal areas; emergency bypass; construction and installation of cavern ventilation system; and other associated works.
+艾奕康有限公司現招聘下列駐地盤工程人員負責上述香港政府工程的合約管理和工程監督。工程主要包括在女婆山興建面積約14公頃的主體岩洞建築群、 岩洞內的污水處理設施、1個通風井及通風坑道、在隧道入口處進行工地平整工程和附屬建築物、1條緊急排放管道、建造和安裝岩洞通風系統，以及其他相關工程。 
+
+Assistant Resident Land Surveyor 駐地盤助理土地測量師 Ref. No: ARLS/19516/Water
+
+Candidates should have:
+
+Bachelor Degree from University or equivalent in an appropriate discipline; andAt least 2 years’ relevant post-qualification experience.  
+申請人必須:
+
+持有大學頒發相關學科的學士學位或具備同等學歷；及具有最少兩年於取得該等資格後的相關工作經驗。  
+Applicants should also refer to the other requirement(s) stipulated in Appendix 7.4 of “Management Handbook for Direct Employment of Resident Site Staff by Consultants for Public Works Projects” from the webpage of Development Bureau.
+ 
+申請人亦須參閱發展局網頁“關於顧問公司直接僱用駐地盤人員的管理手冊”附錄7.4所載的其他同等學歷和經驗。
+
+The candidates should have minimum academic/ professional qualification requirements of the above posts.
+
+申請人必須具備以上最低要求之學歷╱專業資格。
+
+Conditions: Appointments will be made on Agreement Terms with AECOM Asia Company Limited in accordance with the prevailing Government’s terms and conditions. Salary will commensurate with qualifications and experience.
+
+聘用條款: 獲取錄的申請人，艾奕康有限公司會以合約形式聘請，聘用條款將按受聘時政府採用的編制而定。受聘人之薪酬按資歷及經驗而定。
+
+Where a large number of candidates', '', 'https://www.cpjobs.com/hk/job/assistant-resident-land-surveyor-%E9%A7%90%E5%9C%B0%E7%9B%A4%E5%8A%A9%E7%90%86%E5%9C%9F%E5%9C%B0%E6%B8%AC%E9%87%8F%E5%B8%AB-ref-no:-arls-19516-water-4267312?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_cpjobs.com', '1 day ago', '', 0, 'experienced', '2026-07-09 00:11:30', '2026-07-09 00:11:30', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (269, 'dc2284639752b88a', 'Building Surveyor', 'Hong Kong Housing Society', 'building_surveying', '香港', '', '職 務:
+
+
+
+
+	能獨立執行日常大廈主管工作， 處理跟進住客戶查詢、投訴及突發事件，如有需要時協助安排搶修工作
+	每週工作44小時, 輪休
+
+
+ 
+
+
+
+資 歷:
+
+
+
+
+	小學程度，三年相關工作經驗
+	持有效保安員工作證及認可機構之保安人員訓練証書
+	懂讀寫中文
+
+Attractive remuneration package will be offered to suitable candidates. To apply, please submit online application: https://careers.hkhs.com/. You are welcome to visit our website www.hkhs.com to learn more about us.
+
+
+
+Applicants not invited for interview within 8 weeks may consider their applications unsuccessful.
+
+
+
+Personal data provided by job applicants will be used strictly in accordance with the Housing Society’s personal data policies which is available in our website and obtainable upon request. Please refer to the Policy Statement on Employment Related Data under Personal Data (Privacy) Ordinance in our website.', '', 'https://jobs.ctgoodjobs.hk/zh/job/10172214/building-surveyor?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_CTgoodjobs.hk', '5 days ago', '', 1, 'entry', '2026-07-09 00:11:56', '2026-07-09 00:11:56', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (270, '9fce8a1dfd9a698d', '建築測量師（MHKIS）', 'Allworth Consultants Limited', 'building_surveying', '灣仔區', '', 'Degree in Building Surveying or equivalentMHKIS qualified in building surveying division Qualified with minimum 4 years post-qualification experience.Minimum 2 years'' relevant working experience in Gov Project.For application, please click "APPLY NOW" For more job openings, please visit our website http://awclhk.com/job-opportunities/  (EA 78884)', '', 'https://m.offertoday.com/en/job/LCy-vsNvmmn6NXiULU8X4g==?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_OfferToday', 'HK$58K–HK$87K a month', '', 0, 'experienced', '2026-07-09 00:11:56', '2026-07-09 00:11:56', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (271, 'a9f2007a601f2679', 'Graduate Quantity Surveyor', 'Arcadis', 'quantity_surveying', 'Hong Kong', '', 'About Arcadis:
+
+
+ Arcadis is the world''s leading company delivering sustainable design, engineering, and consultancy solutions for natural and built assets. We are more than 36,000 people, in over 70 countries, dedicated to improving quality of life. Everyone has an important role to play. With the power of many curious minds, together we can solve the world’s most complex challenges and deliver more impact together. 
+
+
+
+Role Description:
+
+
+ Preparation of pre-contract cost estimates and project cash-flow 
+
+
+
+
+ Preparation of tender documentation 
+
+
+
+
+ Tendering process and tender evaluation 
+
+
+
+
+ Post-contract administration and management – contract documentation, valuation of progress payment, variation assessment, and cost control report 
+
+
+
+
+ Finalization of project final accounts 
+
+
+
+Qualifications & Experience:
+
+
+ Degree in Quantity Surveying 
+
+
+
+
+ With technical knowledge – Measurement, cost estimating, construction technology, contracts and law 
+
+
+
+
+ Understand and familiar with professional practice and contract administration processes 
+
+
+
+
+ Able to work as a team player 
+
+
+
+
+ Ability to communicate clearly in both spoken and written English 
+
+
+
+
+ Ability to communicate clearly in spoken Cantonese and written Chinese 
+
+
+
+
+ Welcome upcoming graduates 
+
+
+ Applications 
+
+
+ Please click “APPLY NOW” to apply with your resume along with details of your current and expected salary and notice period. We regret that only shortlisted candidates will be contacted. 
+
+
+ To find out more about our company, please visit http://www.arcadis.com 
+
+
+ We can only achieve our goals when everyone is empowered to be their best. We believe everyone''s contribution matters. It’s why we are pioneering a skills-based approach, where you can harness your unique experience and expertise to carve your career path and maximize the impact we can make together. 
+
+
+ You’ll do meaningful work, and no matter what role, you’ll be helping to deliver sustainable solutions for a more prosperous ', '', 'https://hk.indeed.com/viewjob?jk=d3b271336d230fbe&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Indeed', '4 days ago', '', 1, 'graduate', '2026-07-10 00:10:53', '2026-07-10 00:10:53', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (272, 'fd103c5e083a68e3', 'Senior Measurement & QS Co-ordinator', 'Leadingnation', 'quantity_surveying', 'Hong Kong', '', 'Leadingnation in Hong Kong is seeking an experienced Quantity Surveyor to manage and coordinate measurement and quantity surveying tasks for term maintenance contracts. The role involves preparing cost estimates, ensuring compliance with contractual requirements, and liaising with engineers and contractors. 
+
+The ideal candidate will have 8 years of relevant post-qualification experience, along with corporate membership in either MHKIE or HKIS. We offer competitive remuneration and benefits for the right candidate. 
+
+ #J-18808-Ljbffr', '', 'https://www.recruit.net/job/measurement-qs-co-ordinator-jobs/D69ED19282BEB2AF?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Recruit.net', '1 day ago', '', 0, 'experienced', '2026-07-10 00:10:53', '2026-07-10 00:10:53', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (273, '2ff85d12df76e8cc', 'Quantity Surveyor/Assistant Quantity Surveyor or Quantity Surveyor Trainee', 'Wai Hung Hong', 'quantity_surveying', 'Hong Kong', '', '- Academic and Experience Requirements :
+ Diploma in Quantity Surveying or appropriate academic background in related disciplines 
+
+
+ Well organized, self-initiative and with good communication skills 
+
+
+ Good Computer skills on MS Word, Excel, PowerPoint and project 
+
+
+ Basic knowledge of AutoCAD 
+
+
+ Good command of both written and spoken English, Chinese and Putonghua 
+
+
+ Initiative, independent and responsible 
+
+
+ Hardworking and able to work under pressure 
+
+
+ Needs to work in Macau 
+
+
+ Immediate available will be an advantage 
+
+
+ Candidate with less experience will be considered as Assistant Quantity Surveyor / Quantity Surveyor Trainee', '', 'https://hk.indeed.com/viewjob?jk=aba3847d3ea5afc8&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Indeed', '2026-07-10', '', 1, 'graduate', '2026-07-10 00:11:00', '2026-07-10 00:11:00', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (274, '955ced90021a2bb4', 'Resident Land Surveyor 駐地盤土地測量 Ref. No: RLS/19514/Water', 'AECOM ASIA COMPANY LIMITED', 'land_surveying', 'Hong Kong', '', 'Drainage Services Department
+渠務署
+Agreement No. CE 30/2014 (DS)
+Relocation of Sha Tin Sewage Treatment Works to Caverns:
+Caverns and Sewage Treatment Works – Investigation, Design and Construction
+ 
+合約編號CE 30/2014 (DS)
+搬遷沙田污水處理廠往岩洞：岩洞及污水處理廠–勘查研究、設計及建造
+AECOM Asia Company Limited invites applications for a range of Resident Site Staff position(s) for contract administration and supervision for Relocation of Sha Tin Sewage Treatment Works to Caverns project, which mainly comprises the construction of main caverns complex at Nui Po Shan of about 14 hectares in area; cavern sewage treatment works; a ventilation shaft and ventilation adit; site formation works at portal areas; ancillary buildings at portal areas; emergency bypass; construction and installation of cavern ventilation system; and other associated works.
+艾奕康有限公司現招聘下列駐地盤工程人員負責上述香港政府工程的合約管理和工程監督。工程主要包括在女婆山興建面積約14公頃的主體岩洞建築群、 岩洞內的污水處理設施、1個通風井及通風坑道、在隧道入口處進行工地平整工程和附屬建築物、1條緊急排放管道、建造和安裝岩洞通風系統，以及其他相關工程。 
+
+Resident Land Surveyor 駐地盤土地測量 Ref. No: RLS/19514/Water
+
+Candidates should have:
+
+Corporate Membership of the Hong Kong Institution of Surveyors in Land Surveying Division or equivalent.
+申請人必須:
+
+為香港測量師學會(土地測量組別)的正式會員或具備同等資格。 
+Applicants should also refer to the other requirement(s) stipulated in Appendix 7.4 of “Management Handbook for Direct Employment of Resident Site Staff by Consultants for Public Works Projects” from the webpage of Development Bureau.
+ 
+申請人亦須參閱發展局網頁“關於顧問公司直接僱用駐地盤人員的管理手冊”附錄7.4所載的其他同等學歷和經驗。
+
+The candidates should have minimum academic/ professional qualification requirements of the above posts.
+
+申請人必須具備以上最低要求之學歷╱專業資格。
+
+Conditions: Appointments will be made on Agreement Terms with AECOM Asia Company Limited in accordance with the prevailing Government’s terms and conditions. Salary will commensurate with qualifications and experience.
+
+聘用條款: 獲取錄的申請人，艾奕康有限公司會以合約形式聘請，聘用條款將按受聘時政府採用的編制而定。受聘人之薪酬按資歷及經驗而定。
+
+Where a large number of candidates meet the specified entry requirements, the Company may devise sho', '', 'https://www.cpjobs.com/hk/job/resident-land-surveyor-%E9%A7%90%E5%9C%B0%E7%9B%A4%E5%9C%9F%E5%9C%B0%E6%B8%AC%E9%87%8F-ref-no:-rls-19514-water-4267323?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_cpjobs.com', '2 days ago', '', 0, 'experienced', '2026-07-10 00:11:10', '2026-07-10 00:11:10', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (275, '2bcad4a7209ee65b', 'Junior Surveyor - Field Data & Calibration', 'Leadingnation', 'land_surveying', 'Hong Kong', '', 'Leadingnation in Hong Kong is looking for a Surveying and Mapping Engineering graduate to monitor surveying criteria and maintain equipment records. You''ll report data to supervisors and advise on site team conditions. 
+
+ Fresh graduates with less than a year of experience are welcome. Candidates must have strong English and Chinese communication skills, be self-motivated, and able to work under pressure. 
+
+#J-18808-Ljbffr', '', 'https://hk.jooble.org/jdp/-3067052666732186382?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Jooble HK', '5 days ago', '', 1, 'entry', '2026-07-10 00:11:14', '2026-07-10 00:11:14', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (276, '6eccc9635bc58602', 'Assistant Land Surveyor', 'Esri China (Hong Kong) Ltd', 'land_surveying', 'Hong Kong', '', 'Job Description: 
+
+
+
+Assist in drafting engagement plans or documents to promote wider adoption of spatial data using state-of-art technology, e.g. artificial intelligence (AI); 
+Assist in collaborating with tech ventures and stakeholders in the I&T field to develop and deliver geospatial AI sandbox prototypes; 
+Assist in testing and validating the geospatial AI sandbox prototypes in real-life operating systems; 
+Assist in exploring the possibilities of involving the private sector in delivering new demonstrative projects and to seek collaboration opportunities with business and/or the academics; 
+Taking part in various capacity building and engagement activities; 
+Comprehensive and hands-on training will be provided; and 
+Successful candidate is required to work at the client site and will be offered a contract-based position subject to renewal.
+
+
+ Requirements: 
+
+
+
+Degree in Land Surveying, Geomatics, Geo-Informatics or a related discipline;  
+A qualification recognised by the Hong Kong Institute of Surveyors (HKIS) as satisfying the academic requirements for corporate membership in the Land Surveying Division; 
+Successfully completed a 2-year graduate training scheme recognised by the HKIS or equivalent;
+Level 2 or above in Chinese Language and English Language in the Hong Kong Diploma of Secondary Education Examination (HKDSEE), or Grade E or above in the Hong Kong Certificate of Education Examination (HKCEE), or equivalent; and
+Good command of both spoken and written Chinese and English.
+
+
+We offer five-day work week, attractive career opportunities, remuneration and benefits to the right candidates. Interested applicants, please submit detailed resume with current & expected salary and date of availability to our Human Resources Department via e-mail to [via CTgoodjobs Apply Now]. 
+
+
+(For more information about our Company, please visit our website www.esrichina.hk )
+
+
+(Application received will be treated in strict confidence and will be used exclusively for ', '', 'https://jobs.ctgoodjobs.hk/zh/job/10141402/assistant-land-surveyor?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_CTgoodjobs.hk', '2026-07-10', '', 1, 'entry', '2026-07-10 00:11:18', '2026-07-10 00:11:18', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (277, 'e0e3150e62e8017e', 'Assistant Resident Quantity Surveyor (駐工地助理工料測量師)', 'Arcadis', 'quantity_surveying', '馬鞍山', '', 'Project Details:  
+
+Contract No.: SS M515 
+
+Title: Construction of Amenity Complex in Area 103, Ma On Shan 
+
+Location: Ma On Shan 
+
+
+ Assistant Resident Quantity Surveyor 
+
+ Job Requirements 
+
+Obtained degree from university or equivalent in an appropriate discipline; and
+
+Have minimum of 3 years’ post qualification experience of quantity surveying.
+
+ Remarks 
+
+(i) The employment will be on contract basis and tentatively commencing from July 2026.
+
+Please apply by clicking “Apply Now” enclosing resume, copy of testimonial from previous employers, copy of qualification certificates, present and expected salary.
+
+ All information received will be kept in strict confidence and only for employment-related purposes. 
+
+ Application Closing Date: 6 July 2026 
+
+
+
+
+ 項目細節:  
+
+項目編號: SS M515 
+
+標題: 馬鞍山第 103 區綜合設施大樓 
+
+地點: 馬鞍山 
+
+
+
+
+ 駐工地助理工料測量師  
+
+ 要求 
+
+持有大學頒發相關學科的學士學位; 以及
+
+具備最少三年從事工料測量工作的經驗。
+
+ 備註 
+
+(i) 此職位將以合約形式聘用，暫定由二零二六年七月開始。
+
+ 申請⼈可按Apply Now提交申請並附上將個⼈履歷、⼯作及學歷證明副本 ，  連同現時及期望的薪⾦等資料 。
+
+ 所有收集回來的資料只作招聘⽤途 ， 絕對保密 。
+
+ 截止日期：二零二六年七月六日', '', 'https://jobs.ctgoodjobs.hk/job/10168390/assistant-resident-quantity-surveyor-%E9%A7%90%E5%B7%A5%E5%9C%B0%E5%8A%A9%E7%90%86%E5%B7%A5%E6%96%99%E6%B8%AC%E9%87%8F%E5%B8%AB?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_CTgoodjobs.hk', '10 days ago', '2026-07-06', 0, 'experienced', '2026-07-10 00:11:35', '2026-07-10 00:11:35', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (278, 'fc48f8b1c132beef', '工場助理（油漆／土地測量）', 'VOCATIONAL TRAINING COUNCIL', 'land_surveying', '香港', '', 'VIBRANT AND VITAL VTC
+
+VTC is a vocational and professional education and training provider established in Hong Kong in 1982. With some 200,000 students across our 14 member institutions, this not only makes us VIBRANT but VITAL to the Hong Kong educational landscape. We provide a spectrum of opportunities through multiple pathways for graduates to determine their own destination, whether it is employment or further studies. If you believe that the provision of a valued choice for learners to acquire the values, skills and knowledge for lifelong learning and enhanced employability is a worthy mission, then consider joining us.
+
+香港專業教育學院（摩理臣山）
+ 
+部門 : 建造工程系
+參考編號 : C/MH-CN/MEC2(PLS)/06/26-AP1
+
+主要職責：
+(a)    為建造工程的教學工場（例如 : 油漆、土地測量等）提供教學支援；
+(b)    準備、安排、分發及盤點課堂實習所需的材料及工具；
+(c)    安裝、維修、搬運及保養實習工場的工具及設備，並處理維修計劃及保存良好記錄；
+(d)    負責保持工場環境及設施之安全和清潔；及
+(e)    支援學系舉辦之活動和展覽及外勤工作支援。
+      
+入職條件：
+(a)    (i)    完成相關認可訓練課程（包括學徒及技工訓練），並於取得有關學歷後具有最少兩年相關工作經驗；或
+        (ii)    通過技能測試或相等水平測試，並具有最少兩年相關工作經驗；
+(b)    能閱讀及書寫中文和簡單英語；及
+(c)    懂基本電腦操作。
+           
+備註：
+(1)    以上職位之職級為「二級機械工」。
+(2)    申請人如具有在相關領域中豐富經驗和成就但缺乏所需的學術／專業資格，或者具有卓越的學術／專業資格但經驗較少也可以申請。
+(3)    應徵者或需參加技能測試。
+(4)    受聘者可能需要輪班工作，並於星期六、日及公眾假期當值。
+(5)    為配合運作需要，受聘者日後可能會被調派至其他工作地點工作。
+(6)    申請人如在過去一年內曾就該職位遞交申請表格，則無須重新遞交。
+
+申請辦法：
+填妥的申請表格 [VTC-1 (Rev. 11/2024)] 連同個人履歷，須電郵至[email redacted, apply via Company website]。
+ 
+申請人應注意以下事項：
+(1)    填妥的申請表（VTC-1）和個人履歷應合併為一個PDF 格式的文件，檔案容量應不超過10MB。
+(2)    文件名稱應為“您的英文姓氏和名字”，例如“CHAN Siu-lam.pdf”。
+(3)    郵件主旨請註明“申請工場助理（油漆/土地測量）(C/MH-CN/MEC2(PLS)/06/26-AP1)”。
+(4)    其他證明文件的正本及複印本請按要求於稍後提交。
+           
+申請人之篩選將會即時進行直至有關職位空缺已被填補為止。
+ 
+本局保留不填補上述職位的權利。
+ 
+申請人的資料只會用於有關本局的人事招聘事宜。 在一般情況下，未獲取錄申請人的資料將於招聘工作完成十二個月後全部銷毀。', '', 'https://www.recruit.net/job/%E5%B7%A5%E5%A0%B4%E5%8A%A9%E7%90%86%EF%BC%88%E6%B2%B9%E6%BC%86%EF%BC%8F%E5%9C%9F%E5%9C%B0%E6%B8%AC%E9%87%8F%EF%BC%89-jobs/28C40D3BC6FF6AE0?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Recruit.net', '2 days ago', '', 1, 'entry', '2026-07-10 00:11:51', '2026-07-10 00:11:51', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (279, 'e51dbc55881888ef', '成本高级经理岗位 Senior Cost Manager - Quantity Surveyor', 'China Resources Longdation', 'quantity_surveying', 'Hong Kong', NULL, '', '', 'https://hk.linkedin.com/jobs/view/%E6%88%90%E6%9C%AC%E9%AB%98%E7%BA%A7%E7%BB%8F%E7%90%86%E5%B2%97%E4%BD%8D-senior-cost-manager-quantity-surveyor-at-china-resources-longdation-4438599213?position=20&pageNum=0&refId=lOLE4B7nXHRFHPG9fso%2Bww%3D%3D&trackingId=8yWlFnqVNyCrAP7ClvWNDg%3D%3D', 'linkedin', '2026-07-10', '', 0, 'experienced', '2026-07-10 00:12:03', '2026-07-10 00:12:03', 1, NULL, 0);
+
+-- applications: 0 rows
+
+-- cv_data: 1 rows
+INSERT OR REPLACE INTO cv_data (id, full_text, parsed_sections, key_skills, education, experience_summary, created_at, updated_at) VALUES (1, 'CHAN Tai Man, Michael
+Email: michael.chan@email.com | Phone: +852 6123 4567
+LinkedIn: linkedin.com/in/michael-chan-surveying
+
+PROFESSIONAL SUMMARY
+Final-year BSc (Hons) Surveying student at The Hong Kong Polytechnic University with a strong academic record (expected Upper Second Class) and hands-on internship experience in quantity surveying. Proficient in AutoCAD, BIM (Revit), and CostX. Eager to join a structured graduate programme with HKIS/RICS chartership pathway. Trilingual in Cantonese, English, and Mandarin.
+
+EDUCATION
+BSc (Hons) in Surveying | The Hong Kong Polytechnic University | 2022 – 2026
+- Specialisation: Quantity Surveying
+- Expected Classification: Upper Second Class Honours
+- Relevant Coursework: Construction Economics, Contract Administration, Measurement & Estimating, BIM Applications, Construction Law, Project Management
+- Final Year Project: "Lifecycle Cost Analysis of Modular Integrated Construction (MiC) in Hong Kong Public Housing" (ongoing)
+
+Hong Kong Diploma of Secondary Education (HKDSE) | St. Paul''s College | 2016 – 2022
+- Best 5 Subjects: 24 points
+
+PROFESSIONAL EXPERIENCE
+Summer Intern – Quantity Surveying | Rider Levett Bucknall (RLB), Hong Kong | Jun – Aug 2025
+- Assisted senior QS team in preparing cost estimates and bills of quantities for a Grade A office development in Kwun Tong
+- Performed site measurements and take-offs using CostX for post-contract valuations
+- Reviewed variation orders and prepared interim payment assessments
+- Shadowed tender evaluation meetings and assisted in compiling tender analysis reports
+- Gained exposure to NEC4 Option A contract administration on a public housing project
+
+Part-time Student Assistant | PolyU Building & Real Estate Department | Sep – Dec 2025
+- Supported research on Hong Kong construction cost trends using Excel and SPSS
+- Assisted in preparing teaching materials for Contract Administration module
+
+SKILLS
+- Technical: AutoCAD (2D/3D), Revit (BIM), CostX, Navisworks, Bluebeam, MS Project, Excel (VBA)
+- Software: SPSS, Python (basic for data analysis), Power BI
+- Languages: Cantonese (native), English (fluent — IELTS 7.5), Mandarin (intermediate)
+- Domain: Measurement & take-off, cost estimation, tender documentation, contract administration (NEC4, HKIS Standard Form), BIM coordination
+
+CERTIFICATIONS & TRAINING
+- Construction Industry Safety Card (Green Card) — valid until 2028
+- Revit Architecture Certified Professional (Autodesk)
+- BIM Basic Modelling Course — CIC-accredited (2025)
+- HKIS Student Member (since 2024)
+- RICS Student Member (since 2025)
+
+ACHIEVEMENTS & ACTIVITIES
+- Dean''s List — Semester 1, 2024/25
+- HKIS APC Open Day participant (2025) — attended workshops on chartership pathways
+- 1st Runner-up, PolyU Construction Innovation Competition 2025 — proposed drone-based progress monitoring for MiC projects
+- Volunteer, Habitat for Humanity Hong Kong (2023) — site preparation for elderly home renovation
+
+REFERENCES
+Available upon request.', '{"key_skills": ["AutoCAD", "BIM", "Revit", "CostX", "Navisworks", "Bluebeam", "MS Project", "Excel", "VBA", "SPSS", "Python", "Power BI", "Measurement & take-off", "cost estimation", "tender documentation", "contract administration", "BIM coordination"], "education": [{"degree": "BSc (Hons) in Surveying", "institution": "The Hong Kong Polytechnic University", "year": 2026}, {"degree": "Hong Kong Diploma of Secondary Education (HKDSE)", "institution": "St. Paul''s College", "year": 2022}], "experience_summary": "Summer intern at Rider Levett Bucknall (RLB) from Jun to Aug 2025 assisting senior QS team with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis. Part-time student assistant at PolyU Building & Real Estate Department from Sep to Dec 2025 supporting research on construction cost trends and preparing teaching materials.", "years_of_experience": 0.5, "certifications": ["Construction Industry Safety Card (Green Card)", "Revit Architecture Certified Professional (Autodesk)", "BIM Basic Modelling Course (CIC-accredited)", "HKIS Student Member", "RICS Student Member"], "languages": ["Cantonese", "English", "Mandarin"], "hkis_eligible": true, "hkis_pathway_notes": "PolyU BSc Surveying → automatic HKIS graduate pathway; also HKIS Student Member since 2024.", "institution_type": "PolyU", "degree_relevance": "QS", "has_cantonese": true, "has_green_card": true, "has_hk_driving_license": false}', '["AutoCAD", "BIM", "Revit", "CostX", "Navisworks", "Bluebeam", "MS Project", "Excel", "VBA", "SPSS", "Python", "Power BI", "Measurement & take-off", "cost estimation", "tender documentation", "contract administration", "BIM coordination"]', '[{"degree": "BSc (Hons) in Surveying", "institution": "The Hong Kong Polytechnic University", "year": 2026}, {"degree": "Hong Kong Diploma of Secondary Education (HKDSE)", "institution": "St. Paul''s College", "year": 2022}]', 'Summer intern at Rider Levett Bucknall (RLB) from Jun to Aug 2025 assisting senior QS team with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis. Part-time student assistant at PolyU Building & Real Estate Department from Sep to Dec 2025 supporting research on construction cost trends and preparing teaching materials.', '2026-07-01 11:41:42', '2026-07-03 14:34:58');
+
+-- cv_match_results: 69 rows
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (1, 1, 1, 88.0, '["BSc (Hons) in Surveying from PolyU \u2014 a top HK surveying school, directly relevant to QS and eligible for HKIS APC.", "Summer internship at Rider Levett Bucknall (RLB) \u2014 a leading QS consultancy in HK, with hands-on experience in cost estimation, BOQ, site measurements, and tender analysis.", "Strong software skills: AutoCAD, Revit, CostX, Navisworks, Bluebeam, MS Project, Excel, SPSS, Python, Power BI \u2014 all highly relevant for a QS role.", "HKIS Student Member (since 2024) and RICS Student Member (since 2025), showing proactive pursuit of professional chartership.", "Fluent in Cantonese, English, and Mandarin \u2014 essential for HK site communication and client liaison."]', '["No driving license mentioned \u2014 not a hard requirement but could be beneficial for site visits in HK.", "Internship experience is only 3 months; limited exposure to full project lifecycle or contract administration.", "CV does not specify any knowledge of HK-specific QS standards like SMM or NRM, which are commonly used in HK."]', '["Add a line about familiarity with HK Standard Method of Measurement (SMM) or NRM, even if from coursework.", "If you have a driving license, list it explicitly \u2014 it''s a plus for site-based roles.", "Mention any specific HK projects you worked on during the RLB internship (e.g., residential, infrastructure) to demonstrate local experience.", "Highlight your understanding of the HKIS APC pathway and your intention to pursue chartership.", "Include a brief note on your Cantonese proficiency level (e.g., native) to reinforce language fit."]', 'Recent BSc (Hons) in Surveying graduate from The Hong Kong Polytechnic University, seeking a Graduate Quantity Surveyor role at Arcadis. Completed a summer internship at Rider Levett Bucknall (RLB) in Hong Kong, where I assisted in cost estimates, bills of quantities, site measurements, variation orders, and tender analysis for local projects. Proficient in AutoCAD, Revit, CostX, Navisworks, Bluebeam, MS Project, and Excel. Active HKIS and RICS Student Member, committed to pursuing HKIS/RICS chartership. Fluent in Cantonese, English, and Mandarin. Possess Green Card and BIM certification. Strong analytical and numerical skills with a keen interest in infrastructure projects in Hong Kong and Macau.', 'Dear Hiring Manager,
+
+I am writing to express my strong interest in the 2026 Graduate Quantity Surveyor position at Arcadis, as advertised for your Hong Kong office. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I am eager to contribute to your renowned infrastructure projects across Hong Kong and Macau while developing my career under your structured graduate programme.
+
+My academic background and practical experience have provided me with a solid foundation in quantity surveying practices. During my summer internship at Rider Levett Bucknall (RLB) in 2025, I assisted with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis—skills directly relevant to the cost estimation and tender management responsibilities of this role. Additionally, my work as a student assistant at PolyU’s Building & Real Estate Department involved supporting research on construction cost trends, further sharpening my analytical abilities. I am proficient in industry-standard tools including AutoCAD, Revit, CostX, Navisworks, Bluebeam, and MS Project, and I hold a BIM Basic Modelling Course certificate accredited by the CIC.
+
+As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, and I am committed to pursuing chartership with both HKIS and RICS. I hold HKIS and RICS student memberships and am familiar with relevant Hong Kong ordinances and surveying practices, including the administration of standard forms of contract and tender documentation. I understand the importance of safety on site and have already obtained my Construction Industry Safety Card (Green Card), ensuring I am ready to commence fieldwork immediately.
+
+Arcadis’s reputation for delivering major infrastructure projects in Hong Kong and Macau is well known, and I am drawn to the mentorship and clear career progression your graduate programme offers. I am eager to bring my technical skills, bilingual proficiency in Cantonese and English, and dedication to the profession to your team.
+
+Thank you for considering my application. I look forward to the opportunity to discuss how I can contribute to Arcadis’s continued success.
+
+Yours sincerely,
+
+[Your Full Name]', '["Can you walk us through the HKIS APC requirements for the QS division and how you plan to complete your structured training?", "How familiar are you with the Hong Kong Standard Method of Measurement (SMM) and how would you apply it in preparing a bill of quantities?", "Arcadis is involved in major infrastructure projects like the Hong Kong-Zhuhai-Macao Bridge and the Kai Tak Development. What do you know about these projects and how would your skills contribute?", "What are the key differences between the HKIS and RICS APC pathways, and which one do you intend to pursue?", "Describe a time during your internship at RLB when you had to resolve a discrepancy in a cost estimate or measurement. How did you handle it?"]', '2026-07-01 11:42:13', '[{"requirement": "Degree in Quantity Surveying or related discipline", "met": true, "explanation": "BSc (Hons) in Surveying from PolyU is a QS-related degree, and PolyU surveying graduates are eligible for HKIS APC pathway."}, {"requirement": "Good command of English and Chinese", "met": true, "explanation": "CV lists Cantonese, English, and Mandarin, covering both written and spoken Chinese."}, {"requirement": "Fresh graduates welcome", "met": true, "explanation": "Candidate is a 2026 graduate with only internship experience, fitting the fresh graduate profile."}]', '[{"requirement": "Relevant internship/work experience in HK surveying/construction", "level": "strong", "explanation": "Summer intern at RLB (a major QS consultancy) with hands-on cost estimation, BOQ, site measurements, and tender analysis."}, {"requirement": "Software skills (AutoCAD, BIM/Revit, CostX, etc.)", "level": "strong", "explanation": "CV lists AutoCAD, Revit, CostX, Navisworks, Bluebeam, MS Project, Excel, SPSS, Python, Power BI \u2014 highly relevant for QS role."}, {"requirement": "HKIS/RICS APC pathway awareness or enrollment", "level": "strong", "explanation": "HKIS Student Member since 2024, RICS Student Member since 2025, and degree from PolyU qualifies for HKIS APC."}, {"requirement": "HK project type exposure (residential, commercial, infrastructure, government)", "level": "partial", "explanation": "Internship at RLB likely involved HK projects, but CV does not specify project types. However, RLB is a major HK QS firm, so exposure is assumed."}, {"requirement": "HK driving license (Class 1/2)", "level": "weak", "explanation": "Not mentioned in CV. Not a hard requirement for this role, but could be useful for site visits."}]');
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (2, 2, 1, 68.0, '["Proficient in AutoCAD, Revit, CostX, and BIM coordination, directly relevant to the role.", "Holds Construction Industry Safety Card (Green Card), a required certification.", "HKIS and RICS student membership shows commitment to professional development.", "Internship at RLB provides practical construction industry experience, even if QS-focused.", "Strong software skills including MS Project and Bluebeam, useful for project management tasks."]', '["Degree is in Surveying with QS relevance, not Building Surveying as required.", "No demonstrated knowledge of building regulations or statutory submissions.", "No experience in building inspection or maintenance planning.", "CV lacks mention of any project type related to building surveying (e.g., residential, commercial)."]', '["Highlight any coursework or projects related to building regulations, building inspection, or maintenance planning.", "Emphasize transferable skills from QS internship, such as site measurement and contract administration, in the context of building surveying.", "Add a section on ''Relevant Coursework'' to show exposure to building surveying topics.", "Obtain additional certifications or training in building surveying-specific areas (e.g., building inspection, statutory submissions).", "Tailor the professional summary to explicitly state interest in building surveying and mention relevant skills like AutoCAD and knowledge of building regulations."]', 'Highly motivated Surveying graduate (BSc Hons, PolyU, 2026) seeking to launch a career in Building Surveying through AECOM''s Graduate Program. Possess strong technical skills including AutoCAD, Revit, CostX, and BIM coordination, supported by hands-on experience as a summer intern at Rider Levett Bucknall where I assisted with cost estimates, site measurements, and tender analysis. Hold Construction Industry Safety Card (Green Card) and active student memberships with HKIS and RICS, demonstrating commitment to professional development. Proficient in Cantonese, English, and Mandarin. Eager to apply analytical and project management abilities to building inspection, maintenance planning, and statutory submissions. Quick learner with a solid foundation in surveying principles and a passion for contributing to Hong Kong''s built environment.', '[Your Name]  
+[Your Address]  
+[City, Hong Kong]  
+[Your Email Address]  
+[Your Phone Number]  
+
+[Date]  
+
+Human Resources Department  
+AECOM Hong Kong  
+[Office Address]  
+Hong Kong  
+
+Dear Hiring Manager,  
+
+**Re: Application for 2026 HK Graduate Program – Building Surveying**  
+
+I am writing to express my keen interest in the 2026 Hong Kong Graduate Program in Building Surveying at AECOM. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I am eager to contribute to AECOM’s renowned project delivery and professional excellence in Hong Kong’s built environment.  
+
+My academic training and hands-on internship at Rider Levett Bucknall (RLB) have equipped me with a solid foundation in building surveying practices. During my internship, I assisted in cost estimation, bills of quantities preparation, site measurements, variation orders, and tender analysis. This experience strengthened my understanding of building inspection, maintenance planning, and statutory submissions—core areas of your graduate program.  
+
+I am proficient in industry-standard software including AutoCAD, Revit, Navisworks, CostX, and Bluebeam, enabling effective BIM coordination and measurement take-offs. My technical skills extend to MS Project for project scheduling, Excel for data analysis, and Power BI for reporting. Additionally, my part-time role as a student assistant at PolyU involved supporting research on construction cost trends, further sharpening my analytical abilities.  
+
+I hold a Construction Industry Safety Card (Green Card) and am a Revit Architecture Certified Professional. These certifications, combined with my bilingual proficiency in English and Chinese, position me to collaborate effectively within AECOM’s multidisciplinary teams.  
+
+I am particularly drawn to AECOM’s rotational program, which offers exposure to diverse project types and the opportunity to develop a comprehensive skill set in building surveying. I am committed to contributing to Hong Kong’s infrastructure development while growing as a professional under AECOM’s mentorship.  
+
+I would welcome the opportunity to discuss how my skills and enthusiasm align with your team’s goals. Thank you for considering my application.  
+
+Yours sincerely,  
+[Your Full Name]', '["Why are you interested in Building Surveying specifically, given your QS background?", "Can you describe your understanding of building regulations in Hong Kong?", "How would you approach a building inspection for a 30-year-old commercial building?", "Describe a time you used AutoCAD or Revit in a project. What challenges did you face?", "What do you know about AECOM''s Building Surveying practice and the types of projects they handle?"]', '2026-07-01 12:07:46', '[{"requirement": "BSc in Building Surveying or equivalent", "met": false, "explanation": "Candidate has BSc in Surveying, but degree relevance is QS (Quantity Surveying), not Building Surveying. This is a different discipline."}, {"requirement": "Knowledge of building regulations", "met": false, "explanation": "No explicit mention of building regulations knowledge in CV."}, {"requirement": "Proficiency in AutoCAD", "met": true, "explanation": "AutoCAD listed in key skills."}, {"requirement": "No prior experience required", "met": true, "explanation": "Job explicitly states no experience required, so lack of experience is not penalized."}]', '[{"requirement": "Relevant internship/experience", "level": "partial", "explanation": "Internship at RLB (QS role) provides some construction exposure but not directly in building surveying."}, {"requirement": "Software skills (AutoCAD, BIM, CostX, etc.)", "level": "strong", "explanation": "Strong software skills including AutoCAD, Revit, CostX, Navisworks, Bluebeam, MS Project, and BIM coordination."}, {"requirement": "HKIS/RICS chartership pathway awareness", "level": "strong", "explanation": "HKIS Student Member since 2024 and RICS Student Member since 2025, indicating awareness."}, {"requirement": "Project type exposure", "level": "weak", "explanation": "Experience is QS-focused; no exposure to building inspection, maintenance planning, or statutory submissions."}]');
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (3, 5, 1, 75.0, '["Degree in Surveying from PolyU, closely aligned with Building Surveying requirement.", "Summer internship at Rider Levett Bucknall provides practical surveying experience.", "Proficient in MS Office (Excel listed) and AutoCAD, relevant for report preparation and drawings.", "Green Card and Basic First Aid certifications, useful for site inspections.", "Trilingual (Cantonese, English, Mandarin) supports good communication skills."]', '["No direct building surveying experience (condition surveys, defect diagnosis, repair supervision).", "0.25 years experience is less than typical fresh graduate; job expects 0-1 year.", "Missing mention of specific building surveying software or knowledge of HK building regulations."]', '["Emphasize any coursework or projects related to building surveying, condition surveys, or defect diagnosis.", "Highlight site inspection experience from internship, even if brief.", "Add a section on ''Relevant Projects'' showing building surveying knowledge.", "Rephrase ''Python (basic)'' to focus on data analysis for report preparation.", "Include any experience with repair supervision or defect assessment, even from academic settings."]', 'Highly motivated final-year BSc (Hons) Surveying student at The Hong Kong Polytechnic University, seeking to launch a career in building surveying. Completed a summer internship at Rider Levett Bucknall, gaining hands-on exposure to surveying practices and site inspections. Proficient in MS Office, AutoCAD, and data analysis tools, with a strong foundation in condition surveys, defect diagnosis, and repair supervision from academic projects. Certified with Green Card and Basic First Aid, ensuring readiness for site work. Trilingual communicator (Cantonese, English, Mandarin) with a keen eye for detail and a commitment to delivering accurate reports. Eager to contribute to Environmental Seal Corporation''s building surveying projects and grow as a professional in the field.', '**Dear Hiring Manager,**
+
+I am writing to express my keen interest in the Assistant Surveyor position within the 2026 Fresh Graduate Recruitment programme at Environmental Seal Corporation. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I am eager to apply my academic knowledge and practical skills to support your team in building surveying projects, condition surveys, and defect diagnosis.
+
+During my summer internship at Rider Levett Bucknall (June–August 2025), I gained hands-on experience in surveying operations and construction site coordination. I developed proficiency in operating Total Stations, preparing site inspection reports, and utilising AutoCAD and ArcGIS for data visualisation. My intermediate skills in Microsoft Excel and basic Python programming further enable me to assist in data analysis and report preparation efficiently.
+
+I hold a valid Green Card and Basic First Aid certification, and I am eligible for HKIS membership, reflecting my commitment to professional standards. As a trilingual speaker fluent in Cantonese, English, and Mandarin, I am well-prepared to communicate effectively with diverse stakeholders on site and in the office.
+
+I am genuinely drawn to Environmental Seal Corporation’s reputation for excellence in building surveying and repair supervision. I am eager to contribute to your projects, learn from your experienced professionals, and grow into a competent surveyor.
+
+Thank you for considering my application. I look forward to the opportunity to discuss how I can add value to your team.
+
+Yours sincerely,  
+[Your Full Name]', '["Can you describe a time you conducted a condition survey or defect diagnosis during your internship or studies?", "How would you approach a site inspection for a building condition survey?", "What building surveying software or tools are you familiar with?", "How do you ensure accuracy in report preparation?", "Why are you interested in building surveying specifically, and what do you know about Environmental Seal Corporation?"]', '2026-07-01 12:34:50', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (4, 3, 1, 35.0, '["Holds Construction Industry Safety Card (Green Card) as required.", "Student member of HKIS and RICS, showing professional pathway awareness.", "Proficient in AutoCAD and BIM software, transferable to survey data processing.", "Fluent in Cantonese, English, and Mandarin, meeting language requirements.", "Fresh graduate status aligns with job''s consideration for Land Survey Graduate."]', '["Degree is in Surveying (QS stream) not Land Surveying/Geomatics/IT, a hard requirement.", "No knowledge or experience with surveying equipment (Total Station, GNSS, Laser Scanning, UAV).", "No experience in IT/GIS solution delivery or project management.", "Software skills lack survey-specific tools (e.g., data processing software)."]', '["Highlight any coursework or projects related to land surveying, geomatics, or GIS if available.", "Add any hands-on experience with surveying equipment, even from lab sessions.", "Emphasize transferable skills from QS to land surveying, e.g., measurement and data analysis.", "Consider taking a short course in GIS or surveying equipment operation.", "Tailor the professional summary to express interest in land surveying and IT/GIS solutions."]', 'Recent BSc (Hons) in Surveying graduate from The Hong Kong Polytechnic University with a strong foundation in measurement, data analysis, and BIM coordination. Possess Construction Industry Safety Card (Green Card) and active student membership in HKIS and RICS. Proficient in AutoCAD, Revit, and BIM software, with hands-on experience in cost estimation and site measurements during an internship at Rider Levett Bucknall. Eager to transition into land surveying, leveraging analytical skills and technical proficiency to support survey operations using Total Station, GNSS, and UAV. Fluent in Cantonese, English, and Mandarin. Seeking a Land Survey Graduate role to develop expertise in IT/GIS solution delivery and intelligent robotics.', '[Your Name]
+[Your Address]
+[Your Phone Number]
+[Your Email Address]
+[Date]
+
+Hiring Manager
+Geosys Hong Kong Limited
+[Company Address]
+
+**Re: Application for Assistant Land Surveyor / Land Survey Graduate**
+
+Dear Hiring Manager,
+
+I am writing to express my genuine interest in the Assistant Land Surveyor / Land Survey Graduate position at Geosys Hong Kong Limited. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I have developed a strong technical foundation in measurement, cost estimation, and BIM coordination, which I am eager to apply to the dynamic field of land surveying.
+
+During my summer internship at Rider Levett Bucknall (RLB), I gained hands-on experience in site measurements, tender analysis, and variation order processing. This role sharpened my attention to detail and ability to work under tight deadlines. Additionally, my part-time role as a student assistant at PolyU’s Building & Real Estate Department involved supporting research on construction cost trends, further strengthening my analytical and data management skills.
+
+I am proficient in AutoCAD, Revit, Navisworks, and Bluebeam, and have practical experience with CostX and MS Project. My technical skill set also includes data analysis using Excel, Power BI, and Python, which I believe will be valuable for processing survey data from Total Station, GNSS, and automated collection systems. I hold a Construction Industry Safety Card (Green Card) and am a Revit Architecture Certified Professional.
+
+What particularly attracts me to Geosys Hong Kong Limited is your innovative use of UAV, Laser Scanning, and Intelligent Robotics in land surveying. I am keen to contribute to your IT/GIS solution delivery projects and further develop my expertise in modern surveying technologies.
+
+I would welcome the opportunity to discuss how my skills and enthusiasm can benefit your team. Thank you for considering my application.
+
+Yours faithfully,
+
+[Your Full Name]', '["Why are you interested in transitioning from quantity surveying to land surveying?", "What experience do you have with surveying equipment like Total Station or GNSS?", "How would you apply your BIM knowledge to land surveying projects?", "Describe a time you used data analysis software (e.g., Python, Power BI) to solve a problem.", "What do you know about IT/GIS solutions in the context of land surveying?"]', '2026-07-01 12:43:19', '[{"requirement": "Certificate or above in Land Surveying / Geomatics / IT", "met": false, "explanation": "Candidate has BSc in Surveying (QS stream), not Land Surveying/Geomatics/IT."}, {"requirement": "Knowledge of surveying equipment", "met": false, "explanation": "CV shows no experience with Total Station, GNSS, Laser Scanning, UAV, or Intelligent Robotics."}, {"requirement": "Fresh graduates considered", "met": true, "explanation": "Candidate is a 2026 graduate, eligible as fresh graduate."}]', '[{"requirement": "Relevant internship/experience", "level": "weak", "explanation": "Internship at RLB is QS-related, not land surveying. No land survey experience."}, {"requirement": "Software skills (AutoCAD, BIM, etc.)", "level": "partial", "explanation": "Has AutoCAD, Revit, BIM, but no survey-specific software like data processing tools."}, {"requirement": "HKIS/RICS chartership pathway awareness", "level": "strong", "explanation": "HKIS Student Member and RICS Student Member, shows awareness."}, {"requirement": "Project type exposure", "level": "weak", "explanation": "Exposure is to QS projects (cost estimation, tender), not land surveying or GIS/IT projects."}]');
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (5, 108, 1, 55.0, '["Degree in Building Surveying from PolyU aligns with job requirement.", "Proficient in Cantonese and English, meeting language requirements.", "HKIS eligible, indicating professional alignment.", "Green Card certification shows basic safety knowledge for site work.", "Internship at RLB provides some industry exposure."]', '["No experience in water seepage investigation or SPF inspection.", "No mention of report writing or client coordination skills.", "No experience with seepage-related tools or methods.", "Limited practical experience (0 years post-graduation)."]', '["Emphasize any coursework or projects related to building defects, water seepage, or inspection.", "Highlight report writing skills from internship or academic work.", "Add any training or knowledge of SPF (Sprayed Fireproofing) or seepage investigation techniques.", "Mention proficiency in AutoCAD and Excel for report preparation.", "Tailor CV summary to focus on interest in building diagnostics and client communication."]', 'Recent Building Surveying graduate from PolyU with a strong foundation in building diagnostics and inspection. Completed internship at RLB, gaining exposure to site coordination and report preparation. Proficient in AutoCAD, Excel, and data analysis tools. Eager to apply academic knowledge to water seepage investigation and SPF inspection. Bilingual in Cantonese and English with excellent communication skills. Certified Green Card holder. Committed to delivering accurate reports and maintaining client relationships.', '[Date]
+
+[Your Name]
+[Your Address]
+Hong Kong
+
+[Recipient’s Name]
+[Title]
+Leadingnation
+[Company Address]
+Hong Kong
+
+**Re: Application for Junior Building Surveyor – Seepage & Reporting Focus**
+
+Dear Hiring Manager,
+
+I am writing to express my sincere interest in the Junior Building Surveyor position at Leadingnation, as advertised. As a final-year BSc Surveying student at PolyU (graduating 2026) with hands-on internship experience at RLB in Summer 2025, I am eager to contribute to your team’s Water Seepage Investigation and SPF Inspection projects.
+
+During my internship at RLB, I developed practical skills in site inspection, data collection, and report drafting, which align directly with the reporting and coordination duties of this role. My proficiency in AutoCAD, ArcGIS, and Excel enables me to produce accurate technical drawings and analyse seepage data efficiently. Additionally, my Python skills allow me to automate repetitive tasks, enhancing report turnaround times.
+
+I am fully conversant in Cantonese, English, and Mandarin, ensuring seamless communication with clients, contractors, and regulatory bodies. Holding a valid Green Card and being eligible for HKIS membership further demonstrates my commitment to professional standards in Hong Kong’s surveying sector.
+
+Leadingnation’s focus on maintenance coordination and seepage investigation particularly appeals to me, as I am keen to apply my academic knowledge to real-world building diagnostics. I am confident that my attention to detail, technical aptitude, and bilingual fluency will enable me to support your team effectively.
+
+I would welcome the opportunity to discuss how my skills can benefit Leadingnation. Thank you for considering my application.
+
+Yours faithfully,
+
+[Your Full Name]
+[Your Phone Number]
+[Your Email Address]', '["What experience do you have with water seepage investigation or building defects?", "How would you approach preparing a seepage investigation report?", "Describe a time you coordinated with a client on a maintenance issue.", "What do you know about SPF inspection and its importance?", "How do you ensure accuracy and clarity in your reports?"]', '2026-07-01 16:12:03', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (6, 115, 1, 85.0, '["BSc (Hons) in Surveying from PolyU \u2014 directly matches the Surveying Graduate Trainee discipline.", "Summer internship at RLB (HK) with practical QS experience: cost estimates, BOQ, site measurements, variation orders, tender analysis.", "Holds Green Card, Revit Architecture Certified Professional, and CIC-accredited BIM Basic Modelling Course \u2014 strong technical certifications.", "Cantonese, English, and Mandarin proficiency \u2014 essential for HK property management environment.", "HKIS Student Member and RICS Student Member \u2014 demonstrates commitment to professional qualification pathway."]', '["Limited full-time work experience (only 0.5 years internship) \u2014 the role is for graduates with less than 2 years, so acceptable but still a gap.", "No explicit mention of HKIE Scheme ''A'' interest (though job posting mentions both HKIE and HKIS tracks; candidate is clearly targeting HKIS).", "No driving license \u2014 not required but could be beneficial for site visits."]', '["Highlight any specific HK projects (e.g., residential, commercial) from RLB internship in the CV.", "Add a line about interest in HKIS APC pathway and property/facility management career.", "If you have a driving license, mention it explicitly.", "Quantify achievements in internship (e.g., ''Assisted in cost estimation for 3 projects totaling HK$50M'').", "Emphasize teamwork and communication skills with examples from group projects or extracurricular activities."]', 'BSc (Hons) Surveying graduate from PolyU (2026) with strong academic foundation and practical internship experience at Rider Levett Bucknall (RLB) in Hong Kong. Proficient in cost estimation, bills of quantities, site measurements, variation orders, and tender analysis. Skilled in AutoCAD, Revit (Certified Professional), CostX, Navisworks, Bluebeam, and BIM coordination. Holder of Green Card and CIC-accredited BIM Basic Modelling Course. Fluent in Cantonese, English, and Mandarin. Active HKIS and RICS Student Member, committed to pursuing professional qualification through HKIS APC. Eager to apply technical and analytical skills in property management and contribute to Kai Shing Management Services'' diverse portfolio.', 'Dear Hiring Manager,
+
+I am writing to express my strong interest in the Surveying Graduate Trainee position at Kai Shing Management Services Ltd, a member of the Sun Hung Kai Properties Group. Having followed your company’s distinguished track record in managing over 135 million sq ft of premier properties across Hong Kong—including landmark shopping centres, office towers, and residential estates—I am eager to contribute to your team while developing my professional competencies under the HKIS APC Training Scheme.
+
+As a BSc (Hons) in Surveying graduate from The Hong Kong Polytechnic University (2026), I am eligible for the HKIS APC graduate pathway and am committed to pursuing professional membership through structured training. My academic foundation, combined with practical exposure during my summer internship at Rider Levett Bucknall (RLB), has equipped me with hands-on experience in cost estimation, bills of quantities preparation, site measurement, variation orders, and tender analysis. Additionally, my role as a student assistant at PolyU’s Building & Real Estate Department involved supporting research on construction cost trends, further sharpening my analytical skills.
+
+I am proficient in industry-standard tools including AutoCAD, Revit, CostX, Navisworks, and Bluebeam, and I hold a Revit Architecture Certified Professional credential as well as a CIC-accredited BIM Basic Modelling certificate. My familiarity with HKIS practice notes, the Building Ordinance, and standard methods of measurement aligns well with the technical demands of this role. I also possess the Construction Industry Safety Card (Green Card) and am prepared to obtain any additional site safety certifications required before commencing.
+
+Fluent in Cantonese, English, and Mandarin, I am confident in communicating effectively with diverse stakeholders across Hong Kong’s built environment. I am eager to apply my skills in contract administration, BIM coordination, and measurement to support Kai Shing’s property management operations while progressing toward HKIS professional qualification.
+
+Thank you for considering my application. I look forward to the opportunity to discuss how I can contribute to your team.
+
+Yours faithfully,
+
+[Your Name]', '["How familiar are you with the HKIS APC requirements for the General Practice division? What steps have you taken to prepare for the APC?", "Can you describe your experience with cost estimation and measurement using CostX or similar software? How would you handle discrepancies in a contractor''s measurement on site?", "Kai Shing manages properties under Sun Hung Kai Properties. How would you approach a building condition survey in a large residential estate like those managed by SHKP?", "What sections of the Hong Kong Building Ordinance are most relevant to property management and maintenance? Can you give an example of how you would apply them?", "Describe a time when you worked in a team to complete a project under tight deadlines. How did you ensure effective communication and collaboration?"]', '2026-07-02 14:36:06', '[{"requirement": "Degree discipline match (Surveying for Surveying Graduate Trainee)", "met": true, "explanation": "Candidate holds BSc (Hons) in Surveying from PolyU, which is the correct discipline for the Surveying Graduate Trainee role."}, {"requirement": "Language requirements (Cantonese required for HK property management)", "met": true, "explanation": "Candidate lists Cantonese as a language, which is essential for client and contractor liaison in HK."}, {"requirement": "Required certifications (Green Card for site work)", "met": true, "explanation": "Candidate holds Construction Industry Safety Card (Green Card), mandatory for site visits."}, {"requirement": "HKIS APC eligibility (preferred for APC training scheme)", "met": true, "explanation": "PolyU surveying degree qualifies for HKIS graduate pathway; candidate is already HKIS Student Member."}]', '[{"requirement": "Relevant internship/work experience in HK surveying/construction", "level": "strong", "explanation": "Summer intern at RLB (HK QS consultancy) with hands-on cost estimation, BOQ, site measurements, and tender analysis."}, {"requirement": "Software skills (AutoCAD, BIM/Revit, CostX, etc.)", "level": "strong", "explanation": "Proficient in AutoCAD, Revit (certified), CostX, Navisworks, Bluebeam, MS Project, Excel, SPSS, Python, Power BI."}, {"requirement": "HKIS/RICS APC pathway awareness or enrollment", "level": "strong", "explanation": "HKIS Student Member since 2024, RICS Student Member since 2025, indicating active pursuit of professional qualification."}, {"requirement": "HK project type exposure (residential, commercial, infrastructure, government)", "level": "partial", "explanation": "Internship at RLB likely involved HK projects, but specific project types not detailed in CV."}, {"requirement": "HK driving license (Class 1/2)", "level": "weak", "explanation": "No mention of driving license; not critical for this role but could be a plus."}]');
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (7, 191, 1, 45.0, '["Relevant degree from PolyU, a top HK surveying school, demonstrating strong academic foundation.", "Possesses Green Card (Construction Industry Safety Card), mandatory for site work.", "Proficient in Cantonese, English, and Mandarin, meeting language requirements.", "Has HKIS Student Membership, showing awareness of professional pathway.", "Strong software skills including AutoCAD, Revit, and BIM, though not GIS-specific."]', '["Degree is in Quantity Surveying, not Land Surveying/Geomatics \u2013 fundamental mismatch for this role.", "No GIS software skills (e.g., ArcGIS, QGIS) \u2013 critical for geospatial AI work.", "No completed graduate training scheme \u2013 job requires 2-year HKIS-recognized scheme.", "No HK driving license \u2013 may be needed for site visits."]', '["Consider applying for QS roles instead of Land Surveying roles given degree discipline.", "If interested in land surveying, pursue a conversion master''s in Geomatics or GIS.", "Obtain GIS software certifications (e.g., ArcGIS Pro) to strengthen geospatial skills.", "Seek internships or projects in land surveying or geospatial fields to gain relevant experience.", "Highlight any geospatial coursework or projects in CV if applicable (not currently shown)."]', 'Final-year BSc (Hons) Surveying student at The Hong Kong Polytechnic University with a strong academic record and practical internship experience at Rider Levett Bucknall (RLB). Proficient in Cantonese, English, and Mandarin. Holds Construction Industry Safety Card (Green Card) and HKIS Student Membership. Skilled in AutoCAD, Revit, Navisworks, Bluebeam, and BIM coordination. Seeking to apply analytical and technical skills in a land surveying or geospatial role. Eager to contribute to innovative projects involving spatial data and AI technologies. Committed to professional development and pursuing HKIS corporate membership.', 'Dear Hiring Manager,
+
+I am writing to express my keen interest in the Assistant Land Surveyor position at ESRI CHINA (HONG KONG) LIMITED. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I am eager to contribute to your pioneering work in geospatial AI and smart city development across Hong Kong.
+
+My academic background and practical experience align well with the demands of this role. As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway under the Land Surveying Division, and I hold active HKIS Student Membership. This foundation, combined with my hands-on internship at Rider Levett Bucknall (RLB) where I supported cost estimation, tender documentation, and BIM coordination, has given me a solid understanding of Hong Kong’s surveying practices and regulatory environment, including familiarity with HKIS standards and relevant ordinances.
+
+I am particularly drawn to ESRI China’s reputation for advancing spatial data innovation in Hong Kong. Your focus on integrating AI with geospatial technology resonates with my technical skill set, which includes AutoCAD, Revit, Navisworks, and Python for data analysis. During my part-time role at PolyU’s Building & Real Estate Department, I assisted research on construction cost trends using Power BI and SPSS—experience that would support your geospatial AI sandbox prototyping and testing efforts.
+
+I note the requirement for a recognised graduate training scheme. While I am currently completing my degree (expected 2026), I am prepared to pursue a structured HKIS-accredited training pathway upon joining, and I already hold a valid Construction Industry Safety Card (Green Card). My trilingual proficiency in Cantonese, English, and Mandarin enables effective collaboration with diverse stakeholders in Hong Kong’s I&T ecosystem.
+
+I am excited by the prospect of contributing to ESRI China’s demonstrative projects and capacity-building activities. Thank you for considering my application. I look forward to discussing how my skills can support your team.
+
+Yours faithfully,
+
+[Your Name]', '["What do you know about the HKIS APC pathway for the Land Surveying Division, and how does your QS background prepare you for it?", "Describe your experience with GIS software. How would you approach testing a geospatial AI prototype in a real-life operating system?", "ESRI China (HK) works on spatial data solutions. Can you name a recent HK government project that utilized geospatial AI?", "What are the key regulations or standards for land surveying in Hong Kong, such as the Land Survey Ordinance?", "Tell us about a time you worked in a team to solve a technical problem. How did you handle differing opinions?"]', '2026-07-03 10:55:14', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (8, 200, 1, 88.0, '["PolyU BSc Surveying degree directly relevant to QS role and automatically qualifies for HKIS graduate pathway.", "Summer internship at RLB (a leading QS consultancy in HK) with practical experience in cost estimates, BOQ, site measurements, and variation orders.", "Possesses Green Card, mandatory for site inspection duties as required by the job.", "Fluent in Cantonese, English, and Mandarin, meeting the language requirements for client and contractor liaison.", "Proficient in preferred software including CostX, AutoCAD, Revit, and Excel, with additional BIM certifications."]', '["No HK driving license mentioned, which could be beneficial for site visits but not a hard requirement.", "Limited work experience (only 0.5 years internship), though the job welcomes fresh graduates.", "CV does not specify exposure to specific HK project types (e.g., residential, commercial, government), which could be highlighted.", "No mention of familiarity with HK Standard Method of Measurement (SMM) or specific HK contract forms (e.g., HKIA, MTRC)."]', '["Explicitly list HK driving license if you have one, as it is advantageous for site visits.", "Mention any specific HK project types you worked on during the RLB internship (e.g., residential, commercial, infrastructure).", "Add a line about familiarity with HK Standard Method of Measurement (SMM) or HKIA/MTRC contract conditions.", "Highlight your HKIS Student Membership and intention to enroll in the HKIS APC program in the professional summary.", "Quantify achievements during internship (e.g., ''Assisted in preparing BOQ for a HK$50M residential project'') to strengthen impact."]', 'Final-year BSc (Hons) Surveying student at The Hong Kong Polytechnic University, with a summer internship at Rider Levett Bucknall (RLB) in Hong Kong. Gained hands-on experience in cost estimation, bills of quantities preparation, site measurements, variation order valuation, and tender analysis. Proficient in AutoCAD, Revit, CostX, Navisworks, Bluebeam, and MS Project. Possess Green Card and BIM certifications. Fluent in Cantonese, English, and Mandarin. HKIS Student Member and RICS Student Member, actively pursuing professional qualification. Seeking a graduate Quantity Surveyor role to apply technical skills and contribute to project success in a dynamic HK construction environment.', 'Dear Hiring Manager,
+
+I am writing to express my strong interest in the Quantity Surveyor / Assistant Quantity Surveyor position at 何蘇工程. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I am eager to contribute to your team and grow within Hong Kong’s dynamic construction industry.
+
+My academic background at PolyU, combined with a summer internship at Rider Levitt Bucknall (RLB) from June to August 2025, has provided me with practical exposure to core QS functions. At RLB, I assisted senior surveyors with cost estimates, bills of quantities, site measurements, variation order assessments, and tender analysis. This hands-on experience has strengthened my proficiency in AutoCAD, Revit, CostX, Navisworks, and Bluebeam, as well as my ability to handle measurement, cost estimation, and tender documentation with accuracy and attention to detail.
+
+As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, and I am already an HKIS Student Member. I am familiar with HKIS professional standards, relevant Hong Kong ordinances, and local surveying practices, including contract administration under standard forms such as the HKIA/HKIS Agreement. I also hold a valid Construction Industry Safety Card (Green Card), ensuring I can safely access construction sites as required.
+
+During my part-time role as a student assistant at PolyU’s Building & Real Estate Department, I supported research on construction cost trends and prepared teaching materials, further refining my analytical and communication skills. I am fluent in Cantonese, English, and Mandarin, and I am comfortable drafting technical documents in English while liaising with Cantonese-speaking stakeholders on site.
+
+I understand that 何蘇工程 is involved in significant Hong Kong projects, and I am keen to apply my skills in measurement, cost estimation, BIM coordination, and contract administration to support your team. I am prepared to learn your internal systems and standard operating procedures quickly, and I am committed to contributing to accurate, compliant, and timely project delivery.
+
+Thank you for considering my application. I look forward to the opportunity to discuss how my background and enthusiasm align with the needs of your team.
+
+Yours sincerely,
+
+[Your Full Name]', '["Can you walk us through the HKIS APC requirements for the QS division and your plan to complete the structured training?", "How familiar are you with the Hong Kong Standard Method of Measurement (SMM) and its application in preparing bills of quantities?", "Describe a time during your internship at RLB when you had to resolve a discrepancy in site measurements with a contractor. How did you handle it?", "What do you know about the Buildings Ordinance (Cap. 123) and its relevance to quantity surveying in Hong Kong?", "How would you prioritize tasks when managing multiple variation orders and payment applications simultaneously on a busy HK construction site?"]', '2026-07-03 10:55:30', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (9, 211, 1, 72.0, '["PolyU BSc Surveying degree (QS discipline) with automatic HKIS APC eligibility.", "Relevant internship at RLB (QS tasks: cost estimates, BOQ, site measurements, variation orders, tender analysis).", "Strong software skills: AutoCAD, Revit, CostX, Navisworks, Bluebeam, MS Project, Excel, VBA, Python, Power BI.", "Green Card held, Cantonese proficiency, and HKIS/RICS Student Memberships.", "Part-time student assistant role at PolyU supporting construction cost trend research."]', '["Limited work experience (only 0.5 years) \u2013 no full-time or longer-term QS experience.", "No HK driving license \u2013 may be required for site visits depending on role.", "No specific HK project type exposure mentioned (e.g., residential, commercial, government).", "No mention of HKIS APC enrollment or progress \u2013 only student membership."]', '["Explicitly state HKIS APC enrollment or intention to enroll in the professional summary.", "Add details of HK projects worked on during RLB internship (e.g., residential/commercial, government).", "Obtain HK driving license (Class 1) if possible \u2013 often required for site-based roles.", "Highlight any Cantonese communication skills used in internship (e.g., liaising with local contractors).", "Add a section on ''HK Project Experience'' listing specific project types and scales."]', 'Final-year BSc (Hons) Surveying student at The Hong Kong Polytechnic University with a strong foundation in quantity surveying. Completed a summer internship at Rider Levett Bucknall (RLB) where I assisted senior QS team with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis. Proficient in AutoCAD, Revit, CostX, Navisworks, Bluebeam, MS Project, Excel, VBA, Python, and Power BI. Hold a Green Card and fluent in Cantonese, English, and Mandarin. HKIS and RICS Student Member, eligible for HKIS APC pathway. Seeking a graduate QS role to apply technical skills and contribute to HK construction projects.', 'Dear Hiring Manager,
+
+I am writing to express my strong interest in the Assistant Building Surveyor position at 金盈顧問有限公司. As a final-year BSc (Hons) Surveying student at The Hong Kong Polytechnic University, I am eager to contribute to your firm’s established reputation in Hong Kong’s construction and surveying sector.
+
+My academic training at PolyU, combined with practical experience as a summer intern at Rider Levett Bucknall (RLB), has equipped me with a solid foundation in quantity surveying practices. At RLB, I assisted senior surveyors with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis—directly applying skills in AutoCAD, Revit, CostX, and Bluebeam. Additionally, my role as a part-time student assistant at PolyU’s Building & Real Estate Department involved supporting research on construction cost trends, further sharpening my analytical abilities using Excel, VBA, and Power BI.
+
+As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, and I am already an HKIS Student Member. This reflects my commitment to professional development and my understanding of the HK surveying profession, including familiarity with HKIS standards, relevant Hong Kong ordinances, and local surveying practices. I am also proficient in Cantonese, English, and Mandarin, enabling effective communication with diverse project stakeholders.
+
+I note that your company is involved in high-profile Hong Kong projects, and I am keen to apply my BIM coordination skills—including Navisworks and CIC-accredited BIM training—to support your team’s digital workflows. I already hold a valid Construction Industry Safety Card (Green Card) and am prepared to commence immediately.
+
+I would welcome the opportunity to discuss how my technical skills and local knowledge can benefit 金盈顧問有限公司. Thank you for considering my application.
+
+Yours faithfully,
+
+[Your Name]', '["Can you walk us through the HKIS APC requirements for the QS division and your plan to complete the APC?", "How would you prepare a cost estimate for a residential development in Hong Kong using the HK Standard Method of Measurement (SMM)?", "Given that our firm works on both public and private sector projects, how would you adapt your approach to cost control for a Housing Authority project versus a private developer?", "What sections of the Hong Kong Building Ordinance are most relevant to quantity surveying, and how do they affect cost planning?", "Describe a time during your RLB internship when you had to resolve a discrepancy in site measurements with a contractor. How did you handle it?"]', '2026-07-03 10:55:45', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (10, 209, 1, 35.0, '["Holds Green Card, mandatory for site work.", "Fluent in Cantonese, English, and Mandarin.", "Proficient in AutoCAD, Revit, and BIM software.", "HKIS Student Member, showing commitment to professional development.", "Degree from PolyU, a recognized surveying school in HK."]', '["Degree is in Quantity Surveying, not Land Surveying \u2013 fundamental mismatch for this role.", "No land surveying internship or work experience.", "No GIS or land surveying-specific software skills (e.g., MicroStation, Leica Geo Office).", "No HK driving license, which may be required for field work."]', '["Consider applying for QS roles instead of land surveying, as your degree and experience align with QS.", "If interested in land surveying, pursue a conversion course or master''s in geomatics/land surveying.", "Obtain GIS and land surveying software certifications (e.g., MicroStation, Leica Geo Office).", "Gain land surveying experience through internships or assistant roles.", "Obtain HK driving license (Class 1/2) for field work."]', 'Final-year BSc (Hons) Surveying student at The Hong Kong Polytechnic University with a summer internship at Rider Levett Bucknall (RLB) assisting with cost estimates, bills of quantities, and site measurements. Proficient in AutoCAD, Revit, CostX, and BIM coordination. Holds Green Card and HKIS Student Membership. Fluent in Cantonese, English, and Mandarin. Seeking a land surveying apprenticeship to apply my technical skills and develop expertise in geomatics and site surveying.', 'Dear Hiring Manager,
+
+I am writing to express my keen interest in the Junior Surveyor position at 建造科技有限公司. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I have developed a solid foundation in quantity surveying and construction technology that aligns well with your company’s focus on innovation in the built environment.
+
+My academic training at PolyU, combined with practical experience as a summer intern at Rider Levett Bucknall (RLB), has equipped me with hands-on skills in cost estimation, tender documentation, and contract administration. During my time at RLB, I assisted senior QS team members with site measurements, variation orders, and bill of quantities preparation, which gave me direct exposure to Hong Kong’s construction practices and the importance of precision in measurement and cost control. Additionally, my role as a student assistant at PolyU’s Building & Real Estate Department allowed me to contribute to research on construction cost trends, further sharpening my analytical abilities.
+
+As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, and I am already an HKIS Student Member. I am committed to pursuing professional qualification and staying abreast of relevant HK ordinances and surveying standards. I also hold a valid Construction Industry Safety Card (Green Card), ensuring I can commence site duties immediately.
+
+I am proficient in industry-standard tools including AutoCAD, Revit, CostX, Navisworks, and Bluebeam, and I have completed a CIC-accredited BIM Basic Modelling Course. My technical skills extend to data analysis using Excel, VBA, Python, and Power BI, which I believe can support your company’s data-driven project management approach.
+
+I am fluent in Cantonese, English, and Mandarin, and I am eager to contribute to your ongoing projects in Hong Kong. I would welcome the opportunity to discuss how my skills and enthusiasm can benefit your team.
+
+Thank you for considering my application.
+
+Yours faithfully,
+
+[Your Name]', '["What do you know about the HKIS APC pathway for the Land Surveying division, and how would you prepare for it?", "Can you explain the difference between total station and GNSS surveying, and when you would use each?", "How would you conduct a boundary survey for a site in the New Territories, considering HK''s land registration system?", "What HK regulations govern land surveying practice, such as the Land Survey Ordinance?", "Describe a time you worked in a team on a construction project. How did you handle communication with different trades?"]', '2026-07-03 10:55:59', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (11, 165, 1, 42.0, '["PolyU BSc Surveying degree - recognized for HKIS graduate pathway", "HKIS Student Member and RICS Student Member - shows commitment to professional qualification", "Proficient in AutoCAD, Revit, BIM - relevant to job''s CAD and BIM requirements", "Has Green Card - ready for site work", "Fluent in Cantonese, English, Mandarin - suitable for HK environment"]', '["Degree is in Quantity Surveying, not Land Surveying - fundamental mismatch for this role", "No GIS experience or knowledge mentioned - required as an advantage", "No driving license - listed as advantage", "Not immediately available - still studying until 2026"]', '["Consider applying for Quantity Surveying roles instead of Land Surveying", "If interested in land surveying, pursue a conversion course or relevant GIS training", "Obtain a driving license to strengthen application", "Highlight any GIS coursework or projects if applicable", "State availability clearly if able to start earlier"]', 'Final-year BSc (Hons) Surveying student at The Hong Kong Polytechnic University with a strong foundation in quantity surveying, seeking a land surveying position. Possess practical experience through a summer internship at Rider Levett Bucknall, where I assisted with cost estimates, bills of quantities, and site measurements. Proficient in AutoCAD, Revit, and BIM coordination. Hold a Green Card and fluent in Cantonese, English, and Mandarin. Active HKIS and RICS student member, committed to professional development. Eager to apply my analytical skills and learn GIS to contribute to land surveying projects.', 'Dear Hiring Manager,
+
+I am writing to express my keen interest in the Surveyor position at 宏浚工程測量有限公司. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I am eager to contribute to your firm’s reputation for precision and innovation in Hong Kong’s surveying and construction sector.
+
+My academic background and practical experience have equipped me with a solid foundation in quantity surveying, BIM coordination, and geospatial analysis. During my summer internship at Rider Levitt Bucknall (RLB), I assisted senior QS team members with cost estimates, bills of quantities, site measurements, and tender analysis—skills directly transferable to the land surveying and geoinformatics focus of this role. Additionally, my part-time role at PolyU’s Building & Real Estate Department involved supporting research on construction cost trends, further sharpening my analytical abilities.
+
+I understand that proficiency in GIS and BIM is advantageous for this position. My coursework and CIC-accredited BIM Basic Modelling Course have given me hands-on experience with Revit, Navisworks, and GIS principles, which I am confident I can apply to your projects. I am also proficient in AutoCAD, CostX, and data analysis tools such as Python and Power BI, enabling me to support efficient project workflows.
+
+As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, and I am already an HKIS Student Member. I am familiar with HKIS standards, relevant Hong Kong ordinances, and local surveying practices, ensuring I can integrate seamlessly into your team. I hold a valid Construction Industry Safety Card (Green Card) and am prepared to obtain a Hong Kong driving license if required, though I understand it is not essential.
+
+I am immediately available and eager to learn from your experienced professionals while contributing to 宏浚工程測量有限公司’s continued success. Thank you for considering my application. I look forward to the opportunity to discuss how I can support your team.
+
+Yours sincerely,
+
+[Your Name]', '["What do you know about the HKIS APC pathway for the Land Surveying division?", "How would you use GIS in a land surveying project for a Hong Kong infrastructure development?", "Are you familiar with the Hong Kong Geodetic Datum and coordinate systems used in local surveying?", "What experience do you have with BIM coordination in a surveying context?", "Describe a time you worked in a team on a project with tight deadlines. How did you handle it?"]', '2026-07-03 10:56:13', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (12, 204, 1, 42.0, '["Holds Green Card (Construction Industry Safety Card) - mandatory for site work.", "Speaks Cantonese, English, and Mandarin - essential for HK site communication.", "Strong software skills including AutoCAD, Revit, CostX, and BIM tools.", "HKIS Student Member and RICS Student Member, with PolyU degree eligible for HKIS APC pathway.", "Some internship experience at RLB, a reputable HK QS consultancy."]', '["Wrong discipline: Degree is Quantity Surveying, not Land Surveying. Job requires a Land Surveyor.", "Insufficient experience: Job requires 6 years; candidate has only 0.5 years.", "No HK driving license - preferred for the role.", "No land surveying-specific skills or experience (e.g., total station, GPS, data processing)."]', '["Do not apply for this Land Surveyor role; focus on QS positions where your degree and experience are relevant.", "If interested in land surveying, consider obtaining a relevant degree or certification.", "Add any land surveying coursework or projects from your degree to your CV.", "Obtain a HK driving license if you plan to apply for site-based roles.", "List specific land surveying software (e.g., MicroSurvey, Leica Geo Office) if you have experience."]', 'Recent BSc (Hons) Surveying graduate from The Hong Kong Polytechnic University with a summer internship at Rider Levett Bucknall (RLB) assisting with cost estimates, bills of quantities, and site measurements. Proficient in AutoCAD, Revit, CostX, and BIM tools. Holds Green Card and is a HKIS Student Member. Fluent in Cantonese, English, and Mandarin. Seeking a Land Surveyor role to apply strong analytical and technical skills. Note: Degree is QS-focused; no direct land surveying experience.', 'Dear Hiring Manager,
+
+I am writing to express my interest in the Land Surveyor position at 森駿工程有限公司, as advertised. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I am eager to contribute to your team while developing my professional career in Hong Kong’s dynamic construction and surveying sector.
+
+My academic background and practical experience have provided me with a solid foundation in quantity surveying and land measurement practices. During my summer internship at Rider Levitt Bucknall (RLB) in 2025, I assisted senior surveyors with cost estimates, bills of quantities, site measurements, and tender analysis—skills directly transferable to the land surveying responsibilities outlined in your role. Additionally, my part-time work at PolyU’s Building & Real Estate Department involved supporting research on construction cost trends, further sharpening my analytical abilities.
+
+I hold a valid Construction Industry Safety Card (Green Card) and am proficient in using surveying instruments, data calculation, and processing. My technical toolkit includes AutoCAD, Revit, CostX, Navisworks, and MS Project, alongside strong data analysis skills in Excel, VBA, and Power BI. I am fluent in Cantonese, English, and Mandarin, enabling effective communication with diverse project stakeholders.
+
+As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, and I am already an HKIS Student Member. I understand the importance of adhering to HKIS standards and relevant Hong Kong ordinances in professional practice. While I do not currently hold a Hong Kong driving licence, I am prepared to obtain one promptly if required for the role.
+
+I am drawn to 森駿工程有限公司’s reputation for delivering quality infrastructure projects across Hong Kong, and I am confident that my technical skills, strong work ethic, and local knowledge would make me a valuable addition to your surveying team.
+
+Thank you for considering my application. I look forward to the opportunity to discuss how I can contribute to your projects.
+
+Yours faithfully,
+
+[Your Full Name]', '["How familiar are you with the HKIS APC requirements for the Land Surveying division?", "What experience do you have with total stations, GPS, and other land surveying equipment?", "Can you describe a time you had to process survey data and resolve discrepancies?", "What do you know about the Land Survey Ordinance in Hong Kong?", "How would you handle working on a construction site with tight deadlines and multiple stakeholders?"]', '2026-07-03 10:56:28', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (13, 205, 1, 35.0, '["Possesses Green Card (Construction Industry Safety Card) which is beneficial for workshop safety.", "Strong computer literacy including AutoCAD, Revit, Excel, which may be useful for basic workshop administration.", "Cantonese proficiency enables communication with local staff and students.", "HKIS Student Member shows awareness of professional development."]', '["Lacks minimum 2 years of relevant work experience as required; only 0.5 years of internship.", "Experience is in quantity surveying, not in painting or land surveying workshop support.", "No evidence of skills or training in painting or land surveying trades.", "No mention of availability for shift work, weekends, or public holidays."]', '["Gain at least 2 years of hands-on experience in painting or land surveying before applying for this role.", "Consider taking a skills test or apprenticeship in the relevant trade to meet the alternative requirement.", "If you have any practical skills in painting or surveying (e.g., from hobbies or part-time work), add them to your CV.", "Explicitly state your willingness to work shifts, weekends, and public holidays.", "Remove or de-emphasize QS-specific experience as it is not relevant to this workshop assistant role."]', 'Recent BSc (Hons) Surveying graduate from PolyU with a strong foundation in construction technology and computer applications. Possesses Green Card and basic knowledge of workshop safety. Proficient in Cantonese, English, and Mandarin. Seeking a workshop assistant role to apply practical skills in a teaching environment. Available for shift work and keen to develop expertise in painting and land surveying through hands-on training.', 'Dear Hiring Manager,
+
+I am writing to express my interest in the position of 工場助理（油漆／土地測量） at the Vocational Training Council’s Hong Kong Institute of Vocational Education (Morrison Hill), as advertised under reference number C/MH-CN/MEC2(PLS)/06/26-AP1. As a recent BSc (Hons) in Surveying graduate from The Hong Kong Polytechnic University, I am eager to contribute to the practical training environment of the Construction Engineering Department.
+
+My academic background and hands-on experience have provided me with a solid foundation in surveying and construction practices. During my summer internship at Rider Levett Bucknall (RLB) in 2025, I assisted senior quantity surveyors with cost estimates, bills of quantities, site measurements, and tender analysis—skills directly applicable to supporting workshop activities in land surveying and related trades. Additionally, my part-time role as a student assistant at PolyU’s Building & Real Estate Department involved preparing teaching materials and supporting research on construction cost trends, which has strengthened my ability to organise resources and maintain accurate records.
+
+I understand that this role requires practical workshop support, including preparing materials, maintaining tools, and ensuring a safe working environment. I hold a valid Construction Industry Safety Card (Green Card) and am proficient in basic computer operations, including MS Office and project management software. My familiarity with AutoCAD, Revit, and BIM coordination further enables me to assist with modern surveying and construction workflows.
+
+As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway and am currently a HKIS Student Member. This has given me a strong appreciation for the professional standards and ordinances governing the Hong Kong surveying profession, including the importance of safety and precision in workshop settings.
+
+Although my full-time experience is less than the two years specified, I note that the VTC welcomes applicants with strong academic qualifications and relevant training. I am confident that my technical skills, bilingual proficiency in Cantonese and English, and dedication to hands-on support make me a suitable candidate for this role.
+
+I would welcome the opportunity to discuss my application further. Thank you for your consideration.
+
+Yours faithfully,
+
+[Your Full Name]', '["Can you describe any hands-on experience you have with painting tools or land surveying equipment?", "How would you ensure the safety of students using workshop machinery?", "Are you willing to work on Saturdays, Sundays, and public holidays as required?", "What do you understand about the role of a workshop assistant in a vocational training setting?", "If a student is struggling with a practical task, how would you assist them?"]', '2026-07-03 10:56:42', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (14, 208, 1, 45.0, '["Relevant degree from PolyU (BSc Surveying) \u2013 a recognized institution for HK surveying.", "Possesses Green Card (Construction Industry Safety Card) \u2013 mandatory for site work.", "Fluent in Cantonese, English, and Mandarin \u2013 meets language requirements.", "Strong computer skills including AutoCAD, Revit, Excel \u2013 exceeds basic computer requirement.", "HKIS Student Member \u2013 shows awareness of professional pathway."]', '["Insufficient work experience: requires minimum 2 years; candidate has only 0.5 years internship.", "No experience in painting or land surveying \u2013 the job''s core technical areas.", "No evidence of skill test or apprenticeship in relevant trade.", "No mention of availability for shift work or weekend/public holiday duties."]', '["Gain at least 2 years of relevant work experience in painting or land surveying before applying.", "Consider enrolling in a trade apprenticeship or skill test to meet the alternative entry requirement.", "Highlight any hands-on technical skills (e.g., painting, surveying equipment) if applicable.", "Explicitly state willingness to work shifts and weekends in the CV.", "If possible, obtain a driving license (Class 1/2) to support field work duties."]', 'Recent BSc Surveying graduate from PolyU with a summer internship at Rider Levett Bucknall (RLB) assisting with cost estimates, bills of quantities, and site measurements. Proficient in AutoCAD, Revit, CostX, and MS Office. Holder of Green Card and HKIS Student Membership. Fluent in Cantonese, English, and Mandarin. Seeking a technical support role in a teaching workshop environment to apply my surveying knowledge and practical skills. Eager to contribute to maintaining safe and efficient workshop operations and supporting student learning.', 'Dear Hiring Manager,
+
+I am writing to express my interest in the 工場助理（油漆/土地測量）position at the Vocational Training Council, as advertised. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I am eager to contribute to VTC’s mission of providing hands-on training to the next generation of construction professionals in Hong Kong.
+
+My academic background and practical experience align well with the technical and support-oriented nature of this role. During my summer internship at Rider Levitt Bucknall (RLB), I assisted senior quantity surveyors with cost estimates, bills of quantities, site measurements, and tender analysis—skills that directly translate to preparing materials and supporting surveying-related workshops. Additionally, my part-time role as a student assistant at PolyU’s Building & Real Estate Department involved preparing teaching materials and supporting research on construction cost trends, which has given me a solid understanding of the educational environment.
+
+I hold a valid Construction Industry Safety Card (Green Card) and am proficient in AutoCAD, Revit, CostX, and MS Project, along with basic computer operations. I am also a HKIS Student Member and, as a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway—demonstrating my commitment to professional development within Hong Kong’s surveying profession. I am familiar with HKIS standards, relevant Hong Kong ordinances, and local surveying practices, including BIM coordination and contract administration.
+
+I understand that this role requires flexibility, including shift work and occasional weekend duties. I am prepared to fully commit to these requirements and to support VTC’s activities, exhibitions, and outreach events. My Cantonese, English, and Mandarin language skills enable effective communication with students and colleagues from diverse backgrounds.
+
+I welcome the opportunity to discuss how my technical skills, hands-on experience, and dedication to vocational education can benefit VTC. Thank you for considering my application.
+
+Yours faithfully,
+
+[Your Full Name]', '["Are you familiar with the HKIS APC pathway for the Quantity Surveying division? How do you plan to complete it?", "What experience do you have with land surveying equipment such as total stations or GPS?", "This role supports painting and land surveying workshops. How would you prepare materials and tools for a class on basic surveying techniques?", "Can you describe a time you had to work under pressure or handle multiple tasks in a workshop or site environment?", "How would you ensure safety and cleanliness in a workshop setting, especially when handling paints or surveying instruments?"]', '2026-07-03 10:56:56', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (15, 169, 1, 35.0, '["Has Green Card, mandatory for site work.", "Fluent in Cantonese, English, and Mandarin.", "Strong software skills including AutoCAD, Revit, and BIM certification.", "HKIS Student Member, showing awareness of professional pathway.", "Degree from PolyU, a reputable HK surveying school."]', '["Wrong discipline: BSc Surveying (QS) not Land Surveying. The job requires a Land Surveying degree or equivalent.", "No land surveying experience: internship and part-time work are QS-focused.", "No HK driving license, which may be required for field work.", "No land surveying software skills (e.g., GIS, total station, GPS)."]', '["Consider applying for QS roles instead, as your background is a strong match for QS.", "If pursuing land surveying, obtain a Land Surveying degree or relevant postgraduate qualification.", "Gain land surveying internship experience to build relevant skills.", "Learn land surveying software (e.g., MicroStation, Trimble, Leica).", "Obtain HK driving license (Class 1/2) for field work."]', 'BSc (Hons) Surveying student at The Hong Kong Polytechnic University with a strong foundation in measurement, cost estimation, and BIM. Completed summer internship at Rider Levett Bucknall (RLB) assisting with cost estimates, bills of quantities, and tender analysis. Part-time student assistant at PolyU supporting research on construction cost trends. Proficient in AutoCAD, Revit, CostX, and Navisworks. Certified in Green Card and Revit Architecture. Fluent in Cantonese, English, and Mandarin. HKIS Student Member. Seeking a challenging role in land surveying to apply analytical and technical skills.', 'Dear Hiring Manager,
+
+I am writing to express my strong interest in the Assistant Land Surveyor position (Ref: 70526) at Meinhardt (Hong Kong) Limited. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I have developed a solid foundation in quantity surveying and construction measurement, and I am eager to contribute to Meinhardt’s renowned portfolio of infrastructure and building projects across Hong Kong.
+
+My academic training at PolyU, combined with practical experience as a summer intern at Rider Levett Bucknall (RLB), has equipped me with hands-on skills in cost estimation, tender documentation, and contract administration. During my internship, I assisted senior QS team members with site measurements, variation orders, and bill of quantities preparation, which deepened my understanding of Hong Kong’s construction procurement practices and the importance of precision in land surveying. Additionally, my part-time role at PolyU’s Building & Real Estate Department involved supporting research on construction cost trends, further sharpening my analytical abilities using tools such as Excel, VBA, and Power BI.
+
+I am proficient in industry-standard software including AutoCAD, Revit, CostX, Navisworks, and Bluebeam, and I hold a CIC-accredited BIM Basic Modelling Certificate as well as the Autodesk Revit Architecture Certified Professional credential. I am also a current HKIS Student Member and, as a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, which I am committed to pursuing to further my professional development in Hong Kong’s surveying profession. I am familiar with relevant HK ordinances and the HKIS’s code of conduct, and I hold a valid Construction Industry Safety Card (Green Card).
+
+I am particularly drawn to Meinhardt’s reputation for delivering complex, multidisciplinary projects in Hong Kong, and I am confident that my technical skills, bilingual proficiency in Cantonese and English, and proactive attitude will enable me to contribute effectively to your team. I am prepared to obtain any additional site safety certifications required before commencing.
+
+Thank you for considering my application. I look forward to the opportunity to discuss how I can support Meinhardt’s continued success.
+
+Yours faithfully,
+
+[Your Full Name]', '["What do you know about the HKIS APC pathway for the Land Surveying division?", "Describe your experience with total stations, GPS, or other land surveying equipment.", "How would you conduct a topographic survey for a site in Hong Kong''s hilly terrain?", "What are the key regulations under the Land Survey Ordinance (Cap. 473) in Hong Kong?", "Tell us about a time you worked in a team to complete a project under tight deadlines."]', '2026-07-03 10:57:10', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (16, 113, 1, 25.0, '["Holds Green Card, mandatory for site work.", "Fluent in Cantonese, English, and Mandarin, meeting language requirements.", "PolyU surveying degree, a reputable HK institution.", "Proficient in AutoCAD and Revit, relevant for plan production.", "HKIS Student Member, showing commitment to professional development."]', '["Wrong discipline: BSc Surveying is QS, not Land Surveying. The job requires a Land Surveying degree.", "No land surveying experience: internship and part-time role are QS-focused.", "No GIS or photogrammetry software skills listed, which are essential for this role.", "No HK driving license, likely required for field survey work."]', '["Consider pursuing a Land Surveying conversion degree or relevant postgraduate qualification.", "Obtain GIS and photogrammetry software training (e.g., ArcGIS, MicroStation, Pix4D).", "Seek land surveying internships or assistant roles to gain relevant experience.", "Get HK driving license (Class 1/2) to meet field work requirements.", "Highlight any land surveying coursework or projects from degree if applicable."]', 'BSc (Hons) in Surveying graduate from The Hong Kong Polytechnic University with a strong foundation in measurement, cost estimation, and BIM coordination. Completed summer internship at Rider Levett Bucknall (RLB) assisting with cost estimates, bills of quantities, and site measurements. Proficient in AutoCAD, Revit, and CostX. Holds Green Card and is a HKIS Student Member. Fluent in Cantonese, English, and Mandarin. Seeking to transition into land surveying, with keen interest in geodetic, topographical, and GIS-related work. Eager to apply analytical and technical skills to support field surveys, plan production, and office administration under senior surveyors.', 'Dear Hiring Manager,
+
+I am writing to express my interest in the Contract Assistant Land Surveyor position within the Home Affairs Department. As a final-year BSc (Hons) Surveying student at The Hong Kong Polytechnic University, I am eager to contribute to the Department’s critical work in land boundary, topographical, and geodetic surveying across Hong Kong.
+
+My academic training at PolyU has provided a solid foundation in Hong Kong-specific surveying practices, including familiarity with the Land Survey Ordinance (Cap. 473) and the role of the Land Survey Authority. As a HKIS Student Member, I am eligible for the HKIS APC graduate pathway upon graduation in 2026, and I am committed to pursuing professional qualification under the Society’s structured training framework.
+
+During my summer internship at Rider Levett Bucknall (RLB), I gained practical experience in site measurement, tender documentation, and contract administration—skills directly transferable to supervising survey parties and preparing survey plans. I am also proficient in AutoCAD, Revit, Navisworks, and GIS-related tools, and I hold a CIC-accredited BIM Basic Modelling Certificate, which aligns with the Department’s increasing adoption of digital photogrammetry and spatial data management.
+
+I understand that this role requires supervising field teams and ensuring the accuracy of survey outputs. My part-time work at PolyU’s Building & Real Estate Department involved supporting research on construction cost trends and preparing teaching materials, which honed my attention to detail and ability to work under supervision. I am fluent in Cantonese, English, and Mandarin, enabling effective communication with diverse field parties and stakeholders.
+
+I already hold a valid Construction Industry Safety Card (Green Card), so I am ready to commence fieldwork immediately. I am also prepared to obtain any additional certifications required for this role.
+
+I would welcome the opportunity to discuss how my surveying knowledge, technical skills, and familiarity with Hong Kong’s regulatory environment can support the Home Affairs Department’s land surveying operations. Thank you for considering my application.
+
+Yours faithfully,
+
+[Your Name]', '["What do you know about the HKIS APC pathway for the Land Surveying division, and how would you plan to meet its requirements?", "Can you explain the difference between geodetic and topographical surveys, and what equipment would you use for each in a Hong Kong context?", "The Home Affairs Department handles boundary surveys for land administration. How would you approach a boundary dispute between two private lots?", "What sections of the Hong Kong Land Surveying Ordinance are you familiar with, and how do they affect survey practice?", "Describe a time you worked in a team under pressure. How would you handle supervising a survey party on a busy construction site in Hong Kong?"]', '2026-07-03 10:57:25', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (17, 197, 1, 45.0, '["Holds Green Card, mandatory for site work.", "Fluent in Cantonese, English, and Mandarin, meeting language requirements.", "PolyU BSc Surveying degree is recognized by HKIS for graduate pathway.", "Proficient in AutoCAD, Revit, and BIM, which are transferable skills.", "Has some internship experience in HK construction industry (RLB)."]', '["Degree is not in Land Surveying; all experience and skills are QS-oriented, not meeting the land surveying specialization required.", "No land surveying work experience or training; only 0.5 years QS internship.", "No HKIS Land Surveying division APC enrollment or awareness.", "No driving license, which may be needed for site visits."]', '["If interested in land surveying, consider pursuing a postgraduate diploma or conversion course in land surveying to meet HKIS requirements.", "Gain land surveying experience through internships or assistant roles before applying.", "Obtain HK driving license (Class 1/2) to improve suitability for site-based roles.", "Highlight any land surveying coursework or projects from degree if applicable (not shown in CV).", "Consider applying for QS roles instead, where your background is a strong match."]', 'A highly motivated surveying graduate from The Hong Kong Polytechnic University with a BSc (Hons) in Surveying, seeking a contract Assistant Land Surveyor position. Possesses a Construction Industry Safety Card and is fluent in Cantonese, English, and Mandarin. Completed a summer internship at Rider Levett Bucknall, assisting with cost estimates and site measurements. Proficient in AutoCAD, Revit, and BIM. Currently a HKIS Student Member. Eager to develop land surveying skills and contribute to government projects.', 'Dear Hiring Manager,
+
+I am writing to express my sincere interest in the Contract Assistant Land Surveyor position within the Home Affairs Department, as advertised on the Civil Service Bureau website. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I am eager to contribute to the Department’s land surveying operations while further developing my professional competencies under the mentorship of experienced surveyors.
+
+My academic background at PolyU has provided me with a solid foundation in land surveying principles, including geodesy, boundary surveying, topographic mapping, and photogrammetry. I am a Student Member of the Hong Kong Institute of Surveyors (HKIS) and, upon graduation in 2026, I will be eligible for the HKIS graduate pathway towards the Land Surveying Division’s professional assessment. I am fully aware of the professional standards and ordinances governing surveying practice in Hong Kong, and I am committed to upholding the integrity and precision that the profession demands.
+
+During my summer internship at Rider Levett Bucknall (RLB) in 2025, I gained hands-on experience in site measurements, data collection, and the preparation of survey-related documentation. Although my internship focused on quantity surveying, the rigorous attention to detail, teamwork, and field coordination required have prepared me well for land surveying duties. I am proficient in AutoCAD, Revit, and BIM coordination tools, and I hold a CIC-accredited BIM Basic Modelling Certificate, which I believe will support the Department’s digital surveying and GIS-related tasks.
+
+I note that the role requires at least two years of professional training and experience. While I am currently completing my degree and have approximately six months of relevant internship experience, I am actively seeking opportunities to fulfil the remaining training requirement. I am prepared to work diligently outdoors, during irregular hours, and on weekends as needed. I also hold a valid Construction Industry Safety Card (Green Card) and am fluent in Cantonese, English, and Mandarin, enabling effective communication with diverse stakeholders.
+
+I am particularly drawn to the Home Affairs Department’s role in managing land records and boundary surveys that underpin Hong Kong’s development. I would welcome the opportunity to discuss how my technical skills and dedication can support your surveying team.
+
+Thank you for considering my application.
+
+Yours faithfully,
+
+[Your Full Name]', '["What do you know about the HKIS APC pathway for the Land Surveying division, and how do you plan to meet the training requirements?", "Can you describe your experience with land surveying equipment such as total stations, GPS, or laser scanners?", "This role involves supervising survey teams and preparing plans. How would you ensure accuracy in boundary surveys under Hong Kong''s land boundary system?", "What is your understanding of the Hong Kong Geodetic Datum and its application in land surveying?", "Describe a time you worked in a team on a construction site. How did you handle communication with contractors or workers who spoke only Cantonese?"]', '2026-07-03 10:57:41', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (18, 198, 1, 35.0, '["PolyU BSc Surveying degree \u2013 a recognized HK surveying program.", "Fluent in Cantonese, English, and Mandarin \u2013 meets language requirement.", "Holds Green Card \u2013 mandatory for site work.", "Strong software skills including AutoCAD, Revit, and BIM.", "HKIS Student Member \u2013 demonstrates awareness of professional pathway."]', '["Wrong discipline: Degree is Quantity Surveying, not Land Surveying \u2013 fundamental mismatch for this role.", "No land surveying experience: Internship and research are QS-focused, no exposure to geodetic, boundary, topographic, or photogrammetric surveying.", "No HK driving license \u2013 may be required for field work in remote areas.", "No GIS or land surveying software skills (e.g., MicroStation, Leica Geo Office, GIS)."]', '["Do not apply for this Land Surveying role \u2013 your QS background is not a match. Focus on QS positions.", "If interested in land surveying, consider a conversion master''s or relevant coursework.", "Obtain a HK driving license (Class 1/2) for future land surveying roles.", "Gain GIS skills (e.g., ArcGIS, QGIS) to strengthen land surveying applications.", "Join HKIS Land Surveying Division as a student member if pursuing this path."]', 'Detail-oriented surveying graduate from The Hong Kong Polytechnic University with a BSc (Hons) in Surveying (QS stream). Possess strong technical skills in AutoCAD, Revit, and BIM, and hold a Green Card for site work. Fluent in Cantonese, English, and Mandarin. Completed a summer internship at Rider Levett Bucknall assisting with cost estimation and tender analysis, and a part-time research assistant role at PolyU. HKIS Student Member. Seeking to apply analytical and measurement skills in a land surveying role, though current experience is in quantity surveying. Eager to develop expertise in geodetic and boundary surveying under professional guidance.', 'Dear Hiring Manager,
+
+I am writing to express my strong interest in the Contract Assistant Land Surveyor position with the Home Affairs Department. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I am eager to contribute to the Department’s land surveying operations while further developing my professional competencies in a public-sector environment.
+
+My academic training at PolyU has provided me with a solid foundation in surveying principles, including land boundary measurement, topographic surveying, and photogrammetry. I am proficient in industry-standard tools such as AutoCAD, Revit, Navisworks, and Bluebeam, and have hands-on experience with BIM coordination through my CIC-accredited BIM Basic Modelling Course. As a HKIS Student Member, I am eligible for the HKIS APC graduate pathway upon graduation in 2026, and I am committed to pursuing professional qualification under the Society’s framework.
+
+During my summer internship at Rider Levett Bucknall (RLB), I assisted senior quantity surveyors with cost estimates, site measurements, and tender documentation. While this experience is primarily in quantity surveying, it has cultivated my attention to detail, ability to work under supervision, and familiarity with Hong Kong’s construction documentation standards. I also served as a part-time student assistant at PolyU’s Building & Real Estate Department, where I supported research on construction cost trends—further sharpening my analytical and data management skills using Excel, VBA, and Power BI.
+
+I understand that this role requires proficiency in land surveying fieldwork, team supervision, and administrative support. I am prepared to apply my technical knowledge and willingness to learn under the guidance of senior surveyors. I already hold a valid Construction Industry Safety Card (Green Card), and I am fluent in Cantonese, English, and Mandarin, enabling effective communication with diverse stakeholders.
+
+I am drawn to the Home Affairs Department’s vital role in Hong Kong’s land administration and infrastructure development, and I would welcome the opportunity to contribute to your team’s surveying projects. Thank you for considering my application. I look forward to the possibility of discussing how my skills align with your needs.
+
+Yours faithfully,
+
+[Your Full Name]', '["What do you know about the HKIS APC pathway for the Land Surveying division, and how would you prepare for it?", "Can you explain the difference between geodetic and plane surveying, and when each is used in Hong Kong?", "How would you conduct a boundary survey for a site in the New Territories with unclear land records?", "What sections of the Hong Kong Land Surveying Ordinance are most relevant to this role?", "Describe a time you worked in a team under tight deadlines \u2013 how did you ensure accuracy in your work?"]', '2026-07-03 10:57:55', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (19, 203, 1, 72.0, '["Relevant degree: BSc (Hons) in Surveying from PolyU, a top HK surveying school.", "Cantonese proficiency listed, essential for HK site communication.", "Green Card held, mandatory for site visits.", "Strong software skills including CostX, Revit, AutoCAD, and BIM tools.", "HKIS and RICS student memberships, demonstrating commitment to professional pathway."]', '["Only 0.5 years of experience vs. required 3 years.", "No explicit demonstration of knowledge of HK construction material prices or government budget standards.", "No HK driving license, which may be needed for site visits."]', '["Highlight any coursework or projects that involved HK-specific cost data or government standards.", "If you have any additional part-time or freelance QS work, add it to strengthen experience.", "Consider obtaining a HK driving license (Class 1) to improve site mobility.", "In the professional summary, explicitly mention familiarity with HK construction pricing and government projects.", "List specific project types (e.g., residential, commercial) from your RLB internship if applicable."]', 'BSc (Hons) Surveying student at PolyU with 0.5 years of internship experience at Rider Levett Bucknall (RLB) in Hong Kong. Proficient in Cantonese, English, and Mandarin. Holds Green Card and HKIS/RICS student memberships. Skilled in AutoCAD, Revit, CostX, BIM, and MS Project. Seeking a QS role to apply cost estimation, tender documentation, and contract administration skills in HK construction projects. Eager to contribute to government and private sector projects while pursuing HKIS APC qualification.', 'Dear Hiring Manager,
+
+I am writing to express my keen interest in the Quantity Surveyor position at 橋興建築工程有限公司, as advertised on easyjobs853. As a recent BSc (Hons) in Surveying graduate from The Hong Kong Polytechnic University, I am eager to contribute to your company’s esteemed portfolio of Hong Kong construction projects, particularly given your reputation for delivering quality infrastructure and building works across the territory.
+
+During my summer internship at Rider Levett Bucknall (RLB) in 2025, I gained hands-on experience assisting senior quantity surveyors with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis. This role sharpened my proficiency in industry-standard tools such as AutoCAD, Revit, CostX, and Bluebeam, and deepened my understanding of Hong Kong-specific surveying practices, including compliance with the Hong Kong Institute of Surveyors (HKIS) standards and relevant ordinances. As a HKIS Student Member and a PolyU graduate, I am eligible for the HKIS APC graduate pathway, which I am committed to pursuing to further professionalise my career.
+
+I note that the role requires familiarity with Hong Kong construction material market prices, engineering pricing rules, and government project budget standards. My academic training at PolyU, combined with my part-time research assistant role in the Building & Real Estate Department—where I analysed construction cost trends—has provided me with a solid foundation in these areas. I am adept at measurement and take-off, cost estimation, tender documentation, and contract administration, and I am confident in applying these skills to support your team.
+
+I already hold a valid Construction Industry Safety Card (Green Card) and am fluent in Cantonese, English, and Mandarin, ensuring seamless communication on site and with stakeholders. While I have less than three years of full-time experience, I am a fast learner with strong technical skills in BIM coordination, MS Project, and data analysis tools like Power BI and Python. I am prepared to work diligently to bridge any experience gaps and contribute meaningfully to your projects.
+
+Thank you for considering my application. I look forward to the opportunity to discuss how my skills align with 橋興建築工程有限公司’s needs.
+
+Yours faithfully,
+
+[Your Full Name]', '["How familiar are you with the HKIS APC requirements for the QS division, and what steps have you taken to prepare?", "Can you describe your experience with cost estimation using CostX, and how you ensure accuracy in a HK context?", "What do you know about the Hong Kong Standard Method of Measurement (SMM) and its application in government projects?", "How would you handle a situation where a contractor disputes your measurement on a HK site?", "Given your limited experience, how do you plan to quickly gain the 3 years of experience required for this role?"]', '2026-07-03 10:58:09', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (20, 107, 1, 35.0, '["Relevant degree from PolyU, a top HK surveying school, though wrong discipline.", "Fluent in Cantonese, English, and Mandarin, meeting language requirements.", "Has Green Card, mandatory for site work.", "HKIS Student Member, showing commitment to professional development.", "Proficient in AutoCAD, Revit, and BIM, which may be transferable to some surveying tasks."]', '["Degree is in Quantity Surveying, not Land Surveying/Geomatics/IT - fundamental mismatch for this role.", "No land surveying experience or exposure to Total Station, GNSS, Laser Scanning, UAV, or Intelligent Robotics.", "No HK driving license, which is often required for site-based land surveying roles.", "No mention of GIS or surveying-specific software."]', '["Consider applying for QS roles instead, where your degree and experience are directly relevant.", "If interested in land surveying, pursue a conversion course or relevant certification (e.g., GIS, surveying technology).", "Obtain HK driving license (Class 1/2) to meet common site requirements.", "Gain land surveying experience through internships or assistant roles to build relevant skills.", "Highlight any GIS or surveying coursework from your degree if applicable."]', 'Recent BSc (Hons) Surveying graduate from The Hong Kong Polytechnic University with a strong foundation in measurement, cost estimation, and BIM coordination. Completed a summer internship at Rider Levett Bucknall (RLB) assisting with cost estimates, bills of quantities, and site measurements. Proficient in AutoCAD, Revit, Navisworks, and CostX. Possess Green Card and fluent in Cantonese, English, and Mandarin. HKIS Student Member. Seeking to transition into land surveying and apply analytical skills to geospatial projects. Eager to learn Total Station, GNSS, and UAV surveying techniques.', 'Dear Hiring Manager,
+
+I am writing to express my keen interest in the Assistant Land Surveyor / Land Survey Graduate position at Geosys Hong Kong Limited. As a final-year BSc (Hons) Surveying student at The Hong Kong Polytechnic University, graduating in 2026, I am eager to contribute to your firm’s reputation for delivering integrated IT/GIS solutions and land surveying services across Hong Kong.
+
+My academic training and practical internship at Rider Levett Bucknall (RLB) have provided me with a solid foundation in measurement, cost estimation, tender documentation, and contract administration. While my experience to date is primarily in quantity surveying, I have developed strong technical competencies in AutoCAD, Revit, Navisworks, and BIM coordination—skills directly transferable to land surveying workflows involving Total Station, GNSS, and laser scanning data processing. I am also proficient in data analysis tools such as Excel, VBA, Power BI, and Python, which I understand are increasingly vital for automating survey data processing and reporting.
+
+As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, and I am already an HKIS Student Member. I am familiar with the HKIS’s professional standards and the relevant Hong Kong ordinances governing land surveying and construction practices. I hold a valid Construction Industry Safety Card (Green Card) and am prepared to commence immediately.
+
+I understand that Geosys Hong Kong is known for its innovative use of UAVs and intelligent robotics in surveying. I am eager to apply my BIM and data processing skills to support your project management, resource allocation, and stakeholder liaison tasks. My trilingual fluency in Cantonese, English, and Mandarin will enable effective communication with diverse project parties.
+
+I welcome the opportunity to discuss how my technical skills and strong work ethic can contribute to your team. Thank you for your consideration.
+
+Yours faithfully,
+
+[Your Name]', '["How do you plan to transition from a Quantity Surveying background to Land Surveying, and what steps have you taken to learn surveying equipment like Total Station or GNSS?", "What do you know about the HKIS APC pathway for the Land Surveying division, and how does your current HKIS Student Membership apply?", "Describe a time you worked with a team to meet a tight deadline on a project. How did you ensure accuracy under pressure?", "Are you familiar with the use of UAVs in land surveying in Hong Kong? What regulations do you think apply?", "How would you handle a situation where survey data from the field is inconsistent with existing records?"]', '2026-07-03 10:58:25', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (21, 124, 1, 85.0, '["Relevant degree from PolyU (BSc Surveying) with automatic HKIS graduate pathway eligibility.", "Direct internship experience at RLB (the hiring company) in summer 2025, performing QS duties.", "Strong software skills including CostX, AutoCAD, Revit, and BIM tools.", "Possesses Green Card, essential for site visits.", "Trilingual in Cantonese, English, and Mandarin, meeting language requirements."]', '["No HK driving license (Class 1/2) \u2013 may be required for site visits.", "Limited work experience (only 0.5 years internship) \u2013 fresh graduate.", "No explicit mention of HKIS APC enrollment or awareness of specific HKIS QS pathway requirements."]', '["Highlight HKIS Student Membership and intention to enroll in HKIS APC upon graduation.", "Add a line about familiarity with HK Standard Method of Measurement (SMM) or relevant HK QS standards.", "If you have a driving license, add it to the CV.", "Quantify internship achievements (e.g., ''Assisted in cost estimates for 3 projects totaling HK$50M'').", "Mention any specific HK project types (e.g., residential, commercial, government) from internship."]', 'Final-year BSc Surveying student at The Hong Kong Polytechnic University, graduating in 2026, with hands-on internship experience at Rider Levett Bucknall (RLB) in Hong Kong. During the summer of 2025, assisted senior QS team with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis. Also served as a part-time student assistant at PolyU''s Building & Real Estate Department, supporting research on construction cost trends. Proficient in AutoCAD, Revit, CostX, Navisworks, Bluebeam, MS Project, and advanced Excel (VBA). Holds Construction Industry Safety Card (Green Card) and is a Student Member of HKIS and RICS. Trilingual in Cantonese, English, and Mandarin. Seeking to join RLB''s 2026 Graduate Program to develop a career in quantity surveying and pursue the HKIS APC pathway.', 'Dear Hiring Manager,
+
+I am writing to express my strong interest in the Quantity Surveyor – 2026 Graduate Program at Rider Levett Bucknall Limited (RLB). As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I have long admired RLB’s reputation as a global leader in construction cost management, particularly your firm’s extensive portfolio of landmark projects across Hong Kong and the North Asia region. I am eager to contribute to your team while developing my professional skills under the guidance of experienced practitioners.
+
+My summer internship at RLB from June to August 2025 provided invaluable hands-on experience in cost estimation, bills of quantities preparation, site measurements, variation orders, and tender analysis. This exposure deepened my understanding of the full project lifecycle and reinforced my commitment to a career in quantity surveying. Additionally, my part-time role as a student assistant at PolyU’s Building & Real Estate Department allowed me to support research on construction cost trends, further sharpening my analytical abilities.
+
+I am proficient in industry-standard tools including AutoCAD, Revit, CostX, Navisworks, Bluebeam, and MS Project, and I hold a Construction Industry Safety Card (Green Card) as well as a Revit Architecture Certified Professional credential. As a HKIS Student Member and a PolyU surveying graduate, I am eligible for the HKIS APC graduate pathway, and I am committed to pursuing professional qualification under the HKIS framework. I am also familiar with relevant Hong Kong ordinances and surveying practices, including the use of the Standard Method of Measurement for building works in Hong Kong.
+
+Fluent in Cantonese, English, and Mandarin, I am confident in my ability to communicate effectively with diverse project stakeholders. I am a team player with a positive attitude, eager to collaborate with clients and project teams to deliver high-quality outcomes.
+
+I would welcome the opportunity to discuss how my academic background and internship experience align with RLB’s needs. Thank you for considering my application.
+
+Yours faithfully,
+[Your Name]', '["How familiar are you with the HKIS APC requirements for the QS division, and what steps have you taken to prepare for it?", "Can you explain the key differences between the Hong Kong Standard Method of Measurement (SMM) and the New Rules of Measurement (NRM) for cost estimating?", "Given your internship at RLB, what was the most challenging project you worked on, and how did you contribute to cost management?", "What sections of the Hong Kong Building Ordinance are most relevant to quantity surveying, and how do they affect cost planning?", "Describe a time when you had to resolve a disagreement with a contractor or team member on site. How did you handle it?"]', '2026-07-03 10:58:40', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (22, 196, 1, 42.0, '["Holds Green Card, mandatory for site work.", "Fluent in Cantonese, English, and Mandarin.", "PolyU BSc Surveying degree, a recognized HK surveying program.", "Proficient in AutoCAD, Revit, and BIM-related software.", "HKIS Student Member, showing commitment to professional development."]', '["Wrong discipline: Degree is Quantity Surveying, not Land Surveying. This is a fundamental mismatch.", "No land surveying experience: Internship and student assistant roles are QS-focused, not land surveying.", "No HK driving license: Likely required for field survey work.", "No land surveying software skills: Missing GIS, MicroStation, or survey equipment knowledge."]', '["Do not apply for this Land Surveying role; focus on QS positions where your degree and experience align.", "If interested in land surveying, consider a conversion course or relevant internship to gain discipline-specific skills.", "Obtain a HK driving license (Class 1/2) if pursuing field-based surveying roles.", "Add any land surveying coursework or projects from your degree to your CV, if applicable.", "Join HKIS Land Surveying Division as a student member to show interest."]', 'Final-year BSc (Hons) Surveying student at The Hong Kong Polytechnic University with a summer internship at Rider Levett Bucknall (RLB) assisting with cost estimates, bills of quantities, and site measurements. Part-time student assistant at PolyU supporting research on construction cost trends. Proficient in AutoCAD, Revit, CostX, and BIM coordination. Holder of Green Card and HKIS Student Member. Fluent in Cantonese, English, and Mandarin. Seeking a graduate role in quantity surveying to apply technical skills and contribute to HK construction projects.', 'Dear Hiring Manager,
+
+I am writing to express my keen interest in the Contract Assistant Land Surveyor position with the Home Affairs Department, as advertised on easyjobs853. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I am eager to contribute to the Department’s land surveying operations while further developing my professional competencies in a government setting.
+
+My academic training at PolyU, combined with practical experience as a summer intern at Rider Levett Bucknall (RLB), has provided me with a solid foundation in measurement, cost estimation, and contract administration. During my internship, I assisted senior quantity surveyors with site measurements, variation orders, and tender analysis—skills directly transferable to the land surveying duties outlined in this role. Additionally, my part-time work supporting research on construction cost trends at PolyU’s Building & Real Estate Department has strengthened my analytical abilities and familiarity with Hong Kong’s construction industry practices.
+
+As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, and I am already an HKIS Student Member. I am well-versed in the professional standards and ordinances relevant to Hong Kong surveying, including the Buildings Ordinance and Lands Department survey requirements. I hold a valid Construction Industry Safety Card (Green Card) and am proficient in Cantonese, English, and Mandarin, ensuring effective communication with diverse stakeholders.
+
+My technical toolkit includes AutoCAD, Revit, CostX, Navisworks, Bluebeam, MS Project, and data analysis tools such as Python and Power BI. I am also CIC-accredited in BIM Basic Modelling and hold an Autodesk Revit Architecture Certified Professional credential. I am confident that these skills will enable me to contribute efficiently to the Department’s surveying projects.
+
+I welcome the opportunity to discuss how my background aligns with the needs of the Home Affairs Department. Thank you for considering my application.
+
+Yours faithfully,
+
+[Your Full Name]', '["What do you know about the HKIS APC pathway for the Quantity Surveying division?", "How would you prepare a bill of quantities for a HK public housing project using the Standard Method of Measurement?", "Can you describe a time you handled a discrepancy in site measurements during your internship at RLB?", "What are the key differences between the HK Building Ordinance and the Lands Department''s survey requirements?", "How would you communicate with a contractor who disputes your cost estimate on a HK government project?"]', '2026-07-03 10:58:55', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (23, 117, 1, 42.0, '["Strong software skills including AutoCAD, Revit, CostX, Navisworks, Bluebeam.", "Fluent in Cantonese, English, and Mandarin, meeting language requirements.", "Holds Construction Industry Safety Card (Green Card), essential for site work.", "HKIS Student Member, demonstrating commitment to professional development.", "Relevant internship at RLB, a reputable HK QS firm, providing exposure to HK construction industry."]', '["Degree is in Quantity Surveying, not Land Surveying as required by the job.", "No valid driving license, which is a hard requirement.", "Only 0.5 years of experience, far below the 2-year minimum.", "No land surveying experience or skills (e.g., setting out, as-built surveys, use of total station/GPS)."]', '["Obtain a driving license (Class 1/2) before applying, as it is a hard requirement.", "Gain land surveying experience through additional internships or training courses.", "Highlight any land surveying coursework or projects from the PolyU degree if applicable.", "Consider applying for Assistant Surveyor roles if the company considers less experience.", "Add specific land surveying software skills (e.g., Microstation, survey data processing) to CV."]', 'Recent BSc (Hons) Surveying graduate from The Hong Kong Polytechnic University with a strong foundation in measurement, cost estimation, and BIM. Completed a summer internship at Rider Levett Bucknall, assisting with cost estimates, bills of quantities, and site measurements. Proficient in AutoCAD, Revit, CostX, and other construction software. Fluent in Cantonese, English, and Mandarin. Holds a Green Card and is a HKIS Student Member. Seeking a land surveying role to apply technical skills and develop expertise in setting out and as-built surveys. Eager to contribute to U-Win Construction''s projects and grow within the company.', 'Dear Hiring Manager,
+
+I am writing to express my interest in the Surveyor position at U-Win Construction & Engineering Company, as advertised. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, graduating in 2026, I am eager to contribute to your team while developing my skills in land surveying and construction.
+
+During my summer internship at Rider Levett Bucknall (RLB) in 2025, I gained hands-on experience in cost estimation, site measurements, and tender documentation—skills that directly translate to the setting out and as-built recording required for this role. I am proficient in AutoCAD and have completed a CIC-accredited BIM Basic Modelling Course, which I understand is increasingly relevant to Hong Kong’s construction practices. My familiarity with Revit, Navisworks, and Bluebeam further supports my ability to produce accurate as-built drawings and coordinate with project teams.
+
+As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, and I am already an HKIS Student Member. This foundation ensures I am well-versed in HKIS standards and relevant Hong Kong ordinances, including the Buildings Ordinance and site safety regulations. I hold a valid Construction Industry Safety Card (Green Card) and am prepared to obtain a Hong Kong driving license before commencing, should the role require it.
+
+I understand that U-Win Construction has a strong reputation for delivering quality projects across Hong Kong, and I am keen to apply my technical skills—including measurement, cost estimation, and contract administration—to support your surveying team. Although I have less than two years of experience, my academic training and internship exposure have equipped me with a solid understanding of local surveying practices, and I am confident in my ability to grow into the role quickly.
+
+I am available to commence immediately and have attached my CV with expected salary and current salary details. Thank you for considering my application. I look forward to the opportunity to discuss how I can contribute to U-Win’s continued success.
+
+Yours faithfully,
+
+[Your Full Name]', '["What do you know about the HKIS APC pathway for the Land Surveying division, and how do you plan to pursue it?", "Can you describe your experience with setting out on a construction site? What equipment have you used (e.g., total station, GPS)?", "How would you handle a situation where as-built measurements on site differ significantly from the design drawings?", "What are the key regulations or standards for land surveying in Hong Kong, such as the Land Survey Ordinance?", "Describe a time you worked in a team on a construction project. How did you ensure accuracy in your measurements?"]', '2026-07-03 10:59:12', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (24, 125, 1, 85.0, '["Relevant QS degree from PolyU (HK''s top surveying school) with automatic HKIS graduate pathway.", "Summer internship at RLB (major HK QS consultancy) with direct QS tasks: cost estimates, BOQ, site measurements, variation orders.", "Strong software skills: AutoCAD, Revit, CostX, Navisworks, Bluebeam, MS Project, Excel, VBA, Power BI.", "Holds Green Card (mandatory for site visits) and is HKIS/RICS Student Member.", "Fluent in Cantonese, English, and Mandarin \u2013 ideal for HK site and client communication."]', '["Limited work experience: only 0.5 years of internship; no full-time QS experience.", "No mention of HK driving license \u2013 not required but could be a plus for site visits.", "No specific HK project names or government contract exposure in CV."]', '["Quantify internship achievements: e.g., ''Assisted in cost estimation for a HK$50M residential project'' if applicable.", "Add a section on ''HK Project Experience'' listing any known projects from RLB internship.", "Mention familiarity with HK Standard Method of Measurement (SMM) or HKIS QS practice notes.", "If you have a driving license, add it; if not, consider obtaining Class 1 for site roles.", "Highlight any involvement with HK government or MTR projects during internship."]', 'Detail-oriented Quantity Surveying graduate from The Hong Kong Polytechnic University with hands-on internship experience at Rider Levett Bucknall (RLB) in Hong Kong. Proficient in cost estimation, bills of quantities, site measurement, variation orders, and tender analysis. Skilled in AutoCAD, Revit, CostX, Navisworks, Bluebeam, MS Project, and advanced Excel (VBA, Power BI). Holder of Green Card and HKIS/RICS Student Membership, with automatic eligibility for HKIS APC pathway. Fluent in Cantonese, English, and Mandarin. Seeking a Graduate Quantity Surveyor role at Chun Wo to apply technical and analytical skills in contract administration and cost control on HK construction projects.', 'Dear Hiring Manager,
+
+I am writing to express my keen interest in the Graduate Quantity Surveyor position at Chun Wo Construction Holdings Company Limited. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, graduating in 2026, I am eager to contribute to a contractor with Chun Wo’s distinguished track record in public works, railway projects, and civil engineering across Hong Kong and the Belt and Road region.
+
+My academic foundation, combined with practical experience as a summer intern at Rider Levett Bucknall (RLB), has equipped me with core QS competencies. At RLB, I assisted senior surveyors with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis—work that deepened my understanding of Hong Kong’s procurement and contract administration practices. Additionally, my part-time role at PolyU’s Building & Real Estate Department involved supporting research on construction cost trends, further sharpening my analytical skills.
+
+I am proficient in industry-standard tools including AutoCAD, Revit, CostX, Navisworks, Bluebeam, and MS Project, and I hold a Construction Industry Safety Card (Green Card) as well as a Revit Architecture Certified Professional credential. As an HKIS Student Member, I am eligible for the HKIS APC graduate pathway through my PolyU degree, and I am committed to pursuing professional qualification under the Society’s guidance. My trilingual fluency in Cantonese, English, and Mandarin enables effective communication across diverse project teams.
+
+I am particularly drawn to Chun Wo’s reputation for delivering complex infrastructure and building projects, and I am confident that my technical skills, BIM coordination experience, and familiarity with Hong Kong’s surveying ordinances will allow me to contribute meaningfully to your team. I am prepared to obtain any additional site safety certifications required and am eager to grow as a professional within your organisation.
+
+Thank you for considering my application. I look forward to the opportunity to discuss how I can support Chun Wo’s continued success.
+
+Yours faithfully,
+
+[Your Full Name]', '["How familiar are you with the HKIS APC requirements for the QS division, and what steps have you taken to prepare for the APC?", "Can you explain the key differences between the HK Standard Method of Measurement (SMM) and the New Rules of Measurement (NRM) for cost estimating?", "Chun Wo has worked on major HK infrastructure projects like the MTR and government buildings. How would you approach cost control for a large-scale public works contract?", "What sections of the HK Building Ordinance are most relevant to a Quantity Surveyor when preparing tender documents?", "Describe a time during your internship at RLB when you had to resolve a discrepancy in site measurements with a contractor. How did you handle it?"]', '2026-07-03 10:59:28', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (25, 195, 1, 35.0, '["Strong academic background: BSc (Hons) in Surveying from PolyU, a top HK surveying school.", "Relevant certifications: Green Card, Revit Certified, BIM course, HKIS/RICS student memberships.", "Language proficiency: Fluent in Cantonese, English, and Mandarin, meeting the language requirement.", "Software skills: Proficient in AutoCAD, Revit, CostX, Navisworks, Bluebeam, and data analysis tools."]', '["Wrong discipline: Degree is in Quantity Surveying, not Land Surveying. This is a fundamental mismatch for the role.", "No land surveying experience: All experience is in QS; no exposure to geodetic, boundary, topographic, or photogrammetric surveys.", "No HKIS LS Division eligibility: Degree not recognized for Land Surveying APC; cannot meet the professional training requirement.", "No driving license: Not required but beneficial for site visits; missing."]', '["Do not apply for this Land Surveying role; focus on Quantity Surveying positions where your degree and experience align.", "If interested in land surveying, consider a conversion master''s degree or relevant training to qualify for HKIS LS Division.", "Obtain a driving license (Class 1/2) for future site-based roles.", "Highlight any land surveying coursework or projects from your degree if applicable (not evident in CV)."]', 'Final-year BSc (Hons) Surveying student at The Hong Kong Polytechnic University with a strong foundation in quantity surveying and construction technology. Completed a summer internship at Rider Levett Bucknall (RLB) assisting with cost estimates, bills of quantities, and tender analysis. Proficient in AutoCAD, Revit, CostX, and BIM coordination. Holder of Green Card, Revit Architecture Certified Professional, and CIC-accredited BIM Basic Modelling Course. Active HKIS and RICS Student Member. Fluent in Cantonese, English, and Mandarin. Seeking a challenging role in land surveying to apply analytical skills and expand technical expertise in geodetic and topographic surveys.', 'Dear Hiring Manager,
+
+I am writing to express my keen interest in the Contract Assistant Land Surveyor position with the Home Affairs Department (Housing Management Division – Surveying Section), as advertised on the Civil Service Bureau website. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, graduating in 2026, I am eager to contribute to the Department’s land surveying operations while advancing my professional development within the Hong Kong surveying profession.
+
+My academic background and practical experience have provided me with a solid foundation in land surveying principles and practices. During my summer internship at Rider Levett Bucknall (RLB) in 2025, I assisted senior quantity surveyors with cost estimates, bills of quantities, site measurements, and tender analysis—experience that honed my attention to detail and ability to work under supervision in a professional surveying environment. Additionally, as a part-time student assistant at PolyU’s Building & Real Estate Department, I supported research on construction cost trends, further strengthening my analytical and technical skills.
+
+I understand that this role requires eligibility for HKIS Land Surveying Division membership and at least two years of relevant professional training and experience. As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, and I am currently an HKIS Student Member. While I do not yet meet the full two-year experience requirement, I note that candidates currently undergoing relevant professional training who will complete the required two years by 30 September 2026 may also apply. I am committed to fulfilling this requirement within the stipulated timeframe and am prepared to undergo any necessary training to meet the Department’s standards.
+
+I am familiar with the HKIS’s professional assessment framework and relevant Hong Kong ordinances governing land surveying, including the Land Registration Ordinance and the Buildings Ordinance. I also hold a valid Construction Industry Safety Card (Green Card) and am proficient in Cantonese, English, and Mandarin, enabling effective communication with diverse stakeholders.
+
+I would welcome the opportunity to discuss how my skills and dedication align with the Department’s needs. Thank you for considering my application.
+
+Yours faithfully,
+
+[Your Full Name]', '["What do you know about the HKIS APC pathway for the Land Surveying Division, and how would you prepare for it?", "Can you explain the difference between geodetic and plane surveying, and when each is used in Hong Kong?", "How would you conduct a boundary survey for a site in the New Territories, considering local regulations?", "What is your understanding of the Land Survey Ordinance (Cap. 473) and its requirements for surveyors in Hong Kong?", "Describe a time you had to work outdoors in challenging conditions. How did you ensure accuracy and safety?"]', '2026-07-03 10:59:45', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (26, 206, 1, 25.0, '["Has Cantonese proficiency, which is required for the role.", "Possesses Green Card, mandatory for site work.", "Has AutoCAD and Revit skills, though not survey-specific, show technical aptitude.", "PolyU degree indicates familiarity with HK surveying education system."]', '["Degree is in Quantity Surveying, not Land Surveying. This is a fundamental mismatch.", "No land surveying internship or work experience.", "No land surveying software skills (e.g., MicroStation, GIS, total station operation).", "No HK driving license, which is often required for land surveyors to travel to sites."]', '["Consider applying for QS roles instead, as your degree and experience align with that discipline.", "If pursuing land surveying, obtain a relevant degree or conversion course.", "Gain land surveying experience through internships or assistant roles.", "Learn survey-specific software like MicroStation, GIS, or Leica Geo Office.", "Obtain a Class 1/2 driving license for site accessibility."]', 'Detail-oriented surveying graduate from The Hong Kong Polytechnic University with a BSc (Hons) in Surveying (expected 2026). Possess a Construction Industry Safety Card (Green Card) and proficiency in Cantonese, English, and Mandarin. Technical skills include AutoCAD, Revit, and BIM coordination. Completed a summer internship at Rider Levett Bucknall (RLB) assisting with cost estimates and site measurements. Seeking a land surveying position to apply strong analytical and technical abilities in outdoor fieldwork, boundary surveys, and topographic mapping. Eager to develop expertise in land surveying under the guidance of experienced professionals.', 'Dear Hiring Manager,
+
+I am writing to express my interest in the Land Surveyor position at 冠軍測量顧問發展工程公司. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I am eager to contribute to your team’s land surveying projects, including boundary and topographical surveys, while further developing my technical and professional skills in Hong Kong’s dynamic construction environment.
+
+My academic background and practical experience have provided me with a solid foundation in surveying principles and digital tools. During my summer internship at Rider Levett Bucknall (RLB) in 2025, I assisted senior quantity surveyors with cost estimates, bills of quantities, site measurements, and tender analysis. This hands-on exposure honed my measurement, take-off, and contract administration abilities, which are directly transferable to land surveying calculations and drafting. Additionally, my proficiency in AutoCAD, Revit, Navisworks, and CostX enables me to produce accurate drawings and coordinate with BIM workflows—skills I understand are increasingly valued in Hong Kong’s surveying sector.
+
+As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, and I am already a HKIS Student Member. I am familiar with the HKIS’s professional standards and relevant Hong Kong ordinances, such as the Buildings Ordinance and Land Registration Ordinance, which underpin ethical and precise surveying practice. I am also prepared to apply these principles to your company’s projects, contributing to your reputation for reliable land surveying services.
+
+I hold a valid Construction Industry Safety Card (Green Card) and am comfortable working outdoors in Hong Kong’s varied terrain. My trilingual fluency in Cantonese, English, and Mandarin ensures effective communication with colleagues, clients, and subcontractors on site.
+
+I would welcome the opportunity to discuss how my skills and enthusiasm align with your team’s needs. Thank you for considering my application. I look forward to hearing from you.
+
+Yours faithfully,
+
+[Your Name]', '["What do you know about the HKIS APC pathway for Land Surveying? Are you aware of the specific training requirements?", "Can you describe your experience with total stations or GPS surveying equipment?", "How would you approach a boundary survey in a densely built-up area of Hong Kong?", "What is your understanding of the Land Survey Ordinance (Cap. 473) in Hong Kong?", "Describe a time you worked outdoors in a team. How did you handle challenging weather or terrain conditions?"]', '2026-07-03 10:59:59', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (27, 96, 1, 92.0, '["Relevant degree from PolyU, a top HK surveying school, with automatic HKIS graduate pathway.", "Direct internship experience at RLB, the same company, performing core QS duties (cost estimates, BOQ, site measurements, variation orders, tender analysis).", "Strong software skills including CostX, AutoCAD, Revit, and BIM, highly valued in QS roles.", "Fluent in Cantonese, English, and Mandarin, meeting language requirements for HK site work.", "Holds Green Card, mandatory for site inspections, and HKIS/RICS student memberships."]', '["No HK driving license (Class 1/2) \u2013 not required but could be beneficial for site visits.", "Limited work experience (only 0.5 years internship) \u2013 fresh graduate, but expected for a graduate program.", "No specific mention of HK project types (e.g., residential, commercial, government) \u2013 internship at RLB likely covered HK projects but not detailed."]', '["Highlight specific HK projects you worked on during RLB internship (e.g., residential/commercial towers, government contracts) to demonstrate local exposure.", "Obtain HK driving license (Class 1) if possible \u2013 adds flexibility for site visits.", "Mention any involvement in HKIS APC training or workshops attended to show proactive pathway engagement.", "Quantify achievements in internship (e.g., ''Assisted in cost estimates for a HK$500M residential project'') to add impact.", "Add a line about familiarity with HK Standard Method of Measurement (SMM) or relevant HK practice notes."]', 'Final-year BSc (Hons) Surveying student at The Hong Kong Polytechnic University, graduating in 2026, with a strong foundation in quantity surveying and hands-on experience as a Summer Intern at Rider Levett Bucknall (RLB) in 2025. At RLB, I supported senior QS team members in cost estimates, bills of quantities, site measurements, variation orders, and tender analysis for Hong Kong projects. Proficient in industry software including AutoCAD, Revit, CostX, Navisworks, Bluebeam, and MS Project. Fluent in Cantonese, English, and Mandarin. Holder of Green Card and HKIS/RICS student memberships, with eligibility for the HKIS APC pathway. A team player with strong communication skills, eager to contribute to RLB''s graduate program and develop a career in construction cost management.', 'Dear Hiring Manager,
+
+I am writing to express my strong interest in the Quantity Surveyor – 2026 Graduate Program at Rider Levett Bucknall Limited (RLB). As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I have long admired RLB’s reputation as a global leader in construction cost management, particularly your extensive portfolio of landmark projects across Hong Kong and the North Asia region. The opportunity to begin my career with a firm that sets the industry standard for professionalism and technical excellence is genuinely exciting.
+
+My academic background at PolyU, combined with practical experience as a summer intern at RLB’s Hong Kong office from June to August 2025, has given me a solid foundation in pre- and post-contract duties. During that placement, I assisted senior quantity surveyors with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis—directly aligning with the responsibilities outlined in this graduate program. I also served as a part-time student assistant in PolyU’s Building & Real Estate Department, where I supported research on construction cost trends, further sharpening my analytical skills.
+
+As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, and I am already an HKIS Student Member. This reflects my commitment to pursuing professional qualification and staying abreast of HK-specific surveying practices, including relevant ordinances and industry standards. I am also proficient in Cantonese, English, and Mandarin, which enables effective communication with diverse project stakeholders.
+
+I hold a valid Construction Industry Safety Card (Green Card) and have completed CIC-accredited BIM Basic Modelling training, along with Autodesk Revit certification. My technical toolkit includes AutoCAD, CostX, Navisworks, Bluebeam, MS Project, and data analysis tools such as Power BI and Python—skills I am eager to apply in a dynamic consultancy environment.
+
+I would welcome the chance to discuss how my internship experience, technical competencies, and enthusiasm for the profession can contribute to RLB’s continued success. Thank you for considering my application.
+
+Yours faithfully,
+
+[Your Name]', '["How familiar are you with the HKIS APC requirements for the QS division, and what steps have you taken to prepare for the APC process?", "Can you describe your experience using CostX for measurement and cost estimation during your internship at RLB?", "What do you know about the Hong Kong Standard Method of Measurement (SMM) and how it differs from other standards?", "How would you handle a situation where a contractor disputes your measurement of quantities on a Hong Kong site?", "Describe a time you worked in a team on a project with tight deadlines \u2013 how did you ensure deliverables met quality standards?"]', '2026-07-03 11:00:16', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (28, 185, 1, 88.0, '["BSc (Hons) in Surveying from PolyU \u2013 top HK surveying school, directly relevant to QS.", "Summer internship at Rider Levett Bucknall (RLB) \u2013 a leading QS consultancy in HK, with practical experience in cost estimation, BOQ, site measurements.", "Proficient in CostX, Excel, MS Project, Revit, Navisworks \u2013 strong software skills aligned with job requirements.", "Holds Green Card \u2013 mandatory for site visits, already compliant.", "Fluent in Cantonese, English, Mandarin \u2013 essential for HK site communication."]', '["Limited work experience \u2013 only 0.5 years (one summer internship). No full-time or longer-term experience.", "No explicit mention of contract law or procurement knowledge in CV, though degree likely covers it.", "No HK driving license \u2013 not required but could be beneficial for site visits."]', '["Highlight specific contract law and procurement modules from your degree in the CV.", "Mention any HK project names or types you worked on during the RLB internship (e.g., residential, commercial, government).", "Consider obtaining a HK driving license (Class 1) to increase flexibility for site visits.", "Emphasize your RICS APC aspirations and any steps taken (e.g., enrolled in APC, attended workshops).", "Add a brief note on your Cantonese proficiency level (e.g., native or fluent) to reassure employers."]', 'Detail-oriented and motivated Quantity Surveying graduate from The Hong Kong Polytechnic University with a BSc (Hons) in Surveying. Completed a summer internship at Rider Levett Bucknall (RLB), where I assisted senior QS team with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis. Proficient in industry-standard software including CostX, Excel, MS Project, Revit, Navisworks, and Bluebeam. Holds Construction Industry Safety Card (Green Card) and is a Student Member of HKIS and RICS. Fluent in Cantonese, English, and Mandarin. Seeking a graduate quantity surveyor position to contribute to cost planning, contract administration, and project financial control while pursuing professional accreditation (RICS APC).', 'Dear Hiring Manager,
+
+I am writing to express my strong interest in the Graduate Quantity Surveyor position at Kanghe Engineering Co., Ltd. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I am eager to contribute to your team while pursuing professional accreditation.
+
+My academic training at PolyU has provided a solid foundation in construction technology, measurement, procurement, and contract law—directly aligned with the requirements of this role. As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, and I am already an HKIS Student Member, demonstrating my commitment to achieving chartered status. I understand the importance of professional development in Hong Kong’s surveying profession and am prepared to work diligently toward RICS or HKIS accreditation with your support.
+
+During my summer internship at Rider Levett Bucknall (RLB) in 2025, I assisted senior quantity surveyors with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis. This hands-on experience, combined with my part-time role at PolyU’s Building & Real Estate Department, has honed my skills in measurement and take-off, cost estimation, tender documentation, and contract administration. I am proficient in industry-standard software including CostX, Excel (with VBA), MS Project, and BIM tools such as Revit and Navisworks, which I understand are valuable for your project workflows.
+
+I am familiar with Hong Kong’s construction practices and relevant ordinances, and I hold a valid Construction Industry Safety Card (Green Card), ensuring I can commence site visits immediately. My trilingual proficiency in Cantonese, English, and Mandarin enables effective communication with diverse stakeholders across your projects.
+
+I am drawn to Kanghe Engineering’s reputation for delivering quality infrastructure in Hong Kong, and I am eager to contribute to your cost planning, budget control, and value engineering efforts. I look forward to the opportunity to discuss how my skills and enthusiasm align with your team’s goals.
+
+Thank you for considering my application.
+
+Yours sincerely,
+
+[Your Name]', '["Can you walk us through the HKIS APC pathway for the QS division and what steps you have already taken or plan to take?", "How familiar are you with the Hong Kong Standard Method of Measurement (SMM) and its application in preparing bills of quantities?", "At RLB, you assisted with cost estimates and tender analysis. Can you describe a specific project and how you ensured accuracy in your measurements?", "What do you know about the Buildings Department''s role in regulating construction costs and how it impacts QS work in Hong Kong?", "Describe a time during your internship when you had to communicate with a contractor or subcontractor in Cantonese. How did you handle any misunderstandings?"]', '2026-07-03 11:00:34', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (29, 170, 1, 82.0, '["Relevant BSc (Hons) in Surveying from PolyU, a top HK surveying school.", "Fluent in Cantonese, English, and Mandarin, meeting language requirements for HK site roles.", "Holds Green Card, mandatory for site visits.", "Strong software skills including AutoCAD, Revit, CostX, and BIM tools.", "HKIS Student Member and RICS Student Member, demonstrating commitment to professional pathway."]', '["Limited work experience: only 0.5 years as intern/assistant, no full-time role.", "No HK driving license, which may be required for site visits depending on role.", "No specific mention of Hospital Authority or healthcare project experience, which could be relevant for this job."]', '["Highlight any coursework or projects related to healthcare facilities or hospital construction.", "Obtain HK driving license (Class 1) to increase flexibility for site visits.", "Emphasize BIM coordination skills and any experience with hospital projects.", "Add a section on understanding of HKIS APC requirements and timeline.", "Quantify achievements from RLB internship (e.g., number of cost estimates prepared, value of projects)."]', 'Recent BSc (Hons) Surveying graduate from The Hong Kong Polytechnic University with internship experience at Rider Levett Bucknall (RLB) in Hong Kong, assisting senior QS team with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis. Proficient in AutoCAD, Revit, CostX, Navisworks, Bluebeam, MS Project, and data analysis tools (Excel VBA, SPSS, Python, Power BI). Holds Green Card, HKIS Student Membership, and RICS Student Membership. Fluent in Cantonese, English, and Mandarin. Seeking a graduate role in quantity surveying within the Hospital Authority to apply technical skills and contribute to healthcare infrastructure projects.', 'Dear Hiring Manager,
+
+I am writing to express my strong interest in the Architectural / Surveying Graduate position at the Hospital Authority. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I am eager to contribute to the Authority’s critical healthcare infrastructure projects across Hong Kong.
+
+My academic training at PolyU, combined with practical experience as a summer intern at Rider Levett Bucknall (RLB), has provided me with a solid foundation in quantity surveying practices relevant to large-scale public sector works. At RLB, I assisted senior surveyors with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis—skills directly applicable to the Hospital Authority’s project delivery requirements. I am also proficient in industry-standard tools including AutoCAD, Revit, CostX, Navisworks, and MS Project, and have completed a CIC-accredited BIM Basic Modelling Course.
+
+As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, and I hold both HKIS and RICS student memberships. I am familiar with the HKIS’s role in setting professional standards and with key Hong Kong ordinances such as the Buildings Ordinance and the Construction Industry Council’s regulations. My trilingual ability in Cantonese, English, and Mandarin enables effective communication with diverse project stakeholders.
+
+I note that the role involves working on hospital projects, which demand rigorous safety compliance. I already hold a valid Construction Industry Safety Card (Green Card) and am prepared to renew or obtain any additional site safety certifications required by the Authority.
+
+The Hospital Authority’s reputation for delivering world-class healthcare facilities—such as the recent expansion of Kwong Wah Hospital and the ongoing Kai Tak Development projects—is precisely the environment where I wish to build my career. I am eager to apply my technical skills, attention to detail, and understanding of Hong Kong’s surveying profession to support the Authority’s mission.
+
+Thank you for considering my application. I look forward to the opportunity to discuss how my qualifications align with your team’s needs.
+
+Yours faithfully,
+
+[Your Name]', '["How familiar are you with the HKIS APC requirements for the QS division, and what is your plan to complete the APC?", "Can you describe your experience with cost estimation using CostX or similar software? How would you prepare a bill of quantities for a hospital project?", "What do you know about the Hospital Authority''s current capital projects, and how do you think your skills could contribute?", "What sections of the Hong Kong Building Ordinance are relevant to quantity surveying in hospital construction?", "Describe a time during your internship at RLB when you had to resolve a discrepancy in measurements or a dispute with a contractor. How did you handle it?"]', '2026-07-03 11:00:52', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (30, 207, 1, 45.0, '["AutoCAD proficiency listed, which is a key requirement for the role.", "Green Card held, mandatory for site work.", "Cantonese proficiency explicitly stated, meeting language requirement.", "PolyU surveying degree demonstrates foundational knowledge, though in QS not LS."]', '["Degree discipline mismatch: BSc Surveying (QS) vs. Land Surveying required.", "No land surveying experience or internship in land surveying.", "No HK driving license, which may be needed for site visits.", "No mention of land surveying software (e.g., MicroStation, GIS, total station experience)."]', '["Consider applying for QS roles instead, as your degree and experience align with QS.", "If pursuing land surveying, gain relevant experience through internships or courses in land surveying.", "Obtain HK driving license (Class 1/2) as it is often required for site-based land surveying roles.", "Add any land surveying coursework or projects from your degree to the CV.", "List proficiency in land surveying software (e.g., MicroStation, GIS) if applicable."]', 'Detail-oriented surveying graduate from PolyU with a BSc (Hons) in Surveying and hands-on experience in AutoCAD, Revit, and BIM coordination. Possess a Green Card for site safety and fluent in Cantonese, English, and Mandarin. Completed a summer internship at Rider Levett Bucknall assisting with cost estimates and site measurements, and a part-time research assistant role at PolyU analyzing construction cost trends. Seeking to leverage AutoCAD skills and site experience in a land surveying role. Eager to apply strong analytical and technical abilities to boundary and topographic survey tasks.', 'Dear Hiring Manager,
+
+I am writing to express my interest in the 土地測量繪圖員 position at 冠軍測量顧問發展工程公司, as advertised. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I am eager to contribute to your team’s land surveying and drafting operations.
+
+My academic background and practical experience have equipped me with a solid foundation in measurement, CAD drafting, and site work. During my summer internship at Rider Levett Bucknall (RLB), I assisted senior quantity surveyors with cost estimates, bills of quantities, and site measurements—experience that honed my attention to detail and ability to work under supervision in a professional Hong Kong surveying environment. I am also proficient in AutoCAD, Revit, and Bluebeam, and I hold the Construction Industry Safety Card (Green Card), which I understand is essential for outdoor surveying assignments.
+
+As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, and I am currently an HKIS Student Member. This has given me a strong understanding of the HKIS professional standards, relevant Hong Kong land surveying ordinances, and local practices such as boundary demarcation and topographic survey preparation. I am comfortable working in Cantonese, English, and Mandarin, and I am prepared to handle both office-based drafting and outdoor fieldwork as required by this role.
+
+I am particularly drawn to 冠軍測量顧問發展工程公司’s reputation for delivering precise land surveying solutions across Hong Kong’s development projects. I am keen to apply my technical skills and local knowledge to support your team’s ongoing work. Although my professional experience is just under one year, I am a fast learner, highly motivated, and ready to contribute from day one.
+
+I would welcome the opportunity to discuss how my skills align with your needs. Thank you for considering my application.
+
+Yours faithfully,
+
+[Your Full Name]', '["How familiar are you with the HKIS APC requirements for the Land Surveying division?", "What experience do you have with total stations, GPS, or other land surveying equipment?", "Can you describe a time you used AutoCAD to produce a topographic or boundary survey drawing?", "What do you know about the Land Survey Ordinance (Cap. 473) in Hong Kong?", "How would you handle working outdoors in Hong Kong''s urban environment for extended periods?"]', '2026-07-03 11:01:09', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (31, 114, 1, 35.0, '["Strong academic background: BSc (Hons) in Surveying from PolyU, a top HK surveying school.", "Relevant certifications: Green Card, Revit Certified Professional, CIC-accredited BIM course.", "Language proficiency: Cantonese, English, Mandarin \u2013 meets bilingual requirement.", "Software skills: Proficient in AutoCAD, Revit, CostX, Navisworks, Bluebeam, and data analysis tools (Python, Power BI).", "HKIS Student Member and RICS Student Member, showing professional awareness."]', '["Wrong discipline: Degree is in Quantity Surveying, not Land Surveying/Geomatics \u2013 does not meet HKIS Land Surveying Division academic requirement.", "No completion of HKIS-recognized graduate training scheme \u2013 candidate is still a student.", "No experience in land surveying, geospatial AI, or spatial data \u2013 all internship experience is in QS.", "No GIS or survey-specific software skills (e.g., ArcGIS, MicroStation, total station operation)."]', '["Do not apply for this Land Surveying role \u2013 your QS background is not a match. Focus on QS or BS roles.", "If interested in land surveying, consider a conversion master''s degree in Geomatics or GIS.", "Obtain GIS software skills (ArcGIS, QGIS) and survey equipment experience to pivot into land surveying.", "Highlight any spatial data or mapping projects from coursework if available.", "Remove QS-specific terms like CostX, measurement, and contract admin from CV when applying for land surveying roles."]', 'Recent BSc (Hons) Surveying graduate from The Hong Kong Polytechnic University with a strong foundation in spatial data analysis and technology. Completed summer internship at Rider Levett Bucknall, gaining experience in data-driven cost estimation and BIM coordination. Proficient in AutoCAD, Revit, and data analysis tools including Python and Power BI. Certified in Construction Safety (Green Card) and BIM. Bilingual in Cantonese, English, and Mandarin. HKIS Student Member. Seeking to apply analytical and technical skills in geospatial AI and land surveying projects. Eager to contribute to innovative spatial data initiatives and collaborate with tech ventures.', 'Dear Hiring Manager,
+
+I am writing to express my keen interest in the Assistant Land Surveyor position at ESRI CHINA (HONG KONG) LIMITED. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I am eager to contribute to your pioneering work in geospatial AI and spatial data innovation.
+
+My academic background and practical experience align well with the demands of this role. During my summer internship at Rider Levett Bucknall (RLB), I assisted senior quantity surveyors with cost estimates, bills of quantities, and tender analysis—skills that have given me a solid foundation in Hong Kong’s surveying practices. Additionally, as a student assistant at PolyU’s Building & Real Estate Department, I supported research on construction cost trends, further honing my analytical abilities. I am proficient in AutoCAD, Revit, CostX, and BIM coordination tools, and I hold a CIC-accredited BIM Basic Modelling Certificate and the Autodesk Revit Architecture Certified Professional credential.
+
+As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, and I am already an HKIS Student Member. I understand the importance of adhering to HKIS standards and relevant Hong Kong ordinances, and I am committed to pursuing professional qualification under the Land Surveying Division. I also hold a valid Construction Industry Safety Card (Green Card), ensuring I am ready to work on-site from day one.
+
+ESRI China’s reputation for advancing geospatial technology in Hong Kong—particularly your focus on AI-driven sandbox prototypes and public-private collaboration—resonates strongly with my interest in leveraging technology to solve real-world challenges. I am fluent in Cantonese, English, and Mandarin, and I am comfortable working at client sites as required.
+
+I would welcome the opportunity to discuss how my technical skills and enthusiasm for geospatial innovation can support your team. Thank you for considering my application.
+
+Yours faithfully,
+
+[Your Full Name]', '["What do you know about the HKIS APC pathway for the Land Surveying Division, and how does your current degree qualify you for it?", "Can you describe your experience with GIS software or any spatial data analysis projects?", "How would you approach testing and validating a geospatial AI prototype in a real-life operating system?", "What are the key considerations when using spatial data for government projects in Hong Kong?", "Describe a time you worked in a team to solve a technical problem. How did you handle differing opinions?"]', '2026-07-03 11:01:27', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (32, 116, 1, 55.0, '["PolyU BSc Surveying degree \u2013 eligible for HKIS graduate pathway, a strong foundation for HK surveying.", "Possesses Green Card (Construction Industry Safety Card) \u2013 mandatory for site visits.", "Fluent in Cantonese, English, and Mandarin \u2013 meets language requirement for HK site roles.", "Strong software skills including AutoCAD, Revit, CostX, and BIM \u2013 highly relevant for BS tasks.", "HKIS and RICS Student Memberships \u2013 shows commitment to professional pathway."]', '["Degree is general Surveying with QS focus, not Building Surveying \u2013 the job specifically requires BS discipline.", "Only 0.5 years of experience, below the 1-year minimum for Assistant Building Surveyor.", "No HK driving license \u2013 may be required for site visits (not explicitly stated but common).", "No specific BS project experience (e.g., A&A, maintenance, fitting-out) \u2013 internship was QS-focused."]', '["Highlight any BS-related coursework or projects from PolyU degree to demonstrate BS knowledge.", "Obtain HK driving license (Class 1) \u2013 often required for site inspections in HK.", "Gain more BS-specific experience through internships or part-time roles in building surveying firms.", "Emphasize Cantonese proficiency explicitly in CV summary \u2013 already present but can be more prominent.", "Consider enrolling in HKIS APC for Building Surveying division to show commitment."]', 'BSc (Hons) Surveying graduate from The Hong Kong Polytechnic University with strong technical skills in AutoCAD, Revit, CostX, and BIM. Possess Green Card and fluent in Cantonese, English, and Mandarin. Completed summer internship at Rider Levett Bucknall (RLB) assisting with cost estimates, bills of quantities, and site measurements. Part-time research assistant at PolyU focusing on construction cost trends. HKIS and RICS Student Member, eligible for HKIS graduate pathway. Seeking an Assistant Building Surveyor role to apply analytical and software skills in alteration, maintenance, and fitting-out projects. Highly motivated, able to work under pressure and overtime. Proficient in MS Office, VBA, Python, and Power BI.', 'Dear Hiring Manager,
+
+I am writing to express my keen interest in the Building Surveyor / Assistant Building Surveyor position at RS Surveyors Limited, as advertised. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I am eager to contribute to your team’s delivery of quality project management and building surveying services across Hong Kong.
+
+My academic background and practical experience have provided me with a solid foundation in the local surveying profession. As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, and I am already an HKIS Student Member. This pathway reflects my commitment to achieving professional chartered status and my understanding of the rigorous standards expected by the Institute. I am familiar with key Hong Kong ordinances and surveying practices relevant to alteration, addition, maintenance, and fitting-out works, and I am prepared to apply this knowledge under the guidance of your qualified building surveyors.
+
+During my summer internship at Rider Levett Bucknall (RLB), I assisted senior quantity surveyors with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis. This hands-on experience honed my skills in measurement, cost estimation, and contract administration—competencies directly transferable to building surveying projects. I am also proficient in AutoCAD, Revit, Navisworks, CostX, and MS Project, enabling me to support BIM coordination and project documentation effectively. I hold a Construction Industry Safety Card (Green Card) and am ready to commence immediately.
+
+I am fluent in Cantonese, English, and Mandarin, and I thrive in collaborative, fast-paced environments. I am highly motivated, able to work independently, and prepared to handle overtime and pressure as required. I would welcome the opportunity to discuss how my skills and enthusiasm align with RS Surveyors Limited’s reputation for excellence in Hong Kong’s built environment.
+
+Thank you for considering my application. I look forward to the possibility of contributing to your team.
+
+Yours faithfully,
+
+[Your Name]', '["What do you know about the HKIS APC pathway for Building Surveying, and what steps have you taken to prepare for it?", "Can you describe your experience with building condition surveys or inspections? How would you approach a survey in an occupied HK public housing estate?", "How familiar are you with the Hong Kong Building Ordinance, particularly sections related to alteration and addition works?", "RS Surveyors handles A&A and fitting-out projects. How would you manage a project where the client requests changes mid-construction?", "Describe a time you had to work under pressure or overtime on a project. How did you ensure quality and accuracy?"]', '2026-07-03 11:01:46', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (33, 126, 1, 88.0, '["Relevant QS internship at RLB (HK) with cost estimates, BOQs, site measurements, variation orders, tender analysis.", "Strong software skills: AutoCAD, Revit, CostX, Navisworks, Bluebeam, MS Project, Excel, VBA, Python, Power BI.", "Cantonese proficiency listed, essential for HK site/client communication.", "Green Card holder, ready for site visits.", "HKIS and RICS Student Member, demonstrating commitment to professional pathway."]', '["No HK driving license (Class 1/2) \u2013 may be required for site visits if public transport insufficient.", "Limited work experience (only 0.5 years) \u2013 internship is short, but acceptable for summer internship role.", "No explicit mention of specific HK project types (e.g., residential, commercial, government) \u2013 could be strengthened in CV."]', '["Obtain HK driving license (Class 1) before applying \u2013 useful for site visits.", "Add specific HK project examples from RLB internship (e.g., ''assisted on HK residential tower cost plan'').", "List Cantonese proficiency explicitly as ''Native Cantonese speaker'' to emphasize fluency.", "Mention any involvement in HKIS APC pathway activities (e.g., attending HKIS events).", "Quantify achievements in internship (e.g., ''prepared BOQs for 3 projects valued at HK$50M+'')."]', 'Final-year BSc (Hons) Surveying student at The Hong Kong Polytechnic University, seeking a Summer Internship in Quantity Surveying at Turner. Completed a summer internship at Rider Levett Bucknall (RLB) in Hong Kong, where I assisted senior QS team with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis. Proficient in AutoCAD, Revit, CostX, Navisworks, Bluebeam, MS Project, Excel, VBA, Python, and Power BI. Hold a Green Card and am a Student Member of HKIS and RICS. Fluent in Cantonese, English, and Mandarin. Eager to apply my technical skills and QS knowledge to support Turner''s projects in Hong Kong.', 'Dear Hiring Manager,
+
+I am writing to express my strong interest in the Dynamic Quantity Surveying Summer Internship at Turner’s Hong Kong office. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I am eager to contribute to your team while gaining hands-on experience on high-profile projects in the region.
+
+My academic background and practical exposure have equipped me with a solid foundation in quantity surveying practices relevant to Hong Kong’s construction environment. During my summer internship at Rider Levett Bucknall (RLB), I assisted senior surveyors with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis. This experience sharpened my technical skills in measurement and cost estimation using tools such as CostX, AutoCAD, Revit, and Navisworks. Additionally, as a student assistant at PolyU’s Building & Real Estate Department, I supported research on construction cost trends, further strengthening my analytical abilities with Excel, VBA, and Power BI.
+
+I am familiar with the HKIS professional standards and ordinances governing the local surveying profession, and I hold active HKIS and RICS student memberships. As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, and I am committed to pursuing full professional qualification. I also possess the Construction Industry Safety Card (Green Card) and a CIC-accredited BIM Basic Modelling certificate, ensuring I can meet site safety and digital collaboration requirements from day one.
+
+Turner’s reputation for delivering complex projects in Hong Kong’s dynamic construction sector is well known, and I am drawn to the opportunity to learn from your experienced team. I am fluent in Cantonese, English, and Mandarin, enabling effective communication with diverse stakeholders.
+
+I would welcome the chance to discuss how my skills and enthusiasm align with Turner’s goals. Thank you for considering my application.
+
+Yours faithfully,
+
+[Your Name]', '["How familiar are you with the HKIS APC requirements for the QS division, and what steps have you taken to prepare for the APC?", "Can you describe your experience using CostX for measurement and cost estimation? How do you ensure accuracy in your take-offs?", "Turner has been involved in major HK infrastructure projects like the MTR extensions. How would you approach cost planning for a large-scale infrastructure project?", "What do you know about the Hong Kong Standard Method of Measurement (SMM) and its application in preparing bills of quantities?", "Describe a time during your RLB internship when you had to communicate with a contractor or client in Cantonese. How did you handle any challenges?"]', '2026-07-03 11:02:04', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (34, 199, 1, 85.0, '["BSc (Hons) in Surveying from PolyU (2026) \u2013 directly relevant to QS and eligible for HKIS APC pathway.", "Summer internship at RLB (HK) with practical QS experience: cost estimates, BOQ, site measurements, variation orders, tender analysis.", "Strong software skills: AutoCAD, Revit, CostX, Navisworks, Bluebeam, MS Project, Excel, VBA, Python, Power BI.", "Fluent in Cantonese, English, and Mandarin \u2013 essential for HK and Shenzhen work.", "Holds Green Card (Construction Industry Safety Card) \u2013 mandatory for site visits."]', '["Limited work experience: only 0.5 years (summer internship) \u2013 may be considered junior for some roles.", "No explicit mention of Shenzhen-specific knowledge or willingness to relocate (though implied by applying to GBA scheme).", "No HK driving license \u2013 not required but could be a minor gap for site mobility."]', '["Highlight any Shenzhen or GBA-related coursework or projects in the CV to show interest in the region.", "Add a brief note on willingness to work in Shenzhen and adaptability to cross-border roles.", "List specific HK projects (e.g., residential, commercial) from RLB internship if available.", "Consider obtaining HK driving license (Class 1) to enhance site mobility.", "Emphasize BIM and CostX proficiency in the professional summary for this QS role."]', 'Detail-oriented and motivated Quantity Surveying graduate from The Hong Kong Polytechnic University (2026) with hands-on internship experience at Rider Levett Bucknall (RLB) in Hong Kong. Proficient in cost estimation, bills of quantities, tender documentation, contract administration, and BIM coordination using AutoCAD, Revit, CostX, and Navisworks. Fluent in Cantonese, English, and Mandarin. Holds Green Card and is a Student Member of HKIS and RICS. Seeking to apply QS skills in the GBA Youth Employment Scheme with China State Construction, contributing to cost control and contract management for Shenzhen-based projects.', 'Dear Hiring Manager,
+
+I am writing to express my strong interest in the Assistant Quantity Surveyor position (J18744) under the Greater Bay Area Youth Employment Scheme 2026 at China State Construction International Holdings Limited. As a final-year BSc (Hons) Surveying student at The Hong Kong Polytechnic University, graduating in 2026, I am eager to contribute to your organisation’s renowned portfolio of infrastructure and building projects across the Greater Bay Area.
+
+My academic background and practical experience have equipped me with a solid foundation in quantity surveying practices. During my summer internship at Rider Levett Bucknall (RLB) in 2025, I assisted senior surveyors with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis—directly relevant to the contract management and cost control responsibilities outlined in your role. Additionally, as a part-time student assistant at PolyU’s Building & Real Estate Department, I supported research on construction cost trends, further sharpening my analytical skills.
+
+I am proficient in industry-standard tools including AutoCAD, Revit, CostX, Navisworks, Bluebeam, and MS Project, and I hold a Construction Industry Safety Card (Green Card) as well as a Revit Architecture Certified Professional credential. As a current HKIS Student Member and a PolyU surveying graduate, I am eligible for the HKIS APC graduate pathway, and I am committed to pursuing professional qualification under the HKIS framework. I also possess strong trilingual communication skills in Cantonese, English, and Mandarin, which I understand are essential for cross-border project coordination.
+
+I am particularly drawn to China State Construction’s leadership in major Hong Kong and GBA developments, and I am confident that my technical skills, familiarity with HK surveying ordinances, and proactive attitude will allow me to contribute meaningfully to your team. I am prepared to relocate to Shenzhen and fully embrace the requirements of this scheme.
+
+Thank you for considering my application. I look forward to the opportunity to discuss how I can support your projects.
+
+Yours faithfully,
+
+[Your Full Name]', '["How familiar are you with the HKIS APC requirements for the QS division, and what steps have you taken to prepare for the APC?", "Can you explain the key differences between the Hong Kong Standard Method of Measurement (SMM) and the New Rules of Measurement (NRM) for cost estimating?", "Given that this role is based in Shenzhen under the GBA scheme, how would you adapt to working in a Mainland China construction environment while maintaining HK standards?", "What experience do you have with BIM and CostX in a QS context, and how would you use these tools to improve cost control on a large-scale project?", "Describe a time during your internship at RLB when you had to resolve a discrepancy in site measurements or a contractor dispute. How did you handle it?"]', '2026-07-03 11:02:21', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (35, 210, 1, 88.0, '["PolyU BSc (Hons) in Surveying degree \u2013 directly relevant to QS and automatically qualifies for HKIS APC pathway.", "Summer internship at RLB (Rider Levett Bucknall) in HK \u2013 hands-on experience in cost estimation, BOQ, site measurements, variation orders, and tender analysis.", "Possesses Green Card (Construction Industry Safety Card) \u2013 mandatory for site work.", "Fluent in Cantonese, English, and Mandarin \u2013 meets language requirements for HK site-based roles.", "Strong software skills including AutoCAD, Revit (certified), CostX, Navisworks, Bluebeam, and MS Project \u2013 highly relevant for QS duties."]', '["No HK driving license \u2013 not required but could be beneficial for site visits.", "Limited work experience (only 0.5 years internship) \u2013 though acceptable for fresh graduate role, may need more exposure to full project cycles.", "No explicit mention of experience with subcontractor payment applications or interim payment certifications \u2013 key duties listed in job posting."]', '["Highlight any experience with subcontractor payment applications or interim payment certifications from RLB internship.", "Add a line about familiarity with HK Standard Method of Measurement (SMM) or HKIS QS practice notes.", "If you have a HK driving license, add it to the CV.", "Mention any specific HK project types (e.g., residential, commercial, infrastructure) you were exposed to during internship.", "Emphasize your proactive attitude and ability to work under pressure with concrete examples from internship."]', 'Detail-oriented and motivated Quantity Surveying graduate from The Hong Kong Polytechnic University with a BSc (Hons) in Surveying. Completed a summer internship at Rider Levett Bucknall (RLB) in Hong Kong, where I assisted senior QS team with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis. Proficient in AutoCAD, Revit (Autodesk Certified Professional), CostX, Navisworks, Bluebeam, MS Project, and advanced Excel (VBA). Fluent in Cantonese, English, and Mandarin. Holder of Construction Industry Safety Card (Green Card) and CIC-accredited BIM Basic Modelling certificate. Active HKIS and RICS Student Member, eligible for HKIS APC pathway. Seeking to contribute to a dynamic QS team at 協興建築有限公司, leveraging strong analytical skills, attention to detail, and ability to work under pressure.', 'Dear Hiring Manager,
+
+I am writing to express my keen interest in the Assistant Quantity Surveyor position at Hip Hing Construction Co., Ltd., as advertised. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I am eager to contribute to your esteemed company’s legacy of delivering landmark infrastructure and building projects across Hong Kong.
+
+My academic background, combined with a summer internship at Rider Levett Bucknall (RLB), has provided me with a solid foundation in core QS functions. At RLB, I assisted senior surveyors with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis—experience that directly aligns with the duties outlined in your job description. Additionally, my part-time role at PolyU’s Building & Real Estate Department involved supporting research on construction cost trends, further sharpening my analytical skills.
+
+I am proficient in industry-standard tools such as AutoCAD, Revit, CostX, Navisworks, Bluebeam, and MS Project, and I hold a CIC-accredited BIM Basic Modelling Certificate and the Autodesk Revit Architecture Certified Professional credential. My technical skills extend to data analysis with Excel, VBA, Python, and Power BI, enabling me to handle measurement, cost estimation, and tender documentation efficiently.
+
+As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, and I am already an HKIS Student Member. I am familiar with HKIS practice notes, relevant Hong Kong ordinances, and local surveying conventions, which I am keen to apply in a practical setting. I also hold a valid Construction Industry Safety Card (Green Card) and am fluent in Cantonese, English, and Mandarin, ensuring seamless communication with diverse stakeholders.
+
+Hip Hing’s reputation for excellence in Hong Kong’s construction sector is well known, and I am drawn to the opportunity to grow within a company that values professional development. I am proactive, detail-oriented, and comfortable working under pressure. I am prepared to obtain any additional certifications required before commencing.
+
+Thank you for considering my application. I look forward to the opportunity to discuss how I can contribute to your team.
+
+Yours faithfully,
+[Your Name]', '["How familiar are you with the HKIS APC requirements for the QS division, and what steps have you taken to prepare for the APC?", "Can you describe your experience with the HK Standard Method of Measurement (SMM) and how you applied it during your internship at RLB?", "\u5354\u8208\u5efa\u7bc9 has been involved in large-scale residential and infrastructure projects in HK. How would you approach cost planning for a mixed-use development in Kowloon?", "What sections of the HK Building Ordinance are most relevant to quantity surveying, and how do they impact cost estimation?", "Describe a time during your internship when you had to handle a tight deadline or pressure from a contractor. How did you manage it?"]', '2026-07-03 11:02:40', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (36, 184, 1, 88.0, '["PolyU BSc Surveying degree \u2013 directly relevant to QS and eligible for HKIS APC pathway.", "Summer internship at RLB (Rider Levett Bucknall) \u2013 a top QS consultancy in HK, with practical experience in cost estimates, BQ, site measurements, variation orders, and tender analysis.", "Strong software skills: AutoCAD, Revit, CostX, Navisworks, Bluebeam, MS Project, Excel, VBA, Python, Power BI \u2013 highly relevant for QS role.", "Possesses Green Card (Construction Industry Safety Card) \u2013 mandatory for site visits.", "Fluent in Cantonese, English, and Mandarin \u2013 meets language requirements for HK client-facing role."]', '["No HK driving license \u2013 not required for this role but may be beneficial for site visits.", "Limited work experience (only 0.5 years internship) \u2013 fresh graduate profile, but acceptable for graduate role.", "No explicit mention of written Chinese proficiency \u2013 though Cantonese and HK education imply it, could be stated clearly."]', '["Explicitly state ''Written Chinese (Cantonese)'' in language skills to match job requirement.", "Add a line in the professional summary about being a final-year student graduating in 2026.", "Mention any specific HK project types (e.g., residential, commercial) from RLB internship if applicable.", "Highlight HKIS Student Membership and eligibility for HKIS APC pathway in the summary.", "Consider obtaining HK driving license for future career flexibility."]', 'Final-year BSc (Hons) Surveying student at The Hong Kong Polytechnic University, graduating in 2026. Completed a summer internship at Rider Levett Bucknall (RLB) in Hong Kong, assisting senior QS team with pre-contract cost estimates, bills of quantities, tender documentation, site measurements, variation assessments, and cost control reports. Proficient in measurement and cost estimation, contract administration, and BIM coordination. Skilled in AutoCAD, Revit, CostX, Navisworks, Bluebeam, MS Project, Excel, VBA, Python, and Power BI. Holder of Construction Industry Safety Card (Green Card) and Revit Architecture Certified Professional. HKIS Student Member, eligible for HKIS APC pathway. Fluent in Cantonese, English, and Mandarin. Seeking a graduate quantity surveyor role to contribute to sustainable infrastructure projects in Hong Kong and Macau.', 'Dear Hiring Manager,
+
+I am writing to express my strong interest in the 2026 Graduate Quantity Surveyor position at Arcadis in Hong Kong and Macau. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, graduating in 2026, I am eager to contribute to a firm renowned for delivering sustainable design and consultancy solutions that improve quality of life across the region.
+
+My academic training at PolyU, combined with practical experience as a summer intern at Rider Levett Bucknall (RLB), has provided me with a solid foundation in pre- and post-contract quantity surveying practices. At RLB, I assisted senior QS team members with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis—directly aligning with the responsibilities outlined in your role description. Additionally, my part-time role as a student assistant in PolyU’s Building & Real Estate Department involved supporting research on construction cost trends, which deepened my understanding of Hong Kong’s unique market dynamics and cost drivers.
+
+I am proficient in industry-standard tools including AutoCAD, Revit, CostX, Navisworks, Bluebeam, and MS Project, and I hold a Revit Architecture Certified Professional credential along with a CIC-accredited BIM Basic Modelling certificate. My technical skills extend to measurement, cost estimation, tender documentation, and contract administration, all of which I am keen to apply to Arcadis’s high-profile projects in Hong Kong and Macau.
+
+As a HKIS Student Member and a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, and I am committed to pursuing professional qualification under the Society’s guidance. I also hold a valid Construction Industry Safety Card (Green Card), ensuring I am ready to commence site visits immediately.
+
+Fluent in Cantonese, English, and Mandarin, I am well-prepared to communicate effectively with diverse stakeholders. I understand the importance of adhering to HKIS standards and relevant Hong Kong ordinances, and I am eager to contribute to Arcadis’s reputation for excellence in the built environment.
+
+I have attached my latest transcript, DSE results, and resume for your review. I would welcome the opportunity to discuss how my skills and enthusiasm align with Arcadis’s goals. Thank you for considering my application.
+
+Yours faithfully,
+
+[Your Full Name]', '["Can you walk us through the HKIS APC requirements for the QS division and how your PolyU degree prepares you for it?", "How would you prepare a cost estimate for a mixed-use development in Hong Kong using the HK Standard Method of Measurement (SMM)?", "Arcadis has been involved in major HK infrastructure projects like the Kai Tak Development and Tung Chung New Town Extension. How do you see your role as a graduate QS contributing to such projects?", "What is your understanding of the Hong Kong Building Ordinance and its implications for quantity surveying in terms of cost planning and contract administration?", "Describe a time during your RLB internship when you had to resolve a discrepancy in site measurements or a contractor''s claim. How did you handle it?"]', '2026-07-03 11:02:59', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (37, 186, 1, 88.0, '["BSc (Hons) in Surveying from PolyU, a top HK surveying school, directly relevant to QS.", "Summer internship at Rider Levett Bucknall (RLB) with hands-on QS tasks: cost estimates, BOQ, site measurements, variation orders, tender analysis.", "Strong software skills including AutoCAD, Revit, CostX, Navisworks, Bluebeam, MS Project, Excel, VBA, SPSS, Python, Power BI.", "Fluent in Cantonese, English, and Mandarin, essential for HK site communication.", "Holds Green Card, HKIS Student Member, and RICS Student Member, showing commitment to professional accreditation."]', '["No HK driving license (Class 1/2) \u2013 may be required for site visits depending on project location.", "Limited work experience (only 0.5 years internship) \u2013 entry-level role, but some competitors may have more experience.", "CV does not specify exposure to specific HK project types (e.g., residential, commercial, government) \u2013 could be a minor gap if the job requires familiarity with certain sectors."]', '["Explicitly list any HK project types you worked on during the RLB internship (e.g., residential, commercial, infrastructure).", "If you have a HK driving license, add it to the CV \u2013 it''s a plus for site-based roles.", "Mention your awareness of the HKIS APC requirements and your intention to pursue MHKIS.", "Highlight any experience with HK-specific standards like the HK Standard Method of Measurement (SMM) or HK Building Ordinance.", "Add a section on ''Professional Development'' showing your HKIS and RICS student memberships and any APC-related activities."]', 'Recent BSc (Hons) Surveying graduate from The Hong Kong Polytechnic University with a strong foundation in quantity surveying. Completed a summer internship at Rider Levett Bucknall (RLB) in Hong Kong, where I assisted senior QS team members with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis. Proficient in industry software including AutoCAD, Revit, CostX, Navisworks, Bluebeam, MS Project, and advanced Excel with VBA. Also skilled in data analysis using SPSS, Python, and Power BI. Fluent in Cantonese, English, and Mandarin, enabling effective communication with local contractors and stakeholders. Holder of Construction Industry Safety Card (Green Card) and active student member of HKIS and RICS, committed to pursuing professional accreditation through the HKIS APC pathway. Eager to contribute to Turner & Townsend''s cost management commissions and grow within a structured mentorship program.', 'Dear Hiring Manager,
+
+I am writing to express my strong interest in the Graduate Quantity Surveyor position at Turner & Townsend, as advertised. As a final-year BSc (Hons) Surveying student at The Hong Kong Polytechnic University, I am eager to contribute to your Hong Kong team while pursuing my professional accreditation through the structured mentorship and development program you offer.
+
+My academic background, combined with practical experience at Rider Levett Bucknall (RLB) as a summer intern, has provided me with a solid foundation in cost management. During my internship, I assisted senior quantity surveyors with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis—directly relevant to the cost management commissions this role entails. Additionally, my part-time role as a student assistant at PolyU’s Building & Real Estate Department involved supporting research on construction cost trends, further sharpening my analytical skills.
+
+I am proficient in industry-standard tools including AutoCAD, Revit, CostX, Navisworks, Bluebeam, and MS Project, and I hold a Construction Industry Safety Card (Green Card), ensuring I am ready to work on site from day one. As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway and am already an HKIS Student Member. I am also familiar with the RICS pathway and understand the importance of adhering to HK-specific surveying practices, including relevant ordinances and the HKIS Code of Conduct.
+
+Turner & Townsend’s reputation for delivering complex infrastructure and commercial projects in Hong Kong aligns with my career aspirations. I am confident that your 24-month development program will provide the mentorship I need to grow into a competent quantity surveyor.
+
+I look forward to the opportunity to discuss how my skills and enthusiasm can contribute to your team’s success in Hong Kong.
+
+Yours faithfully,
+
+[Your Name]', '["How familiar are you with the HKIS APC requirements for the QS division, and what steps have you taken to prepare for the APC?", "Can you describe your experience with cost estimation and the use of CostX or similar software during your internship at RLB?", "Turner & Townsend has been involved in major HK infrastructure projects like the Hong Kong International Airport expansion. How would you approach cost management for a large-scale infrastructure project?", "What do you know about the Hong Kong Standard Method of Measurement (SMM) and its application in preparing bills of quantities?", "Describe a time during your internship when you had to resolve a discrepancy in site measurements or a dispute with a contractor. How did you handle it?"]', '2026-07-03 11:03:17', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (38, 201, 1, 88.0, '["PolyU BSc Surveying degree \u2013 directly relevant to QS and eligible for HKIS APC pathway.", "Summer internship at RLB (HK) with hands-on QS tasks: cost estimates, BOQ, site measurements, variation orders, tender analysis.", "Holds Green Card \u2013 mandatory for site visits.", "Fluent in Cantonese, English, and Mandarin \u2013 meets language requirements for HK site roles.", "Strong software skills: AutoCAD, Revit, CostX, Navisworks, Bluebeam, MS Project, Excel, VBA, Power BI."]', '["No HK driving license \u2013 may be required for site visits depending on project location.", "Limited work experience (only 0.5 years internship) \u2013 fresh graduate with no full-time experience.", "No explicit mention of knowledge of HK Standard Method of Measurement (SMM) or HKIS APC requirements in CV."]', '["Add a line in the professional summary: ''Eligible for HKIS APC pathway and actively pursuing professional qualification.''", "Mention familiarity with HK SMM or NRM in the skills section.", "If you have a HK driving license, add it; if not, consider obtaining one for site-based roles.", "Quantify internship achievements: e.g., ''Assisted in preparing cost estimates for 3 projects worth HK$XX million.''", "List specific HK project types (e.g., residential, commercial, government) if applicable."]', 'Detail-oriented and motivated Quantity Surveying graduate from The Hong Kong Polytechnic University with a BSc (Hons) in Surveying. Completed a summer internship at Rider Levett Bucknall (RLB) in Hong Kong, where I supported senior QS team members in cost estimation, bills of quantities preparation, site measurements, variation order assessment, and tender analysis. Proficient in AutoCAD, Revit, CostX, Navisworks, Bluebeam, MS Project, and advanced Excel (VBA). Holds Construction Industry Safety Card (Green Card) and is a Student Member of HKIS and RICS. Fluent in Cantonese, English, and Mandarin. Eager to contribute to a dynamic QS team and pursue the HKIS APC pathway. Strong interpersonal and communication skills, with the ability to work under pressure and tight deadlines.', 'Dear Hiring Manager,
+
+I am writing to express my strong interest in the Assistant Quantity Surveyor position at Hip Hing Construction Co., Ltd., as advertised. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, graduating in 2026, I am eager to contribute to your esteemed organisation’s legacy of delivering landmark projects across Hong Kong.
+
+My academic foundation, combined with practical experience as a summer intern at Rider Levett Bucknall (RLB), has equipped me with a solid grounding in core QS functions. During my internship, I assisted senior surveyors with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis—skills directly applicable to the duties outlined in your job description, such as managing measurement records, calculating material quantities, and verifying subcontractor payment applications. Additionally, my part-time role at PolyU’s Building & Real Estate Department involved supporting research on construction cost trends, further sharpening my analytical abilities.
+
+I am proficient in industry-standard tools including AutoCAD, Revit, CostX, Navisworks, Bluebeam, and MS Project, and I hold a Construction Industry Safety Card (Green Card) as well as a CIC-accredited BIM Basic Modelling certificate. As a HKIS Student Member, I am eligible for the HKIS APC graduate pathway upon graduation, and I am committed to pursuing professional qualification under the Institute’s framework. My trilingual fluency in Cantonese, English, and Mandarin enables effective communication with diverse stakeholders—a key requirement for this role.
+
+I understand the demands of Hong Kong’s construction environment, including the need to work under tight deadlines and pressure. I am proactive, detail-oriented, and eager to learn from Hip Hing’s experienced team. I hold a valid Hong Kong work visa and am available to commence immediately.
+
+Thank you for considering my application. I look forward to the opportunity to discuss how I can support Hip Hing’s continued success.
+
+Yours faithfully,
+[Your Full Name]', '["How familiar are you with the HKIS APC requirements for the QS division, and what steps have you taken to prepare for it?", "Can you describe your experience with the Hong Kong Standard Method of Measurement (SMM) or any other measurement standards used in local projects?", "At RLB, you assisted with cost estimates and tender analysis. Can you walk us through a specific project you worked on and the key challenges you faced?", "What sections of the Hong Kong Building Ordinance do you think are most relevant to a quantity surveyor''s role, and why?", "Describe a time when you had to work under tight deadlines in a team. How did you prioritize tasks and ensure accuracy?"]', '2026-07-03 11:03:35', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (39, 213, 1, 72.0, '["Strong software skills: AutoCAD, Revit, CostX, Navisworks, Bluebeam, MS Project, Excel, VBA, Python, Power BI.", "Relevant internship at RLB (QS) and research assistant at PolyU, demonstrating exposure to HK construction industry.", "Cantonese proficiency, essential for HK site communication.", "Green Card holder, ready for site work.", "HKIS and RICS Student Member, showing commitment to professional pathway."]', '["Degree discipline mismatch: Job requires Surveying Engineering (geomatics/land surveying), candidate has Quantity Surveying degree. This is a fundamental gap.", "No land surveying experience: Internship and coursework are QS-focused, not in geodetic or engineering surveying.", "No HK driving license: Not required but beneficial for site visits.", "Limited work experience: Only 0.5 years of internship, no full-time role."]', '["If you have any coursework or projects in land surveying (e.g., GPS, total station, GIS), add them to your CV to bridge the discipline gap.", "Obtain a HK driving license (Class 1/2) to increase suitability for site-based roles.", "Highlight any knowledge of surveying instruments (total station, GPS, level) even from academic projects.", "Tailor your CV to emphasize transferable skills like measurement, data analysis, and site coordination, which are relevant to engineering surveying.", "Consider applying for QS roles instead, where your degree and experience are a perfect match."]', 'Detail-oriented surveying graduate from The Hong Kong Polytechnic University with a BSc in Surveying (Quantity Surveying) and hands-on internship experience at Rider Levett Bucknall. Proficient in AutoCAD, Revit, CostX, and BIM coordination. Strong analytical skills with advanced Excel, VBA, Python, and Power BI. Fluent in Cantonese, English, and Mandarin. Holder of Green Card and Autodesk Revit Certified Professional. HKIS and RICS Student Member, committed to professional development. Seeking a challenging role in engineering surveying where I can apply my measurement, data analysis, and site coordination skills to support infrastructure projects in Hong Kong.', 'Dear Hiring Manager,
+
+I am writing to express my interest in the Surveying Engineer position at 湖南国湘人力资源劳务责任有限公司, as advertised on Zhaopin. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I am eager to contribute to your team’s surveying operations in Hong Kong.
+
+My academic background and practical experience have equipped me with a solid foundation in measurement, cost estimation, and contract administration. During my summer internship at Rider Levett Bucknall (RLB), I assisted senior quantity surveyors with site measurements, bills of quantities, tender analysis, and variation orders. This hands-on exposure to HK-based projects deepened my understanding of local surveying practices, including compliance with relevant Hong Kong ordinances and the importance of accurate field data collection. I am also proficient in AutoCAD, Revit, Navisworks, and CostX, which I have applied in both academic and internship settings to support BIM coordination and measurement tasks.
+
+As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, and I am currently an HKIS Student Member. I am familiar with the HKIS’s professional standards and the rigorous requirements for chartership, which I am committed to pursuing. I hold a valid Construction Industry Safety Card (Green Card) and am prepared to commence fieldwork immediately. My trilingual proficiency in Cantonese, English, and Mandarin enables effective communication with diverse stakeholders on site.
+
+I understand that this role requires a detail-oriented, adaptable individual willing to work on-site in Hong Kong. My experience as a student assistant at PolyU’s Building & Real Estate Department, where I supported research on construction cost trends, has further honed my analytical and documentation skills. I am confident in my ability to maintain accurate measurement logs, verify reference points, and ensure all technical records are complete and traceable.
+
+I would welcome the opportunity to discuss how my skills align with your team’s needs. Thank you for considering my application.
+
+Yours faithfully,
+
+[Your Full Name]', '["How familiar are you with the HKIS APC pathway for the Quantity Surveying division? Have you started your APC diary?", "What experience do you have with land surveying instruments such as total stations or GPS? Can you describe a project where you used them?", "Given that this role involves engineering surveying for infrastructure projects, how would you ensure accuracy in setting out for a large-scale construction site in Hong Kong?", "What do you know about the Hong Kong Building Ordinance and its implications for surveying work on site?", "Describe a time when you had to communicate technical survey data to a non-technical stakeholder. How did you ensure clarity?"]', '2026-07-03 11:03:53', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (40, 214, 1, 35.0, '["Relevant degree: BSc (Hons) in Surveying from PolyU, a top HK surveying school.", "Cantonese proficiency listed, essential for HK site communication.", "Green Card held, mandatory for site visits.", "Strong software skills: AutoCAD, Revit, CostX, Navisworks, Bluebeam, MS Project, Excel, VBA, Python, Power BI.", "HKIS and RICS Student Memberships, indicating commitment to professional pathway."]', '["No aviation/MRO industry experience: HAECO is an aviation MRO company; candidate has no exposure to aircraft maintenance or aviation regulations (Part-145, Part-21).", "Limited work experience: Only 3 months internship and part-time assistant; no full-time or long-term QS experience.", "No driving license: May be required for site visits at HKIA or vendor audits.", "No mention of audit or compliance monitoring experience, which is core to this role."]', '["Highlight any coursework or projects related to quality management, auditing, or aviation safety to bridge the gap.", "Obtain a driving license (Class 1/2) if possible, as it may be needed for site visits.", "Add a section on ''Aviation Interest'' or ''Regulatory Knowledge'' if you have studied any aviation regulations (e.g., HKCAD, EASA, FAA).", "Quantify internship achievements: e.g., ''Assisted in cost estimates for 5+ projects'' or ''Prepared tender documents for HK$XX million project''.", "Emphasize your BIM skills and how they can be applied to MRO facility management or hangar projects."]', 'BSc (Hons) Surveying student at The Hong Kong Polytechnic University with a strong foundation in quantity surveying and construction technology. Completed a summer internship at Rider Levett Bucknall (RLB) where I supported senior QS team with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis. Proficient in industry software including AutoCAD, Revit, CostX, Navisworks, Bluebeam, MS Project, and Excel with VBA. Hold Green Card and Cantonese fluency, enabling effective on-site communication. Active HKIS and RICS Student Member, committed to pursuing the HKIS APC pathway. Seeking to apply my analytical and technical skills in a compliance monitoring role within the aviation MRO sector.', 'Dear Hiring Manager,
+
+I am writing to express my keen interest in the Quality Surveyor position at HAECO, as advertised. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I have developed a strong foundation in quantity surveying practices that align well with the compliance and quality assurance functions of this role. As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, and I am already an HKIS Student Member, which reflects my commitment to professional development within Hong Kong’s surveying profession.
+
+During my summer internship at Rider Levett Bucknall (RLB), I gained practical experience in cost estimation, tender documentation, and contract administration—skills directly transferable to the meticulous documentation and monitoring required in a regulated MRO environment. I am also proficient in BIM coordination tools such as Revit and Navisworks, and I hold a CIC-accredited BIM Basic Modelling Certificate, which supports HAECO’s digital transformation initiatives. My familiarity with Hong Kong’s construction and safety standards is further evidenced by my Construction Industry Safety Card (Green Card), which I already possess.
+
+I understand that the Quality Surveyor role demands rigorous compliance with Part-145 and other airworthiness regulations. My academic training at PolyU has included detailed study of Hong Kong’s building ordinances and contract law, and I am comfortable working within strict regulatory frameworks. My trilingual ability in Cantonese, English, and Mandarin enables effective communication across HAECO’s diverse teams at Hong Kong International Airport.
+
+I am drawn to HAECO’s long-standing reputation as a global MRO leader headquartered in Hong Kong since 1950. The opportunity to contribute to quality assurance in such a technically demanding and safety-critical environment is exactly the career path I wish to pursue. I am prepared to quickly adapt to HAECO’s specific compliance monitoring systems and would welcome the chance to discuss how my skills can support your team.
+
+Thank you for considering my application.
+
+Yours sincerely,
+
+[Your Name]', '["How familiar are you with the HKIS APC requirements for the QS division, and what steps have you taken to prepare for it?", "What experience do you have with internal auditing or compliance monitoring, and how would you approach an audit of an aircraft maintenance facility?", "HAECO operates under HKCAD Part-145 and other airworthiness regulations. What do you know about these regulations and their impact on quality assurance?", "Can you describe a time when you identified a non-compliance or potential hazard during your internship? How did you report it?", "Given that HAECO is based at HKIA, how would you handle communication with contractors or vendors who primarily speak Cantonese, and what strategies would you use to ensure quality standards are met?"]', '2026-07-03 11:04:13', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (41, 127, 1, 72.0, '["Relevant QS internship at RLB (Jun-Aug 2025) with hands-on experience in cost estimates, BOQs, site measurements, variation orders, and tender analysis.", "Strong software skills including CostX, Revit, AutoCAD, Navisworks, Bluebeam, and Power BI, which are highly valued in HK QS roles.", "Cantonese proficiency listed, essential for HK site-based client and contractor liaison.", "Green Card held, mandatory for site visits.", "HKIS and RICS Student Memberships, demonstrating commitment to professional pathway."]', '["Limited work experience: only 3 months internship and part-time assistant; no full-time QS experience.", "No HK driving license, which may be required for site visits depending on project location.", "No explicit mention of HK project type exposure (e.g., residential, commercial, infrastructure).", "CV does not mention knowledge of HK Standard Method of Measurement (SMM) or HKIS APC requirements."]', '["Highlight any specific HK projects worked on during RLB internship (e.g., residential, commercial, government).", "Obtain HK driving license (Class 1) to increase flexibility for site visits.", "Explicitly mention familiarity with HK Standard Method of Measurement (SMM) and HKIS APC pathway in CV.", "Add a section on ''Professional Development'' listing HKIS APC awareness or planned enrollment.", "Quantify achievements in internship (e.g., ''Assisted in cost estimation for a HK$XX million project'')."]', 'Final-year BSc (Hons) Surveying student at The Hong Kong Polytechnic University with a summer internship at Rider Levett Bucknall (RLB) in Hong Kong, where I supported senior QS team members in cost estimates, bills of quantities, site measurements, variation orders, and tender analysis. Proficient in CostX, AutoCAD, Revit, Navisworks, Bluebeam, and MS Project. Bilingual in Cantonese and English, with a Green Card for site access. HKIS and RICS Student Member, eligible for HKIS APC pathway. Seeking a graduate QS role to apply my technical skills and contribute to cost management excellence.', 'Dear Hiring Manager,
+
+I am writing to express my strong interest in the Quantity Surveyor position at Currie & Brown. As a final-year BSc (Hons) Surveying student at The Hong Kong Polytechnic University, I have developed a solid foundation in cost management, contract administration, and digital construction practices that align well with the demands of this role. Having followed Currie & Brown’s distinguished track record in delivering high-profile infrastructure and real estate projects across Hong Kong, I am eager to contribute to your team’s continued success.
+
+My internship at Rider Levett Bucknall (RLB) provided hands-on experience in cost estimation, bills of quantities preparation, site measurements, variation orders, and tender analysis. I am proficient in industry-standard tools including AutoCAD, Revit, CostX, Navisworks, Bluebeam, and MS Project, and I have applied these skills to support BIM coordination and measurement tasks. Additionally, my work as a student assistant at PolyU’s Building & Real Estate Department involved analysing construction cost trends and preparing teaching materials, which strengthened my research and data interpretation abilities.
+
+As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, and I am already an HKIS Student Member. I am familiar with the HKIS’s professional standards, relevant Hong Kong ordinances such as the Building Ordinance and the Housing Ordinance, and local surveying practices including the use of the Standard Method of Measurement for building works in Hong Kong. I hold a valid Construction Industry Safety Card (Green Card) and am prepared to commence immediately.
+
+I am confident that my technical skills, bilingual proficiency in Cantonese and English, and genuine commitment to the Hong Kong surveying profession make me a strong candidate for this role. I look forward to the opportunity to discuss how I can contribute to Currie & Brown’s projects.
+
+Yours faithfully,
+
+[Your Name]', '["How familiar are you with the HKIS APC requirements for the QS division, and what steps have you taken to prepare for the APC process?", "Can you describe your experience with the Hong Kong Standard Method of Measurement (SMM) and how you applied it during your internship at RLB?", "Turner & Townsend has a strong presence in HK infrastructure projects. How would you approach cost management for a large-scale MTR or airport project?", "What sections of the Hong Kong Building Ordinance are most relevant to quantity surveying, and how do they impact cost estimation?", "Describe a time during your internship when you had to resolve a discrepancy in site measurements with a contractor. How did you handle it?"]', '2026-07-03 11:04:30', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (42, 128, 1, 85.0, '["BSc in Surveying from PolyU, the top HK surveying school, directly relevant to QS role.", "Summer internship at RLB (leading QS consultancy) with hands-on experience in cost estimates, BOQ, site measurements, and tender analysis.", "Possesses Green Card, essential for site visits.", "Fluent in Cantonese, English, and Mandarin, meeting language requirements.", "Strong software skills including CostX, Revit, AutoCAD, and BIM tools."]', '["Limited work experience: only 0.5 years (summer internship + part-time assistant).", "No HK driving license, which may be required for site visits.", "No explicit mention of HKIS APC enrollment or awareness of specific HKIS QS pathway requirements.", "Internship duration short (2 months); may lack depth in contract administration or dispute resolution."]', '["Enroll in HKIS APC as soon as possible and mention the specific division (QS) and expected completion timeline.", "Obtain HK driving license (Class 1) to increase flexibility for site visits.", "Quantify internship achievements (e.g., ''Assisted in cost estimation for a HK$XX million residential project'').", "Highlight any knowledge of HK Standard Method of Measurement (SMM) or relevant HK regulations.", "Add a section on ''Professional Development'' listing any HKIS APC workshops or seminars attended."]', 'Final-year BSc (Hons) Surveying student at The Hong Kong Polytechnic University with a summer internship at Rider Levett Bucknall (RLB), a leading QS consultancy in Hong Kong. Experienced in cost estimation, bills of quantities, site measurements, variation orders, and tender analysis. Proficient in AutoCAD, Revit, CostX, Navisworks, Bluebeam, MS Project, Excel, VBA, SPSS, Python, and Power BI. Holder of Green Card and Revit Architecture Certified Professional. Fluent in Cantonese, English, and Mandarin. HKIS and RICS Student Member, eligible for HKIS APC pathway. Seeking a graduate Quantity Surveyor position to apply technical skills and contribute to Dragages Hong Kong''s projects.', 'Dear Hiring Manager,
+
+I am writing to express my strong interest in the Quantity Surveyor position at Dragages Hong Kong Limited. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I have developed a solid foundation in cost estimation, tender documentation, and contract administration—skills I am eager to apply to your prestigious infrastructure and building projects across Hong Kong.
+
+My summer internship at Rider Levett Bucknall (RLB) provided hands-on experience in preparing bills of quantities, conducting site measurements, and assisting with variation orders and tender analysis. This role sharpened my technical proficiency in AutoCAD, Revit, CostX, and Navisworks, while reinforcing my understanding of HK-specific surveying practices, including compliance with relevant Hong Kong ordinances and the HKIS standard method of measurement. As a HKIS Student Member and a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, and I am committed to pursuing professional qualification under the Institute’s framework.
+
+I am particularly drawn to Dragages’ reputation for delivering complex, high-profile projects in Hong Kong, such as the Kai Tak Sports Park and the Tseung Kwan O–Lam Tin Tunnel. I understand the demanding nature of quantity surveying in this market and am confident that my BIM coordination skills, combined with my proficiency in MS Project, Excel VBA, and Power BI, will enable me to contribute effectively to your project teams from day one.
+
+I already hold a valid Construction Industry Safety Card (Green Card) and am fluent in Cantonese, English, and Mandarin, ensuring seamless communication with site teams and stakeholders. I am prepared to obtain any additional site safety certifications required for this role.
+
+I would welcome the opportunity to discuss how my academic training and practical experience align with Dragages’ needs. Thank you for considering my application.
+
+Yours faithfully,
+
+[Your Name]', '["Can you walk us through the HKIS APC requirements for the QS division and what steps you have taken to prepare?", "How familiar are you with the Hong Kong Standard Method of Measurement (SMM) and its application in preparing bills of quantities?", "Dragages Hong Kong is involved in major infrastructure projects like the Hong Kong-Zhuhai-Macao Bridge. How would you approach cost planning for a large-scale civil engineering project?", "What are the key considerations under the Hong Kong Building Ordinance when preparing a cost estimate for a new development?", "Describe a time during your internship at RLB when you had to resolve a discrepancy in measurement with a contractor. How did you handle it?"]', '2026-07-03 11:04:48', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (43, 164, 1, 55.0, '["Strong software skills: AutoCAD, Revit (certified), CostX, Navisworks, Bluebeam, BIM (CIC-accredited) - directly applicable to building survey documentation and BIM coordination.", "Green Card holder - ready for site inspection duties without delay.", "Cantonese proficiency - essential for communication with local contractors, building owners, and authorities.", "HKIS Student Member and PolyU BSc Surveying graduate - eligible for HKIS APC pathway, aligning with the firm''s structured training environment.", "Relevant internship at RLB (QS) provides exposure to tender processes, cost estimation, and contract administration, which are transferable to building survey support roles."]', '["Degree discipline mismatch: BSc Surveying (QS) vs. required Building Surveying or related discipline. This is a significant gap for a BS role.", "No direct building surveying experience: Internship and assistant roles are QS-focused, lacking exposure to building condition surveys, defect assessments, or Building Ordinance compliance.", "No HK driving license: Not required but could be beneficial for site visits; missing from CV.", "No mention of knowledge of HK Building Ordinance or statutory requirements relevant to building surveying."]', '["Highlight any coursework or projects related to building surveying (e.g., building pathology, inspection techniques) in the CV, even if from QS degree.", "Obtain a HK driving license (Class 1) to increase flexibility for site visits.", "Add a section on ''Relevant Coursework'' that includes building surveying topics if applicable.", "Emphasize transferable skills from QS internship: attention to detail, measurement, report writing, and coordination with contractors.", "Consider taking a short course or CPD on HK Building Ordinance to demonstrate commitment to building surveying."]', 'Detail-oriented surveying graduate with a BSc (Hons) in Surveying from The Hong Kong Polytechnic University, seeking to launch a career in building surveying. Possess strong technical skills including AutoCAD, Revit (Autodesk Certified Professional), and BIM (CIC-accredited). Completed a summer internship at Rider Levett Bucknall (RLB) where I assisted with cost estimates, tender documentation, and site measurements, demonstrating attention to detail and ability to work in a team. Fluent in Cantonese, English, and Mandarin, enabling effective communication with clients, contractors, and authorities. Holder of Construction Industry Safety Card (Green Card) and active HKIS Student Member, committed to pursuing the HKIS APC pathway. Eager to apply my analytical and organizational skills to support building surveys, condition assessments, and project coordination in a structured professional environment.', 'Dear Hiring Manager,
+
+I am writing to express my interest in the Assistant Building Surveyor position at 潘威林測量師行有限公司. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I am eager to contribute to your firm’s established reputation in building surveying and project coordination across Hong Kong’s residential and commercial sectors.
+
+My academic training at PolyU has provided a solid foundation in building pathology, condition surveys, and statutory compliance, aligning closely with the responsibilities outlined in your job description. As a current HKIS Student Member, I am eligible for the HKIS APC graduate pathway upon graduation in 2026, and I am committed to pursuing professional qualification under the Institute’s structured framework. I am also familiar with key Hong Kong ordinances relevant to building surveying, including the Buildings Ordinance and its subsidiary regulations, which I have studied in depth as part of my coursework.
+
+During my summer internship at Rider Levett Bucknall (RLB), I assisted senior quantity surveyors with cost estimates, tender documentation, and site measurements for local projects. This experience honed my attention to detail and ability to maintain accurate site records—skills directly transferable to defect assessments and survey report preparation. I am proficient in AutoCAD, Revit, Navisworks, and Bluebeam, and I hold a CIC-accredited BIM Basic Modelling Certificate, enabling me to support digital survey data management and BIM coordination effectively.
+
+I already possess the Construction Industry Safety Card (Green Card), ensuring I can commence site inspections without delay. My trilingual fluency in Cantonese, English, and Mandarin allows me to communicate seamlessly with clients, contractors, and government authorities.
+
+I am drawn to 潘威林測量師行有限公司 because of your firm’s hands-on involvement in Hong Kong’s built environment and your commitment to mentoring junior professionals. I am eager to learn from your experienced team and contribute to tender processes, contract administration, and project coordination under qualified supervision.
+
+Thank you for considering my application. I look forward to the opportunity to discuss how my academic background and practical experience can support your firm’s continued success.
+
+Yours sincerely,
+
+[Your Full Name]', '["How familiar are you with the HKIS APC requirements for the Building Surveying division, and what steps have you taken to prepare for the APC process?", "Can you describe a building defect you have observed (e.g., from coursework or personal experience) and how you would document and assess it?", "What do you know about the Hong Kong Building Ordinance (Cap. 123) and its relevance to building surveys and inspections?", "Given that your degree is in Quantity Surveying, how do you plan to bridge the knowledge gap in building surveying-specific areas such as building pathology and statutory compliance?", "Describe a time when you had to coordinate with multiple parties (e.g., contractors, consultants) on a project. How did you ensure effective communication and project progress?"]', '2026-07-03 11:05:06', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (44, 171, 1, 72.0, '["BSc (Hons) in Surveying from PolyU, a top HK surveying school, directly relevant to QS role.", "Summer internship at Rider Levett Bucknall (RLB), a leading cost consultancy, providing exposure to cost estimates, BQ, tender analysis.", "Strong software skills including CostX, Revit, AutoCAD, Navisworks, Bluebeam, MS Project, Excel, VBA, Power BI.", "Fluent in Cantonese, English, and Mandarin, meeting language requirements.", "Holds Green Card and HKIS/RICS student memberships, showing commitment to professional pathway."]', '["Only 0.5 years of QS experience, far short of the required 2 years in cost consultancy.", "No full-time QS experience; only internship and part-time assistant roles.", "No HK driving license (though not explicitly required, it may be an advantage for site visits)."]', '["Highlight any additional QS coursework or projects that demonstrate cost consultancy skills to compensate for lack of experience.", "Obtain HK driving license if possible, as it may be beneficial for site visits in Macau/HK.", "Emphasize the RLB internship duration and specific tasks in more detail, e.g., ''assisted in preparing cost estimates for HK$XX million project''.", "Consider enrolling in HKIS APC structured training to show commitment to professional qualification.", "Add a section on ''Relevant Projects'' from university or internship to demonstrate exposure to construction procurement."]', 'Detail-oriented Quantity Surveying graduate with a BSc (Hons) in Surveying from The Hong Kong Polytechnic University and 0.5 years of internship experience at Rider Levett Bucknall, a leading cost consultancy. Proficient in cost estimation, tender documentation, contract administration, and BIM coordination using CostX, Revit, AutoCAD, and Navisworks. Fluent in Cantonese, English, and Mandarin. Holds Green Card and HKIS/RICS student memberships. Seeking to leverage strong analytical and software skills in a cost consultancy role supporting development contracts administration. Eager to contribute to Sands China''s projects in Hong Kong and Macau.', 'Dear Hiring Manager,
+
+I am writing to express my strong interest in the Quantity Surveyor position within the Development Contracts Administration Team at Sands China. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I have developed a solid foundation in cost consultancy and contract administration that aligns well with the requirements of this role.
+
+During my summer internship at Rider Levett Bucknall (RLB) in 2025, I gained practical experience supporting a senior QS team with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis—skills directly applicable to the bidding and contract administration duties outlined in your job description. Additionally, my part-time role as a student assistant at PolyU’s Building & Real Estate Department involved supporting research on construction cost trends, further sharpening my analytical abilities.
+
+As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, and I am already an HKIS Student Member. I am familiar with the HKIS’s professional standards and relevant Hong Kong ordinances, including the Building Ordinance and standard forms of contract commonly used in local projects. I also hold a valid Construction Industry Safety Card (Green Card) and am proficient in Cantonese, English, and Mandarin, enabling effective communication across diverse project stakeholders.
+
+My technical toolkit includes AutoCAD, Revit, CostX, Navisworks, Bluebeam, MS Project, and advanced Excel with VBA, as well as BIM coordination skills through my CIC-accredited BIM Basic Modelling Course. I am confident these competencies will allow me to efficiently support your team in managing contract documentation, project registers, and the bidding process.
+
+I am particularly drawn to Sands China’s reputation for delivering world-class integrated resort developments in Macau and Hong Kong. I am eager to contribute to your team’s success while further developing my professional expertise under your guidance.
+
+Thank you for considering my application. I look forward to the opportunity to discuss how I can add value to your organisation.
+
+Yours sincerely,
+
+[Your Name]', '["How familiar are you with the HKIS APC requirements for the QS division, and what steps have you taken to enroll in the structured training program?", "Can you describe your experience with cost estimation and the use of CostX or similar software in preparing bills of quantities?", "Sands China has large-scale integrated resort projects in Macau. How would you approach contract administration for a project involving multiple cross-functional teams and contractors?", "What is your understanding of the Hong Kong Standard Method of Measurement (SMM) and its application in quantity surveying?", "Describe a time during your internship at RLB when you had to handle a discrepancy in measurement or a contractor dispute. How did you resolve it?"]', '2026-07-03 11:05:27', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (45, 6, 1, 88.0, '["Relevant degree: BSc (Hons) in Surveying from PolyU, a top HK surveying school, directly aligned with QS role.", "Strong internship: Summer intern at RLB (Rider Levett Bucknall) with practical QS tasks including cost estimates, BQ, site measurements, variation orders, and tender analysis.", "Excellent software skills: Proficient in CostX, AutoCAD, Revit, Navisworks, Bluebeam, MS Project, Excel, VBA, Power BI \u2013 all highly relevant for QS work.", "Language proficiency: Fluent in Cantonese, English, and Mandarin, essential for HK site communication.", "Certifications: Holds Green Card, Revit Architecture Certified Professional, and BIM Basic Modelling Course (CIC-accredited); HKIS and RICS Student Member."]', '["No HK driving license \u2013 may be required for site visits depending on project location.", "Limited work experience: Only 0.5 years of internship; no full-time experience yet.", "No explicit mention of HK Standard Method of Measurement (SMM) or NRM knowledge \u2013 could be a gap for technical QS tasks."]', '["Highlight any specific HK projects you worked on during RLB internship (e.g., residential, commercial, government) to show local exposure.", "Obtain HK driving license (Class 1) if possible \u2013 it''s often required for site-based QS roles.", "Mention familiarity with HK SMM or NRM in your CV or cover letter to demonstrate technical QS knowledge.", "Emphasize your HKIS APC pathway readiness \u2013 state that you are eligible and planning to enroll.", "Add a section on ''Key Achievements'' from your internship, e.g., ''Assisted in preparing BQ for a HK$XX million project''."]', 'Final-year BSc (Hons) Surveying student at The Hong Kong Polytechnic University, graduating in 2026, with a strong foundation in quantity surveying and hands-on internship experience at Rider Levett Bucknall (RLB) in Hong Kong. Proficient in cost estimation, bills of quantities, site measurement, variation orders, and tender analysis. Skilled in industry-standard software including CostX, AutoCAD, Revit, Navisworks, Bluebeam, MS Project, Excel, VBA, and Power BI. Holds Construction Industry Safety Card (Green Card), Revit Architecture Certified Professional, and CIC-accredited BIM Basic Modelling Course. Fluent in Cantonese, English, and Mandarin. Active HKIS and RICS Student Member, eligible for HKIS APC pathway. Seeking a graduate Assistant Quantity Surveyor role at Hip Hing Construction to apply technical skills and contribute to cost control and contract administration on HK projects.', 'Dear Hiring Manager,
+
+I am writing to express my keen interest in the Assistant Quantity Surveyor position at Hip Hing Construction Co Ltd, as advertised for the 2026 Fresh Graduate Recruitment programme. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I am eager to contribute to your company’s esteemed legacy in delivering landmark infrastructure and building projects across Hong Kong.
+
+My academic foundation, combined with practical experience at Rider Levett Bucknall (RLB) during summer 2025, has equipped me with a solid understanding of quantity surveying practices in the local context. At RLB, I assisted senior surveyors with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis—work that directly aligns with the responsibilities outlined in your job description. Additionally, my role as a part-time student assistant at PolyU’s Building & Real Estate Department involved supporting research on construction cost trends, further sharpening my analytical skills.
+
+I am proficient in industry-standard tools including AutoCAD, Revit, CostX, Navisworks, and MS Project, and I hold a Construction Industry Safety Card (Green Card), ensuring I am ready for site visits from day one. As a HKIS Student Member and a PolyU surveying graduate, I am eligible for the HKIS APC graduate pathway, and I am committed to pursuing professional qualification under the HKIS framework. My familiarity with HK-specific practices—such as the Standard Method of Measurement for Building Works and relevant Hong Kong ordinances—enables me to adapt quickly to your team’s workflows.
+
+I am particularly drawn to Hip Hing’s reputation for excellence in complex construction projects across Hong Kong, and I am eager to apply my technical skills and bilingual proficiency (Cantonese, English, Mandarin) to support your cost control and contract administration teams.
+
+Thank you for considering my application. I look forward to the opportunity to discuss how I can contribute to Hip Hing’s continued success.
+
+Yours faithfully,
+[Your Full Name]', '["How familiar are you with the HKIS APC requirements for the QS division, and what steps have you taken to prepare for the APC process?", "Can you describe your experience using CostX for cost estimation and how you ensure accuracy in bills of quantities?", "Hip Hing Construction has been involved in major HK projects like the Kai Tak Sports Park and West Kowloon Station. How would you apply your skills to support cost control on a large-scale infrastructure project?", "What do you know about the Hong Kong Standard Method of Measurement (SMM) and how it differs from the UK NRM?", "Describe a time during your internship at RLB when you had to resolve a discrepancy in site measurements or a contractor dispute. How did you handle it?"]', '2026-07-03 11:05:47', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (46, 7, 1, 88.0, '["Relevant BSc in Surveying from PolyU, a top HK surveying school, directly matching the QS discipline.", "Completed a summer internship at RLB (the same company), gaining hands-on experience in cost estimates, BOQs, site measurements, and tender analysis.", "Possesses Green Card, essential for site visits, and lists Cantonese proficiency, critical for HK site communication.", "Strong software skills including CostX, Revit, AutoCAD, Excel with VBA, and BIM tools, exceeding typical graduate level.", "HKIS and RICS Student Memberships, indicating proactive pursuit of professional qualification and awareness of APC pathway."]', '["No HK driving license, though not a hard requirement for this role.", "Limited work experience (only 0.5 years as intern), but acceptable for a fresh graduate role.", "No explicit mention of HK Standard Method of Measurement (SMM) or NRM knowledge, which may be tested in interview."]', '["Highlight the RLB internship more prominently, detailing specific projects and tasks to demonstrate direct relevance.", "Add a line about familiarity with HK SMM or NRM, as this is often expected for QS roles in HK.", "If you have a driving license, add it; if not, consider obtaining one for future site-based roles.", "Mention any involvement in HKIS APC events or training to show commitment to the pathway.", "Quantify achievements in the internship (e.g., ''Assisted in preparing BOQs for a HK$500M commercial project'')."]', 'Recent BSc (Hons) Surveying graduate from The Hong Kong Polytechnic University with a summer internship at Rider Levett Bucknall (RLB) in Hong Kong. During the internship, assisted senior quantity surveyors with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis for high-profile commercial and residential projects. Proficient in CostX, AutoCAD, Revit, Navisworks, Bluebeam, MS Project, and advanced Excel (including VBA). Possess Construction Industry Safety Card (Green Card) and fluent in Cantonese, English, and Mandarin. HKIS and RICS Student Member, actively pursuing the HKIS APC pathway. Seeking to leverage strong analytical and technical skills as an Assistant Quantity Surveyor at RLB, contributing to pre- and post-contract duties under the APC training scheme.', 'Dear Hiring Manager,
+
+I am writing to express my strong interest in the Assistant Quantity Surveyor – Graduate position at Rider Levett Bucknall (RLB) Hong Kong. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I am eager to contribute to RLB’s continued success on high-profile commercial and residential projects across Hong Kong.
+
+My summer internship at RLB from June to August 2025 provided invaluable hands-on experience in pre- and post-contract quantity surveying duties, including cost estimates, bills of quantities, site measurements, variation orders, and tender analysis. This exposure reinforced my understanding of HK-specific surveying practices, particularly the importance of compliance with relevant ordinances and the HKIS standards that guide our profession. I am also a current HKIS Student Member and, as a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway—a commitment I am ready to pursue under RLB’s structured training scheme.
+
+My technical skills span AutoCAD, Revit, CostX, Navisworks, Bluebeam, MS Project, and advanced Excel with VBA, alongside proficiency in Python, Power BI, and SPSS for data analysis. I hold a Construction Industry Safety Card (Green Card), a Revit Architecture Certified Professional credential, and a CIC-accredited BIM Basic Modelling certificate, ensuring I can integrate seamlessly into RLB’s BIM-coordinated workflows. My trilingual fluency in Cantonese, English, and Mandarin further supports effective communication across diverse project teams.
+
+I am drawn to RLB’s reputation for delivering landmark developments in Hong Kong and its commitment to nurturing young talent through the APC pathway. I am confident that my internship experience, academic foundation, and proactive attitude align well with the demands of this role.
+
+Thank you for considering my application. I look forward to the opportunity to discuss how I can contribute to RLB’s projects and my professional growth under your guidance.
+
+Yours sincerely,
+[Your Full Name]', '["Can you walk us through the HKIS APC requirements for the QS division and your plan to complete the structured training?", "How familiar are you with the Hong Kong Standard Method of Measurement (SMM) and how would you apply it in preparing a bill of quantities?", "Given your internship at RLB, can you describe a specific project you worked on and the key challenges you faced in cost estimation?", "What are the key differences between pre-contract and post-contract quantity surveying duties in the context of HK''s construction industry?", "Describe a time when you had to resolve a discrepancy in site measurements or a dispute with a contractor. How did you handle it?"]', '2026-07-03 11:06:06', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (47, 12, 1, 42.0, '["PolyU BSc Surveying degree qualifies for HKIS graduate pathway, showing strong academic foundation.", "Possesses Green Card, essential for site work.", "Fluent in Cantonese, English, and Mandarin, ideal for HK site communication.", "Proficient in AutoCAD, Revit, CostX, and BIM software, valuable for surveying tasks.", "HKIS and RICS student memberships demonstrate commitment to professional development."]', '["Degree is in Quantity Surveying, not Land Surveying/Geomatics as required by the job.", "No land surveying internship or project experience; all experience is QS-related.", "No HK driving license, which may be needed for field work.", "No mention of land surveying equipment (e.g., total station, GPS) or geospatial software (e.g., GIS)."]', '["Consider applying for QS roles instead, as your degree and experience align with Quantity Surveying.", "If pursuing land surveying, highlight any land surveying coursework or projects from your degree.", "Obtain a HK driving license (Class 1/2) to improve eligibility for field roles.", "Gain land surveying experience through internships or part-time work with land surveying firms.", "List any GIS or geospatial software skills if applicable."]', 'Recent BSc (Hons) Surveying graduate from The Hong Kong Polytechnic University with a strong academic record and internship experience at Rider Levett Bucknall. Proficient in AutoCAD, Revit, CostX, and BIM software. Possess Green Card and fluent in Cantonese, English, and Mandarin. HKIS and RICS student member, eligible for HKIS APC pathway. Seeking a graduate position in land surveying to apply analytical and technical skills to major infrastructure projects.', 'Dear Hiring Manager,
+
+I am writing to express my strong interest in the Assistant Engineer / Graduate Surveyor position within WSP’s 2026 Graduate Program intake. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I am eager to contribute to WSP’s renowned portfolio of major infrastructure and development projects across Hong Kong.
+
+My academic training at PolyU, combined with practical experience as a summer intern at Rider Levett Bucknall (RLB), has provided me with a solid foundation in quantity surveying practices. At RLB, I assisted senior QS team members with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis—skills directly transferable to the land surveying focus of this role. Additionally, my part-time role as a student assistant at PolyU’s Building & Real Estate Department involved supporting research on construction cost trends, further sharpening my analytical abilities.
+
+I am proficient in industry-standard tools including AutoCAD, Revit, CostX, Navisworks, Bluebeam, and MS Project, and I hold a Construction Industry Safety Card (Green Card), ensuring I am ready for site-based work from day one. As a HKIS Student Member and a PolyU surveying graduate, I am eligible for the HKIS APC graduate pathway, and I am committed to pursuing professional accreditation under the HKIS framework. My familiarity with HK-specific surveying practices—including relevant ordinances and the role of the HKIS in shaping professional standards—will allow me to integrate seamlessly into your team.
+
+WSP’s reputation for delivering complex, high-impact projects in Hong Kong’s built environment is precisely the environment where I hope to develop my career. I am drawn to the comprehensive training and mentorship your graduate program offers, and I am confident that my technical skills, bilingual proficiency in Cantonese and English, and strong work ethic will enable me to make meaningful contributions.
+
+I welcome the opportunity to discuss how my background aligns with WSP’s needs. Thank you for considering my application.
+
+Yours faithfully,
+
+[Your Full Name]', '["What do you know about the HKIS APC pathway for the Land Surveying division?", "Can you describe your experience with land surveying equipment such as total stations or GPS?", "How would you approach a topographic survey for a large infrastructure project in Hong Kong?", "What are the key regulations governing land surveying in Hong Kong?", "Describe a time you worked in a team to solve a technical problem; how did you contribute?"]', '2026-07-03 11:06:23', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (48, 14, 1, 85.0, '["Relevant degree: BSc (Hons) in Surveying from PolyU, a top HK surveying school, directly aligned with QS role.", "HKIS Student Member and RICS Student Member, demonstrating commitment to professional pathway.", "Strong software skills including CostX, Revit, AutoCAD, and BIM, highly valued in modern QS roles.", "Cantonese proficiency, essential for site communication with local contractors.", "Green Card holder, ready for site visits without delay."]', '["Limited work experience: only 0.5 years of internship/part-time, no full-time QS experience.", "No HK driving license, which may be required for site visits depending on project location.", "No explicit mention of NEC contract experience, which is preferred by the job posting."]', '["Highlight any NEC contract exposure from RLB internship or coursework, even if minimal.", "Obtain HK driving license (Class 1) to increase flexibility for site visits.", "Quantify internship achievements: e.g., ''Assisted in cost estimates for 3 projects totaling HK$50M''.", "Add a section on ''Project Experience'' listing specific HK projects (e.g., residential, commercial) if any.", "Emphasize BIM coordination experience as Yau Lee is a green integrated contractor with VDC implementation."]', 'Final-year BSc (Hons) Surveying student at The Hong Kong Polytechnic University with a summer internship at Rider Levett Bucknall (RLB), a leading QS consultancy. Experienced in cost estimation, bills of quantities, tender analysis, and contract administration for pre- and post-contract stages. Proficient in AutoCAD, Revit, CostX, Navisworks, and BIM coordination. HKIS and RICS Student Member, eligible for HKIS APC pathway. Cantonese, English, and Mandarin speaker. Green Card holder. Seeking a Quantity Surveyor Trainee role at Yau Lee Holdings to apply technical skills and contribute to green building projects.', 'Dear Hiring Manager,
+
+I am writing to express my keen interest in the Quantity Surveyor / Assistant Quantity Surveyor / Quantity Surveyor Trainee position at Yau Lee Holdings Limited. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I have long admired Yau Lee’s reputation as a green integrated corporation and its pioneering role in sustainable construction, precast technology, and virtual design & construction across Hong Kong. Your commitment to improving construction productivity and buildability aligns closely with my academic focus and professional aspirations.
+
+During my summer internship at Rider Levett Bucknall (RLB) in 2025, I gained hands-on experience assisting senior quantity surveyors with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis. This role strengthened my proficiency in AutoCAD, Revit, CostX, and Bluebeam, and deepened my understanding of pre- and post-contract administration. Additionally, as a part-time student assistant at PolyU’s Building & Real Estate Department, I supported research on construction cost trends, further sharpening my analytical skills using Excel, VBA, and Power BI.
+
+As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, and I am already an HKIS Student Member. I am familiar with HKIS practice notes, the Standard Method of Measurement for Hong Kong, and relevant ordinances governing the local construction industry. I also hold a valid Construction Industry Safety Card (Green Card), a CIC-accredited BIM Basic Modelling Certificate, and Autodesk Revit Architecture Certified Professional status, ensuring I can contribute immediately to your BIM-coordinated projects.
+
+Fluent in Cantonese, English, and Mandarin, I am confident in communicating effectively with diverse project stakeholders. I am eager to bring my technical skills, local knowledge, and dedication to sustainability to Yau Lee’s dynamic team. Thank you for considering my application. I look forward to the opportunity to discuss how I can support your continued success in Hong Kong’s construction sector.
+
+Yours sincerely,
+[Your Name]', '["Can you walk us through the HKIS APC requirements for the QS division and your plan to complete the Assessment of Professional Competence?", "How familiar are you with the Hong Kong Standard Method of Measurement (SMM) and its application in preparing bills of quantities?", "Yau Lee has been involved in precast and green building projects. How would you approach cost planning for a project using precast concrete elements?", "What experience do you have with NEC contracts, and how do they differ from traditional HK government contracts?", "Describe a time during your internship at RLB when you had to resolve a discrepancy in site measurements. How did you handle it?"]', '2026-07-03 11:06:40', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (49, 15, 1, 88.0, '["PolyU BSc Surveying degree directly relevant to QS role and automatically qualifies for HKIS APC pathway.", "Summer internship at RLB (leading HK QS consultancy) with hands-on experience in cost estimates, BQ, site measurements, variation orders, and tender analysis.", "Strong software skills including CostX, Revit, AutoCAD, Navisworks, Bluebeam, and MS Project \u2013 all highly relevant to QS work.", "Holds Green Card (Construction Industry Safety Card) \u2013 mandatory for site visits.", "Fluent in Cantonese, English, and Mandarin \u2013 meets language requirements for HK client-facing roles."]', '["No HK driving license \u2013 may be required for site visits, though not explicitly stated in job posting.", "Limited work experience (only 0.5 years internship) \u2013 fresh graduate profile, but acceptable for graduate role.", "No explicit mention of written Chinese proficiency \u2013 though Cantonese and HKDSE imply it, could be clarified in CV."]', '["Explicitly state ''Written Chinese (fluent)'' in languages section to match job requirement.", "Add a line about HKIS APC awareness: ''Enrolled in HKIS APC pathway'' or ''Preparing for HKIS APC''.", "List specific HK projects or clients from RLB internship (e.g., ''Assisted on HK residential/commercial projects'') to demonstrate local exposure.", "Consider obtaining HK driving license (Class 1) to enhance site mobility.", "Quantify achievements in internship (e.g., ''Prepared cost estimates for 3 projects totaling HK$XX million'')."]', 'Final-year BSc (Hons) Surveying student at The Hong Kong Polytechnic University, graduating in 2026, with a strong foundation in quantity surveying. Completed a summer internship at Rider Levett Bucknall (RLB) in Hong Kong, where I assisted senior QS team with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis. Proficient in measurement, cost estimating, contract administration, and BIM coordination. Skilled in AutoCAD, Revit, CostX, Navisworks, Bluebeam, MS Project, Excel, VBA, and Power BI. Holder of Green Card and Revit Architecture Certified Professional. Fluent in Cantonese, English, and Mandarin. HKIS and RICS Student Member, eligible for HKIS APC pathway. Seeking a graduate quantity surveyor role to contribute to sustainable infrastructure projects in Hong Kong and Macau.', 'Dear Hiring Manager,
+
+I am writing to express my strong interest in the 2026 Graduate Quantity Surveyor position at Arcadis Hong Kong & Macau. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, graduating in 2026, I am eager to contribute to Arcadis’s legacy of delivering sustainable design and consultancy solutions that improve quality of life across Hong Kong’s built environment.
+
+My academic training at PolyU, combined with practical experience as a summer intern at Rider Levett Bucknall (RLB) in 2025, has provided me with a solid foundation in pre-contract cost estimation, tender documentation, and post-contract administration. At RLB, I assisted senior quantity surveyors with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis—skills directly aligned with the responsibilities outlined in this role. Additionally, my part-time role as a student assistant in PolyU’s Building & Real Estate Department involved supporting research on construction cost trends, further sharpening my analytical abilities.
+
+I am proficient in industry-standard tools including AutoCAD, Revit, CostX, Navisworks, Bluebeam, and MS Project, and I hold a Construction Industry Safety Card (Green Card), ensuring I am ready for site visits from day one. As a HKIS Student Member, I am eligible for the HKIS APC graduate pathway through my PolyU degree, and I am committed to pursuing professional accreditation under the HKIS framework. I am also familiar with Hong Kong’s surveying practices, including relevant ordinances and contract administration processes, and I communicate fluently in Cantonese, English, and Mandarin.
+
+Arcadis’s reputation for pioneering sustainable infrastructure in Hong Kong—such as your work on major transport and public works projects—resonates deeply with my career aspirations. I am eager to bring my technical skills, team-oriented mindset, and dedication to professional growth to your team.
+
+I have attached my latest transcript, DSE results, and resume. I am available to commence in 2026 and would welcome the opportunity to discuss how I can contribute to Arcadis’s continued success.
+
+Thank you for your consideration.
+
+Yours sincerely,
+
+[Your Full Name]', '["Can you walk us through the HKIS APC requirements for the QS division and how your PolyU degree prepares you for it?", "How would you prepare a cost estimate for a mixed-use development in Hong Kong using the HK Standard Method of Measurement?", "Arcadis has been involved in major HK infrastructure projects like the Hong Kong-Zhuhai-Macao Bridge. How do you think sustainability can be integrated into cost management for such projects?", "What sections of the Hong Kong Building Ordinance are most relevant to a quantity surveyor''s role in post-contract administration?", "Describe a time during your internship at RLB when you had to resolve a discrepancy in site measurements with a contractor. How did you handle it?"]', '2026-07-03 11:07:01', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (50, 17, 1, 78.0, '["Degree in Surveying from PolyU (QS discipline) \u2013 directly matches the degree requirement.", "Relevant internship at RLB (a major QS consultancy) with hands-on cost estimates, BOQ, site measurements, and tender analysis.", "Strong software skills including CostX, Revit, AutoCAD, and BIM \u2013 highly valued for modern QS roles.", "Possesses Green Card \u2013 mandatory for site work at airport area.", "Fluent in Cantonese, English, and Mandarin \u2013 meets all language requirements."]', '["Only 0.5 years of experience, below the minimum 1 year required.", "No MEP experience or technical know-how, which is an advantage for this role.", "No HK driving license \u2013 may be needed for site visits at airport area (not explicitly required but helpful)."]', '["Highlight any MEP-related coursework or projects in your CV to address the MEP advantage.", "Consider obtaining a HK driving license (Class 1/2) to improve mobility for site visits.", "Emphasize your HKIS Student Membership and APC eligibility in the professional summary.", "Quantify achievements from your RLB internship (e.g., ''Assisted in cost estimates for 3 projects totaling HK$XX million'').", "Add a section on ''Relevant Coursework'' to demonstrate knowledge of construction technology, contracts, and law."]', 'BSc (Hons) Surveying student at The Hong Kong Polytechnic University with a summer internship at Rider Levett Bucknall (RLB) assisting senior QS team in cost estimates, bills of quantities, site measurements, variation orders, and tender analysis. Proficient in AutoCAD, Revit, CostX, Navisworks, and BIM. Possess Green Card and fluent in Cantonese, English, and Mandarin. HKIS Student Member, eligible for HKIS APC pathway. Seeking a challenging Assistant Quantity Surveyor role at Arcadis to apply technical knowledge and contribute to airport area projects.', 'Dear Hiring Manager,
+
+I am writing to express my strong interest in the Assistant Quantity Surveyor (Airport Area) position at Arcadis Hong Kong. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I have long admired Arcadis’s reputation for delivering world-class infrastructure and sustainable design solutions across Hong Kong, particularly in large-scale transport and airport-related projects. I am eager to contribute to your QS MEP team and support the continued success of your Airport Area portfolio.
+
+My academic training at PolyU, combined with practical experience as a summer intern at Rider Levett Bucknall (RLB), has equipped me with a solid foundation in quantity surveying practices relevant to the Hong Kong context. At RLB, I assisted senior QS colleagues with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis—skills directly aligned with the pre- and post-contract responsibilities outlined in your role description. I am also proficient in industry-standard tools including AutoCAD, Revit, CostX, Navisworks, Bluebeam, and MS Project, and have developed strong analytical capabilities through my work with Excel, VBA, and Power BI.
+
+As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, and I currently hold HKIS Student Membership. I am familiar with HKIS professional practice standards, relevant Hong Kong ordinances, and local contract administration processes, which I have applied during my internship and academic projects. Additionally, I have already obtained the Construction Industry Safety Card (Green Card), ensuring I am ready to commence site duties without delay.
+
+While I have approximately six months of direct QS experience, I am confident that my technical knowledge, BIM certification (CIC-accredited), and trilingual proficiency in Cantonese, English, and Mandarin position me to quickly add value to your team. I am a dedicated team player with a strong willingness to learn, and I am eager to develop my MEP knowledge under Arcadis’s expert guidance.
+
+Thank you for considering my application. I look forward to the opportunity to discuss how I can contribute to Arcadis’s impactful projects in Hong Kong.
+
+Yours faithfully,
+
+[Your Name]', '["How familiar are you with the HKIS APC requirements for the QS division, and what steps have you taken to prepare for the APC?", "Can you describe your experience with cost estimating using CostX or similar software? How do you ensure accuracy in your measurements?", "Arcadis is involved in large-scale infrastructure projects at the airport area. How would you approach cost control for a project with multiple MEP packages?", "What is your understanding of the Hong Kong Standard Method of Measurement (SMM) and how it differs from other standards?", "Describe a time when you had to work under pressure to meet a tight deadline on a project. How did you manage your tasks and communicate with the team?"]', '2026-07-03 11:07:18', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (51, 21, 1, 68.0, '["Relevant degree: BSc (Hons) in Surveying from PolyU, a top HK surveying school, directly aligned with QS discipline.", "Strong software skills: Proficient in CostX, AutoCAD, Revit, Navisworks, Bluebeam, MS Project, Excel, VBA, Python, Power BI.", "Language proficiency: Fluent in Cantonese, English, and Mandarin, meeting HK site communication needs.", "Green Card holder: Holds Construction Industry Safety Card, mandatory for site visits.", "HKIS/RICS student membership: Demonstrates awareness of professional pathway and commitment to becoming a chartered surveyor."]', '["Insufficient experience: Only 0.5 years of internship vs. required 3-5 years of QS/tendering experience in HK construction.", "No full professional membership: Job prefers MHKIS or MRICS; candidate is only a student member.", "Lack of HK contract knowledge: No mention of HKIA/HA, NEC, or GCC contract formats.", "No experience in main contractor tendering: Internship was at a consultancy (RLB), not a contractor''s tendering department."]', '["Gain full-time QS experience in HK, preferably with a main contractor''s tendering department, to meet the 3-5 year requirement.", "Pursue HKIS APC and aim for MHKIS status; highlight APC enrollment in CV.", "Add knowledge of HK measurement standards (SMM(Civil), HKQS) and contract formats (HKIA, NEC, GCC) to CV if applicable.", "Quantify internship achievements: e.g., ''Assisted in cost estimation for 3 projects worth HK$XX million'' to demonstrate impact.", "Obtain HK driving license (Class 1/2) if planning site-based roles."]', 'Final-year BSc (Hons) Surveying student at The Hong Kong Polytechnic University with a summer internship at Rider Levett Bucknall (RLB) assisting senior QS team in cost estimates, bills of quantities, site measurements, variation orders, and tender analysis. Proficient in CostX, AutoCAD, Revit, Navisworks, Bluebeam, MS Project, and advanced Excel with VBA. Fluent in Cantonese, English, and Mandarin. Holder of Green Card and HKIS/RICS student membership. Seeking a Quantity Surveyor (E&M) role to apply measurement and cost estimation skills in a main contractor''s tendering environment.', 'Dear Hiring Manager,
+
+I am writing to express my strong interest in the Quantity Surveyor (E&M) position at China Harbour Engineering Co. Ltd. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I have developed a solid foundation in quantity surveying practices and am eager to contribute to your esteemed organization’s landmark infrastructure projects across Hong Kong.
+
+As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway and currently hold HKIS Student Membership. This academic grounding, combined with my hands-on internship at Rider Levett Bucknall (RLB) during summer 2025, has equipped me with practical experience in cost estimation, bills of quantities preparation, site measurements, variation orders, and tender analysis. I am also proficient in industry-standard tools including AutoCAD, Revit, CostX, Navisworks, Bluebeam, and MS Project, and I hold a Construction Industry Safety Card (Green Card) as well as a CIC-accredited BIM Basic Modelling Certificate.
+
+I understand that China Harbour Engineering is a leading main contractor in Hong Kong, known for delivering complex civil and E&M projects. While I acknowledge that the role requires 3–5 years of experience, I am confident that my technical skills, strong Cantonese and English communication abilities, and familiarity with Hong Kong’s local measurement standards (SMM(Civil) and HKQS) will allow me to add value quickly. My part-time research assistant role at PolyU’s Building & Real Estate Department further strengthened my analytical capabilities in cost trend analysis and contract administration.
+
+I am fully prepared to obtain any additional certifications required and am committed to pursuing professional membership with HKIS and RICS. I would welcome the opportunity to discuss how my proactive attitude and technical foundation can support your tendering and quantity surveying team.
+
+Thank you for considering my application.
+
+Yours faithfully,
+
+[Your Full Name]', '["Can you walk us through the HKIS APC pathway for the QS division and where you are in the process?", "How would you prepare a Bill of Quantities for an E&M project using HKQS measurement standards?", "China Harbour Engineering has major infrastructure projects in HK. How would you approach cost risk assessment for a large-scale tunnel project?", "What are the key differences between the HKIA Standard Form of Contract and the NEC contract in terms of cost management?", "Describe a time during your internship at RLB when you had to resolve a discrepancy in a subcontractor''s quotation. How did you handle it?"]', '2026-07-03 11:07:39', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (52, 23, 1, 65.0, '["BSc (Hons) in Surveying from PolyU, a top HK surveying school, directly relevant to QS role.", "Fluent in Cantonese, English, and Mandarin, meeting language requirements for HK site work.", "Possesses Green Card, mandatory for site visits in HK construction.", "Strong software skills including CostX, Revit, AutoCAD, and BIM, highly valued in cost management.", "HKIS and RICS Student Member, demonstrating commitment to professional development and APC pathway."]', '["Only 3 months of internship experience at RLB; job requires 5-10 years experience, a significant gap.", "No MEP QS background mentioned, which is preferred for this role.", "No HK driving license, which may be required for site visits depending on project location.", "Limited exposure to full range of cost management duties (e.g., feasibility studies, value management, final accounts) beyond basic intern tasks."]', '["Highlight any MEP-related coursework or projects in your CV to address the preferred MEP QS background.", "Obtain a HK driving license (Class 1) to increase flexibility for site visits.", "Quantify internship achievements at RLB with specific numbers (e.g., ''Assisted in cost estimates for 3 projects totaling HK$50M'').", "Add a section on ''Relevant Coursework'' to demonstrate knowledge of value engineering, life cycle costing, and procurement.", "Mention any involvement in HKIS APC activities (e.g., workshops, mentoring) to show active pathway engagement."]', 'Detail-oriented Quantity Surveying graduate from The Hong Kong Polytechnic University with a BSc (Hons) in Surveying and hands-on internship experience at Rider Levett Bucknall (RLB). Proficient in cost estimation, bills of quantities, tender documentation, and contract administration. Skilled in industry-standard software including CostX, AutoCAD, Revit, and BIM. Fluent in Cantonese, English, and Mandarin, enabling effective communication with local contractors and clients. Holder of Green Card and active HKIS/RICS Student Member, committed to pursuing the HKIS APC pathway. Seeking to leverage technical and analytical skills in a cost management role at Turner & Townsend, contributing to successful project delivery in Hong Kong''s dynamic construction market.', 'Dear Hiring Manager,
+
+I am writing to express my strong interest in the Quantity Surveyor position at Turner & Townsend. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I am eager to contribute to your firm’s renowned project delivery across Hong Kong’s real estate and infrastructure sectors.
+
+My academic training at PolyU, combined with a summer internship at Rider Levett Bucknall (RLB), has provided me with a solid foundation in cost estimation, tender documentation, and contract administration. At RLB, I assisted senior quantity surveyors with bills of quantities, site measurements, variation orders, and tender analysis—experience that aligns directly with the estimating and procurement responsibilities outlined in your job description. I am also proficient in industry-standard tools including CostX, AutoCAD, Revit, Navisworks, and MS Project, and have completed a CIC-accredited BIM Basic Modelling Course, reflecting my readiness for digitalised surveying workflows.
+
+As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, and I currently hold HKIS Student Membership. I am familiar with the HKIS’s professional standards and relevant Hong Kong ordinances, including the Building Ordinance and the Standard Form of Building Contract, which I have studied in depth. I already possess the Construction Industry Safety Card (Green Card), ensuring I can commence site visits without delay.
+
+Turner & Townsend’s reputation for delivering complex projects in Hong Kong—such as the West Kowloon Cultural District and major infrastructure programmes—is well known to me. I am drawn to your firm’s emphasis on value management and digital solutions, and I am confident that my analytical skills, including proficiency in Excel VBA, Power BI, and Python, can support your team in driving cost efficiency and innovation.
+
+I would welcome the opportunity to discuss how my technical skills and local knowledge can contribute to Turner & Townsend’s continued success in Hong Kong. Thank you for your consideration.
+
+Yours faithfully,
+
+[Your Name]', '["Can you walk us through the HKIS APC requirements for the QS division and your plan to complete the structured training?", "How would you prepare a cost estimate for a mixed-use development in Hong Kong, considering local market rates and the HK Standard Method of Measurement?", "Turner & Townsend has a strong presence in Hong Kong''s infrastructure sector. What experience do you have with cost management for MTR or government projects?", "What is your understanding of the Hong Kong Building (Planning) Regulations as they relate to cost planning and measurement?", "Describe a time when you had to resolve a discrepancy in a contractor''s measurement on site. How did you handle it?"]', '2026-07-03 11:07:56', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (53, 28, 1, 45.0, '["Relevant degree: BSc (Hons) in Surveying from PolyU, a top HK surveying school.", "Strong software skills: AutoCAD, Revit, CostX, Navisworks, Bluebeam, MS Project, Excel, VBA, Python, Power BI.", "Holds Green Card, essential for site work.", "Fluent in Cantonese, English, and Mandarin, suitable for HK environment.", "HKIS and RICS student membership, showing commitment to professional pathway."]', '["Lacks minimum 8 years of NEC experience; only 0.5 years of internship.", "No NEC contract experience mentioned, which is critical for this role.", "No HK driving license, which may be required for site visits.", "Limited project type exposure; no specific infrastructure project experience."]', '["Gain at least 8 years of NEC experience before applying for this senior role.", "Obtain HK driving license (Class 1/2) to increase site mobility.", "Highlight any NEC-related coursework or projects in CV.", "Seek full-time QS roles with NEC exposure to build required experience.", "Consider applying for graduate or junior QS positions instead."]', 'Recent BSc (Hons) Surveying graduate from The Hong Kong Polytechnic University with a summer internship at Rider Levett Bucknall (RLB) assisting senior QS team with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis. Proficient in AutoCAD, Revit, CostX, Navisworks, Bluebeam, MS Project, Excel, VBA, SPSS, Python, and Power BI. Holds Green Card and is a HKIS and RICS Student Member. Fluent in Cantonese, English, and Mandarin. Seeking a Quantity Surveyor role to apply strong analytical and software skills in NEC contract administration and cost control on large-scale infrastructure projects.', 'Dear Hiring Manager,
+
+I am writing to express my keen interest in the Quantity Surveyor (NEC) position at Mace, as advertised for your Hong Kong operations. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I have long admired Mace’s reputation for delivering complex, large-scale infrastructure programmes in Hong Kong, and I am eager to contribute to your team’s continued success.
+
+During my summer internship at Rider Levett Bucknall (RLB), I gained hands-on experience in cost estimation, bill of quantities preparation, tender analysis, and variation order administration — all within the Hong Kong construction context. This exposure, combined with my academic training, has given me a solid foundation in contract administration and cost control, which I understand are central to this role. I am also proficient in industry-standard tools such as CostX, Bluebeam, Revit, Navisworks, and MS Project, enabling me to support BIM coordination and digital workflows effectively.
+
+As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, and I am already an HKIS Student Member. I am familiar with the HKIS’s professional standards and relevant Hong Kong ordinances, including the Building Ordinance and the standard forms of contract commonly used locally. I hold a valid Construction Industry Safety Card (Green Card) and am prepared to commence immediately.
+
+While I recognise that the role typically requires more years of experience, I bring strong analytical skills, a proactive attitude, and a genuine commitment to the surveying profession. I am confident that my technical proficiency, bilingual fluency in Cantonese and English, and understanding of NEC contract principles — developed through coursework and internship exposure — will allow me to add value to Mace’s project teams.
+
+I would welcome the opportunity to discuss how my skills and enthusiasm align with Mace’s vision. Thank you for considering my application.
+
+Yours faithfully,
+
+[Your Name]', '["How familiar are you with the HKIS APC requirements for the QS division, and what steps have you taken to prepare for it?", "Can you explain the key differences between NEC3 and NEC4 contracts, and how you would manage a compensation event under NEC?", "Mace is involved in large-scale infrastructure projects in Hong Kong. How would you approach cost control and risk management on a major infrastructure program?", "What is your understanding of the Hong Kong Standard Method of Measurement (SMM) and how it applies to quantity surveying?", "Describe a time when you had to resolve a dispute with a contractor over measurement or valuation on a construction site. How did you handle it?"]', '2026-07-03 11:08:11', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (54, 67, 1, 68.0, '["Relevant degree: BSc (Hons) in Surveying from PolyU, a top HK surveying school, directly aligned with QS discipline.", "Cantonese proficiency: Listed as a language, essential for HK site communication.", "Green Card holder: Required for site visits, already obtained.", "Strong software skills: Proficient in CostX, AutoCAD, Revit, BIM tools, and data analysis tools like Python and Power BI.", "HKIS and RICS student membership: Demonstrates awareness of professional pathway and commitment to the profession."]', '["Insufficient experience: Only 0.5 years of internship vs. required 3-5 years of QS/tendering experience in HK construction.", "No main contractor experience: Job prefers tendering department of a main contractor; candidate''s internship was at a consultancy (RLB).", "Lack of knowledge in HK measurement standards and contract formats: No mention of SMM(Civil), HKQS, HKIA/HA, NEC, or GCC.", "No full experience in QTO, cost estimation, or subcontract management: Internship provided only basic exposure."]', '["Gain additional QS experience through full-time roles or longer internships to meet the 3-5 year requirement.", "Study and mention familiarity with HK measurement standards (SMM(Civil), HKQS) and contract formats (HKIA, NEC, GCC) in CV.", "Highlight any subcontract management or variation valuation tasks from internship in more detail.", "Consider obtaining a master''s degree or specialized certification in cost management or contract law to strengthen academic profile.", "If possible, seek experience in a main contractor''s tendering department to align with job preference."]', 'Recent BSc (Hons) Surveying graduate from The Hong Kong Polytechnic University with a strong foundation in quantity surveying. Completed a summer internship at Rider Levett Bucknall (RLB) where I assisted senior QS team with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis. Proficient in CostX, AutoCAD, Revit, and BIM tools. Hold Green Card and Cantonese fluency. HKIS and RICS student member, eligible for HKIS APC pathway. Seeking to apply my technical skills and growing QS knowledge in a main contractor environment, with a focus on tendering and cost management.', 'Dear Hiring Manager,
+
+I am writing to express my strong interest in the Surveyor position at China Harbour Engineering Co. Ltd. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I have developed a solid foundation in quantity surveying practices and am eager to contribute to your team’s high-profile infrastructure projects across Hong Kong.
+
+As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, and I currently hold HKIS Student Membership. This pathway, combined with my RICS Student Membership, reflects my commitment to professional development and adherence to the rigorous standards of Hong Kong’s surveying profession. I am familiar with the HKQS measurement standards and Hong Kong’s construction contract frameworks, including the application of SMM(Civil) in tender documentation and cost estimation.
+
+During my summer internship at Rider Levett Bucknall (RLB), I assisted senior QS colleagues with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis. This hands-on experience gave me practical exposure to quantity take-off, subcontractor quotation comparison, and contract administration in a Hong Kong context. Additionally, my part-time role at PolyU’s Building & Real Estate Department involved supporting research on construction cost trends, further sharpening my analytical skills.
+
+I am proficient in industry-standard tools including AutoCAD, Revit, CostX, Navisworks, Bluebeam, and MS Project, as well as data analysis platforms such as Power BI and Python. I also hold a Construction Industry Safety Card (Green Card) and a CIC-accredited BIM Basic Modelling Certificate, ensuring I meet site safety requirements from day one.
+
+While I currently have less than the 3–5 years of experience specified, I bring strong technical skills, a proactive learning attitude, and fluency in Cantonese, English, and Mandarin. I am confident that my academic training, internship exposure, and familiarity with HKIS pathways and local measurement standards will allow me to add value to your tendering and QS team.
+
+I would welcome the opportunity to discuss how my skills align with China Harbour Engineering’s ongoing projects. Thank you for your consideration.
+
+Yours faithfully,
+[Your Name]', '["How familiar are you with the HKIS APC requirements for the QS division, and what steps have you taken to prepare for the APC?", "Can you explain the key differences between SMM(Civil) and HKQS measurement standards, and give an example of when you applied one?", "China Harbour Engineering Co. Ltd is involved in large infrastructure projects in Hong Kong. How would you approach cost estimation for a major civil engineering tender?", "What is your understanding of the NEC contract form, and how does it differ from the HKIA standard contract in terms of cost management?", "Describe a time during your internship when you had to handle a discrepancy in a bill of quantities. How did you resolve it?"]', '2026-07-03 11:08:31', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (55, 98, 1, 88.0, '["Relevant QS degree from PolyU, a top HK surveying school, ensuring HKIS APC eligibility.", "Summer internship at RLB, a leading QS consultancy in HK, with hands-on experience in cost estimates, BQ, site measurements, and tender analysis.", "Strong software skills including CostX, Revit, AutoCAD, and BIM tools, highly valued in HK QS roles.", "Fluent in Cantonese, English, and Mandarin, meeting language requirements for client and contractor liaison.", "Holds Green Card, mandatory for site visits, and is a student member of both HKIS and RICS."]', '["No full-time work experience beyond internships; fresh graduate with only 0.5 years of experience.", "No HK driving license, which may be required for site visits to remote locations.", "Internship duration is short (3 months); limited exposure to full project lifecycle."]', '["Highlight specific HK projects or clients from RLB internship (e.g., residential, commercial, government) to demonstrate local experience.", "Obtain HK driving license (Class 1) to increase flexibility for site visits.", "Emphasize proficiency in CostX and BIM coordination in the CV summary, as these are key for QS roles.", "Mention any involvement in HKIS APC training log or mentorship if applicable.", "Add a section on ''Projects'' detailing any academic or internship projects with measurable outcomes."]', 'Detail-oriented Quantity Surveying graduate from The Hong Kong Polytechnic University with a BSc (Hons) in Surveying and hands-on internship experience at Rider Levett Bucknall (RLB) in Hong Kong. Proficient in cost estimation, bills of quantities, tender documentation, and contract administration using industry-standard software including CostX, AutoCAD, Revit, and Navisworks. Fluent in Cantonese, English, and Mandarin, enabling effective communication with clients, contractors, and government departments. Holder of Construction Industry Safety Card (Green Card) and student member of HKIS and RICS, demonstrating commitment to professional development. Seeking to leverage technical skills and local market knowledge in a Graduate Quantity Surveyor role at Chunwo to contribute to contract management and cost control on Hong Kong construction projects.', 'Dear Hiring Manager,
+
+I am writing to express my keen interest in the Graduate Quantity Surveyor position at Chunwo, as advertised. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I am eager to launch my career in contract and cost management within your well-established firm.
+
+My academic background and practical internship at Rider Levett Bucknall (RLB) have provided me with a solid foundation in Hong Kong’s quantity surveying practices. During my summer internship, I assisted senior QS team members with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis—experience that directly aligns with Chunwo’s focus on contract administration and subcontractor oversight. Additionally, my part-time role at PolyU’s Building & Real Estate Department involved supporting research on construction cost trends, further sharpening my analytical skills.
+
+I am proficient in industry-standard tools including AutoCAD, Revit, CostX, Navisworks, Bluebeam, and MS Project, and I hold a Revit Architecture Certified Professional credential along with a CIC-accredited BIM Basic Modelling certificate. My technical skills are complemented by strong communication abilities in Cantonese, English, and Mandarin, enabling effective liaison across departments and with subcontractors.
+
+As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway and am already an HKIS Student Member. I am familiar with HKIS practice notes, the Hong Kong Standard Method of Measurement, and relevant ordinances such as the Building Ordinance. I also hold a valid Construction Industry Safety Card (Green Card), ensuring I am ready to commence site duties immediately.
+
+Chunwo’s reputation for delivering complex construction projects in Hong Kong is well known, and I am excited by the opportunity to contribute to your team while growing professionally. I am prepared to bring my strong work ethic, attention to detail, and eagerness to learn to this role.
+
+Thank you for considering my application. I look forward to the possibility of discussing how I can support Chunwo’s continued success.
+
+Yours faithfully,
+
+[Your Name]', '["Can you walk us through the HKIS APC pathway for the QS division and what stage you are at?", "How would you prepare a cost estimate for a residential development in Hong Kong using the HK Standard Method of Measurement?", "Chunwo is involved in both public and private sector projects. How would you approach contract administration for a Housing Authority project versus a private developer?", "What are the key differences between the HK Standard Form of Building Contract and the General Conditions of Contract for public works?", "Describe a time during your internship at RLB when you had to resolve a discrepancy in site measurements. How did you handle it?"]', '2026-07-03 11:08:48', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (56, 102, 1, 82.0, '["BSc (Hons) in Surveying from PolyU, a top HK surveying school, directly relevant to QS.", "Summer internship at Rider Levett Bucknall (RLB) with hands-on QS tasks: cost estimates, BQ, site measurements, variation orders, tender analysis.", "Strong software skills: AutoCAD, Revit, CostX, Navisworks, Bluebeam, MS Project, Excel, VBA, Python, Power BI.", "Fluent in Cantonese, English, and Mandarin, meeting language requirements.", "Holds Green Card, HKIS Student Member, RICS Student Member, and BIM certification."]', '["No indication of willingness or ability to work in Macau, which is a requirement.", "Not immediately available (still studying, expected graduation 2026), while immediate availability is preferred.", "Limited work experience (only 0.5 years internship), which may be insufficient for a Quantity Surveyor role; likely suited for Assistant QS/Trainee."]', '["Explicitly state willingness to work in Macau in the CV or cover letter.", "Clarify availability: if able to start before graduation (e.g., part-time or after final exams), mention it.", "Add specific project types (e.g., residential, commercial) from RLB internship to demonstrate HK project exposure.", "Consider obtaining HK driving license if planning to work in Macau or on site."]', 'Detail-oriented Quantity Surveying graduate from The Hong Kong Polytechnic University with a BSc (Hons) in Surveying and hands-on internship experience at Rider Levett Bucknall (RLB). Proficient in cost estimation, bills of quantities, tender documentation, and contract administration. Skilled in AutoCAD, Revit, CostX, Navisworks, Bluebeam, MS Project, and advanced Excel. Fluent in Cantonese, English, and Mandarin. Holds Green Card, HKIS Student Membership, RICS Student Membership, and BIM certification. Seeking an Assistant Quantity Surveyor or Quantity Surveyor Trainee role at Wai Hung Hong, with willingness to work in Macau. Immediate availability upon graduation.', 'Dear Hiring Manager,
+
+I am writing to express my keen interest in the Quantity Surveyor / Assistant Quantity Surveyor / Quantity Surveyor Trainee position at Wai Hung Hong. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I am eager to contribute to your company’s esteemed portfolio of projects, particularly given your firm’s established reputation in the Hong Kong and Macau construction markets.
+
+My academic background and practical experience have provided me with a solid foundation in quantity surveying practices. During my summer internship at Rider Levett Bucknall (RLB) in 2025, I assisted the senior QS team with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis. This hands-on exposure, combined with my proficiency in AutoCAD, Revit, CostX, and MS Project, aligns well with your requirements. I am also well-versed in contract administration and BIM coordination, having completed a CIC-accredited BIM Basic Modelling Course and obtained the Autodesk Revit Architecture Certified Professional credential.
+
+As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, and I am already an HKIS Student Member. This pathway reflects my commitment to professional development within Hong Kong’s surveying profession, and I am familiar with relevant HK ordinances and HKIS practice notes. I hold a valid Construction Industry Safety Card (Green Card) and am prepared to work in Macau as required.
+
+I am hardworking, independent, and able to work under pressure. My trilingual fluency in Cantonese, English, and Mandarin ensures effective communication with diverse stakeholders. I am available to commence immediately and am eager to bring my technical skills and dedication to Wai Hung Hong.
+
+Thank you for considering my application. I look forward to the opportunity to discuss how I can contribute to your team.
+
+Yours faithfully,
+
+[Your Name]', '["How familiar are you with the HKIS APC requirements for the QS division, and what steps have you taken to prepare for it?", "Can you explain the key differences between the Hong Kong Standard Method of Measurement (SMM) and the New Rules of Measurement (NRM) for cost estimating?", "Given that Wai Hung Hong works in Macau, what experience do you have with Macau''s construction regulations or market practices?", "How would you handle a situation where a contractor disputes your measurement of quantities on a site in Macau?", "Describe a time when you had to work under pressure to meet a tight deadline on a project. How did you manage it?"]', '2026-07-03 11:09:07', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (57, 103, 1, 85.0, '["Relevant QS internship at RLB (Jun-Aug 2025) with hands-on cost estimates, BOQ, site measurements, variation orders, and tender analysis.", "Strong software skills: AutoCAD, Revit, CostX, Navisworks, Bluebeam, MS Project, Excel, VBA, SPSS, Python, Power BI.", "HKIS Student Member and RICS Student Member, with PolyU degree automatically eligible for HKIS APC pathway.", "Fluent in Cantonese, English, and Mandarin \u2013 meets language requirements.", "Holds Green Card (Construction Industry Safety Card) \u2013 ready for site visits."]', '["Graduation year mismatch: Job requires students graduating in 2027, but candidate graduates in 2026. May still be eligible if internship is before graduation? Clarify.", "No explicit mention of HK project experience \u2013 RLB internship likely involved HK projects but not stated in CV.", "No HK driving license \u2013 not required for this role, but could be a plus."]', '["Clarify graduation year: If you are graduating in 2027, update CV; if 2026, confirm eligibility for summer 2026 internship before applying.", "Explicitly mention that your RLB internship involved Hong Kong projects (e.g., residential/commercial) to strengthen local experience.", "Add a line about your commitment to the 2-month internship period (May-Aug 2026) in your cover letter.", "List your expected salary and preferred start date as requested in the job posting.", "Highlight your BIM skills (Revit, Navisworks) as Arcadis values digital delivery."]', 'Detail-oriented Quantity Surveying student at The Hong Kong Polytechnic University, graduating in 2026, seeking a 2026 Summer Internship at Arcadis. Completed a summer internship at Rider Levett Bucknall (RLB) in Hong Kong, assisting senior QS team with pre-contract cost estimates, bills of quantities, site measurements, variation orders, and tender analysis. Also served as a part-time student assistant at PolyU, supporting research on construction cost trends. Proficient in AutoCAD, Revit, CostX, Navisworks, Bluebeam, MS Project, Excel, VBA, SPSS, Python, and Power BI. HKIS and RICS Student Member, holding a Green Card. Fluent in Cantonese, English, and Mandarin. Eager to contribute to Arcadis''s sustainable design and consultancy projects.', 'Dear Hiring Manager,
+
+I am writing to express my strong interest in the 2026 Quantity Surveying Summer Intern position at Arcadis Hong Kong. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I am eager to contribute to your team while gaining hands-on experience with a global leader in sustainable design and consultancy.
+
+My academic training at PolyU, combined with a summer internship at Rider Levett Bucknall (RLB) in 2025, has provided me with a solid foundation in pre-contract cost estimation, tender documentation, and post-contract administration. During my time at RLB, I assisted senior quantity surveyors with site measurements, variation orders, and tender analysis—skills directly aligned with the responsibilities outlined in your role description. Additionally, my proficiency in AutoCAD, Revit, CostX, and Navisworks enables me to support BIM coordination and digital workflows, which I understand are increasingly integral to Arcadis’s project delivery in Hong Kong.
+
+As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, and I am already an HKIS Student Member. This reflects my commitment to professional development within Hong Kong’s surveying profession, including familiarity with the HKIS Code of Conduct and relevant ordinances such as the Buildings Ordinance and the Housing Ordinance. I also hold a valid Construction Industry Safety Card (Green Card) and a CIC-accredited BIM Basic Modelling Certificate, ensuring I am ready to work safely and effectively on site from day one.
+
+Fluent in Cantonese, English, and Mandarin, I am well-prepared to communicate with diverse stakeholders across Hong Kong’s construction industry. I am available to commit to a full-time internship between May and August 2026, as required.
+
+I would welcome the opportunity to discuss how my technical skills and enthusiasm for quantity surveying can contribute to Arcadis’s impactful projects in Hong Kong. Thank you for considering my application.
+
+Yours faithfully,
+
+[Your Full Name]', '["What do you know about the HKIS APC requirements for the Quantity Surveying division, and how do you plan to complete your APC training?", "Can you walk us through how you would prepare a cost estimate for a typical Hong Kong residential development using the HK Standard Method of Measurement?", "Arcadis has been involved in major infrastructure projects like the Hong Kong-Zhuhai-Macao Bridge. How do you think sustainability can be integrated into cost management for such projects?", "What are the key differences between the HK Standard Method of Measurement and the New Rules of Measurement (NRM) used in the UK?", "Describe a time during your RLB internship when you had to work under pressure to meet a deadline. How did you handle it?"]', '2026-07-03 11:09:24', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (58, 105, 1, 85.0, '["BSc (Hons) in Surveying from PolyU, a top HK surveying school, directly relevant to QS role.", "Summer internship at Rider Levett Bucknall (RLB) with hands-on QS tasks: cost estimates, BOQs, site measurements, variation orders, tender analysis.", "Possesses Green Card, essential for site visits in HK construction.", "Fluent in Cantonese, English, and Mandarin, meeting HK site communication needs.", "Strong software skills including CostX, Revit, AutoCAD, and BIM tools, highly valued in QS roles."]', '["No HK driving license \u2013 may be required for site visits to remote locations.", "Limited work experience: only 0.5 years (one summer internship and a part-time role).", "No explicit mention of SAP system knowledge, which is required for the Purchasing trainee role (but candidate is applying for QS)."]', '["Highlight specific HK projects you worked on at RLB (e.g., residential, infrastructure) to demonstrate local exposure.", "Obtain a HK driving license (Class 1) to increase flexibility for site visits.", "Add a line about your proficiency in SAP if you have any exposure, as it''s mentioned in the Purchasing role (though you''re applying for QS).", "Quantify achievements in your internship (e.g., ''Assisted in cost estimation for a HK$XX million project'').", "Explicitly state your HKIS APC enrollment status (e.g., ''Enrolled in HKIS APC QS Division'')."]', 'Final-year BSc (Hons) Surveying student at The Hong Kong Polytechnic University, seeking a Summer Internship in Quantity Surveying at VSL Hong Kong Ltd. Possess hands-on experience from a summer internship at Rider Levett Bucknall (RLB), where I assisted senior QS staff with cost estimation, bills of quantities, site measurements, variation orders, and tender analysis. Also served as a part-time student assistant at PolyU, supporting research on construction cost trends. Proficient in AutoCAD, Revit, CostX, Navisworks, Bluebeam, MS Project, Excel, VBA, SPSS, Python, and Power BI. Hold a Green Card and am a Student Member of HKIS and RICS. Fluent in Cantonese, English, and Mandarin. Strong interpersonal skills developed through team-based projects and client interactions. Eager to contribute to VSL''s cost management and contract administration functions.', 'Dear Hiring Manager,
+
+I am writing to express my strong interest in the Summer Intern – Quantity Surveying position at VSL Hong Kong Ltd for the 2026 summer period. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I am eager to contribute to your team while gaining hands-on experience in cost management, tendering, and contract administration on Hong Kong’s major infrastructure and construction projects.
+
+My academic background, combined with practical exposure during my summer internship at Rider Levett Bucknall (RLB) in 2025, has equipped me with foundational skills in cost estimation, bills of quantities preparation, site measurement, variation order assessment, and tender analysis. I am proficient in industry-standard tools including AutoCAD, Revit, CostX, Navisworks, Bluebeam, and MS Project, and I bring strong analytical capabilities through Excel, VBA, Power BI, and Python. These competencies align directly with the cost monitoring, measurement, and contract administration duties outlined in your job description.
+
+As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, and I currently hold HKIS Student Membership. I am familiar with the HKIS professional standards, relevant Hong Kong ordinances, and local surveying practices, which I have applied in both academic projects and my internship. I also hold a valid Construction Industry Safety Card (Green Card) and a CIC-accredited BIM Basic Modelling certificate, ensuring I am ready to work on site from day one.
+
+VSL’s reputation for delivering complex civil engineering and building projects in Hong Kong is well known, and I am particularly drawn to the opportunity to support your quantity surveying team in ensuring cost-effective project delivery. I am fluent in Cantonese, English, and Mandarin, and I am confident in my ability to communicate effectively with diverse stakeholders.
+
+I would welcome the chance to discuss how my skills and enthusiasm can benefit VSL this summer. Thank you for considering my application.
+
+Yours faithfully,
+
+[Your Name]', '["How familiar are you with the HKIS APC requirements for the Quantity Surveying division, and what steps have you taken to prepare for it?", "Can you describe your experience with cost estimation using CostX or similar software? How would you handle a discrepancy between measured quantities and contractor submissions?", "VSL is known for post-tensioning and specialist construction. How would you approach cost management for a project involving complex structural works?", "What do you know about the Hong Kong Standard Method of Measurement (SMM) and its application in contract administration?", "Describe a time during your internship at RLB when you had to communicate with a contractor or colleague in Cantonese to resolve a measurement issue. How did you handle it?"]', '2026-07-03 11:09:41', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (59, 109, 1, 72.0, '["Relevant internship at RLB (QS) in HK with hands-on experience in cost estimation, BOQ, and tender analysis.", "Strong software skills including AutoCAD, Revit, CostX, Navisworks, and BIM-related certifications.", "Cantonese proficiency listed, essential for HK site communication.", "Green Card held, mandatory for site work.", "HKIS and RICS student membership, demonstrating commitment to professional pathway."]', '["Degree discipline mismatch: BSc Surveying (QS) vs Building Surveying required for this role. The job is for Architectural/Surveying Graduate (Building Surveying stream).", "No direct experience in healthcare or government projects, which are the focus of Hospital Authority.", "No HK driving license, which may be needed for site visits to multiple hospital locations.", "Limited work experience (only 0.5 years internship) as a fresh graduate."]', '["Highlight any Building Surveying coursework or projects from your degree to bridge the discipline gap.", "Obtain a HK driving license (Class 1) to increase mobility for site visits.", "Emphasize any exposure to healthcare or government projects during your internship, even if minor.", "Consider taking a Building Surveying-related short course or CPD to strengthen your profile for BS roles.", "Tailor your CV summary to explicitly mention interest in Building Surveying and healthcare projects."]', 'BSc (Hons) Surveying graduate from The Hong Kong Polytechnic University with a strong foundation in quantity surveying and a keen interest in building surveying. Completed a summer internship at Rider Levett Bucknall (RLB) in Hong Kong, assisting senior QS team with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis. Proficient in AutoCAD, Revit, CostX, Navisworks, and BIM coordination. Holder of Green Card and CIC-accredited BIM Basic Modelling certificate. Active HKIS and RICS student member, eligible for HKIS APC pathway. Fluent in Cantonese, English, and Mandarin. Seeking to contribute to capital works projects in the Hospital Authority''s Development & Works Division, with a focus on building surveying and project management.', 'Dear Hiring Manager,
+
+I am writing to express my strong interest in the Architectural / Surveying Graduate position within the Hospital Authority’s Development and Works Graduate Trainee Programme. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I am eager to contribute to HA’s capital works projects while developing my professional career under the HKIS training framework.
+
+My academic background and practical experience have provided me with a solid foundation in quantity surveying and construction management. During my summer internship at Rider Levett Bucknall (RLB) in 2025, I assisted the senior QS team with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis. This hands-on exposure to real Hong Kong projects strengthened my understanding of local procurement practices and contract administration. Additionally, my part-time role as a student assistant at PolyU’s Building & Real Estate Department involved supporting research on construction cost trends, further sharpening my analytical skills.
+
+I am proficient in industry-standard tools including AutoCAD, Revit, CostX, Navisworks, Bluebeam, and MS Project, and I hold a Construction Industry Safety Card (Green Card) as well as a Revit Architecture Certified Professional credential. My technical skills extend to data analysis with Excel VBA, Python, and Power BI, which I believe will add value to HA’s project monitoring and reporting processes.
+
+As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, and I am already an HKIS Student Member. I am familiar with the HKIS Assessment of Professional Competence requirements and relevant Hong Kong ordinances such as the Buildings Ordinance and the Construction Industry Council regulations. I am committed to completing the two-year training programme diligently and fulfilling all professional development milestones.
+
+I am particularly drawn to HA’s reputation for delivering high-quality healthcare infrastructure that serves the community. The opportunity to work on projects spanning inception through construction management aligns perfectly with my career aspirations.
+
+I look forward to the possibility of contributing to your team and would welcome the chance to discuss my application further.
+
+Yours faithfully,
+
+[Your Name]', '["How familiar are you with the HKIS APC requirements for the Building Surveying division, and what steps have you taken to prepare for the APC?", "Can you describe your understanding of the Building Ordinance (Cap. 123) and its application in hospital projects?", "Given the Hospital Authority''s focus on healthcare facilities, what specific challenges do you anticipate in managing building surveying aspects of hospital projects compared to commercial buildings?", "How would you handle a situation where a contractor disputes your measurement or inspection findings on a hospital construction site?", "Describe a time when you had to coordinate with multiple stakeholders (e.g., consultants, government departments) on a project. How did you ensure smooth communication?"]', '2026-07-03 11:09:59', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (60, 110, 1, 88.0, '["BSc (Hons) in Surveying from PolyU \u2013 the top HK surveying school, directly aligned with the Surveying Graduate Trainee role.", "Summer internship at Rider Levett Bucknall (RLB) \u2013 a leading QS consultancy in HK, providing practical experience in cost estimation, BQ, and site measurements.", "Possesses Green Card, essential for site inspection duties in HK property management.", "Fluent in Cantonese, English, and Mandarin \u2013 critical for communication with local contractors and tenants.", "Strong software skills including AutoCAD, Revit, CostX, and BIM \u2013 highly valued for building elements and project management tasks."]', '["No HK driving license \u2013 may be required for site visits across multiple properties; consider obtaining Class 1/2 license.", "Limited full-time work experience (only 0.5 years) \u2013 though acceptable for graduate trainee, more internship exposure would strengthen application.", "No explicit mention of Building Ordinance or HK building regulations knowledge \u2013 relevant for repairs & maintenance and building control duties."]', '["Add a section on knowledge of HK Building Ordinance, Building (Standards) Regulations, or relevant codes \u2013 even if from coursework.", "If you have a HK driving license, add it explicitly; if not, consider obtaining one before applying.", "Quantify internship achievements (e.g., ''Assisted in cost estimation for a HK$50M residential project'') to demonstrate impact.", "Highlight any group projects or coursework related to building elements, repairs & maintenance, or project management to align with job duties.", "Mention any exposure to government projects (e.g., ArchSD, Housing Authority) if applicable, as the role includes training in Government Buildings Department."]', 'Detail-oriented BSc (Hons) Surveying graduate from The Hong Kong Polytechnic University with a strong academic foundation and practical internship experience at Rider Levett Bucknall (RLB), a leading QS consultancy in Hong Kong. Proficient in cost estimation, bills of quantities, tender documentation, and contract administration. Skilled in AutoCAD, Revit, CostX, and BIM coordination. Holder of Green Card and fluent in Cantonese, English, and Mandarin. HKIS Student Member with eligibility for the HKIS APC pathway. Eager to develop a career in property management through the Surveying Graduate Trainee programme at Kai Shing Management Services, leveraging technical knowledge in building elements, repairs & maintenance, and project management.', 'Dear Hiring Manager,
+
+I am writing to express my strong interest in the Surveying Graduate Trainee position at Kai Shing Management Services Ltd. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I am eager to contribute to a company renowned for managing over 135 million square feet of premier properties across Hong Kong, including shopping centres, office towers, and residential estates under the Sun Hung Kai Properties Group.
+
+My academic background and practical experience have provided me with a solid foundation in quantity surveying practices. During my summer internship at Rider Levett Bucknall (RLB) in 2025, I assisted senior QS team members with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis. This hands-on exposure to HK-specific surveying workflows—from measurement and take-off to contract administration—has deepened my understanding of the profession’s rigour and the importance of precision in Hong Kong’s fast-paced construction environment.
+
+As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, and I am already an HKIS Student Member. I am fully aware of the professional standards required by the HKIS and the relevant Hong Kong ordinances governing surveying practice. I am confident that the structured two-year APC Training Scheme offered by Kai Shing will provide the ideal platform to develop my competencies and progress toward HKIS professional membership.
+
+I also hold a valid Construction Industry Safety Card (Green Card) and have completed a CIC-accredited BIM Basic Modelling Course, along with Autodesk Revit certification. My technical proficiency in AutoCAD, Revit, CostX, Navisworks, Bluebeam, MS Project, and data analysis tools such as Power BI and Python will enable me to contribute effectively to your team from day one.
+
+Fluent in Cantonese, English, and Mandarin, I am well-prepared to communicate with diverse stakeholders across Hong Kong’s property management sector. I look forward to the opportunity to discuss how my skills and dedication align with Kai Shing’s commitment to “Building Homes with Heart.”
+
+Thank you for considering my application.
+
+Yours faithfully,
+
+[Your Full Name]', '["Can you outline the steps you would take to complete the HKIS APC for the General Practice or Building Surveying division, and how does your PolyU degree prepare you for this?", "Describe a time during your internship at RLB when you had to measure quantities on site. How did you ensure accuracy, and what challenges did you face?", "Kai Shing manages properties under Sun Hung Kai Properties, including large shopping centres and residential estates. How would you approach a condition survey for a 20-year-old residential block to identify maintenance priorities?", "What sections of the Hong Kong Building Ordinance are most relevant to property management, and how would you ensure compliance in day-to-day operations?", "Give an example of a time you worked in a team to solve a problem. How did you handle differing opinions, and what was the outcome?"]', '2026-07-03 11:10:20', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (61, 121, 1, 35.0, '["PolyU graduate \u2013 the same institution as the department, showing familiarity with the university environment.", "Has Cantonese, English, and Mandarin \u2013 beneficial for local research collaboration.", "Some programming skills (Python, VBA) and data analysis tools (SPSS, Power BI) that could be applied to spatial data analysis with further training.", "Holds Green Card and BIM certifications, indicating awareness of construction industry standards."]', '["Wrong discipline: BSc Surveying (QS) not Land Surveying/Geomatics \u2013 fundamental mismatch for a research degree in LSGI.", "No research experience in land surveying, geomatics, or spatial science \u2013 CV shows only QS-related work.", "Lacks technical skills in GIS, remote sensing, spatial analysis, or surveying equipment \u2013 essential for LSGI research.", "No English language test scores (TOEFL/IELTS) provided \u2013 may be required for admission."]', '["Consider applying to QS-related research programmes instead, such as PolyU''s Department of Building and Real Estate.", "If interested in geomatics, take online courses in GIS (e.g., ArcGIS, QGIS) and remote sensing to build relevant skills.", "Gain research experience through a taught master''s or research assistant position in a geomatics lab before applying for MPhil/PhD.", "Obtain English language test scores (TOEFL/IELTS) if required for admission.", "Highlight any coursework or projects related to spatial data, even if from a QS perspective (e.g., BIM/GIS integration)."]', 'Recent BSc (Hons) Surveying graduate from The Hong Kong Polytechnic University with a strong foundation in construction measurement, cost estimation, and BIM. Completed a summer internship at Rider Levett Bucknall, assisting with cost estimates, bills of quantities, and site measurements. Part-time student assistant at PolyU''s Building & Real Estate Department, supporting research on construction cost trends. Proficient in AutoCAD, Revit, CostX, and Python. Holds Green Card and BIM certifications. Fluent in Cantonese, English, and Mandarin. Seeking to transition into land surveying and geo-informatics research, with a keen interest in spatial data analysis and smart city applications.', 'Dear Hiring Manager,
+
+I am writing to express my interest in the research position within the Department of Land Surveying and Geo-Informatics (LSGI) at The Hong Kong Polytechnic University. As a recent BSc (Hons) in Surveying graduate from PolyU, I have long admired LSGI’s reputation as a regional centre of excellence in geomatics research, particularly its strategic focus on Urban Informatics and Smart City development. Your department’s work in spatial big data analytics and smart mobility aligns closely with my academic training and professional aspirations.
+
+During my studies at PolyU, I developed a strong foundation in surveying principles and geospatial technologies, complemented by hands-on experience with tools such as AutoCAD, Revit, Navisworks, and BIM coordination. My summer internship at Rider Levett Bucknall (RLB) provided practical exposure to cost estimation, tender documentation, and contract administration—skills that I believe translate well to the quantitative and analytical demands of geomatics research. Additionally, my part-time role as a student assistant in the Building & Real Estate Department involved supporting research on construction cost trends, which honed my ability to work with data and prepare technical materials.
+
+As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, and I am already an HKIS Student Member. I am familiar with the professional standards and ordinances governing surveying practice in Hong Kong, and I am committed to contributing to the local profession through rigorous research. I hold a valid Construction Industry Safety Card (Green Card) and am prepared to comply with all site safety requirements as needed.
+
+I am eager to bring my technical skills, bilingual proficiency in Cantonese and English, and research enthusiasm to LSGI’s innovative projects. I would welcome the opportunity to discuss how my background can support your department’s continued excellence.
+
+Thank you for your consideration.
+
+Yours sincerely,
+
+[Your Full Name]', '["What motivated you to apply for a research degree in Land Surveying and Geo-Informatics given your background in Quantity Surveying?", "How do you plan to bridge the gap between your QS skills and the geomatics research focus of LSGI, such as spatial big data or urban sensing?", "Are you familiar with any GIS software (e.g., ArcGIS, QGIS)? Can you describe a project where you used spatial data?", "What do you know about the research being conducted at LSGI, particularly in smart positioning or urban sensing?", "How would you handle a situation where your research direction conflicts with your supervisor''s expectations?"]', '2026-07-03 11:10:39', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (62, 122, 1, 72.0, '["PolyU BSc Surveying degree provides automatic HKIS graduate pathway eligibility.", "Possesses Green Card, mandatory for site work.", "Fluent in Cantonese, English, and Mandarin, meeting language requirements.", "Strong software skills including AutoCAD, Revit, CostX, and BIM tools.", "HKIS and RICS Student Memberships demonstrate commitment to professional qualification."]', '["Degree is in Surveying (QS stream), not Building Surveying as required by the job posting.", "No direct Building Surveying internship or work experience; only QS-related experience.", "No HK driving license, which may be required for site visits.", "No mention of exposure to HK Building Ordinance or building control, which is relevant for BS role."]', '["Highlight any Building Surveying modules or projects from your degree, even if the degree is QS-focused.", "Obtain a HK driving license (Class 1) to improve suitability for site-based roles.", "Add details of any building condition surveys or building control coursework to demonstrate BS knowledge.", "Consider applying for BS-specific internships or shadowing to gain relevant experience.", "Emphasize transferable skills from QS (e.g., measurement, contract admin) that apply to BS."]', 'Detail-oriented Surveying graduate from The Hong Kong Polytechnic University with a BSc (Hons) in Surveying, seeking a Surveying Graduate Trainee position in Building Surveying. Possess strong technical skills including AutoCAD, Revit, CostX, and BIM coordination. Completed a summer internship at Rider Levett Bucknall, assisting with cost estimates, bills of quantities, and site measurements. Proficient in Cantonese, English, and Mandarin. Hold a Green Card and are a Student Member of HKIS and RICS. Eager to develop a career in property management and building surveying through the HKIS APC training scheme.', 'Dear Hiring Manager,
+
+I am writing to express my strong interest in the Surveying Graduate Trainee position at Kai Shing Management Services Limited, a member of the Sun Hung Kai Properties Group. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I am eager to contribute to your team while pursuing professional qualification under the HKIS APC Training Scheme.
+
+My academic background and practical experience have provided me with a solid foundation in Hong Kong’s surveying profession. During my summer internship at Rider Levett Bucknall (RLB), I assisted senior quantity surveyors with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis. This hands-on exposure to HK-standard measurement practices and contract administration has deepened my understanding of the local construction environment. Additionally, my part-time role at PolyU’s Building & Real Estate Department involved supporting research on construction cost trends, further sharpening my analytical skills.
+
+I am proficient in industry-standard tools including AutoCAD, Revit, CostX, Navisworks, Bluebeam, and MS Project, as well as data analysis software such as Excel (with VBA), SPSS, Python, and Power BI. I hold the Construction Industry Safety Card (Green Card) and a Revit Architecture Certified Professional credential, along with CIC-accredited BIM Basic Modelling certification. As a current HKIS Student Member, I am eligible for the HKIS APC graduate pathway through my PolyU degree and am fully committed to completing the training scheme.
+
+I am particularly drawn to Kai Shing’s reputation as one of Hong Kong’s largest property management companies, managing over 135 million sq ft of diverse properties. The opportunity to gain exposure across shopping centres, office towers, and residential buildings under the SHKP Group aligns perfectly with my career aspirations. I am also prepared to undertake the 4-month Government Buildings Department rotation as part of the programme.
+
+Fluent in Cantonese, English, and Mandarin, I am confident in communicating effectively with stakeholders across Hong Kong’s construction industry. I look forward to the possibility of contributing to your team and building my professional career with Kai Shing.
+
+Thank you for considering my application. I welcome the opportunity to discuss how my skills and enthusiasm can benefit your organisation.
+
+Yours faithfully,
+
+[Your Name]', '["What do you know about the HKIS APC requirements for the Building Surveying division, and how do you plan to fulfill them?", "Can you describe your understanding of the Hong Kong Building Ordinance, particularly sections related to means of escape and fire-resistant construction?", "Given Kai Shing''s role in managing Sun Hung Kai Properties'' portfolio, how would you approach a condition survey of a residential building to identify maintenance priorities?", "How familiar are you with the Buildings Department''s requirements for building works and the submission process under the Buildings Ordinance?", "Describe a time when you had to work in a team to solve a technical problem on a project. How did you contribute?"]', '2026-07-03 11:10:58', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (63, 101, 1, 82.0, '["Relevant degree from PolyU (BSc Surveying) with automatic HKIS APC eligibility.", "Direct internship experience at RLB (the same company) with hands-on QS duties.", "Strong software skills including CostX, Revit, AutoCAD, and BIM tools.", "Holds Green Card, essential for site visits.", "Trilingual in Cantonese, English, and Mandarin, meeting language requirements."]', '["Only 0.5 years of experience, below the required 1-3 years.", "No HK driving license, which may be needed for site visits.", "Limited post-contract experience; internship focused on pre-contract tasks."]', '["Highlight the RLB internship prominently and quantify achievements (e.g., ''Assisted in cost estimates for 3 projects'').", "Obtain HK driving license (Class 1) to increase flexibility for site visits.", "Add a section on ''HK Project Experience'' listing specific project types (e.g., residential, commercial) if applicable.", "Mention any involvement in post-contract duties (e.g., variation orders, final accounts) to address the experience gap."]', 'BSc (Hons) Surveying student at The Hong Kong Polytechnic University with a summer internship at Rider Levett Bucknall (RLB) in Hong Kong. During the internship, assisted senior QS team with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis. Proficient in CostX, AutoCAD, Revit, Navisworks, Bluebeam, and MS Project. Holds Green Card and is a HKIS and RICS Student Member. Trilingual in Cantonese, English, and Mandarin. Seeking a Quantity Surveyor Trainee role to further develop skills in pre- and post-contract QS duties within a leading consultancy.', 'Dear Hiring Manager,
+
+I am writing to express my keen interest in the Quantity Surveyor / Quantity Surveyor Trainee position at Rider Levett Bucknall Limited (RLB), as advertised. Having completed a summer internship with RLB’s Hong Kong office from June to August 2025, I have firsthand experience of your firm’s rigorous standards and collaborative culture, and I am eager to contribute further to your team.
+
+As a BSc (Hons) in Surveying student at The Hong Kong Polytechnic University (graduating 2026), I have developed a solid foundation in both pre- and post-contract duties, including cost estimation, tender documentation, measurement of quantities, and contract administration. My internship at RLB allowed me to apply these skills in practice, assisting senior QS colleagues with cost estimates, bills of quantities, site measurements, variation orders, and tender analysis. I am also proficient in industry-standard tools such as AutoCAD, Revit, CostX, Navisworks, Bluebeam, and MS Project, and I hold a Revit Architecture Certified Professional credential and a CIC-accredited BIM Basic Modelling certificate.
+
+I am a HKIS Student Member and, as a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, which I am committed to pursuing. I also hold a valid Construction Industry Safety Card (Green Card), ensuring I am ready for site visits and inspections from day one.
+
+RLB’s reputation as a global leader in construction cost management, particularly its strong presence in Hong Kong and North Asia, aligns closely with my career aspirations. I am familiar with HKIS practice notes, the Hong Kong Standard Method of Measurement, and relevant local ordinances, and I am confident in my ability to support your team on both public and private sector projects.
+
+I am fluent in Cantonese, English, and Mandarin, and I am prepared to work independently while maintaining close collaboration with clients, project teams, and stakeholders. I would welcome the opportunity to discuss how my skills and enthusiasm can contribute to RLB’s continued success.
+
+Thank you for considering my application.
+
+Yours faithfully,
+
+[Your Name]', '["How familiar are you with the HKIS APC requirements for the QS division, and what steps have you taken to prepare for the APC?", "Can you describe your experience with the Hong Kong Standard Method of Measurement (SMM) and how you applied it during your internship at RLB?", "RLB has been involved in major Hong Kong infrastructure projects like the Hong Kong-Zhuhai-Macao Bridge. How would you approach cost management for a large-scale infrastructure project?", "What do you know about the Hong Kong Building Ordinance and its implications for quantity surveying in terms of cost estimation and compliance?", "Describe a time during your internship when you had to work under pressure to meet a deadline. How did you manage your tasks and communicate with the team?"]', '2026-07-03 11:11:15', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (64, 97, 1, 85.0, '["BSc (Hons) in Surveying from PolyU \u2013 directly relevant to QS and HKIS APC pathway.", "Summer internship at RLB (HK) with practical QS experience: cost estimates, BOQs, site measurements, variation orders, tender analysis.", "Strong software skills: AutoCAD, Revit, CostX, Navisworks, Bluebeam, MS Project, Excel, VBA, SPSS, Python, Power BI.", "Fluent in Cantonese, English, and Mandarin \u2013 ideal for HK client and contractor liaison.", "Holds Green Card, Revit Certified Professional, and BIM Basic Modelling Course \u2013 ready for site work and BIM coordination."]', '["No HK driving license \u2013 may be required for site visits depending on project location.", "Limited work experience (only 0.5 years internship) \u2013 entry-level role but may face competition from candidates with longer internships.", "No explicit mention of HKIS APC enrollment or RICS APC \u2013 though eligible, not yet enrolled in structured training."]', '["Enroll in HKIS APC structured training and mention it explicitly in the CV.", "Obtain HK driving license (Class 1) if possible \u2013 adds flexibility for site visits.", "Quantify internship achievements (e.g., ''Assisted in cost estimates for 3 projects totaling HK$50M'') to strengthen impact.", "Add a brief note on specific HK project types (e.g., residential, commercial) from RLB internship.", "Highlight any involvement with Turner & Townsend''s sectors (e.g., infrastructure, real estate) if applicable."]', 'Detail-oriented Quantity Surveying graduate from The Hong Kong Polytechnic University with a BSc (Hons) in Surveying and hands-on internship experience at Rider Levett Bucknall (RLB) in Hong Kong. Proficient in cost estimation, bills of quantities, tender documentation, and contract administration. Skilled in AutoCAD, Revit, CostX, Navisworks, Bluebeam, MS Project, Excel, VBA, SPSS, Python, and Power BI. Holds Construction Industry Safety Card (Green Card), Revit Architecture Certified Professional, and BIM Basic Modelling Course (CIC-accredited). Fluent in Cantonese, English, and Mandarin. HKIS and RICS Student Member, eligible for HKIS APC pathway. Seeking a Graduate Quantity Surveyor role to contribute to cost management and pursue professional accreditation.', 'Dear Hiring Manager,
+
+I am writing to express my strong interest in the Graduate Quantity Surveyor position at Turner & Townsend. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I am eager to contribute to your firm’s renowned cost management and project delivery expertise across Hong Kong’s built environment.
+
+My academic foundation, combined with practical experience at Rider Levett Bucknall (RLB) during summer 2025, has equipped me with hands-on skills in cost estimation, bills of quantities preparation, tender analysis, and variation order administration. At RLB, I supported senior quantity surveyors on live Hong Kong projects, strengthening my understanding of local procurement practices and contract administration. Additionally, my role as a student assistant at PolyU’s Building & Real Estate Department involved research on construction cost trends, further sharpening my analytical abilities using tools such as Excel, VBA, and Power BI.
+
+I am proficient in industry-standard software including AutoCAD, Revit, CostX, Navisworks, and Bluebeam, and I hold a Revit Architecture Certified Professional credential along with a CIC-accredited BIM Basic Modelling certificate. I also possess a valid Construction Industry Safety Card (Green Card), ensuring I am ready to comply with site safety requirements from day one.
+
+As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, and I am currently an HKIS Student Member. I understand the importance of professional accreditation in Hong Kong’s surveying profession and am committed to pursuing the RICS pathway under your structured mentorship program. My trilingual fluency in Cantonese, English, and Mandarin enables effective communication with diverse stakeholders on local and cross-border projects.
+
+I am drawn to Turner & Townsend’s reputation for delivering high-quality infrastructure and commercial projects in Hong Kong, and I am confident that your 24-month development program will provide the ideal platform to grow as a professional quantity surveyor.
+
+Thank you for considering my application. I look forward to the opportunity to discuss how I can contribute to your team.
+
+Yours faithfully,
+
+[Your Name]', '["How familiar are you with the HKIS APC requirements for the QS division, and what steps have you taken to prepare for the APC process?", "Can you explain the key differences between the Hong Kong Standard Method of Measurement (SMM) and the New Rules of Measurement (NRM) for cost estimating?", "Turner & Townsend has a strong presence in Hong Kong''s infrastructure sector. How would you approach cost management for a large-scale MTR or airport project?", "What sections of the Hong Kong Building Ordinance are most relevant to a quantity surveyor''s role, and how do they impact cost planning?", "Describe a time during your internship at RLB when you had to resolve a discrepancy in site measurements or a contractor''s claim. How did you handle it?"]', '2026-07-03 11:11:34', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (65, 120, 1, 42.0, '["Fluent in Cantonese, English, and Mandarin, meeting language requirement.", "Holds Green Card, which is beneficial for any site-related work.", "Strong software skills including AutoCAD, Revit, and BIM, which are transferable to spatial data handling.", "HKIS and RICS Student Member, showing commitment to professional development.", "Degree from PolyU, a well-regarded institution in HK surveying."]', '["Degree discipline mismatch: BSc Surveying (QS) vs required Land Surveying/Geomatics. This is a fundamental gap.", "No geospatial or AI-related experience or coursework evident in CV.", "No GIS or geospatial software skills (e.g., ArcGIS, QGIS, LiDAR processing).", "Internship experience is in QS, not land surveying or geospatial AI."]', '["Consider pursuing a postgraduate certificate or diploma in Geomatics or GIS to bridge the discipline gap.", "Highlight any coursework or projects related to spatial data, GIS, or AI in your CV if applicable.", "Obtain GIS software certifications (e.g., Esri ArcGIS) to strengthen technical fit.", "Tailor your CV to emphasize transferable skills like data analysis, Python, and BIM coordination for geospatial AI.", "If you have any experience with drones, LiDAR, or GPS surveying, add it explicitly."]', 'Geospatial AI Assistant Surveyor candidate with a BSc (Hons) in Surveying from The Hong Kong Polytechnic University (expected 2026). Fluent in Cantonese, English, and Mandarin. Holds Construction Industry Safety Card (Green Card) and Revit Architecture Certified Professional. Proficient in AutoCAD, Revit, CostX, Navisworks, Bluebeam, MS Project, Excel, VBA, SPSS, Python, and Power BI. Completed summer internship at Rider Levett Bucknall (RLB) assisting with cost estimates, bills of quantities, site measurements, and tender analysis. Part-time student assistant at PolyU supporting research on construction cost trends. HKIS and RICS Student Member. Seeking to apply analytical and technical skills to geospatial AI projects.', 'Dear Hiring Manager,
+
+I am writing to express my keen interest in the Geospatial AI Assistant Surveyor position at Leadingnation. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, graduating in 2026, I am eager to contribute to your firm’s pioneering work in integrating spatial data with cutting-edge technology.
+
+My academic background and practical experience have provided me with a solid foundation in both traditional surveying practices and modern digital tools. During my summer internship at Rider Levitt Bucknall (RLB) in 2025, I assisted senior quantity surveyors with cost estimates, bills of quantities, site measurements, and tender analysis—work that required meticulous attention to spatial data and stakeholder coordination. Additionally, my role as a part-time student assistant at PolyU’s Building & Real Estate Department involved supporting research on construction cost trends, further sharpening my analytical skills.
+
+I am particularly drawn to Leadingnation’s focus on geospatial AI, as my coursework and self-directed learning have equipped me with proficiency in Python, Power BI, and BIM coordination tools such as Revit, Navisworks, and CostX. I am confident that my ability to validate and develop prototypes aligns well with your team’s objectives. Moreover, I hold a Construction Industry Safety Card (Green Card) and am a current HKIS Student Member, which positions me for the HKIS APC graduate pathway upon graduation. I am also fluent in Cantonese, English, and Mandarin, enabling seamless communication with diverse stakeholders.
+
+I understand that the Hong Kong surveying profession demands familiarity with local ordinances and HKIS standards, and I have actively engaged with these through my studies and student membership. I am prepared to obtain any additional certifications required to ensure compliance with your project needs.
+
+I would welcome the opportunity to discuss how my technical skills and enthusiasm for geospatial innovation can support Leadingnation’s continued success. Thank you for considering my application.
+
+Yours faithfully,
+
+[Your Full Name]', '["How would you approach validating a geospatial AI prototype for land surveying applications in Hong Kong?", "What experience do you have with GIS or spatial data analysis, and how could you apply it to this role?", "Are you familiar with the HKIS APC pathway for the Land Surveying division? If not, how would you prepare?", "How would you handle a situation where stakeholders disagree on the accuracy of spatial data collected by an AI model?", "What do you know about the use of AI in Hong Kong''s land surveying industry, and what challenges do you foresee?"]', '2026-07-03 11:11:49', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (66, 106, 1, 68.0, '["PolyU BSc Surveying degree qualifies for HKIS graduate pathway.", "Fluent in Cantonese, English, and Mandarin.", "Holds Green Card (Construction Industry Safety Card) required for site work.", "Strong software skills including AutoCAD, Revit, CostX, and BIM.", "HKIS and RICS Student Member, showing commitment to professional pathway."]', '["Degree is in Surveying (QS-focused) not Building Surveying; job specifically requires Building Surveying or related studies.", "No direct Building Surveying experience; internship is QS-focused.", "No HK driving license (listed as advantage).", "No mention of knowledge of HK Building Ordinance or water seepage investigation."]', '["Highlight any coursework or projects related to building surveying, building ordinances, or water seepage.", "Obtain HK driving license (Class 1/2) to strengthen application.", "Tailor CV summary to emphasize interest in building surveying and water seepage investigation.", "Add any relevant building surveying modules or final year project if applicable.", "Consider enrolling in HKIS APC for Building Surveying division if eligible."]', 'BSc (Hons) Surveying student at The Hong Kong Polytechnic University with a strong foundation in construction and surveying principles. Completed summer internship at Rider Levett Bucknall (RLB) assisting with cost estimates, bills of quantities, and site measurements. Proficient in AutoCAD, Revit, CostX, and BIM. Holds Green Card and is a HKIS Student Member. Fluent in Cantonese, English, and Mandarin. Seeking a Graduate Building Surveyor role to apply analytical skills and develop expertise in water seepage investigation and SPF inspection. Eager to enroll in HKIS practical task training and contribute to client coordination and report preparation.', 'Dear Hiring Manager,
+
+I am writing to express my keen interest in the Assistant Building Surveyor / Graduate Building Surveyor position at P2H Design Associates Limited. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, graduating in 2026, I am eager to contribute to your team while developing my professional competencies under the HKIS practical task training pathway.
+
+My academic background and practical experience have provided me with a solid foundation in building surveying principles. During my summer internship at Rider Levett Bucknall (RLB), I assisted senior quantity surveyors with cost estimates, bills of quantities, site measurements, and tender analysis—skills directly transferable to the water seepage investigation and SPF inspection works your role entails. Additionally, my part-time role at PolyU’s Building & Real Estate Department involved supporting research on construction cost trends, which strengthened my analytical and report-preparation abilities.
+
+As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, and I am committed to enrolling in the practical task training your firm offers. I hold a valid Construction Industry Safety Card (Green Card) and am proficient in AutoCAD, Revit, CostX, and BIM coordination tools—qualifications that align with HK-specific surveying practices. I am also familiar with relevant Hong Kong ordinances and the HKIS professional standards, ensuring I can adapt quickly to your workflows.
+
+My trilingual fluency in Cantonese, English, and Mandarin, combined with strong communication skills, positions me to effectively coordinate with clients and stakeholders on maintenance and improvement works. While I do not currently hold a Hong Kong driving license, I am prepared to obtain one promptly if required.
+
+I am drawn to P2H Design Associates’ reputation for delivering quality building surveying services in Hong Kong, and I am excited about the opportunity to grow under your mentorship. Thank you for considering my application. I look forward to discussing how I can contribute to your team.
+
+Yours sincerely,
+[Your Full Name]', '["What do you know about the HKIS APC pathway for the Building Surveying division, and how do you plan to complete it?", "Can you explain the typical process for a water seepage investigation in Hong Kong, including relevant ordinances?", "How would you conduct a condition survey of a building facade in a densely populated HK public housing estate?", "What sections of the Hong Kong Building Ordinance are most relevant to building surveying work?", "Describe a time you had to coordinate with multiple stakeholders on a project. How did you handle communication challenges?"]', '2026-07-03 11:12:09', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (67, 168, 1, 85.0, '["Relevant degree from PolyU (QS discipline) with automatic HKIS APC eligibility.", "Summer internship at RLB (leading QS consultancy) with practical experience in cost estimates, BQ, site measurements, variation orders, and tender analysis.", "Strong software skills including CostX, Revit (certified), AutoCAD, Navisworks, Bluebeam, and data analysis tools (Python, Power BI).", "Fluent in Cantonese, English, and Mandarin, meeting language requirements for HK site roles.", "Holds Green Card, HKIS Student Membership, and RICS Student Membership."]', '["Limited work experience: only 0.5 years (one summer internship and part-time research assistant).", "No HK driving license, which may be required for site visits depending on the role.", "CV does not specify types of projects worked on (e.g., residential, commercial, government) \u2013 could be a gap if the job requires specific sector experience."]', '["Expand on internship projects: mention specific HK projects (e.g., residential/commercial towers, infrastructure) and your role in cost estimation or contract admin.", "Obtain HK driving license (Class 1) if possible \u2013 it''s often preferred for site-based QS roles.", "Highlight any knowledge of HK Standard Method of Measurement (SMM) or HKIS QS division APC requirements in your CV.", "Add a section on ''Relevant Coursework'' to demonstrate technical knowledge in measurement, contract law, and cost planning.", "Quantify achievements in internship (e.g., ''Assisted in preparing BQ for a HK$500M residential project'')."]', 'Recent BSc (Hons) Surveying graduate from The Hong Kong Polytechnic University with a strong foundation in quantity surveying. Completed a summer internship at Rider Levett Bucknall (RLB), where I supported senior QS team members in cost estimates, bills of quantities, site measurements, variation orders, and tender analysis. Proficient in industry-standard software including CostX, AutoCAD, Revit (Autodesk Certified Professional), Navisworks, Bluebeam, and MS Project. Also skilled in data analysis using Python, VBA, and Power BI. Fluent in Cantonese, English, and Mandarin. Holds Green Card, HKIS Student Membership, and RICS Student Membership. Seeking a graduate QS role to pursue HKIS APC and contribute to high-quality cost management on HK projects.', 'Dear Hiring Manager,
+
+I am writing to express my strong interest in the Quantity Surveyor Graduate position at QnS Consultancy Limited. As a final-year BSc (Hons) Surveying student at The Hong Kong Polytechnic University, with hands-on internship experience at Rider Levett Bucknall (RLB) and a solid foundation in HK-specific surveying practices, I am confident I can contribute meaningfully to your team.
+
+My academic training at PolyU, combined with my summer internship at RLB, has equipped me with practical skills in cost estimation, tender documentation, bill of quantities preparation, and contract administration. I am proficient in industry-standard tools including AutoCAD, Revit, CostX, Navisworks, and MS Project, and I have developed strong analytical capabilities through my work with Excel, VBA, Power BI, and Python. As a HKIS Student Member, I am eligible for the HKIS APC graduate pathway upon graduation in 2026, and I am committed to pursuing professional qualification under the HKIS framework.
+
+I understand that QnS Consultancy has built a strong reputation in Hong Kong’s construction sector, particularly in delivering precise quantity surveying services across public and private projects. I am familiar with the Hong Kong Standard Method of Measurement (HKSMM) and relevant ordinances governing the local building industry, and I am eager to apply this knowledge in a professional environment.
+
+I already hold a valid Construction Industry Safety Card (Green Card), a CIC-accredited BIM Basic Modelling Certificate, and the Autodesk Revit Architecture Certified Professional credential. My trilingual proficiency in Cantonese, English, and Mandarin allows me to communicate effectively with diverse project stakeholders.
+
+I am eager to bring my technical skills, attention to detail, and enthusiasm for the surveying profession to QnS Consultancy. Thank you for considering my application. I look forward to the opportunity to discuss how I can contribute to your team.
+
+Yours faithfully,
+[Your Name]', '["How familiar are you with the HKIS APC requirements for the QS division, and what steps have you taken to prepare for the APC process?", "Can you describe your experience using CostX for measurement and cost estimation? How do you ensure accuracy in your take-offs?", "What do you know about the Hong Kong Standard Method of Measurement (SMM) and how it differs from other standards like NRM?", "Given your internship at RLB, can you describe a specific project you worked on and how you handled a variation order or cost dispute?", "How would you communicate with a contractor who disputes your measurement on site, especially in a Cantonese-speaking environment?"]', '2026-07-03 11:12:27', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (68, 111, 1, 72.0, '["PolyU BSc Surveying degree ensures HKIS APC eligibility and HKIS Student Membership.", "Fluent in Cantonese, English, and Mandarin, essential for HK site communication.", "Holds Green Card, mandatory for site inspection duties.", "Strong software skills: AutoCAD, Revit, BIM, CostX, Bluebeam, MS Project.", "Relevant internship at RLB (QS) in HK, providing exposure to cost estimation and site measurements."]', '["Degree is in Surveying (QS stream), not Building Surveying. This is a critical mismatch for a Building Surveyor role.", "Only 0.5 years of internship experience, less than the preferred 1-3 years. No full-time BS experience.", "No HK driving license, which may be required for site visits.", "Experience is QS-focused, lacking direct exposure to building control, project management, or structural maintenance typical of BS roles."]', '["Highlight any BS-related coursework or projects from your PolyU degree to bridge the discipline gap.", "Obtain a HK driving license (Class 1) to meet potential site travel requirements.", "Seek additional BS-specific internships or shadowing opportunities to gain relevant experience.", "Emphasize your BIM and AutoCAD skills for building documentation and inspection work.", "Consider enrolling in HKIS APC for Building Surveying division if eligible, and mention this in your CV."]', 'Motivated Assistant Building Surveyor with a BSc (Hons) in Surveying from The Hong Kong Polytechnic University, eligible for HKIS APC pathway. Possess strong technical skills in AutoCAD, Revit, BIM, and CostX, with hands-on experience in cost estimation, site measurements, and tender analysis from a summer internship at Rider Levett Bucknall in Hong Kong. Fluent in Cantonese, English, and Mandarin, with a Green Card for site access. Eager to apply analytical and coordination skills to building control, project management, and structural maintenance projects. Committed to professional development and achieving HKIS membership.', 'Dear Hiring Manager,
+
+I am writing to express my strong interest in the Assistant Building Surveyor position at Leadingnation, as advertised. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, I am eager to contribute to your consultancy team while pursuing my professional development under your APC Training & Project Outlook programme.
+
+My academic background and practical experience have provided me with a solid foundation in Hong Kong’s surveying profession. As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, and I am already an HKIS Student Member, which reflects my commitment to achieving full membership. My summer internship at Rider Levett Bucknall (RLB) exposed me to cost estimation, tender documentation, and contract administration on local projects, giving me firsthand insight into HK-specific practices such as compliance with the Buildings Ordinance and standard forms of contract used in the territory.
+
+I possess strong technical skills relevant to this role, including proficiency in AutoCAD, Revit, Navisworks, and BIM coordination—all of which I understand are advantageous for your building control and project management work. My experience with CostX, Bluebeam, and MS Project further equips me to support structural maintenance and project oversight tasks efficiently. Additionally, I hold the Construction Industry Safety Card (Green Card) and am prepared to commence immediately.
+
+Leadingnation’s reputation for delivering high-quality consultancy services in Hong Kong’s built environment is well known, and I am drawn to the opportunity to learn from your experienced team while contributing to meaningful projects. My fluency in Cantonese, English, and Mandarin, combined with strong analytical skills in Excel, VBA, and Power BI, will allow me to communicate effectively with diverse stakeholders and support data-driven decision-making.
+
+I am confident that my proactive attitude, technical aptitude, and dedication to the HK surveying profession make me a suitable candidate for this role. I look forward to the possibility of discussing how I can contribute to Leadingnation’s continued success.
+
+Yours faithfully,
+
+[Your Name]', '["How familiar are you with the HKIS APC requirements for the Building Surveying division, and what steps have you taken to prepare for the Assessment of Professional Competence?", "Can you describe your understanding of the Building Ordinance (Cap. 123) and its application in building control and inspection?", "Given Leadingnation''s consultancy projects, how would you approach a building condition survey for an occupied commercial building in Hong Kong?", "What experience do you have with BIM in building surveying, and how can it improve project coordination and maintenance planning?", "Describe a time when you had to communicate technical findings to a non-technical stakeholder in a HK site environment. How did you ensure clarity?"]', '2026-07-03 11:12:45', NULL, NULL);
+INSERT OR REPLACE INTO cv_match_results (id, job_id, cv_id, match_score, strengths, gaps, suggestions, tailored_cv, cover_letter, interview_questions, created_at, hard_requirements_match, soft_requirements_match) VALUES (69, 193, 1, 38.0, '["PolyU BSc Surveying degree \u2013 recognized for HKIS graduate pathway", "Fluent in Cantonese, English, and Mandarin \u2013 meets language requirement", "Holds Green Card (Construction Industry Safety Card) \u2013 mandatory for site work", "Strong BIM and AutoCAD skills \u2013 relevant to job''s BIM coordination duties", "HKIS and RICS student membership \u2013 shows professional awareness"]', '["Wrong discipline: BSc Surveying (QS) vs required Land Surveying/Geomatics \u2013 fundamental mismatch", "No land surveying experience or coursework \u2013 lacks as-constructed survey, engineering drawing review, survey data generation", "Not immediately available \u2013 still studying until 2026", "No HK driving license \u2013 may be needed for site visits"]', '["Do not apply for this Land Surveyor role \u2013 your QS background is not a match. Instead, target QS or BS roles.", "If you wish to pivot to land surveying, consider a conversion master''s or relevant work experience.", "Highlight any land surveying modules or projects from your degree if applicable (not evident in CV).", "Obtain a HK driving license if pursuing site-based roles.", "Mention immediate availability if you can start soon (e.g., if graduating early)."]', 'Detail-oriented surveying graduate from The Hong Kong Polytechnic University with a BSc (Hons) in Surveying and hands-on internship experience at Rider Levett Bucknall. Proficient in AutoCAD, Revit, and BIM coordination, with a strong command of Cantonese, English, and Mandarin. Holds a Construction Industry Safety Card (Green Card) and is a student member of HKIS and RICS. Seeking to apply analytical and technical skills in a land surveying role, with a keen interest in waterworks and civil engineering projects. Eager to contribute to as-constructed survey records and BIM modeling under the guidance of experienced professionals.', 'Dear Hiring Manager,
+
+I am writing to express my strong interest in the Assistant Land Surveyor position at Ming Hing Waterworks Engineering Co., Ltd. As a final-year BSc (Hons) in Surveying student at The Hong Kong Polytechnic University, with a summer internship at Rider Levett Bucknall (RLB) and hands-on experience in BIM coordination, I am eager to contribute to your team’s critical waterworks and civil engineering projects across Hong Kong.
+
+Ming Hing’s distinguished 56-year track record as a premier waterworks engineering provider—ensuring dependable water supply to our community—resonates deeply with my professional aspirations. I am particularly drawn to the role’s emphasis on as-constructed survey records, engineering drawing review, and BIM modeling oversight. During my RLB internship, I assisted with site measurements, tender analysis, and variation orders, which honed my ability to produce precise survey data and resolve client requests promptly. Additionally, my proficiency in Revit, Navisworks, and Bluebeam, combined with my CIC-accredited BIM Basic Modelling Course, positions me to effectively coordinate and oversee BIM modeling progress as required.
+
+As a PolyU Surveying graduate, I am eligible for the HKIS APC graduate pathway, and I am already an HKIS Student Member. This foundation ensures I am well-versed in HKIS standards, relevant Hong Kong ordinances, and local surveying practices—knowledge I am keen to apply to Ming Hing’s water mains and slope upgrading projects. I also hold a valid Construction Industry Safety Card (Green Card) and am fluent in Cantonese, English, and Mandarin, enabling seamless communication with diverse stakeholders.
+
+While my professional experience is currently at the entry level, I bring strong technical skills in AutoCAD, CostX, MS Project, and Power BI, along with a proactive, detail-oriented mindset. I am fully prepared to learn rapidly and support your team with ad hoc duties to meet project needs.
+
+Thank you for considering my application. I look forward to the opportunity to discuss how my skills and enthusiasm align with Ming Hing’s continued success.
+
+Yours sincerely,
+
+[Your Full Name]', '["What do you know about the HKIS APC pathway for the Land Surveying division?", "How would you prepare as-constructed survey records for a water main installation project?", "Can you describe your experience with survey equipment such as total stations or GPS?", "What are the key considerations when reviewing engineering drawings for survey data extraction?", "Describe a time you had to coordinate with multiple stakeholders on a project. How did you ensure accuracy and timeliness?"]', '2026-07-03 11:13:04', NULL, NULL);
+
+-- company_profiles: 30 rows
+INSERT OR REPLACE INTO company_profiles (id, company_name, overview, hk_projects, reputation_notes, glassdoor_rating, created_at, employee_count, founded_year, headquarters, recent_news, hk_government_contracts, glassdoor_review_count, glassdoor_pros, glassdoor_cons, apc_training, staff_turnover_notes, competitor_comparison, last_researched, apc_training_details, interview_tips, typical_graduate_salary, graduate_program_details) VALUES (13, 'Arcadis', 'Arcadis is a global design, engineering, and consultancy firm with a strong presence in Hong Kong''s surveying and construction sector. The company provides cost and commercial management, quantity surveying, and business advisory services, and is actively involved in major public infrastructure projects such as the Northern Metropolis, Tung Chung New Town Extension, and public housing developments. Arcadis has secured multiple government contracts with the Development Bureau and Housing Authority, reflecting its trusted position in the industry. Employee reviews on Glassdoor indicate a generally positive working environment with good benefits, though salary increments for lower-rated staff are a concern. The firm is recognized for its digital transformation efforts and flexible working arrangements.', '[{"name": "Landmark Yuen Long South Residential Project", "type": "Residential", "description": "Part of Hong Kong''s Northern Metropolis development."}, {"name": "Tung Chung New Town Extension", "type": "Infrastructure", "description": "Major public works project with Arcadis as consultant."}]', NULL, 3.9, '2026-07-02 00:41:40', 'Unknown', 'Unknown', 'Amsterdam, Netherlands', '[{"date": "2025-12-29", "title": "Groundbreaking for Landmark Yuen Long South", "detail": "Arcadis joins groundbreaking for a landmark residential project in Hong Kong''s Northern Metropolis."}, {"date": "2025-11-09", "title": "Arcadis Drives Innovation in Cost Management", "detail": "Arcadis continues to support Hong Kong''s vision for sustainable and efficient infrastructure, leveraging global expertise."}, {"date": "2026-03-30", "title": "Studies on Driving Excellence in Public Works", "detail": "Arcadis secures a strategic framework consultancy agreement with the Hong Kong Development Bureau."}, {"date": "2025-10-15", "title": "Housing Authority Contract Award", "detail": "Arcadis awarded a HK$7.244 million agreement for Cost Advice and Estimating (2025/26) and Quantity Surveying Services for Hung Shui Kiu."}]', '[{"project": "Studies on Driving Excellence in Public Works – Feasibility Study (Contract F1-F5)", "client": "Development Bureau", "value": "Unknown", "year": "2026"}, {"project": "Cost Advice and Estimating (2025/26)", "client": "Hong Kong Housing Authority", "value": "7,244,000 HKD", "year": "2025"}, {"project": "Quantity Surveying Services for Hung Shui Kiu", "client": "Hong Kong Housing Authority", "value": "Unknown", "year": "2025"}]', 4552, '["Excellent working environment", "Leading digital transformation", "Probably the most flexible employer in Hong Kong", "One of the best offices in the world", "Good benefit for all employee"]', '["Poor salary increase rate for lower rating staff", "Long working hours during tender periods"]', 1, 'Unknown', 'Arcadis is a global firm with a strong local presence, competing with firms like Rider Levett Bucknall and Davis Langdon (AECOM). It is known for its digital transformation and flexible work culture, which may appeal to graduates seeking work-life balance. However, salary increments for lower-rated staff are a noted con, suggesting that performance-based progression may be slower compared to some competitors.', '2026-07-02T00:41:40.018797', 'Arcadis supports APC training for HKIS and RICS pathways, with senior staff actively involved in professional development events such as QSD PQSL Contract Series.', 'Unknown', 'Unknown', 'Unknown');
+INSERT OR REPLACE INTO company_profiles (id, company_name, overview, hk_projects, reputation_notes, glassdoor_rating, created_at, employee_count, founded_year, headquarters, recent_news, hk_government_contracts, glassdoor_review_count, glassdoor_pros, glassdoor_cons, apc_training, staff_turnover_notes, competitor_comparison, last_researched, apc_training_details, interview_tips, typical_graduate_salary, graduate_program_details) VALUES (14, 'Turner & Townsend', 'Turner & Townsend is a global professional services company specializing in project management, cost management, and consultancy for the construction and infrastructure sectors. In Hong Kong, they have a strong presence, working on major public works and commercial projects. They are known for their expertise in cost management, program management, and digital built environment services. The firm has been involved in high-profile government contracts, including a Development Bureau framework agreement for public works consultancy. Their reputation in the surveying industry is solid, with a focus on delivering value and innovation.', '[{"name": "HAppy Family • Colourful and Fun Estate Project", "type": "Building Surveyor Awards 2025", "description": "Award-winning project recognized at the Building Surveyor Awards 2025."}]', NULL, 3.7, '2026-07-02 00:42:08', 'Unknown', 'Unknown', 'London, UK', '[{"date": "2026-03", "title": "Development Bureau Award of Consultancy Agreement", "detail": "Turner & Townsend Limited awarded a consultancy agreement by the Development Bureau for public works projects."}, {"date": "2026-03", "title": "Economic conditions boost Hong Kong construction", "detail": "Turner & Townsend reports that Hong Kong''s 2026-27 Budget reinforces near-term stability for construction."}, {"date": "2025-09", "title": "Confidence improves Hong Kong construction outlook", "detail": "Hong Kong''s construction industry shows signs of improvement after a slow start in 2025."}, {"date": "2025-05", "title": "Digital built environment: evolution of Hong Kong''s BIM policy", "detail": "Turner & Townsend discusses the evolution of Hong Kong''s BIM policy and its impact on construction."}]', '[{"project": "Development Bureau Framework Agreement for Public Works Consultancy", "client": "Development Bureau, HKSAR Government", "value": "134.881 (million HKD?)", "year": "2026"}, {"project": "ArchSD Consultancy Agreement (Contract TC N922)", "client": "Architectural Services Department", "value": "Unknown", "year": "Unknown"}]', 2183, '["Good APC training support", "Flexible working hours", "Supportive team environment", "Global opportunities"]', '["Long working hours during tender periods", "Slow promotion", "Bureaucracy"]', 1, 'Unknown', 'Compared to other major surveying firms in Hong Kong like Arcadis and Mott MacDonald, Turner & Townsend is particularly strong in cost management and program management. They have a global network but a focused local presence. Career progression may be slower due to bureaucracy, but the firm offers good APC support and international opportunities.', '2026-07-02T00:42:08.556913', 'The firm provides structured APC training for RICS and HKIS, with mentorship and support for graduates to achieve chartered status.', '["Highlight your knowledge of cost management and project controls, as these are core to Turner & Townsend''s services.", "Be prepared to discuss your understanding of the Hong Kong construction market and recent government initiatives.", "Demonstrate enthusiasm for APC training and professional development, as the firm values supporting chartered status."]', 'Unknown', 'Turner & Townsend offers a Graduate Development Program in Project Management for 2026 in Hong Kong, as per a LinkedIn job posting. Details on duration and rotations are not specified.');
+INSERT OR REPLACE INTO company_profiles (id, company_name, overview, hk_projects, reputation_notes, glassdoor_rating, created_at, employee_count, founded_year, headquarters, recent_news, hk_government_contracts, glassdoor_review_count, glassdoor_pros, glassdoor_cons, apc_training, staff_turnover_notes, competitor_comparison, last_researched, apc_training_details, interview_tips, typical_graduate_salary, graduate_program_details) VALUES (15, 'Rider Levett Bucknall', 'Rider Levett Bucknall (RLB) is a global construction and property consultancy with a strong presence in Hong Kong, offering quantity surveying, cost management, and project management services. The firm is known for its expertise in cost benchmarking, life cycle costing, and QS-BIM integration. RLB has secured notable government contracts, including quantity surveying services for the Hong Kong Housing Authority and the Architectural Services Department. The company is recognized for its early career development programs and supports APC training for HKIS and RICS qualifications. Employee reviews on Glassdoor indicate a mixed reputation, with a rating of 3.1 out of 5 in Hong Kong, citing good training but concerns over work-life balance and career progression.', '[{"name": "Modular Integrated Construction (MiC) Support", "type": "Construction Consultancy", "description": "RLB supports MiC projects in Hong Kong, a modern construction method."}]', NULL, 3.1, '2026-07-02 00:47:59', 'Unknown', 'Unknown', 'Unknown', '[{"date": "2026-04", "title": "RLB Construction Cost Update HK Q1 2026", "detail": "RLB published its quarterly construction cost update for Hong Kong, highlighting cautious economic optimism in the construction market."}, {"date": "2025-10", "title": "RLB Supports Modular Integrated Construction in Hong Kong", "detail": "RLB announced support for Modular Integrated Construction (MiC) in Hong Kong, aligning with industry trends."}, {"date": "2025-10", "title": "RLB Awarded Quantity Surveying Services by Hong Kong Housing Authority", "detail": "RLB secured a contract for quantity surveying services for maintenance and improvement works under District Term Contract (Tuen Mun), valued at HK$12,126,850."}]', '[{"project": "Quantity Surveying Services for Maintenance and Improvement Works under District Term Contract (Tuen Mun)", "client": "Hong Kong Housing Authority", "value": "HK$12,126,850", "year": "2025"}, {"project": "Quantity Surveying Services for the Review and ...", "client": "Architectural Services Department", "value": "HK$4.6 million", "year": "2027"}]', 51, '["Good APC training support", "Great for resume", "Flexible working hours"]', '["Long working hours during tender periods", "Slow promotion", "Not much benefits"]', 1, 'Unknown', 'Compared to other major quantity surveying firms in Hong Kong like Arcadis and Turner & Townsend, RLB is similarly sized but has a strong focus on cost consultancy and BIM integration. RLB''s reputation for APC training is a key differentiator, though some reviews suggest slower career progression compared to competitors.', '2026-07-02T00:47:59.738681', 'RLB offers an Early Careers Development Programme that equips graduates with everything needed to achieve professional qualifications as quickly as possible, including support for HKIS and RICS APC.', '["Highlight your knowledge of cost management and quantity surveying, as RLB values technical competence.", "Be prepared to discuss your interest in APC training and professional development, as the firm emphasizes early career programs.", "Demonstrate awareness of RLB''s recent projects and market updates, such as their construction cost reports."]', 'Unknown', 'RLB''s Early Careers Development Programme is designed to equip graduates with everything needed to achieve professional qualifications as quickly as possible, including support for HKIS and RICS APC. The program likely includes rotations and mentorship, but specific details are not provided.');
+INSERT OR REPLACE INTO company_profiles (id, company_name, overview, hk_projects, reputation_notes, glassdoor_rating, created_at, employee_count, founded_year, headquarters, recent_news, hk_government_contracts, glassdoor_review_count, glassdoor_pros, glassdoor_cons, apc_training, staff_turnover_notes, competitor_comparison, last_researched, apc_training_details, interview_tips, typical_graduate_salary, graduate_program_details) VALUES (16, 'AECOM', 'AECOM is a global infrastructure consulting firm with a significant presence in Hong Kong, involved in major projects such as Terminal 2 at Hong Kong International Airport and the Northern Metropolis development. The company offers services in project management, engineering, planning, environment, sustainability, construction, and rail operations. AECOM has been awarded multiple government contracts, including landslip prevention and parking surveys, and has won awards for BIM and smart city initiatives. Employee reviews indicate a generally positive reputation, with a Glassdoor rating of 3.6-3.8 out of 5 in Hong Kong, though specific pros and cons for surveyors are not detailed.', '[{"name": "Terminal 2 at Hong Kong International Airport", "type": "Airport", "description": "Successful delivery of T2 expansion."}, {"name": "Northern Metropolis Development", "type": "Urban Development", "description": "Key new phase of major development."}, {"name": "The Loop Development", "type": "Infrastructure", "description": "Project recognized for safety excellence."}]', NULL, 3.7, '2026-07-02 00:48:08', 'Unknown', 'Unknown', 'Los Angeles, USA', '[{"date": "2026-05", "title": "AECOM celebrates successful delivery of Terminal 2 at Hong Kong International Airport", "detail": "AECOM contributed to the successful delivery of Terminal 2 at HKIA."}, {"date": "2026-01", "title": "AECOM''s 3D Digital Ecosystem and 3D Digital Map win multiple smart city awards", "detail": "AECOM''s digital innovations showcase Hong Kong''s leadership in urban innovation."}, {"date": "2025-07", "title": "AECOM wins four awards at NEC Martin Barnes Awards 2025", "detail": "AECOM honored for three infrastructure projects and one individual."}, {"date": "2025-04", "title": "AECOM JV awarded contract for key new phase of Hong Kong''s Northern Metropolis development", "detail": "AECOM joint venture secures contract for major development."}]', '[{"project": "Landslip Prevention and Mitigation Programme", "client": "CEDD", "value": "HK$24,600,000", "year": "2026"}, {"project": "Parking Survey (On-Street Facilities) 2026 and 2027", "client": "Transport Department", "value": "Unknown", "year": "2026"}, {"project": "Expansion of Aberdeen Typhoon Shelter", "client": "CEDD", "value": "Unknown", "year": "2026"}]', 12494, '[]', '[]', 0, 'Unknown', 'AECOM is a global firm with a large scale in Hong Kong, competing with other multinational consultancies like Arup and Mott MacDonald. It has a strong track record in infrastructure and government projects, offering diverse opportunities but may have slower promotion due to its size.', '2026-07-02T00:48:08.203055', 'Unknown', 'Unknown', 'Unknown', 'Unknown');
+INSERT OR REPLACE INTO company_profiles (id, company_name, overview, hk_projects, reputation_notes, glassdoor_rating, created_at, employee_count, founded_year, headquarters, recent_news, hk_government_contracts, glassdoor_review_count, glassdoor_pros, glassdoor_cons, apc_training, staff_turnover_notes, competitor_comparison, last_researched, apc_training_details, interview_tips, typical_graduate_salary, graduate_program_details) VALUES (17, 'WSP in Asia', 'WSP in Asia is a leading professional services firm in Hong Kong, part of the global WSP network. They employ around 3,000 professionals across Asia, with a strong presence in Hong Kong''s surveying and construction industry. Their service lines include engineering, advisory, BIM, quantity surveying, and project management. Notable Hong Kong projects include Tate''s Cairn Tunnel and Bayshore MRT Station. The firm has a good reputation, with a Glassdoor rating of 3.3 in Hong Kong, and is known for working on government contracts and award-winning projects.', '[{"name": "Tate''s Cairn Tunnel", "type": "Infrastructure", "description": "Lighting design for one of Hong Kong''s longest road tunnels."}, {"name": "Bayshore MRT Station", "type": "Transportation", "description": "Winner of BCA Project of the Year Award 2025."}]', NULL, 3.3, '2026-07-02 00:48:22', '3,000 in Asia', 'Unknown', 'Unknown', '[{"date": "2026-03", "title": "Tate''s Cairn Tunnel Project", "detail": "WSP completed lighting design for one of Hong Kong''s longest road tunnels."}, {"date": "2025-09", "title": "Award Win at HKIBIM Awards", "detail": "WSP won Government Silver Award for Design and Construction at HKIBIM Awards 2025."}, {"date": "2025-04", "title": "Bayshore MRT Station Award", "detail": "Bayshore MRT Station, with WSP involvement, won BCA Project of the Year Award 2025."}]', '[{"project": "Contract for Highways Department", "client": "Highways Department", "value": "Unknown", "year": "2025"}, {"project": "Architectural Services Department projects", "client": "ArchSD", "value": "Unknown", "year": "2023"}]', 240, '["Good work-life balance", "Flexible working hours", "Supportive colleagues"]', '["Long working hours during tender periods", "Slow promotion", "Bureaucracy"]', 1, 'Unknown', 'Compared to other HK surveying firms like Arup and Atkins, WSP is similarly large but with a stronger focus on BIM and sustainability. Career progression may be slower due to bureaucracy, but APC training support is robust.', '2026-07-02T00:48:22.337877', 'WSP in Asia provides APC training support for HKIS and RICS, with structured mentorship and project exposure.', 'Highlight your interest in BIM and sustainable design, as WSP emphasizes innovation. Be prepared to discuss your experience with government projects and APC training goals.', 'Unknown', 'Unknown');
+INSERT OR REPLACE INTO company_profiles (id, company_name, overview, hk_projects, reputation_notes, glassdoor_rating, created_at, employee_count, founded_year, headquarters, recent_news, hk_government_contracts, glassdoor_review_count, glassdoor_pros, glassdoor_cons, apc_training, staff_turnover_notes, competitor_comparison, last_researched, apc_training_details, interview_tips, typical_graduate_salary, graduate_program_details) VALUES (18, 'Mace', 'Mace is a global consultancy and construction company with a significant presence in Hong Kong, particularly through its Mace Consult division. In Hong Kong, Mace provides project and program management, cost consultancy, and advisory services, with a strong focus on major infrastructure and development projects. Notable recent involvement includes the Northern Metropolis megaproject, a $28.7 billion housing and development initiative, where Mace Consult is in a joint venture with Arup as program management partner. The company has been recognized with a King''s Award for Enterprise and is known for its work on complex, large-scale programs. Employee reviews on Glassdoor indicate a generally positive reputation, with ratings around 3.8 out of 5, though some concerns about leadership and career development exist.', '[{"name": "Northern Metropolis", "type": "Megaproject - Housing and Development", "description": "A 74-acre development creating unprecedented housing and economic opportunities in Hong Kong''s Northern Metropolis."}]', NULL, 3.8, '2026-07-02 00:48:32', 'Unknown', 'Unknown', 'London, UK', '[{"date": "2026-03", "title": "Mace Consult Launches as a Standalone Company", "detail": "Mace Consult became an independent business on 5 March 2026, following a majority investment by Goldman Sachs Alternatives."}, {"date": "2026-05", "title": "Mace Consult achieves King''s Award for Enterprise", "detail": "Mace Consult was awarded the King''s Award for Enterprise, recognizing its excellence in international trade."}, {"date": "2025-08", "title": "Mace Consult-Arup JV Picked for Program Management on $28.7B Hong Kong Megaproject", "detail": "The joint venture was appointed by CEDD to provide program management for the Northern Metropolis, a 74-acre development creating unprecedented housing and economic opportunities."}, {"date": "2025-08", "title": "Mace Consult appointed by CEDD to support Northern Metropolis delivery", "detail": "Mace Consult, in a joint venture with Arup, was appointed by the Civil Engineering and Development Department to support the delivery of the Northern Metropolis."}, {"date": "2026-06", "title": "Hong Kong leaders discuss future of major programme delivery at Mace Consult event", "detail": "Mace Consult hosted an event with Hong Kong leaders, including the Development Bureau and MTR Corporation, to discuss major programme delivery."}]', '[{"project": "Northern Metropolis Programme Management", "client": "Civil Engineering and Development Department (CEDD), HKSAR Government", "value": "$28.7 billion (total project value)", "year": "2025"}]', 1150, '["Good work life balance", "Flexible working hours", "Good in work life balance"]', '["Leadership and career development issues", "May be leadership and career development"]', 0, 'One Glassdoor review mentions ''Hong Kong is finally closed down'', but this appears to be an isolated comment. No clear indication of high turnover or layoffs.', 'Mace competes with firms like Arup, Jacobs, and Arcadis in Hong Kong''s consultancy market. While Mace is strong in program management and cost consultancy, it may be smaller in overall staff compared to giants like Arup. However, its recent carve-out and investment from Goldman Sachs position it as a growing independent player with a focus on major infrastructure.', '2026-07-02T00:48:32.346631', 'Unknown', '["Highlight your understanding of large-scale program management and experience with complex projects, as Mace is heavily involved in megaprojects like Northern Metropolis.", "Emphasize your ability to work in a collaborative environment, as the company often works in joint ventures (e.g., with Arup) and values teamwork.", "Be prepared to discuss your knowledge of the Hong Kong construction market and government procedures, given Mace''s strong ties with government departments like CEDD."]', 'Unknown', 'Unknown');
+INSERT OR REPLACE INTO company_profiles (id, company_name, overview, hk_projects, reputation_notes, glassdoor_rating, created_at, employee_count, founded_year, headquarters, recent_news, hk_government_contracts, glassdoor_review_count, glassdoor_pros, glassdoor_cons, apc_training, staff_turnover_notes, competitor_comparison, last_researched, apc_training_details, interview_tips, typical_graduate_salary, graduate_program_details) VALUES (19, 'Currie & Brown', 'Currie & Brown is a world-leading project management, cost management, and sustainability advisory services firm with a strong presence in Hong Kong. They provide quantity surveying, cost consultancy, and project management services for public and private sector projects. Notable Hong Kong projects include the Blissful Place development and Coastal Pedestrian Access at Ma Wan Chung Village. The company has a mixed reputation on Glassdoor, with an overall rating of 3.8/5 but lower scores for culture and senior management. They are actively involved with the Hong Kong Housing Authority and other government bodies, and offer scholarships through the HKIS.', '[{"name": "Blissful Place", "type": "Residential Development", "description": "Realising the Blissful Place project in Hong Kong, involving tender documentation, post-contract supervision, and final accounts."}, {"name": "Coastal Pedestrian Access at Ma Wan Chung Village", "type": "Infrastructure", "description": "Part of a project with Arup and DCMSTUDIOS ARCHITECTS, inspired by the New York High Line."}]', NULL, 3.8, '2026-07-02 00:48:41', 'Unknown', 'Unknown', 'Unknown', '[{"date": "2025-10", "title": "Awarded Quantity Surveying Services Contract by Hong Kong Housing Authority", "detail": "Currie & Brown (China) Limited was awarded a quantity surveying services agreement valued at HK$9,636,200 for the period October 2025 to March 2026."}, {"date": "2025-09", "title": "Sustainable Mixed-Use Development in Shanghai", "detail": "Currie & Brown is involved in a sustainable mixed-use development project in Shanghai, showcasing their sustainability advisory services."}, {"date": "2025-09", "title": "Support for Hong Kong Green Building Week 2025", "detail": "Currie & Brown participated in Hong Kong Green Building Week 2025, highlighting their commitment to green building."}, {"date": "2025-12", "title": "HKIS QSD - Currie & Brown (China) Limited Scholarship Awarded", "detail": "The company sponsors an HKIS QSD scholarship, awarded to a PolyU student in 2025."}]', '[{"project": "Quantity Surveying Services (Agreement CB20250242)", "client": "Hong Kong Housing Authority", "value": "HK$9,636,200", "year": "2025"}]', 280, '["Flexible work arrangements and respects personal time", "Good APC training support", "Promotes work-life balance"]', '["Low compensation and benefits", "Poor work/life balance", "Limited career opportunities", "Weak culture and values", "Ineffective senior management"]', 1, 'Unknown', 'Compared to other major QS firms in Hong Kong like Rider Levett Bucknall and WT Partnership, Currie & Brown has a slightly lower Glassdoor rating (3.8 vs. higher for some competitors) and is noted for weaker culture and senior management. However, they are a global firm with strong sustainability advisory services and active government contracts.', '2026-07-02T00:48:41.377733', 'The company provides APC training support for RICS/HKIS qualification, as indicated by positive reviews mentioning ''Good APC training support''.', '["Prepare to discuss your knowledge of quantity surveying and cost management, as the firm values technical competence.", "Highlight your understanding of HKIS/RICS APC pathways, as the company supports APC training.", "Be ready to talk about your experience with government projects or sustainability, given the firm''s focus areas."]', 'Unknown', 'Unknown');
+INSERT OR REPLACE INTO company_profiles (id, company_name, overview, hk_projects, reputation_notes, glassdoor_rating, created_at, employee_count, founded_year, headquarters, recent_news, hk_government_contracts, glassdoor_review_count, glassdoor_pros, glassdoor_cons, apc_training, staff_turnover_notes, competitor_comparison, last_researched, apc_training_details, interview_tips, typical_graduate_salary, graduate_program_details) VALUES (20, 'Dragages Hong Kong Limited', 'Dragages Hong Kong Limited is a leading international construction company with a 70-year presence in Hong Kong since 1955. It specializes in civil, building, electrical, and mechanical engineering projects, and is recognized for pioneering construction technologies like Modular Integrated Construction (MiC). Notable projects include the Kwu Tung Station on the East Rail Line, government quarters at Lai King, and a HK$10.3 billion contract from CEDD. The company has a strong reputation for delivering complex infrastructure and building projects, with a focus on innovation and safety. For surveying graduates, Dragages offers exposure to large-scale, high-profile projects and a structured career path, though employee reviews indicate mixed satisfaction with work-life balance.', '[{"name": "Kwu Tung Station – East Rail Line", "type": "Civil / Railway", "description": "Construction of a new station on the East Rail Line, awarded CIC Outstanding MiMEP Project Design Award."}, {"name": "Government Quarters at Lai King", "type": "Building", "description": "Design and construction of government quarters for the Architectural Services Department."}, {"name": "Centralised Government Godown", "type": "Building", "description": "Construction of a centralized government warehouse."}, {"name": "Coastal Pedestrian Access at Ma Wan Chung Village", "type": "Civil", "description": "Part of a project with Arup, improving coastal pedestrian access."}]', NULL, 3.7, '2026-07-02 00:48:52', 'Unknown', '1955', 'Hong Kong', '[{"date": "2026-04", "title": "Kwu Tung Station Wins CIC Outstanding MiMEP Project Design Award", "detail": "Dragages Hong Kong''s Kwu Tung Station project received the CIC Outstanding MiMEP Project Design Award."}, {"date": "2026-05", "title": "Design for Safety Excellence Award 2026 by HKIE SSC", "detail": "Kwu Tung Station project won Bronze in the Design for Safety Excellence Award 2026, with MTR Corporation and Dragages Hong Kong as organizations."}, {"date": "2026-05", "title": "Capital Projects Under Planning - Contract SSM503", "detail": "Dragages Hong Kong awarded a HK$1,839M contract (NEC4 ECC Option A) by the Architectural Services Department."}, {"date": "2026-01", "title": "Past Awardee - ACEHK Annual Award", "detail": "Dragages Hong Kong Limited was listed as a past awardee in the ACEHK Annual Award."}, {"date": "2026-06", "title": "Concrete MiC Systems Approval", "detail": "Dragages Hong Kong''s MiC system (Model No. DHK-RC-001) was approved by the Buildings Department."}]', '[{"project": "Kwu Tung Station – East Rail Line (Contract No. 1601)", "client": "MTR Corporation", "value": "Unknown", "year": "Current"}, {"project": "Government Quarters at Lai King", "client": "Architectural Services Department", "value": "Unknown", "year": "Unknown"}, {"project": "Centralised Government Godown", "client": "Architectural Services Department", "value": "Unknown", "year": "Unknown"}, {"project": "Contract SSM503 (NEC4 ECC Option A)", "client": "Architectural Services Department", "value": "HK$1,839M", "year": "2026"}, {"project": "HK$10.3 billion contract", "client": "Civil Engineering and Development Department (CEDD)", "value": "HK$10.3 billion", "year": "Unknown"}]', 79, '["Astonishing civil engineering projects", "Experienced people", "Easy to take on responsibilities and manage very good people from different countries", "Good and stable company", "Solid company with strong backing"]', '["Poor daily working atmosphere", "Long working hours", "Slow promotion"]', 0, 'Unknown', 'Dragages Hong Kong is a major player in the HK construction market, competing with firms like Gammon Construction and Chun Wo. It is known for its strong backing from the parent company Bouygues and its focus on innovative technologies. Compared to competitors, Dragages offers exposure to high-profile government and MTR projects, but employee reviews suggest slower promotion and mixed work-life balance.', '2026-07-02T00:48:52.168820', 'Unknown', '["Highlight your interest in large-scale civil engineering projects and willingness to take on responsibilities.", "Be prepared to discuss your experience with diverse teams, as the company values working with people from different countries.", "Demonstrate knowledge of innovative construction methods like MiC, as Dragages is a pioneer in this area."]', 'Unknown', 'Unknown');
+INSERT OR REPLACE INTO company_profiles (id, company_name, overview, hk_projects, reputation_notes, glassdoor_rating, created_at, employee_count, founded_year, headquarters, recent_news, hk_government_contracts, glassdoor_review_count, glassdoor_pros, glassdoor_cons, apc_training, staff_turnover_notes, competitor_comparison, last_researched, apc_training_details, interview_tips, typical_graduate_salary, graduate_program_details) VALUES (21, 'China Harbour Engineering Co. Ltd', 'China Harbour Engineering Co. Ltd (CHEC) is a major civil engineering contractor in Hong Kong, specializing in marine works, land development, and infrastructure projects. As a subsidiary of China Communications Construction Company (CCCC), it has a significant local presence with hundreds of staff. Key service lines include dredging, reclamation, port construction, and building works. Notable Hong Kong projects include the Hong Kong-Zhuhai-Macao Bridge (Contract HY/2019/01) and the Hong Kong Offshore LNG Terminal. The company has a mixed reputation on Glassdoor (3.3/5), with employees citing good working environment but limited career advancement.', '[{"name": "Hong Kong-Zhuhai-Macao Bridge (Contract HY/2019/01)", "type": "Bridge and infrastructure", "description": "Design and construction of Hong Kong boundary crossing facilities."}, {"name": "Hong Kong Offshore LNG Terminal", "type": "Energy infrastructure", "description": "Construction of an offshore liquefied natural gas terminal."}, {"name": "Airport Third Runway Project", "type": "Aviation infrastructure", "description": "Reclamation and related works for the third runway at Hong Kong International Airport (mentioned in LinkedIn profile of AGM)."}]', NULL, 3.3, '2026-07-02 00:49:01', 'Unknown', 'Unknown', 'Beijing, China', '[{"date": "2025-10", "title": "Award of Merit: Combined Cycle Implementation at Santa Cruz Thermoelectric Plant", "detail": "CHEC received an ENR Global Best Projects Award of Merit for a project in Rio de Janeiro, Brazil."}, {"date": "2025-09", "title": "Graduate Engineer Hiring", "link": "https://hk.linkedin.com/in/lau-man-kong-712340225", "detail": "A graduate engineer joined CHEC in September 2025, indicating ongoing recruitment of fresh graduates."}, {"date": "2026-06", "title": "Scheme A Jobs in Hong Kong", "link": "https://hk.jobsdb.com/scheme-a-jobs", "detail": "CHEC advertised Graduate Engineer positions with HKIE Scheme A training in June 2026."}]', '[{"project": "Hong Kong-Zhuhai-Macao Bridge Hong Kong Boundary Crossing Facilities", "client": "Highways Department / Development Bureau", "value": "Unknown", "year": "2019"}]', 132, '["Nice coworkers, a good working environment", "Acceptable, average among contractors in Hong Kong"]', '["Insufficient career advancement opportunities", "Slow promotion"]', 1, 'Unknown', 'Compared to local contractors like Gammon Construction or Dragages Hong Kong, CHEC is a large Mainland-backed firm with strong capabilities in marine and reclamation works. Career progression may be slower due to hierarchical structure, but the company offers stable employment and exposure to mega-projects. In surveying, CHEC provides HKIE Scheme A training, similar to other major contractors.', '2026-07-02T00:49:01.836497', 'The company offers HKIE Scheme A training for graduate engineers, as indicated by job postings for Graduate Engineer positions requiring Scheme A training.', '["Emphasize willingness to work on site and adaptability to long hours, as construction roles often require flexibility.", "Highlight any experience with marine works or large-scale infrastructure projects, as CHEC specializes in these areas.", "Be prepared to discuss your understanding of HKIE Scheme A training and your career development goals."]', 'Unknown', 'CHEC offers a Graduate Engineer program with HKIE Scheme A training, typically lasting 2-3 years, involving rotations across different projects and mentorship from experienced engineers. Details are not fully specified in search results.');
+INSERT OR REPLACE INTO company_profiles (id, company_name, overview, hk_projects, reputation_notes, glassdoor_rating, created_at, employee_count, founded_year, headquarters, recent_news, hk_government_contracts, glassdoor_review_count, glassdoor_pros, glassdoor_cons, apc_training, staff_turnover_notes, competitor_comparison, last_researched, apc_training_details, interview_tips, typical_graduate_salary, graduate_program_details) VALUES (22, 'Hip Hing Construction Co Ltd', 'Hip Hing Construction Co., Ltd. is a leading Hong Kong contractor established in 1961, involved in building and infrastructure projects across Hong Kong, China, and Southeast Asia. The company has worked on major projects including Kai Tak Sports Park, The Henderson, and various Housing Authority estates. With over 130 Glassdoor reviews and a 3.7 rating, employees note good exposure to large-scale projects and relative good bonus, but cite lack of work-life balance. The firm is recognized for BIM innovation and has won awards for safety and sustainability.', '[{"name": "Kai Tak Sports Park", "type": "Sports complex", "description": "Major sports park project in Hong Kong."}, {"name": "The Henderson", "type": "Commercial building", "description": "Award-winning commercial development using openBIM."}, {"name": "Lee Garden Eight", "type": "Commercial development", "description": "New commercial building for Hysan Development."}, {"name": "Po Heung Estate", "type": "Public housing", "description": "Public housing estate for Hong Kong Housing Authority."}]', NULL, 3.7, '2026-07-02 00:49:09', 'Unknown', '1961', 'Hong Kong', '[{"date": "2025-09", "title": "UNSDG Achievement Awards Hong Kong 2025", "detail": "Hip Hing won for Material Management App."}, {"date": "2025-09", "title": "buildingSMART openBIM Awards 2025", "detail": "Hip Hing won for ''The Henderson - openBIM for Building Lifecycle''."}, {"date": "2025-10", "title": "24th Hong Kong Occupational Safety & Health Award", "detail": "Hip Hing won Silver Award for Main Contract Works for Commercial Development on IL No. 8945, Caroline Hill Road."}, {"date": "2025-11", "title": "Lee Garden Eight Tops Out", "detail": "Hip Hing is the contractor for this Hysan Development project."}]', '[{"project": "Po Heung Estate", "client": "Hong Kong Housing Authority", "value": "Unknown", "year": "Unknown"}, {"project": "Architectural Services Department project", "client": "Architectural Services Department", "value": "Unknown", "year": "Unknown"}, {"project": "Expansion of Kiosks (Works Contracts)", "client": "Development Bureau", "value": "Unknown", "year": "Unknown"}, {"project": "Maintenance Term Contract for HK Island Eastern & Outlying Islands (South)", "client": "Development Bureau", "value": "Unknown", "year": "Unknown"}]', 130, '["Many large scale projects in company", "Good exposure for the construction industry", "Relative good bonus"]', '["No work life balance"]', 0, 'Unknown', 'Hip Hing is a major local contractor in Hong Kong, comparable to Gammon Construction and Paul Y. Engineering. It is known for large-scale projects and BIM innovation, but Glassdoor reviews suggest work-life balance issues similar to other local contractors. Its long history and government contracts indicate stability, but career progression may be slower compared to international firms.', '2026-07-02T00:49:09.955014', 'Unknown', 'Unknown', 'Unknown', 'Unknown');
+INSERT OR REPLACE INTO company_profiles (id, company_name, overview, hk_projects, reputation_notes, glassdoor_rating, created_at, employee_count, founded_year, headquarters, recent_news, hk_government_contracts, glassdoor_review_count, glassdoor_pros, glassdoor_cons, apc_training, staff_turnover_notes, competitor_comparison, last_researched, apc_training_details, interview_tips, typical_graduate_salary, graduate_program_details) VALUES (23, 'Yau Lee Holdings Limited', 'Yau Lee Holdings Limited is a Hong Kong-based green integrated corporation listed on the Stock Exchange of Hong Kong since 1991. The group operates through subsidiaries including Yau Lee Construction Company Limited, which is a main contractor for public housing projects under the Hong Kong Housing Authority and Architectural Services Department. The company has secured nearly HK$16 billion in new contracts and projects record revenue of over HK$10 billion. Yau Lee is recognized for its adoption of BIM and MiC technologies, and has received awards such as the UNSDG Achievement Awards Hong Kong 2025 and HKIBIM Award 2025. The company has a Glassdoor rating of 3.6/5, with 68% of employees recommending it to a friend.', '[{"name": "Motto by Hilton Hong Kong", "type": "Private Development", "description": "Gold Award winner at HKIBIM Award 2025 for Building (Private Development) Project."}, {"name": "Public Housing Development at Anderson Road Quarry Site R2-5", "type": "Public Housing", "description": "Main contractor for Hong Kong Housing Authority project."}]', NULL, 3.6, '2026-07-02 00:49:27', 'Unknown', 'Unknown', 'Hong Kong', '[{"date": "2025-09", "title": "UNSDG Achievement Awards Hong Kong 2025", "detail": "Yau Lee Holdings Limited received a Grand Award at the UNSDG Achievement Awards Hong Kong 2025."}, {"date": "2025-10", "title": "HKIBIM Award 2025", "detail": "Yau Lee Holdings Limited participated in the HKIBIM Award 2025, winning a Gold Award for Building (Private Development) Project for Motto by Hilton Hong Kong."}, {"date": "2026-01", "title": "BEEE Student Honoured at REC Engineering Company Scholarship", "detail": "Ir Dr Conrad Wong, BBS, JP, Vice Chairman of Yau Lee Holdings Limited, was Guest of Honour at the REC Engineering Company Limited Scholarship Presentation Ceremony."}, {"date": "2026-03", "title": "Construction of Public Housing Development at Anderson Road Quarry Site", "detail": "Yau Lee Construction Company Limited is the main contractor for a public housing development at Anderson Road Quarry Site R2-5, with REC Engineering Company Limited as E&M contractor."}]', '[{"project": "Public Housing Development at Anderson Road Quarry Site R2-5", "client": "Hong Kong Housing Authority", "value": "Unknown", "year": "2026"}, {"project": "Term Contract for Alterations, Additions, and Maintenance for which Architectural Services Department is Responsible (Designated Contract Area: Hong Kong Island and Outlying Islands)", "client": "Architectural Services Department", "value": "Unknown", "year": "2006"}, {"project": "Integrated Procurement Approach (IPA) contract with 3D BIM", "client": "Hong Kong Housing Authority", "value": "Unknown", "year": "2009"}]', 21, '[]', '[]', 0, 'Unknown', 'Yau Lee Holdings is a mid-sized contractor in Hong Kong with a focus on green construction and BIM adoption. Compared to larger competitors like Gammon or Hip Hing, Yau Lee may offer more exposure to innovative technologies and sustainability initiatives. The company''s strong government contract portfolio suggests stable project pipeline, but career progression may be slower as indicated by Glassdoor ratings on job security and advancement (3.3/5).', '2026-07-02T00:49:27.642140', 'Unknown', 'Unknown', 'Unknown', 'Unknown');
+INSERT OR REPLACE INTO company_profiles (id, company_name, overview, hk_projects, reputation_notes, glassdoor_rating, created_at, employee_count, founded_year, headquarters, recent_news, hk_government_contracts, glassdoor_review_count, glassdoor_pros, glassdoor_cons, apc_training, staff_turnover_notes, competitor_comparison, last_researched, apc_training_details, interview_tips, typical_graduate_salary, graduate_program_details) VALUES (24, 'Geosys Hong Kong Limited', 'Geosys Hong Kong Limited is a geospatial technology provider founded in 2009, specializing in GIS, AI, and low-altitude site management platforms. The company serves government clients including the Development Bureau, Civil Engineering and Development Department, and Hong Kong Housing Authority, with projects such as the Light Public Housing and Plover Cove Reservoir inspection. They have been awarded contracts by the Housing Authority and are listed as a subcontractor under the Digital Policy Office''s Standing Offer Agreement. Employee reviews on Glassdoor indicate mixed experiences, with some praising learning opportunities but others citing long hours and management issues.', '[{"name": "Light Public Housing", "type": "Inspection", "description": "Inspection project under LAE Regulatory Sandbox."}, {"name": "Plover Cove Reservoir", "type": "Inspection", "description": "Inspection project under LAE Regulatory Sandbox."}, {"name": "Hung Shui Kiu", "type": "Inspection", "description": "Inspection project under LAE Regulatory Sandbox."}]', NULL, NULL, '2026-07-02 00:49:45', 'Unknown', '2009', 'Hong Kong', '[{"date": "2025-11", "title": "China Hi-Tech Fair 2025", "detail": "Geosys Hong Kong Limited participated as an exhibitor at the China Hi-Tech Fair 2025, organized by HKSTP."}, {"date": "2025-08", "title": "Showcasing Automation in Site Management", "detail": "Geosys Hong Kong shared a photo on Facebook highlighting their automation in site management."}, {"date": "2025-11", "title": "Exhibitor at 共築•智能 Summit", "detail": "Geosys Hong Kong Limited was an exhibitor at the 共築•智能 summit, showcasing GIS, AI, and smart city solutions."}, {"date": "2026-06", "title": "Tender Notice from Home Affairs Department", "detail": "Geosys Hong Kong Limited was listed in a tender notice by the Home Affairs Department for a contract period starting 6 October."}]', '[{"project": "System Portal for the Hong Kong Housing Authority", "client": "Hong Kong Housing Authority", "value": "Unknown", "year": "2024"}, {"project": "Sub-contractor under Standing Offer Agreement for Quality Professional Services (QPS5)", "client": "Digital Policy Office", "value": "Unknown", "year": "2026"}, {"project": "LAE Regulatory Sandbox Projects", "client": "Transport and Logistics Bureau", "value": "Unknown", "year": "2025"}, {"project": "Tender Notice (General)", "client": "Home Affairs Department", "value": "Unknown", "year": "2026"}]', 6, '["Good place to learn new technology and expand network", "Office is quite spacious, have new things to explore"]', '["0 out of 10 company", "Seems boss''s life is a big challenge based on how he treats people around him", "Inconvenient location, overtime working is required", "Never get off work before 19:00", "Everyone speaks Putonghua and use simplified Chinese"]', 0, 'Unknown', 'Geosys Hong Kong is a specialized geospatial technology firm, smaller than traditional surveying consultancies like Meinhardt or AECOM. It focuses on GIS, AI, and low-altitude platforms, differentiating itself through tech innovation. Career progression may be slower due to limited hierarchy, but offers exposure to cutting-edge tools.', '2026-07-02T00:49:45.302626', 'Unknown', '["Be prepared to discuss your knowledge of geospatial technologies and GIS, as the company emphasizes innovation.", "Expect questions about your ability to work overtime and handle a fast-paced environment, based on reviews mentioning long hours.", "Since the office uses Putonghua and simplified Chinese, proficiency in Mandarin may be advantageous."]', 'Unknown', 'Unknown');
+INSERT OR REPLACE INTO company_profiles (id, company_name, overview, hk_projects, reputation_notes, glassdoor_rating, created_at, employee_count, founded_year, headquarters, recent_news, hk_government_contracts, glassdoor_review_count, glassdoor_pros, glassdoor_cons, apc_training, staff_turnover_notes, competitor_comparison, last_researched, apc_training_details, interview_tips, typical_graduate_salary, graduate_program_details) VALUES (25, 'Chunwo', 'Chun Wo Development Holdings is a major Hong Kong-based construction and engineering company with over 1,000 employees. They undertake a wide range of projects including public rental housing, civil engineering works, and infrastructure development. Notable projects include the Happy Valley Underground Stormwater Storage Scheme and various Housing Authority contracts. The company has an employee rating of 3.1/5 on Glassdoor, with mixed reviews regarding career opportunities and management. For fresh graduates, the firm offers graduate trainee positions, but APC training details are not explicitly mentioned in the search results.', '[{"name": "Happy Valley Underground Stormwater Storage Scheme", "type": "Civil Engineering", "description": "The biggest New Engineering Contract (NEC) project ever awarded by the Hong Kong Government."}, {"name": "Penfold Park Enhancement Project", "type": "Civil Engineering", "description": "Main contract for the Hong Kong Jockey Club''s Penfold Park enhancement."}, {"name": "Refurbishment of Hong Kong Buddhist Hospital", "type": "Building", "description": "Main contract for hospital refurbishment."}]', NULL, 3.1, '2026-07-02 00:49:53', '1,001-5,000', 'Unknown', 'Hong Kong', '[{"date": "2026-05", "title": "Technical Visit to Contract No. YL/2022/01", "detail": "Chun Wo hosted a technical visit for HKIE members to a site formation and infrastructure works contract."}, {"date": "2026-01", "title": "HKIHT Awards 2025", "detail": "Chun Wo was mentioned in connection with HKIHT Awards 2025 presentation ceremony."}, {"date": "2025-11", "title": "Inno@ChunWo Innovation Brand", "detail": "Chun Wo launched Inno@ChunWo, focusing on innovation technologies for construction, including off-site construction and robotics."}]', '[{"project": "Construction of Public Rental Housing at Lin Shing Road, Chai Wan", "client": "Hong Kong Housing Authority", "value": "Unknown", "year": "2014-2017"}, {"project": "Construction of Public Rental Housing Redevelopment at Pak Tin Estate Phase", "client": "Hong Kong Housing Authority", "value": "Unknown", "year": "Unknown"}, {"project": "Happy Valley Underground Stormwater Storage Scheme", "client": "Hong Kong Government", "value": "Unknown", "year": "Unknown"}]', 109, '["Good salary for fresh grad", "Good pay and co workers are great", "Flexible working hours"]', '["Many payment issue with sub contractor", "Slow promotion", "Long working hours"]', 0, 'Unknown', 'Chun Wo is a mid-sized contractor in Hong Kong, competing with larger firms like Gammon and Hip Hing. It has a strong focus on public housing and civil engineering projects. Career progression may be slower compared to some competitors, but the company offers good pay for fresh graduates.', '2026-07-02T00:49:53.275208', 'Unknown', '["Highlight your interest in innovation and technology, as Chun Wo emphasizes Inno@ChunWo.", "Be prepared to discuss your experience with government contracts and public works.", "Glassdoor reviews suggest that salary is competitive for fresh graduates, so be ready to negotiate."]', 'Unknown', 'Unknown');
+INSERT OR REPLACE INTO company_profiles (id, company_name, overview, hk_projects, reputation_notes, glassdoor_rating, created_at, employee_count, founded_year, headquarters, recent_news, hk_government_contracts, glassdoor_review_count, glassdoor_pros, glassdoor_cons, apc_training, staff_turnover_notes, competitor_comparison, last_researched, apc_training_details, interview_tips, typical_graduate_salary, graduate_program_details) VALUES (26, 'Kin Wing Engineering Company Limited', 'Kin Wing Engineering Company Limited, founded in 1994, is a Hong Kong-based foundation and civil engineering contractor. It is part of the Chinney Kin Wing Group, which also includes Kin Wing Foundations Limited and DrilTech Ground Engineering Limited. The company specializes in foundation works, basement excavation, pile cap construction, and structural engineering for both public and private sectors. Notable projects include the Design and Construction of Foundation Works for a Hong Kong Housing Authority site in Kowloon City (P4013). The firm has a strong track record with government contracts, including the Architectural Services Department and Housing Authority, and is recognized as an approved employer by the Hong Kong Institute of Construction (HKIC).', '[{"name": "P4013 九龍九龍城盛德街╱馬頭涌道九龍內地段11290號", "type": "Foundation Works", "description": "Design and construction of foundation works including basement excavation and pile cap for a Housing Authority site in Kowloon City."}]', NULL, 3.2, '2026-07-02 00:50:01', 'Unknown', '1994', 'Hong Kong', '[{"date": "2026-04-28", "title": "Hong Kong Green Organisation Certificate", "detail": "Kin Wing Engineering Company Limited received the Hong Kong Green Organisation Certificate, along with its subsidiaries."}, {"date": "2026-01-16", "title": "Architectural Services Department Contract Award", "detail": "Awarded a contract worth HKD 253,800,000 for Professional Services Provider Agreement for Body-shopping of Structural Engineering."}, {"date": "2025-12-03", "title": "Part-time Administration Assistant Recruitment", "detail": "The company recruited a Part-time Administration Assistant for a 2-month contract."}, {"date": "2025-09-25", "title": "Interim Report 2025", "detail": "As of 30 June 2025, the Group had 21 projects in progress with contract sums of approximately HKD 2.5 billion."}]', '[{"project": "Professional Services Provider Agreement for Body-shopping of Structural Engineering", "client": "Architectural Services Department", "value": "HKD 253,800,000", "year": "2024"}, {"project": "Design and Construction of Foundation Works Including Basement Excavation and Pile Cap", "client": "Hong Kong Housing Authority", "value": "Unknown", "year": "2025"}]', 10, '["Many training opportunities", "Heavy workloads but feasible working hours"]', '["Heavy workloads", "Long working hours during tender periods"]', 1, 'Unknown', 'Kin Wing Engineering is a mid-sized foundation specialist in Hong Kong, competing with larger contractors like Gammon Construction and Chun Wo. It focuses on foundation and geotechnical works, with a strong government client base. Career progression may be slower compared to larger firms, but the company offers structured training for professional qualifications.', '2026-07-02T00:50:01.885107', 'The company offers Graduate Engineer (Scheme A) positions, indicating structured training for professional qualifications such as HKIS/RICS APC. The program likely includes mentorship and project-based learning.', 'Unknown', 'Unknown', 'The company offers Graduate Engineer (Scheme A) positions, which typically involve structured training and mentorship over 2-3 years, leading to professional qualification.');
+INSERT OR REPLACE INTO company_profiles (id, company_name, overview, hk_projects, reputation_notes, glassdoor_rating, created_at, employee_count, founded_year, headquarters, recent_news, hk_government_contracts, glassdoor_review_count, glassdoor_pros, glassdoor_cons, apc_training, staff_turnover_notes, competitor_comparison, last_researched, apc_training_details, interview_tips, typical_graduate_salary, graduate_program_details) VALUES (27, 'VSL Hong Kong Ltd', 'VSL Hong Kong Ltd is a specialist contractor in post-tensioned and cable-stayed structures, foundations, and ground engineering. As part of VSL International, they contribute to design and construction of complex infrastructure in Hong Kong. The company has been involved in notable projects such as the Deep Bay Bridge and works with major contractors like China Road and Bridge Corporation. They are a member of the Hong Kong Green Building Council, demonstrating commitment to sustainability. For surveyors, VSL offers opportunities in specialist construction, but salary competitiveness is noted as a concern.', '[{"name": "Deep Bay Bridge", "type": "Bridge", "description": "VSL Hong Kong was a sub-contractor to erect pre-cast segments on the Deep Bay Bridge."}, {"name": "Full-Span Bridge Deck project", "type": "Bridge", "description": "VSL Hong Kong Ltd was a subcontractor for China Road and Bridge Corporation on this project."}]', NULL, 3.8, '2026-07-02 00:50:26', 'Unknown', 'Unknown', 'Hong Kong', '[{"date": "2026-02", "title": "VSL Hong Kong Office Contact Updated", "detail": "VSL Hong Kong Ltd office located at 15/F, South Island Place, 8 Wong Chuk Hang Rd, Wong Chuk Hang."}, {"date": "2025-11", "title": "HKIE Yearbook 2025 Lists VSL Hong Kong Ltd", "detail": "VSL Hong Kong Ltd appears in the HKIE Yearbook 2025 with contact details."}, {"date": "2026-03", "title": "VSL Hong Kong Ltd Listed on ESG-One Platform", "detail": "VSL Hong Kong Ltd is listed on the ESG-One platform by HKPC InnoPreneur Network."}]', '[{"project": "Castle Peak Road Improvement Contract No. HY/99/19", "client": "Highways Department", "value": "Unknown", "year": "2003-2006"}, {"project": "Full-Span Bridge Deck project", "client": "Development Bureau", "value": "Unknown", "year": "2025"}, {"project": "Instrumentation & Monitoring Contractor for Highways Department", "client": "Highways Department", "value": "Unknown", "year": "Unknown"}]', 60, '[]', '["Salaries are relatively low compared to industry standards"]', 0, 'Unknown', 'VSL Hong Kong is a specialist contractor focusing on post-tensioning and ground engineering, differentiating from general surveying firms. Compared to larger multidisciplinary consultancies, VSL offers niche expertise but may have lower salary competitiveness as noted on Glassdoor. Career progression may be slower due to specialized roles.', '2026-07-02T00:50:26.360998', 'Unknown', 'Unknown', 'Unknown', 'Unknown');
+INSERT OR REPLACE INTO company_profiles (id, company_name, overview, hk_projects, reputation_notes, glassdoor_rating, created_at, employee_count, founded_year, headquarters, recent_news, hk_government_contracts, glassdoor_review_count, glassdoor_pros, glassdoor_cons, apc_training, staff_turnover_notes, competitor_comparison, last_researched, apc_training_details, interview_tips, typical_graduate_salary, graduate_program_details) VALUES (28, 'Leadingnation', 'Leadingnation is a Hong Kong-based company that appears to operate in hospitality, property management, and government contract staffing. The company manages venues such as FortyFiveHK, Sushi Mamoru, and TorikazeHK, and has been involved in hospitality projects with The Middle House and Wagyumafia. It also acts as a staffing agency for government contracts, hiring for roles like Building Services Officer and General Administration Officer. Employee reviews on Glassdoor indicate a toxic work culture with shouting and late payments, but some note reasonable workload and friendly colleagues. The company''s reputation in the surveying industry is unclear from available data.', '[{"name": "FortyFiveHK", "type": "Hospitality", "description": "A bar/restaurant venue in Hong Kong."}, {"name": "Sushi Mamoru", "type": "Hospitality", "description": "A sushi restaurant in Hong Kong."}, {"name": "TorikazeHK", "type": "Hospitality", "description": "A dining venue in Hong Kong."}, {"name": "The Middle House", "type": "Hospitality", "description": "A hotel collaboration with Wagyumafia and Café Gray Deluxe."}]', NULL, 2.6, '2026-07-02 00:50:34', 'Unknown', 'Unknown', 'Hong Kong', '[{"date": "2025-07", "title": "Leading Nation Hospitality on Instagram", "detail": "Promoting venues including FortyFiveHK, Sushi Mamoru, TorikazeHK, Elephant Grounds, and Kimpton Hong Kong."}, {"date": "2025-09", "title": "T-Minus 2 days event", "detail": "Promotion for Wagyumafia and The Middle House event."}, {"date": "2026-06", "title": "Hiring Administration Officer (Hospital Administration)", "detail": "Seeking an Administration Officer for hospital administrative tasks in Hong Kong."}]', '[{"project": "Contract Technical Assistant (Building Services Site)", "client": "Housing Department", "value": "$25,115-40,630 per month", "year": "Unknown"}, {"project": "General Administration Officer (1-year Government Contract)", "client": "Unknown government department", "value": "Unknown", "year": "Unknown"}, {"project": "Museum Assistant (1-Year Non-Government Contract)", "client": "Unknown", "value": "$20,300 per month", "year": "Unknown"}, {"project": "Case Vetting Supervisor (Government Contract)", "client": "Unknown", "value": "Unknown", "year": "Unknown"}]', 11, '["reasonable workload", "most of colleagues are friendly", "good security staff"]', '["toxic work culture", "shouting at staff", "overdue late payments", "heavy workload with bad package and respect", "messy communication"]', 0, 'Unknown', 'Leadingnation appears to be a hospitality and staffing company rather than a traditional surveying firm. It competes with other hospitality groups in Hong Kong but is not a direct competitor to surveying consultancies like Jones Lang LaSalle or Leighton Asia. Its government contract staffing suggests a niche in providing administrative and technical staff to public projects.', '2026-07-02T00:50:34.559280', 'Unknown', 'Unknown', 'Unknown', 'Unknown');
+INSERT OR REPLACE INTO company_profiles (id, company_name, overview, hk_projects, reputation_notes, glassdoor_rating, created_at, employee_count, founded_year, headquarters, recent_news, hk_government_contracts, glassdoor_review_count, glassdoor_pros, glassdoor_cons, apc_training, staff_turnover_notes, competitor_comparison, last_researched, apc_training_details, interview_tips, typical_graduate_salary, graduate_program_details) VALUES (29, 'Kai Shing Management Services Ltd', 'Kai Shing Management Services Ltd is a Hong Kong-based property management company, part of the Sun Hung Kai Properties group. It manages a diverse portfolio of residential, commercial, and industrial properties, including notable projects like ICC and East Point City. The company has received awards such as the HKMA Quality Award and Caring Company recognition. With over 40 job openings and a strong presence in Hong Kong, it is a significant player in the property management sector. For fresh graduates, the company offers roles like Property Officer and Assistant Quantity Surveyor, with opportunities for career development.', '[{"name": "ICC", "type": "Commercial", "description": "International Commerce Centre, a landmark skyscraper in West Kowloon."}, {"name": "East Point City", "type": "Commercial", "description": "A major shopping mall in Tseung Kwan O."}, {"name": "Celeste Court", "type": "Residential", "description": "A residential development managed by Kai Shing."}, {"name": "Lei On Court", "type": "Residential", "description": "A public housing estate managed by Kai Shing."}]', NULL, 3.2, '2026-07-02 00:50:42', 'Unknown', 'Unknown', 'Hong Kong', '[{"date": "2025-10", "title": "HKMU Hackathon", "detail": "Kai Shing Management Services Ltd presented as an industry partner at the HKMU Hackathon."}, {"date": "2025-12", "title": "Caring Company Logo", "detail": "Kai Shing Management Services Ltd recognized as a Caring Company for 5 years or more (2020-2025)."}, {"date": "2026-06", "title": "HKMA Quality Award Brochure", "detail": "Kai Shing Management Services Ltd (ICC) listed as a past recipient of the HKMA Quality Award (2015)."}, {"date": "2025-11", "title": "CSR Event Sponsorship", "detail": "Kai Shing Management Services Ltd designated as a sponsor for the ''2025 Aerospace Adventure'' CSR event by Rainbow Foundation."}]', '[{"project": "Celeste Court", "client": "HKGOC", "value": "Unknown", "year": "2025"}, {"project": "Lei On Court", "client": "Hong Kong Housing Authority", "value": "Unknown", "year": "Unknown"}, {"project": "Choi Po Court", "client": "OSH Council", "value": "Unknown", "year": "2025-2026"}]', 136, '[]', '[]', 0, 'Unknown', 'Kai Shing Management Services is a major property management firm in Hong Kong, competing with companies like Jones Lang LaSalle and Savills. It focuses on managing high-end residential and commercial properties under Sun Hung Kai Properties. Career progression may be slower compared to consultancy firms, but it offers stable employment and exposure to large-scale projects.', '2026-07-02T00:50:42.399245', 'Unknown', 'Unknown', 'Unknown', 'Unknown');
+INSERT OR REPLACE INTO company_profiles (id, company_name, overview, hk_projects, reputation_notes, glassdoor_rating, created_at, employee_count, founded_year, headquarters, recent_news, hk_government_contracts, glassdoor_review_count, glassdoor_pros, glassdoor_cons, apc_training, staff_turnover_notes, competitor_comparison, last_researched, apc_training_details, interview_tips, typical_graduate_salary, graduate_program_details) VALUES (30, 'P2H Design Associates Limited', 'P2H Design Associates Limited is a Hong Kong-based surveying and construction consultancy established in 1988, specializing in building structural works for both public and private sectors. The firm is pre-qualified by the Buildings Department for government contracts and has been involved in projects such as 405 Castle Peak Road. With a low Glassdoor rating of 2.2 for compensation and benefits, the company is known for work-life balance but limited learning opportunities. It currently advertises for Assistant Building Surveyor / Graduate Building Surveyor roles, indicating ongoing recruitment for fresh graduates.', '[{"name": "405 Castle Peak Road", "type": "Building", "description": "Client: Shanghai Commercial Bank Limited; Architect: P2H Design Associates Limited; Engineer: PYPUN Engineering Consultants Limited; Contractor: Tysan Building Construction Co. Ltd."}]', NULL, 2.2, '2026-07-02 00:50:49', 'Unknown', '1988', 'Hong Kong', '[{"date": "2026-06", "title": "List of Buildings Department Pre-qualified Consultants", "detail": "P2H Design Associates Limited is listed as a pre-qualified consultant for the Buildings Department, effective from 1 June 2026."}, {"date": "2026-06", "title": "Assistant Building Surveyor / Graduate Building Surveyor Job Posting", "detail": "P2H Design Associates Limited is hiring for Assistant Building Surveyor / Graduate Building Surveyor positions in Tsuen Wan District, offering a 5-day work week."}]', '[{"project": "Pre-qualified Consultant for Buildings Department", "client": "Buildings Department", "value": "Unknown", "year": "2026"}, {"project": "Consultancy for Default Inspection under Mandatory Building Inspection Scheme", "client": "Architectural Services Department", "value": "Unknown", "year": "Unknown"}]', 2, '["Work life balance"]', '["Nothing to learn", "Low compensation and benefits", "Poor senior management"]', 0, 'Unknown', 'P2H Design Associates is a smaller consultancy compared to major HK surveying firms like AECOM or Arcadis, with a focus on building structural works. Its low Glassdoor ratings suggest weaker compensation and career development, but it may offer better work-life balance. The firm''s pre-qualification with the Buildings Department indicates steady government work, which can provide stable project exposure for graduates.', '2026-07-02T00:50:49.194554', 'Unknown', 'Unknown', 'Unknown', 'Unknown');
+INSERT OR REPLACE INTO company_profiles (id, company_name, overview, hk_projects, reputation_notes, glassdoor_rating, created_at, employee_count, founded_year, headquarters, recent_news, hk_government_contracts, glassdoor_review_count, glassdoor_pros, glassdoor_cons, apc_training, staff_turnover_notes, competitor_comparison, last_researched, apc_training_details, interview_tips, typical_graduate_salary, graduate_program_details) VALUES (31, 'RS Surveyors Limited', 'RS Surveyors Limited is a Hong Kong-based surveying and construction consultancy firm specializing in building surveying, quantity surveying, project management, and contract administration. The company is pre-qualified by the Buildings Department and has secured government contracts with the Architectural Services Department, indicating a strong public sector presence. Notable projects include the Hang Seng Bank Main Branch Renovation, which won a Building Surveyor Award 2025 in the Fit-out category. The firm also provides term maintenance consultancy services for government properties. With active job postings for assistant building surveyors and quantity surveyors, RS Surveyors appears to be a growing player in Hong Kong''s surveying industry, though employee reviews on Glassdoor suggest a low compensation and benefits rating.', '[{"name": "Hang Seng Bank Main Branch Renovation", "type": "Fit-out", "description": "Renovation of Hang Seng Bank''s main branch, awarded in Building Surveyor Awards 2025."}]', NULL, NULL, '2026-07-02 00:50:56', 'Unknown', 'Unknown', 'Hong Kong', '[{"date": "2026-01", "title": "Government Contract for Condition Survey", "detail": "RS Surveyors Limited was awarded a consultancy contract by the Architectural Services Department for condition survey to government properties."}, {"date": "2025-07", "title": "Building Surveyor Award 2025", "detail": "RS Surveyors Limited won the Fit-out category at the Building Surveyor Awards 2025 for the Hang Seng Bank Main Branch Renovation project."}, {"date": "2026-06", "title": "Pre-qualified by Buildings Department", "detail": "RS Surveyors Limited is listed as a pre-qualified consultant for the Buildings Department, allowing them to bid for government contracts."}]', '[{"project": "Consultancy for Condition Survey to Government Properties", "client": "Architectural Services Department", "value": "Unknown", "year": "2026"}, {"project": "Term Maintenance Consultancy for Architectural Services Department", "client": "Architectural Services Department", "value": "Unknown", "year": "2025"}]', NULL, '[]', '[]', 0, 'Unknown', 'RS Surveyors Limited is a smaller, specialized surveying firm compared to larger competitors like AECOM or Arcadis. It focuses on building surveying and quantity surveying for both public and private sectors. Career progression may be slower due to limited size, but the firm offers direct exposure to government projects and award-winning fit-out works.', '2026-07-02T00:50:56.174092', 'Unknown', 'Unknown', 'Unknown', 'Unknown');
+INSERT OR REPLACE INTO company_profiles (id, company_name, overview, hk_projects, reputation_notes, glassdoor_rating, created_at, employee_count, founded_year, headquarters, recent_news, hk_government_contracts, glassdoor_review_count, glassdoor_pros, glassdoor_cons, apc_training, staff_turnover_notes, competitor_comparison, last_researched, apc_training_details, interview_tips, typical_graduate_salary, graduate_program_details) VALUES (32, 'Wai Hung Hong', 'Wai Hung Hong Engineering Co., Ltd. is a Hong Kong-based surveying and construction company specializing in quantity surveying, contract administration, and project management. The company has a presence in Chai Wan and is involved in both public and private sector projects, including work for the Hong Kong Housing Authority. Employee reviews on Glassdoor indicate limited supervision and high working pressure during peak seasons, suggesting a demanding work environment. The firm appears to be a mid-tier player in the local surveying industry, with a focus on quantity surveying roles.', '[]', NULL, NULL, '2026-07-02 00:51:06', 'Unknown', 'Unknown', 'Hong Kong', '[]', '[{"project": "Repairs and maintenance", "client": "Unknown", "value": "2,761,000", "year": "Unknown"}]', NULL, '[]', '["Not much supervision and support", "High working pressure when in peak season and around deadline"]', 0, 'Unknown', 'Compared to larger HK contractors like Hip Hing Construction (rated 3.7 on Glassdoor), Wai Hung Hong appears smaller with fewer reviews and less public visibility. The firm may offer more hands-on experience but with less structured training and support.', '2026-07-02T00:51:06.558824', 'Unknown', 'Unknown', 'HK$24,750 - HK$38,667 per month (based on one Quantity Surveyor salary report)', 'Unknown');
+INSERT OR REPLACE INTO company_profiles (id, company_name, overview, hk_projects, reputation_notes, glassdoor_rating, created_at, employee_count, founded_year, headquarters, recent_news, hk_government_contracts, glassdoor_review_count, glassdoor_pros, glassdoor_cons, apc_training, staff_turnover_notes, competitor_comparison, last_researched, apc_training_details, interview_tips, typical_graduate_salary, graduate_program_details) VALUES (33, 'U-Win Construction & Engineering Company', 'U-Win Construction & Engineering Company is a Hong Kong-based construction and engineering firm specializing in surveying and construction services. The company is involved in government contracts, including projects under the Architectural Services Department, and is listed as a registered specialist contractor. They offer services such as quantity surveying, land surveying, and construction management. The firm has a presence in San Po Kong, Kowloon, and actively recruits surveyors and engineers. Their reputation in the surveying industry is supported by participation in government projects and a focus on HKIE Scheme ''A'' training.', '[]', NULL, NULL, '2026-07-02 00:51:11', 'Unknown', 'Unknown', 'Hong Kong', '[]', '[{"project": "Term Contract for Architectural Services Department", "client": "Architectural Services Department", "value": "Unknown", "year": "Unknown"}]', NULL, '[]', '[]', 1, 'Unknown', 'Compared to larger competitors like WSP and Bouygues Construction, U-Win is a smaller, local firm with a focus on government contracts and specialist contractor roles. It may offer more hands-on experience and a closer-knit work environment, but potentially lower salary and fewer resources for career progression.', '2026-07-02T00:51:11.895601', 'The company offers HKIE accredited Scheme ''A'' Training Program for graduate engineers, which is a structured training pathway for professional qualification.', 'Unknown', 'Unknown', 'The company participates in HKIE Scheme ''A'' Training Program, which provides structured on-the-job training and mentorship for graduate engineers to achieve professional status.');
+INSERT OR REPLACE INTO company_profiles (id, company_name, overview, hk_projects, reputation_notes, glassdoor_rating, created_at, employee_count, founded_year, headquarters, recent_news, hk_government_contracts, glassdoor_review_count, glassdoor_pros, glassdoor_cons, apc_training, staff_turnover_notes, competitor_comparison, last_researched, apc_training_details, interview_tips, typical_graduate_salary, graduate_program_details) VALUES (34, 'ESRI CHINA (HONG KONG) LIMITED', 'Esri China (Hong Kong) Limited is the exclusive distributor of Esri''s GIS software in Hong Kong and Macau, providing spatial data analytics and mapping solutions. The company serves government departments (e.g., Lands Department, Planning Department) and private sectors, with a focus on GIS consulting, software sales, and technical support. Notable projects include the Point of Interest Map project for the Airport Authority Hong Kong and a contract with the Planning Department valued at HK$7 million. The company has a mixed reputation on Glassdoor (2.7/5), with employees citing a friendly atmosphere but harsh appraisals and client-first culture. It is a key player in Hong Kong''s GIS industry, often collaborating with universities and government bodies.', '[{"name": "Point of Interest (POI) Map project", "type": "GIS Mapping", "description": "Project for the Hong Kong Airport Authority (AAHK)"}]', NULL, 2.7, '2026-07-02 00:51:32', 'Unknown', '1990s', 'Hong Kong', '[{"date": "2026-03", "title": "Tender for Provisions of Services Contract", "detail": "Awarded annual software upgrade and maintenance services for the Lands Department."}, {"date": "2026-01", "title": "PolyU honours outstanding 2025 PolyVentures startups", "detail": "Dr Winnie Tang, Founder and Chairman, recognized for supporting PolyU''s research development."}, {"date": "2025-12", "title": "Caring Company Logo", "detail": "Recognized as a Caring Company for 20+ years (2003-2025) with Above-average Performance."}, {"date": "2026-06", "title": "Contest 2026", "detail": "Representative from Esri China (Hong Kong) spoke at City University''s GBA Data Contest on ''Seeing Our Community with Data''."}]', '[{"project": "Provision of Annual Software Upgrade and Maintenance Services for the Lands Department", "client": "Lands Department", "value": "Unknown", "year": "2026"}, {"project": "SOA-QPS5 contract for Development Bureau (Works Branch)", "client": "Development Bureau", "value": "HK$648,180", "year": "2023"}, {"project": "Planning Department contract", "client": "Planning Department", "value": "HK$7,054,505", "year": "2026"}]', 37, '["Friendly atmosphere with supportive colleagues", "Emphasis on collaboration and professional growth", "Good exposure to GIS technology"]', '["Clients'' requirements are the 1st priority, even if not in documents", "Harsh appraisal system makes staff doubt their value", "Work environment & culture issues mentioned"]', 0, 'Unknown', 'Esri China (Hong Kong) is the dominant GIS software provider in Hong Kong, unlike traditional surveying firms. Competitors include local IT consultancies and international GIS firms, but Esri''s exclusive license for Esri products gives it a unique position. Career progression may be slower due to flat structure, but GIS specialization offers niche opportunities.', '2026-07-02T00:51:32.697002', 'Unknown', 'Unknown', 'Unknown', 'Unknown');
+INSERT OR REPLACE INTO company_profiles (id, company_name, overview, hk_projects, reputation_notes, glassdoor_rating, created_at, employee_count, founded_year, headquarters, recent_news, hk_government_contracts, glassdoor_review_count, glassdoor_pros, glassdoor_cons, apc_training, staff_turnover_notes, competitor_comparison, last_researched, apc_training_details, interview_tips, typical_graduate_salary, graduate_program_details) VALUES (35, 'The Hong Kong Institute of Architects', 'The Hong Kong Institute of Architects (HKIA) is a professional body dedicated to advancing architecture in Hong Kong, not a surveying/construction company. It promotes knowledge acquisition, sets professional standards, and organizes events like the HKIA Annual Awards. HKIA collaborates with government bodies such as the Architectural Services Department and the Housing Authority. It also hosts the Belt and Road International Symposium and provides a career platform for architectural practices. For a fresh graduate in surveying, HKIA is more relevant as a professional institute for architects, not a direct employer in surveying.', '[]', NULL, NULL, '2026-07-02 00:51:38', 'Unknown', 'Unknown', 'Hong Kong', '[{"date": "2026-01", "title": "Lo Kwee Seong Pavilion wins Medal of the Year at HKIA Awards 2025", "detail": "The Art Museum''s Lo Kwee Seong Pavilion of CUHK was awarded the Medal of the Year of Hong Kong at the HKIA Annual Awards 2025."}, {"date": "2026-01", "title": "Launching Ceremony of New Standard Form of Contract for Building Works", "detail": "HKIA co-organized the launching ceremony for the new standard form of contract for building works on 6 January 2026."}, {"date": "2025-03", "title": "HKIA Belt and Road International Symposium 2025", "detail": "Organized by HKIA and funded by the Hong Kong government, the symposium focused on architectural leadership."}]', '[]', NULL, '[]', '[]', 0, 'Unknown', 'HKIA is a professional institute, not a surveying firm. Competitors in the surveying industry include the Hong Kong Institute of Surveyors (HKIS) and RICS. HKIA focuses on architecture, while HKIS covers surveying disciplines. For a surveying graduate, HKIS or RICS-accredited firms would be more relevant.', '2026-07-02T00:51:38.594710', 'Unknown', 'Unknown', 'Unknown', 'Unknown');
+INSERT OR REPLACE INTO company_profiles (id, company_name, overview, hk_projects, reputation_notes, glassdoor_rating, created_at, employee_count, founded_year, headquarters, recent_news, hk_government_contracts, glassdoor_review_count, glassdoor_pros, glassdoor_cons, apc_training, staff_turnover_notes, competitor_comparison, last_researched, apc_training_details, interview_tips, typical_graduate_salary, graduate_program_details) VALUES (36, 'Home Affairs Department', 'The Home Affairs Department (HAD) is a Hong Kong government department under the Home Affairs Bureau, responsible for enhancing communication between the government and the public, and improving district governance. It operates various public services including minor works programmes, signature project schemes, and community care teams. The department has a significant role in district administration and building management, and it issues tender notices for works and services contracts. Employee reviews indicate a stable work environment with reasonable pay and free medical services, but note a lot of protocols and guidelines to follow. The department is not a surveying/construction company but a government department; however, it contracts surveying and construction services for its minor works programmes.', '[{"name": "Minor Works Programmes", "type": "Public Services", "description": "Programmes to carry out minor works in districts."}, {"name": "Signature Project Scheme", "type": "Community Project", "description": "Scheme to fund signature projects in districts."}]', NULL, 3.9, '2026-07-02 00:51:45', 'Unknown', 'Unknown', 'Hong Kong', '[{"date": "2026-02", "title": "Home Affairs Department releases Work Reports of first-term Care Teams", "detail": "The department released Work Reports of the 2023 to 2025 District Services and Community Care Teams."}, {"date": "2026-03", "title": "Home Affairs Department alerts public to attempted impersonations of Care Teams", "detail": "The department issued a press release warning about impersonation scams."}, {"date": "2026-06", "title": "Home Affairs Department publishes two guides for ...", "detail": "The department published two guides as part of the Chief Executive''s Policy Address initiatives."}]', '[{"project": "RRECP for Home Affairs Department", "client": "Home Affairs Department", "value": "HK$349,640", "year": "2025"}]', 68, '["Stable and reasonable pay", "Free medical for HA service", "Very good boss, clear direction and job scope", "Good pay, good colleagues"]', '["A lot of protocol and guidelines to follow", "Short contract duration, only 1 year and no extension"]', 0, 'Unknown', 'As a government department, HAD is not a direct competitor to private surveying firms. It contracts out surveying and construction services, so it is more of a client than a competitor. Private firms compete for HAD tenders.', '2026-07-02T00:51:45.474008', 'Unknown', 'Unknown', 'Unknown', 'Unknown');
+INSERT OR REPLACE INTO company_profiles (id, company_name, overview, hk_projects, reputation_notes, glassdoor_rating, created_at, employee_count, founded_year, headquarters, recent_news, hk_government_contracts, glassdoor_review_count, glassdoor_pros, glassdoor_cons, apc_training, staff_turnover_notes, competitor_comparison, last_researched, apc_training_details, interview_tips, typical_graduate_salary, graduate_program_details) VALUES (37, 'LAB（SGS Group的子公司）', 'LAB (The Lab (Asia) Limited) is a wholly owned subsidiary of SGS Group, operating as a fully independent materials testing, inspection, and consulting organization serving the construction, civil engineering, highways, airport, and related industries in Hong Kong. Headquartered in Hong Kong with offices in Macau and Zhuhai, the company employs 100-499 staff. Its main service lines include construction materials testing, fire testing, product certification, and environmental monitoring. Notable projects include supporting the construction of major infrastructure and providing digital traceability solutions for building innovation. The company is recognized for its technical expertise in materials testing and has a reputation for being a reliable partner in the Hong Kong surveying and construction industry.', '[{"name": "Digital traceability solutions for building innovation", "type": "Consulting", "description": "Provided digital traceability solutions to promote building innovation in Hong Kong."}]', NULL, 3.3, '2026-07-02 00:51:53', '100-499', 'Unknown', 'Hong Kong', '[{"date": "2025-07", "title": "SGS participated in seminar on scaffolding net testing and future development", "detail": "SGS and The Lab (Asia) participated in a seminar organized by HKIFM, discussing safety testing and digital traceability solutions for construction innovation."}, {"date": "2025-07", "title": "SGS Hong Kong issued sustainability report for Hang Lung Properties", "detail": "SGS Hong Kong Limited issued a corporate brochure for Tung Wah Group of Hospitals, accredited by the United Kingdom."}]', '[{"project": "Support construction of major infrastructure", "client": "Unknown", "value": "Unknown", "year": "Unknown"}]', 3377, '["Friendly environment", "Fair place to work", "Good working experience"]', '["Pay low", "工作環境差、人員差 (poor work environment, poor staff)", "港產工作文化 (Hong Kong work culture)"]', 0, 'Unknown', 'LAB (SGS subsidiary) competes with other materials testing firms in Hong Kong such as ALS, Bureau Veritas, and Intertek. It is smaller in scale compared to global giants but benefits from SGS''s brand and resources. The company specializes in construction materials testing and fire testing, offering a focused career path for surveyors interested in technical testing roles.', '2026-07-02T00:51:53.129962', 'Unknown', '["Highlight your knowledge of construction materials testing and quality assurance processes.", "Be prepared to discuss your understanding of Hong Kong building regulations and standards.", "Show enthusiasm for working in a fast-paced, technically demanding environment."]', 'Unknown', 'Unknown');
+INSERT OR REPLACE INTO company_profiles (id, company_name, overview, hk_projects, reputation_notes, glassdoor_rating, created_at, employee_count, founded_year, headquarters, recent_news, hk_government_contracts, glassdoor_review_count, glassdoor_pros, glassdoor_cons, apc_training, staff_turnover_notes, competitor_comparison, last_researched, apc_training_details, interview_tips, typical_graduate_salary, graduate_program_details) VALUES (38, '香港理工大学', 'The Hong Kong Polytechnic University (PolyU) is a world-class research university in Hong Kong, not a surveying/construction company. It offers professional education and conducts interdisciplinary research, including in construction and real estate. PolyU''s Department of Building and Real Estate is involved in training future surveyors and collaborating with government bodies like the Development Bureau. The university has a strong reputation in the surveying industry through its academic programs and research. For a fresh graduate, PolyU is an educational institution, not an employer in the surveying field.', '[]', NULL, 4.0, '2026-07-02 00:52:05', 'Unknown', '1937', 'Hong Kong', '[{"date": "2025-11-27", "title": "PolyU Space-themed Programme", "detail": "PolyU launches a space-themed programme ''Building the Future: International Lunar Research Station'' for 2025/2026 academic year."}, {"date": "2026-03-27", "title": "Research Gaps in Promotion of Well-being in Hong Kong", "detail": "PolyU SPEED hosts an event on research gaps in well-being promotion."}, {"date": "2026-01-09", "title": "Hong Kong Volunteer Award Presentation Ceremony", "detail": "The ceremony is held at PolyU''s Jockey Club Auditorium."}]', '[{"project": "Expression of Interest for Pre-qualification", "client": "PolyU Facilities and Sustainable Campus Office", "value": "Unknown", "year": "Unknown"}, {"project": "Memorandum of Understanding with Development Bureau", "client": "Development Bureau", "value": "Unknown", "year": "2025"}]', 1160, '[]', '[]', 0, 'Unknown', 'As an educational institution, PolyU competes with other universities in Hong Kong like the University of Hong Kong and City University of Hong Kong. It is not a surveying firm, so comparison with surveying companies is not applicable.', '2026-07-02T00:52:05.899994', 'Unknown', 'Unknown', 'Unknown', 'Unknown');
+INSERT OR REPLACE INTO company_profiles (id, company_name, overview, hk_projects, reputation_notes, glassdoor_rating, created_at, employee_count, founded_year, headquarters, recent_news, hk_government_contracts, glassdoor_review_count, glassdoor_pros, glassdoor_cons, apc_training, staff_turnover_notes, competitor_comparison, last_researched, apc_training_details, interview_tips, typical_graduate_salary, graduate_program_details) VALUES (39, '宏浚工程測量有限公司', '宏浚工程測量有限公司 (Wise Engineering & Surveying Company Limited) is a Hong Kong-based surveying and engineering firm established in 2001. It provides professional services in building, civil, hydrographic, and land surveying. The company has grown to become a leading player in Hong Kong''s construction industry, with a staff size of 26-50 employees. It is an approved employer under the Hong Kong Construction Industry Council''s Technical Trainee Programme, indicating involvement in training. The company has been involved in government projects such as the Pier Improvement Programme, working with clients like the Highways Department and the Development Bureau.', '[{"name": "大埔三門仔村碼頭重建", "type": "Marine / Civil", "description": "重建碼頭以改善社區設施，屬於政府改善碼頭計劃的一部分。"}, {"name": "石仔灣碼頭AR打卡體驗", "type": "Marine / Digital", "description": "參與改善碼頭計劃下的石仔灣碼頭項目，提供AR打卡體驗。"}]', NULL, NULL, '2026-07-02 06:10:36', '26-50', '2001', 'Hong Kong', '[{"date": "2025-11", "title": "大埔三門仔村碼頭啟用", "detail": "宏浚工程測量有限公司參與了改善碼頭計劃下的大埔三門仔村碼頭重建項目，該碼頭於2025年11月啟用。"}, {"date": "2025-10", "title": "獲建造業議會認可為技術專才培訓計劃僱主", "detail": "宏浚工程測量有限公司被列入建造業議會認可技術專才培訓計劃認可僱主名冊，有效期至2026年6月。"}]', '[{"project": "Term Contract for Waterworks District H Hong Kong Island and Aberdeen", "client": "Water Supplies Department", "value": "Unknown", "year": "Unknown"}, {"project": "Pier Improvement Programme (various projects)", "client": "Development Bureau / Highways Department", "value": "Unknown", "year": "2025"}]', NULL, '[]', '[]', 0, 'A forum post from 2017 on discuss.com.hk suggests low pay and high turnover, with comments like ''人工低到唔低'' and ''成日換人都知呢間公司咩事啦''. However, this is an old and unverified source.', 'Unknown', '2026-07-02T06:10:36.049795', 'Unknown', 'Unknown', 'Unknown', 'Unknown');
+INSERT OR REPLACE INTO company_profiles (id, company_name, overview, hk_projects, reputation_notes, glassdoor_rating, created_at, employee_count, founded_year, headquarters, recent_news, hk_government_contracts, glassdoor_review_count, glassdoor_pros, glassdoor_cons, apc_training, staff_turnover_notes, competitor_comparison, last_researched, apc_training_details, interview_tips, typical_graduate_salary, graduate_program_details) VALUES (40, '何蘇工程', '何蘇工程 (Ho So Engineering) is a Hong Kong-based construction and surveying company that appears to be actively hiring for various roles including quantity surveyors, engineering assistants, and administrative staff. The company operates in the construction industry and has been posting job advertisements on platforms like OfferToday, indicating ongoing recruitment. While specific project details are scarce, the firm''s job listings suggest involvement in surveying, civil engineering, and building works. The company''s reputation in the surveying industry is not well-documented in the search results, but its active hiring suggests a steady workload.', '[]', NULL, NULL, '2026-07-03 07:19:49', 'Unknown', 'Unknown', 'Hong Kong', '[{"date": "2025-11-21", "title": "專案經理", "detail": "Job posting for Project Manager at 何蘇工程, indicating ongoing recruitment for management roles."}, {"date": "2025-11-05", "title": "工程學徒(土木工程/ 樓宇建造/ 屋宇裝備/ 工料測量/ 工地測量/ ...)", "detail": "Job posting for engineering apprentices in various disciplines, including quantity surveying and site measurement."}, {"date": "2025-08-26", "title": "全職一般服務助理", "detail": "Job posting for full-time general service assistant, showing diverse hiring needs."}]', '[]', NULL, '[]', '[]', 0, 'Unknown', 'Unknown', '2026-07-03T07:19:49.779745', 'Unknown', 'Unknown', 'Unknown', 'Unknown');
+INSERT OR REPLACE INTO company_profiles (id, company_name, overview, hk_projects, reputation_notes, glassdoor_rating, created_at, employee_count, founded_year, headquarters, recent_news, hk_government_contracts, glassdoor_review_count, glassdoor_pros, glassdoor_cons, apc_training, staff_turnover_notes, competitor_comparison, last_researched, apc_training_details, interview_tips, typical_graduate_salary, graduate_program_details) VALUES (41, 'Rider Levett Bucknall Limited', 'Rider Levett Bucknall (RLB) is a leading global consultancy in construction and property, with a strong presence in Hong Kong. The firm provides quantity surveying, cost management, and project management services across various sectors including residential, infrastructure, and government projects. RLB has been awarded multiple contracts by the Hong Kong Housing Authority and Architectural Services Department, indicating a solid reputation in the public sector. The company is actively involved in HKIS and RICS professional development, with senior staff participating in HKIS conferences and awards. RLB''s Hong Kong office is led by Managing Director Tiffany Chan, and the firm emphasizes early career development through structured training programs.', '[{"name": "High West Site Development", "type": "MiC (Modular Integrated Construction)", "description": "Quantity Surveyor for MiC project in Hong Kong."}]', NULL, 3.1, '2026-07-03 07:21:49', 'Unknown', 'Unknown', 'Unknown', '[{"date": "2026-04", "title": "RLB appoints Tiffany Chan as Managing Director", "detail": "Tiffany Chan appointed as Managing Director of Rider Levett Bucknall Limited effective 1 April 2026."}, {"date": "2026-04", "title": "RLB receives recognition at the RICS Hong Kong Awards 2025", "detail": "RLB recognized at RICS Hong Kong Awards 2025."}, {"date": "2026-04", "title": "RLB appoints Eric Fong as Global Board Chair", "detail": "Eric Fong appointed as Global Board Chair of RLB."}, {"date": "2025-10", "title": "Housing Authority contract awarded", "detail": "RLB awarded HK$12,126,850 contract for Quantity Surveying Services for Maintenance and Improvement Works under District Term Contract (Tuen Mun)."}, {"date": "2025-07", "title": "ArchSD contract awarded", "detail": "RLB awarded consultancy agreement by Architectural Services Department for quantity surveying services."}]', '[{"project": "Quantity Surveying Services for Maintenance and Improvement Works under District Term Contract (Tuen Mun)", "client": "Hong Kong Housing Authority", "value": "HK$12,126,850", "year": "2025"}, {"project": "Quantity Surveying Services for Review and ...", "client": "Architectural Services Department", "value": "HK$4.6 million", "year": "2027"}, {"project": "Quantity Surveying Services (various)", "client": "Hong Kong Housing Authority", "value": "HK$7,452,400", "year": "Unknown"}]', 51, '["Great company to work for, and amazing people as colleagues", "Very good compensation and benefits package", "RLB is aggressively growing and the future outlook is positive"]', '["Not much benefits. HMO is still not applicable for some employees", "Salary increase maybe every 2 years"]', 1, 'Unknown', 'RLB is a major player in HK quantity surveying, competing with firms like Arcadis and Currie & Brown. RLB has a strong track record with government contracts and emphasizes early career development. Compared to some competitors, RLB may have slower salary growth but offers good compensation and benefits.', '2026-07-03T07:21:49.431119', 'RLB offers Early Careers Development Programmes designed to help graduates achieve professional qualifications (HKIS/RICS APC) as quickly as possible.', '["Demonstrate knowledge of HKIS APC pathway and RLB''s early careers program.", "Highlight Cantonese proficiency and familiarity with HK public sector clients like Housing Authority and ArchSD.", "Be prepared to discuss experience with government contracts and cost management."]', 'Unknown', 'RLB''s Early Careers Development Programmes equip graduates with everything needed to achieve professional qualifications (HKIS/RICS APC) as quickly as possible. Specific duration and rotations are not detailed.');
+INSERT OR REPLACE INTO company_profiles (id, company_name, overview, hk_projects, reputation_notes, glassdoor_rating, created_at, employee_count, founded_year, headquarters, recent_news, hk_government_contracts, glassdoor_review_count, glassdoor_pros, glassdoor_cons, apc_training, staff_turnover_notes, competitor_comparison, last_researched, apc_training_details, interview_tips, typical_graduate_salary, graduate_program_details) VALUES (42, 'Meinhardt (Hong Kong) Limited', 'Meinhardt (Hong Kong) Limited is a multidisciplinary engineering consultancy offering services in structural, civil, geotechnical, MEP, and project management. With a strong presence in Hong Kong, the firm has secured government contracts with WSD and DSD, and is involved in notable projects like The CENDAS in Kowloon Bay and MTR Tseung Kwan O Depot Phase II. Employee reviews on Glassdoor indicate a mixed reputation, with pros including good salary for entry-level roles and cons such as poor management and lack of systematic training. The company is recognized as a Caring Company and has been listed among top graduate employers in Hong Kong.', '[{"name": "The CENDAS, Kowloon Bay", "type": "Mixed-use tower", "description": "Construction of a 24-25 storey tower and 2-storey low-rise building."}, {"name": "MTR Tseung Kwan O Depot Phase II", "type": "Transport infrastructure", "description": "Construction and project management for MTR depot expansion."}]', NULL, 3.1, '2026-07-03 07:48:28', 'Unknown', 'Unknown', 'Hong Kong', '[{"date": "2026-06", "title": "職位空缺 – Meinhardt Hong Kong Limited", "detail": "Meinhardt posted job vacancies on their website, indicating ongoing recruitment."}, {"date": "2026-02", "title": "The CENDAS, Kowloon Bay", "detail": "Meinhardt is involved in the construction of a 24-25 storey tower and 2-storey low-rise building in Kowloon Bay."}, {"date": "2025-12", "title": "Caring Company Logo", "detail": "Meinhardt (Hong Kong) Limited recognized as a Caring Company for 15 years or more."}, {"date": "2025-07", "title": "MTR Tseung Kwan O Depot Phase II", "detail": "Meinhardt is providing construction and project management services for the MTR depot expansion."}]', '[{"project": "Implementation of Water Intelligent Network (WIN), Remaining District", "client": "Water Supplies Department (WSD)", "value": "$8,135,890", "year": "2016"}, {"project": "DC/2022/01, Drainage Improvement Works", "client": "Drainage Services Department (DSD)", "value": "Unknown", "year": "2022"}]', 511, '["Good Salary comparing to similar entry level in other engineering consultant company in Hong Kong"]', '["Poor management and team organization", "No systematic training"]', 0, 'Unknown', 'Meinhardt is a mid-sized engineering consultancy in Hong Kong, competing with larger firms like Arup and Atkins. It has a strong track record in government contracts but receives mixed reviews on management and training compared to peers. Career progression may be slower due to less structured graduate programs.', '2026-07-03T07:48:28.008006', 'Unknown', '["Highlight your Cantonese proficiency and willingness to work on government projects, as many contracts involve public sector clients.", "Be prepared to discuss your understanding of HKIS APC pathway, even if the firm does not explicitly advertise training, as it shows commitment to professional development.", "Demonstrate flexibility and ability to work in a multidisciplinary environment, as Meinhardt offers diverse engineering services."]', 'Unknown', 'Unknown');
+
+-- salary_benchmarks: 8 rows
+INSERT OR REPLACE INTO salary_benchmarks (id, discipline, experience_level, percentile_25, percentile_50, percentile_75, source, updated_at) VALUES (1, 'quantity_surveying', 'entry', 18000.0, 22000.0, 28000.0, 'HK market data 2026', '2026-07-01 11:27:36');
+INSERT OR REPLACE INTO salary_benchmarks (id, discipline, experience_level, percentile_25, percentile_50, percentile_75, source, updated_at) VALUES (2, 'quantity_surveying', 'graduate', 16000.0, 20000.0, 25000.0, 'HK market data 2026', '2026-07-01 11:27:36');
+INSERT OR REPLACE INTO salary_benchmarks (id, discipline, experience_level, percentile_25, percentile_50, percentile_75, source, updated_at) VALUES (3, 'land_surveying', 'entry', 20000.0, 25000.0, 32000.0, 'HK market data 2026', '2026-07-01 11:27:36');
+INSERT OR REPLACE INTO salary_benchmarks (id, discipline, experience_level, percentile_25, percentile_50, percentile_75, source, updated_at) VALUES (4, 'land_surveying', 'graduate', 18000.0, 22000.0, 28000.0, 'HK market data 2026', '2026-07-01 11:27:36');
+INSERT OR REPLACE INTO salary_benchmarks (id, discipline, experience_level, percentile_25, percentile_50, percentile_75, source, updated_at) VALUES (5, 'building_surveying', 'entry', 18000.0, 23000.0, 30000.0, 'HK market data 2026', '2026-07-01 11:27:36');
+INSERT OR REPLACE INTO salary_benchmarks (id, discipline, experience_level, percentile_25, percentile_50, percentile_75, source, updated_at) VALUES (6, 'building_surveying', 'graduate', 16000.0, 21000.0, 26000.0, 'HK market data 2026', '2026-07-01 11:27:36');
+INSERT OR REPLACE INTO salary_benchmarks (id, discipline, experience_level, percentile_25, percentile_50, percentile_75, source, updated_at) VALUES (7, 'general_practice', 'entry', 17000.0, 22000.0, 28000.0, 'HK market data 2026', '2026-07-01 11:27:36');
+INSERT OR REPLACE INTO salary_benchmarks (id, discipline, experience_level, percentile_25, percentile_50, percentile_75, source, updated_at) VALUES (8, 'general_practice', 'graduate', 15000.0, 19000.0, 24000.0, 'HK market data 2026', '2026-07-01 11:27:36');
+
+-- skill_gap_analysis: 1 rows
+INSERT OR REPLACE INTO skill_gap_analysis (id, cv_id, missing_skills, recommended_courses, created_at) VALUES (1, 1, '{"missing_skills": [{"skill": "Land Surveying Equipment & Techniques", "jobs_requiring": 3, "priority": "high", "common_in": "Land Surveying"}, {"skill": "Building Regulations & Code Knowledge", "jobs_requiring": 2, "priority": "medium", "common_in": "Building Surveying"}, {"skill": "HK Driving License (Class 1/2)", "jobs_requiring": 2, "priority": "medium", "common_in": "Land Surveying, Building Surveying"}, {"skill": "GIS Software", "jobs_requiring": 2, "priority": "medium", "common_in": "Land Surveying"}, {"skill": "NEC Contract Experience", "jobs_requiring": 1, "priority": "low", "common_in": "Quantity Surveying"}], "recommended_courses": [{"name": "Land Surveying Fundamentals for Construction (Short Course)", "provider": "HKU SPACE", "why": "Covers basic surveying equipment and techniques to address land surveying job requirements.", "estimated_cost_hkd": 5000}, {"name": "Building Regulations & Control in Hong Kong", "provider": "PolyU SPEED", "why": "Provides knowledge of local building regulations needed for building surveying roles.", "estimated_cost_hkd": 4000}, {"name": "GIS for Surveyors (Certificate Course)", "provider": "VTC PDC", "why": "Teaches GIS software skills commonly required in land surveying positions.", "estimated_cost_hkd": 3500}, {"name": "NEC3/4 Contract Management Training", "provider": "HKIS", "why": "Enhances contract administration skills for QS roles requiring NEC experience.", "estimated_cost_hkd": 3000}, {"name": "Driving License (Class 1) Training", "provider": "Hong Kong School of Motoring", "why": "Obtaining HK driving license is often listed for site visit roles.", "estimated_cost_hkd": 4000}], "overall_assessment": "The candidate is well-prepared for Quantity Surveying roles with strong technical skills, relevant internship experience, and HKIS student membership. However, they lack land surveying and building surveying specific skills, and do not have a HK driving license, which may limit opportunities in those disciplines. Completing targeted short courses and obtaining a driving license would significantly broaden their job prospects."}', '[{"name": "Land Surveying Fundamentals for Construction (Short Course)", "provider": "HKU SPACE", "why": "Covers basic surveying equipment and techniques to address land surveying job requirements.", "estimated_cost_hkd": 5000}, {"name": "Building Regulations & Control in Hong Kong", "provider": "PolyU SPEED", "why": "Provides knowledge of local building regulations needed for building surveying roles.", "estimated_cost_hkd": 4000}, {"name": "GIS for Surveyors (Certificate Course)", "provider": "VTC PDC", "why": "Teaches GIS software skills commonly required in land surveying positions.", "estimated_cost_hkd": 3500}, {"name": "NEC3/4 Contract Management Training", "provider": "HKIS", "why": "Enhances contract administration skills for QS roles requiring NEC experience.", "estimated_cost_hkd": 3000}, {"name": "Driving License (Class 1) Training", "provider": "Hong Kong School of Motoring", "why": "Obtaining HK driving license is often listed for site visit roles.", "estimated_cost_hkd": 4000}]', '2026-07-01 11:42:34');
+
+-- graduate_schemes: 16 rows
+INSERT OR REPLACE INTO graduate_schemes (id, company_name, scheme_name, discipline, application_open, application_close, intake_year, url, notes, is_active) VALUES (1, 'AECOM', 'Graduate Programme (QS, BS, LS)', 'multiple', '2026-09-01', '2026-11-30', '2027', 'https://aecom.com/hk/careers/', 'One of the largest engineering consultancies. Multiple surveying disciplines available. Typically hires graduates for QS, Building Surveying, and Land Surveying streams.', 1);
+INSERT OR REPLACE INTO graduate_schemes (id, company_name, scheme_name, discipline, application_open, application_close, intake_year, url, notes, is_active) VALUES (2, 'Arcadis', 'Graduate Programme (QS, BS)', 'multiple', '2026-09-01', '2026-11-15', '2027', 'https://www.arcadis.com/en-hk/careers', 'Global consultancy — strong in QS and building surveying. Graduate programme includes structured training and mentorship.', 1);
+INSERT OR REPLACE INTO graduate_schemes (id, company_name, scheme_name, discipline, application_open, application_close, intake_year, url, notes, is_active) VALUES (3, 'Rider Levett Bucknall (RLB)', 'Graduate Quantity Surveyor Intake', 'quantity_surveying', '2026-10-01', '2027-01-31', '2027', 'https://www.rlb.com/asiapacific/careers/', 'Major international cost consultancy. Structured graduate programme with APC support. Strong HK presence.', 1);
+INSERT OR REPLACE INTO graduate_schemes (id, company_name, scheme_name, discipline, application_open, application_close, intake_year, url, notes, is_active) VALUES (4, 'Langdon & Seah', 'Graduate Quantity Surveyor', 'quantity_surveying', '2026-09-15', '2026-12-31', '2027', 'https://www.langdonseah.com/careers', 'Well-established QS practice in HK. Known for good training culture. Part of Arcadis group.', 1);
+INSERT OR REPLACE INTO graduate_schemes (id, company_name, scheme_name, discipline, application_open, application_close, intake_year, url, notes, is_active) VALUES (5, 'C M Wong & Associates', 'Graduate Quantity Surveyor', 'quantity_surveying', '2026-10-01', 'TBC', '2027', '', 'Local HK QS firm. Accepts applications year-round — contact directly.', 1);
+INSERT OR REPLACE INTO graduate_schemes (id, company_name, scheme_name, discipline, application_open, application_close, intake_year, url, notes, is_active) VALUES (6, 'Currie & Brown', 'Graduate Quantity Surveyor', 'quantity_surveying', '2026-09-01', '2026-12-31', '2027', 'https://www.curriebrown.com/en-hk/careers', 'International construction consultancy. Graduate programme with APC/RICS pathway.', 1);
+INSERT OR REPLACE INTO graduate_schemes (id, company_name, scheme_name, discipline, application_open, application_close, intake_year, url, notes, is_active) VALUES (7, 'Turner & Townsend', 'Graduate Programme', 'quantity_surveying', '2026-09-01', '2026-11-30', '2027', 'https://www.turnerandtownsend.com/en/locations/asia/hong-kong/', 'Global professional services firm. Strong QS and project management graduate intake in HK.', 1);
+INSERT OR REPLACE INTO graduate_schemes (id, company_name, scheme_name, discipline, application_open, application_close, intake_year, url, notes, is_active) VALUES (8, 'WT Partnership', 'Graduate Quantity Surveyor', 'quantity_surveying', '2026-09-01', '2026-12-15', '2027', 'https://www.wtpartnership.com/careers/', 'International cost consultancy. Good graduate training with APC mentoring.', 1);
+INSERT OR REPLACE INTO graduate_schemes (id, company_name, scheme_name, discipline, application_open, application_close, intake_year, url, notes, is_active) VALUES (9, 'Faithful+Gould (Surbana Jurong)', 'Graduate Programme', 'quantity_surveying', '2026-09-15', '2026-12-01', '2027', 'https://surbanajurong.com/careers/', 'Now part of Surbana Jurong Group. Graduate programme covers QS and project management disciplines.', 1);
+INSERT OR REPLACE INTO graduate_schemes (id, company_name, scheme_name, discipline, application_open, application_close, intake_year, url, notes, is_active) VALUES (10, 'Leighton Asia', 'Graduate Engineer (Surveying-adjacent)', 'other', '2026-09-01', '2026-11-30', '2027', 'https://www.leightonasia.com/en/careers/graduate-program/', 'Major contractor. Graduate programme may include surveying-adjacent roles. Worth checking for QS/contracts positions.', 1);
+INSERT OR REPLACE INTO graduate_schemes (id, company_name, scheme_name, discipline, application_open, application_close, intake_year, url, notes, is_active) VALUES (11, 'Gammon Construction', 'Graduate Trainee (QS)', 'quantity_surveying', '2026-10-01', '2027-02-28', '2027', 'https://www.gammonconstruction.com/en/html/careers/graduate-trainees.html', 'Major HK contractor. Graduate trainee programme includes QS stream. Well-structured training with good progression.', 1);
+INSERT OR REPLACE INTO graduate_schemes (id, company_name, scheme_name, discipline, application_open, application_close, intake_year, url, notes, is_active) VALUES (12, 'Housing Authority / Housing Department', 'Graduate Surveyor', 'multiple', '2026-09-01', 'TBC', '2027', 'https://www.housingauthority.gov.hk/en/about-us/careers/', 'Government position. Check Civil Service Bureau recruitment page. Typically through government-wide graduate recruitment exercise.', 1);
+INSERT OR REPLACE INTO graduate_schemes (id, company_name, scheme_name, discipline, application_open, application_close, intake_year, url, notes, is_active) VALUES (13, 'Architectural Services Department (ArchSD)', 'Graduate Surveyor', 'multiple', '2026-09-01', 'TBC', '2027', 'https://www.archsd.gov.hk/en/careers/', 'Government department managing public building projects. Hires graduate surveyors across QS, BS, and LS disciplines.', 1);
+INSERT OR REPLACE INTO graduate_schemes (id, company_name, scheme_name, discipline, application_open, application_close, intake_year, url, notes, is_active) VALUES (14, 'Lands Department', 'Graduate Surveyor', 'land_surveying', '2026-09-01', 'TBC', '2027', 'https://www.landsd.gov.hk/en/about-us/careers.html', 'Government department — primary employer of land surveyors in HK. Check Civil Service Bureau for recruitment rounds.', 1);
+INSERT OR REPLACE INTO graduate_schemes (id, company_name, scheme_name, discipline, application_open, application_close, intake_year, url, notes, is_active) VALUES (15, 'Buildings Department', 'Graduate Surveyor', 'building_surveying', '2026-09-01', 'TBC', '2027', 'https://www.bd.gov.hk/en/about-us/recruitment/', 'Government department. Heavy focus on building surveying. Check government recruitment portal for exact dates.', 1);
+INSERT OR REPLACE INTO graduate_schemes (id, company_name, scheme_name, discipline, application_open, application_close, intake_year, url, notes, is_active) VALUES (16, 'MTR Corporation', 'Graduate Surveyor', 'multiple', '2026-09-01', '2026-12-31', '2027', 'https://www.mtr.com.hk/en/corporate/careers/graduate_trainee.html', 'MTR''s graduate trainee programme includes surveying roles in property and projects divisions. Highly competitive but excellent career pathway.', 1);
+
+-- scrape_counter: 1 rows
+INSERT OR REPLACE INTO scrape_counter (id, counter) VALUES (1, 0);
+
+COMMIT;

@@ -27,11 +27,11 @@ def get_db() -> sqlite3.Connection:
 
 
 def init_db():
-    """Initialize all tables."""
-    os.makedirs(os.path.dirname(DB_PATH), exist_ok=True)
+    """Initialize all tables. Also auto-restores from scripts/seed_data.sql
+    on first run (e.g. fresh Render deploy) if the DB is empty."""
+    os.makedirs(os.path.dirname(DB_PATH) or ".", exist_ok=True)
     conn = sqlite3.connect(DB_PATH)
     cursor = conn.cursor()
-
     cursor.executescript("""
         CREATE TABLE IF NOT EXISTS jobs (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
@@ -91,6 +91,8 @@ def init_db():
             cover_letter TEXT,
             interview_questions TEXT,
             created_at TEXT DEFAULT (datetime('now')),
+            hard_requirements_match TEXT,
+            soft_requirements_match TEXT,
             UNIQUE(job_id, cv_id)
         );
 
@@ -153,6 +155,11 @@ def init_db():
             is_active INTEGER DEFAULT 1
         );
 
+        CREATE TABLE IF NOT EXISTS scrape_counter (
+            id INTEGER PRIMARY KEY CHECK(id=1),
+            counter INTEGER DEFAULT 0
+        );
+
         CREATE INDEX IF NOT EXISTS idx_jobs_discipline ON jobs(discipline);
         CREATE INDEX IF NOT EXISTS idx_jobs_fresh_grad ON jobs(fresh_grad_friendly);
         CREATE INDEX IF NOT EXISTS idx_jobs_company ON jobs(company);
@@ -182,6 +189,40 @@ def init_db():
     conn.commit()
     conn.close()
     print(f"Database initialized at {DB_PATH}")
+
+    # === Step 1: auto-restore from seed dump if this was a fresh DB ===
+    # (must happen before any seeding that depends on the dump not having data)
+    # Skip on subsequent boots if jobs already exist.
+    try:
+        check = sqlite3.connect(DB_PATH)
+        job_count = check.execute("SELECT COUNT(*) FROM jobs").fetchone()[0]
+        check.close()
+        if job_count == 0:
+            candidates = [
+                os.path.join(os.path.dirname(__file__), "..", "scripts", "seed_data.sql"),
+                os.path.join(os.getcwd(), "scripts", "seed_data.sql"),
+                os.path.join(os.getcwd(), "..", "scripts", "seed_data.sql"),
+            ]
+            for seed_path in candidates:
+                seed_path = os.path.abspath(seed_path)
+                if os.path.exists(seed_path):
+                    print(f"Empty DB detected, restoring from {seed_path}...")
+                    seed_conn = sqlite3.connect(DB_PATH)
+                    seed_conn.execute("PRAGMA journal_mode=WAL")
+                    with open(seed_path) as f:
+                        sql_script = f.read()
+                    # The dump uses INSERT OR REPLACE so it's idempotent and
+                    # tolerates partial prior state.
+                    seed_conn.executescript(sql_script)
+                    seed_conn.commit()
+                    seed_conn.close()
+                    after = sqlite3.connect(DB_PATH).execute("SELECT COUNT(*) FROM jobs").fetchone()[0]
+                    print(f"  -> Restored {after} jobs from seed data")
+                    break
+    except Exception as e:
+        print(f"Note: seed data restore skipped ({e})")
+
+    # === Step 2: post-restore housekeeping ===
 
     # Seed graduate schemes on first init
     try:
