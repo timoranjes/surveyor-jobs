@@ -6,6 +6,7 @@ Handles reasoning_content field behavior (sometimes content is empty for English
 import os
 import json
 import logging
+import logging.handlers
 import httpx
 
 DEEPSEEK_API_KEY = None
