@@ -223,6 +223,10 @@ def init_db():
         print(f"Note: seed data restore skipped ({e})")
 
     # === Step 2: post-restore housekeeping ===
+    # (No further re-seeding: the seed restore above only runs if the DB is
+    # empty. New data within a session is preserved as long as the container
+    # is alive. Render free tier recycles the container after 15min idle,
+    # which wipes any new interactions — acceptable for browse-only use.)
 
     # Seed graduate schemes on first init
     try:

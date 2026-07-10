@@ -11,10 +11,13 @@ services:
     envVars:
       - key: PYTHON_VERSION
         value: 3.11.9
+      # Use /tmp because Render free plan has no persistent disk
+      # and /var/data may not be writable. The DB is auto-restored
+      # from scripts/seed_data.sql on first boot of each container.
       - key: DB_PATH
-        value: /var/data/jobs.db
-      - key: DATA_DIR
-        value: /var/data
+        value: /tmp/jobs.db
+      - key: LLM_LOG_DIR
+        value: /tmp/llm_logs
       - key: DEEPSEEK_API_KEY
         sync: false
       - key: SERPAPI_API_KEYS
