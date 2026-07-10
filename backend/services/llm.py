@@ -37,7 +37,9 @@ def _log_llm_call(messages, response_msg, temperature, json_mode):
     import logging
     from datetime import datetime, timezone
 
-    log_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "logs")
+    log_dir = os.environ.get("LLM_LOG_DIR") or os.path.join(
+        os.path.dirname(os.path.dirname(__file__)), "logs"
+    )
     os.makedirs(log_dir, exist_ok=True)
     log_path = os.path.join(log_dir, "llm_debug.log")
 

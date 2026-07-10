@@ -1,0 +1,21 @@
+services:
+  - type: web
+    name: surveyor-jobs
+    runtime: python
+    plan: free
+    branch: main
+    buildCommand: "pip install --upgrade pip && pip install -r backend/requirements.txt"
+    startCommand: "uvicorn backend.main:app --host 0.0.0.0 --port $PORT"
+    healthCheckPath: /
+    autoDeploy: true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.11.9
+      - key: DB_PATH
+        value: /var/data/jobs.db
+      - key: DATA_DIR
+        value: /var/data
+      - key: DEEPSEEK_API_KEY
+        sync: false
+      - key: SERPAPI_API_KEYS
+        sync: false

@@ -26,7 +26,7 @@ sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 from scrapers.google_jobs_scraper import search_google_jobs, SEARCH_QUERIES as GOOGLE_QUERIES
 from scrapers.backfill_descriptions import backfill_all
 
-DB_PATH = os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "jobs.db")
+DB_PATH = os.environ.get("DB_PATH") or os.path.join(os.path.dirname(os.path.dirname(__file__)), "data", "jobs.db")
 
 SEARCH_CONFIGS = [
     # (platform, search_url, discipline)

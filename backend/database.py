@@ -7,7 +7,14 @@ import sqlite3
 import os
 from datetime import datetime
 
-DB_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "jobs.db")
+# DB_PATH can be overridden by env var (for Render persistent disk: /var/data/jobs.db)
+_DB_ENV = os.environ.get("DB_PATH")
+if _DB_ENV:
+    DB_PATH = _DB_ENV
+    # Ensure parent dir exists
+    os.makedirs(os.path.dirname(DB_PATH) or ".", exist_ok=True)
+else:
+    DB_PATH = os.path.join(os.path.dirname(__file__), "..", "data", "jobs.db")
 
 
 def get_db() -> sqlite3.Connection:
