@@ -1,9 +1,9 @@
 -- Auto-generated snapshot of jobs.db
--- Generated: 2026-07-12
+-- Generated: 2026-07-13
 
 BEGIN TRANSACTION;
 
--- jobs: 176 rows
+-- jobs: 177 rows
 INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (1, 'arcadis_2026 Graduate Quanti', '2026 Graduate Quantity Surveyor (Hong Kong & Macau)', 'Arcadis', 'quantity_surveying', 'Kowloon', 'HK$18,000-25,000', 'Join Arcadis as a Graduate Quantity Surveyor in our Hong Kong office. You will work on major infrastructure projects across Hong Kong and Macau, preparing cost estimates, managing tender processes, and finalizing project accounts. This is a structured 2-year graduate programme with mentorship from senior QS professionals and a clear pathway to HKIS/RICS chartership.', 'Degree in Quantity Surveying or related discipline. Strong analytical and numerical skills. Good command of English and Chinese. Fresh graduates welcome.', 'https://hk.linkedin.com/jobs/view/arcadis-2026-graduate-quantity-surveyor-hong-kong-macau-at-arcadis-4268302914', 'manual_seed', '2026-07-01', NULL, 1, 'entry', '2026-07-01 11:40:55', '2026-07-01 11:40:55', 1, '<p>Join Arcadis as a Graduate Quantity Surveyor in our Hong Kong office. You will work on major infrastructure projects across Hong Kong and Macau, preparing cost estimates, managing tender processes, and finalizing project accounts. This is a structured 2-year graduate programme with mentorship from senior QS professionals and a clear pathway to HKIS/RICS chartership.</p>', 0);
 INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (2, 'aecom_2026 HK Graduate Pro', '2026 HK Graduate Program — Building Surveying', 'AECOM', 'building_surveying', 'Shatin', 'HK$17,000-22,000', 'AECOM 2026 Hong Kong Graduate Program offers opportunities in Building Surveying. You will be involved in building inspection, maintenance planning, project management, and statutory submissions. The program includes rotational assignments across different project types.', 'BSc in Building Surveying or equivalent. Knowledge of building regulations. Proficiency in AutoCAD. No prior experience required.', 'https://aecom.jobs/hong-kong-hkg/aecom-2026-hong-kong-graduate-program/602489C3650746F899C7D88860527360/job/', 'manual_seed', '2026-07-01', NULL, 1, 'entry', '2026-07-01 11:40:55', '2026-07-01 11:40:55', 1, '<p>AECOM 2026 Hong Kong Graduate Program offers opportunities in Building Surveying. You will be involved in building inspection, maintenance planning, project management, and statutory submissions. The program includes rotational assignments across different project types.</p>', 0);
 INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (3, 'geosys_hong_kong_limited_Assistant Land Surve', 'Assistant Land Surveyor / Land Survey Graduate', 'Geosys Hong Kong Limited', 'land_surveying', 'Hong Kong', 'HK$20,000-28,000', 'Perform land surveys using Total Station, GNSS, Laser Scanning, UAV, and Intelligent Robotics. Download and process data from total station and automated data collection systems. Assist in project management of IT/GIS solution delivery.', 'Certificate or above in Land Surveying / Geomatics / IT. Knowledge of surveying equipment. Fresh graduates considered as Land Survey Graduate.', 'https://hk.indeed.com/jobs?q=assistant+land+surveyor+graduate&l=Hong+Kong&sc=0kf%3Ajt(graduate)%3B', 'manual_seed', '2026-07-01', NULL, 1, 'entry', '2026-07-01 11:40:55', '2026-07-01 11:40:55', 1, '<p>Perform land surveys using Total Station, GNSS, Laser Scanning, UAV, and Intelligent Robotics. Download and process data from total station and automated data collection systems. Assist in project management of IT/GIS solution delivery.</p>', 0);
@@ -5163,7 +5163,93 @@ Qualifications & Experience:
 <ul class="jd-list"><li>Preparation of pre-contract cost estimates and project cash-flow</li><li>Preparation of tender documentation</li><li>Tendering process and tender evaluation</li><li>Post-contract administration and management – contract documentation, valuation of progress payment, variation assessment, and cost control report</li><li>Finalization of project final accounts</li></ul>
 <h3 class="jd-section-header">Qualifications &amp; Experience</h3>
 <ul class="jd-list"><li>Degree in Quantity Surveying</li><li>With technical knowledge – Measurement, cost estimating, construction technology, contracts and law</li><li>Understand and familiar with professional practice and contract administration processes</li><li>Able to work as a team player</li><li>Ability to communicate clearly in both spoken and written English</li><li>Ability to communicate clearly in spoken Cantonese and written Chinese</li><li>Welcome upcoming graduates</li><li>Applications</li><li>Please click “<strong>APPLY NOW</strong>” to apply with your resume along with details of your current and expected salary and notice period. We regret that only shortlisted candidates will be contacted.</li><li>To find out more about our company, please visit http://www.arcadis.com</li><li>We can only achieve our goals when everyone is empowered to be their best. We believe everyone&#x27;s contribution matters. It’s why we are pioneering a skills-based approach, where you can harness your unique experience and expertise to carve your career path and maximize the impact we can make together.</li><li>You’ll do meaningful work, and no matter what role, you’ll be helping to deliver sustainable solutions for a more prosperous planet. Make your mark, on your career, your colleagues, your clients, your life and the world around you.</li><li>Together, we can create a lasting legacy.</li><li>Our Commitment to Equality, Diversity, Inclusion &amp; Belonging</li><li>We want you to be able to bring your best self to work every day, which is why we take equality and inclusion seriously and hold ourselves to account for our actions. Our ambition is to be an employer of choice and provide a great place to work for all our people.</li><li>Join Arcadis. Create a legacy.</li><li>Full-time</li></ul>', 0);
-INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (288, 'ea6dd076cc5811d3', 'Quantity Surveyor (Developer Background Required)', 'Sands China', 'quantity_surveying', 'Hong Kong', NULL, '', '', 'https://hk.linkedin.com/jobs/view/quantity-surveyor-developer-background-required-at-sands-china-4421783598?position=5&pageNum=0&refId=8W9bB5gMTrLyF5JpLaAMhQ%3D%3D&trackingId=py%2BvW9mXx4mVfASQy%2FqxJQ%3D%3D', 'linkedin', '2026-07-11', '', 1, 'entry', '2026-07-11 00:11:25', '2026-07-11 00:11:25', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (288, 'ea6dd076cc5811d3', 'Quantity Surveyor (Developer Background Required)', 'Sands China', 'quantity_surveying', 'Hong Kong', NULL, 'Scope
+Development Contracts Administration Team needs to work with LVSC departments, including Development and Facilities, to define, competitively bid, negotiate and award best in class design and development services in support of the organization’s development projects globally. To support on the completion of the various contract administrative tasks required.
+
+
+What You Will Do
+
+
+
+Support the team with all necessary duties to develop and deliver comprehensive design and construction contracts
+
+
+Establish and maintain filing systems (electronic and hardcopy), including the receiving, distribution and filing of contracts and associated documents
+
+
+Inputting and updating data contained in internal contract management systems
+
+
+Provide support in the tracking, expediting, collecting and collating of periodic reports and other regular data submissions
+
+
+Review/maintain project registers such as payments, changes and contractual correspondences
+
+
+Providing support in the tracking, expediting, collecting and collating contractor’s daily, weekly and monthly reports and other regular data submissions
+
+
+Assist the Commercial Manager during the bidding process with activities such as issuing the RFP, receive and analyze the proposals and preparation of the BAW
+
+
+Attend and prepare meeting notes for any pre-award, progress and other relevant meetings relating to the delivery of the project
+
+
+Initiate and facilitate the onboarding and approval process for new suppliers
+
+
+Assist the Commercial Manager / Senior Manager to receive and analyze supply chain partner’s payment certificates
+
+
+
+What We Expect From You
+
+
+
+
+
+Bachelor’s degree in Quantity Surveying, Engineering, Project Management, Cost Engineering or related disciplines
+Approximately
+2 years of Quantity Surveying experience with exposure gained from Developer a MUST, Cost Consultancy an advantage
+
+
+
+
+Knowledge and understanding of construction procurement process and commercial awareness
+
+
+Ability to multi-task, prioritize to achieve project goals, work with cross-functional teams and contractors to host value-engineering exercises A detail-oriented, self-motivated and well-organized professional who can provide thorough and skillful administrative support
+
+
+Capable of demonstrating value-added services throughout the contract administration period (from award through closeout)
+
+
+Strong computer and software skills to include the use of word processing and email as well as strong use of spreadsheets and electronic presentations
+
+
+Fluent English is a MUST while good Cantonese and/or Mandarin would be an advantage
+
+
+You will be based in Hong Kong for this role, with business travel to Macau when required', '', 'https://hk.linkedin.com/jobs/view/quantity-surveyor-developer-background-required-at-sands-china-4421783598?position=5&pageNum=0&refId=8W9bB5gMTrLyF5JpLaAMhQ%3D%3D&trackingId=py%2BvW9mXx4mVfASQy%2FqxJQ%3D%3D', 'linkedin', '2026-07-11', '', 1, 'entry', '2026-07-11 00:11:25', '2026-07-11 00:11:25', 1, '<p>Scope Development Contracts Administration Team needs to work with LVSC departments, including Development and Facilities, to define, competitively bid, negotiate and award best in class design and development services in support of the organization’s development projects globally. To support on the completion of the various contract administrative tasks required.</p>
+<p>What You Will Do</p>
+<p>Support the team with all necessary duties to develop and deliver comprehensive design and construction contracts</p>
+<p>Establish and maintain filing systems (electronic and hardcopy), including the receiving, distribution and filing of contracts and associated documents</p>
+<p>Inputting and updating data contained in internal contract management systems</p>
+<p>Provide support in the tracking, expediting, collecting and collating of periodic reports and other regular data submissions</p>
+<p>Review/maintain project registers such as payments, changes and contractual correspondences</p>
+<p>Providing support in the tracking, expediting, collecting and collating contractor’s daily, weekly and monthly reports and other regular data submissions</p>
+<p>Assist the Commercial Manager during the bidding process with activities such as issuing the RFP, receive and analyze the proposals and preparation of the BAW</p>
+<p>Attend and prepare meeting notes for any pre-award, progress and other relevant meetings relating to the delivery of the project</p>
+<p>Initiate and facilitate the onboarding and approval process for new suppliers</p>
+<p>Assist the Commercial Manager / Senior Manager to receive and analyze supply chain partner’s payment certificates</p>
+<p>What We Expect From You</p>
+<p>Bachelor’s degree in Quantity Surveying, Engineering, Project Management, Cost Engineering or related disciplines Approximately 2 years of Quantity Surveying experience with exposure gained from Developer a MUST, Cost Consultancy an advantage</p>
+<p>Knowledge and understanding of construction procurement process and commercial awareness</p>
+<p>Ability to multi-task, prioritize to achieve project goals, work with cross-functional teams and contractors to host value-engineering exercises A detail-oriented, self-motivated and well-organized professional who can provide thorough and skillful administrative support</p>
+<p>Capable of demonstrating value-added services throughout the contract administration period (from award through closeout)</p>
+<p>Strong computer and software skills to include the use of word processing and email as well as strong use of spreadsheets and electronic presentations</p>
+<p>Fluent English is a MUST while good Cantonese and/or Mandarin would be an advantage</p>
+<p>You will be based in Hong Kong for this role, with business travel to Macau when required</p>', 0);
 INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (289, 'ac2ff0fb2581e0f3', 'Senior Quantity Surveyor / (Assistant) Contract Manager [Developer Background Required]', 'Sands China', 'quantity_surveying', 'Hong Kong', NULL, '', '', 'https://hk.linkedin.com/jobs/view/senior-quantity-surveyor-assistant-contract-manager-developer-background-required-at-sands-china-4421774524?position=21&pageNum=0&refId=8W9bB5gMTrLyF5JpLaAMhQ%3D%3D&trackingId=pDlB%2FuEIEJXRBGUtaem3Xw%3D%3D', 'linkedin', '2026-07-11', '', 0, 'experienced', '2026-07-11 00:11:25', '2026-07-11 00:11:25', 1, NULL, 0);
 INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (290, '010350a436cba1eb', 'Assistant Land Surveyor-Highways Department(9 Months Contract)', 'Tengle Human Resources Consulting Co., Ltd.', 'land_surveying', 'Kowloon City District', '', 'Major Job Duties i) To assist the Land Surveyor (LS) of Highways Department (HyD) in general management of projects relating to the development and implementation of the Bunting Application System, and provide maintenance support after the system implementation;ii) To assist LS in reviewing the position data of lighting equipment and sign gantries, which involves conducting field survey, validating the as-built survey records, attending coordinate meetings and refining the position data of the internal systems of HyD; iii) To assist LS in conducting GIS spatial review on the existing lamppost/road light dataset for establishing a standardized lantern naming convention system;iv) To assist the Lighting Division in preparing the revamp of HyD’s Public Lighting Information System; v) To assist LS in supervising the Survey Team of Lighting Division and providing supports to the Engineering Team;vi) To assist LS in overseeing the monthly and ad-hoc audit survey with a view to strengthening the quality control on the lamp post data submitted under the three MOM contracts; and vii) To perform any other duties as assigned by his/her supervisors and to share other workload in Lighting Division.Requirements(i)A qualification recognized by the Hong Kong Institute of Surveyors (HKIS) as satisfying the academic requirements for corporate membership in the Land Surveying Division;(ii) Completed a 2-year graduate training scheme recognized by the HKIS or equivalent; and(iii) ‘Level 2’ or above in Chinese Language and English Language in the HKDSEE or HKCEE), or equivalent(iv) Knowledge of and possession of experience in Geographic Information System (GIS) and application development will be advantageous.', '', 'https://www.offertoday.com/en/job/uU7OiGvjTkLVjaGNxRJbOg%3D%3D?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_OfferToday', 'HK$40K–HK$41K a month', '', 1, 'entry', '2026-07-11 16:00:40', '2026-07-11 16:00:40', 1, '<p>Major Job Duties i) To assist the Land Surveyor (LS) of Highways Department (HyD) in general management of projects relating to the development and implementation of the Bunting Application System, and provide maintenance support after the system implementation;ii) To assist LS in reviewing the position data of lighting equipment and sign gantries, which involves conducting field survey, validating the as-built survey records, attending coordinate meetings and refining the position data of the internal systems of HyD; iii) To assist LS in conducting GIS spatial review on the existing lamppost/road light dataset for establishing a standardized lantern naming convention system;iv) To assist the Lighting Division in preparing the revamp of HyD’s Public Lighting Information System; v) To assist LS in supervising the Survey Team of Lighting Division and providing supports to the Engineering Team;vi) To assist LS in overseeing the monthly and ad-hoc audit survey with a view to strengthening the quality control on the lamp post data submitted under the three MOM contracts; and vii) To perform any other duties as assigned by his/her supervisors and to share other workload in Lighting Division.Requirements(i)A qualification recognized by the Hong Kong Institute of Surveyors (HKIS) as satisfying the academic requirements for corporate membership in the Land Surveying Division;(ii) Completed a 2-year graduate training scheme recognized by the HKIS or equivalent; and(iii) ‘Level 2’ or above in Chinese Language and English Language in the HKDSEE or HKCEE), or equivalent(iv) Knowledge of and possession of experience in Geographic Information System (GIS) and application development will be advantageous.</p>', 0);
 INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (291, 'e7a5c19526ef3d85', 'Geospatial AI Assistant Surveyor', 'Leadingnation', 'land_surveying', 'Hong Kong', '', 'Leadingnation in Hong Kong is seeking candidates to assist with the adoption of spatial data through cutting-edge technology. Responsibilities include collaborating with stakeholders to develop and validate geospatial AI prototypes. Candidates should have a degree in Land Surveying, Geomatics, or related fields and be fluent in Chinese and English. We offer a five-day work week and attractive career opportunities along with competitive remuneration and benefits.
@@ -5239,6 +5325,15 @@ Interested persons please send your full res', '', 'https://bebee.com/hk/jobs/re
 <p>Where a large number of candidates meet the specified entry requirements, we may devise shortlisting criteria to select the better qualified candidates for further processing. In these circumstances, only shortlisted candidates will be invited to attend recruitment interview.</p>
 <p>如果符合訂明入職條件的應徵者人數眾多，本公司會訂立篩選準則，甄選條件較佳的應徵者，以便進一步處理。在此情況下，只有獲篩選的應徵者會獲邀參加招聘面試。</p>
 <p>Interested persons please send your full res</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (295, '5d66b1e1dc0130f4', 'Quantity Surveyor (Formwork & Scaffolding)', 'Wenma Forming and Scaffolding (H.K.) Limited', 'quantity_surveying', '沙田區', '', '負責釘板及棚架工程的工料測量工作，包括量度工程數量、計算合約數及用圖度數
+處理工程報價、成本預算及投標文件準備
+計算額外工程撥款 (V.O.) 及後加工程報價
+訂購工程材料及跟進物料供應
+處理分判商及客戶的糧單申請及審核
+跟進工程項目款項、工程埋數及最終帳目結算
+需要外勤到地盤視察及紀錄工程進度', '', 'https://bebee.com/hk/jobs/quantity-surveyor-formwork-scaffolding-wenma-forming-and-scaffolding-hk-limited-sha-tin-district--t7xk-757402035?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_BeBee', '1 day ago', '', 1, 'entry', '2026-07-12 00:11:41', '2026-07-12 00:11:41', 1, '<p>負責釘板及棚架工程的工料測量工作，包括量度工程數量、計算合約數及用圖度數 處理工程報價、成本預算及投標文件準備</p>
+<h3 class="jd-section-header">計算額外工程撥款 (V.O.) 及後加工程報價</h3>
+<ul class="jd-list"><li>訂購工程材料及跟進物料供應</li><li>處理分判商及客戶的糧單申請及審核</li><li>跟進工程項目款項、工程埋數及最終帳目結算</li><li>需要外勤到地盤視察及紀錄工程進度</li></ul>', 0);
 
 -- cv_data: 1 rows
 INSERT OR REPLACE INTO cv_data (id, full_text, parsed_sections, key_skills, education, experience_summary, created_at, updated_at) VALUES (1, 'CHAN Tai Man, Michael
