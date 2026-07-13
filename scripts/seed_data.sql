@@ -1,9 +1,9 @@
 -- Auto-generated snapshot of jobs.db
--- Generated: 2026-07-13
+-- Generated: 2026-07-14
 
 BEGIN TRANSACTION;
 
--- jobs: 177 rows
+-- jobs: 185 rows
 INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (1, 'arcadis_2026 Graduate Quanti', '2026 Graduate Quantity Surveyor (Hong Kong & Macau)', 'Arcadis', 'quantity_surveying', 'Kowloon', 'HK$18,000-25,000', 'Join Arcadis as a Graduate Quantity Surveyor in our Hong Kong office. You will work on major infrastructure projects across Hong Kong and Macau, preparing cost estimates, managing tender processes, and finalizing project accounts. This is a structured 2-year graduate programme with mentorship from senior QS professionals and a clear pathway to HKIS/RICS chartership.', 'Degree in Quantity Surveying or related discipline. Strong analytical and numerical skills. Good command of English and Chinese. Fresh graduates welcome.', 'https://hk.linkedin.com/jobs/view/arcadis-2026-graduate-quantity-surveyor-hong-kong-macau-at-arcadis-4268302914', 'manual_seed', '2026-07-01', NULL, 1, 'entry', '2026-07-01 11:40:55', '2026-07-01 11:40:55', 1, '<p>Join Arcadis as a Graduate Quantity Surveyor in our Hong Kong office. You will work on major infrastructure projects across Hong Kong and Macau, preparing cost estimates, managing tender processes, and finalizing project accounts. This is a structured 2-year graduate programme with mentorship from senior QS professionals and a clear pathway to HKIS/RICS chartership.</p>', 0);
 INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (2, 'aecom_2026 HK Graduate Pro', '2026 HK Graduate Program — Building Surveying', 'AECOM', 'building_surveying', 'Shatin', 'HK$17,000-22,000', 'AECOM 2026 Hong Kong Graduate Program offers opportunities in Building Surveying. You will be involved in building inspection, maintenance planning, project management, and statutory submissions. The program includes rotational assignments across different project types.', 'BSc in Building Surveying or equivalent. Knowledge of building regulations. Proficiency in AutoCAD. No prior experience required.', 'https://aecom.jobs/hong-kong-hkg/aecom-2026-hong-kong-graduate-program/602489C3650746F899C7D88860527360/job/', 'manual_seed', '2026-07-01', NULL, 1, 'entry', '2026-07-01 11:40:55', '2026-07-01 11:40:55', 1, '<p>AECOM 2026 Hong Kong Graduate Program offers opportunities in Building Surveying. You will be involved in building inspection, maintenance planning, project management, and statutory submissions. The program includes rotational assignments across different project types.</p>', 0);
 INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (3, 'geosys_hong_kong_limited_Assistant Land Surve', 'Assistant Land Surveyor / Land Survey Graduate', 'Geosys Hong Kong Limited', 'land_surveying', 'Hong Kong', 'HK$20,000-28,000', 'Perform land surveys using Total Station, GNSS, Laser Scanning, UAV, and Intelligent Robotics. Download and process data from total station and automated data collection systems. Assist in project management of IT/GIS solution delivery.', 'Certificate or above in Land Surveying / Geomatics / IT. Knowledge of surveying equipment. Fresh graduates considered as Land Survey Graduate.', 'https://hk.indeed.com/jobs?q=assistant+land+surveyor+graduate&l=Hong+Kong&sc=0kf%3Ajt(graduate)%3B', 'manual_seed', '2026-07-01', NULL, 1, 'entry', '2026-07-01 11:40:55', '2026-07-01 11:40:55', 1, '<p>Perform land surveys using Total Station, GNSS, Laser Scanning, UAV, and Intelligent Robotics. Download and process data from total station and automated data collection systems. Assist in project management of IT/GIS solution delivery.</p>', 0);
@@ -4469,7 +4469,13 @@ We are also open to discussing part time, flexible, and hybrid working options i
 <p>Create opportunity - For our people to excel: We champion a continuous improvement culture throughout all activities, inspiring our people and teams to develop.</p>
 <p>Mace is an inclusive employer and welcomes interest from a diverse range of candidates. Even if you feel you do not fulfil all the criteria, please apply as you may still be the best candidate for this role or another role within our organisation.</p>
 <p>We are also open to discussing part time, flexible, and hybrid working options if suitable within the role.</p>', 0);
-INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (264, 'f7dc8296ae0362e6', 'Senior Cost Manager - Quantity Surveyor', 'China Resources Longdation', 'quantity_surveying', 'Hong Kong', NULL, '', '', 'https://hk.linkedin.com/jobs/view/senior-cost-manager-quantity-surveyor-at-china-resources-longdation-4436505078?position=25&pageNum=0&refId=b3UbP5l7NtxGoxsfjw468w%3D%3D&trackingId=%2FIkzofNTBoEJP%2BHmlunV0w%3D%3D', 'linkedin', '2026-07-08', '', 0, 'experienced', '2026-07-08 00:12:48', '2026-07-08 00:12:48', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (264, 'f7dc8296ae0362e6', 'Senior Cost Manager - Quantity Surveyor', 'China Resources Longdation', 'quantity_surveying', 'Hong Kong', NULL, 'China Resources Longdation is seeking a dynamic communications professional to lead campaigns, events, and social content from concept to delivery. The role requires a Bachelor’s degree or 2+ years of experience, with hands-on use of AIGC tools and design software, plus strong writing skills in Cantonese and English. 
+
+You will help shape internal culture and brand initiatives across platforms, collaborating with cross-functional teams to deliver compelling content and measurable outcomes. 
+
+ #J-18808-Ljbffr', '', 'https://hk.linkedin.com/jobs/view/senior-cost-manager-quantity-surveyor-at-china-resources-longdation-4436505078?position=25&pageNum=0&refId=b3UbP5l7NtxGoxsfjw468w%3D%3D&trackingId=%2FIkzofNTBoEJP%2BHmlunV0w%3D%3D', 'linkedin', '2026-07-08', '', 0, 'experienced', '2026-07-08 00:12:48', '2026-07-08 00:12:48', 1, '<p>China Resources Longdation is seeking a dynamic communications professional to lead campaigns, events, and social content from concept to delivery. The role requires a Bachelor’s degree or 2+ years of experience, with hands-on use of AIGC tools and design software, plus strong writing skills in Cantonese and English.</p>
+<p>You will help shape internal culture and brand initiatives across platforms, collaborating with cross-functional teams to deliver compelling content and measurable outcomes.</p>
+<p>#J-18808-Ljbffr</p>', 0);
 INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (265, '1032493e801c7fb5', 'Assistant Vice President - Cost Manager - Corporate Services', 'Hong Kong Exchanges and Clearing Limited (HKEX)', 'quantity_surveying', 'Hong Kong', NULL, 'Company Introduction: We’re home to Asia''s most dynamic and vibrant capital markets. Connecting capital, ideas, inspiration and innovation for deeper, more diverse and liquid global capital markets; providing greater choice and opportunity for our customers, each and every day. HKEX is a purpose-driven company. Our commitment to the long-term development of our business and our markets is articulated in our purpose: "To Connect, Promote and Progress our Markets and the Communities they support for the prosperity of all." Job Summary: Corporate Services (CSD) oversees a wide range of operational functions including Real Estate Management (strategic planning, lease transactions, project, design and construction management and facilities management), Corporate Security, Housekeeping, Mail Distribution, Documentation, Destruction and Storage, Catering Services and Reception Management. The Cost Manager will lead all cost, commercial and contract management activities across multiple projects and leasing transactions within HKEX premises. This includes overseeing project budgets, procurement and tendering, as well as supporting real estate leasing activities. The ideal candidate will possess a strong background in quantity surveying, cost consultancy and contract administration, with proven experience in procurement, tendering, value management and leasing cost analysis. Job Duties: Key Responsibilities Lead cost management and commercial functions for assigned projects. Develop and manage project budgets, cost plans and cash flow forecasts. Oversee and participate in tendering, procurement and contract negotiations. Manage post-contract administration, including change management, variations and final accounts. Provide strategic cost and commercial advice to ensure financial efficiency and value delivery. Lead and manage external quantity surveyors to ensure service quality. Review landlord proposals and validate cost assumptions in deal sheets for lease transactions. Ensure accurate financial analysis and reporting for leasing and transaction activities. Collaborate with internal stakeholders including Project Management, Design & Engineering, IT, Central Procurement and Finance teams for aligned project delivery. Ensure compliance with corporate governance, contractual obligations and regulatory requirements. Monitor contract performance and enforce compliance. Compile a project cost database for future planning and benchmarking. Prepare regular financial reports and forecasts for stakeholders, highlighting key project financials. Requirements Degree in Quantity Surveying or a related discipline. Minimum 15 years’ experience in cost and commercial management within consultancy or client-side roles, including at least 5 years in a supervisory capacity. Professional qualifications such as MRICS or equivalent preferred. Strong leadership, organizational skills and stakeholder management capabilities. High sense of ownership, risk awareness, compliance', '', 'https://hk.linkedin.com/jobs/view/assistant-vice-president-cost-manager-corporate-services-at-hong-kong-exchanges-and-clearing-limited-hkex-4419805014?position=48&pageNum=0&refId=b3UbP5l7NtxGoxsfjw468w%3D%3D&trackingId=Y4ECvkmhBtamvY6ztGOVrQ%3D%3D', 'linkedin', '2026-07-08', '', 0, 'experienced', '2026-07-08 00:12:48', '2026-07-08 00:12:48', 1, '<p>Company Introduction: We’re home to Asia&#x27;s most dynamic and vibrant capital markets. Connecting capital, ideas, inspiration and innovation for deeper, more diverse and liquid global capital markets; providing greater choice and opportunity for our customers, each and every day. HKEX is a purpose-driven company. Our commitment to the long-term development of our business and our markets is articulated in our purpose: &quot;To Connect, Promote and Progress our Markets and the Communities they support for the prosperity of all.&quot; Job Summary: Corporate Services (CSD) oversees a wide range of operational functions including Real Estate Management (strategic planning, lease transactions, project, design and construction management and facilities management), Corporate Security, Housekeeping, Mail Distribution, Documentation, Destruction and Storage, Catering Services and Reception Management. The Cost Manager will lead all cost, commercial and contract management activities across multiple projects and leasing transactions within HKEX premises. This includes overseeing project budgets, procurement and tendering, as well as supporting real estate leasing activities. The ideal candidate will possess a strong background in quantity surveying, cost consultancy and contract administration, with proven experience in procurement, tendering, value management and leasing cost analysis. Job Duties: Key Responsibilities Lead cost management and commercial functions for assigned projects. Develop and manage project budgets, cost plans and cash flow forecasts. Oversee and participate in tendering, procurement and contract negotiations. Manage post-contract administration, including change management, variations and final accounts. Provide strategic cost and commercial advice to ensure financial efficiency and value delivery. Lead and manage external quantity surveyors to ensure service quality. Review landlord proposals and validate cost assumptions in deal sheets for lease transactions. Ensure accurate financial analysis and reporting for leasing and transaction activities. Collaborate with internal stakeholders including Project Management, Design &amp; Engineering, IT, Central Procurement and Finance teams for aligned project delivery. Ensure compliance with corporate governance, contractual obligations and regulatory requirements. Monitor contract performance and enforce compliance. Compile a project cost database for future planning and benchmarking. Prepare regular financial reports and forecasts for stakeholders, highlighting key project financials. Requirements Degree in Quantity Surveying or a related discipline. Minimum 15 years’ experience in cost and commercial management within consultancy or client-side roles, including at least 5 years in a supervisory capacity. Professional qualifications such as MRICS or equivalent preferred. Strong leadership, organizational skills and stakeholder management capabilities. High sense of ownership, risk awareness, compliance</p>', 0);
 INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (266, 'adabc74739efebad', 'Quantity Surveying Assistant/ Trainee', 'Wo Hing Construction Company Ltd', 'quantity_surveying', 'Hong Kong', '', 'Wo Hing is a well established civil engineering Main Contractor. We are recruiting high calibre individuals to fill the following positions to work on a variety of challenging utilities/infrastructure projects:
 
@@ -5250,7 +5256,26 @@ You will be based in Hong Kong for this role, with business travel to Macau when
 <p>Strong computer and software skills to include the use of word processing and email as well as strong use of spreadsheets and electronic presentations</p>
 <p>Fluent English is a MUST while good Cantonese and/or Mandarin would be an advantage</p>
 <p>You will be based in Hong Kong for this role, with business travel to Macau when required</p>', 0);
-INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (289, 'ac2ff0fb2581e0f3', 'Senior Quantity Surveyor / (Assistant) Contract Manager [Developer Background Required]', 'Sands China', 'quantity_surveying', 'Hong Kong', NULL, '', '', 'https://hk.linkedin.com/jobs/view/senior-quantity-surveyor-assistant-contract-manager-developer-background-required-at-sands-china-4421774524?position=21&pageNum=0&refId=8W9bB5gMTrLyF5JpLaAMhQ%3D%3D&trackingId=pDlB%2FuEIEJXRBGUtaem3Xw%3D%3D', 'linkedin', '2026-07-11', '', 0, 'experienced', '2026-07-11 00:11:25', '2026-07-11 00:11:25', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (289, 'ac2ff0fb2581e0f3', 'Senior Quantity Surveyor / (Assistant) Contract Manager [Developer Background Required]', 'Sands China', 'quantity_surveying', 'Hong Kong', NULL, 'Scope
+
+Development Contracts Admin Team needs to work with departments to define, competitively bid, negotiate and award best in class design and development services for our development projects globally.
+
+
+
+
+What You Will Do
+
+Develop and deliver comprehensive design and construction contractsTrack, expedite, collect and collate periodic reports and other regular data submissionsManage the bidding process to issue RFP, receive and analyze proposals and prepare BAW while ensuring change management outcomes are captured and reflected within Timberline ACR’sAttend and prepare meeting notes for any pre-award, progress and project deliveryReview and approve payment certificate of supply chain partners and project registers
+
+
+What We Expect from You
+
+Bachelor’s degree in Quantity Surveying, Engineering, Project Management, Cost Engineering or related disciplinesAt least 6 years of work experience with 3 years gained from Quantity Surveying or related fields, with exposure gained from Developer a MUST, Cost Consultancy an advantageFamiliar with construction procurement process with commercial awareness while proficient in MS Office with Ariba & Sage based networks knowledge an advantageA detailed-oriented and well-organized professionalFluent English is a MUST while good Cantonese and/or Mandarin would be an advantageYou will be based in Hong Kong for this role, with business travel to Macau when required', '', 'https://hk.linkedin.com/jobs/view/senior-quantity-surveyor-assistant-contract-manager-developer-background-required-at-sands-china-4421774524?position=21&pageNum=0&refId=8W9bB5gMTrLyF5JpLaAMhQ%3D%3D&trackingId=pDlB%2FuEIEJXRBGUtaem3Xw%3D%3D', 'linkedin', '2026-07-11', '', 0, 'experienced', '2026-07-11 00:11:25', '2026-07-11 00:11:25', 1, '<p>Scope</p>
+<p>Development Contracts Admin Team needs to work with departments to define, competitively bid, negotiate and award best in class design and development services for our development projects globally.</p>
+<p>What You Will Do</p>
+<p>Develop and deliver comprehensive design and construction contractsTrack, expedite, collect and collate periodic reports and other regular data submissionsManage the bidding process to issue RFP, receive and analyze proposals and prepare BAW while ensuring change management outcomes are captured and reflected within Timberline ACR’sAttend and prepare meeting notes for any pre-award, progress and project deliveryReview and approve payment certificate of supply chain partners and project registers</p>
+<p>What We Expect from You</p>
+<p>Bachelor’s degree in Quantity Surveying, Engineering, Project Management, Cost Engineering or related disciplinesAt least 6 years of work experience with 3 years gained from Quantity Surveying or related fields, with exposure gained from Developer a MUST, Cost Consultancy an advantageFamiliar with construction procurement process with commercial awareness while proficient in MS Office with Ariba &amp; Sage based networks knowledge an advantageA detailed-oriented and well-organized professionalFluent English is a MUST while good Cantonese and/or Mandarin would be an advantageYou will be based in Hong Kong for this role, with business travel to Macau when required</p>', 0);
 INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (290, '010350a436cba1eb', 'Assistant Land Surveyor-Highways Department(9 Months Contract)', 'Tengle Human Resources Consulting Co., Ltd.', 'land_surveying', 'Kowloon City District', '', 'Major Job Duties i) To assist the Land Surveyor (LS) of Highways Department (HyD) in general management of projects relating to the development and implementation of the Bunting Application System, and provide maintenance support after the system implementation;ii) To assist LS in reviewing the position data of lighting equipment and sign gantries, which involves conducting field survey, validating the as-built survey records, attending coordinate meetings and refining the position data of the internal systems of HyD; iii) To assist LS in conducting GIS spatial review on the existing lamppost/road light dataset for establishing a standardized lantern naming convention system;iv) To assist the Lighting Division in preparing the revamp of HyD’s Public Lighting Information System; v) To assist LS in supervising the Survey Team of Lighting Division and providing supports to the Engineering Team;vi) To assist LS in overseeing the monthly and ad-hoc audit survey with a view to strengthening the quality control on the lamp post data submitted under the three MOM contracts; and vii) To perform any other duties as assigned by his/her supervisors and to share other workload in Lighting Division.Requirements(i)A qualification recognized by the Hong Kong Institute of Surveyors (HKIS) as satisfying the academic requirements for corporate membership in the Land Surveying Division;(ii) Completed a 2-year graduate training scheme recognized by the HKIS or equivalent; and(iii) ‘Level 2’ or above in Chinese Language and English Language in the HKDSEE or HKCEE), or equivalent(iv) Knowledge of and possession of experience in Geographic Information System (GIS) and application development will be advantageous.', '', 'https://www.offertoday.com/en/job/uU7OiGvjTkLVjaGNxRJbOg%3D%3D?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_OfferToday', 'HK$40K–HK$41K a month', '', 1, 'entry', '2026-07-11 16:00:40', '2026-07-11 16:00:40', 1, '<p>Major Job Duties i) To assist the Land Surveyor (LS) of Highways Department (HyD) in general management of projects relating to the development and implementation of the Bunting Application System, and provide maintenance support after the system implementation;ii) To assist LS in reviewing the position data of lighting equipment and sign gantries, which involves conducting field survey, validating the as-built survey records, attending coordinate meetings and refining the position data of the internal systems of HyD; iii) To assist LS in conducting GIS spatial review on the existing lamppost/road light dataset for establishing a standardized lantern naming convention system;iv) To assist the Lighting Division in preparing the revamp of HyD’s Public Lighting Information System; v) To assist LS in supervising the Survey Team of Lighting Division and providing supports to the Engineering Team;vi) To assist LS in overseeing the monthly and ad-hoc audit survey with a view to strengthening the quality control on the lamp post data submitted under the three MOM contracts; and vii) To perform any other duties as assigned by his/her supervisors and to share other workload in Lighting Division.Requirements(i)A qualification recognized by the Hong Kong Institute of Surveyors (HKIS) as satisfying the academic requirements for corporate membership in the Land Surveying Division;(ii) Completed a 2-year graduate training scheme recognized by the HKIS or equivalent; and(iii) ‘Level 2’ or above in Chinese Language and English Language in the HKDSEE or HKCEE), or equivalent(iv) Knowledge of and possession of experience in Geographic Information System (GIS) and application development will be advantageous.</p>', 0);
 INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (291, 'e7a5c19526ef3d85', 'Geospatial AI Assistant Surveyor', 'Leadingnation', 'land_surveying', 'Hong Kong', '', 'Leadingnation in Hong Kong is seeking candidates to assist with the adoption of spatial data through cutting-edge technology. Responsibilities include collaborating with stakeholders to develop and validate geospatial AI prototypes. Candidates should have a degree in Land Surveying, Geomatics, or related fields and be fluent in Chinese and English. We offer a five-day work week and attractive career opportunities along with competitive remuneration and benefits.
 #J-18808-Ljbffr', '', 'https://hk.jooble.org/jdp/7899733174109218690?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Jooble HK', '4 days ago', '', 1, 'entry', '2026-07-11 16:00:46', '2026-07-11 16:00:46', 1, '<p>Leadingnation in Hong Kong is seeking candidates to assist with the adoption of spatial data through cutting-edge technology. Responsibilities include collaborating with stakeholders to develop and validate geospatial AI prototypes. Candidates should have a degree in Land Surveying, Geomatics, or related fields and be fluent in Chinese and English. We offer a five-day work week and attractive career opportunities along with competitive remuneration and benefits. #J-18808-Ljbffr</p>', 0);
@@ -5334,6 +5359,471 @@ INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, locati
 需要外勤到地盤視察及紀錄工程進度', '', 'https://bebee.com/hk/jobs/quantity-surveyor-formwork-scaffolding-wenma-forming-and-scaffolding-hk-limited-sha-tin-district--t7xk-757402035?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_BeBee', '1 day ago', '', 1, 'entry', '2026-07-12 00:11:41', '2026-07-12 00:11:41', 1, '<p>負責釘板及棚架工程的工料測量工作，包括量度工程數量、計算合約數及用圖度數 處理工程報價、成本預算及投標文件準備</p>
 <h3 class="jd-section-header">計算額外工程撥款 (V.O.) 及後加工程報價</h3>
 <ul class="jd-list"><li>訂購工程材料及跟進物料供應</li><li>處理分判商及客戶的糧單申請及審核</li><li>跟進工程項目款項、工程埋數及最終帳目結算</li><li>需要外勤到地盤視察及紀錄工程進度</li></ul>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (296, '447e3f733c278f07', 'Land Surveyor (Kwai Chung)', 'MAX CHINA ENGINEERING LIMITED 豐華工程有限公司', 'land_surveying', 'Hong Kong', '', 'Employer Ref: DC/2022/06 LS (Kwai Chung Area)       Recruit Ref: L06069920    
+    Posting Date: 2026-06-30    
+
+   MAX CHINA ENGINEERING LIMITED 豐華工程有限公司
+
+  
+
+   Land Surveyor (Kwai Chung)           Responsibilities:
+
+         Administering a Geospatial Services and Land Survey Division;     Carrying out / checking all survey and mapping work;     Undertaking geographical information system related spatial data collection, input, updating and analysing work;     Supervising the preparation and production of survey plans and writing of survey reports;     Responsible for preparation of tender submissions;     Management of sub-contractors; and Training and supervising junior officers.        Requirements:
+
+         Degree in Geomatics / Land Surveying and Geoinformatics, from a Hong Kong polytechnic university, or equivalent;     Holder of a Chartered Membership professional status (e.g. HKIS, RICS) or equivalent as recognized by Land Surveying Ordinance     At least 5 years post-qualification professional training and working experience in the related field;     Met the language proficiency requirements of “Level 2” or above in Chinese Language and English     Language in the Hong Kong Diploma of Secondary Education Examination (HKDSEE) or the Hong Kong     Certificate of Education Examination (HKCEE), or equivalent;     Knowledge of and possession of experience in Geographical Information System (GIS) and Building Information     Modelling (BIM) would be an advantage;     Self-motivated, logical and systematic thinker;     A good team player with interests to work in a diverse and dynamic international culture;     Good command of spoken and written English and Chinese.             Please submit application with resume to            [via CTgoodjobs Apply Now]               
+      Industry:       Engineering / Electrical / Electronics         Job Category / Function:       Building / Architectural (Surveying)          Building / Architectural (Civil / Structural)  ', '', 'https://jobs.ctgoodjobs.hk/job/10170840/land-surveyor-kwai-chung?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_CTgoodjobs.hk', '11 days ago', '', 0, 'experienced', '2026-07-13 00:11:24', '2026-07-13 00:11:24', 1, '<p>Employer Ref: DC/2022/06 LS (Kwai Chung Area)       Recruit Ref: L06069920 Posting Date: 2026-06-30</p>
+<h3 class="jd-section-header">MAX CHINA ENGINEERING LIMITED 豐華工程有限公司</h3>
+<ul class="jd-list"><li>Land Surveyor (Kwai Chung)           Responsibilities:</li><li>Administering a Geospatial Services and Land Survey Division;     Carrying out / checking all survey and mapping work;     Undertaking geographical information system related spatial data collection, input, updating and analysing work;     Supervising the preparation and production of survey plans and writing of survey reports;     Responsible for preparation of tender submissions;     Management of sub-contractors; and Training and supervising junior officers.        Requirements:</li><li>Degree in Geomatics / Land Surveying and Geoinformatics, from a Hong Kong polytechnic university, or equivalent;     Holder of a Chartered Membership professional status (e.g. HKIS, RICS) or equivalent as recognized by Land Surveying Ordinance     At least 5 years post-qualification professional training and working experience in the related field;     Met the language proficiency requirements of “Level 2” or above in Chinese Language and English     Language in the Hong Kong Diploma of Secondary Education Examination (HKDSEE) or the Hong Kong     Certificate of Education Examination (HKCEE), or equivalent;     Knowledge of and possession of experience in Geographical Information System (GIS) and Building Information     Modelling (BIM) would be an advantage;     Self-motivated, logical and systematic thinker;     A good team player with interests to work in a diverse and dynamic international culture;     Good command of spoken and written English and Chinese.             Please submit application with resume to            [via CTgoodjobs Apply Now]</li><li>Industry:       Engineering / Electrical / Electronics         Job Category / Function:       Building / Architectural (Surveying)          Building / Architectural (Civil / Structural)</li></ul>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (297, '21633ae7d389a7eb', 'Resident Senior Survey Officer (Quantity) 駐地盤高級測量主任 (工料) (Ref No. 參考編號: WSSSF_RSSO(Q))', 'AtkinsRéalis', 'quantity_surveying', '香港', '', 'Water Supplies Department 水務署
+Water Supply to New Housing Developments in Sheung Shui and Fanling
+上水粉嶺新房屋發展供水計劃
+
+
+AtkinsRealis Asia Limited invites applications for the following Resident Site Staff positions. The proposed work mainly comprise construction of a new fresh water service reservoir at Tong Hang and laying of about 14km water mains in Sheung Shui and Fanling areas. The works contracts in New Engineering Contract (NEC) form have commenced for phased completion before 2027.
+
+
+阿特金斯睿萊亞洲有限公司接受以下駐地盤職位的申請。主要工程包括在塘坑建造新食水配水庫及在上水及粉嶺地區敷設約 14 公里長水管。工程合約以「新工程合約」形式進行,工程已展開並預計於 2027 分階段完成。
+
+
+Resident Senior Survey Officer (Quantity) 駐地盤高級測量主任 (工料) (Ref No. 參考編號: WSSSF_RSSO(Q))
+
+
+Candidates should have:
+Diploma or Higher Certificate from a Construction Industry Council/ Hong Kong Institute of Construction/ Hong Kong Polytechnic/ Polytechnic University, the Hong Kong Institute of Vocational Education or a technical institute/college or equivalent in an appropriate discipline; and
+Level 2 or above in Chinese Language and English Language in HKDSEE/ HKCEE or equivalent; and
+
+
+At least 7 years’ relevant post-qualification experience; or
+
+
+At least 7 years’ relevant experience as Resident Survey Officer (Quantity) or equivalent in public works projects or those listed in Section 4.5.2 of the RSS Management Handbook.
+
+
+申請人必須:
+
+
+(一) 持有建造業議會 / 香港建造學院 / 香港理工學院 / 理工大學或香港專業教育學院 / 工業學院 / 科技學院頒發相關學科的文憑或高級證書或具備同等學歷; 及
+
+
+(二) 語文能力要求具備香港中學文憑考試或香港中學會考中國語文科和英國語文科第 2 級成績或以上,或具備同等學歷;及
+
+
+(三) 具有最少七年於取得該等資格後之相關工作經驗;或
+
+
+(四) 具有最少七年在工務工程項目或駐工地人員管理手册第 4.5.2 章所列工程項目中擔任駐地盤測量主任(工料)的相關工作經驗。
+
+
+Appointment will be made on contract term in accordance with the prevailing Government’s conditions and terms applicable for Resident Site Staff. The incumbents will be required to work irregular hours, overtime and shifts (including Saturdays, Sundays and public holidays) and to carry out supervision duties in Mainland China or overseas if necessary.
+
+
+聘用條款將按獲聘時政府駐工地員工相關的條款及條件而定。如有需要,任職者可能需要不定時、超時和輪班 (包括星期六、日和公眾', '', 'https://bebee.com/hk/jobs/resident-senior-survey-officer-quantity-ref-no-wsssf-rssoq-atkinsrealis-hong-kong--t7xk-759420549?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_BeBee', '1 day ago', '', 0, 'experienced', '2026-07-13 00:11:54', '2026-07-13 00:11:54', 1, '<p>Water Supplies Department 水務署 Water Supply to New Housing Developments in Sheung Shui and Fanling 上水粉嶺新房屋發展供水計劃</p>
+<p>AtkinsRealis Asia Limited invites applications for the following Resident Site Staff positions. The proposed work mainly comprise construction of a new fresh water service reservoir at Tong Hang and laying of about 14km water mains in Sheung Shui and Fanling areas. The works contracts in New Engineering Contract (NEC) form have commenced for phased completion before 2027.</p>
+<p>阿特金斯睿萊亞洲有限公司接受以下駐地盤職位的申請。主要工程包括在塘坑建造新食水配水庫及在上水及粉嶺地區敷設約 14 公里長水管。工程合約以「新工程合約」形式進行,工程已展開並預計於 2027 分階段完成。</p>
+<p>Resident Senior Survey Officer (Quantity) 駐地盤高級測量主任 (工料) (Ref No. 參考編號: WSSSF_RSSO(Q))</p>
+<p>Candidates should have: Diploma or Higher Certificate from a Construction Industry Council/ Hong Kong Institute of Construction/ Hong Kong Polytechnic/ Polytechnic University, the Hong Kong Institute of Vocational Education or a technical institute/college or equivalent in an appropriate discipline; and Level 2 or above in Chinese Language and English Language in HKDSEE/ HKCEE or equivalent; and</p>
+<p>At least 7 years’ relevant post-qualification experience; or</p>
+<p>At least 7 years’ relevant experience as Resident Survey Officer (Quantity) or equivalent in public works projects or those listed in Section 4.5.2 of the RSS Management Handbook.</p>
+<p>申請人必須:</p>
+<p>(一) 持有建造業議會 / 香港建造學院 / 香港理工學院 / 理工大學或香港專業教育學院 / 工業學院 / 科技學院頒發相關學科的文憑或高級證書或具備同等學歷; 及</p>
+<p>(二) 語文能力要求具備香港中學文憑考試或香港中學會考中國語文科和英國語文科第 2 級成績或以上,或具備同等學歷;及</p>
+<p>(三) 具有最少七年於取得該等資格後之相關工作經驗;或</p>
+<p>(四) 具有最少七年在工務工程項目或駐工地人員管理手册第 4.5.2 章所列工程項目中擔任駐地盤測量主任(工料)的相關工作經驗。</p>
+<p>Appointment will be made on contract term in accordance with the prevailing Government’s conditions and terms applicable for Resident Site Staff. The incumbents will be required to work irregular hours, overtime and shifts (including Saturdays, Sundays and public holidays) and to carry out supervision duties in Mainland China or overseas if necessary.</p>
+<p>聘用條款將按獲聘時政府駐工地員工相關的條款及條件而定。如有需要,任職者可能需要不定時、超時和輪班 (包括星期六、日和公眾</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (298, '6cb3996f95ed515e', '工場助理（油漆／土地測量）', 'VOCATIONAL TRAINING COUNCIL', 'land_surveying', '香港', '', '香港專業教育學院（摩理臣山）
+
+ 
+
+部門 : 建造工程系
+
+參考編號 : C/MH-CN/MEC2(PLS)/06/26-AP1
+
+
+
+主要職責：
+
+(a)    為建造工程的教學工場（例如 : 油漆、土地測量等）提供教學支援；
+
+(b)    準備、安排、分發及盤點課堂實習所需的材料及工具；
+
+(c)    安裝、維修、搬運及保養實習工場的工具及設備，並處理維修計劃及保存良好記錄；
+
+(d)    負責保持工場環境及設施之安全和清潔；及
+
+(e)    支援學系舉辦之活動和展覽及外勤工作支援。
+
+      
+
+入職條件：
+
+(a)    (i)    完成相關認可訓練課程（包括學徒及技工訓練），並於取得有關學歷後具有最少兩年相關工作經驗；或
+
+        (ii)    通過技能測試或相等水平測試，並具有最少兩年相關工作經驗；
+
+(b)    能閱讀及書寫中文和簡單英語；及
+
+(c)    懂基本電腦操作。
+
+           
+
+備註：
+
+(1)    以上職位之職級為「二級機械工」。
+
+(2)    申請人如具有在相關領域中豐富經驗和成就但缺乏所需的學術／專業資格，或者具有卓越的學術／專業資格但經驗較少也可以申請。
+
+(3)    應徵者或需參加技能測試。
+
+(4)    受聘者可能需要輪班工作，並於星期六、日及公眾假期當值。
+
+(5)    為配合運作需要，受聘者日後可能會被調派至其他工作地點工作。
+
+(6)    申請人如在過去一年內曾就該職位遞交申請表格，則無須重新遞交。
+
+
+申請辦法：
+
+填妥的申請表格 [VTC-1 (Rev. 11/2024)] 連同個人履歷，須電郵至vtcjob-hroap@vtc.edu.hk。
+
+ 
+
+申請人應注意以下事項：
+
+(1)    填妥的申請表（VTC-1）和個人履歷應合併為一個PDF 格式的文件，檔案容量應不超過10MB。
+
+(2)    文件名稱應為“您的英文姓氏和名字”，例如“CHAN Siu-lam.pdf”。
+
+(3)    郵件主旨請註明“申請工場助理（油漆/土地測量）(C/MH-CN/MEC2(PLS)/06/26-AP1)”。
+
+(4)    其他證明文件的正本及複印本請按要求於稍後提交。
+
+           
+
+申請人之篩選將會即時進行直至有關職位空缺已被填補為止。
+
+ 
+
+本局保留不填補上述職位的權利。
+
+ 
+
+申請人的資料只會用於有關本局的人事招聘事宜。 在一般情況下，未獲取錄申請人的資料將於招聘工作完成十二個月後全部銷毀。', '', 'https://jobs.ctgoodjobs.hk/job/10163577/%E5%B7%A5%E5%A0%B4%E5%8A%A9%E7%90%86%EF%BC%88%E6%B2%B9%E6%BC%86%EF%BC%8F%E5%9C%9F%E5%9C%B0%E6%B8%AC%E9%87%8F%EF%BC%89?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_CTgoodjobs', '18 days ago', '', 1, 'entry', '2026-07-13 00:11:57', '2026-07-13 00:11:57', 1, '<p>香港專業教育學院（摩理臣山）</p>
+<p>部門 : 建造工程系</p>
+<h3 class="jd-section-header">參考編號 : C/MH-CN/MEC2(PLS)/06/26-AP1</h3>
+<p>主要職責：</p>
+<p>(a)    為建造工程的教學工場（例如 : 油漆、土地測量等）提供教學支援；</p>
+<p>(b)    準備、安排、分發及盤點課堂實習所需的材料及工具；</p>
+<p>(c)    安裝、維修、搬運及保養實習工場的工具及設備，並處理維修計劃及保存良好記錄；</p>
+<p>(d)    負責保持工場環境及設施之安全和清潔；及</p>
+<p>(e)    支援學系舉辦之活動和展覽及外勤工作支援。</p>
+<p>入職條件：</p>
+<p>(a)    (i)    完成相關認可訓練課程（包括學徒及技工訓練），並於取得有關學歷後具有最少兩年相關工作經驗；或</p>
+<p>(ii)    通過技能測試或相等水平測試，並具有最少兩年相關工作經驗；</p>
+<p>(b)    能閱讀及書寫中文和簡單英語；及</p>
+<p>(c)    懂基本電腦操作。</p>
+<p>備註：</p>
+<p>(1)    以上職位之職級為「二級機械工」。</p>
+<p>(2)    申請人如具有在相關領域中豐富經驗和成就但缺乏所需的學術／專業資格，或者具有卓越的學術／專業資格但經驗較少也可以申請。</p>
+<p>(3)    應徵者或需參加技能測試。</p>
+<p>(4)    受聘者可能需要輪班工作，並於星期六、日及公眾假期當值。</p>
+<p>(5)    為配合運作需要，受聘者日後可能會被調派至其他工作地點工作。</p>
+<p>(6)    申請人如在過去一年內曾就該職位遞交申請表格，則無須重新遞交。</p>
+<p>申請辦法：</p>
+<p>填妥的申請表格 [VTC-1 (Rev. 11/2024)] 連同個人履歷，須電郵至vtcjob-hroap@vtc.edu.hk。</p>
+<p>申請人應注意以下事項：</p>
+<p>(1)    填妥的申請表（VTC-1）和個人履歷應合併為一個PDF 格式的文件，檔案容量應不超過10MB。</p>
+<p>(2)    文件名稱應為“您的英文姓氏和名字”，例如“CHAN Siu-lam.pdf”。</p>
+<p>(3)    郵件主旨請註明“申請工場助理（油漆/土地測量）(C/MH-CN/MEC2(PLS)/06/26-AP1)”。</p>
+<p>(4)    其他證明文件的正本及複印本請按要求於稍後提交。</p>
+<p>申請人之篩選將會即時進行直至有關職位空缺已被填補為止。</p>
+<p>本局保留不填補上述職位的權利。</p>
+<p>申請人的資料只會用於有關本局的人事招聘事宜。 在一般情況下，未獲取錄申請人的資料將於招聘工作完成十二個月後全部銷毀。</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (299, '82e6c0e9027e7089', 'Resident Land Surveyor 駐地盤土地測量 Ref. No: RLS/19514/Water', 'AECOM Asia Co Ltd', 'land_surveying', 'Hong Kong (+3 others)', '', 'Drainage Services Department  
+ 渠務署  
+ Agreement No. CE 30/2014 (DS) 
+ Relocation of Sha Tin Sewage Treatment Works to Caverns: 
+ Caverns and Sewage Treatment Works – Investigation, Design and Construction 
+   
+ 合約編號   CE 30/2014 (DS)  
+ 搬遷沙田污水處理廠往岩洞：岩洞及污水處理廠 –勘查研究、設計及建造   
+ AECOM Asia Company Limited  invites applications for a range of Resident Site Staff position(s) for contract administration and supervision for Relocation of Sha Tin Sewage Treatment Works to Caverns project, which mainly comprises the construction of main caverns complex at Nui Po Shan of about 14 hectares in area; cavern sewage treatment works; a ventilation shaft and ventilation adit; site formation works at portal areas; ancillary buildings at portal areas; emergency bypass; construction and installation of cavern ventilation system; and other associated works.
+ 艾奕康有限公司 現招聘下列駐地盤工程人員負責上述香港政府工程的合約管理和工程監督。工程主要包括在女婆山興建面積約14公頃的主體岩洞建築群、  岩洞內的污水處理設施、 1個通風井及通風坑道、在隧道入口處進行工地平整工程和附屬建築物、1條緊急排放管道、建造和安裝岩洞通風系統，以及其他相關工程。 
+
+Resident Land Surveyor 駐地盤土地測量  Ref. No: RLS/19514/Water
+
+Candidates should have:
+
+Corporate Membership of the Hong Kong Institution of Surveyors in Land Surveying Division or equivalent.
+申請人必須 :
+
+為香港測量師學會 (土地測量組別 ) 的正式會員或具備同等資格。  
+Applicants should also refer to the other requirement(s) stipulated in Appendix 7.4 of “Management Handbook for Direct Employment of Resident Site Staff by Consultants for Public Works Projects” from the webpage of Development Bureau.
+ 
+申請人亦須參閱發展局網頁 “ 關於顧問公司直接僱用駐地盤人員的管理手冊 ” 附錄 7.4 所載的其他同等學歷和經驗。 
+
+The candidates should have minimum academic/ professional qualification requirements of the above posts.
+
+申請人必須具備以上最低要求之學歷╱專業資格。
+
+Conditions: Appointments will be made on Agreement Terms with  AECOM Asia Company Limited  in accordance with the prevailing Government’s terms and conditions. Salary will commensurate with qualifications and experience.
+
+聘用條款 : 獲取錄的申請人，  艾奕康有限公司 會以合約形式聘請，聘用條款將按受聘時政府採用的編制而定。受聘人之薪酬按資歷及經驗而定。
+
+Where a large number of candidates meet the specifi', '', 'https://jobs.ctgoodjobs.hk/job/10179754/resident-land-surveyor-%E9%A7%90%E5%9C%B0%E7%9B%A4%E5%9C%9F%E5%9C%B0%E6%B8%AC%E9%87%8F-ref-no-rls19514water?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_CTgoodjobs.hk', '5 days ago', '', 0, 'experienced', '2026-07-13 16:01:06', '2026-07-13 16:01:06', 1, '<p>Drainage Services Department 渠務署 Agreement No. CE 30/2014 (DS) Relocation of Sha Tin Sewage Treatment Works to Caverns: Caverns and Sewage Treatment Works – Investigation, Design and Construction</p>
+<h3 class="jd-section-header">合約編號   CE 30/2014 (DS)</h3>
+<ul class="jd-list"><li>搬遷沙田污水處理廠往岩洞：岩洞及污水處理廠 –勘查研究、設計及建造</li><li>AECOM Asia Company Limited  invites applications for a range of Resident Site Staff position(s) for contract administration and supervision for Relocation of Sha Tin Sewage Treatment Works to Caverns project, which mainly comprises the construction of main caverns complex at Nui Po Shan of about 14 hectares in area; cavern sewage treatment works; a ventilation shaft and ventilation adit; site formation works at portal areas; ancillary buildings at portal areas; emergency bypass; construction and installation of cavern ventilation system; and other associated works.</li><li>艾奕康有限公司 現招聘下列駐地盤工程人員負責上述香港政府工程的合約管理和工程監督。工程主要包括在女婆山興建面積約14公頃的主體岩洞建築群、  岩洞內的污水處理設施、 1個通風井及通風坑道、在隧道入口處進行工地平整工程和附屬建築物、1條緊急排放管道、建造和安裝岩洞通風系統，以及其他相關工程。</li><li>Resident Land Surveyor 駐地盤土地測量  Ref. No: RLS/19514/Water</li><li>Candidates should have:</li></ul>
+<p>Corporate Membership of the Hong Kong Institution of Surveyors in Land Surveying Division or equivalent. 申請人必須 :</p>
+<p>為香港測量師學會 (土地測量組別 ) 的正式會員或具備同等資格。 Applicants should also refer to the other requirement(s) stipulated in Appendix 7.4 of “Management Handbook for Direct Employment of Resident Site Staff by Consultants for Public Works Projects” from the webpage of Development Bureau.</p>
+<p>申請人亦須參閱發展局網頁 “ 關於顧問公司直接僱用駐地盤人員的管理手冊 ” 附錄 7.4 所載的其他同等學歷和經驗。</p>
+<p>The candidates should have minimum academic/ professional qualification requirements of the above posts.</p>
+<p>申請人必須具備以上最低要求之學歷╱專業資格。</p>
+<p>Conditions: Appointments will be made on Agreement Terms with  AECOM Asia Company Limited  in accordance with the prevailing Government’s terms and conditions. Salary will commensurate with qualifications and experience.</p>
+<p>聘用條款 : 獲取錄的申請人，  艾奕康有限公司 會以合約形式聘請，聘用條款將按受聘時政府採用的編制而定。受聘人之薪酬按資歷及經驗而定。</p>
+<p>Where a large number of candidates meet the specifi</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (300, '5cd4fb28bef52570', 'Senior Land Surveyor: Lead Projects & Client Growth', 'Binnie', 'land_surveying', 'Hong Kong', '', 'Binnie is seeking a Senior Land Surveyor to join the Victoria team, leading varied geomatics projects with occasional field visits. You will drive project scope, schedules and deliverables, coordinating with senior staff to secure the necessary resources and ensure timely completion.
+You will develop proposals, monitor survey performance, and cultivate strong client relationships while supporting business development efforts and mentoring staff.
+#J-18808-Ljbffr', '', 'https://www.recruit.net/job/land-surveyor-projects-client-growth-jobs/E0926427EB58588E?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Recruit.net', '16 hours ago', '', 0, 'experienced', '2026-07-13 16:01:06', '2026-07-13 16:01:06', 1, '<p>Binnie is seeking a Senior Land Surveyor to join the Victoria team, leading varied geomatics projects with occasional field visits. You will drive project scope, schedules and deliverables, coordinating with senior staff to secure the necessary resources and ensure timely completion. You will develop proposals, monitor survey performance, and cultivate strong client relationships while supporting business development efforts and mentoring staff. #J-18808-Ljbffr</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (301, '598f3de7421b2a96', '助理量測師', 'PAUL Y. - CRCC (TUE 1202) 合資企業', 'quantity_surveying', '東涌', '', 'Responsibilities:1. Assist in cost planning, cost control, and the associated reporting duties;2. Assessment of sub-contractor’s payments and carry out measurements;3. Assist in preparing the tender documents and payment applications;4. Maintain and update the records and documentsJob Requirements:1. Diploma in Quantity Surveying or equivalent and above;2. 3 years of relevant experience, less experience or fresh graduates 3. Well organized, proactive and initiative;4. Good command of spoken & written English and Chinese;5. Good in PC operation.', '', 'https://www.offertoday.com/hk/job/RDpOB25aCwQZHIboNtEX4A%3D%3D?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_OfferToday', '5 days ago', '', 0, 'experienced', '2026-07-13 16:01:32', '2026-07-13 16:01:32', 1, '<h3 class="jd-section-header">Responsibilities</h3>
+<ul class="jd-list"><li>1. Assist in cost planning, cost control, and the associated reporting duties;2. Assessment of sub-contractor’s payments and carry out measurements;3. Assist in preparing the tender documents and payment applications;4. Maintain and update the records and documentsJob Requirements:1. Diploma in Quantity Surveying or equivalent and above;2. 3 years of relevant experience, less experience or fresh graduates 3. Well organized, proactive and initiative;4. Good command of spoken &amp; written English and Chinese;5. Good in PC operation.</li></ul>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (302, '5d3459d6440e3247', '助理工料測量員', '協興建築有限公司', 'quantity_surveying', '香港', '', '參考號碼: HH-AQS/Internet
+ 
+ 
+  職責
+  
+   To maintain and update the QS records, site documents, filing, and drawings required for proper performance of QS duties.
+   Carry out measurement for purpose of ordering, subletting, variation estimates and final accounts.
+   Evaluate the Sub-Contractor interim payment.
+   Notify and contra charge the Sub-Contractor payment.
+   Check and verify Sub-Contractors daywork.
+   Prepare and keep up to date records and photos of variation works and abortive works.
+   Assist in the preparation of interim payment applications.
+  
+ 
+ 
+  要求
+  
+   Degree in Quantity Surveying or equivalent.
+   1 year relevant working experience.
+   Good command of spoken and written English & Chinese.
+   Proactive, outgoing and initiative.
+   Sound interpersonal and communication skills.
+   Able and willing to work under pressure and tight schedule.
+  
+ 
+ 
+  
+   Attractive salary and fringe benefits will be offered to the successful candidates. 
+   
+
+  
+  
+   All personal data collected will be used for recruitment purposes only. 
+   
+
+  
+  
+   Applicants who are not invited for an interview within 8 weeks may consider their applications unsuccessful.', '', 'https://hk.indeed.com/viewjob?jk=67bb1bdb6a139d7b&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Indeed', '2026-07-14', '', 1, 'entry', '2026-07-13 16:02:01', '2026-07-13 16:02:01', 1, '<p>參考號碼: HH-AQS/Internet</p>
+<p>職責</p>
+<p>To maintain and update the QS records, site documents, filing, and drawings required for proper performance of QS duties. Carry out measurement for purpose of ordering, subletting, variation estimates and final accounts. Evaluate the Sub-Contractor interim payment. Notify and contra charge the Sub-Contractor payment. Check and verify Sub-Contractors daywork. Prepare and keep up to date records and photos of variation works and abortive works. Assist in the preparation of interim payment applications.</p>
+<p>要求</p>
+<p>Degree in Quantity Surveying or equivalent. 1 year relevant working experience. Good command of spoken and written English &amp; Chinese. Proactive, outgoing and initiative. Sound interpersonal and communication skills. Able and willing to work under pressure and tight schedule.</p>
+<p>Attractive salary and fringe benefits will be offered to the successful candidates.</p>
+<p>All personal data collected will be used for recruitment purposes only.</p>
+<p>Applicants who are not invited for an interview within 8 weeks may consider their applications unsuccessful.</p>', 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (303, 'b7ecd06fd4fde6db', '合約助理土地測量師', 'Civil Service Bureau', 'land_surveying', '香港', '', '職位編號:
+   
+   
+    50094
+   
+  
+  
+
+  
+   
+    部門:
+   
+   
+    民政事務總署
+   
+  
+  
+
+  
+   
+    組別/單位:
+   
+   
+    總部第一科測量組
+   
+  
+  
+
+  
+   
+    職位名稱:
+   
+   
+    合約助理土地測量師
+   
+  
+  
+
+  
+   
+    薪酬:
+   
+   
+    月薪港幣31,695元
+   
+  
+  
+
+  
+   
+    入職條件:
+   
+   
+    (a) 具備獲香港測量師學會承認為符合該會土地測量組正式會員所需學歷要求的資格[註(1)]； 
+    
+
+     (b) 取得上述學歷資格後，在香港測量師學會不時就該會土地測量組發出的專業評核試規則及指引所載的相關範疇具備至少兩年專業訓練及工作經驗，或同等經驗[註(2)]；以及 
+    
+
+     (c) 符合語文能力要求，即在香港中學文憑考試或香港中學會考，中國語文科和英國語文科，考獲第2級或以上成績，或具備同等成績[註(3)]。
+   
+  
+  
+
+  
+   
+    註:
+   
+   
+    (1) 申請人如在二零二六年九月三十日或之前已成為香港測量師學會土地測量組的正式會員，或具備同等專業資格；及在取得專業資格後在土地測量方面具備一年或以上相關的工作經驗，將不會獲考慮聘用為合約助理土地測量師。獲取錄的申請人必須就上述有關資料作出聲明。 
+    
+
+     (2) 如申請人尚未具備入職條件(b)所述至少兩年相關範疇的專業訓練及工作經驗，但正接受相關專業訓練，並將於二零二六年九月三十日或之前取得所需兩年專業訓練和工作經驗也可申請；申請人如獲錄用，必須在二零二六年九月三十日或之前取得最少兩年專業訓練資格及工作經驗才獲聘任。 
+    
+
+     (3) 2007年前的香港中學會考中國語文科和英國語文科(課程乙) E級成績，在行政上會被視為等同2007年或之後香港中學會考中國語文科和英國語文科第2級成績。
+   
+  
+  
+
+  
+   
+    職責:
+   
+   
+    合約助理土地測量師主要負責： 
+    
+
+     (1) 進行各類土地測量工作(包括大地測量、土地界線測量、地形測量及攝影測量)，以及與地理信息系統／數碼攝影測量有關的工作； 
+    
+
+     (2) 督導測量工作隊伍； 
+    
+
+     (3) 監督所有測量及製備圖則的工作； 
+    
+
+     (4) 協助高級土地測量師／土地測量師處理辦公室的日常行政工作；以及 
+    
+
+     (5) 按照上司指示執行任何其他職務。
+   
+  
+  
+
+  
+   
+    聘用條款:
+   
+   
+    (1) 應徵者如獲錄用，將會按非公務員合約條款受聘，合約期不多於12個月。 
+    
+
+     (2) 續約與否須視乎屆時部門的服務需求及受聘人的工作表現而定。 
+    
+
+     (3) 受聘人或需於戶外、不定時工作以及在星期六、星期日及公眾假期工作。
+   
+  
+  
+
+  
+   
+    福利:
+   
+   
+    (1) 獲聘者如圓滿履行合約，而期間表現理想及行為良好，可獲發約滿酬金。如獲發酬金，酬金數額連同政府按照《強制性公積金計劃條例》的規定為獲聘者向強制性公積金計劃所作的供款，相等於獲聘者在合約期內所得基本薪金總額的15%；以及 
+    
+
+     (2) 獲聘者可按照《僱傭條例》的規定享有休息日、法定假日（或代替假日）、年假、產假/ 侍產假和疾病津貼等福利（如適用）。
+   
+  
+  
+
+  
+   
+    附註:
+   
+   
+    (1) 除另有指明外，申請人於獲聘時必須已成為香港特別行政區永久性居民。 
+    
+
+     (2) 作為提供平等就業機會的僱主，政府致力消除在就業方面的歧視。所有符合基本入職條件的人士，不論其殘疾、性別、婚姻狀況、懷孕、年齡、家庭崗位、性傾向和種族，均可申請本欄內的職位。 
+    
+
+     (3) 非公務員職位並不是公務員編制內的職位。應徵者如獲聘用，將不會按公務員聘用條款和服務條件聘用。獲聘的應徵者並非公務員，並不會享有獲調派、晉升或轉職至公務員職位的資格。 
+    
+
+     (4) 入職薪酬、聘用條款及服務條件，應以獲聘時之規定為準。 
+    
+
+     (5) 如果符合訂明入職條件的應徵者人數眾多，招聘部門可以訂立篩選準則，甄選條件較佳的應徵者，以便進一步處理。在此情況下，只有獲篩選的應徵者會獲邀參加招聘考試 面試。 
+    
+
+     (6) 政府的政策，是盡可能安排殘疾人士擔任適合的職位', '', 'https://hk.indeed.com/viewjob?jk=11216a284d46d0d8&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Indeed', '18 days ago', '', 1, 'entry', '2026-07-13 16:02:16', '2026-07-13 16:02:16', 1, '<p>職位編號:</p>
+<p>50094</p>
+<p>部門:</p>
+<p>民政事務總署</p>
+<p>組別/單位:</p>
+<p>總部第一科測量組</p>
+<p>職位名稱:</p>
+<p>合約助理土地測量師</p>
+<p>薪酬:</p>
+<p>月薪港幣31,695元</p>
+<p>入職條件:</p>
+<p>(a) 具備獲香港測量師學會承認為符合該會土地測量組正式會員所需學歷要求的資格[註(1)]；</p>
+<p>(b) 取得上述學歷資格後，在香港測量師學會不時就該會土地測量組發出的專業評核試規則及指引所載的相關範疇具備至少兩年專業訓練及工作經驗，或同等經驗[註(2)]；以及</p>
+<p>(c) 符合語文能力要求，即在香港中學文憑考試或香港中學會考，中國語文科和英國語文科，考獲第2級或以上成績，或具備同等成績[註(3)]。</p>
+<p>註:</p>
+<p>(1) 申請人如在二零二六年九月三十日或之前已成為香港測量師學會土地測量組的正式會員，或具備同等專業資格；及在取得專業資格後在土地測量方面具備一年或以上相關的工作經驗，將不會獲考慮聘用為合約助理土地測量師。獲取錄的申請人必須就上述有關資料作出聲明。</p>
+<p>(2) 如申請人尚未具備入職條件(b)所述至少兩年相關範疇的專業訓練及工作經驗，但正接受相關專業訓練，並將於二零二六年九月三十日或之前取得所需兩年專業訓練和工作經驗也可申請；申請人如獲錄用，必須在二零二六年九月三十日或之前取得最少兩年專業訓練資格及工作經驗才獲聘任。</p>
+<p>(3) 2007年前的香港中學會考中國語文科和英國語文科(課程乙) E級成績，在行政上會被視為等同2007年或之後香港中學會考中國語文科和英國語文科第2級成績。</p>
+<p>職責:</p>
+<p>合約助理土地測量師主要負責：</p>
+<p>(1) 進行各類土地測量工作(包括大地測量、土地界線測量、地形測量及攝影測量)，以及與地理信息系統／數碼攝影測量有關的工作；</p>
+<p>(2) 督導測量工作隊伍；</p>
+<p>(3) 監督所有測量及製備圖則的工作；</p>
+<p>(4) 協助高級土地測量師／土地測量師處理辦公室的日常行政工作；以及</p>
+<p>(5) 按照上司指示執行任何其他職務。</p>
+<p>聘用條款:</p>
+<p>(1) 應徵者如獲錄用，將會按非公務員合約條款受聘，合約期不多於12個月。</p>
+<p>(2) 續約與否須視乎屆時部門的服務需求及受聘人的工作表現而定。</p>
+<p>(3) 受聘人或需於戶外、不定時工作以及在星期六、星期日及公眾假期工作。</p>
+<p>福利:</p>
+<p>(1) 獲聘者如圓滿履行合約，而期間表現理想及行為良好，可獲發約滿酬金。如獲發酬金，酬金數額連同政府按照《強制性公積金計劃條例》的規定為獲聘者向強制性公積金計劃所作的供款，相等於獲聘者在合約期內所得基本薪金總額的15%；以及</p>
+<p>(2) 獲聘者可按照《僱傭條例》的規定享有休息日、法定假日（或代替假日）、年假、產假/ 侍產假和疾病津貼等福利（如適用）。</p>
+<p>附註:</p>
+<p>(1) 除另有指明外，申請人於獲聘時必須已成為香港特別行政區永久性居民。</p>
+<p>(2) 作為提供平等就業機會的僱主，政府致力消除在就業方面的歧視。所有符合基本入職條件的人士，不論其殘疾、性別、婚姻狀況、懷孕、年齡、家庭崗位、性傾向和種族，均可申請本欄內的職位。</p>
+<p>(3) 非公務員職位並不是公務員編制內的職位。應徵者如獲聘用，將不會按公務員聘用條款和服務條件聘用。獲聘的應徵者並非公務員，並不會享有獲調派、晉升或轉職至公務員職位的資格。</p>
+<p>(4) 入職薪酬、聘用條款及服務條件，應以獲聘時之規定為準。</p>
+<p>(5) 如果符合訂明入職條件的應徵者人數眾多，招聘部門可以訂立篩選準則，甄選條件較佳的應徵者，以便進一步處理。在此情況下，只有獲篩選的應徵者會獲邀參加招聘考試 面試。</p>
+<p>(6) 政府的政策，是盡可能安排殘疾人士擔任適合的職位</p>', 0);
 
 -- cv_data: 1 rows
 INSERT OR REPLACE INTO cv_data (id, full_text, parsed_sections, key_skills, education, experience_summary, created_at, updated_at) VALUES (1, 'CHAN Tai Man, Michael
