@@ -1,9 +1,9 @@
 -- Auto-generated snapshot of jobs.db
--- Generated: 2026-07-14
+-- Generated: 2026-07-15
 
 BEGIN TRANSACTION;
 
--- jobs: 191 rows
+-- jobs: 195 rows
 DELETE FROM jobs;
 INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (1, 'arcadis_2026 Graduate Quanti', '2026 Graduate Quantity Surveyor (Hong Kong & Macau)', 'Arcadis', 'quantity_surveying', 'Kowloon', 'HK$18,000-25,000', 'Join Arcadis as a Graduate Quantity Surveyor in our Hong Kong office. You will work on major infrastructure projects across Hong Kong and Macau, preparing cost estimates, managing tender processes, and finalizing project accounts. This is a structured 2-year graduate programme with mentorship from senior QS professionals and a clear pathway to HKIS/RICS chartership.', 'Degree in Quantity Surveying or related discipline. Strong analytical and numerical skills. Good command of English and Chinese. Fresh graduates welcome.', 'https://hk.linkedin.com/jobs/view/arcadis-2026-graduate-quantity-surveyor-hong-kong-macau-at-arcadis-4268302914', 'manual_seed', '2026-07-01', NULL, 1, 'entry', '2026-07-01 11:40:55', '2026-07-01 11:40:55', 1, '<p>Join Arcadis as a Graduate Quantity Surveyor in our Hong Kong office. You will work on major infrastructure projects across Hong Kong and Macau, preparing cost estimates, managing tender processes, and finalizing project accounts. This is a structured 2-year graduate programme with mentorship from senior QS professionals and a clear pathway to HKIS/RICS chartership.</p>', 0);
 INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (2, 'aecom_2026 HK Graduate Pro', '2026 HK Graduate Program — Building Surveying', 'AECOM', 'building_surveying', 'Shatin', 'HK$17,000-22,000', 'AECOM 2026 Hong Kong Graduate Program offers opportunities in Building Surveying. You will be involved in building inspection, maintenance planning, project management, and statutory submissions. The program includes rotational assignments across different project types.', 'BSc in Building Surveying or equivalent. Knowledge of building regulations. Proficiency in AutoCAD. No prior experience required.', 'https://aecom.jobs/hong-kong-hkg/aecom-2026-hong-kong-graduate-program/602489C3650746F899C7D88860527360/job/', 'manual_seed', '2026-07-01', NULL, 1, 'entry', '2026-07-01 11:40:55', '2026-07-01 11:40:55', 1, '<p>AECOM 2026 Hong Kong Graduate Program offers opportunities in Building Surveying. You will be involved in building inspection, maintenance planning, project management, and statutory submissions. The program includes rotational assignments across different project types.</p>', 0);
@@ -5931,19 +5931,40 @@ Interested candidates please send full resume to email: ****@viewbond.com.hk.
 
 For enquiries, please contact Mr. Siu at 70758485.', '', 'https://bebee.com/hk/jobs/land-surveyor-assistant-surveyor-viewbond-hong-kong-kowloon-city--techmap_hk_a143705ffcbbf954e37105df0f0bbdb5?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_BeBee', '2026-07-14', '', 0, 'experienced', '2026-07-14 04:42:59', '2026-07-14 04:42:59', 1, NULL, 0);
 INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (309, '3e37daddbbbf46c3', 'Senior Quantity Surveyor', 'Jardine Engineering Corporation', 'quantity_surveying', 'Hong Kong', NULL, '', '', 'https://hk.linkedin.com/jobs/view/senior-quantity-surveyor-at-jardine-engineering-corporation-4440380800?position=7&pageNum=0&refId=0sYIBqwldBTH4kDg5uEJSQ%3D%3D&trackingId=fblMbegmGdAPG9mNy%2Baqyg%3D%3D', 'linkedin', '2026-07-14', '', 0, 'experienced', '2026-07-14 04:43:43', '2026-07-14 04:43:43', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (310, 'fb360bf1793d7712', 'Assistant Resident Land Surveyor 駐地盤助理土地測量師 Ref. No: ARLS/19516/Water', 'AECOM Asia Co Ltd', 'land_surveying', '香港 (+3 others)', '', 'Drainage Services Department  
+ 渠務署  
+ Agreement No. CE 30/2014 (DS) 
+ Relocation of Sha Tin Sewage Treatment Works to Caverns: 
+ Caverns and Sewage Treatment Works – Investigation, Design and Construction 
+   
+ 合約編號   CE 30/2014 (DS)  
+ 搬遷沙田污水處理廠往岩洞：岩洞及污水處理廠 –勘查研究、設計及建造   
+ AECOM Asia Company Limited  invites applications for a range of Resident Site Staff position(s) for contract administration and supervision for Relocation of Sha Tin Sewage Treatment Works to Caverns project, which mainly comprises the construction of main caverns complex at Nui Po Shan of about 14 hectares in area; cavern sewage treatment works; a ventilation shaft and ventilation adit; site formation works at portal areas; ancillary buildings at portal areas; emergency bypass; construction and installation of cavern ventilation system; and other associated works.
+ 艾奕康有限公司 現招聘下列駐地盤工程人員負責上述香港政府工程的合約管理和工程監督。工程主要包括在女婆山興建面積約14公頃的主體岩洞建築群、  岩洞內的污水處理設施、 1個通風井及通風坑道、在隧道入口處進行工地平整工程和附屬建築物、1條緊急排放管道、建造和安裝岩洞通風系統，以及其他相關工程。 
 
--- sqlite_sequence: 8 rows
-DELETE FROM sqlite_sequence;
-INSERT OR REPLACE INTO sqlite_sequence (name, seq) VALUES ('salary_benchmarks', 8);
-INSERT OR REPLACE INTO sqlite_sequence (name, seq) VALUES ('jobs', 309);
-INSERT OR REPLACE INTO sqlite_sequence (name, seq) VALUES ('cv_data', 1);
-INSERT OR REPLACE INTO sqlite_sequence (name, seq) VALUES ('cv_match_results', 70);
-INSERT OR REPLACE INTO sqlite_sequence (name, seq) VALUES ('skill_gap_analysis', 1);
-INSERT OR REPLACE INTO sqlite_sequence (name, seq) VALUES ('company_profiles', 42);
-INSERT OR REPLACE INTO sqlite_sequence (name, seq) VALUES ('applications', 18);
-INSERT OR REPLACE INTO sqlite_sequence (name, seq) VALUES ('graduate_schemes', 16);
+Assistant Resident Land Surveyor 駐地盤助理土地測量師  Ref. No: ARLS/19516/Water
 
--- applications: 0 rows (skipped)
+Candidates should have:
+
+Bachelor Degree from University or equivalent in an appropriate discipline; andAt least 2 years’ relevant post-qualification experience.  
+申請人必須 :
+
+持有大學頒發相關學科的學士學位或具備同等學歷；及具有最少兩年於取得該等資格後的相關工作經驗。  
+Applicants should also refer to the other requirement(s) stipulated in Appendix 7.4 of “Management Handbook for Direct Employment of Resident Site Staff by Consultants for Public Works Projects” from the webpage of Development Bureau.
+ 
+申請人亦須參閱發展局網頁 “ 關於顧問公司直接僱用駐地盤人員的管理手冊 ” 附錄 7.4 所載的其他同等學歷和經驗。 
+
+The candidates should have minimum academic/ professional qualification requirements of the above posts.
+
+申請人必須具備以上最低要求之學歷╱專業資格。
+
+Conditions: Appointments will be made on Agreement Terms with  AECOM Asia Company Limited  in accordance with the prevailing Government’s terms and conditions. Salary will commensurate with qualifications and experience.
+
+聘用條款 : 獲取錄的申請人，  艾奕康有限公司 會以合約形式聘請，聘用條款將按受聘時政府採用的編制而定。受聘人之薪酬', '', 'https://jobs.ctgoodjobs.hk/job/10179727/assistant-resident-land-surveyor-%E9%A7%90%E5%9C%B0%E7%9B%A4%E5%8A%A9%E7%90%86%E5%9C%9F%E5%9C%B0%E6%B8%AC%E9%87%8F%E5%B8%AB-ref-no-arls19516water?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_CTgoodjobs.hk', '6 days ago', '', 0, 'experienced', '2026-07-14 16:02:18', '2026-07-14 16:02:18', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (311, '2d58e641aeae8e98', '【香港】嘉輝建築工程有限公司招聘', 'easyjobs853', 'quantity_surveying', '香港', 'HK$30000-40000', '【香港工料測量師招聘】月薪$30,000 - $40,000（視乎經驗而定）！福利包含年終獎金、銀行假期及年假12天。專上教育文憑或證書程度，具3年或以上建築工程項目管理經驗', '', 'https://www.easyjobs853.com/5676/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Easyjobs853 | 澳門', '27 days ago', '', 1, 'entry', '2026-07-14 16:02:32', '2026-07-14 16:02:32', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (312, '7d1d3b8722f33c4b', 'Senior Quantity Surveyor / Project Quantity Surveyor', 'Jardine Engineering Corporation', 'quantity_surveying', 'Hong Kong', NULL, '', '', 'https://hk.linkedin.com/jobs/view/senior-quantity-surveyor-project-quantity-surveyor-at-jardine-engineering-corporation-4440380800?position=2&pageNum=0&refId=CAkN1HNUN4%2F7gN5CYf3EYw%3D%3D&trackingId=8aKBxHjLm1EbGfBuSF7gXQ%3D%3D', 'linkedin', '2026-07-15', '', 0, 'experienced', '2026-07-14 16:03:14', '2026-07-14 16:03:14', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (313, '5c428f862dad1928', 'Assistant Team Leader / Team Leader / Senior Team Leader: Quantity Surveying (Hong Kong)', 'Arcadis', 'quantity_surveying', 'Hong Kong', NULL, '', '', 'https://hk.linkedin.com/jobs/view/assistant-team-leader-team-leader-senior-team-leader-quantity-surveying-hong-kong-at-arcadis-4437697156?position=22&pageNum=0&refId=CAkN1HNUN4%2F7gN5CYf3EYw%3D%3D&trackingId=AEIJqXAPAT6sCz9caxBLLA%3D%3D', 'linkedin', '2026-07-15', '', 0, 'experienced', '2026-07-14 16:03:14', '2026-07-14 16:03:14', 1, NULL, 0);
+
 -- cv_data: 1 rows
 DELETE FROM cv_data;
 INSERT OR REPLACE INTO cv_data (id, full_text, parsed_sections, key_skills, education, experience_summary, created_at, updated_at) VALUES (1, 'CHAN Tai Man, Michael
