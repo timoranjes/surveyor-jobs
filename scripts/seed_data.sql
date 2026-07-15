@@ -3,7 +3,7 @@
 
 BEGIN TRANSACTION;
 
--- jobs: 195 rows
+-- jobs: 197 rows
 DELETE FROM jobs;
 INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (1, 'arcadis_2026 Graduate Quanti', '2026 Graduate Quantity Surveyor (Hong Kong & Macau)', 'Arcadis', 'quantity_surveying', 'Kowloon', 'HK$18,000-25,000', 'Join Arcadis as a Graduate Quantity Surveyor in our Hong Kong office. You will work on major infrastructure projects across Hong Kong and Macau, preparing cost estimates, managing tender processes, and finalizing project accounts. This is a structured 2-year graduate programme with mentorship from senior QS professionals and a clear pathway to HKIS/RICS chartership.', 'Degree in Quantity Surveying or related discipline. Strong analytical and numerical skills. Good command of English and Chinese. Fresh graduates welcome.', 'https://hk.linkedin.com/jobs/view/arcadis-2026-graduate-quantity-surveyor-hong-kong-macau-at-arcadis-4268302914', 'manual_seed', '2026-07-01', NULL, 1, 'entry', '2026-07-01 11:40:55', '2026-07-01 11:40:55', 1, '<p>Join Arcadis as a Graduate Quantity Surveyor in our Hong Kong office. You will work on major infrastructure projects across Hong Kong and Macau, preparing cost estimates, managing tender processes, and finalizing project accounts. This is a structured 2-year graduate programme with mentorship from senior QS professionals and a clear pathway to HKIS/RICS chartership.</p>', 0);
 INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (2, 'aecom_2026 HK Graduate Pro', '2026 HK Graduate Program — Building Surveying', 'AECOM', 'building_surveying', 'Shatin', 'HK$17,000-22,000', 'AECOM 2026 Hong Kong Graduate Program offers opportunities in Building Surveying. You will be involved in building inspection, maintenance planning, project management, and statutory submissions. The program includes rotational assignments across different project types.', 'BSc in Building Surveying or equivalent. Knowledge of building regulations. Proficiency in AutoCAD. No prior experience required.', 'https://aecom.jobs/hong-kong-hkg/aecom-2026-hong-kong-graduate-program/602489C3650746F899C7D88860527360/job/', 'manual_seed', '2026-07-01', NULL, 1, 'entry', '2026-07-01 11:40:55', '2026-07-01 11:40:55', 1, '<p>AECOM 2026 Hong Kong Graduate Program offers opportunities in Building Surveying. You will be involved in building inspection, maintenance planning, project management, and statutory submissions. The program includes rotational assignments across different project types.</p>', 0);
@@ -5964,6 +5964,58 @@ Conditions: Appointments will be made on Agreement Terms with  AECOM Asia Compan
 INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (311, '2d58e641aeae8e98', '【香港】嘉輝建築工程有限公司招聘', 'easyjobs853', 'quantity_surveying', '香港', 'HK$30000-40000', '【香港工料測量師招聘】月薪$30,000 - $40,000（視乎經驗而定）！福利包含年終獎金、銀行假期及年假12天。專上教育文憑或證書程度，具3年或以上建築工程項目管理經驗', '', 'https://www.easyjobs853.com/5676/?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Easyjobs853 | 澳門', '27 days ago', '', 1, 'entry', '2026-07-14 16:02:32', '2026-07-14 16:02:32', 1, NULL, 0);
 INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (312, '7d1d3b8722f33c4b', 'Senior Quantity Surveyor / Project Quantity Surveyor', 'Jardine Engineering Corporation', 'quantity_surveying', 'Hong Kong', NULL, '', '', 'https://hk.linkedin.com/jobs/view/senior-quantity-surveyor-project-quantity-surveyor-at-jardine-engineering-corporation-4440380800?position=2&pageNum=0&refId=CAkN1HNUN4%2F7gN5CYf3EYw%3D%3D&trackingId=8aKBxHjLm1EbGfBuSF7gXQ%3D%3D', 'linkedin', '2026-07-15', '', 0, 'experienced', '2026-07-14 16:03:14', '2026-07-14 16:03:14', 1, NULL, 0);
 INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (313, '5c428f862dad1928', 'Assistant Team Leader / Team Leader / Senior Team Leader: Quantity Surveying (Hong Kong)', 'Arcadis', 'quantity_surveying', 'Hong Kong', NULL, '', '', 'https://hk.linkedin.com/jobs/view/assistant-team-leader-team-leader-senior-team-leader-quantity-surveying-hong-kong-at-arcadis-4437697156?position=22&pageNum=0&refId=CAkN1HNUN4%2F7gN5CYf3EYw%3D%3D&trackingId=AEIJqXAPAT6sCz9caxBLLA%3D%3D', 'linkedin', '2026-07-15', '', 0, 'experienced', '2026-07-14 16:03:14', '2026-07-14 16:03:14', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (314, 'bef7fcf580602688', 'Quantity Surveyor', 'Hip Hing Construction Co Ltd', 'quantity_surveying', 'Hong Kong', '', 'Responsibilities
+
+
+
+	
+		Prepare cost and variations estimates, interim payment applications and payment certification for subcontracts, materials and plants.
+	
+		Carry out measurement for the purpose of subletting, material ordering, variation estimates and final accounts.
+	
+		Prepare contra-charge account against subcontractors.
+	
+		Assist in the collection and preparation of information and records for contractual claims and insurance claims.
+	
+		Assist in the preparation of completion job cost/income forecast.
+	
+		Assist in the preparation and settlement of Final Accounts for both the Main Contract and Subcontracts.
+	
+		Assist in the implementation of the requirements of the Manuals in respect of all Quantity Surveying functions.
+
+
+	Requirements
+
+
+
+	
+		Degree in Quantity Surveying or equivalent.
+	
+		3 years relevant working experience.
+	
+		Good command of spoken and written English & Chinese.
+	
+		Proactive, outgoing and initiative.
+	
+		Sound interpersonal and communication skills.
+	
+		Able and willing to work under pressure and tight schedule.
+
+
+	Attractive salary and fringe benefits will be offered to the successful candidates. Please apply with full resume, available date, present and expected salary and quoting the reference code on the letter & envelope to THE HUMAN RESOURCES DEPARTMENT, HIP HING CONSTRUCTION CO., LTD., 11/F., Chevalier Commercial Centre, No. 8 Wang Hoi Road, Kowloon Bay, Hong Kong OR click "Apply on Company Website" OR fax to 2530 4360.
+
+
+
+	Company Website: www.hiphing.com.hk
+
+
+
+	All personal data collected will be used for recruitment purposes only.
+
+
+
+	Applicants who are not invited for an interview within 8 weeks may consider their applications unsuccessful.', '', 'https://jobs.ctgoodjobs.hk/job/10180207/quantity-surveyor?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_CTgoodjobs.hk', '5 days ago', '', 0, 'experienced', '2026-07-15 00:10:18', '2026-07-15 00:10:18', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (315, '9a9de3e5135925bd', 'Fleet in service Surveyor', 'DNV', 'other', 'Hong Kong', NULL, '', '', 'https://hk.linkedin.com/jobs/view/fleet-in-service-surveyor-at-dnv-4438004590?position=12&pageNum=0&refId=UOELTy4iy1If%2FR4su3flPA%3D%3D&trackingId=aEAhOH73RnxmZUBUrr%2FdSw%3D%3D', 'linkedin', '2026-07-15', '', 1, 'entry', '2026-07-15 00:12:30', '2026-07-15 00:12:30', 1, NULL, 0);
 
 -- cv_data: 1 rows
 DELETE FROM cv_data;
