@@ -1,9 +1,9 @@
 -- Auto-generated snapshot of jobs.db
--- Generated: 2026-07-16
+-- Generated: 2026-07-17
 
 BEGIN TRANSACTION;
 
--- jobs: 204 rows
+-- jobs: 212 rows
 DELETE FROM jobs;
 INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (1, 'arcadis_2026 Graduate Quanti', '2026 Graduate Quantity Surveyor (Hong Kong & Macau)', 'Arcadis', 'quantity_surveying', 'Kowloon', 'HK$18,000-25,000', 'Join Arcadis as a Graduate Quantity Surveyor in our Hong Kong office. You will work on major infrastructure projects across Hong Kong and Macau, preparing cost estimates, managing tender processes, and finalizing project accounts. This is a structured 2-year graduate programme with mentorship from senior QS professionals and a clear pathway to HKIS/RICS chartership.', 'Degree in Quantity Surveying or related discipline. Strong analytical and numerical skills. Good command of English and Chinese. Fresh graduates welcome.', 'https://hk.linkedin.com/jobs/view/arcadis-2026-graduate-quantity-surveyor-hong-kong-macau-at-arcadis-4268302914', 'manual_seed', '2026-07-01', NULL, 1, 'entry', '2026-07-01 11:40:55', '2026-07-01 11:40:55', 1, '<p>Join Arcadis as a Graduate Quantity Surveyor in our Hong Kong office. You will work on major infrastructure projects across Hong Kong and Macau, preparing cost estimates, managing tender processes, and finalizing project accounts. This is a structured 2-year graduate programme with mentorship from senior QS professionals and a clear pathway to HKIS/RICS chartership.</p>', 0);
 INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (2, 'aecom_2026 HK Graduate Pro', '2026 HK Graduate Program — Building Surveying', 'AECOM', 'building_surveying', 'Shatin', 'HK$17,000-22,000', 'AECOM 2026 Hong Kong Graduate Program offers opportunities in Building Surveying. You will be involved in building inspection, maintenance planning, project management, and statutory submissions. The program includes rotational assignments across different project types.', 'BSc in Building Surveying or equivalent. Knowledge of building regulations. Proficiency in AutoCAD. No prior experience required.', 'https://aecom.jobs/hong-kong-hkg/aecom-2026-hong-kong-graduate-program/602489C3650746F899C7D88860527360/job/', 'manual_seed', '2026-07-01', NULL, 1, 'entry', '2026-07-01 11:40:55', '2026-07-01 11:40:55', 1, '<p>AECOM 2026 Hong Kong Graduate Program offers opportunities in Building Surveying. You will be involved in building inspection, maintenance planning, project management, and statutory submissions. The program includes rotational assignments across different project types.</p>', 0);
@@ -6254,6 +6254,366 @@ INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, locati
 
 
  WSP (Asia) Limited has been appointed by Civil Engineering and Development Department as the consultant for the construction contract for Contract No. ND/2024/11 – Improvement to So Kwun Po Interchange . The works mainly comprise (1) construction of north-south link road of about 700m connecting Pak Wo Road and San Wan Road; (2) reconstruction of sections of So Kwun Po Road near North District Park; (3) widening of the north-western slip road from So Kwun Po Road to San Wan Road; (4) reconstruction/ realignment of So Kwun Po Road between Kai Leung Roundabout and Pak Wo Road; (5) improvement works at the junction of San Wan Road and the proposed north-south link road; (6) improvement works at the junction of Pak Wo Road and So Kwun Po Road; (7) construction of a lift and a staircase linking San Wan Road and elevated So Kwun Po Road; (8) construction of a pedestrian subway across So Kwun Po Road near Pak Wo Road; (9) re-provision of the skating rink within North District Park affected by the road works; and (10) associated works including geotechnical, landscape, drainage, water, electrical and mechanical, environmental mitigations, street lighting and utilities works, as well as installation of street furniture and traffic aids. The works have commenced in August 202', '', 'https://hk.indeed.com/viewjob?jk=d12d02b5f8980c95&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Indeed', '15 hours ago', '', 0, 'experienced', '2026-07-16 00:11:28', '2026-07-16 00:11:28', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (323, 'c2fd608d7d5d8086', 'Quantity Surveyor', 'Arcadis', 'quantity_surveying', 'Hong Kong', '', 'As an Arcadian, you already help us deliver world leading sustainable design, engineering, and consultancy solutions for natural and built assets. You are part of our global business comprising 34,000 people, in over 30 countries, dedicated to improving quality of life.
+
+Everyone has an important role to play. With the power of many curious minds, together we can continue to solve the world’s most complex challenges and deliver more impact together.
+
+Role description:
+
+Arcadis Hong Kong is looking for Quantity Surveying Professionals to join our team. 
+
+Role accountabilities:
+
+  * Preparation of pre-contract cost estimates and project cash-flow
+
+  * Preparation of tender documentation
+
+  * Tendering process and tender evaluation
+
+  * Post-contract administration and management – contract documentation, valuation of progress payment, variation assessment, and cost control report
+
+  * Finalization of project final accounts
+
+
+
+
+Qualifications & Experience:
+
+  * Degree in Quantity Surveying
+
+  * 1 to 2 years of related experience in Quantity Surveying
+
+  * With technical knowledge – Measurement, cost estimating, construction technology, contracts and law
+
+  * Candidates with pre-contract experience and consultancy background will have advantage
+
+  * Understand and familiar with professional practice and contract administration processes
+
+  * Able to work as a team player
+
+  * Ability to communicate clearly in both spoken and written English
+
+  * Ability to communicate clearly in spoken Cantonese and written Chinese
+
+
+
+
+Continue your career journey as an Arcadian.
+
+We can only achieve our goals when everyone is empowered to be their best. We believe everyone''s contribution matters. It’s why we are pioneering a skills based approach, where you can harness your unique experience and expertise to carve your career path and maximize the impact we can make together.
+
+You do meaningful work, and no matter where your next role in Arcadis takes you, you’ll be helping to deliver ', '', 'https://jobs.arcadis.com/careers/job/563671531937160?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Arcadis Careers', '7 days ago', '', 0, 'experienced', '2026-07-17 00:11:04', '2026-07-17 00:11:04', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (324, '1adf9bedd5ca8e41', 'Quantity Surveying Assistant/ Trainee', 'Wo Hing Construction Company Ltd', 'quantity_surveying', 'Hong Kong', '', 'Wo Hing is a well established civil engineering Main Contractor. We are recruiting high calibre individuals to fill the following positions to work on a variety of challenging utilities/infrastructure projects: 
+
+
+
+Responsibilities:
+
+
+ Assist in preparing a project budget, estimation, tendering and procurement. 
+
+
+
+
+ Provide daily clerical, administrative, and documentation support to the Quantity Surveying team. 
+
+
+
+
+ Assist the Team Leader and project team in handling QS duties. 
+
+
+
+
+ Maintain organized project files and assist in preparing simple contractual documents. 
+
+
+
+
+ Handle any ad-hoc administrative tasks as assigned by supervisors. 
+
+
+
+Requirements:
+
+
+ Completed secondary education (HKDSE / HKCEE or equivalent); fresh graduates are welcome. 
+
+
+
+
+ Possess basic knowledge of quantity surveying or construction engineering. 
+
+
+
+
+ Relevant internship or working experience in the construction industry is highly preferred. 
+
+
+
+
+ Proficient in MS Office applications (Word & Excel). 
+
+
+
+
+ Good team player with a strong sense of responsibility and a willing-to-learn attitude. 
+
+
+
+
+ Immediate availability is a distinct advantage. 
+
+
+
+
+ Candidates with more solid experience will be considered for the position of Quantity Surveying Assistant. 
+
+
+
+
+ Applicants should send their C.V. with expected salary and availability by clicking Apply Now. 
+
+
+
+
+ Personal data collected will be used for recruitment purpose only. 
+
+
+
+
+ Full-time,Permanent', '', 'https://hk.indeed.com/viewjob?jk=829c3e7e6ae624e0&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Indeed', '10 days ago', '', 1, 'graduate', '2026-07-17 00:11:08', '2026-07-17 00:11:08', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (325, '25616f3e20e16532', 'Quantity Surveyor Trainee', 'Yau Lee Holdings Limited', 'quantity_surveying', 'Hong Kong', '', 'Responsibilities:
+  Support general quantity surveying and contract administration for pre and post sub-contract which include taking off quantities from drawings, preparation of cost estimation and subcontract documents
+
+
+  Evaluation of sub-contractor’s variation orders and payment claims and settlement of final accounts.
+  Requirements
+  Higher Diploma/Diploma in Quantity Surveying or Building Studies or related discipline.
+
+
+  Proficiency in MS Office applications.
+
+
+  2 years working experience in Main Contractor preferred.
+
+
+  Good interpersonal and communication skills.
+
+
+  We offer competitive remuneration package with comprehensive fringe benefits to the right candidates including lunch, double pay and medical benefits. Interested parties, please send your full resume, with current and expected salary, date of availability to email *@yaulee.com', '', 'https://bebee.com/hk/jobs/quantity-surveyor-trainee-yau-lee-holdings-limited-hong-kong--techmap_hk_cac09c65ac8784e30fef7284ad8237ea?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_BeBee', '2 days ago', '', 1, 'graduate', '2026-07-17 00:11:08', '2026-07-17 00:11:08', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (326, 'e5018129963de9ec', 'Resident Quantity Surveyor 駐地盤工料測量師 (Job ID#10573', 'WSP (Asia) Limited', 'quantity_surveying', '香港', '', 'WSP (Asia) Limited has been appointed by Civil Engineering and Development Department as the consultant for the construction contract for Contract No. ND/2024/11 – Improvement to So Kwun Po Interchange. The works mainly comprise (1) construction of north-south link road of about 700m connecting Pak Wo Road and San Wan Road; (2) reconstruction of sections of So Kwun Po Road near North District Park; (3) widening of the north-western slip road from So Kwun Po Road to San Wan Road; (4) reconstruction/ realignment of So Kwun Po Road between Kai Leung Roundabout and Pak Wo Road; (5) improvement works at the junction of San Wan Road and the proposed north-south link road; (6) improvement works at the junction of Pak Wo Road and So Kwun Po Road; (7) construction of a lift and a staircase linking San Wan Road and elevated So Kwun Po Road; (8) construction of a pedestrian subway across So Kwun Po Road near Pak Wo Road; (9) re-provision of the skating rink within North District Park affected by the road works; and (10) associated works including geotechnical, landscape, drainage, water, electrical and mechanical, environmental mitigations, street lighting and utilities works, as well as installation of street furniture and traffic aids. The works have commenced in August 2026 and will take about 54 months to complete.
+
+
+
+香港特別行政區政府土木工程署委派科進顧問(亞洲)有限公司為工程合約編號 ND/2024/11 – 掃管埔交匯處改善工程的工程顧問公司。
+
+
+
+上述合約的工程範圍包括 (1) 建造一條約700米長的南北連接道路，連接百和路與新運路； (2) 重建北區公園附近的掃管埔路部分路段； (3) 擴闊由掃管埔路通往新運路的西北支路； (4) 重建及重新定線介乎雞嶺迴旋處與百和路之間的掃管埔路； (5) 改善新運路與擬建南北連接道路的路口； (6) 改善百和路與掃管埔路的路口； (7) 建造連接新運路與高架掃管埔路的升降機及樓梯； (8) 建造一條近百和路橫跨掃管埔路的行人隧道； (9) 重置受道路工程影響在北區公園內的滾軸溜冰場；以及 (10) 相關工程，包括岩土工程、園境美化、排水、供水、安裝隔音屏、電力及機械工程、環境緩解措施、街道照明及公用設施工程，以及安裝街道設施和交通輔助設施。工程將於 2026 年8月展開，需約 54 個月完成。
+
+
+
+We now invite applications for the following Resident Site Staff position(s):
+
+
+
+本公司現招聘以下駐地盤工程人員職位:
+
+
+
+Resident Quantity Surveyor 駐地盤工料測量師 (Job ID#10573)
+
+
+
+
+	 Corporate Membership of the Hong Kong Institution of Surveyors (Quanti', '', 'https://jobs.ctgoodjobs.hk/job/10187184/resident-quantity-surveyor-%E9%A7%90%E5%9C%B0%E7%9B%A4%E5%B7%A5%E6%96%99%E6%B8%AC%E9%87%8F%E5%B8%AB-job-id10573?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_CTgoodjobs.hk', '2 days ago', '', 0, 'experienced', '2026-07-17 00:12:04', '2026-07-17 00:12:04', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (327, 'ef6df7390f3fad50', '測量主任(土地)', '公務員事務局', 'land_surveying', '香港', '', '職位編號:
+
+
+50158
+
+
+部門:
+
+
+地政總署
+
+
+職位名稱:
+
+
+測量主任(土地)
+
+
+薪酬:
+
+
+總薪級表第9點(每月港幣25,620元)至總薪級表第22點(每月港幣50,215元)
+
+
+入職條件:
+
+
+申請人必須：
+
+
+(a) 持有香港任何一所理工大學 理工學院、香港專業教育學院或科技學院 工業學院頒發的測繪及地理資訊學高級文憑 土地測量及地理資訊學高級文憑，或土地測量及繪圖學文憑 高級證書，或具備同等學歷[註(1)]；
+
+
+(b) 符合語文能力要求，即在香港中學文憑考試或香港中學會考，中國語文科和英國語文科，考獲「第2級」或以上成績，或具備同等資格[註(2)]；以及
+
+
+(c) 在《基本法及香港國安法》測試取得及格成績[註(3)]。
+
+
+註:
+
+
+(1) 如申請人尚未具備入職條件(a)所述學歷資格，但正修讀有關課程，並將於2026年12月31日或之前取得所需學歷資格也可申請；申請人如獲錄用，必須在上述日期或之前取得所需學歷資格才獲聘任。
+
+
+(2) 政府在聘任公務員時，2007年前的香港中學會考中國語文科和英國語文科(課程乙)「C級」及「E級」成績，在行政上會分別被視為等同2007年或之後香港中學會考中國語文科和英國語文科「第3級」和「第2級」成績。
+
+
+(3) 政府會測試所有應徵公務員職位人士的《基本法》及《香港國安法》知識。在《基本法及香港國安法》測試取得及格成績是所有公務員職位的入職條件。申請人必須在《基本法及香港國安法》測試中取得及格成績方會獲考慮聘用。如申請人在申請公務員職位時仍未曾參加相關的《基本法及香港國安法》測試或未曾在相關的《基本法及香港國安法》測試考獲及格成績，仍可作出申請。他們會被安排在招聘過程中參加相關《基本法及香港國安法》測試。
+
+
+職責:
+
+
+測量主任(土地)主要負責：
+
+
+(a) 測量工作，包括實地測量、計算、數據處理及標繪工作；
+
+
+(b) 處理與土地信息系統相關的數據輸入及更新工作；
+
+
+(c) 處理與空間數據共享平台相關的數據收集、輸入、更新和分析工作；以及
+
+
+(d) 查核圖則及空間數據。
+
+
+(註：或須調派到政府其他部門、不定時工作、在本港任何地方工作，以及在交通繁忙時、在陡峭及偏遠地區和在惡劣天氣下戶外工作。)
+
+
+聘用條款:
+
+
+獲取錄的申請人通常會按公務員試用條款受聘三年。通過試用關限後，或可獲考慮按當時適用的長期聘用條款聘用。
+
+
+附註:
+
+
+(a) 除另有指明外，申請人於獲聘時必須已成為香港特別行政區永久性居民。
+
+
+(b) 作為提供平等就業機會的僱主，政府致力消除在就業方面的歧視。所有符合基本入職條件的人士，不論其殘疾、性別、婚姻狀況、懷孕、年齡、家庭崗位、性傾向和種族，均可申請本欄內的職位。
+
+
+(c) 公務員職位是公務員編制內的職位。應徵者如獲聘用，將按公務員聘用條款和服務條件聘用，並成為公務員。
+
+
+(d) 入職薪酬、聘用條款及服務條件，應以獲聘時之規定為準。
+
+
+(e) 頂薪點的資料只供參考，該項資料日後或會作出更改。
+
+
+(f) 附帶福利包括有薪假期、醫療及牙科診療。在適當情況下，公務員更可獲得房屋資助。
+
+
+(g) 如果符合訂明入職條件的應徵者人數眾多，招聘部門可以訂立篩選準則，甄選條件較佳的應徵者，以便進一步處理。在此情況下，只有獲篩選的應徵者會獲邀參加招聘考試及 或面試。
+
+
+(h) 政府的政策，是盡可能安排殘疾人士擔任適合的職位。殘疾人士申請職位，如其符合入職條件，毋須再經篩選，便會獲邀參加面試 筆試。在適合受聘而有申報為殘疾的申請人和適合受聘程度相若的其他申請人當中，招聘當局可給予前者適度的優先錄用機會。有關政府聘用殘疾人士的政策及其他相關措施載列於《用人唯才：殘疾人士申請政府職位》的資料冊內。申請人可於公務員事務局互聯網站參閱該資料冊，網址如下：http://www.csb.gov.hk內的“公務員隊伍的管理-聘任”。
+
+
+(i) 持有本港以外學府 非香港考試及評核局頒授的學歷人士亦可申請，惟其學歷必須經過評審以確定是否與職位所要求的本地學歷水平相若。有關申請人須將修業成績掃描本及證書掃描本電郵至daoar@landsd.gov.hk。
+
+
+(j) 在臨近截止申請日期，接受網上申請的伺服器可能因為需要處理大量申請而非常繁忙。申請人應盡早遞交申請，以確保在限期前成功於網上完成申請程序。
+
+
+申請手續:
+
+
+(a) 申請人必須於2026年7月29日或之前，透過公務員事務局的 G.F. 340 網上申請系統 ( https://www.csb.gov.hk ) 作網上申請。申請書如資料不全或以親身、郵寄、傳真或電郵方式遞交，概不受理。
+
+
+(b) 申請人必須於2026年8月5日或之前，將所需證明文件：(a)有關證書、修業成績表的掃描本﹔以及(b)', '', 'https://bebee.com/hk/jobs/hong-kong--t7xk-764640628?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_BeBee', '1 day ago', '', 1, 'entry', '2026-07-17 00:12:14', '2026-07-17 00:12:14', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (328, '12da6678c0dea74d', '測量主任(土地) - 地政總署', '地政總署', 'land_surveying', 'Hong Kong', '', '測量主任(土地)主要負責：
+(a)	測量工作，包括實地測量、計算、數據處理及標繪工作；
+(b)	處理與土地信息系統相關的數據輸入及更新工作；
+(c)	處理與空間數據共享平台相關的數據收集、輸入、更新和分析工作；以及
+(d)	查核圖則及空間數據。
+(註：或須調派到政府其他部門、不定時工作、在本港任何地方工作，以及在交通繁忙時、在陡峭及偏遠地區和在惡劣天氣下戶外工作。)', '', 'https://hkslash.com/zh/posts/504926?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_HKSlash', '2 days ago', '', 1, 'entry', '2026-07-17 00:12:14', '2026-07-17 00:12:14', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (329, 'b414f1ffd0a284d6', 'Resident Quantity Surveyor (RQS) 駐地盤測量師', 'Rider Levett Bucknall', 'quantity_surveying', '粉嶺', '', 'RESIDENT SITE STAFF required for the following post to work for construction project for Architectural Services Department
+
+
+Contract No : SS L509
+
+
+Project Title : Construction of New Territories East Cultural Centre in Area 11, Fanling
+
+
+Location of Project : Fanling
+
+
+Work Location : Site Office
+
+
+Tentative Commencement Date of Job : August 2026
+
+
+Resident Quantity Surveyor (RQS)
+Minimum Qualification and Experience Requirements :-
+
+
+  MHKIS Quantity Surveying Div. or equivalent   The employment will be on a contract basis for an initial period of twelve months and may be subject to further extension according to the actual circumstances.
+Salary commensurate with qualifications. Please apply in strict confidence on or before 28 July 2026 by post or e-mail enclosing full resume, copy of testimonial from previous employer, copy of Certificate qualification, present and expected salary to the Human Resources Department, Rider Levett Bucknall Limited, 15/F, The Bay Hub, 17 Kai Cheung Road, Kowloon Bay, Hong Kong or e-mail to *@hk.rlb.com
+
+
+All information received will be kept in strict confidence and only for employment-related purposes.
+
+
+駐地盤人員是為以下由建築署轄下的建築工程項目工作而招聘的
+
+
+合約編號 : SS L509
+
+
+工程名稱 : 粉嶺第11區興建的新界東文化中心建造工程
+
+
+工程地點 : 粉嶺
+
+
+工作地點 : 地盤辦公室
+
+
+暫定工作開始日期 : 2026年8月
+
+
+駐地盤測量師
+
+
+最低資格及最少工作經驗要求：-
+
+
+  香港測量師學會會員 (工料測量) 或同等資格
+
+
+  以合約形式聘用，起初以12個月為期限，並因應實際情況考慮延長合約期。
+薪金按申請人的學歷及工作經驗釐定。申請人可以於2026年7月28日或之前將個人履歷、以往僱主的工作證明信副本及學歷證明副本，連同現時及期望的薪金等資料郵寄到利比有限公司，香港九龍九龍灣啟祥道17號太豐匯15樓，人力資源部，或電郵到recruit@hk.rlb.com均可。
+
+
+所有收集回來的資料只作招聘用途, 絕對保密。', '', 'https://bebee.com/hk/jobs/resident-quantity-surveyor-rqs-rider-levett-bucknall-fanling--techmap_hk_3dcc99148a34f00fed819f25b473d87f?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_BeBee', '2 days ago', '', 0, 'experienced', '2026-07-17 00:12:25', '2026-07-17 00:12:25', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (330, '0fa6fc8a3fab85f5', '工料測量文員', '信誠科技', 'building_surveying', '深水埗區', '', '職責協助工料測量師整理工程文件、成本資料、標書、報價及合約文件；更新工程成本與付款記錄；處理文書存檔及一般行政工作；執行上級指派之任務。任職要求中五或以上學歷；熟悉MS Office（尤重Excel）；具良好中、英文書寫及溝通能力；細心、有責任感及組織能力；歡迎無經驗申請者；須為香港永久性居民。', '', 'https://www.offertoday.com/hk/job/z8OB4RmGZnL5UjiiUhIMHA%3D%3D?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_OfferToday', '3 days ago', '', 1, 'entry', '2026-07-17 00:12:25', '2026-07-17 00:12:25', 1, NULL, 0);
 
 -- cv_data: 1 rows
 DELETE FROM cv_data;
