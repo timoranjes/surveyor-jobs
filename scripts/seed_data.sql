@@ -1,9 +1,9 @@
 -- Auto-generated snapshot of jobs.db
--- Generated: 2026-07-19
+-- Generated: 2026-07-20
 
 BEGIN TRANSACTION;
 
--- jobs: 239 rows
+-- jobs: 249 rows
 DELETE FROM jobs;
 INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (1, 'arcadis_2026 Graduate Quanti', '2026 Graduate Quantity Surveyor (Hong Kong & Macau)', 'Arcadis', 'quantity_surveying', 'Kowloon', 'HK$18,000-25,000', 'Join Arcadis as a Graduate Quantity Surveyor in our Hong Kong office. You will work on major infrastructure projects across Hong Kong and Macau, preparing cost estimates, managing tender processes, and finalizing project accounts. This is a structured 2-year graduate programme with mentorship from senior QS professionals and a clear pathway to HKIS/RICS chartership.', 'Degree in Quantity Surveying or related discipline. Strong analytical and numerical skills. Good command of English and Chinese. Fresh graduates welcome.', 'https://hk.linkedin.com/jobs/view/arcadis-2026-graduate-quantity-surveyor-hong-kong-macau-at-arcadis-4268302914', 'manual_seed', '2026-07-01', NULL, 1, 'entry', '2026-07-01 11:40:55', '2026-07-01 11:40:55', 1, '<p>Join Arcadis as a Graduate Quantity Surveyor in our Hong Kong office. You will work on major infrastructure projects across Hong Kong and Macau, preparing cost estimates, managing tender processes, and finalizing project accounts. This is a structured 2-year graduate programme with mentorship from senior QS professionals and a clear pathway to HKIS/RICS chartership.</p>', 0);
 INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (2, 'aecom_2026 HK Graduate Pro', '2026 HK Graduate Program — Building Surveying', 'AECOM', 'building_surveying', 'Shatin', 'HK$17,000-22,000', 'AECOM 2026 Hong Kong Graduate Program offers opportunities in Building Surveying. You will be involved in building inspection, maintenance planning, project management, and statutory submissions. The program includes rotational assignments across different project types.', 'BSc in Building Surveying or equivalent. Knowledge of building regulations. Proficiency in AutoCAD. No prior experience required.', 'https://aecom.jobs/hong-kong-hkg/aecom-2026-hong-kong-graduate-program/602489C3650746F899C7D88860527360/job/', 'manual_seed', '2026-07-01', NULL, 1, 'entry', '2026-07-01 11:40:55', '2026-07-01 11:40:55', 1, '<p>AECOM 2026 Hong Kong Graduate Program offers opportunities in Building Surveying. You will be involved in building inspection, maintenance planning, project management, and statutory submissions. The program includes rotational assignments across different project types.</p>', 0);
@@ -7028,6 +7028,184 @@ All information received will be kept in strict confidence and only for employme
 薪金按申請人的學歷及工作經驗釐定。申請人可以於2026年7月28日或之前將個人履歷、以往僱主的工作證明信副本及學歷證明副本，連同現時及期望的薪金等資料郵寄到利比有限公司，香港九龍九龍灣啟祥道17號太豐匯15樓，人力資源部，或電郵到recruit@hk.rlb.com均可。
 所有收集回來的資料只作招聘用途, 絕對保密。', '', 'https://bebee.com/hk/jobs/resident-quantity-surveyor-rqs-rider-levett-bucknall-limited-fanling-north-district--t7xk-765043526?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_BeBee', '2 days ago', '', 0, 'experienced', '2026-07-19 00:11:54', '2026-07-19 00:11:54', 1, NULL, 0);
 INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (357, 'e4ee92e6c838c3ad', '現場測量師', '環保封條有限公司', 'land_surveying', '屯門', '', 'Responsibilities· Coordinate with site foreman/engineer to arrange survey works;· Prepare Survey Method Statements;· Prepare, review and record survey reports from time to time;· Carry out general site surveying and levelling work;· Review the construction drawings to ensure the ink line are marked in accordance with the drawings;· Assist in site construction and management work Requirements· Holder of Degree/Diploma /Higher Certificate in Surveying or equivalent;· At least 3 years or above relevant experience in construction site;· Knowledge of computer software application in AutoCAD, Mirco Station and Excel etc.;· Holder of Driving License 1 & 2 is advantage;· Able to work independently· Candidate with less experience will be considered as Assistant Surveyor;· Working Location : : WENT Landfill - Tuen Mun', '', 'https://www.offertoday.com/hk/job/aZqiIXE9XqrvDuqkdoEdeg%3D%3D?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_OfferToday', '2 days ago', '', 0, 'experienced', '2026-07-19 00:11:57', '2026-07-19 00:11:57', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (358, '8d45ced159bd585d', 'Assistant Quantity Surveyor / QS Trainee', 'Kin Wing Engineering Company Limited', 'quantity_surveying', 'Central And Western District', '', 'Kin Wing Engineering is principally engaged in a wide range of design and construction of foundation and site investigation projects. We are also undertaking other ancillary services including site formation, ELS and pile cap construction. Our clients comprise of the renowned private and public sectors in Hong Kong and Macau.
+
+
+Our success was founded on the Group’s three core values, namely “Truth”, “Fairness” and “Freedom”. These values are mutually reinforcing and motivating which indicates our staff can promptly formulate strategies in responding to the market needs! To cope with our recent fast expanding business, we are seeking higher caliber candidates for our vacancies.
+
+
+Responsibilities
+
+
+
+
+
+
+Provide support to the Quantity Surveying (QS) department, including but not limited to handling and managing main contract and subcontract documents, overseeing subletting processes, and cost control.
+
+
+Perform measurements, payment processing, and subletting tasks.
+
+
+Handle cost estimation and final account settlements.
+
+
+Manage, monitor, and update data and documents with a focus on accuracy and compliance.
+
+
+
+Requirements
+
+
+
+
+
+
+Higher Diploma or Degree in Quantity Surveying or a related discipline.
+
+
+Minimum 2 years of solid QS experience in foundation, civil, or building projects.
+Proficient in MS Office
+
+
+Good command in spoken & written English and Chinese
+
+
+Self-motivated, well-organized, able to multitask, and eager to learn.
+
+
+Good interpersonal and communication skills
+
+
+Candidate with less experience will be considered as QS Trainee
+
+
+Fresh Graduates are also welcome
+
+
+
+
+
+Working Location: Lai Chi Kok (5 minutes walking distance from MTR station)
+Benefits
+
+
+
+
+Public Holidays
+
+
+Annual Leave: 12 working days per year
+Birthday Leave
+
+
+Group medical scheme with dental benefits
+Discretionary bonus
+
+
+
+
+
+We offer excellent career prospect and competitive package to the right candidates. For interested parties, please send your full resume with expected salary to ', '', 'https://bebee.com/hk/jobs/assistant-quantity-surveyor-qs-trainee-kin-wing-engineering-company-limited-hong-kong-sar--techmap_hk_4441327082?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_BeBee', '3 days ago', '', 1, 'graduate', '2026-07-20 00:10:40', '2026-07-20 00:10:40', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (359, 'da80155f25ce6ba5', 'Quantity Surveyor Trainee', 'Yau Lee Holdings Limited', 'quantity_surveying', 'Hong Kong', '', 'Responsibilities:
+
+Support general quantity surveying and contract administration for pre and post sub-contract which include taking off quantities from drawings, preparation of cost estimation and subcontract documentsEvaluation of sub-contractor’s variation orders and payment claims and settlement of final accounts.Requirements
+
+Higher Diploma/Diploma in Quantity Surveying or Building Studies or related discipline.Proficiency in MS Office applications.2 years working experience in Main Contractor preferred.Good interpersonal and communication skills.We offer competitive remuneration package with comprehensive fringe benefits to the right candidates including lunch, double pay and medical benefits. Interested parties, please send your full resume, with current and expected salary, date of availability to email ••••@yaulee.com', '', 'https://www.openjobs.com.hk/zh/hongkong/job/quantity-surveyor-trainee-j282721?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_OpenJobs', '3 days ago', '', 1, 'graduate', '2026-07-20 00:10:40', '2026-07-20 00:10:40', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (360, 'f30ad2d11e3dfe72', 'Senior Building Surveyor (maintenance)', 'Michael Page', 'building_surveying', 'Hong Kong', '', 'Well known developerAttractive Salary 
+About Our Client
+
+ The company is a top developer, known for its extensive portfolio and commitment to excellence in facilities management. They offer a professional working environment with a focus on delivering high-quality services. 
+
+
+Job Description
+
+ Main responsibilities will include:
+
+Overseeing and managing the maintenance and repair of building facilities within the property portfolio.Developing and implementing maintenance strategies to ensure optimal building performance.Monitoring budgets and ensuring cost-effective maintenance operations.Collaborating with contractors and service providers to ensure high-quality services.Ensuring compliance with local regulations and safety standards in building maintenance.Conducting regular inspections and audits of facilities to identify issues and prioritise repairs.Managing a team of facilities professionals and providing guidance and support.Preparing reports and presenting updates to senior management on maintenance activities and performance. 
+The Successful Applicant
+
+ Qualification:
+
+Degree holder in Building Surveying A strong background from developers or property management companies.Knowledge of local building regulations and safety standards in Hong Kong.Strong analytical and problem-solving abilities to address maintenance challenges.Excellent communication and organisational skills.A proactive approach to improving building operations and maintenance processes. 
+What''s on Offer
+
+ 
+
+Comprehensive benefits packageOpportunity to work in a reputable company and a stable careerCollaborative and professional working environment in Hong Kong.', '', 'https://www.michaelpage.com.hk/job-detail/senior-building-surveyor-maintenance/ref/jn-112025-6874636?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Michael Page', '2026-07-20', '', 0, 'experienced', '2026-07-20 00:10:48', '2026-07-20 00:10:48', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (361, '639a3f233f28c12a', 'Assistant Resident Quantity Surveyor', 'AECOM', 'quantity_surveying', '新界', '', 'Drainage Services Department
+渠務署
+
+
+Agreement No. CE 32/2022 (DS)
+
+
+Hung Shui Kiu Effluent Polishing Plant – Design and Construction
+
+
+合約編號CE 32/2022 (DS)
+
+
+洪水橋淨水設施–設計及建造
+
+
+AECOM Asia Company Limited invites applications for below listed Resident Site Staff position(s) for contract administration and supervision for the construction of Hung Shui Kiu Effluent Polishing Plant, which mainly comprises the construction of civil works, installation of electrical and mechanical facilities, and other associated works.
+
+
+艾奕康有限公司現招聘下列駐地盤工程人員負責上述香港政府工程的合約管理和工程監督。工程主要包括洪水橋淨水設施的土木工程，機電工程，以及其他相關工程。
+
+
+Assistant Resident Quantity Surveyor Ref. No: ARQS/19539/Water
+
+
+Candidates should have
+  Bachelor Degree from University or equivalent in an appropriate discipline; and
+
+
+  At least 3 years’ relevant post-qualification experience.
+
+
+  駐地盤助理工料測量師 
+申請人必須：
+
+
+  持有大學頒發相關學科的學士學位或具備同等學歷；及
+
+
+  具有最少三年於取得該等資格後的相關工作經驗。
+
+
+  Applicants should also refer to the other requirement(s) stipulated in Appendix 7.4 of “Management Handbook for Direct Employment of Resident Site Staff by Consultants for Public Works Projects” from the webpage of Development Bureau.
+申請人亦須參閱發展局網頁“關於顧問公司直接聘用駐工地人員的管理手冊”附錄7.4所載的其他同等學歷和經驗。
+
+
+The candidates should have minimum academic/ professional qualification requirements of the above posts.
+
+
+申請人必須具備以上最低要求之學歷╱專業資格。
+
+
+Conditions: Appointments will be made on Agreement Terms with AECOM Asia Company Limited in accordance with the prevailing Government’s terms and conditions. Salary will commensurate with qualifications and experience.
+
+
+聘用條款：獲取錄的申請人，艾奕康有限公司會以合約形式聘請，聘用條款將按受聘時政府採用的編制而定。受聘人之薪酬按資歷及經驗而定。
+
+
+Where a large number of candidates meet the specified entry requirements, we may devise shortlisting criteria to select the better qualified candidates for further processing. In these circumstances, only shortlisted candidates will be invited to attend recruitment interview.
+
+
+如果符合訂明入職條件的應徵者人數眾多，本公司會訂立篩選準則，甄選條件較佳的應徵者，以便進一步處理。在此情況下，只有獲篩選的應徵者會獲邀參加招聘面試。
+
+
+Interested persons please s', '', 'https://bebee.com/hk/jobs/assistant-resident-quantity-surveyor-aecom-sha-tin-distr--techmap_hk_dc1cb30ca5699ad8264715928396e2aa?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_BeBee', '7 days ago', '', 0, 'experienced', '2026-07-20 00:11:22', '2026-07-20 00:11:22', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (362, '54f65e93bf4ba346', '工地測量助理', '義合工程有限公司', 'other', '香港', '', '義合工程有限公司誠聘工地測量助理。
+ 成功應聘者將負責於工地進行一般戶外平水測量及開線工作，收集測量數據，處理和保養測量儀器及工具，並按上級指示執行相關測量工作。
+義合工程有限公司正在尋找具備以下條件的專業人才：中五程度; 良好粵語; 懂讀寫中文; 略懂讀寫英文; 持有平安咭; 持有建造業工人註冊證; 持相關證書或有地盤工作經驗優先, 持有駕駛執照(2號牌)優先。', '', 'https://job.yolo813.com/zh-hant/job/119959?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Job.yolo813.Com', '6 days ago', '', 1, 'entry', '2026-07-20 00:11:22', '2026-07-20 00:11:22', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (363, 'dd082dfb93cfe831', '工料測量師', '志強建設工程有限公司', 'quantity_surveying', '屯門', 'HK$28000-35000', '職責： 一般工料測量師工作, 申請工程糧款及V.O.、參與投標事宜、監控地盤收支、計算工程變更、管理合約，與大判進行談判，爭取符合預算的合約及取得工程糧款，確保工程符合經濟效益。與承判商、供應商和其他建築公司進行談判及相關事務。資歷： 測量專上教育文憑/證書或同等學歷； 5年以上相關工作經驗精通MS Office應用程序良好的中英文讀寫能力能夠獨立工作具鋼鐵結構工程經驗優先每月$28,000-$35,000 星期一至六: 上午8時至下午6時, 每週工作5天至6天, 星期六長短週', '', 'https://www.offertoday.com/hk/job/Q9chO92K1-XdkPMcyvxuBw==?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_OfferToday', '4 days ago', '', 1, 'entry', '2026-07-20 00:11:33', '2026-07-20 00:11:33', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (364, '638ec3e10a1d22e2', 'Graduate Quantity Surveyor', 'Chun Wo Elegant Decoration Engineering Company Ltd', 'quantity_surveying', 'Hong Kong', NULL, '', '', 'https://hk.linkedin.com/jobs/view/graduate-quantity-surveyor-at-chun-wo-elegant-decoration-engineering-company-ltd-4441776386?position=2&pageNum=0&refId=4P05RJYvR8nVOu%2BvigBbHg%3D%3D&trackingId=E4QP8JCUpZ1IUEjsDCab5w%3D%3D', 'linkedin', '2026-07-20', '', 1, 'graduate', '2026-07-20 00:12:07', '2026-07-20 00:12:07', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (365, 'eca3521fe06d29c7', 'Project Quantity Surveyor / Quantity Surveyor', 'Chun Wo Elegant Decoration Engineering Company Ltd', 'quantity_surveying', 'Hong Kong', NULL, '', '', 'https://hk.linkedin.com/jobs/view/project-quantity-surveyor-quantity-surveyor-at-chun-wo-elegant-decoration-engineering-company-ltd-4441787007?position=10&pageNum=0&refId=4P05RJYvR8nVOu%2BvigBbHg%3D%3D&trackingId=SatI5Xq2VzPbn4o426FyQQ%3D%3D', 'linkedin', '2026-07-20', '', 0, 'experienced', '2026-07-20 00:12:07', '2026-07-20 00:12:07', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (366, 'dcb7874b61c4e8f7', 'Commercial Manager / QS Manager', 'Chun Wo Elegant Decoration Engineering Company Ltd', 'quantity_surveying', 'Hong Kong', NULL, '', '', 'https://hk.linkedin.com/jobs/view/commercial-manager-qs-manager-at-chun-wo-elegant-decoration-engineering-company-ltd-4441775509?position=30&pageNum=0&refId=4P05RJYvR8nVOu%2BvigBbHg%3D%3D&trackingId=vVrwgfJsDgiwFSszFozMMA%3D%3D', 'linkedin', '2026-07-20', '', 0, 'experienced', '2026-07-20 00:12:07', '2026-07-20 00:12:07', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (367, '373b4eb549fd0208', 'Senior Quantity Surveyor/Associate Director- (Public Housing)', 'Turner & Townsend', 'quantity_surveying', 'Hong Kong', NULL, '', '', 'https://hk.linkedin.com/jobs/view/senior-quantity-surveyor-associate-director-public-housing-at-turner-townsend-4440627067?position=31&pageNum=0&refId=4P05RJYvR8nVOu%2BvigBbHg%3D%3D&trackingId=AgWNwS4Jo32SyimGtYVa7w%3D%3D', 'linkedin', '2026-07-20', '', 0, 'experienced', '2026-07-20 00:12:07', '2026-07-20 00:12:07', 1, NULL, 0);
 
 -- cv_data: 1 rows
 DELETE FROM cv_data;
