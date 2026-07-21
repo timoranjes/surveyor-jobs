@@ -1,4 +1,7 @@
-"""Job listing routes — CRUD, search, and filtering."""
+"""Job listing routes — CRUD, search, filtering, and data quality."""
+
+from datetime import datetime, date
+import json
 
 from fastapi import APIRouter, HTTPException, Query
 from backend.database import get_db
@@ -7,17 +10,53 @@ from backend.models import JobCreate, JobResponse, JobFilter
 router = APIRouter(prefix="/api/jobs", tags=["jobs"])
 
 
+def _scrape_state(conn):
+    """Return the current scrape counter and stale cutoff."""
+    counter_row = conn.execute(
+        "SELECT counter FROM scrape_counter WHERE id = 1"
+    ).fetchone()
+    counter = int(counter_row[0]) if counter_row else 0
+    return counter, counter - 3
+
+
+def _enrich_job(row, stale_cutoff):
+    """Add computed data-quality fields to a job row. Additive only."""
+    job = dict(row)
+    last_seen = int(job.get("last_seen_scrape") or 0)
+    job["stale"] = bool(last_seen > 0 and last_seen <= stale_cutoff)
+    posted = job.get("posted_date")
+    age_days = None
+    if posted:
+        try:
+            posted_day = datetime.fromisoformat(str(posted).replace("Z", "+00:00")).date()
+            age_days = max((date.today() - posted_day).days, 0)
+        except (ValueError, TypeError, OverflowError):
+            pass
+    job["age_days"] = age_days
+    job["has_closing_date"] = bool(job.get("closing_date"))
+    job["has_description"] = bool(
+        (job.get("description") or "").strip() or (job.get("description_html") or "").strip()
+    )
+    return job
+
+
+def _enrich_rows(rows, stale_cutoff):
+    return [_enrich_job(row, stale_cutoff) for row in rows]
+
+
 @router.get("")
 def list_jobs(
     discipline: str = Query(None),
     experience_level: str = Query("entry", description="graduate, entry, or all"),
     status: str = Query(None),
     search: str = Query(None),
+    stale: bool = Query(None, description="Filter by computed stale status"),
     limit: int = Query(100, le=500),
     offset: int = Query(0),
 ):
     """List jobs with optional filters. Joins application status if available."""
     conn = get_db()
+    _, stale_cutoff = _scrape_state(conn)
     query = """
         SELECT j.*, a.status as application_status
         FROM jobs j
@@ -39,6 +78,12 @@ def list_jobs(
         query += " AND (j.title LIKE ? OR j.company LIKE ? OR j.description LIKE ?)"
         s = f"%{search}%"
         params.extend([s, s, s])
+    if stale is True:
+        query += " AND j.last_seen_scrape > 0 AND j.last_seen_scrape <= ?"
+        params.append(stale_cutoff)
+    elif stale is False:
+        query += " AND (j.last_seen_scrape = 0 OR j.last_seen_scrape > ?)"
+        params.append(stale_cutoff)
 
     # Count
     count_query = query.replace(
@@ -55,7 +100,7 @@ def list_jobs(
 
     return {
         "total": total,
-        "jobs": [dict(r) for r in rows],
+        "jobs": _enrich_rows(rows, stale_cutoff),
     }
 
 
@@ -63,6 +108,7 @@ def list_jobs(
 def ranked_jobs():
     """Return all active entry/graduate jobs sorted by match_score descending."""
     conn = get_db()
+    _, stale_cutoff = _scrape_state(conn)
     rows = conn.execute("""
         SELECT j.id AS job_id, j.title, j.company, j.discipline, j.location,
                j.salary_range, j.posted_date, j.experience_level,
@@ -80,16 +126,14 @@ def ranked_jobs():
         strengths = rd.get("strengths")
         if isinstance(strengths, str):
             try:
-                import json
                 strengths = json.loads(strengths)
-            except:
+            except Exception:
                 strengths = [strengths]
         gaps = rd.get("gaps")
         if isinstance(gaps, str):
             try:
-                import json
                 gaps = json.loads(gaps)
-            except:
+            except Exception:
                 gaps = [gaps]
 
         match_score = rd.get("match_score")
@@ -97,6 +141,18 @@ def ranked_jobs():
             match_score = round(float(match_score), 1)
         else:
             match_score = 0
+
+        # Compute extra fields
+        last_seen = int(rd.get("last_seen_scrape") or 0)
+        stale = bool(last_seen > 0 and last_seen <= stale_cutoff)
+        posted = rd.get("posted_date")
+        age_days = None
+        if posted:
+            try:
+                posted_day = datetime.fromisoformat(str(posted).replace("Z", "+00:00")).date()
+                age_days = max((date.today() - posted_day).days, 0)
+            except (ValueError, TypeError, OverflowError):
+                pass
 
         results.append({
             "job_id": rd["job_id"],
@@ -111,6 +167,12 @@ def ranked_jobs():
             "strengths": (strengths if isinstance(strengths, list) else [])[:3],
             "gaps": (gaps if isinstance(gaps, list) else [])[:3],
             "has_match": bool(rd["has_match"]),
+            "stale": stale,
+            "age_days": age_days,
+            "has_closing_date": bool(rd.get("closing_date")),
+            "has_description": bool(
+                (rd.get("description") or "").strip() or (rd.get("description_html") or "").strip()
+            ),
         })
 
     conn.close()
@@ -121,6 +183,7 @@ def ranked_jobs():
 def get_job(job_id: int):
     """Get a single job with application status and match data."""
     conn = get_db()
+    _, stale_cutoff = _scrape_state(conn)
     row = conn.execute(
         """SELECT j.*, a.status as application_status, a.id as application_id,
                   m.match_score, m.strengths, m.gaps, m.suggestions,
@@ -134,7 +197,7 @@ def get_job(job_id: int):
     conn.close()
     if not row:
         raise HTTPException(status_code=404, detail="Job not found")
-    return dict(row)
+    return _enrich_job(row, stale_cutoff)
 
 
 @router.post("/scrape")
@@ -155,6 +218,75 @@ def trigger_scrape():
         return {"ok": False, "error": "Scrape timed out after 5 minutes"}
     except Exception as e:
         return {"ok": False, "error": str(e)}
+
+
+@router.post("/dedup")
+def deduplicate_jobs():
+    """Soft-delete duplicate active listings by normalized title + company.
+
+    Idempotent — safe to run multiple times. Keeps the row with the longest
+    description (or highest id if tied). Does not interfere with the scraper's
+    own last_seen_scrape pruning logic.
+    """
+    conn = get_db()
+    groups = conn.execute("""
+        SELECT LOWER(title) AS normalized_title,
+               LOWER(company) AS normalized_company,
+               COUNT(*) AS duplicate_count
+        FROM jobs
+        WHERE is_active = 1
+        GROUP BY LOWER(title), LOWER(company)
+        HAVING COUNT(*) > 1
+    """).fetchall()
+
+    deduped = 0
+    kept = 0
+    details = []
+    for group in groups:
+        rows = conn.execute("""
+            SELECT id, title, company, description,
+                   LENGTH(COALESCE(description, '')) AS description_length
+            FROM jobs
+            WHERE is_active = 1 AND LOWER(title) = ? AND LOWER(company) = ?
+            ORDER BY description_length DESC, id DESC
+        """, (group["normalized_title"], group["normalized_company"])).fetchall()
+        keeper = rows[0]
+        duplicate_ids = [row["id"] for row in rows[1:]]
+        if duplicate_ids:
+            conn.executemany(
+                "UPDATE jobs SET is_active = 0 WHERE id = ?",
+                [(job_id,) for job_id in duplicate_ids],
+            )
+            deduped += len(duplicate_ids)
+            kept += 1
+            details.append({
+                "title": keeper["title"],
+                "company": keeper["company"],
+                "kept_id": keeper["id"],
+                "duplicate_ids": duplicate_ids,
+            })
+
+    conn.commit()
+    conn.close()
+    return {"deduped": deduped, "kept": kept, "details": details}
+
+
+@router.post("/refresh-stale")
+def refresh_stale_jobs():
+    """Return the current computed stale count without adding a DB column."""
+    conn = get_db()
+    max_counter, stale_cutoff = _scrape_state(conn)
+    stale_count = conn.execute("""
+        SELECT COUNT(*) FROM jobs
+        WHERE is_active = 1 AND last_seen_scrape > 0 AND last_seen_scrape <= ?
+    """, (stale_cutoff,)).fetchone()[0]
+    conn.close()
+    return {
+        "stale": stale_count,
+        "stale_jobs": stale_count,
+        "max_scrape_counter": max_counter,
+        "cutoff": stale_cutoff,
+    }
 
 
 @router.post("")
@@ -194,4 +326,3 @@ def delete_job(job_id: int):
     conn.commit()
     conn.close()
     return {"ok": True}
-

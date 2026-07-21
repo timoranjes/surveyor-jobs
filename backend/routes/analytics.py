@@ -73,3 +73,59 @@ def get_analytics():
         "salary_benchmarks": salary_benchmarks,
         "recent_activity": [dict(r) for r in recent],
     }
+
+
+@router.get("/funnel")
+def get_funnel():
+    """Application funnel analytics — stages, counts, conversion rates, avg days in stage."""
+    conn = get_db()
+
+    stages = ["saved", "applied", "phone_screen", "interview", "assessment", "offer", "accepted", "rejected", "withdrawn"]
+
+    # Count by effective pipeline stage. Older records may only have status populated.
+    rows = conn.execute(
+        """SELECT COALESCE(NULLIF(pipeline_stage, ''), status, 'saved') AS stage,
+                  COUNT(*) AS cnt
+           FROM applications
+           GROUP BY COALESCE(NULLIF(pipeline_stage, ''), status, 'saved')"""
+    ).fetchall()
+    counts_dict = {r["stage"]: r["cnt"] for r in rows}
+    counts = [counts_dict.get(s, 0) for s in stages]
+
+    # Conversion rates between consecutive non-rejected/withdrawn stages.
+    positive_stages = [s for s in stages if s not in ("rejected", "withdrawn")]
+    conversion_rates = {}
+    for i in range(len(positive_stages) - 1):
+        from_stage = positive_stages[i]
+        to_stage = positive_stages[i + 1]
+        from_count = counts_dict.get(from_stage, 0)
+        to_count = counts_dict.get(to_stage, 0)
+        conversion_rates[f"{from_stage}_to_{to_stage}"] = round(
+            to_count / from_count * 100, 1
+        ) if from_count else 0.0
+
+    # Average days in the current stage, using pipeline_updated_at and falling
+    # back to created_at for records created before pipeline tracking existed.
+    avg_days_in_stage = {}
+    for stage in stages:
+        row = conn.execute(
+            """SELECT AVG(
+                       julianday('now') - julianday(COALESCE(
+                           NULLIF(pipeline_updated_at, ''), created_at
+                       ))
+                   ) AS avg_days
+               FROM applications
+               WHERE COALESCE(NULLIF(pipeline_stage, ''), status, 'saved') = ?""",
+            (stage,),
+        ).fetchone()
+        if row and row["avg_days"] is not None:
+            avg_days_in_stage[stage] = round(max(row["avg_days"], 0), 1)
+
+    conn.close()
+
+    return {
+        "stages": stages,
+        "counts": counts,
+        "conversion_rates": conversion_rates,
+        "avg_days_in_stage": avg_days_in_stage,
+    }

@@ -465,6 +465,10 @@ def run_full_scrape() -> dict:
     # Increment scrape counter
     conn.execute("UPDATE scrape_counter SET counter = counter + 1")
     scrape_run = conn.execute("SELECT counter FROM scrape_counter").fetchone()[0]
+    conn.execute(
+        "INSERT INTO scrape_runs (scrape_counter, ran_at) VALUES (?, ?)",
+        (scrape_run, datetime.now().isoformat()),
+    )
 
     new_count = 0
     total_found = 0

@@ -89,6 +89,19 @@ function icon(name) {
     alert: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/></svg>',
     external: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="12" height="12"><path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6"/><polyline points="15 3 21 3 21 9"/><line x1="10" y1="14" x2="21" y2="3"/></svg>',
     building: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><rect x="4" y="2" width="16" height="20" rx="2"/><line x1="9" y1="6" x2="9" y2="6.01"/><line x1="15" y1="6" x2="15" y2="6.01"/><line x1="9" y1="10" x2="9" y2="10.01"/><line x1="15" y1="10" x2="15" y2="10.01"/><line x1="9" y1="14" x2="9" y2="14.01"/><line x1="15" y1="14" x2="15" y2="14.01"/></svg>',
+    users: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>',
+    calendar: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><rect x="3" y="4" width="18" height="18" rx="2" ry="2"/><line x1="16" y1="2" x2="16" y2="6"/><line x1="8" y1="2" x2="8" y2="6"/><line x1="3" y1="10" x2="21" y2="10"/></svg>',
+    'map-pin': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0 1 18 0z"/><circle cx="12" cy="10" r="3"/></svg>',
+    'graduation-cap': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M22 10v6M2 10l10-5 10 5-10 5z"/><path d="M6 12v5c3 3 9 3 12 0v-5"/></svg>',
+    'thumbs-up': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M14 9V5a3 3 0 0 0-3-3l-4 9v11h11.28a2 2 0 0 0 2-1.7l1.38-9a2 2 0 0 0-2-2.3H14zM7 22H4a2 2 0 0 1-2-2v-7a2 2 0 0 1 2-2h3"/></svg>',
+    'thumbs-down': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M10 15v4a3 3 0 0 0 3 3l4-9V2H5.72a2 2 0 0 0-2 1.7l-1.38 9a2 2 0 0 0 2 2.3H10zM17 2h3a2 2 0 0 1 2 2v7a2 2 0 0 1-2 2h-3"/></svg>',
+    shuffle: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><polyline points="16 3 21 3 21 8"/><line x1="4" y1="20" x2="21" y2="3"/><polyline points="21 16 21 21 16 21"/><line x1="15" y1="15" x2="21" y2="21"/><line x1="4" y1="4" x2="9" y2="9"/></svg>',
+    'alert-triangle': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M10.29 3.86L1.82 18a2 2 0 0 0 1.71 3h16.94a2 2 0 0 0 1.71-3L13.71 3.86a2 2 0 0 0-3.42 0z"/><line x1="12" y1="9" x2="12" y2="13"/><line x1="12" y1="17" x2="12.01" y2="17"/></svg>',
+    'hard-hat': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M2 18v1c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2v-1"/><path d="M4 18v-6a8 8 0 0 1 16 0v6"/><path d="M2 18h20"/><rect x="9" y="14" width="6" height="4" rx="1"/></svg>',
+    newspaper: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M4 22h16a2 2 0 0 0 2-2V4a2 2 0 0 0-2-2H8a2 2 0 0 0-2 2v16a2 2 0 0 1-2 2zm0 0a2 2 0 0 1-2-2v-9h2"/><path d="M10 6h6"/><path d="M10 10h6"/><path d="M10 14h4"/></svg>',
+    star: '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"/></svg>',
+    'check-circle': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>',
+    'clipboard-list': '<svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="14" height="14"><rect x="3" y="3" width="18" height="18" rx="2"/><line x1="9" y1="11" x2="9" y2="11.01"/><line x1="9" y1="15" x2="9" y2="15.01"/><line x1="11" y1="11" x2="14" y2="11"/><line x1="11" y1="15" x2="14" y2="15"/><line x1="8" y1="7" x2="16" y2="7"/></svg>',
   };
   return icons[name] || '';
 }
@@ -147,7 +160,10 @@ function renderJobs(jobsArr) {
     return;
   }
   list.innerHTML = jobsArr.map(j => {
-    const matchBadge = j.match_score != null
+    const matchBadge = j.has_match && j.match_score != null
+      ? `<span class="job-tag matched-badge">${icon('check-circle')} Matched</span>`
+      : '';
+    const matchCell = j.match_score != null
       ? `<div class="match-cell"><div class="match-badge ${j.match_score >= 70 ? 'match-high' : j.match_score >= 40 ? 'match-medium' : 'match-low'}">${j.match_score}%</div></div>`
       : '';
 
@@ -174,7 +190,7 @@ function renderJobs(jobsArr) {
           ${status ? `<span class="job-tag status-tag" style="background:${statusColor(status)}15;color:${statusColor(status)}">${status}</span>` : ''}
         </div>
       </div>
-      ${matchBadge}
+      ${matchCell}
       <div class="status-cell">${statusSel}</div>
     </div>`;
   }).join('');
@@ -255,7 +271,7 @@ async function loadRankedJobs() {
     const topPicks = jobsArr.filter(j => j.has_match).slice(0, 3);
     if (topPicks.length) {
       banner.style.display = 'block';
-      banner.innerHTML = `<h3>🌟 Top Picks for You</h3><div class="top-pick-cards">${topPicks.map(j => `
+      banner.innerHTML = `<h3>${icon('star')} Top Picks for You</h3><div class="top-pick-cards">${topPicks.map(j => `
         <div class="top-pick-card" onclick="openJobDetail(${j.job_id})">
           <div class="tp-company">${escapeHtml(j.company)}</div>
           <div class="tp-title">${escapeHtml(j.title)}</div>
@@ -635,7 +651,7 @@ function renderCompanyResearch(data) {
   html += '<div class="cr-header">';
   html += `<h3>${escapeHtml(data.company_name || '')}</h3>`;
   if (data.glassdoor_rating) {
-    const stars = '★'.repeat(Math.round(data.glassdoor_rating)) + '☆'.repeat(5 - Math.round(data.glassdoor_rating));
+    const stars = 'Rating: ' + data.glassdoor_rating + '/5';
     html += `<div class="cr-rating"><span class="cr-stars">${stars}</span> <span class="cr-score">${data.glassdoor_rating}/5</span>`;
     if (data.glassdoor_review_count) html += ` <span class="cr-review-count">(${data.glassdoor_review_count} reviews)</span>`;
     html += '</div>';
@@ -647,10 +663,10 @@ function renderCompanyResearch(data) {
   html += '<h4>Overview</h4>';
   html += `<p>${escapeHtml(data.overview || 'No overview available')}</p>`;
   html += '<div class="cr-meta">';
-  if (data.employee_count && data.employee_count !== 'Unknown') html += `<span class="cr-meta-item">👥 ${escapeHtml(data.employee_count)} employees</span>`;
-  if (data.founded_year && data.founded_year !== 'Unknown') html += `<span class="cr-meta-item">📅 Founded ${escapeHtml(data.founded_year)}</span>`;
-  if (data.headquarters && data.headquarters !== 'Unknown') html += `<span class="cr-meta-item">📍 ${escapeHtml(data.headquarters)}</span>`;
-  if (data.apc_training) html += '<span class="cr-meta-item cr-apc">🎓 HKIS/RICS APC Training</span>';
+  if (data.employee_count && data.employee_count !== 'Unknown') html += `<span class="cr-meta-item">${icon('users')} ${escapeHtml(data.employee_count)} employees</span>`;
+  if (data.founded_year && data.founded_year !== 'Unknown') html += `<span class="cr-meta-item">${icon('calendar')} Founded ${escapeHtml(data.founded_year)}</span>`;
+  if (data.headquarters && data.headquarters !== 'Unknown') html += `<span class="cr-meta-item">${icon('map-pin')} ${escapeHtml(data.headquarters)}</span>`;
+  if (data.apc_training) html += '<span class="cr-meta-item cr-apc">' + icon('graduation-cap') + ' HKIS/RICS APC Training</span>';
   html += '</div>';
   html += '</div>';
 
@@ -659,13 +675,13 @@ function renderCompanyResearch(data) {
     html += '<div class="cr-grid">';
     if (data.glassdoor_pros) {
       const pros = Array.isArray(data.glassdoor_pros) ? data.glassdoor_pros : [data.glassdoor_pros];
-      html += '<div class="cr-card cr-pros"><h4>👍 Pros</h4><ul>';
+      html += '<div class="cr-card cr-pros"><h4>' + icon('thumbs-up') + ' Pros</h4><ul>';
       pros.forEach(p => { html += `<li>${escapeHtml(typeof p === 'string' ? p : '')}</li>`; });
       html += '</ul></div>';
     }
     if (data.glassdoor_cons) {
       const cons = Array.isArray(data.glassdoor_cons) ? data.glassdoor_cons : [data.glassdoor_cons];
-      html += '<div class="cr-card cr-cons"><h4>👎 Cons</h4><ul>';
+      html += '<div class="cr-card cr-cons"><h4>' + icon('thumbs-down') + ' Cons</h4><ul>';
       cons.forEach(c => { html += `<li>${escapeHtml(typeof c === 'string' ? c : '')}</li>`; });
       html += '</ul></div>';
     }
@@ -674,7 +690,7 @@ function renderCompanyResearch(data) {
 
   // HK Government Contracts
   if (data.hk_government_contracts && Array.isArray(data.hk_government_contracts) && data.hk_government_contracts.length) {
-    html += '<div class="cr-section"><h4>🏗️ HK Government Contracts</h4>';
+    html += '<div class="cr-section"><h4>' + icon('hard-hat') + ' HK Government Contracts</h4>';
     data.hk_government_contracts.forEach(c => {
       html += `<div class="cr-contract">`;
       html += `<div class="cr-contract-name">${escapeHtml(c.project || '')}</div>`;
@@ -686,7 +702,7 @@ function renderCompanyResearch(data) {
 
   // Recent News
   if (data.recent_news && Array.isArray(data.recent_news) && data.recent_news.length) {
-    html += '<div class="cr-section"><h4>📰 Recent News</h4>';
+    html += '<div class="cr-section"><h4>' + icon('newspaper') + ' Recent News</h4>';
     data.recent_news.forEach(n => {
       html += '<div class="cr-news-item">';
       if (n.date) html += `<span class="cr-news-date">${escapeHtml(n.date)}</span>`;
@@ -699,7 +715,7 @@ function renderCompanyResearch(data) {
 
   // HK projects
   if (data.hk_projects && Array.isArray(data.hk_projects) && data.hk_projects.length) {
-    html += '<div class="cr-section"><h4>🏢 HK Projects</h4>';
+    html += '<div class="cr-section"><h4>' + icon('building') + ' HK Projects</h4>';
     data.hk_projects.forEach(p => {
       html += `<div class="cr-project-card">`;
       html += `<div class="cr-project-name">${escapeHtml(p.name || '')}</div>`;
@@ -712,14 +728,14 @@ function renderCompanyResearch(data) {
 
   // Competitor comparison
   if (data.competitor_comparison && data.competitor_comparison !== 'Unknown') {
-    html += '<div class="cr-section"><h4>🆚 vs Competitors</h4>';
+    html += '<div class="cr-section"><h4>' + icon('shuffle') + ' vs Competitors</h4>';
     html += `<p>${escapeHtml(data.competitor_comparison)}</p>`;
     html += '</div>';
   }
 
   // Staff turnover
   if (data.staff_turnover_notes && data.staff_turnover_notes !== 'Unknown') {
-    html += '<div class="cr-section"><h4>⚠️ Staff Signals</h4>';
+    html += '<div class="cr-section"><h4>' + icon('alert-triangle') + ' Staff Signals</h4>';
     html += `<p>${escapeHtml(data.staff_turnover_notes)}</p>`;
     html += '</div>';
   }
@@ -1152,7 +1168,7 @@ async function matchAllJobs() {
       text.parentNode.appendChild(errDiv);
     }
 
-    showToast(`Matched ${data.matched} jobs! Switch to Jobs tab → Match ★ to see ranked results.`);
+    showToast(`Matched ${data.matched} jobs! Switch to Jobs tab → Match ranking to see sorted results.`);
 
     // Auto-switch to ranked view after 2s
     setTimeout(() => {
@@ -1336,7 +1352,7 @@ async function loadSchemes() {
     const statsData = await statsR.json();
 
     stats.innerHTML = `
-      <div class="scheme-stat urgent">⚠️ Closing Soon: ${statsData.closing_soon || 0}</div>
+      <div class="scheme-stat urgent">${icon('alert-triangle')} Closing Soon: ${statsData.closing_soon || 0}</div>
       <div class="scheme-stat open">Open Now: ${statsData.open_now || 0}</div>
       <div class="scheme-stat upcoming">Upcoming: ${statsData.upcoming || 0}</div>
     `;
@@ -1373,15 +1389,15 @@ async function loadSchemes() {
           </div>
           ${daysLeft != null ? `<span class="scheme-card-days ${daysLabel}">${daysLeft}d left</span>` : ''}
         </div>
-        <div class="scheme-card-period">📅 ${period} · Intake ${escapeHtml(s.intake_year || 'TBC')}</div>
+        <div class="scheme-card-period">${icon('calendar')} ${period} · Intake ${escapeHtml(s.intake_year || 'TBC')}</div>
         <div class="scheme-card-badges">
           <span class="scheme-badge">${disciplineLabel(s.discipline)}</span>
-          ${s.url ? `<a href="${escapeHtml(s.url)}" target="_blank" class="scheme-badge" style="background:var(--color-primary);color:#fff;text-decoration:none" onclick="event.stopPropagation()">🔗 Apply</a>` : ''}
+          ${s.url ? `<a href="${escapeHtml(s.url)}" target="_blank" class="scheme-badge" style="background:var(--color-primary);color:#fff;text-decoration:none" onclick="event.stopPropagation()">${icon('external')} Apply</a>` : ''}
         </div>
         <div class="scheme-card-details">
           ${s.notes ? `<p>${escapeHtml(s.notes)}</p>` : ''}
           <div class="scheme-card-actions">
-            <button class="scheme-applied-toggle ${s._applied ? 'applied' : ''}" onclick="event.stopPropagation(); toggleSchemeApplied(${s.id}, this)">${s._applied ? '✓ Applied' : 'Mark Applied'}</button>
+            <button class="scheme-applied-toggle ${s._applied ? 'applied' : ''}" onclick="event.stopPropagation(); toggleSchemeApplied(${s.id}, this)">${s._applied ? 'Applied' : 'Mark Applied'}</button>
           </div>
         </div>
       </div>`;
@@ -1389,13 +1405,13 @@ async function loadSchemes() {
 
     grid.innerHTML = '';
     if (closingSoon.length) {
-      grid.innerHTML += `<div class="scheme-section"><div class="scheme-section-header urgent">⚠️ Closing Soon</div>${closingSoon.map(s => renderSchemeCard(s, 'urgent')).join('')}</div>`;
+      grid.innerHTML += `<div class="scheme-section"><div class="scheme-section-header urgent">${icon('alert-triangle')} Closing Soon</div>${closingSoon.map(s => renderSchemeCard(s, 'urgent')).join('')}</div>`;
     }
     if (openNow.length) {
-      grid.innerHTML += `<div class="scheme-section"><div class="scheme-section-header open">✅ Open Now</div>${openNow.map(s => renderSchemeCard(s, 'open')).join('')}</div>`;
+      grid.innerHTML += `<div class="scheme-section"><div class="scheme-section-header open">${icon('check-circle')} Open Now</div>${openNow.map(s => renderSchemeCard(s, 'open')).join('')}</div>`;
     }
     if (upcoming.length) {
-      grid.innerHTML += `<div class="scheme-section"><div class="scheme-section-header upcoming">📋 Upcoming</div>${upcoming.map(s => renderSchemeCard(s, '')).join('')}</div>`;
+      grid.innerHTML += `<div class="scheme-section"><div class="scheme-section-header upcoming">${icon('clipboard-list')} Upcoming</div>${upcoming.map(s => renderSchemeCard(s, '')).join('')}</div>`;
     }
 
     if (!closingSoon.length && !openNow.length && !upcoming.length) {
@@ -1416,7 +1432,7 @@ async function toggleSchemeApplied(schemeId, btn) {
       body: JSON.stringify({ applied: !applied })
     });
     btn.classList.toggle('applied');
-    btn.textContent = applied ? 'Mark Applied' : '✓ Applied';
+    btn.textContent = applied ? 'Mark Applied' : 'Applied';
     showToast(applied ? 'Marked as not applied' : 'Marked as applied!');
   } catch (e) {
     showToast('Failed to update');

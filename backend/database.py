@@ -68,6 +68,21 @@ def init_db():
             updated_at TEXT DEFAULT (datetime('now'))
         );
 
+        CREATE TABLE IF NOT EXISTS application_events (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            application_id INTEGER NOT NULL REFERENCES applications(id) ON DELETE CASCADE,
+            event_type TEXT NOT NULL,
+            from_status TEXT,
+            to_status TEXT,
+            note TEXT,
+            created_at TEXT DEFAULT (datetime('now'))
+        );
+
+        CREATE INDEX IF NOT EXISTS idx_application_events_application
+            ON application_events(application_id);
+        CREATE INDEX IF NOT EXISTS idx_application_events_created_at
+            ON application_events(created_at);
+
         CREATE TABLE IF NOT EXISTS cv_data (
             id INTEGER PRIMARY KEY AUTOINCREMENT,
             full_text TEXT NOT NULL,
@@ -158,6 +173,12 @@ def init_db():
         CREATE TABLE IF NOT EXISTS scrape_counter (
             id INTEGER PRIMARY KEY CHECK(id=1),
             counter INTEGER DEFAULT 0
+        );
+
+        CREATE TABLE IF NOT EXISTS scrape_runs (
+            id INTEGER PRIMARY KEY AUTOINCREMENT,
+            scrape_counter INTEGER NOT NULL,
+            ran_at TEXT NOT NULL
         );
 
         CREATE INDEX IF NOT EXISTS idx_jobs_discipline ON jobs(discipline);

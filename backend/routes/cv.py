@@ -12,6 +12,7 @@ from backend.services.llm import (
     analyze_skill_gaps,
 )
 from backend.services.file_parser import extract_text
+from backend.models import CVUpload, CoverLetterBatchRequest
 
 router = APIRouter(prefix="/api/cv", tags=["cv"])
 

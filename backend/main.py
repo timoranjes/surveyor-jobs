@@ -11,7 +11,7 @@ from fastapi.middleware.cors import CORSMiddleware
 sys.path.insert(0, os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from backend.database import init_db
-from backend.routes import jobs, applications, cv, companies, analytics, pipeline, graduate_schemes
+from backend.routes import jobs, applications, cv, companies, analytics, pipeline, graduate_schemes, health
 
 
 @asynccontextmanager
@@ -42,6 +42,7 @@ app.include_router(companies.router)
 app.include_router(analytics.router)
 app.include_router(pipeline.router)
 app.include_router(graduate_schemes.router)
+app.include_router(health.router)
 
 # Serve frontend
 frontend_dir = os.path.join(os.path.dirname(os.path.dirname(__file__)), "frontend")

@@ -51,6 +51,7 @@ class JobFilter(BaseModel):
 
 class ApplicationUpdate(BaseModel):
     status: Optional[str] = None
+    pipeline_stage: Optional[str] = None
     notes: Optional[str] = None
     cover_letter: Optional[str] = None
     applied_date: Optional[str] = None
@@ -72,6 +73,9 @@ class ApplicationResponse(BaseModel):
 
 class CVUpload(BaseModel):
     full_text: str
+
+class CoverLetterBatchRequest(BaseModel):
+    job_ids: List[int] = Field(default_factory=list)
 
 class CVAnalysisRequest(BaseModel):
     cv_id: Optional[int] = None
@@ -114,3 +118,15 @@ class AnalyticsResponse(BaseModel):
     avg_match_score: float
     salary_benchmarks: dict
     recent_activity: List[dict]
+
+
+# ── Timeline Events ──
+
+class TimelineEvent(BaseModel):
+    id: int
+    application_id: int
+    event_type: str
+    from_status: Optional[str] = None
+    to_status: Optional[str] = None
+    note: Optional[str] = None
+    created_at: str
