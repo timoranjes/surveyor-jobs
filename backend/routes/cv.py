@@ -4,7 +4,7 @@ import asyncio
 import json
 from fastapi import APIRouter, HTTPException, UploadFile, File
 from backend.database import get_db
-from backend.models import CVUpload
+from backend.models import CVUpload, CoverLetterBatchRequest
 from backend.services.llm import (
     analyze_cv,
     match_cv_to_job,
@@ -12,7 +12,6 @@ from backend.services.llm import (
     analyze_skill_gaps,
 )
 from backend.services.file_parser import extract_text
-from backend.models import CVUpload, CoverLetterBatchRequest
 
 router = APIRouter(prefix="/api/cv", tags=["cv"])
 
@@ -462,3 +461,70 @@ async def skill_gaps():
         conn.close()
 
     return result
+
+
+@router.post("/generate-cover-letters")
+async def generate_cover_letters_batch(req: CoverLetterBatchRequest):
+    """Generate cover letters for a batch of job IDs. Semaphore-limited to 3 concurrent."""
+    conn = get_db()
+    cv_row = conn.execute("SELECT * FROM cv_data ORDER BY id DESC LIMIT 1").fetchone()
+    if not cv_row:
+        conn.close()
+        raise HTTPException(status_code=404, detail="No CV uploaded yet")
+
+    if not cv_row["parsed_sections"]:
+        conn.close()
+        raise HTTPException(
+            status_code=400,
+            detail="CV not analyzed yet — run POST /api/cv/analyze first",
+        )
+
+    cv_analysis = json.loads(cv_row["parsed_sections"])
+    job_ids = req.job_ids
+
+    if not job_ids:
+        conn.close()
+        raise HTTPException(status_code=400, detail="No job IDs provided")
+
+    # Fetch job details
+    placeholders = ",".join("?" * len(job_ids))
+    jobs = conn.execute(
+        f"SELECT id, title, company, description FROM jobs WHERE id IN ({placeholders})",
+        job_ids,
+    ).fetchall()
+    conn.close()
+
+    job_map = {j["id"]: j for j in jobs}
+
+    semaphore = asyncio.Semaphore(3)
+
+    async def generate_one(job_id):
+        async with semaphore:
+            job = job_map.get(job_id)
+            if not job:
+                return {"job_id": job_id, "error": "Job not found"}
+            try:
+                cover_letter = await generate_cover_letter(
+                    cv_text=cv_row["full_text"],
+                    job_title=job["title"],
+                    job_company=job["company"],
+                    job_description=job["description"] or "",
+                    cv_analysis=cv_analysis,
+                    debug=False,
+                )
+                return {
+                    "job_id": job_id,
+                    "job_title": job["title"],
+                    "company": job["company"],
+                    "cover_letter": cover_letter,
+                }
+            except Exception as e:
+                return {
+                    "job_id": job_id,
+                    "job_title": job["title"],
+                    "company": job["company"],
+                    "error": str(e),
+                }
+
+    results = await asyncio.gather(*[generate_one(jid) for jid in job_ids])
+    return {"results": results}

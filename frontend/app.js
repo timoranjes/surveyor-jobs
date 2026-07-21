@@ -161,7 +161,7 @@ function renderJobs(jobsArr) {
   }
   list.innerHTML = jobsArr.map(j => {
     const matchBadge = j.has_match && j.match_score != null
-      ? `<span class="job-tag matched-badge">${icon('check-circle')} Matched</span>`
+      ? `<span class="job-tag tag-matched">${icon('check-circle')} Matched</span>`
       : '';
     const matchCell = j.match_score != null
       ? `<div class="match-cell"><div class="match-badge ${j.match_score >= 70 ? 'match-high' : j.match_score >= 40 ? 'match-medium' : 'match-low'}">${j.match_score}%</div></div>`
@@ -301,6 +301,9 @@ function renderMatchRankedJobs(jobsArr) {
       const tier = score >= 70 ? 'match-high' : score >= 40 ? 'match-medium' : 'match-low';
       matchCellHtml = `<div class="match-cell"><div class="match-badge ${tier}">${score}%</div></div>`;
     }
+    const matchBadge = j.has_match && j.match_score != null
+      ? `<span class="job-tag tag-matched">${icon('check-circle')} Matched</span>`
+      : '';
 
     const status = j.application_status || '';
     const statusSel = `<select class="status-select" data-job-id="${j.job_id}" data-current="${status}">
@@ -322,7 +325,8 @@ function renderMatchRankedJobs(jobsArr) {
           ${j.location ? `<span class="job-tag tag-location">${escapeHtml(j.location)}</span>` : ''}
           ${j.salary_range ? `<span class="job-tag tag-salary">${escapeHtml(j.salary_range)}</span>` : ''}
           ${j.fresh_grad_friendly ? '<span class="job-tag tag-fresh">Graduate</span>' : ''}
-          ${status ? `<span class="job-tag status-tag" style="background:${statusColor(status)}15;color:${statusColor(status)}">${status}</span>` : ''}
+          ${matchBadge}
+          ${status ? `<span class="job-tag status-tag" style="background:${statusColor(status)}15;color:${statusColor(status)}">${escapeHtml(status)}</span>` : ''}
         </div>
       </div>
       ${matchCellHtml}
@@ -852,11 +856,14 @@ async function loadApplications(status = '') {
 }
 
 /* ── CV Tab ── */
+let lastMatchResults = [];
+
 function initCVTab() {
   document.getElementById('saveCvBtn').addEventListener('click', saveCV);
   document.getElementById('analyzeBtn').addEventListener('click', analyzeCV);
   document.getElementById('skillGapBtn').addEventListener('click', skillGapAnalysis);
   document.getElementById('matchAllBtn').addEventListener('click', matchAllJobs);
+  document.getElementById('generateLettersBtn').addEventListener('click', generateTopCoverLetters);
   initFileUpload();
 }
 
@@ -1140,6 +1147,13 @@ async function matchAllJobs() {
     }
 
     const data = await r.json();
+    lastMatchResults = data.results || [];
+    const lettersBtn = document.getElementById('generateLettersBtn');
+    const lettersPanel = document.getElementById('coverLetterResults');
+    if (lastMatchResults.length) {
+      lettersBtn.disabled = false;
+      lettersPanel.style.display = 'block';
+    }
     fill.style.width = '100%';
     text.textContent = data.message;
 
@@ -1186,6 +1200,54 @@ async function matchAllJobs() {
     btn.textContent = 'Match All Jobs';
     // Hide progress after 5s
     setTimeout(() => { progressDiv.style.display = 'none'; }, 5000);
+  }
+}
+
+/* ── Generate Cover Letters for Top 5 ── */
+async function generateTopCoverLetters() {
+  const btn = document.getElementById('generateLettersBtn');
+  const list = document.getElementById('coverLetterList');
+  if (!lastMatchResults.length) { showToast('No match results to generate from', true); return; }
+  btn.disabled = true;
+  btn.textContent = 'Generating...';
+  list.innerHTML = '<div class="loading"><div class="spinner"></div>Generating cover letters...</div>';
+
+  const top5 = lastMatchResults
+    .sort((a, b) => (b.match_score || 0) - (a.match_score || 0))
+    .slice(0, 5)
+    .map(j => j.job_id);
+
+  try {
+    const r = await fetch(`${API}/cv/generate-cover-letters`, {
+      method: 'POST',
+      headers: {'Content-Type': 'application/json'},
+      body: JSON.stringify({job_ids: top5})
+    });
+    if (!r.ok) { const err = await r.json(); throw new Error(err.detail || 'Generation failed'); }
+    const data = await r.json();
+    const results = data.results || [];
+    list.innerHTML = results.map(res => {
+      if (res.error) return `<div class="cover-letter-error">${escapeHtml(res.job_title || 'Job')} at ${escapeHtml(res.company)}: ${escapeHtml(res.error)}</div>`;
+      return `<div class="cover-letter-result" onclick="this.classList.toggle('expanded')">
+        <div class="cl-header">
+          <div>
+            <div class="cl-title">${escapeHtml(res.job_title)}</div>
+            <div class="cl-company">${escapeHtml(res.company)}</div>
+          </div>
+          <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" width="16" height="16"><polyline points="6 9 12 15 18 9"/></svg>
+        </div>
+        <div class="cl-body">${escapeHtml(res.cover_letter)}</div>
+      </div>`;
+    }).join('');
+    const errors = results.filter(r => r.error);
+    if (errors.length) showToast(`Generated ${results.length - errors.length}/${results.length} letters`, errors.length ? true : false);
+    else showToast(`Generated ${results.length} cover letters`);
+  } catch (e) {
+    list.innerHTML = `<div class="empty-state"><h3>Failed</h3><p>${e.message}</p></div>`;
+    showToast(e.message, true);
+  } finally {
+    btn.disabled = false;
+    btn.textContent = 'Generate Cover Letters for Top 5';
   }
 }
 
@@ -1253,6 +1315,39 @@ async function loadAnalytics() {
         ${d.recent_activity.map(a => `<div class="activity-item"><div class="activity-detail"><span style="color:${statusColor(a.status)};font-weight:500">${a.status}</span> — ${escapeHtml(a.title)} @ ${escapeHtml(a.company)}</div><div class="activity-time">${a.updated_at?.slice(0,10)}</div></div>`).join('')}
       </div>` : ''}
     `;
+
+  // Also load funnel
+  try {
+    const fR = await fetch(`${API}/analytics/funnel`);
+    const f = await fR.json();
+    if (f.counts && f.counts.some(c => c > 0)) {
+      const maxCount = Math.max(...f.counts, 1);
+      let funnelHtml = `<div class="stat-card" style="grid-column:span 2">
+        <h3>Application Funnel</h3>
+        <div class="funnel-panel">`;
+      const positive = ['saved','applied','phone_screen','interview','assessment','offer','accepted'];
+      const TERMINAL = ['rejected','withdrawn'];
+      f.stages.forEach((s, i) => {
+        const cnt = f.counts[i];
+        if (cnt === 0 && !positive.includes(s)) return;
+        const pct = Math.max(cnt / maxCount * 100, cnt > 0 ? 5 : 0);
+        const conv = f.conversion_rates[`${positive[positive.indexOf(s)-1] || 'saved'}_to_${s}`];
+        const isPositive = positive.includes(s);
+        const isTerminal = TERMINAL.includes(s);
+        const barColor = isTerminal ? 'var(--color-destructive)' : isPositive ? 'var(--color-primary)' : 'var(--color-text2)';
+        funnelHtml += `<div class="funnel-row">
+          <div class="funnel-label">${s.replace(/_/g,' ')}</div>
+          <div class="funnel-bar-track"><div class="funnel-bar-fill" style="width:${pct}%;background:${barColor}"></div></div>
+          <div class="funnel-value">${cnt}</div>
+          ${conv != null ? `<div class="funnel-conv">${conv}%</div>` : '<div class="funnel-conv">—</div>'}
+        </div>`;
+      });
+      funnelHtml += '</div></div>';
+      el.insertAdjacentHTML('beforeend', funnelHtml);
+    }
+  } catch (e) {
+    // funnel not critical
+  }
   } catch (e) {
     el.innerHTML = `<div class="empty-state"><h3>Error</h3><p>${e.message}</p></div>`;
   }
