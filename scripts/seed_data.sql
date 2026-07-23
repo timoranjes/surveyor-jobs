@@ -1,9 +1,9 @@
 -- Auto-generated snapshot of jobs.db
--- Generated: 2026-07-22
+-- Generated: 2026-07-23
 
 BEGIN TRANSACTION;
 
--- jobs: 260 rows
+-- jobs: 266 rows
 DELETE FROM jobs;
 INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (1, 'arcadis_2026 Graduate Quanti', '2026 Graduate Quantity Surveyor (Hong Kong & Macau)', 'Arcadis', 'quantity_surveying', 'Kowloon', 'HK$18,000-25,000', 'Join Arcadis as a Graduate Quantity Surveyor in our Hong Kong office. You will work on major infrastructure projects across Hong Kong and Macau, preparing cost estimates, managing tender processes, and finalizing project accounts. This is a structured 2-year graduate programme with mentorship from senior QS professionals and a clear pathway to HKIS/RICS chartership.', 'Degree in Quantity Surveying or related discipline. Strong analytical and numerical skills. Good command of English and Chinese. Fresh graduates welcome.', 'https://hk.linkedin.com/jobs/view/arcadis-2026-graduate-quantity-surveyor-hong-kong-macau-at-arcadis-4268302914', 'manual_seed', '2026-07-01', NULL, 1, 'entry', '2026-07-01 11:40:55', '2026-07-01 11:40:55', 1, '<p>Join Arcadis as a Graduate Quantity Surveyor in our Hong Kong office. You will work on major infrastructure projects across Hong Kong and Macau, preparing cost estimates, managing tender processes, and finalizing project accounts. This is a structured 2-year graduate programme with mentorship from senior QS professionals and a clear pathway to HKIS/RICS chartership.</p>', 0);
 INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (2, 'aecom_2026 HK Graduate Pro', '2026 HK Graduate Program — Building Surveying', 'AECOM', 'building_surveying', 'Shatin', 'HK$17,000-22,000', 'AECOM 2026 Hong Kong Graduate Program offers opportunities in Building Surveying. You will be involved in building inspection, maintenance planning, project management, and statutory submissions. The program includes rotational assignments across different project types.', 'BSc in Building Surveying or equivalent. Knowledge of building regulations. Proficiency in AutoCAD. No prior experience required.', 'https://aecom.jobs/hong-kong-hkg/aecom-2026-hong-kong-graduate-program/602489C3650746F899C7D88860527360/job/', 'manual_seed', '2026-07-01', NULL, 1, 'entry', '2026-07-01 11:40:55', '2026-07-01 11:40:55', 1, '<p>AECOM 2026 Hong Kong Graduate Program offers opportunities in Building Surveying. You will be involved in building inspection, maintenance planning, project management, and statutory submissions. The program includes rotational assignments across different project types.</p>', 0);
@@ -7551,6 +7551,84 @@ All information received will be kept in strict confidence and only for employme
 
 
 所有收集回來的資料只作招聘用途, 絕對保密', '', 'https://jobs.ctgoodjobs.hk/job/10188324/resident-quantity-surveyor-rqs-%E9%A7%90%E5%9C%B0%E7%9B%A4%E6%B8%AC%E9%87%8F%E5%B8%AB-fanling%E7%B2%89%E5%B6%BA?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_CTgoodjobs.hk', '6 days ago', '', 0, 'experienced', '2026-07-22 00:11:42', '2026-07-22 00:11:42', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (379, '4a90a7f5cbec2a0c', 'Quantity Surveyor (contractor )', 'Headshot Recrutiment Limited', 'quantity_surveying', 'Hong Kong', '', 'from QS to SQSKey ResponsibilitiesCost Estimation: Prepare initial cost plans, budgets, and material estimates.Tendering: Draft tender documents and evaluate contractor bids.Contract Administration: Manage main contracts and subcontracts, value completed work, and process payments.Cost Control: Monitor project spending to ensure delivery stays within budget. Education: Bachelor’s degree in Quantity Surveying, Surveying, or Construction Management.Professional Status: Corporate membership or progress toward chartership with the Hong Kong Institute of Surveyors (HKIS) or RICS.Skills: Strong numerical, analytical, and contractual negotiation skills.', '', 'https://m.offertoday.com/en/job/oWiOW21vNK-DyC48KudLcw==?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_OfferToday', '1 day ago', '', 1, 'entry', '2026-07-23 00:10:44', '2026-07-23 00:10:44', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (380, 'd551e5a7a71e37d4', 'Senior Measurement & QS Co-ordinator', 'Leadingnation', 'quantity_surveying', 'Hong Kong', '', 'Leadingnation in Hong Kong is seeking an experienced Quantity Surveyor to manage and coordinate measurement and quantity surveying tasks for term maintenance contracts. The role involves preparing cost estimates, ensuring compliance with contractual requirements, and liaising with engineers and contractors. 
+
+ The ideal candidate will have 8 years of relevant post-qualification experience, along with corporate membership in either MHKIE or HKIS. We offer competitive remuneration and benefits for the right candidate. 
+
+#J-18808-Ljbffr', '', 'https://hk.jooble.org/jdp/-6679245488041771753?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Jooble HK', '10 days ago', '', 0, 'experienced', '2026-07-23 00:10:44', '2026-07-23 00:10:44', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (381, '27fcaadbe4388cc1', 'Survey Officer (Land)', 'Lands Department', 'land_surveying', 'Hong Kong', '', 'Department: Lands Department
+
+Salary: Master Pay Scale Point 9 (HK$25,620 per month) to Master Pay Scale Point 22 (HK$50,215 per month)
+
+Qualification Requirements: 
+Diploma or Higher Certificate
+
+Entry Requirements: 
+Candidates should have –
+(a)	a Higher Diploma in Geomatics/Land Surveying and Geoinformatics, or a Diploma/Higher Certificate in Land Surveying and Cartography, from a Hong Kong polytechnic university/polytechnic, the Hong Kong Institute of Vocational Education, or a technical college/technical institute, or equivalent [Note (1)];
+(b)	met the language proficiency requirements of “Level 2” or above in Chinese Language and English Language in the Hong Kong Diploma of Secondary Education Examination or the Hong Kong Certificate of Education Examination (HKCEE), or equivalent [Note (2)]; and
+(c)	a pass result in the Basic Law and National Security Law Test (BLNST) [Note (3)].
+
+
+Note: 
+(1)	Candidates without the requisite academic qualification stated in entry requirement (a) above, but who are undergoing studies with a view to obtaining the requisite qualification by 31 December 2026 may also apply; if selected, appointment will be subject to their obtaining the requisite academic qualification by the date specified above.
+(2)	For civil service appointment purpose, “Grade C” and “Grade E” in Chinese Language and English Language (Syllabus B) in the HKCEE before 2007 are accepted administratively as comparable to “Level 3” and “Level 2” respectively in Chinese Language and English Language in the 2007 HKCEE and henceforth.
+(3)	All applicants for civil service jobs will be assessed on their knowledge of the Basic Law and the National Security Law.  A pass result in the BLNST is an entry requirement for all civil service jobs.  Only those candidates who have passed the BLNST will be considered for appointment.  For candidates who have not taken the relevant BLNST or have not attained a pass result in the relevant BLNST at the time of application, they may sti', '', 'https://jobs.ctgoodjobs.hk/job/10188969/survey-officer-land?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_CTgoodjobs', '7 days ago', '', 1, 'entry', '2026-07-23 00:11:04', '2026-07-23 00:11:04', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (382, '7928063c22f42452', 'ASSISTANT BUILDING SURVEYOR', 'Henderson Land Development Company Limited  恒基兆業地產有限公司', 'building_surveying', 'Hong Kong', '', 'Responsibilities:
+
+
+
+
+	Conduct building condition survey and diagnose building defects
+	Manage projects on building maintenance and renovation works
+	Handle government mandatory orders and notices related to investment properties
+	Co-ordinate with consultants, contractors, property management companies and tenants
+
+
+Requirements:
+
+
+
+
+	Degree in Building Surveying, Building Studies, Building Services, Property Management or related disciplines
+	Minimum 2 years’ relevant working experience in building maintenance and renovation work
+	Experience in handling mandatory orders and minor works related to buildings is an advantage
+	Proficiency in PC applications
+	Good command of written and spoken English and Chinese
+
+Attractive salary and fringe benefits will be offered to the successful candidates. Please apply with full resume by mail to Human Resources Department, Henderson Land Development Co. Ltd., 71/F, Two International Finance Centre, 8 Finance Street, Central, Hong Kong or by fax at 2905 1855 or by e-mail to recruitment@hld.com or visit our homepage at http://www.hld.com
+
+
+
+(Please quote the ref. no. on letter)
+
+
+
+Personal data provided by job applicants will be used for recruitment purpose only.', '', 'https://jobs.ctgoodjobs.hk/job/10193825/assistant-building-surveyor?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_CTgoodjobs', '3 days ago', '', 1, 'entry', '2026-07-23 00:11:04', '2026-07-23 00:11:04', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (383, 'ebb74bb914d621ed', 'Assistant Land Surveyor', 'ESRI CHINA (HONG KONG) LIMITED', 'land_surveying', 'Kowloon', '', 'Job Description: 
+
+ Assist in drafting engagement plans or documents to promote wider adoption of spatial data using state-of-art technology, e.g. artificial intelligence (AI);  Assist in collaborating with tech ventures and stakeholders in the I&T field to develop and deliver geospatial AI sandbox prototypes;  Assist in testing and validating the geospatial AI sandbox prototypes in real-life operating systems;  Assist in exploring the possibilities of involving the private sector in delivering new demonstrative projects and to seek collaboration opportunities with business and/or the academics;  Taking part in various capacity building and engagement activities;  Comprehensive and hands-on training will be provided; and  Successful candidate is required to work at the client site and will be offered a contract-based position subject to renewal. 
+ 
+  Requirements: 
+
+ Degree in Land Surveying, Geomatics, Geo-Informatics or a related discipline;  A qualification recognised by the Hong Kong Institute of Surveyors (HKIS) as satisfying the academic requirements for corporate membership in the Land Surveying Division;  Successfully completed a 2-year graduate training scheme recognised by the HKIS or equivalent;  Level 2 or above in Chinese Language and English Language in the Hong Kong Diploma of Secondary Education Examination (HKDSEE), or Grade E or above in the Hong Kong Certificate of Education Examination (HKCEE), or equivalent; and  Good command of both spoken and written Chinese and English. 
+ We offer five-day work week, attractive career opportunities, remuneration and benefits to the right candidates. Interested applicants, please submit detailed resume with current & expected salary and date of availability to our Human Resources Department via e-mail to [email redacted, apply via Company website]. 
+
+
+
+(For more information about our Company, please visit our website  )
+
+(Application received will be treated in strict confidence and will be used exclusively fo', '', 'https://hk.jooble.org/jdp/6795795940686250461?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Jooble HK', '2026-07-23', '', 1, 'entry', '2026-07-23 00:11:04', '2026-07-23 00:11:04', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (384, '817f8b522beed459', '助理估價員', '天俊測量師行', 'other', '香港', '', '持有高級文憑/文憑，主修測量系或有關課程
+  主動、勤力及有責任感
+  良好中英文程度
+  熟悉電腦應用程式
+ 
+
+
+
+ 有意請電 9033 6555 鄧先生約見，或連同履歷及要求待遇電郵至hr@citilandsurveyors.com (一切資料 絕對保密)', '', 'https://hk.indeed.com/viewjob?jk=cc2e9216b7852b13&utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Indeed HK', '2026-07-23', '', 1, 'entry', '2026-07-23 00:11:24', '2026-07-23 00:11:24', 1, NULL, 0);
 
 -- cv_data: 1 rows
 DELETE FROM cv_data;
