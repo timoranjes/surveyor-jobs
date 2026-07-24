@@ -3,7 +3,7 @@
 
 BEGIN TRANSACTION;
 
--- jobs: 276 rows
+-- jobs: 280 rows
 DELETE FROM jobs;
 INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (1, 'arcadis_2026 Graduate Quanti', '2026 Graduate Quantity Surveyor (Hong Kong & Macau)', 'Arcadis', 'quantity_surveying', 'Kowloon', 'HK$18,000-25,000', 'Join Arcadis as a Graduate Quantity Surveyor in our Hong Kong office. You will work on major infrastructure projects across Hong Kong and Macau, preparing cost estimates, managing tender processes, and finalizing project accounts. This is a structured 2-year graduate programme with mentorship from senior QS professionals and a clear pathway to HKIS/RICS chartership.', 'Degree in Quantity Surveying or related discipline. Strong analytical and numerical skills. Good command of English and Chinese. Fresh graduates welcome.', 'https://hk.linkedin.com/jobs/view/arcadis-2026-graduate-quantity-surveyor-hong-kong-macau-at-arcadis-4268302914', 'manual_seed', '2026-07-01', NULL, 1, 'entry', '2026-07-01 11:40:55', '2026-07-01 11:40:55', 1, '<p>Join Arcadis as a Graduate Quantity Surveyor in our Hong Kong office. You will work on major infrastructure projects across Hong Kong and Macau, preparing cost estimates, managing tender processes, and finalizing project accounts. This is a structured 2-year graduate programme with mentorship from senior QS professionals and a clear pathway to HKIS/RICS chartership.</p>', 0);
 INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (2, 'aecom_2026 HK Graduate Pro', '2026 HK Graduate Program — Building Surveying', 'AECOM', 'building_surveying', 'Shatin', 'HK$17,000-22,000', 'AECOM 2026 Hong Kong Graduate Program offers opportunities in Building Surveying. You will be involved in building inspection, maintenance planning, project management, and statutory submissions. The program includes rotational assignments across different project types.', 'BSc in Building Surveying or equivalent. Knowledge of building regulations. Proficiency in AutoCAD. No prior experience required.', 'https://aecom.jobs/hong-kong-hkg/aecom-2026-hong-kong-graduate-program/602489C3650746F899C7D88860527360/job/', 'manual_seed', '2026-07-01', NULL, 1, 'entry', '2026-07-01 11:40:55', '2026-07-01 11:40:55', 1, '<p>AECOM 2026 Hong Kong Graduate Program offers opportunities in Building Surveying. You will be involved in building inspection, maintenance planning, project management, and statutory submissions. The program includes rotational assignments across different project types.</p>', 0);
@@ -7917,6 +7917,54 @@ INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, locati
 INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (392, '879308619514fe08', 'Junior Land Surveyor II-Infrastructure Maintenance Team (Land Survey) (Ref: 260000LQ)', 'MTR Corporation Limited 香港鐵路有限公司', 'land_surveying', 'Hong Kong', NULL, '', '', 'https://hk.linkedin.com/jobs/view/junior-land-surveyor-ii-infrastructure-maintenance-team-land-survey-ref-260000lq-at-mtr-corporation-limited-%E9%A6%99%E6%B8%AF%E9%90%B5%E8%B7%AF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-4441572542?position=2&pageNum=0&refId=pCrW%2BtV1M3Wc5jZnrsaENw%3D%3D&trackingId=9%2FDfEoJRu9AwCiYpw8JhKQ%3D%3D', 'linkedin', '2026-07-24', '', 1, 'entry', '2026-07-24 00:11:33', '2026-07-24 00:11:33', 1, NULL, 0);
 INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (393, '6cace4afe36f2753', 'Land Surveyor-Infrastructure Maintenance Team (Land Survey) (Ref: 260000LJ)', 'MTR Corporation Limited 香港鐵路有限公司', 'land_surveying', 'Hong Kong', NULL, '', '', 'https://hk.linkedin.com/jobs/view/land-surveyor-infrastructure-maintenance-team-land-survey-ref-260000lj-at-mtr-corporation-limited-%E9%A6%99%E6%B8%AF%E9%90%B5%E8%B7%AF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-4441572545?position=1&pageNum=0&refId=D7azhvSEDdtu1Q0hCvhs8Q%3D%3D&trackingId=bBZrU9PurAxBVIOQg2v8eg%3D%3D', 'linkedin', '2026-07-24', '', 1, 'entry', '2026-07-24 00:11:36', '2026-07-24 00:11:36', 1, NULL, 0);
 INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (394, 'd0a92b7999930ec9', 'Project Quantity Surveyor (Airport Area) | MHKIS required', 'Arcadis', 'quantity_surveying', 'Hong Kong', NULL, '', '', 'https://hk.linkedin.com/jobs/view/project-quantity-surveyor-airport-area-mhkis-required-at-arcadis-4441523553?position=16&pageNum=0&refId=D7azhvSEDdtu1Q0hCvhs8Q%3D%3D&trackingId=0zo65EXMfGZHzc4x6WMFAQ%3D%3D', 'linkedin', '2026-07-24', '', 0, 'experienced', '2026-07-24 00:11:36', '2026-07-24 00:11:36', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (395, 'ae6b7b64ae4d5d70', 'Project Quantity Surveyor (Airport Area) | MHKIS required', 'Arcadis', 'quantity_surveying', 'Hong Kong', '', 'As an Arcadian, you already help us deliver world leading sustainable design, engineering, and consultancy solutions for natural and built assets. You are part of our global business comprising 34,000 people, in over 30 countries, dedicated to improving quality of life.
+
+Everyone has an important role to play. With the power of many curious minds, together we can continue to solve the world’s most complex challenges and deliver more impact together.
+
+Role description: Arcadis Hong Kong is looking for Quantity Surveying Professionals to join our team. 
+
+Role accountabilities:
+
+Preparation of pre-contract cost estimates and project cash-flow 
+
+Preparation of tender documentation 
+
+Tendering process and tender evaluation 
+
+Post-contract administration and management – contract documentation, valuation of progress payment, variation assessment, and cost control report 
+
+Finalization of project final accounts 
+
+Qualifications & Experience:
+
+Degree in Quantity Surveying 
+
+MHKIS Required 
+
+3 to 8 years of related experience in Quantity Surveying 
+
+With technical knowledge – Measurement, cost estimating, construction technology, contracts and law 
+
+Candidates with pre-contract experience and consultancy background will have advantage 
+
+Understand and familiar with professional practice and contract administration processes 
+
+Able to work as a team player 
+
+Ability to communicate clearly in both spoken and written English 
+
+Ability to communicate clearly in spoken Cantonese and written Chinese 
+
+Continue your career journey as an Arcadian.
+
+We can only achieve our goals when everyone is empowered to be their best. We believe everyone''s contribution matters. It’s why we are pioneering a skills based approach, where you can harness your unique experience and expertise to carve your career path and maximize the impact we can make together.
+
+You do meaningful work, and no matter where your next role in Arcadis takes you, you’ll be helping to deliver sustainable solutions for a m', '', 'https://www.recruit.net/job/project-quantity-surveyor-airport-area-jobs/34E1C7DB3C30276A?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Recruit.net', '4 hours ago', '', 0, 'experienced', '2026-07-24 04:18:27', '2026-07-24 04:18:27', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (396, '3fe7498fa9690e2d', '見習建築測量師', '潘氏建築工程設計有限公司', 'other', '香港', '', '潘氏建築工程設計有限公司誠聘見習建築測量師。
+ 成功應聘者將協助處理滲水勘察工作及視察分間單位; 協助編製及提交相關報告; 就維護及改善工程，對客戶的需求及要求進行溝通並給予建議 (歡迎應屆畢業生)。
+潘氏建築工程設計有限公司正在尋找具備以下條件的專業人才：專上教育：學士學位; 良好粵語; 良好英語; 懂讀寫中文; 懂讀寫英文; 懂Microsoft Office; 良好的溝通及談判技巧; 公司會為參加香港測量師學會專業評核試的員工提供培訓及指導。', '', 'https://job.yolo813.com/zh-hant/job/121540?utm_campaign=google_jobs_apply&utm_source=google_jobs_apply&utm_medium=organic', 'google_jobs_Job.yolo813.Com', '29 days ago', '', 1, 'entry', '2026-07-24 04:19:02', '2026-07-24 04:19:02', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (397, 'a9410d2cddf2a8da', 'Senior Quantity Surveyor/ Project Quantity Surveyor', 'China State Construction Engineering (Hong Kong) Limited', 'quantity_surveying', 'Hong Kong', NULL, '', '', 'https://hk.linkedin.com/jobs/view/senior-quantity-surveyor-project-quantity-surveyor-at-china-state-construction-engineering-hong-kong-limited-4443159955?position=24&pageNum=0&refId=vH1WbKAWUIYb33TZo9F3Ow%3D%3D&trackingId=9W50wXndDbMVL2hcq7wrGw%3D%3D', 'linkedin', '2026-07-24', '', 0, 'experienced', '2026-07-24 04:19:20', '2026-07-24 04:19:20', 1, NULL, 0);
+INSERT OR REPLACE INTO jobs (id, external_id, title, company, discipline, location, salary_range, description, requirements, url, source, posted_date, closing_date, fresh_grad_friendly, experience_level, created_at, updated_at, is_active, description_html, last_seen_scrape) VALUES (398, '8342a905307b583d', 'Assistant Land Surveyor-Infrastructure Maintenance Team (Land Survey) (Ref: 260000LK)', 'MTR Corporation Limited 香港鐵路有限公司', 'land_surveying', 'Hong Kong', NULL, '', '', 'https://hk.linkedin.com/jobs/view/assistant-land-surveyor-infrastructure-maintenance-team-land-survey-ref-260000lk-at-mtr-corporation-limited-%E9%A6%99%E6%B8%AF%E9%90%B5%E8%B7%AF%E6%9C%89%E9%99%90%E5%85%AC%E5%8F%B8-4441571553?position=1&pageNum=0&refId=LfRP2MMcIoZA3RYW%2BBg0Qw%3D%3D&trackingId=sNPesfCxW%2BzljUHqYcDQEA%3D%3D', 'linkedin', '2026-07-24', '', 1, 'entry', '2026-07-24 04:19:24', '2026-07-24 04:19:24', 1, NULL, 0);
 
 -- cv_data: 1 rows
 DELETE FROM cv_data;
